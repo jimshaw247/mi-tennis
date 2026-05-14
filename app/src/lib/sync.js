@@ -1,8 +1,9 @@
 // Sync layer between local state and Supabase `tennis_state` table.
 //
-// Read path (any client, including /view): one row, id=1, JSONB column `data`.
-// Write path (admin only): POST to /api/state with x-admin-pass header. Server
-// validates and upserts via service-role key.
+// Read path: anon SELECT on a single row (id=1, JSONB column `data`).
+// Write path: anon UPSERT on the same row. RLS allows both for any client.
+// Security: the in-app password gate is purely UI — anyone with the Supabase
+// URL+anon key could write directly. Acceptable for a one-day tennis app.
 // Realtime: subscribe to the row; on UPDATE, callback with the new state.
 
 import { supabase, supabaseConfigured } from './supabase.js'
@@ -26,8 +27,7 @@ export async function pullState() {
   return { state: data.data, updatedAt: data.updated_at }
 }
 
-// onChange is called whenever the row updates (debounced by Supabase realtime).
-// Returns an unsubscribe function.
+// onChange is called whenever the row updates. Returns an unsubscribe function.
 export function subscribeState(onChange) {
   if (!supabase) return () => {}
   const channel = supabase
@@ -44,20 +44,12 @@ export function subscribeState(onChange) {
   return () => { supabase.removeChannel(channel) }
 }
 
-// Admin write — sends full state to server. Throws on failure (caller decides
-// whether to retry). Debounce in caller, not here.
-export async function pushState(state, adminPass) {
-  const res = await fetch('/api/state', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-admin-pass': adminPass || '',
-    },
-    body: JSON.stringify({ state }),
-  })
-  if (!res.ok) {
-    const txt = await res.text().catch(() => '')
-    throw new Error(`pushState ${res.status}: ${txt.slice(0, 200)}`)
-  }
-  return res.json()
+// Direct upsert via anon key. Debounce in caller.
+export async function pushState(state) {
+  if (!supabase) throw new Error('Supabase not configured')
+  const { error } = await supabase
+    .from('tennis_state')
+    .upsert({ id: ROW_ID, data: state, updated_at: new Date().toISOString() })
+  if (error) throw new Error(`pushState: ${error.message}`)
+  return { ok: true }
 }

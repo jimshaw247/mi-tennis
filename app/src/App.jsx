@@ -5,7 +5,7 @@ import { pullState, subscribeState, pushState, supabaseConfigured } from './lib/
 import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
 import DrawSetup from './components/DrawSetup.jsx'
-import Gate, { isAdmin, adminPass, logout } from './components/Gate.jsx'
+import Gate, { isAdmin, logout } from './components/Gate.jsx'
 
 const TABS = [
   { id: 'board', label: 'Board' },
@@ -71,7 +71,7 @@ function AdminApp() {
     pushTimer.current = setTimeout(async () => {
       try {
         setSyncStatus('pushing')
-        await pushState(nextState, adminPass())
+        await pushState(nextState)
         setSyncStatus('live')
       } catch (e) {
         console.warn('push failed', e)
