@@ -58,12 +58,12 @@ export default function Viewer() {
           </div>
         </div>
         {tab === 'flights' && (
-          <div className="px-2 pb-2 flex gap-1 overflow-x-auto">
+          <div className="px-2 pb-2 grid grid-cols-4 gap-1">
             {FLIGHTS.map(f => (
               <button
                 key={f.id}
                 onClick={() => setActiveFlight(f.id)}
-                className={`px-3 py-1.5 rounded text-xs font-semibold whitespace-nowrap ${activeFlight===f.id ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'}`}
+                className={`px-2 py-1.5 rounded text-xs font-semibold ${activeFlight===f.id ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'}`}
               >{f.label}</button>
             ))}
           </div>

@@ -142,13 +142,13 @@ function AdminApp() {
           </div>
         </div>
         {tab === 'flights' && (
-          <div className="px-2 pb-2 flex gap-1 overflow-x-auto">
+          <div className="px-2 pb-2 grid grid-cols-4 gap-1">
             {FLIGHTS.map(f => (
               <button
                 key={f.id}
                 onClick={() => setActiveFlight(f.id)}
                 className={[
-                  'px-3 py-1.5 rounded text-xs font-semibold whitespace-nowrap',
+                  'px-2 py-1.5 rounded text-xs font-semibold',
                   activeFlight === f.id ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300',
                 ].join(' ')}
               >{f.label}</button>
@@ -257,7 +257,7 @@ function SetupTab({ state, setTab, updateFlight }) {
   const flight = state.flights.find(f => f.id === pickedFlight)
   return (
     <div className="space-y-3">
-      <div className="flex gap-1 overflow-x-auto">
+      <div className="grid grid-cols-4 gap-1">
         {FLIGHTS.map(f => {
           const filled = state.flights.find(x => x.id === f.id).entries.filter(e => e.teamId).length
           return (
@@ -265,7 +265,7 @@ function SetupTab({ state, setTab, updateFlight }) {
               key={f.id}
               onClick={() => setPicked(f.id)}
               className={[
-                'px-2 py-1.5 rounded text-xs font-semibold whitespace-nowrap',
+                'px-2 py-1.5 rounded text-xs font-semibold',
                 pickedFlight === f.id ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300',
               ].join(' ')}
             >{f.id} <span className="opacity-60">{filled}/9</span></button>

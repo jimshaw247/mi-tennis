@@ -34,14 +34,14 @@ function MatchCard({ match, onPick, readonly }) {
           )}
           <span className="flex-1 min-w-0">
             <div className={[
-              'text-sm leading-tight truncate',
+              'text-[13px] leading-tight break-words',
               s.team?.id === HIGHLIGHT_TEAM ? 'font-bold' : '',
             ].join(' ')}>
               {s.entry?.seed != null && <span className="text-slate-400 mr-1">({s.entry.seed})</span>}
               {s.entry?.name || (s.team?.name) || (s.empty ? 'TBD' : '—')}
             </div>
             {s.team && s.entry?.name && (
-              <div className="text-[11px] text-slate-400 truncate">{s.team.name}</div>
+              <div className="text-[10px] text-slate-400 leading-tight">{s.team.name}</div>
             )}
           </span>
         </button>
@@ -62,22 +62,22 @@ export default function Bracket({ flight, onUpdate, readonly }) {
   const cols = byRound(matches)
   const pick = (id, side) => onUpdate && onUpdate(setWinner(flight, id, side))
   return (
-    <div className="flex gap-3 overflow-x-auto pb-3">
+    <div className="flex gap-2 overflow-x-auto pb-3">
       {cols.P.length > 0 && (
-        <div className="min-w-[180px] flex flex-col gap-3 justify-around">
+        <div className="min-w-[200px] flex-1 flex flex-col gap-3 justify-around">
           <div className="text-xs uppercase text-slate-400 font-semibold">Play-in</div>
           {cols.P.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
         </div>
       )}
-      <div className="min-w-[180px] flex flex-col gap-3 justify-around">
+      <div className="min-w-[200px] flex-1 flex flex-col gap-3 justify-around">
         <div className="text-xs uppercase text-slate-400 font-semibold">Quarterfinals</div>
         {cols.Q.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
       </div>
-      <div className="min-w-[180px] flex flex-col gap-3 justify-around">
+      <div className="min-w-[200px] flex-1 flex flex-col gap-3 justify-around">
         <div className="text-xs uppercase text-slate-400 font-semibold">Semifinals</div>
         {cols.S.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
       </div>
-      <div className="min-w-[180px] flex flex-col gap-3 justify-around">
+      <div className="min-w-[200px] flex-1 flex flex-col gap-3 justify-around">
         <div className="text-xs uppercase text-slate-400 font-semibold">Final</div>
         {cols.F.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
       </div>
