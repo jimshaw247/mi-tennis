@@ -25,9 +25,12 @@ export const MATCH_DEFS = [
 export const ROUNDS = ['P', 'Q', 'S', 'F']
 export const ROUND_LABEL = { P: 'Play-in', Q: 'Quarterfinal', S: 'Semifinal', F: 'Final' }
 
-// Max remaining wins available to the entry at each starting position, by round currently to play.
-// E.g. entry at pos 7 or 8 still in play-in can win 4 matches. Entry at pos 0 with bye to QF can win 3.
-const STARTING_WINS = { 0: 3, 1: 3, 2: 3, 3: 3, 4: 3, 5: 3, 6: 3, 7: 4, 8: 4 }
+// Scoring rule (MHSAA): you get a point for the BYE round IF you win your first
+// actual match. So everyone caps at 4 points per entry:
+//   pos 0-6 (auto-advance to QF):  BYE + QF + SF + F = 4 (BYE only counts after QF win)
+//   pos 7,8 (play-in):              PI + QF + SF + F = 4 (no BYE)
+const STARTING_WINS = { 0: 4, 1: 4, 2: 4, 3: 4, 4: 4, 5: 4, 6: 4, 7: 4, 8: 4 }
+const HAS_BYE = (pos) => pos >= 0 && pos <= 6 // entries with a R1 bye
 
 export function emptyFlight(id) {
   return {
@@ -66,14 +69,21 @@ export function describeMatches(flight) {
   })
 }
 
-// Wins per team for a single flight (1 point per match won).
+// Wins per team for a single flight. 1 point per match won, plus a BYE bonus
+// point when a pos 0-6 entry wins its QF (its first actual match).
 export function flightTeamPoints(flight) {
   const out = {}
-  for (const m of describeMatches(flight)) {
+  const matches = describeMatches(flight)
+  for (const m of matches) {
     if (!m.winner) continue
     const e = m.winner === 'top' ? m.topEntry : m.botEntry
     if (!e || !e.teamId) continue
     out[e.teamId] = (out[e.teamId] || 0) + 1
+    // BYE bonus: if this is a QF won by a pos 0-6 entry, that entry just won
+    // its first actual match, so credit the BYE round too.
+    if (m.round === 'Q' && HAS_BYE(m.winnerPos)) {
+      out[e.teamId] += 1
+    }
   }
   return out
 }
@@ -110,13 +120,15 @@ export function setWinner(flight, matchId, sideOrNull) {
   return next
 }
 
-// For a given entry position, how many wins it has already and how many it could still earn
+// For a given entry position, how many points it has already and how many it could still earn
 // assuming it wins out. Once an entry advances, downstream describeMatches() resolves the
 // new top/bot to the original position number, so we walk forward by re-scanning for any
 // match the original position participates in that we haven't already counted.
+//
+// Points = match wins + (1 BYE bonus if pos 0-6 and won at least one actual match).
 export function entryStanding(flight, pos) {
   const matches = describeMatches(flight)
-  let wins = 0
+  let matchWins = 0
   let alive = true
   const seen = new Set()
   while (alive) {
@@ -125,11 +137,13 @@ export function entryStanding(flight, pos) {
     seen.add(m.id)
     const side = m.topPos === pos ? 'top' : 'bot'
     if (m.winner === side) {
-      wins++
+      matchWins++
     } else {
       alive = false
     }
   }
+  const byeBonus = (HAS_BYE(pos) && matchWins > 0) ? 1 : 0
+  const wins = matchWins + byeBonus
   const start = STARTING_WINS[pos]
   return {
     wins,
