@@ -27,7 +27,18 @@ export function leaderboard(flights) {
     || b.maxPossible - a.maxPossible
     || a.team.name.localeCompare(b.team.name)
   )
-  rows.forEach((r, i) => { r.displayRank = i + 1 })
+  // Rank by points only (the tournament's tiebreak in the live UI). Two
+  // teams with equal points share a rank; both get a tied flag so the UI
+  // can prefix "T-".
+  let rankCursor = 0
+  let lastPts = null
+  rows.forEach((r, i) => {
+    if (r.points !== lastPts) { rankCursor = i + 1; lastPts = r.points }
+    r.displayRank = rankCursor
+  })
+  for (const r of rows) {
+    r.tied = rows.some(o => o.team.id !== r.team.id && o.displayRank === r.displayRank)
+  }
 
   for (const r of rows) {
     r.clinchedTop3 = r.worstRank <= 3

@@ -14,7 +14,7 @@ export default function Leaderboard({ flights, compact = false }) {
   const rows = leaderboard(flights)
   return (
     <div className="rounded-xl border border-slate-700 overflow-hidden">
-      <div className="grid grid-cols-[28px_1fr_44px_44px_44px] gap-1 px-2 py-1.5 text-[10px] uppercase tracking-wider text-slate-400 bg-slate-800/80">
+      <div className="grid grid-cols-[40px_1fr_44px_44px_44px] gap-1 px-2 py-1.5 text-[10px] uppercase tracking-wider text-slate-400 bg-slate-800/80">
         <div>#</div><div>Team</div>
         <div className="text-right">Pts</div>
         <div className="text-right">Max</div>
@@ -26,12 +26,12 @@ export default function Leaderboard({ flights, compact = false }) {
           <div
             key={r.team.id}
             className={[
-              'grid grid-cols-[28px_1fr_44px_44px_44px] gap-1 px-2 py-2 items-center border-t border-slate-800',
+              'grid grid-cols-[40px_1fr_44px_44px_44px] gap-1 px-2 py-2 items-center border-t border-slate-800',
               r.displayRank <= 3 ? 'bg-emerald-900/30' : '',
               isHi ? 'ring-1 ring-inset ring-blue-400/60' : '',
             ].join(' ')}
           >
-            <div className="text-slate-300 font-semibold">{r.displayRank}</div>
+            <div className="text-slate-300 font-semibold">{r.tied ? `T-${r.displayRank}` : r.displayRank}</div>
             <div className="min-w-0 flex items-center gap-2">
               <span className="inline-block w-1.5 h-5 rounded-sm flex-shrink-0" style={{ background: r.team.color }} />
               <div className="min-w-0">
