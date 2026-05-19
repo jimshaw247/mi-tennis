@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { FLIGHTS } from './data/teams.js'
 import { DIVISIONS, DIVISION_BY_ID, readDivisionFromUrl, writeDivisionToUrl } from './data/divisions.js'
-import { defaultState } from './lib/storage.js'
+import { defaultState, normalizeMeta } from './lib/storage.js'
 import { pullState, subscribeState, supabaseConfigured } from './lib/sync.js'
 import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
@@ -26,7 +26,7 @@ export default function Viewer() {
     pullState(division.stateRowId).then(res => {
       if (!alive) return
       if (res) {
-        setState({ flights: res.state.flights || res.state })
+        setState({ flights: res.state.flights || res.state, meta: normalizeMeta(res.state.meta) })
         setUpdatedAt(res.updatedAt)
         setStatus('live')
       } else {
@@ -34,7 +34,7 @@ export default function Viewer() {
       }
     })
     const unsub = subscribeState(division.stateRowId, ({ state, updatedAt }) => {
-      setState({ flights: state.flights || state })
+      setState({ flights: state.flights || state, meta: normalizeMeta(state.meta) })
       setUpdatedAt(updatedAt)
       setStatus('live')
     })
@@ -50,12 +50,13 @@ export default function Viewer() {
       <header className="sticky top-0 z-10 bg-slate-950/95 border-b border-slate-800 backdrop-blur">
         <div className="px-3 py-2 flex items-center justify-between">
           <div>
-            <div className="text-sm font-bold tracking-tight">MHSAA {divisionId} Girls State Finals — Live</div>
-            <div className="text-[10px] text-slate-400">
-              {status === 'live' && updatedAt && `Updated ${new Date(updatedAt).toLocaleTimeString()}`}
-              {status === 'loading' && 'Connecting…'}
-              {status === 'empty' && (division.available ? 'Waiting for admin to start the tournament' : 'Bracket URL not yet configured for this division')}
-              {status === 'no-backend' && 'Backend not configured'}
+            <div className="text-sm font-bold tracking-tight">MHSAA {divisionId} Girls State Finals</div>
+            <div className="text-[10px] text-slate-400 flex items-center gap-2">
+              <ViewerSourceBadge source={state.meta?.source} />
+              {status === 'live' && updatedAt && <span>Updated {new Date(updatedAt).toLocaleTimeString()}</span>}
+              {status === 'loading' && <span>Connecting…</span>}
+              {status === 'empty' && <span>{division.available ? 'Waiting for admin' : 'Not configured'}</span>}
+              {status === 'no-backend' && <span>Backend not configured</span>}
             </div>
           </div>
           <div className="flex gap-1">
@@ -107,5 +108,20 @@ export default function Viewer() {
         Read-only view · auto-updates
       </footer>
     </div>
+  )
+}
+
+function ViewerSourceBadge({ source }) {
+  const sources = {
+    live: { cls: 'bg-emerald-900/50 border-emerald-700 text-emerald-300', dot: 'bg-emerald-400', label: 'Live' },
+    '2025': { cls: 'bg-sky-900/40 border-sky-800 text-sky-300',          dot: 'bg-sky-400',     label: '2025 Final Ranking' },
+    test: { cls: 'bg-amber-900/40 border-amber-700 text-amber-200',     dot: 'bg-amber-400',   label: 'Test Data' },
+  }
+  const v = sources[source] || sources['2025']
+  return (
+    <span className={['inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide', v.cls].join(' ')}>
+      <span className={['inline-block w-1.5 h-1.5 rounded-full', v.dot].join(' ')} />
+      <span>{v.label}</span>
+    </span>
   )
 }

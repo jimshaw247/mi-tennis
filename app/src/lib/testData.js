@@ -39,7 +39,7 @@ export function generateTestA() {
     const winners = fillWinners(f.entries, ['R2'], (id) => r2Pick.has(id) ? coin() : null, r1Winners)
     return { id: f.id, entries: f.entries, winners }
   })
-  return { flights }
+  return { flights, meta: { source: 'test' } }
 }
 
 // Test Data B: All rounds complete except the championship (F).
@@ -51,5 +51,5 @@ export function generateTestB() {
     winners = fillWinners(f.entries, ['SF'], () => coin(), winners)
     return { id: f.id, entries: f.entries, winners }
   })
-  return { flights }
+  return { flights, meta: { source: 'test' } }
 }

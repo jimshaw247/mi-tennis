@@ -2,14 +2,13 @@ import { useEffect, useState, useMemo, useRef } from 'react'
 import { FLIGHTS } from './data/teams.js'
 import { DIVISIONS, DIVISION_BY_ID, readDivisionFromUrl, writeDivisionToUrl } from './data/divisions.js'
 import { FLIGHT_SIZE, MATCH_DEFS } from './lib/bracket.js'
-import { loadState, saveState, defaultState } from './lib/storage.js'
+import { loadState, saveState, defaultState, normalizeMeta } from './lib/storage.js'
 import { generateTestA, generateTestB } from './lib/testData.js'
 import { pullState, subscribeState, pushState, supabaseConfigured } from './lib/sync.js'
 import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
 import DrawSetup from './components/DrawSetup.jsx'
 import Gate, { isAdmin, logout } from './components/Gate.jsx'
-import SyncButton from './components/SyncButton.jsx'
 
 const TABS = [
   { id: 'board', label: 'Board' },
@@ -51,11 +50,11 @@ function AdminApp() {
     setSyncStatus('loading')
     pullState(division.stateRowId).then(res => {
       if (cancelled) return
-      if (res?.state?.flights) setState({ flights: res.state.flights })
-      setSyncStatus('live')
+      if (res?.state?.flights) setState({ flights: res.state.flights, meta: normalizeMeta(res.state.meta) })
+      setSyncStatus('connected')
     }).catch(() => setSyncStatus('error'))
     const unsub = subscribeState(division.stateRowId, ({ state: remote }) => {
-      if (remote?.flights) setState({ flights: remote.flights })
+      if (remote?.flights) setState({ flights: remote.flights, meta: normalizeMeta(remote.meta) })
     })
     return () => { cancelled = true; unsub() }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -70,11 +69,16 @@ function AdminApp() {
     try {
       setSyncStatus('pushing')
       await pushState(division.stateRowId, nextState)
-      setSyncStatus('live')
+      setSyncStatus('connected')
     } catch (e) {
       console.warn('push failed', e)
       setSyncStatus('error')
     }
+  }
+
+  const markAsLive = () => {
+    if (!confirm('Mark current data as the 2026 live tournament? The board status will switch to "Live".')) return
+    commit({ ...state, meta: { ...(state.meta || {}), source: 'live' } })
   }
 
   const updateFlight = (next) => {
@@ -109,7 +113,7 @@ function AdminApp() {
             <div className="text-sm font-bold tracking-tight">MHSAA {divisionId} Girls State Finals</div>
             <div className="text-[10px] text-slate-400 flex items-center gap-2">
               <span>32-draw · 8 flights</span>
-              <SyncBadge status={syncStatus} />
+              <SourceBadge source={state.meta?.source} syncStatus={syncStatus} />
             </div>
           </div>
           <div className="flex gap-1">
@@ -203,27 +207,44 @@ function AdminApp() {
       <footer className="p-3 border-t border-slate-800 flex flex-wrap gap-2 text-xs">
         <button onClick={resetResults} className="px-2 py-1 rounded bg-slate-800 border border-slate-700">Reset results</button>
         <button onClick={resetAll} className="px-2 py-1 rounded bg-red-900/40 border border-red-700/60 text-red-200">Reset all</button>
-        <SyncButton currentState={state} onApply={(merged) => commit(merged)} />
         <button onClick={() => loadTest('Test Data A (75% of R2 done)', generateTestA)}
           className="px-2 py-1 rounded bg-purple-900/40 border border-purple-700/60 text-purple-200">Load Test A</button>
         <button onClick={() => loadTest('Test Data B (everything but F done)', generateTestB)}
           className="px-2 py-1 rounded bg-purple-900/40 border border-purple-700/60 text-purple-200">Load Test B</button>
+        {state.meta?.source !== 'live' && (
+          <button onClick={markAsLive}
+            className="px-2 py-1 rounded bg-emerald-900/40 border border-emerald-700/60 text-emerald-200">Mark as 2026 Live</button>
+        )}
         <button onClick={logout} className="ml-auto px-2 py-1 rounded bg-slate-800 border border-slate-700">Lock</button>
       </footer>
     </div>
   )
 }
 
-function SyncBadge({ status }) {
-  const map = {
-    idle:    { c: 'text-slate-400',  d: '•', t: 'idle' },
-    live:    { c: 'text-emerald-400', d: '●', t: 'live' },
-    pushing: { c: 'text-blue-400',   d: '↑', t: 'sync' },
-    error:   { c: 'text-red-400',    d: '!', t: 'sync err' },
-    offline: { c: 'text-amber-400',  d: '○', t: 'local only' },
+// Three-state data-source indicator. Color and label reflect WHERE the visible
+// data came from. Sync status (push errors / offline) is shown as a tiny
+// secondary glyph so it doesn't drown out the source.
+function SourceBadge({ source, syncStatus }) {
+  const sources = {
+    live: { cls: 'bg-emerald-900/50 border-emerald-700 text-emerald-300',  dot: 'bg-emerald-400', label: 'Live' },
+    '2025': { cls: 'bg-sky-900/40 border-sky-800 text-sky-300',            dot: 'bg-sky-400',     label: '2025 Final Ranking' },
+    test: { cls: 'bg-amber-900/40 border-amber-700 text-amber-200',       dot: 'bg-amber-400',   label: 'Test Data' },
   }
-  const v = map[status] || map.idle
-  return <span className={v.c} title={status}>{v.d} {v.t}</span>
+  const v = sources[source] || sources['2025']
+  const syncMap = {
+    error: { c: 'text-red-400', g: '!', t: 'sync error' },
+    pushing: { c: 'text-blue-300', g: '↑', t: 'syncing' },
+    offline: { c: 'text-amber-300', g: '○', t: 'local only' },
+    loading: { c: 'text-slate-400', g: '…', t: 'loading' },
+  }
+  const s = syncMap[syncStatus]
+  return (
+    <span className={['inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide', v.cls].join(' ')}>
+      <span className={['inline-block w-1.5 h-1.5 rounded-full', v.dot].join(' ')} />
+      <span>{v.label}</span>
+      {s && <span className={s.c} title={s.t}>· {s.g}</span>}
+    </span>
+  )
 }
 
 function FlightSummary({ flights, onJump }) {

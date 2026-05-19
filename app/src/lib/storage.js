@@ -12,10 +12,20 @@ export function loadState(divisionId = 'D1') {
     if (!parsed.flights) return defaultState()
     const byId = Object.fromEntries(parsed.flights.map(f => [f.id, normalizeFlight(f)]))
     const flights = FLIGHTS.map(f => byId[f.id] || emptyFlight(f.id))
-    return { flights }
+    return { flights, meta: normalizeMeta(parsed.meta) }
   } catch {
     return defaultState()
   }
+}
+
+// `meta.source` describes WHERE the visible data came from so the status
+// indicator can show it accurately:
+//   'live'  — real 2026 tournament data (user explicitly marked it)
+//   '2025'  — last year's seeded entries (the default until 2026 starts)
+//   'test'  — random test data from the Load Test buttons
+export function normalizeMeta(m) {
+  const source = m && typeof m.source === 'string' ? m.source : '2025'
+  return { source: ['live', '2025', 'test'].includes(source) ? source : '2025' }
 }
 
 // Backfill any missing slots so older saves expand into the 32-slot shape.
@@ -33,7 +43,7 @@ export function saveState(state, divisionId = 'D1') {
 }
 
 export function defaultState() {
-  return { flights: FLIGHTS.map(f => emptyFlight(f.id)) }
+  return { flights: FLIGHTS.map(f => emptyFlight(f.id)), meta: { source: '2025' } }
 }
 
 export function exportJson(state) { return JSON.stringify(state, null, 2) }
@@ -42,5 +52,5 @@ export function importJson(text) {
   const parsed = JSON.parse(text)
   if (!parsed.flights || !Array.isArray(parsed.flights)) throw new Error('Missing flights array')
   const byId = Object.fromEntries(parsed.flights.map(f => [f.id, normalizeFlight(f)]))
-  return { flights: FLIGHTS.map(f => byId[f.id] || emptyFlight(f.id)) }
+  return { flights: FLIGHTS.map(f => byId[f.id] || emptyFlight(f.id)), meta: normalizeMeta(parsed.meta) }
 }
