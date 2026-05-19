@@ -7,10 +7,28 @@ import { fileURLToPath } from 'node:url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
-// Event 611 = MHSAA Finals Tournament-2025
-// Division 995 = D1
-// Host 2951 = State Finals-D1
-const BASE = 'https://tennisreporting.com/event/brackets/611?division=995&host=2951'
+// Per-year, per-division constants. Usage:
+//   node scrape-state.mjs                # defaults: 2025 D1
+//   node scrape-state.mjs D2             # 2025 D2 (needs DIVISIONS[D2] filled in)
+//
+// Event 611 = MHSAA Finals Tournament-2025.
+// Division 995/996/997/998 = D1/D2/D3/D4 (verify per-year — these are 2025 values).
+// Host 2951 = State Finals-D1 (host IDs differ per division).
+const EVENT_ID = 611
+const DIVISIONS = {
+  D1: { division: 995, host: 2951 },
+  D2: { division: null, host: null }, // fill in when bracket goes live
+  D3: { division: null, host: null },
+  D4: { division: null, host: null },
+}
+const TARGET = (process.argv[2] || 'D1').toUpperCase()
+const conf = DIVISIONS[TARGET]
+if (!conf?.division || !conf?.host) {
+  console.error(`No URL config for ${TARGET}. Update DIVISIONS in scrape-state.mjs.`)
+  process.exit(1)
+}
+const BASE = `https://tennisreporting.com/event/brackets/${EVENT_ID}?division=${conf.division}&host=${conf.host}`
+const OUT_SUFFIX = TARGET.toLowerCase()
 
 const FLIGHTS = [
   ...[1, 2, 3, 4].map(f => ({ id: `${f}S`, type: 'Singles', flight: f })),
@@ -26,7 +44,7 @@ const ctx = await browser.newContext({
   userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',
 })
 
-mkdirSync(`${__dirname}/raw-state`, { recursive: true })
+mkdirSync(`${__dirname}/raw-state-${OUT_SUFFIX}`, { recursive: true })
 
 const all = {}
 for (const f of FLIGHTS) {
@@ -82,7 +100,16 @@ for (const f of FLIGHTS) {
           node = walker.nextNode()
         }
         flush()
-        return { sides, raw: textOf(li).replace(/\s+/g, ' ') }
+        // Detect winner: tennisreporting tags the winning side's team-info
+        // with .winner-team. Iterate the two team-item containers in order.
+        const sideContainers = [...li.querySelectorAll('.tournament-bracket__team-item')]
+        let winner = null
+        for (let i = 0; i < sideContainers.length && i < 2; i++) {
+          if (sideContainers[i].querySelector('.winner-team')) {
+            winner = i === 0 ? 'top' : 'bot'
+          }
+        }
+        return { sides, winner, raw: textOf(li).replace(/\s+/g, ' ') }
       }
       const round = [...document.querySelectorAll('.tournament-bracket__round')]
         .find(r => textOf(r.querySelector('.tournament-bracket__round-title')) === targetLabel)

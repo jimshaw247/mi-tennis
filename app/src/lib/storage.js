@@ -1,11 +1,12 @@
 import { FLIGHTS } from '../data/teams.js'
 import { emptyFlight, FLIGHT_SIZE } from './bracket.js'
 
-const KEY = 'tennis-state-v1'
+const KEY_PREFIX = 'tennis-state-v1'
+const keyFor = (divisionId) => `${KEY_PREFIX}-${divisionId.toLowerCase()}`
 
-export function loadState() {
+export function loadState(divisionId = 'D1') {
   try {
-    const raw = localStorage.getItem(KEY)
+    const raw = localStorage.getItem(keyFor(divisionId))
     if (!raw) return defaultState()
     const parsed = JSON.parse(raw)
     if (!parsed.flights) return defaultState()
@@ -27,8 +28,8 @@ function normalizeFlight(f) {
   return { id: f.id, entries: merged, winners: f.winners || {} }
 }
 
-export function saveState(state) {
-  try { localStorage.setItem(KEY, JSON.stringify(state)) } catch { /* localStorage full or disabled */ }
+export function saveState(state, divisionId = 'D1') {
+  try { localStorage.setItem(keyFor(divisionId), JSON.stringify(state)) } catch { /* localStorage full or disabled */ }
 }
 
 export function defaultState() {

@@ -28,8 +28,6 @@ export default function Leaderboard({ flights, compact = false }) {
             className={[
               'grid grid-cols-[28px_1fr_44px_44px_44px] gap-1 px-2 py-2 items-center border-t border-slate-800',
               r.displayRank <= 3 ? 'bg-emerald-900/30' : '',
-              '',
-              r.eliminatedAll ? 'opacity-50' : '',
               isHi ? 'ring-1 ring-inset ring-blue-400/60' : '',
             ].join(' ')}
           >
@@ -43,7 +41,6 @@ export default function Leaderboard({ flights, compact = false }) {
                     <span>finish {r.bestRank === r.worstRank ? `#${r.bestRank}` : `#${r.bestRank}–#${r.worstRank}`}</span>
                     {r.clinchedFirst && <Badge color="#fde047">Champ ✓</Badge>}
                     {!r.clinchedFirst && r.clinchedTop3 && <Badge color="#10b981">Top 3 ✓</Badge>}
-                    {r.eliminatedAll && <Badge color="#ef4444">Out</Badge>}
                   </div>
                 )}
               </div>

@@ -26,6 +26,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "1Gabriella Sadowski Utica EisenhowerBYE"
           },
           {
@@ -51,6 +52,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSJhana Todorova Troy AthensSophia Tomina Bloomfield Hills"
           },
           {
@@ -69,6 +71,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Grace Wang OkemosBYE"
           },
           {
@@ -87,6 +90,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Kelly Cook RochesterBYE"
           },
           {
@@ -105,6 +109,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "4Rory Hoyle ClarkstonBYE"
           },
           {
@@ -130,6 +135,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSEsha Jadhav Ann Arbor HuronMaya Clark Rockford"
           },
           {
@@ -148,6 +154,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "5Daniella Richardson Kalamazoo CentralBYE"
           },
           {
@@ -173,6 +180,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSSophia DiPilla NorthvilleAlexa Mackovski Romeo"
           },
           {
@@ -198,6 +206,7 @@
                 "school": "West Bloomfield"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSEvie Price Holland West OttawaElise Livedoti West Bloomfield"
           },
           {
@@ -216,6 +225,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": null,
             "raw": "BYE6Rachel He Ann Arbor Pioneer"
           },
           {
@@ -241,6 +251,7 @@
                 "school": "Novi"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSCarli Banaszak Grand BlancAvery Dorogi Novi"
           },
           {
@@ -259,6 +270,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": null,
             "raw": "BYE3Isabella Barretto Rochester Hills Stoney Creek"
           },
           {
@@ -277,6 +289,7 @@
                 "school": "Troy"
               }
             ],
+            "winner": null,
             "raw": "BYENainika Jasti Troy"
           },
           {
@@ -295,6 +308,7 @@
                 "school": "Howell"
               }
             ],
+            "winner": null,
             "raw": "BYE7Estie Sura Howell"
           },
           {
@@ -320,6 +334,7 @@
                 "school": "Saline"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSAarna Betala Portage CentralKylie Warner Saline"
           },
           {
@@ -338,6 +353,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": null,
             "raw": "BYE2Nicole Fu Rochester Adams"
           }
         ]
@@ -368,6 +384,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:45 am 05/30/2025 @ Byron Center HS1Gabriella Sadowski Utica EisenhowerSophia Tomina Bloomfield Hills"
           },
           {
@@ -393,6 +410,7 @@
                 "school": "Rochester"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20259:45 am 05/30/2025 @ Byron Center HSGrace Wang OkemosKelly Cook Rochester"
           },
           {
@@ -418,6 +436,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:45 am 05/30/2025 @ Byron Center HS4Rory Hoyle ClarkstonEsha Jadhav Ann Arbor Huron"
           },
           {
@@ -443,6 +462,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:45 am 05/30/2025 @ Byron Center HS5Daniella Richardson Kalamazoo CentralSophia DiPilla Northville"
           },
           {
@@ -468,6 +488,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:45 am 05/30/2025 @ Byron Center HSEvie Price Holland West Ottawa6Rachel He Ann Arbor Pioneer"
           },
           {
@@ -493,6 +514,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202512:45 pm 05/30/2025 @ Byron Center HSCarli Banaszak Grand Blanc3Isabella Barretto Rochester Hills Stoney Creek"
           },
           {
@@ -518,6 +540,7 @@
                 "school": "Howell"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202510:00 am 05/30/2025 @ Byron Center HSNainika Jasti Troy7Estie Sura Howell"
           },
           {
@@ -543,6 +566,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202512:45 pm 05/30/2025 @ Byron Center HSAarna Betala Portage Central2Nicole Fu Rochester Adams"
           }
         ]
@@ -573,6 +597,7 @@
                 "school": "Rochester"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20252:15 pm 05/30/2025 @ Byron Center HS1Gabriella Sadowski Utica EisenhowerKelly Cook Rochester"
           },
           {
@@ -598,6 +623,7 @@
                 "school": "Kalamazoo Central"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20252:15 pm 05/30/2025 @ Byron Center HS4Rory Hoyle Clarkston5Daniella Richardson Kalamazoo Central"
           },
           {
@@ -623,6 +649,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:15 pm 05/30/2025 @ Byron Center HS6Rachel He Ann Arbor Pioneer3Isabella Barretto Rochester Hills Stoney Creek"
           },
           {
@@ -648,6 +675,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:15 pm 05/30/2025 @ Byron Center HS7Estie Sura Howell2Nicole Fu Rochester Adams"
           }
         ]
@@ -678,6 +706,7 @@
                 "school": "Kalamazoo Central"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS1Gabriella Sadowski Utica Eisenhower5Daniella Richardson Kalamazoo Central"
           },
           {
@@ -703,6 +732,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS3Isabella Barretto Rochester Hills Stoney Creek2Nicole Fu Rochester Adams"
           }
         ]
@@ -733,6 +763,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/202512:00 pm 05/31/2025 @ Byron Center HS1Gabriella Sadowski Utica Eisenhower2Nicole Fu Rochester Adams"
           }
         ]
@@ -766,6 +797,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "1Morgan Emerick Utica EisenhowerBYE"
           },
           {
@@ -791,6 +823,7 @@
                 "school": "Okemos"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSRuhi Balaji Bloomfield HillsAnanya Bonulu Okemos"
           },
           {
@@ -809,6 +842,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Charlotte Partchenko ClarkstonBYE"
           },
           {
@@ -827,6 +861,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Jhoshi Prasath TroyBYE"
           },
           {
@@ -845,6 +880,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "4Deb Saha NoviBYE"
           },
           {
@@ -863,6 +899,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Serena Chang Ann Arbor HuronBYE"
           },
           {
@@ -881,6 +918,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "5Talia Nishanian NorthvilleBYE"
           },
           {
@@ -899,6 +937,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Sophie Burns RockfordBYE"
           },
           {
@@ -917,6 +956,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": null,
             "raw": "BYEKayla Deguzman Romeo"
           },
           {
@@ -935,6 +975,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": null,
             "raw": "BYE6Elisa Benedict Rochester Adams"
           },
           {
@@ -960,6 +1001,7 @@
                 "school": "West Bloomfield"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSKathryn Feller SalineBella Kuzminsky West Bloomfield"
           },
           {
@@ -978,6 +1020,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": null,
             "raw": "BYE3Margie Glynn Portage Central"
           },
           {
@@ -996,6 +1039,7 @@
                 "school": "Holland West Ottawa"
               }
             ],
+            "winner": null,
             "raw": "BYEDanielle Lebster Holland West Ottawa"
           },
           {
@@ -1014,6 +1058,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": null,
             "raw": "BYEAudrey Yu Ann Arbor Pioneer"
           },
           {
@@ -1039,6 +1084,7 @@
                 "school": "Troy Athens"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSEmma Bardas RochesterSadhana Rao Troy Athens"
           },
           {
@@ -1057,6 +1103,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": null,
             "raw": "BYE2Alison Doka Rochester Hills Stoney Creek"
           }
         ]
@@ -1087,6 +1134,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202512:45 pm 05/30/2025 @ Byron Center HS1Morgan Emerick Utica EisenhowerRuhi Balaji Bloomfield Hills"
           },
           {
@@ -1112,6 +1160,7 @@
                 "school": "Troy"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202510:00 am 05/30/2025 @ Byron Center HSCharlotte Partchenko ClarkstonJhoshi Prasath Troy"
           },
           {
@@ -1137,6 +1186,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202510:00 am 05/30/2025 @ Byron Center HS4Deb Saha NoviSerena Chang Ann Arbor Huron"
           },
           {
@@ -1162,6 +1212,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202510:00 am 05/30/2025 @ Byron Center HS5Talia Nishanian NorthvilleSophie Burns Rockford"
           },
           {
@@ -1187,6 +1238,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202510:15 am 05/30/2025 @ Byron Center HSKayla Deguzman Romeo6Elisa Benedict Rochester Adams"
           },
           {
@@ -1212,6 +1264,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202512:45 pm 05/30/2025 @ Byron Center HSBella Kuzminsky West Bloomfield3Margie Glynn Portage Central"
           },
           {
@@ -1237,6 +1290,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202510:15 am 05/30/2025 @ Byron Center HSDanielle Lebster Holland West OttawaAudrey Yu Ann Arbor Pioneer"
           },
           {
@@ -1262,6 +1316,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20251:00 pm 05/30/2025 @ Byron Center HSEmma Bardas Rochester2Alison Doka Rochester Hills Stoney Creek"
           }
         ]
@@ -1292,6 +1347,7 @@
                 "school": "Clarkston"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20253:15 pm 05/30/2025 @ Byron Center HS1Morgan Emerick Utica EisenhowerCharlotte Partchenko Clarkston"
           },
           {
@@ -1317,6 +1373,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20251:15 pm 05/30/2025 @ Byron Center HS4Deb Saha NoviSophie Burns Rockford"
           },
           {
@@ -1342,6 +1399,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:15 pm 05/30/2025 @ Byron Center HS6Elisa Benedict Rochester Adams3Margie Glynn Portage Central"
           },
           {
@@ -1367,6 +1425,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:30 pm 05/30/2025 @ Byron Center HSDanielle Lebster Holland West Ottawa2Alison Doka Rochester Hills Stoney Creek"
           }
         ]
@@ -1397,6 +1456,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS1Morgan Emerick Utica EisenhowerSophie Burns Rockford"
           },
           {
@@ -1422,6 +1482,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS3Margie Glynn Portage Central2Alison Doka Rochester Hills Stoney Creek"
           }
         ]
@@ -1452,6 +1513,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/202512:00 pm 05/31/2025 @ Byron Center HS1Morgan Emerick Utica Eisenhower2Alison Doka Rochester Hills Stoney Creek"
           }
         ]
@@ -1485,6 +1547,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "1Leslie Bahk Rochester Hills Stoney CreekBYE"
           },
           {
@@ -1510,6 +1573,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSGrace Ferry RockfordVittoria Fiorini Rochester Adams"
           },
           {
@@ -1528,6 +1592,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Katrina Kulish Troy AthensBYE"
           },
           {
@@ -1546,6 +1611,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Komal Patel OkemosBYE"
           },
           {
@@ -1564,6 +1630,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "4Prashasti Pandey NoviBYE"
           },
           {
@@ -1582,6 +1649,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Isabella Apone SalineBYE"
           },
           {
@@ -1600,6 +1668,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "5Emmi Dober NorthvilleBYE"
           },
           {
@@ -1618,6 +1687,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Ariella Ferguson West BloomfieldBYE"
           },
           {
@@ -1636,6 +1706,7 @@
                 "school": "Utica Eisenhower"
               }
             ],
+            "winner": null,
             "raw": "BYEMia Miller Utica Eisenhower"
           },
           {
@@ -1654,6 +1725,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": null,
             "raw": "BYE6Arella He Ann Arbor Pioneer"
           },
           {
@@ -1679,6 +1751,7 @@
                 "school": "Clarkston"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSPraveena Matheswaran TroyGinger Robinson Clarkston"
           },
           {
@@ -1697,6 +1770,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": null,
             "raw": "BYE3Adelie Chen Portage Central"
           },
           {
@@ -1715,6 +1789,7 @@
                 "school": "Holland West Ottawa"
               }
             ],
+            "winner": null,
             "raw": "BYEJessica Zhang Holland West Ottawa"
           },
           {
@@ -1733,6 +1808,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": null,
             "raw": "BYEjiaqi huang Ann Arbor Huron"
           },
           {
@@ -1758,6 +1834,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ Byron Center HSTiffany Patalinghug RochesterKayleigh Deguzman Romeo"
           },
           {
@@ -1776,6 +1853,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": null,
             "raw": "BYE2Evelyn Kalaydjian Bloomfield Hills"
           }
         ]
@@ -1806,6 +1884,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20251:00 pm 05/30/2025 @ Byron Center HS1Leslie Bahk Rochester Hills Stoney CreekGrace Ferry Rockford"
           },
           {
@@ -1831,6 +1910,7 @@
                 "school": "Okemos"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202510:15 am 05/30/2025 @ Byron Center HSKatrina Kulish Troy AthensKomal Patel Okemos"
           },
           {
@@ -1856,6 +1936,7 @@
                 "school": "Saline"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202510:15 am 05/30/2025 @ Byron Center HS4Prashasti Pandey NoviIsabella Apone Saline"
           },
           {
@@ -1881,6 +1962,7 @@
                 "school": "West Bloomfield"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:15 am 05/30/2025 @ Byron Center HS5Emmi Dober NorthvilleAriella Ferguson West Bloomfield"
           },
           {
@@ -1906,6 +1988,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:15 am 05/30/2025 @ Byron Center HSMia Miller Utica Eisenhower6Arella He Ann Arbor Pioneer"
           },
           {
@@ -1931,6 +2014,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20251:00 pm 05/30/2025 @ Byron Center HSGinger Robinson Clarkston3Adelie Chen Portage Central"
           },
           {
@@ -1956,6 +2040,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:15 am 05/30/2025 @ Byron Center HSJessica Zhang Holland West Ottawajiaqi huang Ann Arbor Huron"
           },
           {
@@ -1981,6 +2066,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20251:00 pm 05/30/2025 @ Byron Center HSTiffany Patalinghug Rochester2Evelyn Kalaydjian Bloomfield Hills"
           }
         ]
@@ -2011,6 +2097,7 @@
                 "school": "Okemos"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20253:30 pm 05/30/2025 @ Byron Center HSGrace Ferry RockfordKomal Patel Okemos"
           },
           {
@@ -2036,6 +2123,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20252:15 pm 05/30/2025 @ Byron Center HS4Prashasti Pandey Novi5Emmi Dober Northville"
           },
           {
@@ -2061,6 +2149,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20253:30 pm 05/30/2025 @ Byron Center HS6Arella He Ann Arbor Pioneer3Adelie Chen Portage Central"
           },
           {
@@ -2086,6 +2175,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:30 pm 05/30/2025 @ Byron Center HSjiaqi huang Ann Arbor Huron2Evelyn Kalaydjian Bloomfield Hills"
           }
         ]
@@ -2116,6 +2206,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HSGrace Ferry Rockford5Emmi Dober Northville"
           },
           {
@@ -2141,6 +2232,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS6Arella He Ann Arbor Pioneer2Evelyn Kalaydjian Bloomfield Hills"
           }
         ]
@@ -2171,6 +2263,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/202512:00 pm 05/31/2025 @ Byron Center HS5Emmi Dober Northville6Arella He Ann Arbor Pioneer"
           }
         ]
@@ -2204,6 +2297,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "1Rebecca Liu NoviBYE"
           },
           {
@@ -2229,6 +2323,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20259:45 am 05/30/2025 @ Byron Center HSAudrey Patterson Ann Arbor PioneerMadeline Baker Bloomfield Hills"
           },
           {
@@ -2247,6 +2342,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Olivia Stepien Troy AthensBYE"
           },
           {
@@ -2265,6 +2361,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Bianca Staley Rochester AdamsBYE"
           },
           {
@@ -2283,6 +2380,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "4Kayla Jones Holland West OttawaBYE"
           },
           {
@@ -2301,6 +2399,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Gabriella Farnese RomeoBYE"
           },
           {
@@ -2319,6 +2418,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "5Michelle Lee NorthvilleBYE"
           },
           {
@@ -2337,6 +2437,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Haneesha Padavala OkemosBYE"
           },
           {
@@ -2355,6 +2456,7 @@
                 "school": "Utica Eisenhower"
               }
             ],
+            "winner": null,
             "raw": "BYEAnnabelle Murphy Utica Eisenhower"
           },
           {
@@ -2373,6 +2475,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": null,
             "raw": "BYE6Theodora Andrecia Ann Arbor Huron"
           },
           {
@@ -2398,6 +2501,7 @@
                 "school": "West Bloomfield"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20259:45 am 05/30/2025 @ Byron Center HSAinsley Ohman TroyPuja Ravi West Bloomfield"
           },
           {
@@ -2416,6 +2520,7 @@
                 "school": "Clarkston"
               }
             ],
+            "winner": null,
             "raw": "BYE3Ava Henkel Clarkston"
           },
           {
@@ -2434,6 +2539,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": null,
             "raw": "BYEElla Fix Rockford"
           },
           {
@@ -2452,6 +2558,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": null,
             "raw": "BYEAddison Michalak Rochester Hills Stoney Creek"
           },
           {
@@ -2477,6 +2584,7 @@
                 "school": "Rochester"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20259:45 am 05/30/2025 @ Byron Center HSNastia Dubovoy SalineClaire Shin Rochester"
           },
           {
@@ -2495,6 +2603,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": null,
             "raw": "BYE2Alex Lorenzo Portage Central"
           }
         ]
@@ -2525,6 +2634,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20251:15 pm 05/30/2025 @ Byron Center HS1Rebecca Liu NoviMadeline Baker Bloomfield Hills"
           },
           {
@@ -2550,6 +2660,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:15 am 05/30/2025 @ Byron Center HSOlivia Stepien Troy AthensBianca Staley Rochester Adams"
           },
           {
@@ -2575,6 +2686,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:30 am 05/30/2025 @ Byron Center HS4Kayla Jones Holland West OttawaGabriella Farnese Romeo"
           },
           {
@@ -2600,6 +2712,7 @@
                 "school": "Okemos"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:30 am 05/30/2025 @ Byron Center HS5Michelle Lee NorthvilleHaneesha Padavala Okemos"
           },
           {
@@ -2625,6 +2738,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:30 am 05/30/2025 @ Byron Center HSAnnabelle Murphy Utica Eisenhower6Theodora Andrecia Ann Arbor Huron"
           },
           {
@@ -2650,6 +2764,7 @@
                 "school": "Clarkston"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20251:15 pm 05/30/2025 @ Byron Center HSPuja Ravi West Bloomfield3Ava Henkel Clarkston"
           },
           {
@@ -2675,6 +2790,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:30 am 05/30/2025 @ Byron Center HSElla Fix RockfordAddison Michalak Rochester Hills Stoney Creek"
           },
           {
@@ -2700,6 +2816,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202512:30 pm 05/30/2025 @ Byron Center HSClaire Shin Rochester2Alex Lorenzo Portage Central"
           }
         ]
@@ -2730,6 +2847,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20253:45 pm 05/30/2025 @ Byron Center HS1Rebecca Liu NoviBianca Staley Rochester Adams"
           },
           {
@@ -2755,6 +2873,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20252:15 pm 05/30/2025 @ Byron Center HSGabriella Farnese Romeo5Michelle Lee Northville"
           },
           {
@@ -2780,6 +2899,7 @@
                 "school": "Clarkston"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:45 pm 05/30/2025 @ Byron Center HS6Theodora Andrecia Ann Arbor Huron3Ava Henkel Clarkston"
           },
           {
@@ -2805,6 +2925,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20252:45 pm 05/30/2025 @ Byron Center HSAddison Michalak Rochester Hills Stoney Creek2Alex Lorenzo Portage Central"
           }
         ]
@@ -2835,6 +2956,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS1Rebecca Liu Novi5Michelle Lee Northville"
           },
           {
@@ -2860,6 +2982,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS3Ava Henkel Clarkston2Alex Lorenzo Portage Central"
           }
         ]
@@ -2890,6 +3013,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/202512:00 pm 05/31/2025 @ Byron Center HS1Rebecca Liu Novi2Alex Lorenzo Portage Central"
           }
         ]
@@ -2927,6 +3051,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "1Alice Chen/Rashi Bajpai NoviBYE"
           },
           {
@@ -2960,6 +3085,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSEden Hamilton/Maggie Rothstein Holland West OttawaKatherine Ma/Janaki Nallamothu Ann Arbor Huron"
           },
           {
@@ -2982,6 +3108,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Victoria Weingartz/Emma Rosenow RomeoBYE"
           },
           {
@@ -3004,6 +3131,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Leah Goldstein/Serena Doshi Bloomfield HillsBYE"
           },
           {
@@ -3026,6 +3154,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "4Kate Ketzler/Lana Sloan ClarkstonBYE"
           },
           {
@@ -3048,6 +3177,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Julia Rypma/Maya Gutshall Portage CentralBYE"
           },
           {
@@ -3070,6 +3200,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "5Sofia Gardner/Lauren Volaric Utica EisenhowerBYE"
           },
           {
@@ -3092,6 +3223,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Anna Wang/Sophie Wanstreet TroyBYE"
           },
           {
@@ -3114,6 +3246,7 @@
                 "school": "West Bloomfield"
               }
             ],
+            "winner": null,
             "raw": "BYESara Joyce/Ellena Tomaj West Bloomfield"
           },
           {
@@ -3136,6 +3269,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": null,
             "raw": "BYE6Elita You/Jessica Primus Ann Arbor Pioneer"
           },
           {
@@ -3169,6 +3303,7 @@
                 "school": "Troy Athens"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSStephanie Elwell/Katie Fu Rochester AdamsBhakti Mavanthoor/Isabella Sivuchin Troy Athens"
           },
           {
@@ -3191,6 +3326,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": null,
             "raw": "BYE3Yousong Choi/Larissa Yoshino Rochester Hills Stoney Creek"
           },
           {
@@ -3213,6 +3349,7 @@
                 "school": "Rochester"
               }
             ],
+            "winner": null,
             "raw": "BYEKieran Feldkamp/Carol Brust Arima Rochester"
           },
           {
@@ -3235,6 +3372,7 @@
                 "school": "Okemos"
               }
             ],
+            "winner": null,
             "raw": "BYEChristina Joseph/Joanna Deng Okemos"
           },
           {
@@ -3268,6 +3406,7 @@
                 "school": "Saline"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSJordan Murphy/Grace Xu NorthvilleGabby Engelhardt/Sydney Becker Saline"
           },
           {
@@ -3290,6 +3429,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": null,
             "raw": "BYE2Alayna Gee/Avery Marchlewski Rockford"
           }
         ]
@@ -3328,6 +3468,7 @@
                 "school": "Holland West Ottawa"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:45 am 05/30/2025 @ South Christian HS1Alice Chen/Rashi Bajpai NoviEden Hamilton/Maggie Rothstein Holland West Ottawa"
           },
           {
@@ -3361,6 +3502,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20259:45 am 05/30/2025 @ South Christian HSVictoria Weingartz/Emma Rosenow RomeoLeah Goldstein/Serena Doshi Bloomfield Hills"
           },
           {
@@ -3394,6 +3536,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20259:45 am 05/30/2025 @ South Christian HS4Kate Ketzler/Lana Sloan ClarkstonJulia Rypma/Maya Gutshall Portage Central"
           },
           {
@@ -3427,6 +3570,7 @@
                 "school": "Troy"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20259:45 am 05/30/2025 @ South Christian HS5Sofia Gardner/Lauren Volaric Utica EisenhowerAnna Wang/Sophie Wanstreet Troy"
           },
           {
@@ -3460,6 +3604,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20259:45 am 05/30/2025 @ South Christian HSSara Joyce/Ellena Tomaj West Bloomfield6Elita You/Jessica Primus Ann Arbor Pioneer"
           },
           {
@@ -3493,6 +3638,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:45 am 05/30/2025 @ South Christian HSStephanie Elwell/Katie Fu Rochester Adams3Yousong Choi/Larissa Yoshino Rochester Hills Stoney Creek"
           },
           {
@@ -3526,6 +3672,7 @@
                 "school": "Okemos"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202510:00 am 05/30/2025 @ South Christian HSKieran Feldkamp/Carol Brust Arima RochesterChristina Joseph/Joanna Deng Okemos"
           },
           {
@@ -3559,6 +3706,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:45 am 05/30/2025 @ South Christian HSJordan Murphy/Grace Xu Northville2Alayna Gee/Avery Marchlewski Rockford"
           }
         ]
@@ -3597,6 +3745,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20252:30 pm 05/30/2025 @ South Christian HS1Alice Chen/Rashi Bajpai NoviVictoria Weingartz/Emma Rosenow Romeo"
           },
           {
@@ -3630,6 +3779,7 @@
                 "school": "Utica Eisenhower"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20251:15 pm 05/30/2025 @ South Christian HS4Kate Ketzler/Lana Sloan Clarkston5Sofia Gardner/Lauren Volaric Utica Eisenhower"
           },
           {
@@ -3663,6 +3813,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20252:30 pm 05/30/2025 @ South Christian HS6Elita You/Jessica Primus Ann Arbor PioneerStephanie Elwell/Katie Fu Rochester Adams"
           },
           {
@@ -3696,6 +3847,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20252:30 pm 05/30/2025 @ South Christian HSChristina Joseph/Joanna Deng Okemos2Alayna Gee/Avery Marchlewski Rockford"
           }
         ]
@@ -3734,6 +3886,7 @@
                 "school": "Clarkston"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/20259:30 am 05/31/2025 @ Byron Center HS1Alice Chen/Rashi Bajpai Novi4Kate Ketzler/Lana Sloan Clarkston"
           },
           {
@@ -3767,6 +3920,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/20259:30 am 05/31/2025 @ Byron Center HSStephanie Elwell/Katie Fu Rochester Adams2Alayna Gee/Avery Marchlewski Rockford"
           }
         ]
@@ -3805,6 +3959,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/202512:00 pm 05/31/2025 @ Byron Center HS4Kate Ketzler/Lana Sloan Clarkston2Alayna Gee/Avery Marchlewski Rockford"
           }
         ]
@@ -3842,6 +3997,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "1Alexis Gabriel/Alayna Aamodt Utica EisenhowerBYE"
           },
           {
@@ -3875,6 +4031,7 @@
                 "school": "Troy Athens"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSStella Peng/Adeline Munson Ann Arbor PioneerJinal Patel/Avanthika Hemakumar Troy Athens"
           },
           {
@@ -3897,6 +4054,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Arya Birje/Nisha Yevate RochesterBYE"
           },
           {
@@ -3919,6 +4077,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Alexis Yu/Carissa Hurnevich Bloomfield HillsBYE"
           },
           {
@@ -3941,6 +4100,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "4Kallyn Gaul/Lovelle Kim Holland West OttawaBYE"
           },
           {
@@ -3963,6 +4123,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Aarya Newalker/Helena Tumonis Rochester Hills Stoney CreekBYE"
           },
           {
@@ -3985,6 +4146,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "5Abby Finnerty/Lilly Stephenson ClarkstonBYE"
           },
           {
@@ -4007,6 +4169,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Anisha Khoje/Nishika Subesh OkemosBYE"
           },
           {
@@ -4029,6 +4192,7 @@
                 "school": "Saline"
               }
             ],
+            "winner": null,
             "raw": "BYEEllis Buchanan/Fiona Loverich Saline"
           },
           {
@@ -4051,6 +4215,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": null,
             "raw": "BYE6Isabella Badalamente/Christina Rosenow Romeo"
           },
           {
@@ -4084,6 +4249,7 @@
                 "school": "Rochester Adams"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSLila Costello/Jenna Obeid West BloomfieldAva Hanley/Myah Trame Rochester Adams"
           },
           {
@@ -4106,6 +4272,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": null,
             "raw": "BYE3Lucia Lachapelle/Aadya Pullalarevu Northville"
           },
           {
@@ -4128,6 +4295,7 @@
                 "school": "Troy"
               }
             ],
+            "winner": null,
             "raw": "BYEEmily Zhang/Anastasia Barodka Troy"
           },
           {
@@ -4150,6 +4318,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": null,
             "raw": "BYEMaya Fu/Chelsea Nguyen Ann Arbor Huron"
           },
           {
@@ -4183,6 +4352,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSLila Molitor/Jumana Suleiman Portage CentralLydia Brown/Kayleigh Koster Rockford"
           },
           {
@@ -4205,6 +4375,7 @@
                 "school": "Novi"
               }
             ],
+            "winner": null,
             "raw": "BYE2Kyra Thomas/Samaara George Novi"
           }
         ]
@@ -4243,6 +4414,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:45 am 05/30/2025 @ South Christian HS1Alexis Gabriel/Alayna Aamodt Utica EisenhowerStella Peng/Adeline Munson Ann Arbor Pioneer"
           },
           {
@@ -4276,6 +4448,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202510:00 am 05/30/2025 @ South Christian HSArya Birje/Nisha Yevate RochesterAlexis Yu/Carissa Hurnevich Bloomfield Hills"
           },
           {
@@ -4309,6 +4482,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202510:00 am 05/30/2025 @ South Christian HS4Kallyn Gaul/Lovelle Kim Holland West OttawaAarya Newalker/Helena Tumonis Rochester Hills Stoney Creek"
           },
           {
@@ -4342,6 +4516,7 @@
                 "school": "Okemos"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202510:00 am 05/30/2025 @ South Christian HS5Abby Finnerty/Lilly Stephenson ClarkstonAnisha Khoje/Nishika Subesh Okemos"
           },
           {
@@ -4375,6 +4550,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202510:15 am 05/30/2025 @ South Christian HSEllis Buchanan/Fiona Loverich Saline6Isabella Badalamente/Christina Rosenow Romeo"
           },
           {
@@ -4408,6 +4584,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202512:45 pm 05/30/2025 @ South Christian HSAva Hanley/Myah Trame Rochester Adams3Lucia Lachapelle/Aadya Pullalarevu Northville"
           },
           {
@@ -4441,6 +4618,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202510:15 am 05/30/2025 @ South Christian HSEmily Zhang/Anastasia Barodka TroyMaya Fu/Chelsea Nguyen Ann Arbor Huron"
           },
           {
@@ -4474,6 +4652,7 @@
                 "school": "Novi"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202512:45 pm 05/30/2025 @ South Christian HSLydia Brown/Kayleigh Koster Rockford2Kyra Thomas/Samaara George Novi"
           }
         ]
@@ -4512,6 +4691,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20252:30 pm 05/30/2025 @ South Christian HS1Alexis Gabriel/Alayna Aamodt Utica EisenhowerAlexis Yu/Carissa Hurnevich Bloomfield Hills"
           },
           {
@@ -4545,6 +4725,7 @@
                 "school": "Clarkston"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20251:15 pm 05/30/2025 @ South Christian HS4Kallyn Gaul/Lovelle Kim Holland West Ottawa5Abby Finnerty/Lilly Stephenson Clarkston"
           },
           {
@@ -4578,6 +4759,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:30 pm 05/30/2025 @ South Christian HS6Isabella Badalamente/Christina Rosenow Romeo3Lucia Lachapelle/Aadya Pullalarevu Northville"
           },
           {
@@ -4611,6 +4793,7 @@
                 "school": "Novi"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:30 pm 05/30/2025 @ South Christian HSMaya Fu/Chelsea Nguyen Ann Arbor Huron2Kyra Thomas/Samaara George Novi"
           }
         ]
@@ -4649,6 +4832,7 @@
                 "school": "Holland West Ottawa"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/20259:30 am 05/31/2025 @ Byron Center HS1Alexis Gabriel/Alayna Aamodt Utica Eisenhower4Kallyn Gaul/Lovelle Kim Holland West Ottawa"
           },
           {
@@ -4682,6 +4866,7 @@
                 "school": "Novi"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/20259:30 am 05/31/2025 @ Byron Center HS3Lucia Lachapelle/Aadya Pullalarevu Northville2Kyra Thomas/Samaara George Novi"
           }
         ]
@@ -4720,6 +4905,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/202512:00 pm 05/31/2025 @ Byron Center HS1Alexis Gabriel/Alayna Aamodt Utica Eisenhower3Lucia Lachapelle/Aadya Pullalarevu Northville"
           }
         ]
@@ -4757,6 +4943,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "1Angela Zhang/Hannah Wanstreet TroyBYE"
           },
           {
@@ -4790,6 +4977,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSKayla Fu/Chloe Lin Ann Arbor HuronAnna Wesley/Mary Wesley Romeo"
           },
           {
@@ -4812,6 +5000,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Delaney Brager/Sophia Zhalob West BloomfieldBYE"
           },
           {
@@ -4834,6 +5023,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Aleah Feliu/Olivia Smith Holland West OttawaBYE"
           },
           {
@@ -4856,6 +5046,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "4Elizabeth Bolotov/Maia Bak Rochester AdamsBYE"
           },
           {
@@ -4878,6 +5069,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Carmen Pagilinan/Alexandra Warner SalineBYE"
           },
           {
@@ -4900,6 +5092,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "5Sravya Doppalapudi/Francine Ong NorthvilleBYE"
           },
           {
@@ -4922,6 +5115,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Chandu Ballem/Anaya Patel OkemosBYE"
           },
           {
@@ -4944,6 +5138,7 @@
                 "school": "Clarkston"
               }
             ],
+            "winner": null,
             "raw": "BYEHarper Jones/Lily Haviland Clarkston"
           },
           {
@@ -4966,6 +5161,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": null,
             "raw": "BYE6Arielle Adamczyk/Marissa Ammori Bloomfield Hills"
           },
           {
@@ -4999,6 +5195,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSMatilda Beck/Violet Hunter Portage CentralHalle De Man/Sage Brownwell Rockford"
           },
           {
@@ -5021,6 +5218,7 @@
                 "school": "Utica Eisenhower"
               }
             ],
+            "winner": null,
             "raw": "BYE3Kara Lu/Maria Khami Utica Eisenhower"
           },
           {
@@ -5043,6 +5241,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": null,
             "raw": "BYEMaryn Etheridge/Ayla Altinsel Ann Arbor Pioneer"
           },
           {
@@ -5065,6 +5264,7 @@
                 "school": "Troy Athens"
               }
             ],
+            "winner": null,
             "raw": "BYEIndira Martinez/Julianna Petrous Troy Athens"
           },
           {
@@ -5098,6 +5298,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSOlga Kobita/Hasini Thonta RochesterAudrey Wilburn/Gabby Schramski Rochester Hills Stoney Creek"
           },
           {
@@ -5120,6 +5321,7 @@
                 "school": "Novi"
               }
             ],
+            "winner": null,
             "raw": "BYE2Emily Backus/Sruthi Karthik Novi"
           }
         ]
@@ -5158,6 +5360,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202512:45 pm 05/30/2025 @ South Christian HS1Angela Zhang/Hannah Wanstreet TroyAnna Wesley/Mary Wesley Romeo"
           },
           {
@@ -5191,6 +5394,7 @@
                 "school": "Holland West Ottawa"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202510:15 am 05/30/2025 @ South Christian HSDelaney Brager/Sophia Zhalob West BloomfieldAleah Feliu/Olivia Smith Holland West Ottawa"
           },
           {
@@ -5224,6 +5428,7 @@
                 "school": "Saline"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202510:15 am 05/30/2025 @ South Christian HS4Elizabeth Bolotov/Maia Bak Rochester AdamsCarmen Pagilinan/Alexandra Warner Saline"
           },
           {
@@ -5257,6 +5462,7 @@
                 "school": "Okemos"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:15 am 05/30/2025 @ South Christian HS5Sravya Doppalapudi/Francine Ong NorthvilleChandu Ballem/Anaya Patel Okemos"
           },
           {
@@ -5290,6 +5496,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:15 am 05/30/2025 @ South Christian HSHarper Jones/Lily Haviland Clarkston6Arielle Adamczyk/Marissa Ammori Bloomfield Hills"
           },
           {
@@ -5323,6 +5530,7 @@
                 "school": "Utica Eisenhower"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202512:45 pm 05/30/2025 @ South Christian HSHalle De Man/Sage Brownwell Rockford3Kara Lu/Maria Khami Utica Eisenhower"
           },
           {
@@ -5356,6 +5564,7 @@
                 "school": "Troy Athens"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:15 am 05/30/2025 @ South Christian HSMaryn Etheridge/Ayla Altinsel Ann Arbor PioneerIndira Martinez/Julianna Petrous Troy Athens"
           },
           {
@@ -5389,6 +5598,7 @@
                 "school": "Novi"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20251:00 pm 05/30/2025 @ South Christian HSAudrey Wilburn/Gabby Schramski Rochester Hills Stoney Creek2Emily Backus/Sruthi Karthik Novi"
           }
         ]
@@ -5427,6 +5637,7 @@
                 "school": "Holland West Ottawa"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20253:30 pm 05/30/2025 @ South Christian HS1Angela Zhang/Hannah Wanstreet TroyAleah Feliu/Olivia Smith Holland West Ottawa"
           },
           {
@@ -5460,6 +5671,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20252:00 pm 05/30/2025 @ South Christian HS4Elizabeth Bolotov/Maia Bak Rochester Adams5Sravya Doppalapudi/Francine Ong Northville"
           },
           {
@@ -5493,6 +5705,7 @@
                 "school": "Utica Eisenhower"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:30 pm 05/30/2025 @ South Christian HSHarper Jones/Lily Haviland Clarkston3Kara Lu/Maria Khami Utica Eisenhower"
           },
           {
@@ -5526,6 +5739,7 @@
                 "school": "Novi"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:45 pm 05/30/2025 @ South Christian HSMaryn Etheridge/Ayla Altinsel Ann Arbor Pioneer2Emily Backus/Sruthi Karthik Novi"
           }
         ]
@@ -5564,6 +5778,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS1Angela Zhang/Hannah Wanstreet Troy5Sravya Doppalapudi/Francine Ong Northville"
           },
           {
@@ -5597,6 +5812,7 @@
                 "school": "Novi"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS3Kara Lu/Maria Khami Utica Eisenhower2Emily Backus/Sruthi Karthik Novi"
           }
         ]
@@ -5635,6 +5851,7 @@
                 "school": "Novi"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/202512:00 pm 05/31/2025 @ Byron Center HS5Sravya Doppalapudi/Francine Ong Northville2Sruthi Karthik/Emily Backus Novi"
           }
         ]
@@ -5672,6 +5889,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "1Joanna Ouyang/Monika Camaj Rochester AdamsBYE"
           },
           {
@@ -5705,6 +5923,7 @@
                 "school": "Troy Athens"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSAudrey Anderson/Mallory Paff Holland West OttawaKaavya Vyas/Virali Patel Troy Athens"
           },
           {
@@ -5727,6 +5946,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Jessica Lovy/Manya Goldstein West BloomfieldBYE"
           },
           {
@@ -5749,6 +5969,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Katya Knysh/Ana Wilkins Ann Arbor HuronBYE"
           },
           {
@@ -5771,6 +5992,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "4Emma Murphy/Sophie Ong NorthvilleBYE"
           },
           {
@@ -5793,6 +6015,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Emily Braun/Nayoon Lee Rochester Hills Stoney CreekBYE"
           },
           {
@@ -5815,6 +6038,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "5Audrey Jeon/Aahana Ashok NoviBYE"
           },
           {
@@ -5837,6 +6061,7 @@
                 "type": "bye"
               }
             ],
+            "winner": null,
             "raw": "Lyla Toennessen/Nina Shaye Portage CentralBYE"
           },
           {
@@ -5859,6 +6084,7 @@
                 "school": "Rockford"
               }
             ],
+            "winner": null,
             "raw": "BYECarlie Wegener/Sadie Debski Rockford"
           },
           {
@@ -5881,6 +6107,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": null,
             "raw": "BYE6Hailey Rohrborn/Isabel Andary Romeo"
           },
           {
@@ -5914,6 +6141,7 @@
                 "school": "Okemos"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSAllison Goodrich/Emily Goodrich ClarkstonSujana Chitibomma/Abhi Etikyala Okemos"
           },
           {
@@ -5936,6 +6164,7 @@
                 "school": "Utica Eisenhower"
               }
             ],
+            "winner": null,
             "raw": "BYE3Kayla Harris/Olivia Martinovski Utica Eisenhower"
           },
           {
@@ -5958,6 +6187,7 @@
                 "school": "Bloomfield Hills"
               }
             ],
+            "winner": null,
             "raw": "BYEAdriana Foumia/Jordyn Goldstein Bloomfield Hills"
           },
           {
@@ -5980,6 +6210,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": null,
             "raw": "BYEEmma Korvun/Ellora Kirbat Ann Arbor Pioneer"
           },
           {
@@ -6013,6 +6244,7 @@
                 "school": "Saline"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20258:30 am 05/30/2025 @ South Christian HSGiovanna Serio/Kayla Centofanti RochesterAbby Bryan/Leela Dean Saline"
           },
           {
@@ -6035,6 +6267,7 @@
                 "school": "Troy"
               }
             ],
+            "winner": null,
             "raw": "BYE2Arya Iyer/Janvi Kulchania Troy"
           }
         ]
@@ -6073,6 +6306,7 @@
                 "school": "Holland West Ottawa"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20251:00 pm 05/30/2025 @ South Christian HS1Joanna Ouyang/Monika Camaj Rochester AdamsAudrey Anderson/Mallory Paff Holland West Ottawa"
           },
           {
@@ -6106,6 +6340,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:15 am 05/30/2025 @ South Christian HSJessica Lovy/Manya Goldstein West BloomfieldKatya Knysh/Ana Wilkins Ann Arbor Huron"
           },
           {
@@ -6139,6 +6374,7 @@
                 "school": "Rochester Hills Stoney Creek"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:30 am 05/30/2025 @ South Christian HS4Emma Murphy/Sophie Ong NorthvilleEmily Braun/Nayoon Lee Rochester Hills Stoney Creek"
           },
           {
@@ -6172,6 +6408,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:30 am 05/30/2025 @ South Christian HS5Audrey Jeon/Aahana Ashok NoviLyla Toennessen/Nina Shaye Portage Central"
           },
           {
@@ -6205,6 +6442,7 @@
                 "school": "Romeo"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/202511:30 am 05/30/2025 @ South Christian HSCarlie Wegener/Sadie Debski Rockford6Hailey Rohrborn/Isabel Andary Romeo"
           },
           {
@@ -6238,6 +6476,7 @@
                 "school": "Utica Eisenhower"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20251:00 pm 05/30/2025 @ South Christian HSAllison Goodrich/Emily Goodrich Clarkston3Kayla Harris/Olivia Martinovski Utica Eisenhower"
           },
           {
@@ -6271,6 +6510,7 @@
                 "school": "Ann Arbor Pioneer"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/202511:30 am 05/30/2025 @ South Christian HSAdriana Foumia/Jordyn Goldstein Bloomfield HillsEmma Korvun/Ellora Kirbat Ann Arbor Pioneer"
           },
           {
@@ -6304,6 +6544,7 @@
                 "school": "Troy"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20251:00 pm 05/30/2025 @ South Christian HSAbby Bryan/Leela Dean Saline2Arya Iyer/Janvi Kulchania Troy"
           }
         ]
@@ -6342,6 +6583,7 @@
                 "school": "Ann Arbor Huron"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20253:45 pm 05/30/2025 @ South Christian HS1Joanna Ouyang/Monika Camaj Rochester AdamsKatya Knysh/Ana Wilkins Ann Arbor Huron"
           },
           {
@@ -6375,6 +6617,7 @@
                 "school": "Portage Central"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/30/20252:15 pm 05/30/2025 @ South Christian HS4Emma Murphy/Sophie Ong NorthvilleLyla Toennessen/Nina Shaye Portage Central"
           },
           {
@@ -6408,6 +6651,7 @@
                 "school": "Utica Eisenhower"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:45 pm 05/30/2025 @ South Christian HSCarlie Wegener/Sadie Debski Rockford3Kayla Harris/Olivia Martinovski Utica Eisenhower"
           },
           {
@@ -6441,6 +6685,7 @@
                 "school": "Troy"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/30/20253:45 pm 05/30/2025 @ South Christian HSEmma Korvun/Ellora Kirbat Ann Arbor Pioneer2Arya Iyer/Janvi Kulchania Troy"
           }
         ]
@@ -6479,6 +6724,7 @@
                 "school": "Northville"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS1Joanna Ouyang/Monika Camaj Rochester Adams4Emma Murphy/Sophie Ong Northville"
           },
           {
@@ -6512,6 +6758,7 @@
                 "school": "Troy"
               }
             ],
+            "winner": "bot",
             "raw": "Date:05/31/20258:30 am 05/31/2025 @ Byron Center HS3Kayla Harris/Olivia Martinovski Utica Eisenhower2Arya Iyer/Janvi Kulchania Troy"
           }
         ]
@@ -6550,6 +6797,7 @@
                 "school": "Troy"
               }
             ],
+            "winner": "top",
             "raw": "Date:05/31/202512:00 pm 05/31/2025 @ Byron Center HS4Emma Murphy/Sophie Ong Northville2Arya Iyer/Janvi Kulchania Troy"
           }
         ]

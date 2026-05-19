@@ -8,16 +8,14 @@
 
 import { supabase, supabaseConfigured } from './supabase.js'
 
-const ROW_ID = 1
-
 export { supabaseConfigured }
 
-export async function pullState() {
+export async function pullState(rowId = 1) {
   if (!supabase) return null
   const { data, error } = await supabase
     .from('tennis_state')
     .select('data, updated_at')
-    .eq('id', ROW_ID)
+    .eq('id', rowId)
     .maybeSingle()
   if (error) {
     console.warn('pullState failed:', error.message)
@@ -27,14 +25,13 @@ export async function pullState() {
   return { state: data.data, updatedAt: data.updated_at }
 }
 
-// onChange is called whenever the row updates. Returns an unsubscribe function.
-export function subscribeState(onChange) {
+export function subscribeState(rowId, onChange) {
   if (!supabase) return () => {}
   const channel = supabase
-    .channel('tennis_state_changes')
+    .channel(`tennis_state_changes_${rowId}`)
     .on(
       'postgres_changes',
-      { event: '*', schema: 'public', table: 'tennis_state', filter: `id=eq.${ROW_ID}` },
+      { event: '*', schema: 'public', table: 'tennis_state', filter: `id=eq.${rowId}` },
       (payload) => {
         const next = payload.new?.data
         if (next) onChange({ state: next, updatedAt: payload.new.updated_at })
@@ -44,12 +41,11 @@ export function subscribeState(onChange) {
   return () => { supabase.removeChannel(channel) }
 }
 
-// Direct upsert via anon key. Debounce in caller.
-export async function pushState(state) {
+export async function pushState(rowId, state) {
   if (!supabase) throw new Error('Supabase not configured')
   const { error } = await supabase
     .from('tennis_state')
-    .upsert({ id: ROW_ID, data: state, updated_at: new Date().toISOString() })
+    .upsert({ id: rowId, data: state, updated_at: new Date().toISOString() })
   if (error) throw new Error(`pushState: ${error.message}`)
   return { ok: true }
 }

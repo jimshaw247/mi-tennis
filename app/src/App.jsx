@@ -1,7 +1,8 @@
 import { useEffect, useState, useMemo, useRef } from 'react'
 import { FLIGHTS } from './data/teams.js'
+import { DIVISIONS, DIVISION_BY_ID, readDivisionFromUrl, writeDivisionToUrl } from './data/divisions.js'
 import { FLIGHT_SIZE, MATCH_DEFS } from './lib/bracket.js'
-import { loadState, saveState, defaultState, exportJson, importJson } from './lib/storage.js'
+import { loadState, saveState, defaultState } from './lib/storage.js'
 import { pullState, subscribeState, pushState, supabaseConfigured } from './lib/sync.js'
 import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
@@ -22,68 +23,61 @@ export default function App() {
 }
 
 function AdminApp() {
-  const [state, setState] = useState(() => loadState())
+  const [divisionId, setDivisionId] = useState(() => readDivisionFromUrl())
+  const division = DIVISION_BY_ID[divisionId]
+  // Server is canonical. localStorage is a display-only cache so the screen
+  // isn't blank while the network round-trip runs. We never auto-push local
+  // state back; only explicit user actions (commit) push.
+  const [state, setState] = useState(() => loadState(divisionId))
   const [tab, setTab] = useState('board')
   const [activeFlight, setActiveFlight] = useState('1S')
   const [setupOpen, setSetupOpen] = useState(false)
-  const [syncStatus, setSyncStatus] = useState(supabaseConfigured ? 'idle' : 'offline')
-  const pushTimer = useRef(null)
-  const skipNextPush = useRef(false)
+  const [syncStatus, setSyncStatus] = useState(supabaseConfigured ? 'loading' : 'offline')
 
-  // Always save to localStorage as offline buffer.
-  useEffect(() => { saveState(state) }, [state])
+  // Persist division choice in the URL hash so reloads + sharing work.
+  useEffect(() => { writeDivisionToUrl(divisionId) }, [divisionId])
 
-  // Initial pull: if server has newer data than local, use it. Otherwise push
-  // local up (e.g. fresh seed) to seed the backend.
+  // Passive cache: every render writes the current state to localStorage.
+  // Used as a display fallback on the next mount before pullState resolves.
+  useEffect(() => { saveState(state, divisionId) }, [state, divisionId])
+
+  // On mount / division change: pull from server and subscribe to realtime
+  // updates. No pushes happen automatically.
   useEffect(() => {
-    if (!supabaseConfigured) return
+    setState(loadState(divisionId)) // show cached view immediately
+    if (!supabaseConfigured) { setSyncStatus('offline'); return }
     let cancelled = false
-    pullState().then(res => {
+    setSyncStatus('loading')
+    pullState(division.stateRowId).then(res => {
       if (cancelled) return
-      if (res?.state?.flights) {
-        skipNextPush.current = true
-        setState({ flights: res.state.flights })
-        setSyncStatus('live')
-      } else {
-        // backend empty; push current state up so /view has something to show
-        scheduleAdminPush(state)
-        setSyncStatus('live')
-      }
+      if (res?.state?.flights) setState({ flights: res.state.flights })
+      setSyncStatus('live')
     }).catch(() => setSyncStatus('error'))
-    const unsub = subscribeState(({ state: remote }) => {
-      if (remote?.flights) {
-        skipNextPush.current = true
-        setState({ flights: remote.flights })
-      }
+    const unsub = subscribeState(division.stateRowId, ({ state: remote }) => {
+      if (remote?.flights) setState({ flights: remote.flights })
     })
     return () => { cancelled = true; unsub() }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [divisionId])
 
-  // Debounced push on every local change (skipping echo from a remote update).
-  useEffect(() => {
+  // The single write path. Updates local state and immediately pushes to
+  // server. If push fails, the local update stays (so the user sees their
+  // click), but the badge flips to 'error' until next successful action.
+  async function commit(nextState) {
+    setState(nextState)
     if (!supabaseConfigured) return
-    if (skipNextPush.current) { skipNextPush.current = false; return }
-    scheduleAdminPush(state)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [state])
-
-  function scheduleAdminPush(nextState) {
-    if (pushTimer.current) clearTimeout(pushTimer.current)
-    pushTimer.current = setTimeout(async () => {
-      try {
-        setSyncStatus('pushing')
-        await pushState(nextState)
-        setSyncStatus('live')
-      } catch (e) {
-        console.warn('push failed', e)
-        setSyncStatus('error')
-      }
-    }, 400)
+    try {
+      setSyncStatus('pushing')
+      await pushState(division.stateRowId, nextState)
+      setSyncStatus('live')
+    } catch (e) {
+      console.warn('push failed', e)
+      setSyncStatus('error')
+    }
   }
 
   const updateFlight = (next) => {
-    setState(s => ({ ...s, flights: s.flights.map(f => f.id === next.id ? next : f) }))
+    commit({ ...state, flights: state.flights.map(f => f.id === next.id ? next : f) })
   }
 
   const flight = state.flights.find(f => f.id === activeFlight)
@@ -94,28 +88,11 @@ function AdminApp() {
 
   const resetAll = () => {
     if (!confirm('Reset all match results AND draws? This cannot be undone.')) return
-    setState(defaultState())
+    commit(defaultState())
   }
   const resetResults = () => {
     if (!confirm('Reset all match results? Draws stay.')) return
-    setState(s => ({ ...s, flights: s.flights.map(f => ({ ...f, winners: {} })) }))
-  }
-  const doExport = () => {
-    const blob = new Blob([exportJson(state)], { type: 'application/json' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url; a.download = 'regional-state.json'
-    a.click()
-    URL.revokeObjectURL(url)
-  }
-  const doImport = async (file) => {
-    if (!file) return
-    try {
-      const txt = await file.text()
-      setState(importJson(txt))
-    } catch (e) {
-      alert('Import failed: ' + e.message)
-    }
+    commit({ ...state, flights: state.flights.map(f => ({ ...f, winners: {} })) })
   }
 
   return (
@@ -123,7 +100,7 @@ function AdminApp() {
       <header className="sticky top-0 z-10 bg-slate-950/95 border-b border-slate-800 backdrop-blur">
         <div className="px-3 py-2 flex items-center justify-between">
           <div>
-            <div className="text-sm font-bold tracking-tight">MHSAA D1 Girls State Finals</div>
+            <div className="text-sm font-bold tracking-tight">MHSAA {divisionId} Girls State Finals</div>
             <div className="text-[10px] text-slate-400 flex items-center gap-2">
               <span>32-draw · 8 flights</span>
               <SyncBadge status={syncStatus} />
@@ -141,6 +118,20 @@ function AdminApp() {
               >{t.label}</button>
             ))}
           </div>
+        </div>
+        <div className="px-2 pb-2 flex gap-1">
+          {DIVISIONS.map(d => (
+            <button
+              key={d.id}
+              onClick={() => setDivisionId(d.id)}
+              className={[
+                'px-2.5 py-1 rounded text-[11px] font-semibold uppercase tracking-wider',
+                divisionId === d.id ? 'bg-amber-600 text-white' : 'bg-slate-800 text-slate-300',
+                !d.available ? 'opacity-60' : '',
+              ].join(' ')}
+              title={d.available ? '' : 'Bracket URL not yet configured for this division'}
+            >{d.label}{!d.available && ' •'}</button>
+          ))}
         </div>
         {tab === 'flights' && (
           <div className="px-2 pb-2 grid grid-cols-4 gap-1">
@@ -204,15 +195,9 @@ function AdminApp() {
       </main>
 
       <footer className="p-3 border-t border-slate-800 flex flex-wrap gap-2 text-xs">
-        <button onClick={doExport} className="px-2 py-1 rounded bg-slate-800 border border-slate-700">Export</button>
-        <label className="px-2 py-1 rounded bg-slate-800 border border-slate-700 cursor-pointer">
-          Import
-          <input type="file" accept="application/json" className="hidden"
-            onChange={e => doImport(e.target.files?.[0])} />
-        </label>
         <button onClick={resetResults} className="px-2 py-1 rounded bg-slate-800 border border-slate-700">Reset results</button>
         <button onClick={resetAll} className="px-2 py-1 rounded bg-red-900/40 border border-red-700/60 text-red-200">Reset all</button>
-        <SyncButton currentState={state} onApply={(merged) => setState(merged)} />
+        <SyncButton currentState={state} onApply={(merged) => commit(merged)} />
         <button onClick={logout} className="ml-auto px-2 py-1 rounded bg-slate-800 border border-slate-700">Lock</button>
       </footer>
     </div>
