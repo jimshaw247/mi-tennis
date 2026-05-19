@@ -19,8 +19,9 @@ export function loadState(divisionId = 'D1') {
 }
 
 // `meta.source` describes WHERE the visible data came from so the status
-// indicator can show it accurately:
-//   'live'  — real 2026 tournament data (user explicitly marked it)
+// indicator can show it accurately. The future 2026 sync button will set
+// this to 'live' when it pulls real bracket data.
+//   'live'  — real 2026 tournament data (set by the 2026 scraper)
 //   '2025'  — last year's seeded entries (the default until 2026 starts)
 //   'test'  — random test data from the Load Test buttons
 export function normalizeMeta(m) {

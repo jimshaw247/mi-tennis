@@ -97,10 +97,10 @@ export default function Bracket({ flight, onUpdate, readonly }) {
   const colTemplate = `repeat(${colCount}, minmax(180px, 1fr))`
 
   return (
-    <div className="overflow-auto border border-slate-800 rounded-lg bg-slate-950 max-h-[calc(100vh-220px)]">
+    <div className="overflow-x-auto border border-slate-800 rounded-lg bg-slate-950">
       <div style={{ minWidth: `${colCount * 200}px` }}>
         <div
-          className="sticky top-0 z-10 bg-slate-950/95 backdrop-blur grid gap-x-2 border-b border-slate-800 px-2"
+          className="grid gap-x-2 border-b border-slate-800 px-2 bg-slate-950"
           style={{ gridTemplateColumns: colTemplate }}
         >
           {ROUND_DEFS.map(r => (

@@ -77,10 +77,6 @@ function AdminApp() {
     }
   }
 
-  const markAsLive = () => {
-    if (!confirm('Mark current data as the 2026 live tournament? The board status will switch to "Live".')) return
-    commit({ ...state, meta: { ...(state.meta || {}), source: 'live' } })
-  }
 
   const updateFlight = (next) => {
     commit({ ...state, flights: state.flights.map(f => f.id === next.id ? next : f) })
@@ -219,10 +215,6 @@ function AdminApp() {
           className="px-2 py-1 rounded bg-purple-900/40 border border-purple-700/60 text-purple-200">Load Test B</button>
         <button onClick={load2025Final}
           className="px-2 py-1 rounded bg-sky-900/40 border border-sky-700/60 text-sky-200">Load 2025 Final</button>
-        {state.meta?.source !== 'live' && (
-          <button onClick={markAsLive}
-            className="px-2 py-1 rounded bg-emerald-900/40 border border-emerald-700/60 text-emerald-200">Mark as 2026 Live</button>
-        )}
         <button onClick={logout} className="ml-auto px-2 py-1 rounded bg-slate-800 border border-slate-700">Lock</button>
       </footer>
     </div>
