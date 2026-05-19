@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T17:11:54.755Z",
+  "generatedAt": "2026-05-19T17:30:29.446Z",
   "notes": "Bradley-Terry MM ratings per flight, 28-day half-life recency, MOV weighting. Win probability uses 400-pt Elo-like spread.",
   "flights": {
     "1S": {
@@ -796,6 +796,14 @@
             "pastStateFinals": [],
             "regional": "r06_utica_eisenhower",
             "regionalName": "Regional 6-Utica Eisenhower"
+          },
+          "regularStarter": {
+            "name": "Gabriella  Sadowski",
+            "matches": 13,
+            "won": 13,
+            "lost": 0,
+            "rating": 1744.9937040111042,
+            "sosRating": 1624.6041948257232
           }
         }
       ]
@@ -1581,6 +1589,14 @@
             "pastStateFinals": [],
             "regional": "r07_rochester_adams",
             "regionalName": "Regional 7-Rochester Adams"
+          },
+          "regularStarter": {
+            "name": "Lana Sloan",
+            "matches": 16,
+            "won": 9,
+            "lost": 7,
+            "rating": 1572.111172969082,
+            "sosRating": 1567.896904027526
           }
         },
         {
@@ -2565,6 +2581,9 @@
             ],
             "regional": "r06_utica_eisenhower",
             "regionalName": "Regional 6-Utica Eisenhower"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -2597,6 +2616,9 @@
             "pastStateFinals": [],
             "regional": "r02_novi",
             "regionalName": "Regional 2-Novi"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -2852,6 +2874,9 @@
             "pastStateFinals": [],
             "regional": "r03_ann_arbor_pioneer",
             "regionalName": "Regional 3-Ann Arbor Pioneer"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -2884,6 +2909,9 @@
             "pastStateFinals": [],
             "regional": "r03_ann_arbor_pioneer",
             "regionalName": "Regional 3-Ann Arbor Pioneer"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -2948,6 +2976,9 @@
             "pastStateFinals": [],
             "regional": "r02_novi",
             "regionalName": "Regional 2-Novi"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -2980,6 +3011,9 @@
             "pastStateFinals": [],
             "regional": "r01_holland_west_ottawa",
             "regionalName": "Regional 1-Holland West Ottawa"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -3012,6 +3046,9 @@
             "pastStateFinals": [],
             "regional": "r08_holt",
             "regionalName": "Regional 8-Holt"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -3044,6 +3081,9 @@
             "pastStateFinals": [],
             "regional": "r04_west_bloomfield",
             "regionalName": "Regional 4-West Bloomfield"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -3076,6 +3116,9 @@
             "pastStateFinals": [],
             "regional": "r07_rochester_adams",
             "regionalName": "Regional 7-Rochester Adams"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -3113,6 +3156,9 @@
             ],
             "regional": "r08_holt",
             "regionalName": "Regional 8-Holt"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -3145,6 +3191,9 @@
             "pastStateFinals": [],
             "regional": "r04_west_bloomfield",
             "regionalName": "Regional 4-West Bloomfield"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -3182,6 +3231,9 @@
             ],
             "regional": "r03_ann_arbor_pioneer",
             "regionalName": "Regional 3-Ann Arbor Pioneer"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -3214,6 +3266,9 @@
             "pastStateFinals": [],
             "regional": "r05_troy",
             "regionalName": "Regional 5-Troy"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -3246,6 +3301,9 @@
             "pastStateFinals": [],
             "regional": "r07_rochester_adams",
             "regionalName": "Regional 7-Rochester Adams"
+          },
+          "regularStarter": {
+            "noData": true
           }
         }
       ]
@@ -3858,6 +3916,14 @@
             "pastStateFinals": [],
             "regional": "r04_west_bloomfield",
             "regionalName": "Regional 4-West Bloomfield"
+          },
+          "regularStarter": {
+            "name": "Gabriela Stakvel / Sonali  Shah",
+            "matches": 11,
+            "won": 10,
+            "lost": 1,
+            "rating": 1633.478128414727,
+            "sosRating": 1490.601613351024
           }
         },
         {
@@ -5667,6 +5733,14 @@
             "pastStateFinals": [],
             "regional": "r04_west_bloomfield",
             "regionalName": "Regional 4-West Bloomfield"
+          },
+          "regularStarter": {
+            "name": "Gaia DeMeester / Kate Martin",
+            "matches": 11,
+            "won": 11,
+            "lost": 0,
+            "rating": 1660.9602059840572,
+            "sosRating": 1477.0376802132635
           }
         },
         {
@@ -5809,6 +5883,14 @@
             ],
             "regional": "r06_utica_eisenhower",
             "regionalName": "Regional 6-Utica Eisenhower"
+          },
+          "regularStarter": {
+            "name": "Olivia Martinovski / Katarina Djordjevic",
+            "matches": 5,
+            "won": 2,
+            "lost": 3,
+            "rating": 1516.097836391959,
+            "sosRating": 1621.8209903592422
           }
         },
         {
@@ -6003,6 +6085,9 @@
             ],
             "regional": "r03_ann_arbor_pioneer",
             "regionalName": "Regional 3-Ann Arbor Pioneer"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6079,6 +6164,9 @@
             ],
             "regional": "r06_utica_eisenhower",
             "regionalName": "Regional 6-Utica Eisenhower"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6150,6 +6238,9 @@
             "pastStateFinals": [],
             "regional": "r08_holt",
             "regionalName": "Regional 8-Holt"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6238,6 +6329,9 @@
             ],
             "regional": "r08_holt",
             "regionalName": "Regional 8-Holt"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6337,6 +6431,9 @@
             "pastStateFinals": [],
             "regional": "r01_holland_west_ottawa",
             "regionalName": "Regional 1-Holland West Ottawa"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6375,6 +6472,9 @@
             ],
             "regional": "r03_ann_arbor_pioneer",
             "regionalName": "Regional 3-Ann Arbor Pioneer"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6408,6 +6508,9 @@
             "pastStateFinals": [],
             "regional": "r06_utica_eisenhower",
             "regionalName": "Regional 6-Utica Eisenhower"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6441,6 +6544,9 @@
             "pastStateFinals": [],
             "regional": "r04_west_bloomfield",
             "regionalName": "Regional 4-West Bloomfield"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6474,6 +6580,9 @@
             "pastStateFinals": [],
             "regional": "r07_rochester_adams",
             "regionalName": "Regional 7-Rochester Adams"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6507,6 +6616,9 @@
             "pastStateFinals": [],
             "regional": "r01_holland_west_ottawa",
             "regionalName": "Regional 1-Holland West Ottawa"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6545,6 +6657,9 @@
             ],
             "regional": "r07_rochester_adams",
             "regionalName": "Regional 7-Rochester Adams"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6583,6 +6698,9 @@
             ],
             "regional": "r05_troy",
             "regionalName": "Regional 5-Troy"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6621,6 +6739,9 @@
             ],
             "regional": "r04_west_bloomfield",
             "regionalName": "Regional 4-West Bloomfield"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6654,6 +6775,9 @@
             "pastStateFinals": [],
             "regional": "r05_troy",
             "regionalName": "Regional 5-Troy"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6692,6 +6816,9 @@
             ],
             "regional": "r04_west_bloomfield",
             "regionalName": "Regional 4-West Bloomfield"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         {
@@ -6725,6 +6852,9 @@
             "pastStateFinals": [],
             "regional": "r07_rochester_adams",
             "regionalName": "Regional 7-Rochester Adams"
+          },
+          "regularStarter": {
+            "noData": true
           }
         }
       ]
@@ -10260,6 +10390,14 @@
             "pastStateFinals": [],
             "regional": "r07_rochester_adams",
             "regionalName": "Regional 7-Rochester Adams"
+          },
+          "regularStarter": {
+            "name": "Lana Sloan",
+            "matches": 16,
+            "won": 9,
+            "lost": 7,
+            "rating": 1572.111172969082,
+            "sosRating": 1567.896904027526
           }
         },
         "fieldSize": 22,
@@ -10757,6 +10895,9 @@
             "pastStateFinals": [],
             "regional": "r07_rochester_adams",
             "regionalName": "Regional 7-Rochester Adams"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         "fieldSize": 22,
@@ -11755,6 +11896,9 @@
             "pastStateFinals": [],
             "regional": "r07_rochester_adams",
             "regionalName": "Regional 7-Rochester Adams"
+          },
+          "regularStarter": {
+            "noData": true
           }
         },
         "fieldSize": 22,

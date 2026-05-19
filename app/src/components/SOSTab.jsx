@@ -31,7 +31,7 @@ export default function SOSTab() {
         Pooling all 4 singles flights into one rating universe means a player who flexed between 1S/2S/3S during the season is rated from <i>all</i> her matches; MHSAA flight-stay rules anchor her to her regional flight at state finals.
       </div>
       <div className="flex flex-wrap gap-1">
-        {[['teams','Team Power'],['flight','Flight Rankings'],['clarkston','Clarkston'],['upsets','Upset Watch']].map(([k, label]) => (
+        {[['teams','Team Power'],['flight','Flight Rankings'],['clarkston','Clarkston'],['lineup','Lineup Watch'],['upsets','Upset Watch']].map(([k, label]) => (
           <button key={k} onClick={() => setView(k)}
             className={`px-2.5 py-1 rounded text-[11px] font-semibold uppercase tracking-wider ${view===k ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'}`}>
             {label}
@@ -42,6 +42,7 @@ export default function SOSTab() {
       {view === 'teams' && <TeamsView data={data} sortKey={sortKey} setSortKey={setSortKey} sortAsc={sortAsc} setSortAsc={setSortAsc} q={q} setQ={setQ} />}
       {view === 'flight' && <FlightView data={data} flight={flight} setFlight={setFlight} q={q} setQ={setQ} />}
       {view === 'clarkston' && <ClarkstonView data={data} />}
+      {view === 'lineup' && <LineupWatchView data={data} />}
       {view === 'upsets' && <UpsetsView data={data} />}
     </div>
   )
@@ -155,17 +156,27 @@ function FlightView({ data, flight, setFlight, q, setQ }) {
             </tr>
           </thead>
           <tbody>
-            {rows.map(r => (
-              <tr key={r.name + r.schoolId} className={`border-t border-slate-800 ${r.schoolId === HIGHLIGHT ? 'bg-blue-900/30' : ''}`}>
-                <td className="px-1.5 py-1.5">{r.rank}</td>
-                <td className="px-1.5 py-1.5">{r.name}</td>
-                <td className="px-1.5 py-1.5 text-slate-300">{r.schoolName}</td>
-                <td className="px-1.5 py-1.5 text-right"><RatingCell rating={r.rating} source={r.ratingSource} /></td>
-                <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{r.sosRating}</td>
-                <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{r.matchCountAtFlight ?? '—'}<span className="text-slate-600">/{r.matchCount ?? 0}</span></td>
-                <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{r.regionalSeed ?? '—'}</td>
-              </tr>
-            ))}
+            {rows.map(r => {
+              const swap = r.regularStarter && !r.regularStarter.noData
+              return (
+                <tr key={r.name + r.schoolId} className={`border-t border-slate-800 ${r.schoolId === HIGHLIGHT ? 'bg-blue-900/30' : ''}`}>
+                  <td className="px-1.5 py-1.5 align-top">{r.rank}</td>
+                  <td className="px-1.5 py-1.5 align-top">
+                    <div>{r.name}</div>
+                    {swap && (
+                      <div className="text-[10px] text-amber-300 mt-0.5" title="Regular dual-meet starter differs from regional qualifier">
+                        ↔ regular: {r.regularStarter.name} ({r.regularStarter.rating}, {r.regularStarter.matches}x {r.regularStarter.record})
+                      </div>
+                    )}
+                  </td>
+                  <td className="px-1.5 py-1.5 text-slate-300 align-top">{r.schoolName}</td>
+                  <td className="px-1.5 py-1.5 text-right align-top"><RatingCell rating={r.rating} source={r.ratingSource} /></td>
+                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400 align-top">{r.sosRating}</td>
+                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400 align-top">{r.matchCountAtFlight ?? '—'}<span className="text-slate-600">/{r.matchCount ?? 0}</span></td>
+                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400 align-top">{r.regionalSeed ?? '—'}</td>
+                </tr>
+              )
+            })}
           </tbody>
         </table>
       </div>
@@ -191,7 +202,12 @@ function ClarkstonView({ data }) {
         <span className="text-amber-400"> *</span> after a rating means it's a fallback (no season matches at that flight — likely a late JV/freshman call-up).
       </div>
       <div className="space-y-2">
-        {c.flights.map(f => (
+        {c.flights.map(f => {
+          const fdata = data.flights?.[f.flight]
+          const ours = fdata?.qualifiers?.find(q => q.schoolId === HIGHLIGHT)
+          const swap = ours?.regularStarter && !ours.regularStarter.noData
+          const noLineup = ours?.regularStarter?.noData
+          return (
           <div key={f.flight} className="rounded-lg border border-slate-700 bg-slate-900/40 p-2">
             <div className="flex items-baseline justify-between">
               <div className="text-sm font-semibold">{f.flightLabel} · {f.flight}</div>
@@ -201,7 +217,21 @@ function ClarkstonView({ data }) {
                 <div className="text-[11px] text-slate-500 italic">no Clarkston qualifier</div>
               )}
             </div>
-            {f.ours && (
+            {swap && (
+              <div className="mt-1 text-[11px] bg-amber-900/20 border border-amber-700/40 rounded px-2 py-1">
+                <span className="text-amber-300 font-semibold">Likely sub:</span>{' '}
+                regional qualifier <span className="font-semibold">{f.ours.name}</span> isn't your dual-meet starter.
+                Regular starter <span className="text-emerald-300">{ours.regularStarter.name}</span> rates{' '}
+                <span className="font-mono text-emerald-200">{ours.regularStarter.rating}</span>
+                {' '}({ours.regularStarter.matches} matches, {ours.regularStarter.record}).
+              </div>
+            )}
+            {noLineup && (
+              <div className="mt-1 text-[11px] bg-slate-900/40 border border-slate-700 rounded px-2 py-1 text-slate-400">
+                No regular {f.flight} lineup found in season data — Clarkston didn't field a {f.flight} pair in dual meets.
+              </div>
+            )}
+            {f.ours && !swap && !noLineup && (
               <div className="mt-2 grid grid-cols-1 md:grid-cols-2 gap-2 text-[12px]">
                 <div>
                   <div className="text-[10px] uppercase text-slate-500 mb-1">Toughest matchups</div>
@@ -224,7 +254,7 @@ function ClarkstonView({ data }) {
               </div>
             )}
           </div>
-        ))}
+        )})}
       </div>
 
       {(c.bestWins?.length || c.worstLosses?.length) && (
@@ -253,6 +283,71 @@ function ClarkstonView({ data }) {
           </div>
         </div>
       )}
+    </div>
+  )
+}
+
+function LineupWatchView({ data }) {
+  const mismatches = []
+  for (const fid of Object.keys(data.flights || {})) {
+    for (const q of data.flights[fid].qualifiers) {
+      if (q.regularStarter && !q.regularStarter.noData) {
+        mismatches.push({ flight: fid, ...q })
+      }
+    }
+  }
+  mismatches.sort((a, b) => {
+    // Biggest swap by rating delta first.
+    const dA = Math.abs((a.regularStarter.rating ?? 0) - a.rating)
+    const dB = Math.abs((b.regularStarter.rating ?? 0) - b.rating)
+    return dB - dA
+  })
+  return (
+    <div className="space-y-2">
+      <div className="text-[11px] text-slate-300 leading-relaxed bg-slate-900/40 border border-slate-700 rounded p-2">
+        Players who qualified through regionals but aren't their team's regular dual-meet starter at that flight.
+        These are <span className="text-amber-300">candidates for approved subs</span> — the regional entry will
+        play state finals unless MHSAA grants a substitution. <span className="text-emerald-300">The "regular" rating
+        shows what the field would look like if this team fielded its normal lineup.</span> When the seeded draw is
+        posted (~ May 25) these should reconcile.
+      </div>
+      <div className="text-[11px] text-slate-400">{mismatches.length} mismatches found across all schools / flights.</div>
+      <div className="overflow-x-auto rounded-lg border border-slate-800">
+        <table className="w-full text-sm">
+          <thead className="bg-slate-900/60">
+            <tr>
+              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">Flt</th>
+              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">School</th>
+              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">Regional qualifier</th>
+              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">Qual rating</th>
+              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">Regular starter (dual meets)</th>
+              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">Reg rating</th>
+              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">Δ</th>
+            </tr>
+          </thead>
+          <tbody>
+            {mismatches.map((m, i) => {
+              const delta = (m.regularStarter.rating ?? 0) - m.rating
+              return (
+                <tr key={i} className={`border-t border-slate-800 ${m.schoolId === HIGHLIGHT ? 'bg-blue-900/30' : ''}`}>
+                  <td className="px-1.5 py-1.5 font-mono">{m.flight}</td>
+                  <td className="px-1.5 py-1.5">{m.schoolName}</td>
+                  <td className="px-1.5 py-1.5">{m.name}</td>
+                  <td className="px-1.5 py-1.5 font-mono text-right">{m.rating}</td>
+                  <td className="px-1.5 py-1.5 text-emerald-200">
+                    {m.regularStarter.name}
+                    <span className="text-slate-500 text-[11px]"> · {m.regularStarter.matches}x {m.regularStarter.record}</span>
+                  </td>
+                  <td className="px-1.5 py-1.5 font-mono text-right text-emerald-200">{m.regularStarter.rating}</td>
+                  <td className={`px-1.5 py-1.5 font-mono text-right ${delta > 0 ? 'text-emerald-300' : 'text-amber-300'}`}>
+                    {delta > 0 ? '+' : ''}{delta}
+                  </td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }

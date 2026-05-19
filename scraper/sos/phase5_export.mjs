@@ -140,6 +140,70 @@ function ensureAllQualifiersRated() {
   }
 }
 ensureAllQualifiersRated()
+
+// === Regular starter inference ===
+// For each (schoolId, flightId), find the most-frequent player or pair across
+// dual-meet matches this season. If that differs from the regional qualifier
+// the school sent at that flight, the qualifier is likely an approved sub —
+// flag it and attach the regular starter's pool rating so the UI can show
+// "what this team would look like with its regular lineup".
+const regularStarterByKey = {}  // `${schoolId}|${fid}` -> { key, name, matches, won, lost, ratingFromPool }
+{
+  const FLIGHT_ALL = ['1S','2S','3S','4S','1D','2D','3D','4D']
+  // For each school + flight, count appearances by player/pair key.
+  for (const sid of Object.keys(phase2.perSchool)) {
+    const schoolMatches = phase2.perSchool[sid].matches
+    for (const fid of FLIGHT_ALL) {
+      const flightChar = fid.endsWith('D') ? 'D' : 'S'
+      const flightNum = fid[0]
+      const candidates = new Map()
+      for (const m of schoolMatches) {
+        const mDisc = m.matchType === 'Doubles' ? 'D' : 'S'
+        if (mDisc !== flightChar || m.flight !== flightNum) continue
+        const us = m.sides.find(s => s.players.some(p => p.schoolId === Number(sid)))
+        if (!us || !us.players.length) continue
+        const key = us.players.map(p => p.playerId).sort().join('-')
+        if (!candidates.has(key)) candidates.set(key, { key, name: us.players.map(p => p.name).join(' / '), playerIds: us.players.map(p => p.playerId), matches: 0, won: 0, lost: 0 })
+        const c = candidates.get(key)
+        c.matches++
+        if (us.isWinner) c.won++; else c.lost++
+      }
+      if (candidates.size === 0) continue
+      const top = [...candidates.values()].sort((a, b) => b.matches - a.matches)[0]
+      // Look up pool rating
+      const disc = flightChar
+      const poolRow = (phase4.byPool[disc]?.ratings || []).find(r => r.key === top.key)
+      regularStarterByKey[`${sid}|${fid}`] = {
+        ...top,
+        rating: poolRow?.rating ?? null,
+        sosRating: poolRow?.sosRating ?? null,
+      }
+    }
+  }
+}
+
+// Attach regularStarter to each qualifier row when the qualifier's key
+// differs from the inferred regular starter.
+for (const fid of FLIGHTS) {
+  const list = phase4.qualifiers[fid] || []
+  for (const q of list) {
+    const reg = regularStarterByKey[`${q.schoolId}|${fid}`]
+    if (!reg) {
+      q.regularStarter = { noData: true }
+      continue
+    }
+    if (reg.key === q.key) continue  // qualifier IS the regular starter
+    q.regularStarter = {
+      name: reg.name,
+      matches: reg.matches,
+      won: reg.won,
+      lost: reg.lost,
+      rating: reg.rating,
+      sosRating: reg.sosRating,
+    }
+  }
+}
+
 buildTeamPower() // populates teamPower / teamOrder / teamRankByAvg
 
 // === Clarkston deep dive ===
@@ -291,6 +355,17 @@ slim.flights = Object.fromEntries(Object.entries(payload.flights).map(([fid, d])
     matchCount: q.matchCount,
     matchCountAtFlight: q.matchCountAtFlight ?? null,
     ratingSource: q.ratingSource || 'season',
+    regularStarter: q.regularStarter
+      ? (q.regularStarter.noData
+          ? { noData: true }
+          : {
+              name: q.regularStarter.name,
+              matches: q.regularStarter.matches,
+              record: `${q.regularStarter.won}-${q.regularStarter.lost}`,
+              rating: q.regularStarter.rating != null ? Math.round(q.regularStarter.rating) : null,
+              sosRating: q.regularStarter.sosRating != null ? Math.round(q.regularStarter.sosRating) : null,
+            })
+      : null,
   })),
 }]))
 slim.teamRanking = payload.teamRanking.map(t => ({

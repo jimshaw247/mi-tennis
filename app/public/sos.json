@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T17:11:54.755Z",
+  "generatedAt": "2026-05-19T17:30:29.446Z",
   "notes": "Bradley-Terry MM ratings per flight, 28-day half-life recency, MOV weighting. Win probability uses 400-pt Elo-like spread.",
   "flights": {
     "1S": {
@@ -20,7 +20,8 @@
           "pastStateFinals": 0,
           "matchCount": 12,
           "matchCountAtFlight": 14,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 2,
@@ -36,7 +37,8 @@
           "pastStateFinals": 1,
           "matchCount": 17,
           "matchCountAtFlight": 17,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 3,
@@ -52,7 +54,8 @@
           "pastStateFinals": 2,
           "matchCount": 20,
           "matchCountAtFlight": 20,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 4,
@@ -68,7 +71,8 @@
           "pastStateFinals": 1,
           "matchCount": 12,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 5,
@@ -84,7 +88,8 @@
           "pastStateFinals": 3,
           "matchCount": 14,
           "matchCountAtFlight": 14,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 6,
@@ -100,7 +105,8 @@
           "pastStateFinals": 0,
           "matchCount": 22,
           "matchCountAtFlight": 22,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 7,
@@ -116,7 +122,8 @@
           "pastStateFinals": 0,
           "matchCount": 17,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 8,
@@ -132,7 +139,8 @@
           "pastStateFinals": 1,
           "matchCount": 17,
           "matchCountAtFlight": 18,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 9,
@@ -148,7 +156,8 @@
           "pastStateFinals": 1,
           "matchCount": 19,
           "matchCountAtFlight": 19,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 10,
@@ -164,7 +173,8 @@
           "pastStateFinals": 0,
           "matchCount": 16,
           "matchCountAtFlight": 17,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 11,
@@ -180,7 +190,8 @@
           "pastStateFinals": 2,
           "matchCount": 20,
           "matchCountAtFlight": 20,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 12,
@@ -196,7 +207,8 @@
           "pastStateFinals": 2,
           "matchCount": 16,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 13,
@@ -212,7 +224,8 @@
           "pastStateFinals": 2,
           "matchCount": 16,
           "matchCountAtFlight": 17,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 14,
@@ -228,7 +241,8 @@
           "pastStateFinals": 0,
           "matchCount": 16,
           "matchCountAtFlight": 17,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 15,
@@ -244,7 +258,8 @@
           "pastStateFinals": 2,
           "matchCount": 19,
           "matchCountAtFlight": 19,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 16,
@@ -260,7 +275,8 @@
           "pastStateFinals": 0,
           "matchCount": 14,
           "matchCountAtFlight": 19,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 17,
@@ -276,7 +292,8 @@
           "pastStateFinals": 0,
           "matchCount": 19,
           "matchCountAtFlight": 19,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 18,
@@ -292,7 +309,8 @@
           "pastStateFinals": 1,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 19,
@@ -308,7 +326,8 @@
           "pastStateFinals": 0,
           "matchCount": 15,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 20,
@@ -324,7 +343,8 @@
           "pastStateFinals": 0,
           "matchCount": 14,
           "matchCountAtFlight": 14,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 21,
@@ -340,7 +360,8 @@
           "pastStateFinals": 1,
           "matchCount": 11,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 22,
@@ -356,7 +377,14 @@
           "pastStateFinals": 0,
           "matchCount": 4,
           "matchCountAtFlight": 4,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "name": "Gabriella  Sadowski",
+            "matches": 13,
+            "record": "13-0",
+            "rating": 1745,
+            "sosRating": 1625
+          }
         }
       ]
     },
@@ -378,7 +406,8 @@
           "pastStateFinals": 1,
           "matchCount": 11,
           "matchCountAtFlight": 9,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 2,
@@ -394,7 +423,8 @@
           "pastStateFinals": 0,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 3,
@@ -410,7 +440,8 @@
           "pastStateFinals": 2,
           "matchCount": 10,
           "matchCountAtFlight": 10,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 4,
@@ -426,7 +457,8 @@
           "pastStateFinals": 2,
           "matchCount": 15,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 5,
@@ -442,7 +474,8 @@
           "pastStateFinals": 2,
           "matchCount": 11,
           "matchCountAtFlight": 11,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 6,
@@ -458,7 +491,8 @@
           "pastStateFinals": 1,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 7,
@@ -474,7 +508,8 @@
           "pastStateFinals": 3,
           "matchCount": 8,
           "matchCountAtFlight": 8,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 8,
@@ -490,7 +525,8 @@
           "pastStateFinals": 3,
           "matchCount": 17,
           "matchCountAtFlight": 17,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 9,
@@ -506,7 +542,8 @@
           "pastStateFinals": 2,
           "matchCount": 15,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 10,
@@ -522,7 +559,8 @@
           "pastStateFinals": 2,
           "matchCount": 7,
           "matchCountAtFlight": 7,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 11,
@@ -538,7 +576,8 @@
           "pastStateFinals": 0,
           "matchCount": 13,
           "matchCountAtFlight": 14,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 12,
@@ -554,7 +593,8 @@
           "pastStateFinals": 2,
           "matchCount": 19,
           "matchCountAtFlight": 19,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 13,
@@ -570,7 +610,8 @@
           "pastStateFinals": 0,
           "matchCount": 17,
           "matchCountAtFlight": 17,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 14,
@@ -586,7 +627,8 @@
           "pastStateFinals": 0,
           "matchCount": 12,
           "matchCountAtFlight": 11,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 15,
@@ -602,7 +644,8 @@
           "pastStateFinals": 2,
           "matchCount": 14,
           "matchCountAtFlight": 11,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 16,
@@ -618,7 +661,8 @@
           "pastStateFinals": 3,
           "matchCount": 8,
           "matchCountAtFlight": 8,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 17,
@@ -634,7 +678,8 @@
           "pastStateFinals": 3,
           "matchCount": 5,
           "matchCountAtFlight": 5,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 18,
@@ -650,7 +695,8 @@
           "pastStateFinals": 2,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 19,
@@ -666,7 +712,8 @@
           "pastStateFinals": 1,
           "matchCount": 12,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 20,
@@ -682,7 +729,14 @@
           "pastStateFinals": 0,
           "matchCount": 2,
           "matchCountAtFlight": 0,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "name": "Lana Sloan",
+            "matches": 16,
+            "record": "9-7",
+            "rating": 1572,
+            "sosRating": 1568
+          }
         },
         {
           "rank": 21,
@@ -698,7 +752,8 @@
           "pastStateFinals": 1,
           "matchCount": 14,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 22,
@@ -714,7 +769,8 @@
           "pastStateFinals": 0,
           "matchCount": 19,
           "matchCountAtFlight": 19,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         }
       ]
     },
@@ -736,7 +792,8 @@
           "pastStateFinals": 1,
           "matchCount": 17,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 2,
@@ -752,7 +809,8 @@
           "pastStateFinals": 1,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 3,
@@ -768,7 +826,8 @@
           "pastStateFinals": 1,
           "matchCount": 18,
           "matchCountAtFlight": 18,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 4,
@@ -784,7 +843,8 @@
           "pastStateFinals": 0,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 5,
@@ -800,7 +860,8 @@
           "pastStateFinals": 3,
           "matchCount": 11,
           "matchCountAtFlight": 11,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 6,
@@ -816,7 +877,8 @@
           "pastStateFinals": 2,
           "matchCount": 9,
           "matchCountAtFlight": 9,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 7,
@@ -832,7 +894,8 @@
           "pastStateFinals": 0,
           "matchCount": 10,
           "matchCountAtFlight": 10,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 8,
@@ -848,7 +911,8 @@
           "pastStateFinals": 2,
           "matchCount": 16,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 9,
@@ -864,7 +928,8 @@
           "pastStateFinals": 3,
           "matchCount": 10,
           "matchCountAtFlight": 9,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 10,
@@ -880,7 +945,8 @@
           "pastStateFinals": 2,
           "matchCount": 8,
           "matchCountAtFlight": 7,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 11,
@@ -896,7 +962,8 @@
           "pastStateFinals": 0,
           "matchCount": 14,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 12,
@@ -912,7 +979,8 @@
           "pastStateFinals": 1,
           "matchCount": 12,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 13,
@@ -928,7 +996,8 @@
           "pastStateFinals": 0,
           "matchCount": 9,
           "matchCountAtFlight": 8,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 14,
@@ -944,7 +1013,8 @@
           "pastStateFinals": 2,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 15,
@@ -960,7 +1030,8 @@
           "pastStateFinals": 2,
           "matchCount": 12,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 16,
@@ -976,7 +1047,8 @@
           "pastStateFinals": 1,
           "matchCount": 15,
           "matchCountAtFlight": 14,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 17,
@@ -992,7 +1064,8 @@
           "pastStateFinals": 1,
           "matchCount": 18,
           "matchCountAtFlight": 18,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 18,
@@ -1008,7 +1081,8 @@
           "pastStateFinals": 1,
           "matchCount": 10,
           "matchCountAtFlight": 10,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 19,
@@ -1024,7 +1098,8 @@
           "pastStateFinals": 1,
           "matchCount": 17,
           "matchCountAtFlight": 17,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 20,
@@ -1040,7 +1115,8 @@
           "pastStateFinals": 0,
           "matchCount": 17,
           "matchCountAtFlight": 17,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 21,
@@ -1056,7 +1132,8 @@
           "pastStateFinals": 1,
           "matchCount": 10,
           "matchCountAtFlight": 10,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 22,
@@ -1072,7 +1149,8 @@
           "pastStateFinals": 1,
           "matchCount": 14,
           "matchCountAtFlight": 14,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         }
       ]
     },
@@ -1094,7 +1172,8 @@
           "pastStateFinals": 2,
           "matchCount": 5,
           "matchCountAtFlight": 5,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 2,
@@ -1110,7 +1189,10 @@
           "pastStateFinals": 1,
           "matchCount": 2,
           "matchCountAtFlight": 0,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 3,
@@ -1126,7 +1208,10 @@
           "pastStateFinals": 0,
           "matchCount": 2,
           "matchCountAtFlight": 0,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 4,
@@ -1142,7 +1227,8 @@
           "pastStateFinals": 3,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 5,
@@ -1158,7 +1244,8 @@
           "pastStateFinals": 1,
           "matchCount": 2,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 6,
@@ -1174,7 +1261,8 @@
           "pastStateFinals": 3,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 7,
@@ -1190,7 +1278,8 @@
           "pastStateFinals": 0,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 8,
@@ -1206,7 +1295,8 @@
           "pastStateFinals": 0,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 9,
@@ -1222,7 +1312,8 @@
           "pastStateFinals": 0,
           "matchCount": 2,
           "matchCountAtFlight": 2,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 10,
@@ -1238,7 +1329,10 @@
           "pastStateFinals": 0,
           "matchCount": 1,
           "matchCountAtFlight": 0,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 11,
@@ -1254,7 +1348,10 @@
           "pastStateFinals": 0,
           "matchCount": 2,
           "matchCountAtFlight": 0,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 12,
@@ -1270,7 +1367,8 @@
           "pastStateFinals": 0,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 13,
@@ -1286,7 +1384,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 14,
@@ -1302,7 +1403,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 15,
@@ -1318,7 +1422,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 16,
@@ -1334,7 +1441,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 17,
@@ -1350,7 +1460,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 18,
@@ -1366,7 +1479,10 @@
           "pastStateFinals": 1,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 19,
@@ -1382,7 +1498,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 20,
@@ -1398,7 +1517,10 @@
           "pastStateFinals": 1,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 21,
@@ -1414,7 +1536,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 22,
@@ -1430,7 +1555,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         }
       ]
     },
@@ -1452,7 +1580,8 @@
           "pastStateFinals": 4,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 2,
@@ -1468,7 +1597,8 @@
           "pastStateFinals": 3,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 3,
@@ -1484,7 +1614,8 @@
           "pastStateFinals": 2,
           "matchCount": 20,
           "matchCountAtFlight": 20,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 4,
@@ -1500,7 +1631,8 @@
           "pastStateFinals": 5,
           "matchCount": 16,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 5,
@@ -1516,7 +1648,8 @@
           "pastStateFinals": 2,
           "matchCount": 16,
           "matchCountAtFlight": 17,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 6,
@@ -1532,7 +1665,8 @@
           "pastStateFinals": 0,
           "matchCount": 14,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 7,
@@ -1548,7 +1682,8 @@
           "pastStateFinals": 5,
           "matchCount": 15,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 8,
@@ -1564,7 +1699,8 @@
           "pastStateFinals": 2,
           "matchCount": 18,
           "matchCountAtFlight": 18,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 9,
@@ -1580,7 +1716,8 @@
           "pastStateFinals": 3,
           "matchCount": 18,
           "matchCountAtFlight": 18,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 10,
@@ -1596,7 +1733,8 @@
           "pastStateFinals": 1,
           "matchCount": 12,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 11,
@@ -1612,7 +1750,8 @@
           "pastStateFinals": 3,
           "matchCount": 16,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 12,
@@ -1628,7 +1767,8 @@
           "pastStateFinals": 2,
           "matchCount": 16,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 13,
@@ -1644,7 +1784,8 @@
           "pastStateFinals": 1,
           "matchCount": 16,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 14,
@@ -1660,7 +1801,14 @@
           "pastStateFinals": 0,
           "matchCount": 7,
           "matchCountAtFlight": 7,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "name": "Gabriela Stakvel / Sonali  Shah",
+            "matches": 11,
+            "record": "10-1",
+            "rating": 1633,
+            "sosRating": 1491
+          }
         },
         {
           "rank": 15,
@@ -1676,7 +1824,8 @@
           "pastStateFinals": 2,
           "matchCount": 19,
           "matchCountAtFlight": 19,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 16,
@@ -1692,7 +1841,8 @@
           "pastStateFinals": 1,
           "matchCount": 19,
           "matchCountAtFlight": 18,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 17,
@@ -1708,7 +1858,8 @@
           "pastStateFinals": 2,
           "matchCount": 17,
           "matchCountAtFlight": 18,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 18,
@@ -1724,7 +1875,8 @@
           "pastStateFinals": 2,
           "matchCount": 9,
           "matchCountAtFlight": 9,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 19,
@@ -1740,7 +1892,8 @@
           "pastStateFinals": 5,
           "matchCount": 14,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 20,
@@ -1756,7 +1909,8 @@
           "pastStateFinals": 0,
           "matchCount": 15,
           "matchCountAtFlight": 14,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 21,
@@ -1772,7 +1926,8 @@
           "pastStateFinals": 3,
           "matchCount": 12,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 22,
@@ -1788,7 +1943,8 @@
           "pastStateFinals": 2,
           "matchCount": 16,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         }
       ]
     },
@@ -1810,7 +1966,8 @@
           "pastStateFinals": 3,
           "matchCount": 14,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 2,
@@ -1826,7 +1983,8 @@
           "pastStateFinals": 1,
           "matchCount": 16,
           "matchCountAtFlight": 16,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 3,
@@ -1842,7 +2000,8 @@
           "pastStateFinals": 0,
           "matchCount": 14,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 4,
@@ -1858,7 +2017,8 @@
           "pastStateFinals": 2,
           "matchCount": 15,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 5,
@@ -1874,7 +2034,8 @@
           "pastStateFinals": 2,
           "matchCount": 17,
           "matchCountAtFlight": 17,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 6,
@@ -1890,7 +2051,8 @@
           "pastStateFinals": 2,
           "matchCount": 11,
           "matchCountAtFlight": 11,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 7,
@@ -1906,7 +2068,8 @@
           "pastStateFinals": 2,
           "matchCount": 11,
           "matchCountAtFlight": 8,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 8,
@@ -1922,7 +2085,8 @@
           "pastStateFinals": 2,
           "matchCount": 11,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 9,
@@ -1938,7 +2102,8 @@
           "pastStateFinals": 0,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 10,
@@ -1954,7 +2119,8 @@
           "pastStateFinals": 2,
           "matchCount": 7,
           "matchCountAtFlight": 7,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 11,
@@ -1970,7 +2136,8 @@
           "pastStateFinals": 2,
           "matchCount": 11,
           "matchCountAtFlight": 11,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 12,
@@ -1986,7 +2153,8 @@
           "pastStateFinals": 0,
           "matchCount": 7,
           "matchCountAtFlight": 7,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 13,
@@ -2002,7 +2170,8 @@
           "pastStateFinals": 2,
           "matchCount": 7,
           "matchCountAtFlight": 7,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 14,
@@ -2018,7 +2187,8 @@
           "pastStateFinals": 2,
           "matchCount": 11,
           "matchCountAtFlight": 11,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 15,
@@ -2034,7 +2204,8 @@
           "pastStateFinals": 2,
           "matchCount": 7,
           "matchCountAtFlight": 7,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 16,
@@ -2050,7 +2221,8 @@
           "pastStateFinals": 4,
           "matchCount": 14,
           "matchCountAtFlight": 14,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 17,
@@ -2066,7 +2238,8 @@
           "pastStateFinals": 0,
           "matchCount": 18,
           "matchCountAtFlight": 18,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 18,
@@ -2082,7 +2255,8 @@
           "pastStateFinals": 2,
           "matchCount": 14,
           "matchCountAtFlight": 14,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 19,
@@ -2098,7 +2272,8 @@
           "pastStateFinals": 1,
           "matchCount": 11,
           "matchCountAtFlight": 11,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 20,
@@ -2114,7 +2289,8 @@
           "pastStateFinals": 1,
           "matchCount": 16,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 21,
@@ -2130,7 +2306,8 @@
           "pastStateFinals": 3,
           "matchCount": 11,
           "matchCountAtFlight": 10,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 22,
@@ -2146,7 +2323,8 @@
           "pastStateFinals": 3,
           "matchCount": 12,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         }
       ]
     },
@@ -2168,7 +2346,8 @@
           "pastStateFinals": 3,
           "matchCount": 13,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 2,
@@ -2184,7 +2363,8 @@
           "pastStateFinals": 0,
           "matchCount": 12,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 3,
@@ -2200,7 +2380,8 @@
           "pastStateFinals": 2,
           "matchCount": 15,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 4,
@@ -2216,7 +2397,8 @@
           "pastStateFinals": 2,
           "matchCount": 8,
           "matchCountAtFlight": 8,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 5,
@@ -2232,7 +2414,8 @@
           "pastStateFinals": 0,
           "matchCount": 11,
           "matchCountAtFlight": 11,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 6,
@@ -2248,7 +2431,8 @@
           "pastStateFinals": 2,
           "matchCount": 12,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 7,
@@ -2264,7 +2448,8 @@
           "pastStateFinals": 0,
           "matchCount": 14,
           "matchCountAtFlight": 15,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 8,
@@ -2280,7 +2465,8 @@
           "pastStateFinals": 1,
           "matchCount": 10,
           "matchCountAtFlight": 11,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 9,
@@ -2296,7 +2482,8 @@
           "pastStateFinals": 2,
           "matchCount": 7,
           "matchCountAtFlight": 7,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 10,
@@ -2312,7 +2499,8 @@
           "pastStateFinals": 0,
           "matchCount": 12,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 11,
@@ -2328,7 +2516,8 @@
           "pastStateFinals": 0,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 12,
@@ -2344,7 +2533,8 @@
           "pastStateFinals": 3,
           "matchCount": 14,
           "matchCountAtFlight": 14,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 13,
@@ -2360,7 +2550,8 @@
           "pastStateFinals": 0,
           "matchCount": 13,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 14,
@@ -2376,7 +2567,8 @@
           "pastStateFinals": 0,
           "matchCount": 12,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 15,
@@ -2392,7 +2584,14 @@
           "pastStateFinals": 0,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "name": "Gaia DeMeester / Kate Martin",
+            "matches": 11,
+            "record": "11-0",
+            "rating": 1661,
+            "sosRating": 1477
+          }
         },
         {
           "rank": 16,
@@ -2408,7 +2607,8 @@
           "pastStateFinals": 0,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 17,
@@ -2424,7 +2624,8 @@
           "pastStateFinals": 1,
           "matchCount": 6,
           "matchCountAtFlight": 5,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 18,
@@ -2440,7 +2641,8 @@
           "pastStateFinals": 0,
           "matchCount": 12,
           "matchCountAtFlight": 12,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 19,
@@ -2456,7 +2658,14 @@
           "pastStateFinals": 1,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "name": "Olivia Martinovski / Katarina Djordjevic",
+            "matches": 5,
+            "record": "2-3",
+            "rating": 1516,
+            "sosRating": 1622
+          }
         },
         {
           "rank": 20,
@@ -2472,7 +2681,8 @@
           "pastStateFinals": 0,
           "matchCount": 13,
           "matchCountAtFlight": 13,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 21,
@@ -2488,7 +2698,8 @@
           "pastStateFinals": 2,
           "matchCount": 6,
           "matchCountAtFlight": 6,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 22,
@@ -2504,7 +2715,8 @@
           "pastStateFinals": 0,
           "matchCount": 9,
           "matchCountAtFlight": 9,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         }
       ]
     },
@@ -2526,7 +2738,8 @@
           "pastStateFinals": 2,
           "matchCount": 4,
           "matchCountAtFlight": 4,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 2,
@@ -2542,7 +2755,10 @@
           "pastStateFinals": 1,
           "matchCount": 2,
           "matchCountAtFlight": 0,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 3,
@@ -2558,7 +2774,8 @@
           "pastStateFinals": 1,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 4,
@@ -2574,7 +2791,10 @@
           "pastStateFinals": 1,
           "matchCount": 1,
           "matchCountAtFlight": 0,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 5,
@@ -2590,7 +2810,8 @@
           "pastStateFinals": 1,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 6,
@@ -2606,7 +2827,10 @@
           "pastStateFinals": 0,
           "matchCount": 2,
           "matchCountAtFlight": 0,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 7,
@@ -2622,7 +2846,8 @@
           "pastStateFinals": 4,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 8,
@@ -2638,7 +2863,10 @@
           "pastStateFinals": 1,
           "matchCount": 2,
           "matchCountAtFlight": 0,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 9,
@@ -2654,7 +2882,8 @@
           "pastStateFinals": 0,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 10,
@@ -2670,7 +2899,8 @@
           "pastStateFinals": 0,
           "matchCount": 1,
           "matchCountAtFlight": 1,
-          "ratingSource": "season"
+          "ratingSource": "season",
+          "regularStarter": null
         },
         {
           "rank": 11,
@@ -2686,7 +2916,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 12,
@@ -2702,7 +2935,10 @@
           "pastStateFinals": 1,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 13,
@@ -2718,7 +2954,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 14,
@@ -2734,7 +2973,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 15,
@@ -2750,7 +2992,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 16,
@@ -2766,7 +3011,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 17,
@@ -2782,7 +3030,10 @@
           "pastStateFinals": 1,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 18,
@@ -2798,7 +3049,10 @@
           "pastStateFinals": 1,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 19,
@@ -2814,7 +3068,10 @@
           "pastStateFinals": 1,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 20,
@@ -2830,7 +3087,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 21,
@@ -2846,7 +3106,10 @@
           "pastStateFinals": 1,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         },
         {
           "rank": 22,
@@ -2862,7 +3125,10 @@
           "pastStateFinals": 0,
           "matchCount": 0,
           "matchCountAtFlight": 0,
-          "ratingSource": "tr-elo"
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "noData": true
+          }
         }
       ]
     }
