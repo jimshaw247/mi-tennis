@@ -10,11 +10,13 @@ import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
 import DrawSetup from './components/DrawSetup.jsx'
 import Gate, { isAdmin, logout } from './components/Gate.jsx'
+import SOSTab from './components/SOSTab.jsx'
 
 const TABS = [
   { id: 'board', label: 'Board' },
   { id: 'flights', label: 'Flights' },
   { id: 'setup', label: 'Draws' },
+  { id: 'sos', label: 'SOS' },
 ]
 
 export default function App() {
@@ -204,6 +206,8 @@ function AdminApp() {
         {tab === 'setup' && (
           <SetupTab state={state} setTab={setTab} updateFlight={updateFlight} />
         )}
+
+        {tab === 'sos' && <SOSTab />}
       </main>
 
       <footer className="p-3 border-t border-slate-800 flex flex-wrap gap-2 text-xs">
