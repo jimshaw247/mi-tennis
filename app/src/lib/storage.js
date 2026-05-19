@@ -25,7 +25,7 @@ function normalizeFlight(f) {
   // Trim or pad to FLIGHT_SIZE.
   while (merged.length < FLIGHT_SIZE) merged.push({ pos: merged.length, teamId: null, seed: null, name: '', partner: '' })
   merged.length = FLIGHT_SIZE
-  return { id: f.id, entries: merged, winners: f.winners || {} }
+  return { id: f.id, entries: merged, winners: f.winners || {}, scores: f.scores || {} }
 }
 
 export function saveState(state, divisionId = 'D1') {

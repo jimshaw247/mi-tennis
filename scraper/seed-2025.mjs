@@ -75,12 +75,12 @@ function buildFlight(flightId, fdata) {
   // ---- winners derived from later rounds ----
   const winners = {}
 
-  // Use explicit winner from scrape (set when tennisreporting marks a side
-  // with .winner-team). This works for every round including the final.
+  const scores = {}
   function recordExplicit(roundMatches, roundId) {
     for (let i = 0; i < roundMatches.length; i++) {
       const m = roundMatches[i]
       if (m?.winner) winners[`${roundId}m${i}`] = m.winner
+      if (m?.score) scores[`${roundId}m${i}`] = m.score
     }
   }
   recordExplicit(r1, 'R1')
@@ -89,7 +89,7 @@ function buildFlight(flightId, fdata) {
   recordExplicit(sf, 'SF')
   recordExplicit(f,  'F')
 
-  return { id: flightId, entries, winners }
+  return { id: flightId, entries, winners, scores }
 }
 
 const flights = FLIGHT_IDS.map(id => buildFlight(id, scrape[id]))

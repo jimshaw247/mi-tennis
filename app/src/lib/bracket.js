@@ -57,6 +57,7 @@ export function emptyFlight(id) {
       pos: i, teamId: null, seed: null, name: '', partner: '',
     })),
     winners: {}, // matchId -> 'top' | 'bot'
+    scores: {},  // matchId -> "6 - 1 / 6 - 2" (optional display string)
   }
 }
 

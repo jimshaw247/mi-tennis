@@ -26,7 +26,7 @@ function SideLabel({ entry, empty, highlight }) {
   )
 }
 
-function MatchCard({ match, onPick, readonly }) {
+function MatchCard({ match, score, onPick, readonly }) {
   // Skip rendering matches that have no real entries on either side (deep byes).
   if (match.topEmpty && match.botEmpty) {
     return (
@@ -65,6 +65,11 @@ function MatchCard({ match, onPick, readonly }) {
           <SideLabel entry={s.entry} empty={s.empty} highlight={isHi(s.entry)} />
         </button>
       ))}
+      {score && (
+        <div className="px-2 py-1 text-[10px] text-slate-400 font-mono text-center border-t border-slate-800 bg-slate-950/40">
+          {score}
+        </div>
+      )}
     </div>
   )
 }
@@ -88,7 +93,7 @@ export default function Bracket({ flight, onUpdate, readonly }) {
         return (
           <div key={r.id} className="min-w-[200px] flex-1 flex flex-col gap-3 justify-around">
             <div className="text-xs uppercase text-slate-400 font-semibold">{r.label}</div>
-            {colMatches.map(m => <MatchCard key={m.id} match={m} onPick={pick} readonly={readonly} />)}
+            {colMatches.map(m => <MatchCard key={m.id} match={m} score={flight.scores?.[m.id]} onPick={pick} readonly={readonly} />)}
           </div>
         )
       })}

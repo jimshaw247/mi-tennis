@@ -109,7 +109,12 @@ for (const f of FLIGHTS) {
             winner = i === 0 ? 'top' : 'bot'
           }
         }
-        return { sides, winner, raw: textOf(li).replace(/\s+/g, ' ') }
+        // Set scores: the .score-bracket element carries the score in its
+        // data-after attribute (e.g. "6 - 2 / 7 - 5"). "VS" means undecided.
+        const scoreEl = li.querySelector('.score-bracket')
+        const rawScore = scoreEl?.getAttribute('data-after')?.trim() || ''
+        const score = (rawScore && rawScore !== 'VS') ? rawScore.replace(/\s+/g, ' ') : null
+        return { sides, winner, score, raw: textOf(li).replace(/\s+/g, ' ') }
       }
       const round = [...document.querySelectorAll('.tournament-bracket__round')]
         .find(r => textOf(r.querySelector('.tournament-bracket__round-title')) === targetLabel)

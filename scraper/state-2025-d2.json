@@ -27,6 +27,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Dalina Kokoshi Grosse Pointe SouthBYE"
           },
           {
@@ -53,6 +54,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Wren Walker Traverse City CentralCecily Sawicki Trenton"
           },
           {
@@ -72,6 +74,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "8Ellie Fischer St. JosephBYE"
           },
           {
@@ -98,6 +101,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Date:05/21/2025FHC Provisional SeedChloe Cox Grand Rapids Forest Hills CentralBrynlee Williams Dexter"
           },
           {
@@ -117,6 +121,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Maddy Simonds Battle Creek LakeviewBYE"
           },
           {
@@ -143,6 +148,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 3",
             "raw": "Josilyn Csapo South LyonPiper Coon Berkley"
           },
           {
@@ -162,6 +168,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Daniella Ajao North FarmingtonBYE"
           },
           {
@@ -188,6 +195,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Alexis Jensen Allen ParkSharon Okoh Byron Center"
           },
           {
@@ -214,6 +222,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 0",
             "raw": "Addison Jacob Birmingham GrovesLaila Aslam Grosse Pointe North"
           },
           {
@@ -233,6 +242,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Dalton DeBoer Midland Dow"
           },
           {
@@ -259,6 +269,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 3",
             "raw": "Maia Meghea East LansingErin Riley Gibraltar Carlson"
           },
           {
@@ -278,6 +289,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Andrea Wang Grand Rapids Forest Hills Northern"
           },
           {
@@ -304,6 +316,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Tega Kamatoy MidlandGabby Hanover Mason"
           },
           {
@@ -323,6 +336,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE7Ana Cheng Mattawan"
           },
           {
@@ -349,6 +363,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Devon Rusk Birmingham SeaholmOlivia Blackledge Wyandotte Roosevelt"
           },
           {
@@ -368,6 +383,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Megan Sullivan Farmington Hills Mercy"
           }
         ]
@@ -399,6 +415,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "1Dalina Kokoshi Grosse Pointe SouthWren Walker Traverse City Central"
           },
           {
@@ -425,6 +442,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 6 - 0",
             "raw": "8Ellie Fischer St. JosephChloe Cox Grand Rapids Forest Hills Central"
           },
           {
@@ -451,6 +469,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "4Maddy Simonds Battle Creek LakeviewPiper Coon Berkley"
           },
           {
@@ -477,6 +496,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "5Daniella Ajao North FarmingtonSharon Okoh Byron Center"
           },
           {
@@ -503,6 +523,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 2",
             "raw": "Laila Aslam Grosse Pointe North6Dalton DeBoer Midland Dow"
           },
           {
@@ -529,6 +550,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 1",
             "raw": "Maia Meghea East Lansing3Andrea Wang Grand Rapids Forest Hills Northern"
           },
           {
@@ -555,6 +577,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 1",
             "raw": "Gabby Hanover Mason7Ana Cheng Mattawan"
           },
           {
@@ -581,6 +604,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 1",
             "raw": "Devon Rusk Birmingham Seaholm2Megan Sullivan Farmington Hills Mercy"
           }
         ]
@@ -612,6 +636,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "1Dalina Kokoshi Grosse Pointe SouthChloe Cox Grand Rapids Forest Hills Central"
           },
           {
@@ -638,6 +663,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 3",
             "raw": "4Maddy Simonds Battle Creek Lakeview5Daniella Ajao North Farmington"
           },
           {
@@ -664,6 +690,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 2",
             "raw": "6Dalton DeBoer Midland Dow3Andrea Wang Grand Rapids Forest Hills Northern"
           },
           {
@@ -690,6 +717,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 4",
             "raw": "7Ana Cheng Mattawan2Megan Sullivan Farmington Hills Mercy"
           }
         ]
@@ -721,6 +749,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 1",
             "raw": "1Dalina Kokoshi Grosse Pointe South4Maddy Simonds Battle Creek Lakeview"
           },
           {
@@ -747,6 +776,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 2",
             "raw": "6Dalton DeBoer Midland Dow2Megan Sullivan Farmington Hills Mercy"
           }
         ]
@@ -778,6 +808,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 2",
             "raw": "1Dalina Kokoshi Grosse Pointe South2Megan Sullivan Farmington Hills Mercy"
           }
         ]
@@ -812,6 +843,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Sade Blackwell Battle Creek LakeviewBYE"
           },
           {
@@ -838,6 +870,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Miley Lustig TrentonQuinn Breslin Grand Rapids Forest Hills Central"
           },
           {
@@ -857,6 +890,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Siena Taylor DexterBYE"
           },
           {
@@ -883,6 +917,7 @@
               }
             ],
             "winner": "top",
+            "score": "2 - 6 / 6 - 1 / 1 - 0 (2)",
             "raw": "Olivia Kowal Grosse Pointe SouthStella Chmielewski Birmingham Groves"
           },
           {
@@ -902,6 +937,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Anna Coleman MattawanBYE"
           },
           {
@@ -928,6 +964,7 @@
               }
             ],
             "winner": "top",
+            "score": "7 - 6 (4) / 6 - 4",
             "raw": "Nora Jaynes Allen ParkLauren Chanko South Lyon"
           },
           {
@@ -947,6 +984,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Jada Josifovski Birmingham SeaholmBYE"
           },
           {
@@ -973,6 +1011,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 7 - 5",
             "raw": "Ava Hauser MasonRhyannah Nunamaker Midland"
           },
           {
@@ -999,6 +1038,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 3 - 6 / 1 - 0 (7)",
             "raw": "Rylie Sulewski Gibraltar CarlsonAbby Pfannenstiel Traverse City Central"
           },
           {
@@ -1018,6 +1058,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Mallory Johnson Byron Center"
           },
           {
@@ -1044,6 +1085,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 2",
             "raw": "Ellery Scales East LansingAakanksha Nagori Grosse Pointe North"
           },
           {
@@ -1063,6 +1105,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Harriet Ogilvie Grand Rapids Forest Hills Northern"
           },
           {
@@ -1082,6 +1125,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEAmelia Affholter Wyandotte Roosevelt"
           },
           {
@@ -1101,6 +1145,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYETatum Saltsman Berkley"
           },
           {
@@ -1127,6 +1172,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 2",
             "raw": "Date:05/21/2025NF Provisional SeedKarolina Illyashevych North FarmingtonNishi Narayan Midland Dow"
           },
           {
@@ -1146,6 +1192,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Keira Kirkland Farmington Hills Mercy"
           }
         ]
@@ -1177,6 +1224,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "1Sade Blackwell Battle Creek LakeviewQuinn Breslin Grand Rapids Forest Hills Central"
           },
           {
@@ -1203,6 +1251,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Siena Taylor DexterOlivia Kowal Grosse Pointe South"
           },
           {
@@ -1229,6 +1278,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 3",
             "raw": "4Anna Coleman MattawanNora Jaynes Allen Park"
           },
           {
@@ -1255,6 +1305,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "5Jada Josifovski Birmingham SeaholmRhyannah Nunamaker Midland"
           },
           {
@@ -1281,6 +1332,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 3",
             "raw": "Abby Pfannenstiel Traverse City Central6Mallory Johnson Byron Center"
           },
           {
@@ -1307,6 +1359,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Aakanksha Nagori Grosse Pointe North3Harriet Ogilvie Grand Rapids Forest Hills Northern"
           },
           {
@@ -1333,6 +1386,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 3",
             "raw": "Amelia Affholter Wyandotte RooseveltTatum Saltsman Berkley"
           },
           {
@@ -1359,6 +1413,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 3",
             "raw": "Karolina Illyashevych North Farmington2Keira Kirkland Farmington Hills Mercy"
           }
         ]
@@ -1390,6 +1445,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "1Sade Blackwell Battle Creek LakeviewOlivia Kowal Grosse Pointe South"
           },
           {
@@ -1416,6 +1472,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 1",
             "raw": "4Anna Coleman Mattawan5Jada Josifovski Birmingham Seaholm"
           },
           {
@@ -1442,6 +1499,7 @@
               }
             ],
             "winner": "bot",
+            "score": "2 - 6 / 7 - 6 / 7 - 6 (3)",
             "raw": "6Mallory Johnson Byron Center3Harriet Ogilvie Grand Rapids Forest Hills Northern"
           },
           {
@@ -1468,6 +1526,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Amelia Affholter Wyandotte Roosevelt2Keira Kirkland Farmington Hills Mercy"
           }
         ]
@@ -1499,6 +1558,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 2",
             "raw": "1Sade Blackwell Battle Creek Lakeview5Jada Josifovski Birmingham Seaholm"
           },
           {
@@ -1525,6 +1585,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 0",
             "raw": "3Harriet Ogilvie Grand Rapids Forest Hills Northern2Keira Kirkland Farmington Hills Mercy"
           }
         ]
@@ -1556,6 +1617,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 7 - 5",
             "raw": "5Jada Josifovski Birmingham Seaholm2Keira Kirkland Farmington Hills Mercy"
           }
         ]
@@ -1590,6 +1652,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Samantha Karoub North FarmingtonBYE"
           },
           {
@@ -1616,6 +1679,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "Date:05/21/2025MAT Provisional SeedSienna Watts MattawanLeighton Heinz Midland"
           },
           {
@@ -1635,6 +1699,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Emma Schumm Allen ParkBYE"
           },
           {
@@ -1661,6 +1726,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 3",
             "raw": "Cameron Boyce DexterMegan Bozung Mason"
           },
           {
@@ -1680,6 +1746,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Clare Knoester Grand Rapids Forest Hills CentralBYE"
           },
           {
@@ -1706,6 +1773,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 3",
             "raw": "Sabrina Gresens East LansingDaniela Pietrowsky Grosse Pointe North"
           },
           {
@@ -1725,6 +1793,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Alexa Dueweke Farmington Hills MercyBYE"
           },
           {
@@ -1751,6 +1820,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 1",
             "raw": "Liberty Bennett TrentonIssabelle Raykhinshteyn Birmingham Groves"
           },
           {
@@ -1777,6 +1847,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "Avery McKenzie Grand Rapids Forest Hills NorthernGigi Maurus South Lyon"
           },
           {
@@ -1796,6 +1867,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Ruby Macheso Midland Dow"
           },
           {
@@ -1822,6 +1894,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Monica Patterson Wyandotte RooseveltEmmy Ruger Battle Creek Lakeview"
           },
           {
@@ -1841,6 +1914,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Katelyn Strong Grosse Pointe South"
           },
           {
@@ -1860,6 +1934,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEKate O'Keefe Traverse City Central"
           },
           {
@@ -1879,6 +1954,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEjulie mitchell Gibraltar Carlson"
           },
           {
@@ -1905,6 +1981,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Lexi Gross BerkleyKristina Ha Byron Center"
           },
           {
@@ -1924,6 +2001,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Milana Kest Birmingham Seaholm"
           }
         ]
@@ -1955,6 +2033,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "1Samantha Karoub North FarmingtonSienna Watts Mattawan"
           },
           {
@@ -1981,6 +2060,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 2",
             "raw": "Emma Schumm Allen ParkMegan Bozung Mason"
           },
           {
@@ -2007,6 +2087,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 1",
             "raw": "4Clare Knoester Grand Rapids Forest Hills CentralDaniela Pietrowsky Grosse Pointe North"
           },
           {
@@ -2033,6 +2114,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 1",
             "raw": "5Alexa Dueweke Farmington Hills MercyIssabelle Raykhinshteyn Birmingham Groves"
           },
           {
@@ -2059,6 +2141,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 1",
             "raw": "Avery McKenzie Grand Rapids Forest Hills Northern6Ruby Macheso Midland Dow"
           },
           {
@@ -2085,6 +2168,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Emmy Ruger Battle Creek Lakeview3Katelyn Strong Grosse Pointe South"
           },
           {
@@ -2111,6 +2195,7 @@
               }
             ],
             "winner": "top",
+            "score": "7 - 6 (5) / 6 - 1",
             "raw": "Kate O'Keefe Traverse City Centraljulie mitchell Gibraltar Carlson"
           },
           {
@@ -2137,6 +2222,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Kristina Ha Byron Center2Milana Kest Birmingham Seaholm"
           }
         ]
@@ -2168,6 +2254,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "1Samantha Karoub North FarmingtonMegan Bozung Mason"
           },
           {
@@ -2194,6 +2281,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "4Clare Knoester Grand Rapids Forest Hills Central5Alexa Dueweke Farmington Hills Mercy"
           },
           {
@@ -2220,6 +2308,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Avery McKenzie Grand Rapids Forest Hills Northern3Katelyn Strong Grosse Pointe South"
           },
           {
@@ -2246,6 +2335,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Kate O'Keefe Traverse City Central2Milana Kest Birmingham Seaholm"
           }
         ]
@@ -2277,6 +2367,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 1",
             "raw": "1Samantha Karoub North Farmington5Alexa Dueweke Farmington Hills Mercy"
           },
           {
@@ -2303,6 +2394,7 @@
               }
             ],
             "winner": "top",
+            "score": "4 - 6 / 6 - 4 / 6 - 1",
             "raw": "3Katelyn Strong Grosse Pointe South2Milana Kest Birmingham Seaholm"
           }
         ]
@@ -2334,6 +2426,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 0",
             "raw": "1Samantha Karoub North Farmington3Katelyn Strong Grosse Pointe South"
           }
         ]
@@ -2368,6 +2461,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Gabby Owens Farmington Hills MercyBYE"
           },
           {
@@ -2394,6 +2488,7 @@
               }
             ],
             "winner": "top",
+            "score": "7 - 5 / 6 - 4",
             "raw": "Syd DeVos Byron CenterKarlee Gutsue Battle Creek Lakeview"
           },
           {
@@ -2413,6 +2508,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Lauren Shuart MidlandBYE"
           },
           {
@@ -2439,6 +2535,7 @@
               }
             ],
             "winner": "top",
+            "score": "2 - 0 / 2 - 0 / Default",
             "raw": "Emma Dombrowski Grosse Pointe NorthKiera Bryne Wyandotte Roosevelt"
           },
           {
@@ -2458,6 +2555,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Maddy Youngblood Grosse Pointe SouthBYE"
           },
           {
@@ -2484,6 +2582,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Date:05/21/2025EL Provisional SeedAmelia Oyarzo Allen ParkSima Bezuglova East Lansing"
           },
           {
@@ -2503,6 +2602,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Aanya Dogra Grand Rapids Forest Hills NorthernBYE"
           },
           {
@@ -2529,6 +2629,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Anabella Chebl Birmingham GrovesVivie Rubino Traverse City Central"
           },
           {
@@ -2555,6 +2656,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 0",
             "raw": "SKYLAR WARREN Gibraltar CarlsonSarah Tucker South Lyon"
           },
           {
@@ -2574,6 +2676,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Kaylee Pierce North Farmington"
           },
           {
@@ -2600,6 +2703,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 7 - 6 (3)",
             "raw": "Kylee Smith MasonSadie Koffman Grand Rapids Forest Hills Central"
           },
           {
@@ -2619,6 +2723,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Anya Narayan Midland Dow"
           },
           {
@@ -2638,6 +2743,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEDelanie Criscenti Berkley"
           },
           {
@@ -2657,6 +2763,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEIrelynn Oboza Trenton"
           },
           {
@@ -2683,6 +2790,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Elise Lu DexterAva Vergara Mattawan"
           },
           {
@@ -2702,6 +2810,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Izzy Bloom Birmingham Seaholm"
           }
         ]
@@ -2733,6 +2842,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 2",
             "raw": "1Gabby Owens Farmington Hills MercySyd DeVos Byron Center"
           },
           {
@@ -2759,6 +2869,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 4",
             "raw": "Lauren Shuart MidlandEmma Dombrowski Grosse Pointe North"
           },
           {
@@ -2785,6 +2896,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 1",
             "raw": "4Maddy Youngblood Grosse Pointe SouthSima Bezuglova East Lansing"
           },
           {
@@ -2811,6 +2923,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 7 - 6 (2)",
             "raw": "5Aanya Dogra Grand Rapids Forest Hills NorthernAnabella Chebl Birmingham Groves"
           },
           {
@@ -2837,6 +2950,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "SKYLAR WARREN Gibraltar Carlson6Kaylee Pierce North Farmington"
           },
           {
@@ -2863,6 +2977,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Kylee Smith Mason3Anya Narayan Midland Dow"
           },
           {
@@ -2889,6 +3004,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 2",
             "raw": "Delanie Criscenti BerkleyIrelynn Oboza Trenton"
           },
           {
@@ -2915,6 +3031,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 2",
             "raw": "Ava Vergara Mattawan2Izzy Bloom Birmingham Seaholm"
           }
         ]
@@ -2946,6 +3063,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "1Gabby Owens Farmington Hills MercyEmma Dombrowski Grosse Pointe North"
           },
           {
@@ -2972,6 +3090,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 4",
             "raw": "4Maddy Youngblood Grosse Pointe South5Aanya Dogra Grand Rapids Forest Hills Northern"
           },
           {
@@ -2998,6 +3117,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 1",
             "raw": "6Kaylee Pierce North Farmington3Anya Narayan Midland Dow"
           },
           {
@@ -3024,6 +3144,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 2",
             "raw": "Delanie Criscenti Berkley2Izzy Bloom Birmingham Seaholm"
           }
         ]
@@ -3055,6 +3176,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 2",
             "raw": "1Gabby Owens Farmington Hills Mercy4Maddy Youngblood Grosse Pointe South"
           },
           {
@@ -3081,6 +3203,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 3",
             "raw": "3Anya Narayan Midland Dow2Izzy Bloom Birmingham Seaholm"
           }
         ]
@@ -3112,6 +3235,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 7 - 5",
             "raw": "1Gabby Owens Farmington Hills Mercy2Izzy Bloom Birmingham Seaholm"
           }
         ]
@@ -3150,6 +3274,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Lauren Jaklitsch/Morgan McKenzie Grand Rapids Forest Hills NorthernBYE"
           },
           {
@@ -3184,6 +3309,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Natalie Simot/Nina Sall South LyonLeah Myhre/Saraiah Okoh Byron Center"
           },
           {
@@ -3207,6 +3333,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Lila Angelos/sarah pente Gibraltar CarlsonBYE"
           },
           {
@@ -3241,6 +3368,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Date:05/21/2025EL Provisional SeedTaylor Lewis/Charlotte Kowal Grosse Pointe SouthAni Meghea/Evie Laxton East Lansing"
           },
           {
@@ -3264,6 +3392,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Sophia Bishop/Diana Quinn Farmington Hills MercyBYE"
           },
           {
@@ -3298,6 +3427,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 7 - 6 (1)",
             "raw": "Talia Kamoo/Kara Clinkscale Birmingham GrovesMacy Parker/Annie Goldkuhle Traverse City Central"
           },
           {
@@ -3321,6 +3451,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Nadia Baird/Evie Douglass MattawanBYE"
           },
           {
@@ -3355,6 +3486,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 3 - 6 / 1 - 0 (7)",
             "raw": "Sophia Helton/Kayla Villanueva Allen ParkKaylei Harris/Genevieve Hardy Grosse Pointe North"
           },
           {
@@ -3389,6 +3521,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 1",
             "raw": "Karina Ueki/Chloe Cole North FarmingtonAbigail Winer/KaiLani Etheridge Battle Creek Lakeview"
           },
           {
@@ -3412,6 +3545,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Grace Chen/Ella Sanford Grand Rapids Forest Hills Central"
           },
           {
@@ -3446,6 +3580,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 1",
             "raw": "Grace Burnham/Lucy Cohen BerkleyRylie Hawkins/Megan Murray Wyandotte Roosevelt"
           },
           {
@@ -3469,6 +3604,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Ayesha Middha/Norah Lacher Midland Dow"
           },
           {
@@ -3492,6 +3628,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEJordyn Dorey/Olivia Branscum Trenton"
           },
           {
@@ -3515,6 +3652,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEPayton Palmer/Avery Miller Midland"
           },
           {
@@ -3549,6 +3687,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 1",
             "raw": "Keira Redman/Jennah Lattig MasonJosie Alabre/Tessa Baughman Dexter"
           },
           {
@@ -3572,6 +3711,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Jordyn Lusky/Lucy Jen Birmingham Seaholm"
           }
         ]
@@ -3611,6 +3751,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "1Lauren Jaklitsch/Morgan McKenzie Grand Rapids Forest Hills NorthernLeah Myhre/Saraiah Okoh Byron Center"
           },
           {
@@ -3645,6 +3786,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 0",
             "raw": "Lila Angelos/sarah pente Gibraltar CarlsonAni Meghea/Evie Laxton East Lansing"
           },
           {
@@ -3679,6 +3821,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 2",
             "raw": "4Sophia Bishop/Diana Quinn Farmington Hills MercyTalia Kamoo/Kara Clinkscale Birmingham Groves"
           },
           {
@@ -3713,6 +3856,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "5Nadia Baird/Evie Douglass MattawanKaylei Harris/Genevieve Hardy Grosse Pointe North"
           },
           {
@@ -3747,6 +3891,7 @@
               }
             ],
             "winner": "top",
+            "score": "2 - 6 / 6 - 4 / 1 - 0 (7)",
             "raw": "Karina Ueki/Chloe Cole North Farmington6Grace Chen/Ella Sanford Grand Rapids Forest Hills Central"
           },
           {
@@ -3781,6 +3926,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 2",
             "raw": "Grace Burnham/Lucy Cohen Berkley3Ayesha Middha/Norah Lacher Midland Dow"
           },
           {
@@ -3815,6 +3961,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 2",
             "raw": "Jordyn Dorey/Olivia Branscum TrentonPayton Palmer/Avery Miller Midland"
           },
           {
@@ -3849,6 +3996,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 4",
             "raw": "Keira Redman/Jennah Lattig Mason2Jordyn Lusky/Lucy Jen Birmingham Seaholm"
           }
         ]
@@ -3888,6 +4036,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "1Lauren Jaklitsch/Morgan McKenzie Grand Rapids Forest Hills NorthernAni Meghea/Evie Laxton East Lansing"
           },
           {
@@ -3922,6 +4071,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 2 - 6 / 6 - 2",
             "raw": "4Sophia Bishop/Diana Quinn Farmington Hills Mercy5Nadia Baird/Evie Douglass Mattawan"
           },
           {
@@ -3956,6 +4106,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 0",
             "raw": "Karina Ueki/Chloe Cole North Farmington3Ayesha Middha/Norah Lacher Midland Dow"
           },
           {
@@ -3990,6 +4141,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 3",
             "raw": "Payton Palmer/Avery Miller Midland2Jordyn Lusky/Lucy Jen Birmingham Seaholm"
           }
         ]
@@ -4029,6 +4181,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 7 - 5",
             "raw": "1Lauren Jaklitsch/Morgan McKenzie Grand Rapids Forest Hills Northern4Sophia Bishop/Diana Quinn Farmington Hills Mercy"
           },
           {
@@ -4063,6 +4216,7 @@
               }
             ],
             "winner": "bot",
+            "score": "3 - 6 / 6 - 1 / 6 - 1",
             "raw": "3Ayesha Middha/Norah Lacher Midland Dow2Jordyn Lusky/Lucy Jen Birmingham Seaholm"
           }
         ]
@@ -4102,6 +4256,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 2",
             "raw": "1Lauren Jaklitsch/Morgan McKenzie Grand Rapids Forest Hills Northern2Jordyn Lusky/Lucy Jen Birmingham Seaholm"
           }
         ]
@@ -4140,6 +4295,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Tessa Wood/Sachi Togashi Midland DowBYE"
           },
           {
@@ -4174,6 +4330,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 1",
             "raw": "Jada Alwood/Audrey Marvin North FarmingtonGrace Vollmer/Andia Nazarko Grosse Pointe South"
           },
           {
@@ -4197,6 +4354,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Madison Fonnesbeck/Jillian Vanderhorst Byron CenterBYE"
           },
           {
@@ -4231,6 +4389,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 6 - 4",
             "raw": "Natalia Herrera-Perez/Kennedy Kight South LyonHALES CHLOE/aliyah newsome Gibraltar Carlson"
           },
           {
@@ -4254,6 +4413,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Valeria Vega/Addy Copeland MattawanBYE"
           },
           {
@@ -4288,6 +4448,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "Date:05/21/2025FHC Provisional SeedAubrey Gallagher/Annaliese Hoffman Grand Rapids Forest Hills CentralSasha Kezhaya/Isabella Valdez Grosse Pointe North"
           },
           {
@@ -4311,6 +4472,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Mallory Cooney/Maya Tanguay Farmington Hills MercyBYE"
           },
           {
@@ -4345,6 +4507,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 0",
             "raw": "Annie Zieger/Ella Keathley Wyandotte RooseveltElsa Elhenicky/Eleanna Kimbouris East Lansing"
           },
           {
@@ -4379,6 +4542,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 2",
             "raw": "Brooke Russell/Keira Shaffner MidlandBrooke Buttson/Giana Qualls Trenton"
           },
           {
@@ -4402,6 +4566,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Amelia Paul/Hailey Pfeiffle Grand Rapids Forest Hills Northern"
           },
           {
@@ -4436,6 +4601,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 2",
             "raw": "Anya Foljahn/Zoe Brizendine Battle Creek LakeviewClaire Beneteau/Phoebe Matos Dexter"
           },
           {
@@ -4459,6 +4625,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Yasmine Osta/Anabel Christman Birmingham Groves"
           },
           {
@@ -4482,6 +4649,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEAudrey Duggan/Valentina Landry Berkley"
           },
           {
@@ -4505,6 +4673,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYECarcyn Winkel/Juliette Smoker Mason"
           },
           {
@@ -4539,6 +4708,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 3",
             "raw": "Natalie Raidl/Addyson Zylla Allen ParkIrena Briggs/Caroline Henkel Traverse City Central"
           },
           {
@@ -4562,6 +4732,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Anna Olekszyk/Sophia Arndt Birmingham Seaholm"
           }
         ]
@@ -4601,6 +4772,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 1",
             "raw": "1Tessa Wood/Sachi Togashi Midland DowGrace Vollmer/Andia Nazarko Grosse Pointe South"
           },
           {
@@ -4635,6 +4807,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 2",
             "raw": "Madison Fonnesbeck/Jillian Vanderhorst Byron CenterHALES CHLOE/aliyah newsome Gibraltar Carlson"
           },
           {
@@ -4669,6 +4842,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "4Valeria Vega/Addy Copeland MattawanAubrey Gallagher/Annaliese Hoffman Grand Rapids Forest Hills Central"
           },
           {
@@ -4703,6 +4877,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 2",
             "raw": "5Mallory Cooney/Maya Tanguay Farmington Hills MercyElsa Elhenicky/Eleanna Kimbouris East Lansing"
           },
           {
@@ -4737,6 +4912,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 3",
             "raw": "Brooke Russell/Keira Shaffner Midland6Amelia Paul/Hailey Pfeiffle Grand Rapids Forest Hills Northern"
           },
           {
@@ -4771,6 +4947,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Anya Foljahn/Zoe Brizendine Battle Creek Lakeview3Yasmine Osta/Anabel Christman Birmingham Groves"
           },
           {
@@ -4805,6 +4982,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 3",
             "raw": "Audrey Duggan/Valentina Landry BerkleyCarcyn Winkel/Juliette Smoker Mason"
           },
           {
@@ -4839,6 +5017,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Irena Briggs/Caroline Henkel Traverse City Central2Anna Olekszyk/Sophia Arndt Birmingham Seaholm"
           }
         ]
@@ -4878,6 +5057,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 3",
             "raw": "1Tessa Wood/Sachi Togashi Midland DowMadison Fonnesbeck/Jillian Vanderhorst Byron Center"
           },
           {
@@ -4912,6 +5092,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 3",
             "raw": "4Valeria Vega/Addy Copeland Mattawan5Mallory Cooney/Maya Tanguay Farmington Hills Mercy"
           },
           {
@@ -4946,6 +5127,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 7 - 6 (3)",
             "raw": "6Amelia Paul/Hailey Pfeiffle Grand Rapids Forest Hills Northern3Yasmine Osta/Anabel Christman Birmingham Groves"
           },
           {
@@ -4980,6 +5162,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 3",
             "raw": "Carcyn Winkel/Juliette Smoker Mason2Anna Olekszyk/Sophia Arndt Birmingham Seaholm"
           }
         ]
@@ -5019,6 +5202,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 2",
             "raw": "1Tessa Wood/Sachi Togashi Midland Dow4Valeria Vega/Addy Copeland Mattawan"
           },
           {
@@ -5053,6 +5237,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 4",
             "raw": "3Yasmine Osta/Anabel Christman Birmingham Groves2Anna Olekszyk/Sophia Arndt Birmingham Seaholm"
           }
         ]
@@ -5092,6 +5277,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 1",
             "raw": "4Valeria Vega/Addy Copeland Mattawan2Anna Olekszyk/Sophia Arndt Birmingham Seaholm"
           }
         ]
@@ -5130,6 +5316,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Kate Crowley/Cate French Birmingham SeaholmBYE"
           },
           {
@@ -5164,6 +5351,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Date:05/21/2025BC Provisional SeedEmma Wiechertjes/Natalie Rutgers Byron CenterAleena Morphino/Ava Gkynn South Lyon"
           },
           {
@@ -5187,6 +5375,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Morgan Palmer/Eve Jenkins MidlandBYE"
           },
           {
@@ -5221,6 +5410,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 1",
             "raw": "MAGGIE SAMFORD/MORGAN WORT Gibraltar CarlsonIsabel Hauser/Leah Kruger Mason"
           },
           {
@@ -5244,6 +5434,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Anna Sapp/Kylie Hatfield Grand Rapids Forest Hills CentralBYE"
           },
           {
@@ -5278,6 +5469,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 0",
             "raw": "Sarita Govindaraj/Elissa Daniel North FarmingtonMack Mouchet/Isabella Bergman Allen Park"
           },
           {
@@ -5301,6 +5493,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Elisa Costeux/Alexa Leiti Midland DowBYE"
           },
           {
@@ -5335,6 +5528,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 4",
             "raw": "Byrdie Norton/Riley Schnieders BerkleyJosie Pawlowicz/Melanie Young Battle Creek Lakeview"
           },
           {
@@ -5369,6 +5563,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Mia Fakih/Ella Brennan Grosse Pointe SouthSophia Stefani/Sydney Suppes Dexter"
           },
           {
@@ -5392,6 +5587,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Kiera Shreffler/Katherine Ziegler Birmingham Groves"
           },
           {
@@ -5426,6 +5622,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Elizabeth Gisholt/Grace Knake East LansingJulia Haener/Adrianna Padron Wyandotte Roosevelt"
           },
           {
@@ -5449,6 +5646,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Quinn Hoxworth/Natalia Acevedo Grand Rapids Forest Hills Northern"
           },
           {
@@ -5472,6 +5670,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEXoa Thelen/Charlotte Furlong Traverse City Central"
           },
           {
@@ -5495,6 +5694,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEAlexa Cornelius/Hope Dosca Mattawan"
           },
           {
@@ -5529,6 +5729,7 @@
               }
             ],
             "winner": "top",
+            "score": "4 - 6 / 6 - 4 / 1 - 0 (1)",
             "raw": "Kate Hubmeier /Kyki Vasilos Grosse Pointe NorthRylie Lewis/Bella Kwasniak Trenton"
           },
           {
@@ -5552,6 +5753,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Penelope Livermore/Reese Sinawi Farmington Hills Mercy"
           }
         ]
@@ -5591,6 +5793,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 3",
             "raw": "1Kate Crowley/Cate French Birmingham SeaholmEmma Wiechertjes/Natalie Rutgers Byron Center"
           },
           {
@@ -5625,6 +5828,7 @@
               }
             ],
             "winner": "top",
+            "score": "4 - 6 / 6 - 1 / 1 - 0 (7)",
             "raw": "Morgan Palmer/Eve Jenkins MidlandIsabel Hauser/Leah Kruger Mason"
           },
           {
@@ -5659,6 +5863,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 2",
             "raw": "4Anna Sapp/Kylie Hatfield Grand Rapids Forest Hills CentralSarita Govindaraj/Elissa Daniel North Farmington"
           },
           {
@@ -5693,6 +5898,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "5Elisa Costeux/Alexa Leiti Midland DowJosie Pawlowicz/Melanie Young Battle Creek Lakeview"
           },
           {
@@ -5727,6 +5933,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 0",
             "raw": "Mia Fakih/Ella Brennan Grosse Pointe South6Kiera Shreffler/Katherine Ziegler Birmingham Groves"
           },
           {
@@ -5761,6 +5968,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Elizabeth Gisholt/Grace Knake East Lansing3Quinn Hoxworth/Natalia Acevedo Grand Rapids Forest Hills Northern"
           },
           {
@@ -5795,6 +6003,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 2",
             "raw": "Xoa Thelen/Charlotte Furlong Traverse City CentralAlexa Cornelius/Hope Dosca Mattawan"
           },
           {
@@ -5829,6 +6038,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Kate Hubmeier /Kyki Vasilos Grosse Pointe North2Penelope Livermore/Reese Sinawi Farmington Hills Mercy"
           }
         ]
@@ -5868,6 +6078,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "1Kate Crowley/Cate French Birmingham SeaholmMorgan Palmer/Eve Jenkins Midland"
           },
           {
@@ -5902,6 +6113,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 7 - 5",
             "raw": "4Anna Sapp/Kylie Hatfield Grand Rapids Forest Hills Central5Elisa Costeux/Alexa Leiti Midland Dow"
           },
           {
@@ -5936,6 +6148,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 3",
             "raw": "6Kiera Shreffler/Katherine Ziegler Birmingham Groves3Quinn Hoxworth/Natalia Acevedo Grand Rapids Forest Hills Northern"
           },
           {
@@ -5970,6 +6183,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 1",
             "raw": "Xoa Thelen/Charlotte Furlong Traverse City Central2Penelope Livermore/Reese Sinawi Farmington Hills Mercy"
           }
         ]
@@ -6009,6 +6223,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 7 - 5",
             "raw": "1Kate Crowley/Cate French Birmingham Seaholm5Elisa Costeux/Alexa Leiti Midland Dow"
           },
           {
@@ -6043,6 +6258,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 6 (5) / 6 - 3",
             "raw": "3Quinn Hoxworth/Natalia Acevedo Grand Rapids Forest Hills Northern2Penelope Livermore/Reese Sinawi Farmington Hills Mercy"
           }
         ]
@@ -6082,6 +6298,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 4",
             "raw": "1Kate Crowley/Cate French Birmingham Seaholm2Penelope Livermore/Reese Sinawi Farmington Hills Mercy"
           }
         ]
@@ -6120,6 +6337,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Anna Naida/Olivia Wiljhelm Farmington Hills MercyBYE"
           },
           {
@@ -6154,6 +6372,7 @@
               }
             ],
             "winner": "bot",
+            "score": "4 - 6 / 6 - 3 / 1 - 0 (5)",
             "raw": "Date:05/21/2025FHN Provisional SeedAubrey Lindow/Francesca Swikoski Grosse Pointe SouthSadie Wolfe/Ava Targosz Grand Rapids Forest Hills Northern"
           },
           {
@@ -6177,6 +6396,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Izzy Sterling/Serena Pas North FarmingtonBYE"
           },
           {
@@ -6211,6 +6431,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "Kiera Ramirez/Lillie Miller Battle Creek LakeviewSOPHIA GAYNIER/GABBY PEER Gibraltar Carlson"
           },
           {
@@ -6234,6 +6455,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Abby Gleason/Emmary McKee Grand Rapids Forest Hills CentralBYE"
           },
           {
@@ -6268,6 +6490,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 7 - 5",
             "raw": "Ava Greenlee/Elliana Skaggs MasonChloe Srabian/Ella Smith Trenton"
           },
           {
@@ -6291,6 +6514,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Rylie Hull/Avery Hustak Byron CenterBYE"
           },
           {
@@ -6325,6 +6549,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 7 (5) / 1 - 0 (5)",
             "raw": "Lauren Deckrow/Emmalea TerBurgh MidlandNadia Fobbs/Lily Pearson Berkley"
           },
           {
@@ -6359,6 +6584,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 6 - 3",
             "raw": "Kiley Boehmer/Quiana Garcia Allen ParkLydia Cebulski/Katelyn Seeland Dexter"
           },
           {
@@ -6382,6 +6608,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Stella Alfredson/Zoe Van Dorn East Lansing"
           },
           {
@@ -6416,6 +6643,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 6 - 2",
             "raw": "Ava Ulberg/Clara Pride MattawanChloe Nemeth/Jamie Bloom Birmingham Groves"
           },
           {
@@ -6439,6 +6667,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Lauren Yao/Evie Samocki Midland Dow"
           },
           {
@@ -6462,6 +6691,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEAli Swanker/Lauren Fisk Traverse City Central"
           },
           {
@@ -6485,6 +6715,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEEmmalee Eskin/Claudia Danziger Wyandotte Roosevelt"
           },
           {
@@ -6519,6 +6750,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 1",
             "raw": "Gianna Wagner /Maria (Mia) Melhem Grosse Pointe NorthHelen Gasidlo/Ali Kovalik South Lyon"
           },
           {
@@ -6542,6 +6774,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Katie Joyce/Alina Villaire Birmingham Seaholm"
           }
         ]
@@ -6581,6 +6814,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 6 - 4",
             "raw": "1Anna Naida/Olivia Wiljhelm Farmington Hills MercySadie Wolfe/Ava Targosz Grand Rapids Forest Hills Northern"
           },
           {
@@ -6615,6 +6849,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 2",
             "raw": "Izzy Sterling/Serena Pas North FarmingtonKiera Ramirez/Lillie Miller Battle Creek Lakeview"
           },
           {
@@ -6649,6 +6884,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 1",
             "raw": "4Abby Gleason/Emmary McKee Grand Rapids Forest Hills CentralAva Greenlee/Elliana Skaggs Mason"
           },
           {
@@ -6683,6 +6919,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 7 (4) / 1 - 0 (7)",
             "raw": "5Rylie Hull/Avery Hustak Byron CenterLauren Deckrow/Emmalea TerBurgh Midland"
           },
           {
@@ -6717,6 +6954,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Lydia Cebulski/Katelyn Seeland Dexter6Stella Alfredson/Zoe Van Dorn East Lansing"
           },
           {
@@ -6751,6 +6989,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 3",
             "raw": "Chloe Nemeth/Jamie Bloom Birmingham Groves3Lauren Yao/Evie Samocki Midland Dow"
           },
           {
@@ -6785,6 +7024,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 2",
             "raw": "Ali Swanker/Lauren Fisk Traverse City CentralEmmalee Eskin/Claudia Danziger Wyandotte Roosevelt"
           },
           {
@@ -6819,6 +7059,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 2",
             "raw": "Gianna Wagner /Maria (Mia) Melhem Grosse Pointe North2Katie Joyce/Alina Villaire Birmingham Seaholm"
           }
         ]
@@ -6858,6 +7099,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Sadie Wolfe/Ava Targosz Grand Rapids Forest Hills NorthernIzzy Sterling/Serena Pas North Farmington"
           },
           {
@@ -6892,6 +7134,7 @@
               }
             ],
             "winner": "top",
+            "score": "7 - 6 (6) / 2 - 6 / 7 - 6 (7)",
             "raw": "4Abby Gleason/Emmary McKee Grand Rapids Forest Hills Central5Rylie Hull/Avery Hustak Byron Center"
           },
           {
@@ -6926,6 +7169,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 3",
             "raw": "6Stella Alfredson/Zoe Van Dorn East Lansing3Lauren Yao/Evie Samocki Midland Dow"
           },
           {
@@ -6960,6 +7204,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 2",
             "raw": "Ali Swanker/Lauren Fisk Traverse City Central2Katie Joyce/Alina Villaire Birmingham Seaholm"
           }
         ]
@@ -6999,6 +7244,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 3",
             "raw": "Sadie Wolfe/Ava Targosz Grand Rapids Forest Hills Northern4Abby Gleason/Emmary McKee Grand Rapids Forest Hills Central"
           },
           {
@@ -7033,6 +7279,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 2",
             "raw": "3Lauren Yao/Evie Samocki Midland Dow2Katie Joyce/Alina Villaire Birmingham Seaholm"
           }
         ]
@@ -7072,6 +7319,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 3",
             "raw": "Sadie Wolfe/Ava Targosz Grand Rapids Forest Hills Northern2Katie Joyce/Alina Villaire Birmingham Seaholm"
           }
         ]

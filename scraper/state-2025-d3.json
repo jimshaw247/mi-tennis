@@ -27,6 +27,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Chloe Qin Bloomfield Hills Cranbrook KingswoodBYE"
           },
           {
@@ -53,6 +54,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 2",
             "raw": "Josalynn Nowicki FruitportScarlett Hosner Vicksburg"
           },
           {
@@ -79,6 +81,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Samantha Bieber ChelseaIsabelle Troost Hamilton"
           },
           {
@@ -105,6 +108,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Gabrielle Asher HaslettDivyana Varma East Grand Rapids"
           },
           {
@@ -124,6 +128,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Caroline Torok Bloomfield Hills MarianBYE"
           },
           {
@@ -150,6 +155,7 @@
               }
             ],
             "winner": "bot",
+            "score": "3 - 6 / 6 - 3 / 10 - 4",
             "raw": "Alexandria Weitz Dearborn Divine ChildMackenzie Fox Lansing Eastern"
           },
           {
@@ -169,6 +175,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Josie Arbanas Stevensville LakeshoreBYE"
           },
           {
@@ -195,6 +202,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 2",
             "raw": "Lily David Grand Rapids Catholic Central Elizabeth Pardy Croswell-Lexington"
           },
           {
@@ -221,6 +229,7 @@
               }
             ],
             "winner": "bot",
+            "score": "3 - 6 / 6 - 3 / 11 - 9",
             "raw": "Ava Dame Grosse IleErin Letter Edwardsburg"
           },
           {
@@ -240,6 +249,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Lilah Zaskowski Ada Forest Hills Eastern"
           },
           {
@@ -266,6 +276,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 0",
             "raw": "Kaja Wiederhold Ortonville BrandonGabi Rooks Holland Christian"
           },
           {
@@ -285,6 +296,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Henley Honholt Grand Rapids Christian"
           },
           {
@@ -311,6 +323,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "Dru Porter Parma WesternPaityn Chant St. Johns"
           },
           {
@@ -337,6 +350,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 0",
             "raw": "Haylee Mills St. Clair7Angelina Jovicic Adrian"
           },
           {
@@ -363,6 +377,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 7 - 5",
             "raw": "Savana Michmerhuizen Grand Rapids South ChristianSloan Horton Spring Lake"
           },
           {
@@ -382,6 +397,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Sophia Grzesiak Detroit Country Day"
           }
         ]
@@ -413,6 +429,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "1Chloe Qin Bloomfield Hills Cranbrook KingswoodScarlett Hosner Vicksburg"
           },
           {
@@ -439,6 +456,7 @@
               }
             ],
             "winner": "top",
+            "score": "7 - 6 (5) / 6 - 1",
             "raw": "Samantha Bieber ChelseaDivyana Varma East Grand Rapids"
           },
           {
@@ -465,6 +483,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 2",
             "raw": "4Caroline Torok Bloomfield Hills MarianMackenzie Fox Lansing Eastern"
           },
           {
@@ -491,6 +510,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 4",
             "raw": "5Josie Arbanas Stevensville LakeshoreLily David Grand Rapids Catholic Central"
           },
           {
@@ -517,6 +537,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Erin Letter Edwardsburg6Lilah Zaskowski Ada Forest Hills Eastern"
           },
           {
@@ -543,6 +564,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 2",
             "raw": "Gabi Rooks Holland Christian 3Henley Honholt Grand Rapids Christian"
           },
           {
@@ -569,6 +591,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Dru Porter Parma Western7Angelina Jovicic Adrian"
           },
           {
@@ -595,6 +618,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 2",
             "raw": "Savana Michmerhuizen Grand Rapids South Christian2Sophia Grzesiak Detroit Country Day"
           }
         ]
@@ -626,6 +650,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 1",
             "raw": "1Chloe Qin Bloomfield Hills Cranbrook KingswoodSamantha Bieber Chelsea"
           },
           {
@@ -652,6 +677,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 2",
             "raw": "4Caroline Torok Bloomfield Hills Marian5Josie Arbanas Stevensville Lakeshore"
           },
           {
@@ -678,6 +704,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 2",
             "raw": "6Lilah Zaskowski Ada Forest Hills Eastern3Henley Honholt Grand Rapids Christian"
           },
           {
@@ -704,6 +731,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 1",
             "raw": "7Angelina Jovicic Adrian2Sophia Grzesiak Detroit Country Day"
           }
         ]
@@ -735,6 +763,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "1Chloe Qin Bloomfield Hills Cranbrook Kingswood5Josie Arbanas Stevensville Lakeshore"
           },
           {
@@ -761,6 +790,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 2",
             "raw": "3Henley Honholt Grand Rapids Christian 2Sophia Grzesiak Detroit Country Day"
           }
         ]
@@ -792,6 +822,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "1Chloe Qin Bloomfield Hills Cranbrook Kingswood2Sophia Grzesiak Detroit Country Day"
           }
         ]
@@ -826,6 +857,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Caroline Liu Bloomfield Hills Cranbrook KingswoodBYE"
           },
           {
@@ -852,6 +884,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Colleen Kirk Grand Rapids Catholic Central Emersyn Sturgis St. Johns"
           },
           {
@@ -871,6 +904,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Julia Lewis EdwardsburgBYE"
           },
           {
@@ -890,6 +924,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Amaya Graebert St. ClairBYE"
           },
           {
@@ -906,6 +941,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Elizabeth Torok Bloomfield Hills Marian"
           },
           {
@@ -932,6 +968,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 1",
             "raw": "Gabby Young Grand Rapids South ChristianCamryn Nadig Holland Christian"
           },
           {
@@ -951,6 +988,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Farha Malviya East Grand RapidsBYE"
           },
           {
@@ -970,6 +1008,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Seffi Berg ChelseaBYE"
           },
           {
@@ -989,6 +1028,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEAli Carmody Parma Western"
           },
           {
@@ -1008,6 +1048,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Avah Jerke Grand Rapids Christian"
           },
           {
@@ -1034,6 +1075,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 1",
             "raw": "Ada Feasby Spring LakeJamie Lofstedt Grosse Ile"
           },
           {
@@ -1053,6 +1095,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Caroline Dempsey Ada Forest Hills Eastern"
           },
           {
@@ -1072,6 +1115,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEErin Meiste Hamilton"
           },
           {
@@ -1091,6 +1135,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEMaya Grossman Vicksburg"
           },
           {
@@ -1117,6 +1162,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Natalie Maxwell Croswell-LexingtonLexi Pridgeon Haslett"
           },
           {
@@ -1136,6 +1182,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Chloe Conniff Detroit Country Day"
           }
         ]
@@ -1167,6 +1214,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "1Caroline Liu Bloomfield Hills Cranbrook KingswoodColleen Kirk Grand Rapids Catholic Central"
           },
           {
@@ -1193,6 +1241,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 1",
             "raw": "Julia Lewis EdwardsburgAmaya Graebert St. Clair"
           },
           {
@@ -1219,6 +1268,7 @@
               }
             ],
             "winner": "top",
+            "score": "7 - 5 / 7 - 6 (7)",
             "raw": "4Elizabeth Torok Bloomfield Hills MarianCamryn Nadig Holland Christian"
           },
           {
@@ -1245,6 +1295,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "5Farha Malviya East Grand RapidsSeffi Berg Chelsea"
           },
           {
@@ -1271,6 +1322,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 1",
             "raw": "Ali Carmody Parma Western6Avah Jerke Grand Rapids Christian"
           },
           {
@@ -1297,6 +1349,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Ada Feasby Spring Lake3Caroline Dempsey Ada Forest Hills Eastern"
           },
           {
@@ -1323,6 +1376,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 3 - 6 / 10 - 7",
             "raw": "Erin Meiste HamiltonMaya Grossman Vicksburg"
           },
           {
@@ -1349,6 +1403,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Lexi Pridgeon Haslett2Chloe Conniff Detroit Country Day"
           }
         ]
@@ -1380,6 +1435,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "1Caroline Liu Bloomfield Hills Cranbrook KingswoodJulia Lewis Edwardsburg"
           },
           {
@@ -1406,6 +1462,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 0",
             "raw": "4Elizabeth Torok Bloomfield Hills Marian5Farha Malviya East Grand Rapids"
           },
           {
@@ -1432,6 +1489,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 1",
             "raw": "6Avah Jerke Grand Rapids Christian 3Caroline Dempsey Ada Forest Hills Eastern"
           },
           {
@@ -1458,6 +1516,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Erin Meiste Hamilton2Chloe Conniff Detroit Country Day"
           }
         ]
@@ -1489,6 +1548,7 @@
               }
             ],
             "winner": "top",
+            "score": "61 - 0 / 6 - 0",
             "raw": "1Caroline Liu Bloomfield Hills Cranbrook Kingswood4Elizabeth Torok Bloomfield Hills Marian"
           },
           {
@@ -1515,6 +1575,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 1",
             "raw": "3Caroline Dempsey Ada Forest Hills Eastern2Chloe Conniff Detroit Country Day"
           }
         ]
@@ -1546,6 +1607,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 2",
             "raw": "1Caroline Liu Bloomfield Hills Cranbrook Kingswood2Chloe Conniff Detroit Country Day"
           }
         ]
@@ -1580,6 +1642,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Karishma Vakhariya Detroit Country DayBYE"
           },
           {
@@ -1606,6 +1669,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 1 - 6 / 10 - 6",
             "raw": "Alyssa Schafer St. ClairNoor Hassan Ada Forest Hills Eastern"
           },
           {
@@ -1625,6 +1689,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Addison Boggs Grosse IleBYE"
           },
           {
@@ -1644,6 +1709,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Verona Moody EdwardsburgBYE"
           },
           {
@@ -1663,6 +1729,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Claire Kaufman Grand Rapids Catholic Central BYE"
           },
           {
@@ -1689,6 +1756,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 2 - 6 / 10 - 3",
             "raw": "Casey Ferguson Spring LakeKate Boettger St. Johns"
           },
           {
@@ -1708,6 +1776,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Roca Yang Bloomfield Hills Cranbrook KingswoodBYE"
           },
           {
@@ -1727,6 +1796,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Danya Hendrickson Grand Rapids South ChristianBYE"
           },
           {
@@ -1746,6 +1816,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYENatalie Hyde Parma Western"
           },
           {
@@ -1765,6 +1836,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Ines Bordenet East Grand Rapids"
           },
           {
@@ -1791,6 +1863,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 3",
             "raw": "Maya Wettlaufer HamiltonKaia Anastor Haslett"
           },
           {
@@ -1810,6 +1883,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Anya Nix Bloomfield Hills Marian"
           },
           {
@@ -1829,6 +1903,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEEsmay Klingenberg Holland Christian"
           },
           {
@@ -1848,6 +1923,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYECheyenne Krampits Croswell-Lexington"
           },
           {
@@ -1874,6 +1950,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 6 - 3",
             "raw": "Jenna Schramer VicksburgLibby Timberlake Chelsea"
           },
           {
@@ -1893,6 +1970,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Kaitlyn Schmitt Grand Rapids Christian"
           }
         ]
@@ -1924,6 +2002,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "1Karishma Vakhariya Detroit Country DayNoor Hassan Ada Forest Hills Eastern"
           },
           {
@@ -1950,6 +2029,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 4",
             "raw": "Addison Boggs Grosse IleVerona Moody Edwardsburg"
           },
           {
@@ -1976,6 +2056,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "4Claire Kaufman Grand Rapids Catholic Central Kate Boettger St. Johns"
           },
           {
@@ -2002,6 +2083,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 2",
             "raw": "5Roca Yang Bloomfield Hills Cranbrook KingswoodDanya Hendrickson Grand Rapids South Christian"
           },
           {
@@ -2028,6 +2110,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Natalie Hyde Parma Western6Ines Bordenet East Grand Rapids"
           },
           {
@@ -2054,6 +2137,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Maya Wettlaufer Hamilton3Anya Nix Bloomfield Hills Marian"
           },
           {
@@ -2080,6 +2164,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 1",
             "raw": "Esmay Klingenberg Holland Christian Cheyenne Krampits Croswell-Lexington"
           },
           {
@@ -2106,6 +2191,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 1",
             "raw": "Libby Timberlake Chelsea2Kaitlyn Schmitt Grand Rapids Christian"
           }
         ]
@@ -2137,6 +2223,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 1",
             "raw": "1Karishma Vakhariya Detroit Country DayVerona Moody Edwardsburg"
           },
           {
@@ -2163,6 +2250,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 7 (6) / 6 - 3 / 6 - 2",
             "raw": "4Claire Kaufman Grand Rapids Catholic Central 5Roca Yang Bloomfield Hills Cranbrook Kingswood"
           },
           {
@@ -2189,6 +2277,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 0",
             "raw": "6Ines Bordenet East Grand Rapids3Anya Nix Bloomfield Hills Marian"
           },
           {
@@ -2215,6 +2304,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 6 - 1",
             "raw": "Esmay Klingenberg Holland Christian 2Kaitlyn Schmitt Grand Rapids Christian"
           }
         ]
@@ -2246,6 +2336,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 0",
             "raw": "1Karishma Vakhariya Detroit Country Day5Roca Yang Bloomfield Hills Cranbrook Kingswood"
           },
           {
@@ -2272,6 +2363,7 @@
               }
             ],
             "winner": "bot",
+            "score": "3 - 6 / 7 - 5 / 6 - 4",
             "raw": "3Anya Nix Bloomfield Hills Marian2Kaitlyn Schmitt Grand Rapids Christian"
           }
         ]
@@ -2303,6 +2395,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 1 - 6 / 6 - 0",
             "raw": "1Karishma Vakhariya Detroit Country Day2Kaitlyn Schmitt Grand Rapids Christian"
           }
         ]
@@ -2337,6 +2430,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Helen Benjamin Detroit Country DayBYE"
           },
           {
@@ -2363,6 +2457,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Isabel Krueger Grand Rapids Catholic Central Ashlyn Simons St. Clair"
           },
           {
@@ -2382,6 +2477,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Eve Feasby Spring LakeBYE"
           },
           {
@@ -2401,6 +2497,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Nora Garbarkiewicz ChelseaBYE"
           },
           {
@@ -2420,6 +2517,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Anwen Amash Grand Rapids Christian BYE"
           },
           {
@@ -2446,6 +2544,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 0",
             "raw": "Audi Burgess Grand Rapids South ChristianCourtney Ouderkirk St. Johns"
           },
           {
@@ -2465,6 +2564,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Giselle Harman Bloomfield Hills Cranbrook KingswoodBYE"
           },
           {
@@ -2484,6 +2584,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Elise Howard VicksburgBYE"
           },
           {
@@ -2503,6 +2604,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEKylie Rietema Hamilton"
           },
           {
@@ -2522,6 +2624,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Marja Geisz Bloomfield Hills Marian"
           },
           {
@@ -2548,6 +2651,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Maddie Mills Croswell-LexingtonEllie McCollum Parma Western"
           },
           {
@@ -2567,6 +2671,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Mia Owings East Grand Rapids"
           },
           {
@@ -2586,6 +2691,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYELauren Richey Haslett"
           },
           {
@@ -2605,6 +2711,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEGrace Leman Edwardsburg"
           },
           {
@@ -2631,6 +2738,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 1",
             "raw": "Ava Hoogterp Ada Forest Hills EasternNya Lee-Wah Grosse Ile"
           },
           {
@@ -2650,6 +2758,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Iyla Holmes Holland Christian"
           }
         ]
@@ -2681,6 +2790,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "1Helen Benjamin Detroit Country DayIsabel Krueger Grand Rapids Catholic Central"
           },
           {
@@ -2707,6 +2817,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 6 (4) / 6 - 3",
             "raw": "Eve Feasby Spring LakeNora Garbarkiewicz Chelsea"
           },
           {
@@ -2733,6 +2844,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 3 - 6 / 10 - 7",
             "raw": "4Anwen Amash Grand Rapids Christian Audi Burgess Grand Rapids South Christian"
           },
           {
@@ -2759,6 +2871,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 3",
             "raw": "5Giselle Harman Bloomfield Hills Cranbrook KingswoodElise Howard Vicksburg"
           },
           {
@@ -2785,6 +2898,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Kylie Rietema Hamilton6Marja Geisz Bloomfield Hills Marian"
           },
           {
@@ -2811,6 +2925,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Ellie McCollum Parma Western3Mia Owings East Grand Rapids"
           },
           {
@@ -2837,6 +2952,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 0",
             "raw": "Lauren Richey HaslettGrace Leman Edwardsburg"
           },
           {
@@ -2863,6 +2979,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 1",
             "raw": "Ava Hoogterp Ada Forest Hills Eastern2Iyla Holmes Holland Christian"
           }
         ]
@@ -2894,6 +3011,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 2",
             "raw": "1Helen Benjamin Detroit Country DayNora Garbarkiewicz Chelsea"
           },
           {
@@ -2920,6 +3038,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "4Anwen Amash Grand Rapids Christian 5Giselle Harman Bloomfield Hills Cranbrook Kingswood"
           },
           {
@@ -2946,6 +3065,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 0",
             "raw": "6Marja Geisz Bloomfield Hills Marian3Mia Owings East Grand Rapids"
           },
           {
@@ -2972,6 +3092,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Lauren Richey Haslett2Iyla Holmes Holland Christian"
           }
         ]
@@ -3003,6 +3124,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "1Helen Benjamin Detroit Country Day4Anwen Amash Grand Rapids Christian"
           },
           {
@@ -3029,6 +3151,7 @@
               }
             ],
             "winner": "bot",
+            "score": "1 - 6 / 7 - 6 (5) / 76 - 5",
             "raw": "3Mia Owings East Grand Rapids2Iyla Holmes Holland Christian"
           }
         ]
@@ -3060,6 +3183,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 2",
             "raw": "1Helen Benjamin Detroit Country Day2Iyla Holmes Holland Christian"
           }
         ]
@@ -3098,6 +3222,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Ava Clogg/Chiara Martella Bloomfield Hills Cranbrook KingswoodBYE"
           },
           {
@@ -3132,6 +3257,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 3",
             "raw": "Olivia Jones/Savannah Phillips St. ClairMallory Lindemann/Mary Irwin Grand Rapids Catholic Central"
           },
           {
@@ -3155,6 +3281,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Stella Jelsema/Morgan Struck Grand Rapids South ChristianBYE"
           },
           {
@@ -3178,6 +3305,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Olivia Penney/Emma Vallier VicksburgBYE"
           },
           {
@@ -3201,6 +3329,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Josie Jackson/Haley Hopkins ChelseaBYE"
           },
           {
@@ -3235,6 +3364,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 3",
             "raw": "Aliya Williams /Lydia Recor Spring LakeAdele Leister /Ella Boccarossa Haslett"
           },
           {
@@ -3258,6 +3388,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Sophia DeGuzman/Kate Simon East Grand RapidsBYE"
           },
           {
@@ -3292,6 +3423,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 0",
             "raw": "Becca Brushaber/Chehek Bharatiya Parma WesternDanielle Wedeven/Brynn Bolhuis Hamilton"
           },
           {
@@ -3315,6 +3447,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEAbby Pryor/Mya Eberlein Edwardsburg"
           },
           {
@@ -3338,6 +3471,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Gwyn Artz/Anneka Vermeulen Grand Rapids Christian"
           },
           {
@@ -3372,6 +3506,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 3 - 6 / 10 - 7",
             "raw": "Maddie Hawks/Courtney Hurdle Stevensville LakeshoreEmily Riopelle/Maddie Mahanic Grosse Ile"
           },
           {
@@ -3395,6 +3530,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Allegra Curis/Emerson Turkot Bloomfield Hills Marian"
           },
           {
@@ -3418,6 +3554,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEKassie Evenhouse/Stella Klooster Holland Christian"
           },
           {
@@ -3441,6 +3578,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEElla Molesta/Izzy Feenstra Ada Forest Hills Eastern"
           },
           {
@@ -3475,6 +3613,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 6 (2) / 6 - 0",
             "raw": "Rowley Kerry/Kaylynn Kramer Croswell-LexingtonBrenda McCann/Ramiah Caroland St. Johns"
           },
           {
@@ -3498,6 +3637,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Quinn Norlander/Katie Han Detroit Country Day"
           }
         ]
@@ -3537,6 +3677,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 1",
             "raw": "1Ava Clogg/Chiara Martella Bloomfield Hills Cranbrook KingswoodMallory Lindemann/Mary Irwin Grand Rapids Catholic Central"
           },
           {
@@ -3571,6 +3712,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 2",
             "raw": "Stella Jelsema/Morgan Struck Grand Rapids South ChristianOlivia Penney/Emma Vallier Vicksburg"
           },
           {
@@ -3605,6 +3747,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "4Josie Jackson/Haley Hopkins ChelseaAdele Leister /Ella Boccarossa Haslett"
           },
           {
@@ -3639,6 +3782,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 0",
             "raw": "5Sophia DeGuzman/Kate Simon East Grand RapidsBecca Brushaber/Chehek Bharatiya Parma Western"
           },
           {
@@ -3673,6 +3817,7 @@
               }
             ],
             "winner": "bot",
+            "score": "5 - 7 / 6 - 0 / 10 - 3",
             "raw": "Abby Pryor/Mya Eberlein Edwardsburg6Gwyn Artz/Anneka Vermeulen Grand Rapids Christian"
           },
           {
@@ -3707,6 +3852,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Maddie Hawks/Courtney Hurdle Stevensville Lakeshore3Allegra Curis/Emerson Turkot Bloomfield Hills Marian"
           },
           {
@@ -3741,6 +3887,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 2 - 6 / 10 - 6",
             "raw": "Kassie Evenhouse/Stella Klooster Holland Christian Ella Molesta/Izzy Feenstra Ada Forest Hills Eastern"
           },
           {
@@ -3775,6 +3922,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Brenda McCann/Ramiah Caroland St. Johns2Quinn Norlander/Katie Han Detroit Country Day"
           }
         ]
@@ -3814,6 +3962,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "1Ava Clogg/Chiara Martella Bloomfield Hills Cranbrook KingswoodStella Jelsema/Morgan Struck Grand Rapids South Christian"
           },
           {
@@ -3848,6 +3997,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 3",
             "raw": "4Josie Jackson/Haley Hopkins Chelsea5Sophia DeGuzman/Kate Simon East Grand Rapids"
           },
           {
@@ -3882,6 +4032,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 0",
             "raw": "6Gwyn Artz/Anneka Vermeulen Grand Rapids Christian 3Allegra Curis/Emerson Turkot Bloomfield Hills Marian"
           },
           {
@@ -3916,6 +4067,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Ella Molesta/Izzy Feenstra Ada Forest Hills Eastern2Quinn Norlander/Katie Han Detroit Country Day"
           }
         ]
@@ -3955,6 +4107,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 4 - 6 / 6 - 3",
             "raw": "1Ava Clogg/Chiara Martella Bloomfield Hills Cranbrook Kingswood4Josie Jackson/Haley Hopkins Chelsea"
           },
           {
@@ -3989,6 +4142,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "3Allegra Curis/Emerson Turkot Bloomfield Hills Marian2Quinn Norlander/Katie Han Detroit Country Day"
           }
         ]
@@ -4028,6 +4182,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 2",
             "raw": "1Ava Clogg/Chiara Martella Bloomfield Hills Cranbrook Kingswood2Quinn Norlander/Katie Han Detroit Country Day"
           }
         ]
@@ -4066,6 +4221,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Sophia Kouza/Madeline Day Bloomfield Hills Cranbrook KingswoodBYE"
           },
           {
@@ -4100,6 +4256,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 1",
             "raw": "Berta Cancelo Morales/Kendell Hayden Croswell-LexingtonRuthie Radgens/Jessica Milanowski Grand Rapids Catholic Central"
           },
           {
@@ -4123,6 +4280,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Hannah Moyer/Madison kanouse VicksburgBYE"
           },
           {
@@ -4146,6 +4304,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Hope Bruinsma/Isa Van Klompenberg Holland Christian BYE"
           },
           {
@@ -4169,6 +4328,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Lucy Taylor/Brenna Taylor ChelseaBYE"
           },
           {
@@ -4203,6 +4363,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Layla Kerschen /Reese Van De Riet HaslettEdith Zimdar/Lia Degoa East Grand Rapids"
           },
           {
@@ -4226,6 +4387,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Abigail Atwood/Sophia Blauwkamp HamiltonBYE"
           },
           {
@@ -4249,6 +4411,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Kiiona Carmody/Sophia Nguyen Parma WesternBYE"
           },
           {
@@ -4272,6 +4435,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEAnna Robinson/Tania Bhatti Grosse Ile"
           },
           {
@@ -4295,6 +4459,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Corryn Koffler/Juliana Hoving Ada Forest Hills Eastern"
           },
           {
@@ -4329,6 +4494,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 2",
             "raw": "Violet Hirst/Amelia Waidelich St. ClairEmily Schaner/Haley Smith Spring Lake"
           },
           {
@@ -4352,6 +4518,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Alex Freitag/Audrey Agbay Bloomfield Hills Marian"
           },
           {
@@ -4375,6 +4542,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEMara VanBuren/Olivia Closson Edwardsburg"
           },
           {
@@ -4398,6 +4566,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYECaroline Parsons/Callie Morrison St. Johns"
           },
           {
@@ -4432,6 +4601,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Anna Jacobsen/Emily VandenBerge Grand Rapids Christian Maddie Bultsma/Ava Oosting Grand Rapids South Christian"
           },
           {
@@ -4455,6 +4625,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Addie Grebinski/Noor Mahmoud Detroit Country Day"
           }
         ]
@@ -4494,6 +4665,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "1Sophia Kouza/Madeline Day Bloomfield Hills Cranbrook KingswoodRuthie Radgens/Jessica Milanowski Grand Rapids Catholic Central"
           },
           {
@@ -4528,6 +4700,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Hannah Moyer/Madison kanouse VicksburgHope Bruinsma/Isa Van Klompenberg Holland Christian"
           },
           {
@@ -4562,6 +4735,7 @@
               }
             ],
             "winner": "top",
+            "score": "5 - 7 / 6 - 3 / 10 - 3",
             "raw": "4Lucy Taylor/Brenna Taylor ChelseaEdith Zimdar/Lia Degoa East Grand Rapids"
           },
           {
@@ -4596,6 +4770,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 4 - 6 / 10 - 3",
             "raw": "5Abigail Atwood/Sophia Blauwkamp HamiltonKiiona Carmody/Sophia Nguyen Parma Western"
           },
           {
@@ -4630,6 +4805,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 1",
             "raw": "Anna Robinson/Tania Bhatti Grosse Ile6Corryn Koffler/Juliana Hoving Ada Forest Hills Eastern"
           },
           {
@@ -4664,6 +4840,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Emily Schaner/Haley Smith Spring Lake3Alex Freitag/Audrey Agbay Bloomfield Hills Marian"
           },
           {
@@ -4698,6 +4875,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 3",
             "raw": "Mara VanBuren/Olivia Closson EdwardsburgCaroline Parsons/Callie Morrison St. Johns"
           },
           {
@@ -4732,6 +4910,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 4",
             "raw": "Anna Jacobsen/Emily VandenBerge Grand Rapids Christian 2Addie Grebinski/Noor Mahmoud Detroit Country Day"
           }
         ]
@@ -4771,6 +4950,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 4",
             "raw": "1Sophia Kouza/Madeline Day Bloomfield Hills Cranbrook KingswoodHope Bruinsma/Isa Van Klompenberg Holland Christian"
           },
           {
@@ -4805,6 +4985,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 4 / 6 - 3",
             "raw": "4Lucy Taylor/Brenna Taylor Chelsea5Abigail Atwood/Sophia Blauwkamp Hamilton"
           },
           {
@@ -4839,6 +5020,7 @@
               }
             ],
             "winner": "bot",
+            "score": "0 - 6 / 6 - 3 / 6 - 2",
             "raw": "6Corryn Koffler/Juliana Hoving Ada Forest Hills Eastern3Alex Freitag/Audrey Agbay Bloomfield Hills Marian"
           },
           {
@@ -4873,6 +5055,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 3",
             "raw": "Mara VanBuren/Olivia Closson Edwardsburg2Addie Grebinski/Noor Mahmoud Detroit Country Day"
           }
         ]
@@ -4912,6 +5095,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 4",
             "raw": "1Sophia Kouza/Madeline Day Bloomfield Hills Cranbrook Kingswood4Lucy Taylor/Brenna Taylor Chelsea"
           },
           {
@@ -4946,6 +5130,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 2 - 6 / 6 - 3",
             "raw": "3Alex Freitag/Audrey Agbay Bloomfield Hills Marian2Addie Grebinski/Noor Mahmoud Detroit Country Day"
           }
         ]
@@ -4985,6 +5170,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 3",
             "raw": "1Sophia Kouza/Madeline Day Bloomfield Hills Cranbrook Kingswood2Addie Grebinski/Noor Mahmoud Detroit Country Day"
           }
         ]
@@ -5023,6 +5209,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Stella Glorio/Lexa Hindo Bloomfield Hills MarianBYE"
           },
           {
@@ -5057,6 +5244,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Londyn Jerke/Johanna Bos Grand Rapids Christian Lacie Jahn/Mary McNaughton Croswell-Lexington"
           },
           {
@@ -5080,6 +5268,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Ava Kowal/Ariana Lopez Grosse IleBYE"
           },
           {
@@ -5103,6 +5292,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Lily Wierenga/Chloe Tait Holland Christian BYE"
           },
           {
@@ -5126,6 +5316,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Claire Jones/Naomi Stolle East Grand RapidsBYE"
           },
           {
@@ -5160,6 +5351,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 4 - 6 / 10 - 8",
             "raw": "Anneka Schuurmans/Sophie Young Grand Rapids South ChristianSummer Kanaski/Aubrey Beltran St. Johns"
           },
           {
@@ -5183,6 +5375,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Anna Wilcox/Karly Foster Parma WesternBYE"
           },
           {
@@ -5206,6 +5399,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Abbie Hartley/Bella Hankins EdwardsburgBYE"
           },
           {
@@ -5229,6 +5423,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEKendall Armstrong/Addison Schroeder Haslett"
           },
           {
@@ -5252,6 +5447,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Ellie Kuck/Amelia Baker Chelsea"
           },
           {
@@ -5286,6 +5482,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 5 - 7 / 10 - 6",
             "raw": "Meredith Sakel/Hannah Davis Spring LakeKatelyn Izworski/Arabella Sassano Grand Rapids Catholic Central"
           },
           {
@@ -5309,6 +5506,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Zoe Grebinski/Margaux Kohn Detroit Country Day"
           },
           {
@@ -5332,6 +5530,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEJodie White/Morgan White Vicksburg"
           },
           {
@@ -5355,6 +5554,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEAllison Lezman/Sophia Jorba Martinez Hamilton"
           },
           {
@@ -5389,6 +5589,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Bella Zolotarevsky/Raka Majumdar Ada Forest Hills EasternAmira El Hadri/Mya Ondrus St. Clair"
           },
           {
@@ -5412,6 +5613,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Michelle Chen/Jessica Hall Bloomfield Hills Cranbrook Kingswood"
           }
         ]
@@ -5451,6 +5653,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 3",
             "raw": "1Stella Glorio/Lexa Hindo Bloomfield Hills MarianLondyn Jerke/Johanna Bos Grand Rapids Christian"
           },
           {
@@ -5485,6 +5688,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 3",
             "raw": "Ava Kowal/Ariana Lopez Grosse IleLily Wierenga/Chloe Tait Holland Christian"
           },
           {
@@ -5519,6 +5723,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 0",
             "raw": "4Claire Jones/Naomi Stolle East Grand RapidsSummer Kanaski/Aubrey Beltran St. Johns"
           },
           {
@@ -5553,6 +5758,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 2",
             "raw": "5Anna Wilcox/Karly Foster Parma WesternAbbie Hartley/Bella Hankins Edwardsburg"
           },
           {
@@ -5587,6 +5793,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 2",
             "raw": "Kendall Armstrong/Addison Schroeder Haslett6Ellie Kuck/Amelia Baker Chelsea"
           },
           {
@@ -5621,6 +5828,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 3",
             "raw": "Katelyn Izworski/Arabella Sassano Grand Rapids Catholic Central 3Zoe Grebinski/Margaux Kohn Detroit Country Day"
           },
           {
@@ -5655,6 +5863,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 6 - 1",
             "raw": "Jodie White/Morgan White VicksburgAllison Lezman/Sophia Jorba Martinez Hamilton"
           },
           {
@@ -5689,6 +5898,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 4",
             "raw": "Bella Zolotarevsky/Raka Majumdar Ada Forest Hills Eastern2Michelle Chen/Jessica Hall Bloomfield Hills Cranbrook Kingswood"
           }
         ]
@@ -5728,6 +5938,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 2",
             "raw": "1Stella Glorio/Lexa Hindo Bloomfield Hills MarianLily Wierenga/Chloe Tait Holland Christian"
           },
           {
@@ -5762,6 +5973,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 0 - 6 / 6 - 0",
             "raw": "4Claire Jones/Naomi Stolle East Grand Rapids5Anna Wilcox/Karly Foster Parma Western"
           },
           {
@@ -5796,6 +6008,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 1",
             "raw": "6Ellie Kuck/Amelia Baker Chelsea3Zoe Grebinski/Margaux Kohn Detroit Country Day"
           },
           {
@@ -5830,6 +6043,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 1",
             "raw": "Allison Lezman/Sophia Jorba Martinez Hamilton2Michelle Chen/Jessica Hall Bloomfield Hills Cranbrook Kingswood"
           }
         ]
@@ -5869,6 +6083,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 3",
             "raw": "1Stella Glorio/Lexa Hindo Bloomfield Hills Marian5Anna Wilcox/Karly Foster Parma Western"
           },
           {
@@ -5903,6 +6118,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 4 / 6 - 3",
             "raw": "3Zoe Grebinski/Margaux Kohn Detroit Country Day2Michelle Chen/Jessica Hall Bloomfield Hills Cranbrook Kingswood"
           }
         ]
@@ -5942,6 +6158,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 3 / 6 - 4",
             "raw": "1Stella Glorio/Lexa Hindo Bloomfield Hills Marian2Michelle Chen/Jessica Hall Bloomfield Hills Cranbrook Kingswood"
           }
         ]
@@ -5980,6 +6197,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "1Katelyn Dubrowsky/Brianna Giudici Bloomfield Hills Cranbrook KingswoodBYE"
           },
           {
@@ -6014,6 +6232,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 7 - 6 (3)",
             "raw": "Nora Wharton/Morgan Proctor Grosse IleSophie Dunlap/Zofia Pilarczyk Croswell-Lexington"
           },
           {
@@ -6037,6 +6256,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Kady Yowell/Brailey Fowler EdwardsburgBYE"
           },
           {
@@ -6060,6 +6280,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Ava Mykols/Callie Rantanen Spring LakeBYE"
           },
           {
@@ -6083,6 +6304,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "4Grace Kalkanis/Katherine Chen Detroit Country DayBYE"
           },
           {
@@ -6117,6 +6339,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 1",
             "raw": "Emma Burnham/Bree Fleischer St. JohnsCharlotte VerMeulen/Charline Dahu Grand Rapids Christian"
           },
           {
@@ -6140,6 +6363,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "5Ellie Brockhaus/Lizzie Plunkett Bloomfield Hills MarianBYE"
           },
           {
@@ -6163,6 +6387,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "Izzie Albrecht/Natalie Weiss Grand Rapids South ChristianBYE"
           },
           {
@@ -6186,6 +6411,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEAddison Martinus/Callan Pobojewski Grand Rapids Catholic Central"
           },
           {
@@ -6209,6 +6435,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE6Anna Willinger/Silvia Baker Parma Western"
           },
           {
@@ -6243,6 +6470,7 @@
               }
             ],
             "winner": "top",
+            "score": "7 - 6 (6) / 7 - 5",
             "raw": "Allison Krueger/Loela Spadafore HaslettGrace Goff/Madeline Schafer St. Clair"
           },
           {
@@ -6266,6 +6494,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE3Grace Taylor/Chloe Custer East Grand Rapids"
           },
           {
@@ -6289,6 +6518,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEEverleigh Surma/Shyla Chadda Ada Forest Hills Eastern"
           },
           {
@@ -6312,6 +6542,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYEMaddie Jipping/Taylor Heer Hamilton"
           },
           {
@@ -6346,6 +6577,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Lucia Van Klompenberg/Izzy Delcalzo Holland Christian Sofia Martin/Erica Centofanti Vicksburg"
           },
           {
@@ -6369,6 +6601,7 @@
               }
             ],
             "winner": null,
+            "score": null,
             "raw": "BYE2Sage Gabriel-Menegay /Brooklyn Angel Chelsea"
           }
         ]
@@ -6408,6 +6641,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "1Katelyn Dubrowsky/Brianna Giudici Bloomfield Hills Cranbrook KingswoodSophie Dunlap/Zofia Pilarczyk Croswell-Lexington"
           },
           {
@@ -6442,6 +6676,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 2",
             "raw": "Kady Yowell/Brailey Fowler EdwardsburgAva Mykols/Callie Rantanen Spring Lake"
           },
           {
@@ -6476,6 +6711,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 1",
             "raw": "4Grace Kalkanis/Katherine Chen Detroit Country DayCharlotte VerMeulen/Charline Dahu Grand Rapids Christian"
           },
           {
@@ -6510,6 +6746,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "5Ellie Brockhaus/Lizzie Plunkett Bloomfield Hills MarianIzzie Albrecht/Natalie Weiss Grand Rapids South Christian"
           },
           {
@@ -6544,6 +6781,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 3 / 6 - 2",
             "raw": "Addison Martinus/Callan Pobojewski Grand Rapids Catholic Central 6Anna Willinger/Silvia Baker Parma Western"
           },
           {
@@ -6578,6 +6816,7 @@
               }
             ],
             "winner": "bot",
+            "score": "7 - 5 / 6 - 0",
             "raw": "Allison Krueger/Loela Spadafore Haslett3Grace Taylor/Chloe Custer East Grand Rapids"
           },
           {
@@ -6612,6 +6851,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 0",
             "raw": "Everleigh Surma/Shyla Chadda Ada Forest Hills EasternMaddie Jipping/Taylor Heer Hamilton"
           },
           {
@@ -6646,6 +6886,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 0 / 6 - 0",
             "raw": "Lucia Van Klompenberg/Izzy Delcalzo Holland Christian 2Sage Gabriel-Menegay /Brooklyn Angel Chelsea"
           }
         ]
@@ -6685,6 +6926,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 0",
             "raw": "1Katelyn Dubrowsky/Brianna Giudici Bloomfield Hills Cranbrook KingswoodAva Mykols/Callie Rantanen Spring Lake"
           },
           {
@@ -6719,6 +6961,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 2 / 6 - 3",
             "raw": "4Grace Kalkanis/Katherine Chen Detroit Country Day5Ellie Brockhaus/Lizzie Plunkett Bloomfield Hills Marian"
           },
           {
@@ -6753,6 +6996,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 1",
             "raw": "6Anna Willinger/Silvia Baker Parma Western3Grace Taylor/Chloe Custer East Grand Rapids"
           },
           {
@@ -6787,6 +7031,7 @@
               }
             ],
             "winner": "bot",
+            "score": "3 - 6 / 6 - 1 / 6 - 0",
             "raw": "Maddie Jipping/Taylor Heer Hamilton2Sage Gabriel-Menegay /Brooklyn Angel Chelsea"
           }
         ]
@@ -6826,6 +7071,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 2 / 5 - 7 / 6 - 0",
             "raw": "1Katelyn Dubrowsky/Brianna Giudici Bloomfield Hills Cranbrook Kingswood4Grace Kalkanis/Katherine Chen Detroit Country Day"
           },
           {
@@ -6860,6 +7106,7 @@
               }
             ],
             "winner": "bot",
+            "score": "6 - 1 / 6 - 2",
             "raw": "3Grace Taylor/Chloe Custer East Grand Rapids2Sage Gabriel-Menegay /Brooklyn Angel Chelsea"
           }
         ]
@@ -6899,6 +7146,7 @@
               }
             ],
             "winner": "top",
+            "score": "6 - 1 / 6 - 1",
             "raw": "4Grace Kalkanis/Katherine Chen Detroit Country Day2Sage Gabriel-Menegay /Brooklyn Angel Chelsea"
           }
         ]
