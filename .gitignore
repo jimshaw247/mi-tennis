@@ -4,4 +4,5 @@ _scraped.json
 node_modules/
 app/dist/
 scraper/raw-state/
+scraper/raw-state-*/
 scraper/raw/
