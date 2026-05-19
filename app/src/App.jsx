@@ -4,6 +4,7 @@ import { DIVISIONS, DIVISION_BY_ID, readDivisionFromUrl, writeDivisionToUrl } fr
 import { FLIGHT_SIZE, MATCH_DEFS } from './lib/bracket.js'
 import { loadState, saveState, defaultState, normalizeMeta } from './lib/storage.js'
 import { generateTestA, generateTestB } from './lib/testData.js'
+import final2025 from './data/final2025.json'
 import { pullState, subscribeState, pushState, supabaseConfigured } from './lib/sync.js'
 import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
@@ -103,6 +104,11 @@ function AdminApp() {
     if (!confirm(`Replace current ${divisionId} state with ${label}? Uses 2025 D1 entries with randomized winners.`)) return
     if (divisionId !== 'D1') setDivisionId('D1')
     commit(generator())
+  }
+  const load2025Final = () => {
+    if (!confirm('Replace current D1 state with the 2025 final results? Any unsaved test data or live picks will be lost.')) return
+    if (divisionId !== 'D1') setDivisionId('D1')
+    commit({ flights: final2025.flights, meta: { source: '2025' } })
   }
 
   return (
@@ -211,6 +217,8 @@ function AdminApp() {
           className="px-2 py-1 rounded bg-purple-900/40 border border-purple-700/60 text-purple-200">Load Test A</button>
         <button onClick={() => loadTest('Test Data B (everything but F done)', generateTestB)}
           className="px-2 py-1 rounded bg-purple-900/40 border border-purple-700/60 text-purple-200">Load Test B</button>
+        <button onClick={load2025Final}
+          className="px-2 py-1 rounded bg-sky-900/40 border border-sky-700/60 text-sky-200">Load 2025 Final</button>
         {state.meta?.source !== 'live' && (
           <button onClick={markAsLive}
             className="px-2 py-1 rounded bg-emerald-900/40 border border-emerald-700/60 text-emerald-200">Mark as 2026 Live</button>
