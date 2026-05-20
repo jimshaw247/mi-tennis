@@ -207,7 +207,14 @@ function AdminApp() {
           <SetupTab state={state} setTab={setTab} updateFlight={updateFlight} />
         )}
 
-        {tab === 'sos' && <SOSTab />}
+        {tab === 'sos' && (divisionId === 'D1' ? <SOSTab /> : (
+          <div className="rounded-lg border border-slate-700 bg-slate-900/40 p-4 text-sm text-slate-300 leading-relaxed">
+            <div className="font-semibold text-slate-100 mb-1">SOS available for D1 only</div>
+            Strength-of-schedule, Bradley-Terry ratings, and lineup-watch analysis are currently built only
+            for Division 1. Switch to <span className="text-blue-300 font-semibold">D1</span> at the top of
+            the page to view it.
+          </div>
+        ))}
       </main>
 
       <footer className="p-3 border-t border-slate-800 flex flex-wrap gap-2 text-xs">
