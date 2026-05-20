@@ -49,13 +49,18 @@ export default function SOSTab() {
 }
 
 function HelpDot({ active, onClick }) {
+  // Tap target is the whole 32x32 button; the visible circle is smaller and
+  // sits inside generous padding so fat-finger taps don't bleed into the
+  // adjacent sort label.
   return (
     <button
       type="button"
       onClick={(e) => { e.stopPropagation(); onClick() }}
       aria-label="Show column explanation"
-      className={`ml-1 inline-flex items-center justify-center w-4 h-4 align-middle rounded-full border text-[9px] leading-none ${active ? 'bg-blue-600 border-blue-500 text-white' : 'border-slate-600 text-slate-400 hover:bg-slate-700'}`}
-    >?</button>
+      className="ml-1 -my-1 inline-flex items-center justify-center align-middle w-8 h-8 p-0 bg-transparent"
+    >
+      <span className={`flex items-center justify-center w-5 h-5 rounded-full border text-[10px] leading-none font-semibold ${active ? 'bg-blue-600 border-blue-500 text-white' : 'border-slate-500 text-slate-300 bg-slate-800'}`}>?</span>
+    </button>
   )
 }
 
