@@ -1,0 +1,355 @@
+{
+  "player": {
+    "id": 170043,
+    "schoolId": 4287,
+    "firstName": "Ariella",
+    "lastName": "Ferguson ",
+    "address": null,
+    "email": "Cludwig@adrian.edu",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-04-10T12:01:27.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "West Bloomfield",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Christopher",
+      "lastName": "Ludwig"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 10,
+    "loss": 8
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3150689": 0,
+            "3150690": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150689": 0,
+            "3150690": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575380,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150690,
+        "createdAt": "2026-05-15T02:36:59.000Z",
+        "updatedAt": "2026-05-15T02:36:59.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150689,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 149463,
+                "firstName": "Layla",
+                "lastName": "Johnson",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3884,
+                  "name": "Wayne Memorial",
+                  "logo": null,
+                  "city": {
+                    "id": 19293,
+                    "name": "Wayne",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150689
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150690,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 170043,
+                "firstName": "Ariella",
+                "lastName": "Ferguson ",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4287,
+                  "name": "West Bloomfield",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150690
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150695": 0,
+            "3150696": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150695": 2,
+            "3150696": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575383,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150696,
+        "createdAt": "2026-05-15T02:37:16.000Z",
+        "updatedAt": "2026-05-15T02:37:16.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150695,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 143471,
+                "firstName": "Zahraa",
+                "lastName": "Salmassi",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4502,
+                  "name": "Dearborn",
+                  "logo": null,
+                  "city": {
+                    "id": 4568,
+                    "name": "Dearborn",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150695
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150696,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 170043,
+                "firstName": "Ariella",
+                "lastName": "Ferguson ",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4287,
+                  "name": "West Bloomfield",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150696
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150705": 6,
+            "3150706": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150705": 6,
+            "3150706": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575388,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150705,
+        "createdAt": "2026-05-15T02:37:58.000Z",
+        "updatedAt": "2026-05-15T02:37:58.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150705,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191239,
+                "firstName": "Jordyn",
+                "lastName": "Tomina",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T16:40:51.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 9195,
+                  "name": "Bloomfield Hills",
+                  "logo": null,
+                  "city": {
+                    "id": 1692,
+                    "name": "Bloomfield hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150705
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150706,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 170043,
+                "firstName": "Ariella",
+                "lastName": "Ferguson ",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4287,
+                  "name": "West Bloomfield",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150706
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 12,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 170043,
+      "stateId": 30
+    }
+  ]
+}

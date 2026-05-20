@@ -1,0 +1,529 @@
+{
+  "player": {
+    "id": 164461,
+    "schoolId": 4417,
+    "firstName": "Olivia",
+    "lastName": "Smith",
+    "address": null,
+    "email": "schwallierp@westottawa.net",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-03-18T00:38:44.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Holland West Ottawa",
+      "logo": "school_4417.jpg"
+    },
+    "editor": {
+      "firstName": "Peter",
+      "lastName": "Schwallier"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 19,
+    "loss": 4
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3147559": 2,
+            "3147560": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147559": 3,
+            "3147560": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573815,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147560,
+        "createdAt": "2026-05-14T17:09:56.000Z",
+        "updatedAt": "2026-05-14T17:09:56.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147559,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 165360,
+                "firstName": "Hellen",
+                "lastName": "Komera",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4203,
+                  "name": "Caledonia",
+                  "logo": null,
+                  "city": {
+                    "id": 2524,
+                    "name": "Caledonia",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147559
+                }
+              },
+              {
+                "id": 172486,
+                "firstName": "Raylee",
+                "lastName": "VanDeWeert",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4203,
+                  "name": "Caledonia",
+                  "logo": null,
+                  "city": {
+                    "id": 2524,
+                    "name": "Caledonia",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3147559
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147560,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 164461,
+                "firstName": "Olivia",
+                "lastName": "Smith",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147560
+                }
+              },
+              {
+                "id": 164463,
+                "firstName": "Audrey",
+                "lastName": "Anderson",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3147560
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3148021": 4,
+            "3148022": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3148021": 1,
+            "3148022": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1574046,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3148022,
+        "createdAt": "2026-05-14T18:36:33.000Z",
+        "updatedAt": "2026-05-14T18:36:33.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3148021,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191170,
+                "firstName": "Addyson",
+                "lastName": "Schad",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:23:37.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148021
+                }
+              },
+              {
+                "id": 191166,
+                "firstName": "Evian",
+                "lastName": "Lund",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:21:27.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3148021
+                }
+              }
+            ]
+          },
+          {
+            "id": 3148022,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 164461,
+                "firstName": "Olivia",
+                "lastName": "Smith",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148022
+                }
+              },
+              {
+                "id": 164463,
+                "firstName": "Audrey",
+                "lastName": "Anderson",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3148022
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3148365": 3,
+            "3148366": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3148365": 1,
+            "3148366": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3148365": null,
+            "3148366": null,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1574218,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3148366,
+        "createdAt": "2026-05-14T20:23:06.000Z",
+        "updatedAt": "2026-05-15T14:16:23.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3148365,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 172910,
+                "firstName": "Mackenzie ",
+                "lastName": "Buntley",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4180,
+                  "name": "Grand Haven",
+                  "logo": null,
+                  "city": {
+                    "id": 7209,
+                    "name": "Grand haven",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148365
+                }
+              },
+              {
+                "id": 165861,
+                "firstName": "Johanna",
+                "lastName": "Schuster",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4180,
+                  "name": "Grand Haven",
+                  "logo": null,
+                  "city": {
+                    "id": 7209,
+                    "name": "Grand haven",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3148365
+                }
+              }
+            ]
+          },
+          {
+            "id": 3148366,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 164461,
+                "firstName": "Olivia",
+                "lastName": "Smith",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148366
+                }
+              },
+              {
+                "id": 164463,
+                "firstName": "Audrey",
+                "lastName": "Anderson",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3148366
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 12,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 164461,
+      "stateId": 30
+    }
+  ]
+}

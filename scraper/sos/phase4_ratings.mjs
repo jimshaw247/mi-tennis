@@ -48,9 +48,9 @@ function sumGames(sets, teamId) {
   return g
 }
 
-// Walk every school JSON (qualifiers + opponents) and pool unique flight-level
-// matches keyed by matchId.
-const SCHOOL_DIRS = [`${__dirname}/data/schools`, `${__dirname}/data/opponents`]
+// Walk every school JSON (qualifiers + opponents + flight-4 augment) and pool
+// unique flight-level matches keyed by matchId.
+const SCHOOL_DIRS = [`${__dirname}/data/schools`, `${__dirname}/data/opponents`, `${__dirname}/data/schools_extra`]
 const seenMatches = new Map() // matchId -> match record
 
 for (const dir of SCHOOL_DIRS) {

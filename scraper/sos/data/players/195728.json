@@ -1,0 +1,493 @@
+{
+  "player": {
+    "id": 195728,
+    "schoolId": 4047,
+    "firstName": "Inna ",
+    "lastName": "Esquivel",
+    "address": null,
+    "email": "dcpietra@gmail.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-04-08T03:54:54.000Z",
+    "updatedAt": "2026-04-08T03:54:54.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Rochester Hills Stoney Creek",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "David",
+      "lastName": "Pietrangelo"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 3,
+    "loss": 4
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3143105": 1,
+            "3143106": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3143105": 4,
+            "3143106": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1571588,
+        "flight": "5",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3143106,
+        "createdAt": "2026-05-13T13:41:42.000Z",
+        "updatedAt": "2026-05-13T13:41:42.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-11T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3143105,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 167765,
+                "firstName": "Olga",
+                "lastName": "Kobita",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3143105
+                }
+              },
+              {
+                "id": 167767,
+                "firstName": "Kaylin",
+                "lastName": "Nagaitis",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3143105
+                }
+              }
+            ]
+          },
+          {
+            "id": 3143106,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 195728,
+                "firstName": "Inna ",
+                "lastName": "Esquivel",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T03:54:54.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3143106
+                }
+              },
+              {
+                "id": 195729,
+                "firstName": "Zara",
+                "lastName": "Nigl",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T03:55:21.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3143106
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3117169": 6,
+            "3117170": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3117169": 6,
+            "3117170": 3,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1558620,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3117169,
+        "createdAt": "2026-05-07T22:15:16.000Z",
+        "updatedAt": "2026-05-07T22:15:16.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-07T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3117169,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 195727,
+                "firstName": "Nikhita",
+                "lastName": "Chanchali",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T03:54:08.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3117169
+                }
+              },
+              {
+                "id": 195728,
+                "firstName": "Inna ",
+                "lastName": "Esquivel",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T03:54:54.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3117169
+                }
+              }
+            ]
+          },
+          {
+            "id": 3117170,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 197168,
+                "firstName": "Teodora",
+                "lastName": "Peroska",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-12T14:09:59.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4630,
+                  "name": "Macomb Dakota",
+                  "logo": null,
+                  "city": {
+                    "id": 10777,
+                    "name": "Macomb",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3117170
+                }
+              },
+              {
+                "id": 197171,
+                "firstName": "Patricia",
+                "lastName": "Orzol",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-12T14:12:05.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4630,
+                  "name": "Macomb Dakota",
+                  "logo": null,
+                  "city": {
+                    "id": 10777,
+                    "name": "Macomb",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3117170
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3076501": 6,
+            "3076502": 4,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3076501": 3,
+            "3076502": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3076501": 1,
+            "3076502": 0,
+            "number": 3,
+            "tie": 4
+          }
+        ],
+        "id": 1538286,
+        "flight": "5",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3076501,
+        "createdAt": "2026-04-29T23:49:03.000Z",
+        "updatedAt": "2026-04-29T23:49:03.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-25T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3076501,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 195728,
+                "firstName": "Inna ",
+                "lastName": "Esquivel",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T03:54:54.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3076501
+                }
+              },
+              {
+                "id": 195729,
+                "firstName": "Zara",
+                "lastName": "Nigl",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T03:55:21.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3076501
+                }
+              }
+            ]
+          },
+          {
+            "id": 3076502,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 190093,
+                "firstName": "Alaina",
+                "lastName": "Olson",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-17T12:15:18.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4569,
+                  "name": "Hudsonville",
+                  "logo": null,
+                  "city": {
+                    "id": 8578,
+                    "name": "Hudsonville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3076502
+                }
+              },
+              {
+                "id": 190313,
+                "firstName": "Jorja",
+                "lastName": "Straub",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-17T17:57:13.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4569,
+                  "name": "Hudsonville",
+                  "logo": null,
+                  "city": {
+                    "id": 8578,
+                    "name": "Hudsonville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3076502
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 195728,
+      "stateId": 30
+    }
+  ]
+}

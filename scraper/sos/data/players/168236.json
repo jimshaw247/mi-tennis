@@ -1,0 +1,832 @@
+{
+  "player": {
+    "id": 168236,
+    "schoolId": 4371,
+    "firstName": "Haneesha ",
+    "lastName": "Padavala",
+    "address": null,
+    "email": "padavalah28@okemosk12.net",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-04-03T18:17:37.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Okemos",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Stephanie",
+      "lastName": "McKay"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 14,
+    "loss": 6
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3154613": 6,
+            "3154614": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154613": 6,
+            "3154614": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1577342,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154613,
+        "createdAt": "2026-05-16T00:27:00.000Z",
+        "updatedAt": "2026-05-16T00:27:00.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154613,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 168236,
+                "firstName": "Haneesha ",
+                "lastName": "Padavala",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154613
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154614,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 172783,
+                "firstName": "Isla",
+                "lastName": "Hill",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4391,
+                  "name": "Grand Ledge",
+                  "logo": "school_4391.png",
+                  "city": {
+                    "id": 7218,
+                    "name": "Grand ledge",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154614
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3154623": 0,
+            "3154624": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154623": 1,
+            "3154624": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1577347,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154624,
+        "createdAt": "2026-05-16T00:27:46.000Z",
+        "updatedAt": "2026-05-16T00:27:46.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154623,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 189283,
+                "firstName": "Milana",
+                "lastName": "Kia",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-15T13:45:35.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3980,
+                  "name": "Grand Blanc",
+                  "logo": "school_3980.png",
+                  "city": {
+                    "id": 7202,
+                    "name": "Grand blanc",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154623
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154624,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 168236,
+                "firstName": "Haneesha ",
+                "lastName": "Padavala",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154624
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3154627": 2,
+            "3154628": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154627": 6,
+            "3154628": 3,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3154627": 7,
+            "3154628": 6,
+            "number": 3,
+            "tie": 4
+          }
+        ],
+        "id": 1577349,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154627,
+        "createdAt": "2026-05-16T00:28:12.000Z",
+        "updatedAt": "2026-05-16T00:28:12.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154627,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 189542,
+                "firstName": "Claire",
+                "lastName": "Mouw",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-16T12:30:48.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154627
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154628,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 168236,
+                "firstName": "Haneesha ",
+                "lastName": "Padavala",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154628
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3017679": 7,
+            "3017680": 5,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3017679": 7,
+            "3017680": 5,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1508875,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3017679,
+        "createdAt": "2026-04-18T16:44:49.000Z",
+        "updatedAt": "2026-04-20T14:02:41.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-14T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3017679,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 189795,
+                "firstName": "Vaishnavi",
+                "lastName": "Saravanan",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-16T18:26:05.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3017679
+                }
+              },
+              {
+                "id": 168236,
+                "firstName": "Haneesha ",
+                "lastName": "Padavala",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3017679
+                }
+              }
+            ]
+          },
+          {
+            "id": 3017680,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 170457,
+                "firstName": "Ema",
+                "lastName": "Cadwell",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4527,
+                  "name": "Holt",
+                  "logo": null,
+                  "city": {
+                    "id": 8377,
+                    "name": "Holt",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3017680
+                }
+              },
+              {
+                "id": 170459,
+                "firstName": "Jocelyn",
+                "lastName": "Wilson",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4527,
+                  "name": "Holt",
+                  "logo": null,
+                  "city": {
+                    "id": 8377,
+                    "name": "Holt",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3017680
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "2983991": 4,
+            "2983992": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "2983991": 2,
+            "2983992": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1492031,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 2983992,
+        "createdAt": "2026-04-11T17:03:16.000Z",
+        "updatedAt": "2026-04-11T17:03:16.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-11T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 2983991,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 127506,
+                "firstName": "Carly ",
+                "lastName": "Krzyzanski",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3868,
+                  "name": "Coldwater",
+                  "logo": null,
+                  "city": {
+                    "id": 3724,
+                    "name": "Coldwater",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2983991
+                }
+              },
+              {
+                "id": 168506,
+                "firstName": "Lily ",
+                "lastName": "Scheidler",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3868,
+                  "name": "Coldwater",
+                  "logo": null,
+                  "city": {
+                    "id": 3724,
+                    "name": "Coldwater",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2983991
+                }
+              }
+            ]
+          },
+          {
+            "id": 2983992,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 168239,
+                "firstName": "Anaya",
+                "lastName": "Patel",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2983992
+                }
+              },
+              {
+                "id": 168236,
+                "firstName": "Haneesha ",
+                "lastName": "Padavala",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2983992
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "2992959": 1,
+            "2992960": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "2992959": 0,
+            "2992960": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1496515,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 2992960,
+        "createdAt": "2026-04-13T16:43:06.000Z",
+        "updatedAt": "2026-04-13T16:43:06.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-11T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 2992959,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 125023,
+                "firstName": "Lexie",
+                "lastName": "Page",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-24T23:54:40.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4182,
+                  "name": "Three Rivers",
+                  "logo": null,
+                  "city": {
+                    "id": 18139,
+                    "name": "Three rivers",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2992959
+                }
+              },
+              {
+                "id": 125019,
+                "firstName": "Alyssa ",
+                "lastName": "Jimenez",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-24T23:58:33.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4182,
+                  "name": "Three Rivers",
+                  "logo": null,
+                  "city": {
+                    "id": 18139,
+                    "name": "Three rivers",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2992959
+                }
+              }
+            ]
+          },
+          {
+            "id": 2992960,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 168239,
+                "firstName": "Anaya",
+                "lastName": "Patel",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2992960
+                }
+              },
+              {
+                "id": 168236,
+                "firstName": "Haneesha ",
+                "lastName": "Padavala",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2992960
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 168236,
+      "stateId": 30
+    },
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 168236,
+      "stateId": 30
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "player": {
+    "id": 166963,
+    "schoolId": 4015,
+    "firstName": "Fiona ",
+    "lastName": "Vu",
+    "address": null,
+    "email": "27fvu@bcpsk12.net",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-03-29T19:42:53.000Z",
+    "updatedAt": "2026-03-13T14:36:19.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Byron Center",
+      "logo": "school_4015.png"
+    },
+    "editor": {
+      "firstName": "Jared",
+      "lastName": "Crandell"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 18,
+    "loss": 5
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3147059": 6,
+            "3147060": 1,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147059": 6,
+            "3147060": 2,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573565,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147059,
+        "createdAt": "2026-05-14T14:50:14.000Z",
+        "updatedAt": "2026-05-14T14:50:14.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147059,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 163930,
+                "firstName": "Heather",
+                "lastName": "Kuipers",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147059
+                }
+              },
+              {
+                "id": 166963,
+                "firstName": "Fiona ",
+                "lastName": "Vu",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-13T14:36:19.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3147059
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147060,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 165362,
+                "firstName": "Chelsea",
+                "lastName": "Tran",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4203,
+                  "name": "Caledonia",
+                  "logo": null,
+                  "city": {
+                    "id": 2524,
+                    "name": "Caledonia",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147060
+                }
+              },
+              {
+                "id": 190546,
+                "firstName": "Payton",
+                "lastName": "Walker",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-17T22:03:42.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4203,
+                  "name": "Caledonia",
+                  "logo": null,
+                  "city": {
+                    "id": 2524,
+                    "name": "Caledonia",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3147060
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3147529": 2,
+            "3147530": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147529": 3,
+            "3147530": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573800,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147530,
+        "createdAt": "2026-05-14T17:07:33.000Z",
+        "updatedAt": "2026-05-14T17:07:33.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147529,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 164464,
+                "firstName": "Mallory",
+                "lastName": "Paff",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147529
+                }
+              },
+              {
+                "id": 173149,
+                "firstName": "Hope",
+                "lastName": "Sikorski",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3147529
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147530,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 163930,
+                "firstName": "Heather",
+                "lastName": "Kuipers",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147530
+                }
+              },
+              {
+                "id": 166963,
+                "firstName": "Fiona ",
+                "lastName": "Vu",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-13T14:36:19.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3147530
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3149141": 6,
+            "3149142": 4,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3149141": 0,
+            "3149142": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3149141": 5,
+            "3149142": 7,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1574606,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3149142,
+        "createdAt": "2026-05-14T22:08:09.000Z",
+        "updatedAt": "2026-05-14T22:08:09.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3149141,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 163930,
+                "firstName": "Heather",
+                "lastName": "Kuipers",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149141
+                }
+              },
+              {
+                "id": 166963,
+                "firstName": "Fiona ",
+                "lastName": "Vu",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-13T14:36:19.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3149141
+                }
+              }
+            ]
+          },
+          {
+            "id": 3149142,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 189260,
+                "firstName": "Kaitlyn",
+                "lastName": "Addis",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-15T00:25:46.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4569,
+                  "name": "Hudsonville",
+                  "logo": null,
+                  "city": {
+                    "id": 8578,
+                    "name": "Hudsonville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149142
+                }
+              },
+              {
+                "id": 189259,
+                "firstName": "Dakota",
+                "lastName": "Koeman",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-15T00:25:27.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4569,
+                  "name": "Hudsonville",
+                  "logo": null,
+                  "city": {
+                    "id": 8578,
+                    "name": "Hudsonville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3149142
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 13,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 166963,
+      "stateId": 30
+    }
+  ]
+}

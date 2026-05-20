@@ -1,0 +1,348 @@
+{
+  "player": {
+    "id": 189390,
+    "schoolId": 3923,
+    "firstName": "Julia",
+    "lastName": "Xiao",
+    "address": null,
+    "email": "They@yahoo.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "9",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-16T01:29:16.000Z",
+    "updatedAt": "2026-03-16T01:29:16.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Troy",
+      "logo": "school_3923.jpeg"
+    },
+    "editor": {
+      "firstName": "Brian",
+      "lastName": "Miska"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 13,
+    "loss": 13
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3147497": 6,
+            "3147498": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147497": 6,
+            "3147498": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573784,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147497,
+        "createdAt": "2026-05-14T17:03:27.000Z",
+        "updatedAt": "2026-05-14T17:03:27.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147497,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 189390,
+                "firstName": "Julia",
+                "lastName": "Xiao",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-16T01:29:16.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3923,
+                  "name": "Troy",
+                  "logo": "school_3923.jpeg",
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147497
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147498,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 190721,
+                "firstName": "Lisa Marie",
+                "lastName": "Siscu",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-18T13:49:42.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4030,
+                  "name": "Sterling Heights Stevenson",
+                  "logo": null,
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147498
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3147501": 6,
+            "3147502": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147501": 6,
+            "3147502": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573786,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147501,
+        "createdAt": "2026-05-14T17:03:44.000Z",
+        "updatedAt": "2026-05-14T17:03:45.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147501,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 189390,
+                "firstName": "Julia",
+                "lastName": "Xiao",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-16T01:29:16.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3923,
+                  "name": "Troy",
+                  "logo": "school_3923.jpeg",
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147501
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147502,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 147923,
+                "firstName": "Kaia",
+                "lastName": "Kronemeyer",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4461,
+                  "name": "Fraser",
+                  "logo": null,
+                  "city": {
+                    "id": 6490,
+                    "name": "Fraser",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147502
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3148371": 6,
+            "3148372": 3,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3148371": 4,
+            "3148372": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3148371": 6,
+            "3148372": 1,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1574221,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3148371,
+        "createdAt": "2026-05-14T20:24:28.000Z",
+        "updatedAt": "2026-05-14T20:24:28.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3148371,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 189390,
+                "firstName": "Julia",
+                "lastName": "Xiao",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-16T01:29:16.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3923,
+                  "name": "Troy",
+                  "logo": "school_3923.jpeg",
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148371
+                }
+              }
+            ]
+          },
+          {
+            "id": 3148372,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 149175,
+                "firstName": "Jhana",
+                "lastName": "Todorova",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T21:06:17.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148372
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 13,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 189390,
+      "stateId": 30
+    }
+  ]
+}

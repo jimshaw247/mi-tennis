@@ -1,0 +1,3857 @@
+{
+  "school": {
+    "id": 4052,
+    "name": "Clarkston"
+  },
+  "overallRecord": {
+    "win": 5,
+    "loss": 8,
+    "tie": 4
+  },
+  "meets": [
+    {
+      "id": 9000000,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-09T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3134317": 1,
+                "3134318": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3134317": 4,
+                "3134318": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1567194,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3134318,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3134317,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169172,
+                    "firstName": "Shreya",
+                    "lastName": "Rajhans",
+                    "grade": "12",
+                    "schoolId": 3923,
+                    "school": {
+                      "id": 3923,
+                      "name": "Troy",
+                      "logo": "school_3923.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3134317
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3134318,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145829,
+                    "firstName": "Harper",
+                    "lastName": "Jones",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3134318
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3134313": 1,
+                "3134314": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3134313": 2,
+                "3134314": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1567192,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3134314,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3134313,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 145429,
+                    "firstName": "Jhoshi",
+                    "lastName": "Prasath",
+                    "grade": "11",
+                    "schoolId": 3923,
+                    "school": {
+                      "id": 3923,
+                      "name": "Troy",
+                      "logo": "school_3923.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3134313
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3134314,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125764,
+                    "firstName": "Lana",
+                    "lastName": "Sloan",
+                    "grade": "12",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3134314
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3134321": 2,
+                "3134322": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3134321": 0,
+                "3134322": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1567196,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3134322,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3134321,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 189394,
+                    "firstName": "Maryam",
+                    "lastName": "Majjhoo",
+                    "grade": "11",
+                    "schoolId": 3923,
+                    "school": {
+                      "id": 3923,
+                      "name": "Troy",
+                      "logo": "school_3923.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3134321
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3134322,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196040,
+                    "firstName": "Emily",
+                    "lastName": "Duhaime",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3134322
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": []
+      }
+    },
+    {
+      "id": 9000001,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3146773": 0,
+                "3146774": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146773": 0,
+                "3146774": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3146773": null,
+                "3146774": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1573422,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3146774,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146773,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 166153,
+                    "firstName": "Myah",
+                    "lastName": "Curtis",
+                    "grade": "11",
+                    "schoolId": 4079,
+                    "school": {
+                      "id": 4079,
+                      "name": "Davison",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146773
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146774,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145829,
+                    "firstName": "Harper",
+                    "lastName": "Jones",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146774
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150457": 6,
+                "3150458": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150457": 4,
+                "3150458": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3150457": 2,
+                "3150458": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1575264,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150458,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150457,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 145829,
+                    "firstName": "Harper",
+                    "lastName": "Jones",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150457
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150458,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 167768,
+                    "firstName": "Tiffany",
+                    "lastName": "Patalinghug",
+                    "grade": "10",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150458
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150361": 6,
+                "3150362": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150361": 6,
+                "3150362": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575216,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150361,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150361,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145828,
+                    "firstName": "Kayla",
+                    "lastName": "Lemke",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150361
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150362,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171094,
+                    "firstName": "Charlie",
+                    "lastName": "Mahl",
+                    "grade": "12",
+                    "schoolId": 9325,
+                    "school": {
+                      "id": 9325,
+                      "name": "Lapeer",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150362
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150367": 6,
+                "3150368": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150367": 6,
+                "3150368": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575219,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150367,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150367,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145828,
+                    "firstName": "Kayla",
+                    "lastName": "Lemke",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150367
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150368,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195755,
+                    "firstName": "Lilah",
+                    "lastName": "Mitchell",
+                    "grade": "9",
+                    "schoolId": 4166,
+                    "school": {
+                      "id": 4166,
+                      "name": "Lake Orion",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150368
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150405": 6,
+                "3150406": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150405": 6,
+                "3150406": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575238,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150405,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150405,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145828,
+                    "firstName": "Kayla",
+                    "lastName": "Lemke",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150405
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150406,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197686,
+                    "firstName": "Yifan",
+                    "lastName": "Lin",
+                    "grade": "9",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150406
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150419": 6,
+                "3150420": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150419": 6,
+                "3150420": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575245,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150419,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150419,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196046,
+                    "firstName": "Laine",
+                    "lastName": "Jones",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150419
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150420,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164850,
+                    "firstName": "Kathleen",
+                    "lastName": "Toy",
+                    "grade": "11",
+                    "schoolId": 4275,
+                    "school": {
+                      "id": 4275,
+                      "name": "Waterford United",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150420
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150423": 6,
+                "3150424": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150423": 6,
+                "3150424": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575247,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150423,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150423,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 128899,
+                    "firstName": "Emma",
+                    "lastName": "Bardas",
+                    "grade": "12",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150423
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150424,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196046,
+                    "firstName": "Laine",
+                    "lastName": "Jones",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150424
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150481": 0,
+                "3150482": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150481": 0,
+                "3150482": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575276,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150482,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150481,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195748,
+                    "firstName": "Sloan ",
+                    "lastName": "Rhein",
+                    "grade": "9",
+                    "schoolId": 9325,
+                    "school": {
+                      "id": 9325,
+                      "name": "Lapeer",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150481
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150482,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196043,
+                    "firstName": "Aurora",
+                    "lastName": "Gonzalvo",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150482
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150487": 3,
+                "3150488": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150487": 6,
+                "3150488": 3,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3150487": 6,
+                "3150488": 3,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1575279,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150487,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150487,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196043,
+                    "firstName": "Aurora",
+                    "lastName": "Gonzalvo",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150487
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150488,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126123,
+                    "firstName": "Addison",
+                    "lastName": "Rybak",
+                    "grade": "12",
+                    "schoolId": 4166,
+                    "school": {
+                      "id": 4166,
+                      "name": "Lake Orion",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150488
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150491": 6,
+                "3150492": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150491": 6,
+                "3150492": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575281,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150491,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150491,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191721,
+                    "firstName": "Jilly",
+                    "lastName": "Knoester",
+                    "grade": "9",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150491
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150492,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196043,
+                    "firstName": "Aurora",
+                    "lastName": "Gonzalvo",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150492
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3150511": 0,
+                "3150512": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150511": 0,
+                "3150512": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575291,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150512,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150511,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 189994,
+                    "firstName": "Selene",
+                    "lastName": "Patharapanupath",
+                    "grade": "9",
+                    "schoolId": 4010,
+                    "school": {
+                      "id": 4010,
+                      "name": "Auburn Hills Avondale",
+                      "logo": "school_4010.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150511
+                    }
+                  },
+                  {
+                    "id": 189995,
+                    "firstName": "Lena",
+                    "lastName": "Russell",
+                    "grade": "10",
+                    "schoolId": 4010,
+                    "school": {
+                      "id": 4010,
+                      "name": "Auburn Hills Avondale",
+                      "logo": "school_4010.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150511
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150512,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169754,
+                    "firstName": "Lily",
+                    "lastName": "Haviland",
+                    "grade": "12",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150512
+                    }
+                  },
+                  {
+                    "id": 196041,
+                    "firstName": "Annabelle",
+                    "lastName": "Shaw",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150512
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150515": 4,
+                "3150516": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150515": 6,
+                "3150516": 7,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575293,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150516,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150515,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169754,
+                    "firstName": "Lily",
+                    "lastName": "Haviland",
+                    "grade": "12",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150515
+                    }
+                  },
+                  {
+                    "id": 196041,
+                    "firstName": "Annabelle",
+                    "lastName": "Shaw",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150515
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150516,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 152497,
+                    "firstName": "Maia",
+                    "lastName": "Bak",
+                    "grade": "11",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150516
+                    }
+                  },
+                  {
+                    "id": 152498,
+                    "firstName": "Elizabeth ",
+                    "lastName": "Bolotov",
+                    "grade": "11",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150516
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150541": 0,
+                "3150542": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150541": 1,
+                "3150542": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575306,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150542,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150541,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196408,
+                    "firstName": "Ellery ",
+                    "lastName": "Allen",
+                    "grade": "9",
+                    "schoolId": 4079,
+                    "school": {
+                      "id": 4079,
+                      "name": "Davison",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150541
+                    }
+                  },
+                  {
+                    "id": 196410,
+                    "firstName": "Ella",
+                    "lastName": "Carpentier",
+                    "grade": "9",
+                    "schoolId": 4079,
+                    "school": {
+                      "id": 4079,
+                      "name": "Davison",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150541
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150542,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169752,
+                    "firstName": "Emily",
+                    "lastName": "Goodrich",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150542
+                    }
+                  },
+                  {
+                    "id": 196042,
+                    "firstName": "Emma",
+                    "lastName": "Sardelli",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150542
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150549": 7,
+                "3150550": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150549": 3,
+                "3150550": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3150549": 5,
+                "3150550": 7,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1575310,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150550,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150549,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169752,
+                    "firstName": "Emily",
+                    "lastName": "Goodrich",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150549
+                    }
+                  },
+                  {
+                    "id": 196042,
+                    "firstName": "Emma",
+                    "lastName": "Sardelli",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150549
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150550,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 130429,
+                    "firstName": "Claire",
+                    "lastName": "Shin",
+                    "grade": "12",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150550
+                    }
+                  },
+                  {
+                    "id": 191722,
+                    "firstName": "Maddie",
+                    "lastName": "Chang",
+                    "grade": "9",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150550
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150567": 1,
+                "3150568": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150567": 0,
+                "3150568": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575319,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150568,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150567,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171405,
+                    "firstName": "Irelynn",
+                    "lastName": "Miller",
+                    "grade": "12",
+                    "schoolId": 9325,
+                    "school": {
+                      "id": 9325,
+                      "name": "Lapeer",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150567
+                    }
+                  },
+                  {
+                    "id": 198720,
+                    "firstName": "Lucy",
+                    "lastName": "Copstick",
+                    "grade": "9",
+                    "schoolId": 9325,
+                    "school": {
+                      "id": 9325,
+                      "name": "Lapeer",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150567
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150568,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196044,
+                    "firstName": "Addison",
+                    "lastName": "Graves",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150568
+                    }
+                  },
+                  {
+                    "id": 152096,
+                    "firstName": "Ava",
+                    "lastName": "Ebling",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150568
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150571": 4,
+                "3150572": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150571": 3,
+                "3150572": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575321,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150572,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150571,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 167766,
+                    "firstName": "Kendall",
+                    "lastName": "Markham",
+                    "grade": "11",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150571
+                    }
+                  },
+                  {
+                    "id": 168529,
+                    "firstName": "Vivienne ",
+                    "lastName": "Probst",
+                    "grade": "11",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150571
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150572,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196044,
+                    "firstName": "Addison",
+                    "lastName": "Graves",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150572
+                    }
+                  },
+                  {
+                    "id": 152096,
+                    "firstName": "Ava",
+                    "lastName": "Ebling",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150572
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150577": 1,
+                "3150578": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150577": 3,
+                "3150578": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575324,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150578,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150577,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150039,
+                    "firstName": "Adriana",
+                    "lastName": "Palazzolo",
+                    "grade": "12",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150577
+                    }
+                  },
+                  {
+                    "id": 170655,
+                    "firstName": "Morgan ",
+                    "lastName": "Dorsey",
+                    "grade": "11",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150577
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150578,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196044,
+                    "firstName": "Addison",
+                    "lastName": "Graves",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150578
+                    }
+                  },
+                  {
+                    "id": 152096,
+                    "firstName": "Ava",
+                    "lastName": "Ebling",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150578
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150585": 6,
+                "3150586": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150585": 6,
+                "3150586": 0,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3150585": null,
+                "3150586": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1575328,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150585,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150585,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196045,
+                    "firstName": "Amelia",
+                    "lastName": "Garvin",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150585
+                    }
+                  },
+                  {
+                    "id": 196047,
+                    "firstName": "Anna",
+                    "lastName": "Katakowski",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150585
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150586,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195745,
+                    "firstName": "Natalie ",
+                    "lastName": "LaCross",
+                    "grade": "9",
+                    "schoolId": 9325,
+                    "school": {
+                      "id": 9325,
+                      "name": "Lapeer",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150586
+                    }
+                  },
+                  {
+                    "id": 195752,
+                    "firstName": "Daelyn",
+                    "lastName": "Bryant",
+                    "grade": "12",
+                    "schoolId": 9325,
+                    "school": {
+                      "id": 9325,
+                      "name": "Lapeer",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150586
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150627": 6,
+                "3150628": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150627": 6,
+                "3150628": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575349,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150627,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150627,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196045,
+                    "firstName": "Amelia",
+                    "lastName": "Garvin",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150627
+                    }
+                  },
+                  {
+                    "id": 196047,
+                    "firstName": "Anna",
+                    "lastName": "Katakowski",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150627
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150628,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171735,
+                    "firstName": "Paige",
+                    "lastName": "Peters",
+                    "grade": "10",
+                    "schoolId": 4166,
+                    "school": {
+                      "id": 4166,
+                      "name": "Lake Orion",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150628
+                    }
+                  },
+                  {
+                    "id": 171737,
+                    "firstName": "Sam",
+                    "lastName": "Houston",
+                    "grade": "11",
+                    "schoolId": 4166,
+                    "school": {
+                      "id": 4166,
+                      "name": "Lake Orion",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150628
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150639": 6,
+                "3150640": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150639": 4,
+                "3150640": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3150639": 4,
+                "3150640": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1575355,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150640,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150639,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196045,
+                    "firstName": "Amelia",
+                    "lastName": "Garvin",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150639
+                    }
+                  },
+                  {
+                    "id": 196047,
+                    "firstName": "Anna",
+                    "lastName": "Katakowski",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150639
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150640,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 167770,
+                    "firstName": "Nisha",
+                    "lastName": "Yevate",
+                    "grade": "10",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150640
+                    }
+                  },
+                  {
+                    "id": 191724,
+                    "firstName": "Alicia ",
+                    "lastName": "D'Silva",
+                    "grade": "10",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150640
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000002,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-12T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3146659": 2,
+                "3146660": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146659": 0,
+                "3146660": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573365,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3146660,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146659,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151031,
+                    "firstName": "Giselle",
+                    "lastName": "Harman",
+                    "grade": "11",
+                    "schoolId": 4487,
+                    "school": {
+                      "id": 4487,
+                      "name": "Bloomfield Hills Cranbrook Kingswood",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146659
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146660,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145829,
+                    "firstName": "Harper",
+                    "lastName": "Jones",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146660
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3146657": 0,
+                "3146658": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146657": 1,
+                "3146658": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573364,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3146658,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146657,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196780,
+                    "firstName": "Sofia ",
+                    "lastName": "Mckany",
+                    "grade": "9",
+                    "schoolId": 4487,
+                    "school": {
+                      "id": 4487,
+                      "name": "Bloomfield Hills Cranbrook Kingswood",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146657
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146658,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125764,
+                    "firstName": "Lana",
+                    "lastName": "Sloan",
+                    "grade": "12",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146658
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3146669": 6,
+                "3146670": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146669": 7,
+                "3146670": 6,
+                "number": 2,
+                "tie": 4
+              }
+            ],
+            "id": 1573370,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3146669,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146669,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168331,
+                    "firstName": "Maddie",
+                    "lastName": "Murphy",
+                    "grade": "12",
+                    "schoolId": 4487,
+                    "school": {
+                      "id": 4487,
+                      "name": "Bloomfield Hills Cranbrook Kingswood",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146669
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146670,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196046,
+                    "firstName": "Laine",
+                    "lastName": "Jones",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146670
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3146673": 7,
+                "3146674": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146673": 5,
+                "3146674": 7,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3146673": 11,
+                "3146674": 13,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1573372,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3146674,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146673,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 168340,
+                    "firstName": "Lola",
+                    "lastName": "Cleary",
+                    "grade": "11",
+                    "schoolId": 4487,
+                    "school": {
+                      "id": 4487,
+                      "name": "Bloomfield Hills Cranbrook Kingswood",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146673
+                    }
+                  },
+                  {
+                    "id": 196782,
+                    "firstName": "GiGi",
+                    "lastName": "Giudici",
+                    "grade": "9",
+                    "schoolId": 4487,
+                    "school": {
+                      "id": 4487,
+                      "name": "Bloomfield Hills Cranbrook Kingswood",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3146673
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146674,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169754,
+                    "firstName": "Lily",
+                    "lastName": "Haviland",
+                    "grade": "12",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146674
+                    }
+                  },
+                  {
+                    "id": 196041,
+                    "firstName": "Annabelle",
+                    "lastName": "Shaw",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3146674
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000003,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-21T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3040141": 4,
+                "3040142": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3040141": 6,
+                "3040142": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3040141": 7,
+                "3040142": 5,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1520106,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3040141,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3040141,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171408,
+                    "firstName": "Aarya",
+                    "lastName": "Newalker",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040141
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3040142,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 152096,
+                    "firstName": "Ava",
+                    "lastName": "Ebling",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040142
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3040153": 6,
+                "3040154": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3040153": 6,
+                "3040154": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1520112,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3040153,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3040153,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150307,
+                    "firstName": "Larissa",
+                    "lastName": "Yoshino",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040153
+                    }
+                  },
+                  {
+                    "id": 171407,
+                    "firstName": "Yousong",
+                    "lastName": "Choi",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3040153
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3040154,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 125764,
+                    "firstName": "Lana",
+                    "lastName": "Sloan",
+                    "grade": "12",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040154
+                    }
+                  },
+                  {
+                    "id": 145829,
+                    "firstName": "Harper",
+                    "lastName": "Jones",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3040154
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3040205": 7,
+                "3040206": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3040205": 3,
+                "3040206": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3040205": 6,
+                "3040206": 3,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1520138,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3040205,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3040205,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150312,
+                    "firstName": "Nayoon",
+                    "lastName": "Lee",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040205
+                    }
+                  },
+                  {
+                    "id": 152668,
+                    "firstName": "Anna",
+                    "lastName": "Felice",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3040205
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3040206,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196043,
+                    "firstName": "Aurora",
+                    "lastName": "Gonzalvo",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040206
+                    }
+                  },
+                  {
+                    "id": 196044,
+                    "firstName": "Addison",
+                    "lastName": "Graves",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3040206
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000004,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-11T08:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3137761": 1,
+                "3137762": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3137761": 2,
+                "3137762": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1568916,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3137762,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3137761,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 125764,
+                    "firstName": "Lana",
+                    "lastName": "Sloan",
+                    "grade": "12",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3137761
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3137762,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166576,
+                    "firstName": "Karishma",
+                    "lastName": "Vakhariya",
+                    "grade": "10",
+                    "schoolId": 116942,
+                    "school": {
+                      "id": 116942,
+                      "name": "Detroit Country Day",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3137762
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3137781": 1,
+                "3137782": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3137781": 1,
+                "3137782": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1568926,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3137782,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3137781,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169752,
+                    "firstName": "Emily",
+                    "lastName": "Goodrich",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3137781
+                    }
+                  },
+                  {
+                    "id": 196042,
+                    "firstName": "Emma",
+                    "lastName": "Sardelli",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3137781
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3137782,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166579,
+                    "firstName": "Grace",
+                    "lastName": "Kalkanis",
+                    "grade": "10",
+                    "schoolId": 116942,
+                    "school": {
+                      "id": 116942,
+                      "name": "Detroit Country Day",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3137782
+                    }
+                  },
+                  {
+                    "id": 166578,
+                    "firstName": "Zoe",
+                    "lastName": "Bergg",
+                    "grade": "10",
+                    "schoolId": 116942,
+                    "school": {
+                      "id": 116942,
+                      "name": "Detroit Country Day",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3137782
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000005,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-23T08:30:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3049330": 6,
+                "3049332": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3049330": 6,
+                "3049332": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1524701,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3049330,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3049330,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 198130,
+                    "firstName": "Gwen ",
+                    "lastName": "Slapak",
+                    "grade": "9",
+                    "schoolId": 4085,
+                    "school": {
+                      "id": 4085,
+                      "name": "Bloomfield Hills Marian",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3049330
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3049332,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 152096,
+                    "firstName": "Ava",
+                    "lastName": "Ebling",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3049332
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3049363": 6,
+                "3049364": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3049363": 6,
+                "3049364": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1524717,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3049363,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3049363,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150359,
+                    "firstName": "Lexa",
+                    "lastName": "Hindo",
+                    "grade": "11",
+                    "schoolId": 4085,
+                    "school": {
+                      "id": 4085,
+                      "name": "Bloomfield Hills Marian",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3049363
+                    }
+                  },
+                  {
+                    "id": 198132,
+                    "firstName": "Emerson",
+                    "lastName": "Villalba",
+                    "grade": "9",
+                    "schoolId": 4085,
+                    "school": {
+                      "id": 4085,
+                      "name": "Bloomfield Hills Marian",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3049363
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3049364,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196043,
+                    "firstName": "Aurora",
+                    "lastName": "Gonzalvo",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3049364
+                    }
+                  },
+                  {
+                    "id": 196044,
+                    "firstName": "Addison",
+                    "lastName": "Graves",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3049364
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000006,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-04T08:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3100979": 6,
+                "3100980": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3100979": 6,
+                "3100980": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1550525,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3100979,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3100979,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196046,
+                    "firstName": "Laine",
+                    "lastName": "Jones",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3100979
+                    }
+                  },
+                  {
+                    "id": 196040,
+                    "firstName": "Emily",
+                    "lastName": "Duhaime",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3100979
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3100980,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195762,
+                    "firstName": "Angie",
+                    "lastName": "Xia",
+                    "grade": "9",
+                    "schoolId": 4166,
+                    "school": {
+                      "id": 4166,
+                      "name": "Lake Orion",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3100980
+                    }
+                  },
+                  {
+                    "id": 195758,
+                    "firstName": "Meryl",
+                    "lastName": "Callahan",
+                    "grade": "10",
+                    "schoolId": 4166,
+                    "school": {
+                      "id": 4166,
+                      "name": "Lake Orion",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3100980
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000007,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-02T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3094945": 6,
+                "3094946": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3094945": 6,
+                "3094946": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1547508,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3094945,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3094945,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 161710,
+                    "firstName": "Nina",
+                    "lastName": "Shaye",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3094945
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3094946,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196040,
+                    "firstName": "Emily",
+                    "lastName": "Duhaime",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3094946
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3095177": 6,
+                "3095178": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3095177": 6,
+                "3095178": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1547624,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3095177,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3095177,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125157,
+                    "firstName": "Maggie",
+                    "lastName": "Rothstein",
+                    "grade": "12",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3095177
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3095178,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196040,
+                    "firstName": "Emily",
+                    "lastName": "Duhaime",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3095178
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3094469": 3,
+                "3094470": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3094469": 1,
+                "3094470": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1547270,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3094470,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3094469,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170520,
+                    "firstName": "Julia",
+                    "lastName": "Jones",
+                    "grade": "10",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3094469
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3094470,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125764,
+                    "firstName": "Lana",
+                    "lastName": "Sloan",
+                    "grade": "12",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3094470
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3095281": 6,
+                "3095282": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3095281": 6,
+                "3095282": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1547676,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3095281,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3095281,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144998,
+                    "firstName": "Paislee",
+                    "lastName": "Hartman",
+                    "grade": "11",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3095281
+                    }
+                  },
+                  {
+                    "id": 188654,
+                    "firstName": "Eden",
+                    "lastName": "Slager",
+                    "grade": "9",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3095281
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3095282,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196046,
+                    "firstName": "Laine",
+                    "lastName": "Jones",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3095282
+                    }
+                  },
+                  {
+                    "id": 196049,
+                    "firstName": "Brynn",
+                    "lastName": "Calka",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3095282
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3094483": 1,
+                "3094484": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3094483": 2,
+                "3094484": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1547277,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3094484,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3094483,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151888,
+                    "firstName": "Sanaaya",
+                    "lastName": "Dhanasri",
+                    "grade": "11",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3094483
+                    }
+                  },
+                  {
+                    "id": 172241,
+                    "firstName": "Gabrielle",
+                    "lastName": "DesNoyer",
+                    "grade": "10",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3094483
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3094484,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 196040,
+                    "firstName": "Emily",
+                    "lastName": "Duhaime",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3094484
+                    }
+                  },
+                  {
+                    "id": 196049,
+                    "firstName": "Brynn",
+                    "lastName": "Calka",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3094484
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000008,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-27T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3097207": 4,
+                "3097208": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3097207": 6,
+                "3097208": 4,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3097207": 11,
+                "3097208": 9,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1548639,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3097207,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3097207,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 197688,
+                    "firstName": "Celine ",
+                    "lastName": "Sayed",
+                    "grade": "9",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3097207
+                    }
+                  },
+                  {
+                    "id": 197691,
+                    "firstName": "Melis",
+                    "lastName": "Ergun",
+                    "grade": "11",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3097207
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3097208,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196040,
+                    "firstName": "Emily",
+                    "lastName": "Duhaime",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3097208
+                    }
+                  },
+                  {
+                    "id": 196046,
+                    "firstName": "Laine",
+                    "lastName": "Jones",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3097208
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000009,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-14T08:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3000985": 1,
+                "3000986": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3000985": 2,
+                "3000986": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1500528,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3000986,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3000985,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196043,
+                    "firstName": "Aurora",
+                    "lastName": "Gonzalvo",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3000985
+                    }
+                  },
+                  {
+                    "id": 196044,
+                    "firstName": "Addison",
+                    "lastName": "Graves",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3000985
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3000986,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 131177,
+                    "firstName": "Kate ",
+                    "lastName": "Crowley",
+                    "grade": "12",
+                    "schoolId": 4430,
+                    "school": {
+                      "id": 4430,
+                      "name": "Birmingham Seaholm",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3000986
+                    }
+                  },
+                  {
+                    "id": 149754,
+                    "firstName": "Cate ",
+                    "lastName": "French",
+                    "grade": "11",
+                    "schoolId": 4430,
+                    "school": {
+                      "id": 4430,
+                      "name": "Birmingham Seaholm",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3000986
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000010,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-30T08:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3100861": 8,
+                "3100862": 7,
+                "number": 1,
+                "tie": 8
+              }
+            ],
+            "id": 1550466,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3100861,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3100861,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 199540,
+                    "firstName": "Juliet",
+                    "lastName": "Gabor",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3100861
+                    }
+                  },
+                  {
+                    "id": 196040,
+                    "firstName": "Emily",
+                    "lastName": "Duhaime",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3100861
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3100862,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 167919,
+                    "firstName": "Sadie",
+                    "lastName": "Dagenais",
+                    "grade": "11",
+                    "schoolId": 4267,
+                    "school": {
+                      "id": 4267,
+                      "name": "Berkley",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3100862
+                    }
+                  },
+                  {
+                    "id": 172580,
+                    "firstName": "Carly",
+                    "lastName": "Figlak",
+                    "grade": "11",
+                    "schoolId": 4267,
+                    "school": {
+                      "id": 4267,
+                      "name": "Berkley",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3100862
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "_source": "phase2b_player_matches"
+}

@@ -1,0 +1,3877 @@
+{
+  "school": {
+    "id": 4350,
+    "name": "Farmington"
+  },
+  "overallRecord": {
+    "win": 14,
+    "loss": 3,
+    "tie": 0
+  },
+  "meets": [
+    {
+      "id": 9000000,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-06T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3114825": 6,
+                "3114826": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3114825": 6,
+                "3114826": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1557448,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3114825,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3114825,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191729,
+                    "firstName": "Vrinda",
+                    "lastName": "Boopalam",
+                    "grade": "10",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3114825
+                    }
+                  },
+                  {
+                    "id": 149182,
+                    "firstName": "Olivia",
+                    "lastName": "Stepien",
+                    "grade": "11",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3114825
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3114826,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 147112,
+                    "firstName": "Ananya",
+                    "lastName": "Sankar",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3114826
+                    }
+                  },
+                  {
+                    "id": 192272,
+                    "firstName": "Sona",
+                    "lastName": "Cranson",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3114826
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3114833": 6,
+                "3114834": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3114833": 6,
+                "3114834": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1557452,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3114833,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3114833,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149191,
+                    "firstName": "Jinal",
+                    "lastName": "Patel",
+                    "grade": "11",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3114833
+                    }
+                  },
+                  {
+                    "id": 164876,
+                    "firstName": "Julianna",
+                    "lastName": "Petrous",
+                    "grade": "12",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3114833
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3114834,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171391,
+                    "firstName": "Danya",
+                    "lastName": "Asmar",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3114834
+                    }
+                  },
+                  {
+                    "id": 147113,
+                    "firstName": "Sonali ",
+                    "lastName": "Shah",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3114834
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000001,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3150745": 3,
+                "3150746": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150745": 0,
+                "3150746": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575408,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150746,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150745,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192269,
+                    "firstName": "Najah",
+                    "lastName": "Araquil",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150745
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150746,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170042,
+                    "firstName": "Ellena",
+                    "lastName": "Tomaj",
+                    "grade": "10",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150746
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150634": 2,
+                "3150637": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150634": 2,
+                "3150637": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3150634": null,
+                "3150637": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1575353,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150637,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150634,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192145,
+                    "firstName": "Emmaline",
+                    "lastName": "Strange",
+                    "grade": "9",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150634
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150637,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166399,
+                    "firstName": "Miriam",
+                    "lastName": "Dukhan",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150637
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150685": 0,
+                "3150686": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150685": 0,
+                "3150686": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575378,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150686,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150685,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 128531,
+                    "firstName": "Riley",
+                    "lastName": "Vargas",
+                    "grade": "12",
+                    "schoolId": 4235,
+                    "school": {
+                      "id": 4235,
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150685
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150686,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166403,
+                    "firstName": "Anushka",
+                    "lastName": "Hodaghatta-Yogesh",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150686
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150699": 6,
+                "3150700": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150699": 6,
+                "3150700": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575385,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150699,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150699,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191239,
+                    "firstName": "Jordyn",
+                    "lastName": "Tomina",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150699
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150700,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 166403,
+                    "firstName": "Anushka",
+                    "lastName": "Hodaghatta-Yogesh",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150700
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150729": 6,
+                "3150730": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150729": 6,
+                "3150730": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575400,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150729,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150729,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 192269,
+                    "firstName": "Najah",
+                    "lastName": "Araquil",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150729
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150730,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196312,
+                    "firstName": "Eliana",
+                    "lastName": "Hutson",
+                    "grade": "12",
+                    "schoolId": 4235,
+                    "school": {
+                      "id": 4235,
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150730
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150665": 7,
+                "3150666": 6,
+                "number": 1,
+                "tie": 5
+              },
+              {
+                "3150665": 3,
+                "3150666": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3150665": 3,
+                "3150666": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1575368,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150666,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150665,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195037,
+                    "firstName": "Olivia",
+                    "lastName": "Haddad",
+                    "grade": "9",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150665
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150666,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166391,
+                    "firstName": "Jelena",
+                    "lastName": "Donlic",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150666
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150677": 6,
+                "3150678": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150677": 6,
+                "3150678": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575374,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150677,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150677,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124991,
+                    "firstName": "Evelyn",
+                    "lastName": "Kalaydjian",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150677
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150678,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 166391,
+                    "firstName": "Jelena",
+                    "lastName": "Donlic",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150678
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150651": 6,
+                "3150652": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150651": 6,
+                "3150652": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575361,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150651,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150651,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146735,
+                    "firstName": "Zahraa",
+                    "lastName": "Marji",
+                    "grade": "12",
+                    "schoolId": 4502,
+                    "school": {
+                      "id": 4502,
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150651
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150652,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 166399,
+                    "firstName": "Miriam",
+                    "lastName": "Dukhan",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150652
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3150851": 6,
+                "3150852": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150851": 4,
+                "3150852": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3150851": 7,
+                "3150852": 5,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1575461,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150851,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150851,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147112,
+                    "firstName": "Ananya",
+                    "lastName": "Sankar",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150851
+                    }
+                  },
+                  {
+                    "id": 192272,
+                    "firstName": "Sona",
+                    "lastName": "Cranson",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150851
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150852,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 148810,
+                    "firstName": "Lila",
+                    "lastName": "Costello",
+                    "grade": "11",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150852
+                    }
+                  },
+                  {
+                    "id": 151389,
+                    "firstName": "Sophia",
+                    "lastName": "Zhalob",
+                    "grade": "12",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150852
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150917": 6,
+                "3150918": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150917": 6,
+                "3150918": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575494,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150917,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150917,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150203,
+                    "firstName": "Matilda",
+                    "lastName": "Edvardsson",
+                    "grade": "11",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150917
+                    }
+                  },
+                  {
+                    "id": 170045,
+                    "firstName": "Eva",
+                    "lastName": "Latvenas",
+                    "grade": "12",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150917
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150918,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171391,
+                    "firstName": "Danya",
+                    "lastName": "Asmar",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150918
+                    }
+                  },
+                  {
+                    "id": 165752,
+                    "firstName": "Gaia",
+                    "lastName": "DeMeester",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150918
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150963": 0,
+                "3150964": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150963": 4,
+                "3150964": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575517,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150964,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150963,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170041,
+                    "firstName": "Manya",
+                    "lastName": "Goldstein",
+                    "grade": "10",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150963
+                    }
+                  },
+                  {
+                    "id": 192146,
+                    "firstName": "Sabrina",
+                    "lastName": "Mathew",
+                    "grade": "11",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150963
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150964,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 192285,
+                    "firstName": "Eleanor",
+                    "lastName": "Tipton",
+                    "grade": "9",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150964
+                    }
+                  },
+                  {
+                    "id": 171431,
+                    "firstName": "Paige",
+                    "lastName": "Alexsander",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150964
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150775": 0,
+                "3150776": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150775": 0,
+                "3150776": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575423,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150776,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150775,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172344,
+                    "firstName": "Alecia",
+                    "lastName": "Sleiman",
+                    "grade": "11",
+                    "schoolId": 4465,
+                    "school": {
+                      "id": 4465,
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150775
+                    }
+                  },
+                  {
+                    "id": 169141,
+                    "firstName": "Fatima",
+                    "lastName": "Alaragy",
+                    "grade": "11",
+                    "schoolId": 4465,
+                    "school": {
+                      "id": 4465,
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150775
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150776,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170771,
+                    "firstName": "Aubrey",
+                    "lastName": "Wods",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150776
+                    }
+                  },
+                  {
+                    "id": 124789,
+                    "firstName": "Gabriela",
+                    "lastName": "Stakvel",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150776
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150801": 6,
+                "3150802": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150801": 6,
+                "3150802": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575436,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150801,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150801,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168341,
+                    "firstName": "Madeline",
+                    "lastName": "Baker",
+                    "grade": "10",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150801
+                    }
+                  },
+                  {
+                    "id": 168333,
+                    "firstName": "Ruhi",
+                    "lastName": "Balaji",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150801
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150802,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170771,
+                    "firstName": "Aubrey",
+                    "lastName": "Wods",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150802
+                    }
+                  },
+                  {
+                    "id": 124789,
+                    "firstName": "Gabriela",
+                    "lastName": "Stakvel",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150802
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150835": 6,
+                "3150836": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150835": 6,
+                "3150836": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575453,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150835,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150835,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147112,
+                    "firstName": "Ananya",
+                    "lastName": "Sankar",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150835
+                    }
+                  },
+                  {
+                    "id": 192272,
+                    "firstName": "Sona",
+                    "lastName": "Cranson",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150835
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150836,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 143956,
+                    "firstName": "Alora",
+                    "lastName": "Bazzi",
+                    "grade": "11",
+                    "schoolId": 4502,
+                    "school": {
+                      "id": 4502,
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150836
+                    }
+                  },
+                  {
+                    "id": 194853,
+                    "firstName": "Sara",
+                    "lastName": "Bazzi",
+                    "grade": "11",
+                    "schoolId": 4502,
+                    "school": {
+                      "id": 4502,
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150836
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150871": 6,
+                "3150872": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150871": 6,
+                "3150872": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575471,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150871,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150871,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168332,
+                    "firstName": "Leah",
+                    "lastName": "Goldstein",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150871
+                    }
+                  },
+                  {
+                    "id": 168342,
+                    "firstName": "Marissa",
+                    "lastName": "Ammori",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150871
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150872,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 147112,
+                    "firstName": "Ananya",
+                    "lastName": "Sankar",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150872
+                    }
+                  },
+                  {
+                    "id": 192272,
+                    "firstName": "Sona",
+                    "lastName": "Cranson",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150872
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150909": 0,
+                "3150910": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150909": 0,
+                "3150910": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575490,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150910,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150909,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172345,
+                    "firstName": "Laya",
+                    "lastName": "Hachmich",
+                    "grade": "11",
+                    "schoolId": 4465,
+                    "school": {
+                      "id": 4465,
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150909
+                    }
+                  },
+                  {
+                    "id": 195270,
+                    "firstName": "Aya",
+                    "lastName": "Hammoud",
+                    "grade": "9",
+                    "schoolId": 4465,
+                    "school": {
+                      "id": 4465,
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150909
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150910,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171391,
+                    "firstName": "Danya",
+                    "lastName": "Asmar",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150910
+                    }
+                  },
+                  {
+                    "id": 165752,
+                    "firstName": "Gaia",
+                    "lastName": "DeMeester",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150910
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150959": 0,
+                "3150960": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150959": 0,
+                "3150960": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575515,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150960,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150959,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 194913,
+                    "firstName": "Monique",
+                    "lastName": "Oliver",
+                    "grade": "11",
+                    "schoolId": 3884,
+                    "school": {
+                      "id": 3884,
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150959
+                    }
+                  },
+                  {
+                    "id": 194914,
+                    "firstName": "Grace",
+                    "lastName": "Rose",
+                    "grade": "11",
+                    "schoolId": 3884,
+                    "school": {
+                      "id": 3884,
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150959
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150960,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 192285,
+                    "firstName": "Eleanor",
+                    "lastName": "Tipton",
+                    "grade": "9",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150960
+                    }
+                  },
+                  {
+                    "id": 171431,
+                    "firstName": "Paige",
+                    "lastName": "Alexsander",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150960
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150969": 6,
+                "3150970": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150969": 6,
+                "3150970": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575520,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150969,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150969,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168327,
+                    "firstName": "Adriana",
+                    "lastName": "Foumia",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150969
+                    }
+                  },
+                  {
+                    "id": 191235,
+                    "firstName": "Amelia",
+                    "lastName": "Grace",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150969
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150970,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192285,
+                    "firstName": "Eleanor",
+                    "lastName": "Tipton",
+                    "grade": "9",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150970
+                    }
+                  },
+                  {
+                    "id": 171431,
+                    "firstName": "Paige",
+                    "lastName": "Alexsander",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150970
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000002,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-12T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3142877": 6,
+                "3142878": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3142877": 6,
+                "3142878": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571474,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3142877,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142877,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166403,
+                    "firstName": "Anushka",
+                    "lastName": "Hodaghatta-Yogesh",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142877
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142878,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195038,
+                    "firstName": "Lauryn",
+                    "lastName": "Helton",
+                    "grade": "10",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142878
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3142879": 6,
+                "3142880": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3142879": 6,
+                "3142880": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571475,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3142879,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142879,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 192269,
+                    "firstName": "Najah",
+                    "lastName": "Araquil",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142879
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142880,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195037,
+                    "firstName": "Olivia",
+                    "lastName": "Haddad",
+                    "grade": "9",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142880
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3142881": 4,
+                "3142882": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3142881": 6,
+                "3142882": 1,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3142881": 10,
+                "3142882": 8,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1571476,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3142881,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142881,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166391,
+                    "firstName": "Jelena",
+                    "lastName": "Donlic",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142881
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142882,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195041,
+                    "firstName": "Katherin Claire \"Katie\"",
+                    "lastName": "Machowicz",
+                    "grade": "10",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142882
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3142885": 6,
+                "3142886": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3142885": 6,
+                "3142886": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571478,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3142885,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142885,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166399,
+                    "firstName": "Miriam",
+                    "lastName": "Dukhan",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142885
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142886,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195045,
+                    "firstName": "Kaitlyn \"Kay\"",
+                    "lastName": "Thomas",
+                    "grade": "10",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142886
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3142889": 6,
+                "3142890": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3142889": 6,
+                "3142890": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571480,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3142889,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142889,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124789,
+                    "firstName": "Gabriela",
+                    "lastName": "Stakvel",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142889
+                    }
+                  },
+                  {
+                    "id": 170771,
+                    "firstName": "Aubrey",
+                    "lastName": "Wods",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3142889
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142890,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 152164,
+                    "firstName": "Olivia",
+                    "lastName": "Lind",
+                    "grade": "11",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142890
+                    }
+                  },
+                  {
+                    "id": 172861,
+                    "firstName": "Layla",
+                    "lastName": "Rivera",
+                    "grade": "11",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3142890
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3142899": 7,
+                "3142900": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3142899": 6,
+                "3142900": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571485,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3142899,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142899,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 165752,
+                    "firstName": "Gaia",
+                    "lastName": "DeMeester",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142899
+                    }
+                  },
+                  {
+                    "id": 171391,
+                    "firstName": "Danya",
+                    "lastName": "Asmar",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3142899
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142900,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195046,
+                    "firstName": "Amiah Marie \"Miah\"",
+                    "lastName": "Washington",
+                    "grade": "10",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142900
+                    }
+                  },
+                  {
+                    "id": 195042,
+                    "firstName": "Diarra",
+                    "lastName": "Mbow",
+                    "grade": "11",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3142900
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3142903": 8,
+                "3142904": 1,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1571487,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3142903,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142903,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147113,
+                    "firstName": "Sonali ",
+                    "lastName": "Shah",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142903
+                    }
+                  },
+                  {
+                    "id": 165751,
+                    "firstName": "Isabella",
+                    "lastName": "Acosta-Rubio",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3142903
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142904,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197195,
+                    "firstName": "Brianna Milan",
+                    "lastName": "Burton",
+                    "grade": "10",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142904
+                    }
+                  },
+                  {
+                    "id": 197500,
+                    "firstName": "Allison",
+                    "lastName": "Amin",
+                    "grade": "10",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3142904
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000003,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-08T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3133193": 6,
+                "3133194": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3133193": 6,
+                "3133194": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1566632,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3133193,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3133193,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171391,
+                    "firstName": "Danya",
+                    "lastName": "Asmar",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3133193
+                    }
+                  },
+                  {
+                    "id": 192270,
+                    "firstName": "Clare",
+                    "lastName": "Beacome",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3133193
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3133194,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 142062,
+                    "firstName": "Amalie",
+                    "lastName": "Hinterseher",
+                    "grade": "11",
+                    "schoolId": 4281,
+                    "school": {
+                      "id": 4281,
+                      "name": "Walled Lake Central",
+                      "logo": "school_4281.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3133194
+                    }
+                  },
+                  {
+                    "id": 170792,
+                    "firstName": "Erena",
+                    "lastName": "Sharm",
+                    "grade": "11",
+                    "schoolId": 4281,
+                    "school": {
+                      "id": 4281,
+                      "name": "Walled Lake Central",
+                      "logo": "school_4281.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3133194
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3133197": 6,
+                "3133198": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3133197": 6,
+                "3133198": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1566634,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3133197,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3133197,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147113,
+                    "firstName": "Sonali ",
+                    "lastName": "Shah",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3133197
+                    }
+                  },
+                  {
+                    "id": 165751,
+                    "firstName": "Isabella",
+                    "lastName": "Acosta-Rubio",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3133197
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3133198,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 142077,
+                    "firstName": "Trina",
+                    "lastName": "Phan",
+                    "grade": "12",
+                    "schoolId": 4281,
+                    "school": {
+                      "id": 4281,
+                      "name": "Walled Lake Central",
+                      "logo": "school_4281.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3133198
+                    }
+                  },
+                  {
+                    "id": 170785,
+                    "firstName": "Samatha",
+                    "lastName": "Najjar",
+                    "grade": "10",
+                    "schoolId": 4281,
+                    "school": {
+                      "id": 4281,
+                      "name": "Walled Lake Central",
+                      "logo": "school_4281.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3133198
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000004,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-05T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3105207": 7,
+                "3105208": 6,
+                "number": 1,
+                "tie": 6
+              },
+              {
+                "3105207": 7,
+                "3105208": 6,
+                "number": 2,
+                "tie": 2
+              }
+            ],
+            "id": 1552639,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3105207,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3105207,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 192770,
+                    "firstName": "Hannah ",
+                    "lastName": "Charles",
+                    "grade": "9",
+                    "schoolId": 4378,
+                    "school": {
+                      "id": 4378,
+                      "name": "Milford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3105207
+                    }
+                  },
+                  {
+                    "id": 192776,
+                    "firstName": "Rowan",
+                    "lastName": "Schultz",
+                    "grade": "12",
+                    "schoolId": 4378,
+                    "school": {
+                      "id": 4378,
+                      "name": "Milford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3105207
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3105208,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171391,
+                    "firstName": "Danya",
+                    "lastName": "Asmar",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3105208
+                    }
+                  },
+                  {
+                    "id": 192270,
+                    "firstName": "Clare",
+                    "lastName": "Beacome",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3105208
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3105211": 4,
+                "3105212": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3105211": 0,
+                "3105212": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1552641,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3105212,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3105211,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192778,
+                    "firstName": "Lacey",
+                    "lastName": "Smith",
+                    "grade": "12",
+                    "schoolId": 4378,
+                    "school": {
+                      "id": 4378,
+                      "name": "Milford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3105211
+                    }
+                  },
+                  {
+                    "id": 192771,
+                    "firstName": "Giavanna",
+                    "lastName": "Hysko",
+                    "grade": "11",
+                    "schoolId": 4378,
+                    "school": {
+                      "id": 4378,
+                      "name": "Milford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3105211
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3105212,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 147113,
+                    "firstName": "Sonali ",
+                    "lastName": "Shah",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3105212
+                    }
+                  },
+                  {
+                    "id": 165751,
+                    "firstName": "Isabella",
+                    "lastName": "Acosta-Rubio",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3105212
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000005,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-04T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3100855": 6,
+                "3100856": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3100855": 6,
+                "3100856": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1550463,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3100855,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3100855,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171391,
+                    "firstName": "Danya",
+                    "lastName": "Asmar",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3100855
+                    }
+                  },
+                  {
+                    "id": 192270,
+                    "firstName": "Clare",
+                    "lastName": "Beacome",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3100855
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3100856,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197056,
+                    "firstName": "Quench ",
+                    "lastName": "Flowers ",
+                    "grade": "12",
+                    "schoolId": 4264,
+                    "school": {
+                      "id": 4264,
+                      "name": "Detroit Cass Tech",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3100856
+                    }
+                  },
+                  {
+                    "id": 199304,
+                    "firstName": "Reya",
+                    "lastName": "Harvey",
+                    "grade": "6",
+                    "schoolId": 4264,
+                    "school": {
+                      "id": 4264,
+                      "name": "Detroit Cass Tech",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3100856
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000006,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-01T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3087393": 0,
+                "3087394": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3087393": 0,
+                "3087394": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1543732,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3087394,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3087393,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171431,
+                    "firstName": "Paige",
+                    "lastName": "Alexsander",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3087393
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3087394,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 128507,
+                    "firstName": "Samantha",
+                    "lastName": "Karoub",
+                    "grade": "12",
+                    "schoolId": 4103,
+                    "school": {
+                      "id": 4103,
+                      "name": "North Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3087394
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3087405": 6,
+                "3087406": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3087405": 6,
+                "3087406": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1543738,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3087405,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3087405,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166404,
+                    "firstName": "Kate",
+                    "lastName": "Martin",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3087405
+                    }
+                  },
+                  {
+                    "id": 171431,
+                    "firstName": "Paige",
+                    "lastName": "Alexsander",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3087405
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3087406,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 168312,
+                    "firstName": "Julia ",
+                    "lastName": "Nothstine",
+                    "grade": "11",
+                    "schoolId": 4103,
+                    "school": {
+                      "id": 4103,
+                      "name": "North Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3087406
+                    }
+                  },
+                  {
+                    "id": 170245,
+                    "firstName": "Lucy",
+                    "lastName": "Nemeth",
+                    "grade": "11",
+                    "schoolId": 4103,
+                    "school": {
+                      "id": 4103,
+                      "name": "North Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3087406
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3087413": 8,
+                "3087414": 1,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1543742,
+            "flight": "6",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3087413,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3087413,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 192270,
+                    "firstName": "Clare",
+                    "lastName": "Beacome",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3087413
+                    }
+                  },
+                  {
+                    "id": 166399,
+                    "firstName": "Miriam",
+                    "lastName": "Dukhan",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3087413
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3087414,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197149,
+                    "firstName": "Kristianna",
+                    "lastName": "Kassab",
+                    "grade": "11",
+                    "schoolId": 4103,
+                    "school": {
+                      "id": 4103,
+                      "name": "North Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3087414
+                    }
+                  },
+                  {
+                    "id": 197150,
+                    "firstName": "Erin",
+                    "lastName": "Mallon",
+                    "grade": "11",
+                    "schoolId": 4103,
+                    "school": {
+                      "id": 4103,
+                      "name": "North Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3087414
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000007,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-30T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3088207": 2,
+                "3088208": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3088207": 2,
+                "3088208": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1544139,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3088207,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3088207,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166404,
+                    "firstName": "Kate",
+                    "lastName": "Martin",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3088207
+                    }
+                  },
+                  {
+                    "id": 165752,
+                    "firstName": "Gaia",
+                    "lastName": "DeMeester",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3088207
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3088208,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172455,
+                    "firstName": "default 2",
+                    "lastName": "default 2",
+                    "grade": "12",
+                    "schoolId": 9630,
+                    "school": {
+                      "id": 9630,
+                      "name": "Southfield Arts & Technology",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3088208
+                    }
+                  },
+                  {
+                    "id": 128608,
+                    "firstName": "default 1",
+                    "lastName": "default 1",
+                    "grade": "12",
+                    "schoolId": 9630,
+                    "school": {
+                      "id": 9630,
+                      "name": "Southfield Arts & Technology",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3088208
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3088221": 6,
+                "3088222": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3088221": 6,
+                "3088222": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1544146,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3088221,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3088221,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166404,
+                    "firstName": "Kate",
+                    "lastName": "Martin",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3088221
+                    }
+                  },
+                  {
+                    "id": 165752,
+                    "firstName": "Gaia",
+                    "lastName": "DeMeester",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3088221
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3088222,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 194273,
+                    "firstName": "Hanna",
+                    "lastName": "Cline",
+                    "grade": "11",
+                    "schoolId": 4470,
+                    "school": {
+                      "id": 4470,
+                      "name": "Oxford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3088222
+                    }
+                  },
+                  {
+                    "id": 194274,
+                    "firstName": "Mira ",
+                    "lastName": "Cline",
+                    "grade": "11",
+                    "schoolId": 4470,
+                    "school": {
+                      "id": 4470,
+                      "name": "Oxford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3088222
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000008,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-25T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3055683": 4,
+                "3055684": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3055683": 4,
+                "3055684": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1527877,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3055684,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3055683,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 198765,
+                    "firstName": "Misha",
+                    "lastName": "Gandhi",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3055683
+                    }
+                  },
+                  {
+                    "id": 198764,
+                    "firstName": "Emma",
+                    "lastName": "Mineau",
+                    "grade": "9",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3055683
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3055684,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144928,
+                    "firstName": "Reagan",
+                    "lastName": "Spurlock",
+                    "grade": "12",
+                    "schoolId": 4210,
+                    "school": {
+                      "id": 4210,
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3055684
+                    }
+                  },
+                  {
+                    "id": 165664,
+                    "firstName": "Melia",
+                    "lastName": "Gothro",
+                    "grade": "11",
+                    "schoolId": 4210,
+                    "school": {
+                      "id": 4210,
+                      "name": "Livonia Churchill",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3055684
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3058329": 6,
+                "3058330": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3058329": 6,
+                "3058330": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1529200,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3058329,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3058329,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169092,
+                    "firstName": "Cassidy ",
+                    "lastName": "Grzebyk",
+                    "grade": "12",
+                    "schoolId": 4050,
+                    "school": {
+                      "id": 4050,
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3058329
+                    }
+                  },
+                  {
+                    "id": 195884,
+                    "firstName": "Maddie",
+                    "lastName": "Meyers",
+                    "grade": "10",
+                    "schoolId": 4050,
+                    "school": {
+                      "id": 4050,
+                      "name": "Plymouth",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3058329
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3058330,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 198764,
+                    "firstName": "Emma",
+                    "lastName": "Mineau",
+                    "grade": "9",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3058330
+                    }
+                  },
+                  {
+                    "id": 198765,
+                    "firstName": "Misha",
+                    "lastName": "Gandhi",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3058330
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3059161": 6,
+                "3059162": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3059161": 6,
+                "3059162": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1529616,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3059161,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3059161,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149574,
+                    "firstName": "Charmi",
+                    "lastName": "Patel",
+                    "grade": "11",
+                    "schoolId": 4142,
+                    "school": {
+                      "id": 4142,
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3059161
+                    }
+                  },
+                  {
+                    "id": 195203,
+                    "firstName": "Ashishree",
+                    "lastName": "Patel",
+                    "grade": "12",
+                    "schoolId": 4142,
+                    "school": {
+                      "id": 4142,
+                      "name": "Salem",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3059161
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3059162,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 198764,
+                    "firstName": "Emma",
+                    "lastName": "Mineau",
+                    "grade": "9",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3059162
+                    }
+                  },
+                  {
+                    "id": 198765,
+                    "firstName": "Misha",
+                    "lastName": "Gandhi",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3059162
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000009,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-09T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "2975565": 8,
+                "2975566": 0,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1487818,
+            "flight": "6",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2975565,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2975565,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 192285,
+                    "firstName": "Eleanor",
+                    "lastName": "Tipton",
+                    "grade": "9",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 2975565
+                    }
+                  },
+                  {
+                    "id": 166399,
+                    "firstName": "Miriam",
+                    "lastName": "Dukhan",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 2975565
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2975566,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192198,
+                    "firstName": "Allison",
+                    "lastName": "Shephard",
+                    "grade": "12",
+                    "schoolId": 3950,
+                    "school": {
+                      "id": 3950,
+                      "name": "Ferndale",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 2975566
+                    }
+                  },
+                  {
+                    "id": 192197,
+                    "firstName": "Eleanor",
+                    "lastName": "Duncan",
+                    "grade": "9",
+                    "schoolId": 3950,
+                    "school": {
+                      "id": 3950,
+                      "name": "Ferndale",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 2975566
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "_source": "phase2b_player_matches"
+}

@@ -1,0 +1,372 @@
+{
+  "player": {
+    "id": 166069,
+    "schoolId": 4188,
+    "firstName": "Grace",
+    "lastName": "Ferry",
+    "address": null,
+    "email": "thuizing@rockfordschools.org",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-03-23T13:24:34.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Rockford",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Thomas",
+      "lastName": "Huizing"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 16,
+    "loss": 10
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3147739": 6,
+            "3147740": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147739": 6,
+            "3147740": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573905,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147739,
+        "createdAt": "2026-05-14T17:43:28.000Z",
+        "updatedAt": "2026-05-14T17:43:28.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147739,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 166069,
+                "firstName": "Grace",
+                "lastName": "Ferry",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147739
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147740,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 188965,
+                "firstName": "Angela",
+                "lastName": "He",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-13T14:36:13.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147740
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3147985": 6,
+            "3147986": 3,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147985": 6,
+            "3147986": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1574028,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147985,
+        "createdAt": "2026-05-14T18:28:06.000Z",
+        "updatedAt": "2026-05-14T18:28:06.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147985,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 166069,
+                "firstName": "Grace",
+                "lastName": "Ferry",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147985
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147986,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 145961,
+                "firstName": "Zoey",
+                "lastName": "Buchholz",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4426,
+                  "name": "Grandville",
+                  "logo": null,
+                  "city": {
+                    "id": 7240,
+                    "name": "Grandville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147986
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3149013": 3,
+            "3149014": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3149013": 7,
+            "3149014": 5,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3149013": 3,
+            "3149014": 6,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1574542,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3149014,
+        "createdAt": "2026-05-14T21:44:39.000Z",
+        "updatedAt": "2026-05-14T21:44:39.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3149013,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 166069,
+                "firstName": "Grace",
+                "lastName": "Ferry",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149013
+                }
+              }
+            ]
+          },
+          {
+            "id": 3149014,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 144996,
+                "firstName": "Evie",
+                "lastName": "Price",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149014
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 14,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 166069,
+      "stateId": 30
+    }
+  ]
+}

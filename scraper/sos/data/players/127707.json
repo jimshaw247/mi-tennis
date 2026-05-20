@@ -1,0 +1,557 @@
+{
+  "player": {
+    "id": 127707,
+    "schoolId": 4134,
+    "firstName": "Jessica",
+    "lastName": "Primus",
+    "address": null,
+    "email": null,
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "12",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2023-04-09T19:48:41.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Ann Arbor Pioneer",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Roopa",
+      "lastName": "Gurm"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 344,
+        "eventYear": "2023",
+        "eventName": "MHSAA Finals--2023"
+      },
+      {
+        "eventId": 493,
+        "eventYear": "2024",
+        "eventName": "MHSAA Finals-2024"
+      },
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 16,
+    "loss": 6
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3151353": 0,
+            "3151354": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151353": 0,
+            "3151354": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575712,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151354,
+        "createdAt": "2026-05-15T06:53:04.000Z",
+        "updatedAt": "2026-05-15T06:53:04.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151353,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 147289,
+                "firstName": "Emma",
+                "lastName": "Garcia",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4538,
+                  "name": "Belleville",
+                  "logo": null,
+                  "city": {
+                    "id": 1294,
+                    "name": "Belleville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151353
+                }
+              },
+              {
+                "id": 164303,
+                "firstName": "Angel ",
+                "lastName": "Field Laster",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4538,
+                  "name": "Belleville",
+                  "logo": null,
+                  "city": {
+                    "id": 1294,
+                    "name": "Belleville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151353
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151354,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 127707,
+                "firstName": "Jessica",
+                "lastName": "Primus",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151354
+                }
+              },
+              {
+                "id": 197742,
+                "firstName": "Audrey",
+                "lastName": "Johnson",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-15T12:01:17.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151354
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3151355": 0,
+            "3151356": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151355": 0,
+            "3151356": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3151355": null,
+            "3151356": null,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1575713,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151356,
+        "createdAt": "2026-05-15T06:53:38.000Z",
+        "updatedAt": "2026-05-15T06:53:51.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151355,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 193009,
+                "firstName": "Leah",
+                "lastName": "Bersuder",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-26T16:03:44.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151355
+                }
+              },
+              {
+                "id": 193010,
+                "firstName": "Harper",
+                "lastName": "Green",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-26T16:04:20.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151355
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151356,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 127707,
+                "firstName": "Jessica",
+                "lastName": "Primus",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151356
+                }
+              },
+              {
+                "id": 197742,
+                "firstName": "Audrey",
+                "lastName": "Johnson",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-15T12:01:17.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151356
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3151357": 4,
+            "3151358": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151357": 2,
+            "3151358": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575714,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151358,
+        "createdAt": "2026-05-15T06:54:23.000Z",
+        "updatedAt": "2026-05-15T06:54:23.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151357,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 143525,
+                "firstName": "Kate",
+                "lastName": "Wolfe",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151357
+                }
+              },
+              {
+                "id": 169964,
+                "firstName": "Allison",
+                "lastName": "Lee",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151357
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151358,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 127707,
+                "firstName": "Jessica",
+                "lastName": "Primus",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151358
+                }
+              },
+              {
+                "id": 197742,
+                "firstName": "Audrey",
+                "lastName": "Johnson",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-15T12:01:17.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151358
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 14,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 127707,
+      "stateId": 30
+    }
+  ]
+}

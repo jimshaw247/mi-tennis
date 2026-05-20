@@ -1,0 +1,3253 @@
+{
+  "school": {
+    "id": 9195,
+    "name": "Bloomfield Hills"
+  },
+  "overallRecord": {
+    "win": 7,
+    "loss": 4,
+    "tie": 0
+  },
+  "meets": [
+    {
+      "id": 9000000,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-03-21T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2961881": 6,
+                "2961882": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2961881": 6,
+                "2961882": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1480976,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2961881,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2961881,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191237,
+                    "firstName": "Alexandra",
+                    "lastName": "Pascarella",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 2961881
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2961882,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 189392,
+                    "firstName": "Silvia",
+                    "lastName": "Mallavarapu",
+                    "grade": "9",
+                    "schoolId": 3923,
+                    "school": {
+                      "id": 3923,
+                      "name": "Troy",
+                      "logo": "school_3923.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 2961882
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "2962021": 6,
+                "2962022": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2962021": 6,
+                "2962022": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1481046,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 2962021,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2962021,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168342,
+                    "firstName": "Marissa",
+                    "lastName": "Ammori",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 2962021
+                    }
+                  },
+                  {
+                    "id": 168332,
+                    "firstName": "Leah",
+                    "lastName": "Goldstein",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 2962021
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2962022,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 145430,
+                    "firstName": "Anastasia",
+                    "lastName": "Barodka",
+                    "grade": "11",
+                    "schoolId": 3923,
+                    "school": {
+                      "id": 3923,
+                      "name": "Troy",
+                      "logo": "school_3923.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 2962022
+                    }
+                  },
+                  {
+                    "id": 145432,
+                    "firstName": "Arya",
+                    "lastName": "Iyer",
+                    "grade": "12",
+                    "schoolId": 3923,
+                    "school": {
+                      "id": 3923,
+                      "name": "Troy",
+                      "logo": "school_3923.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 2962022
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000001,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3150705": 6,
+                "3150706": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150705": 6,
+                "3150706": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575388,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150705,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150705,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191239,
+                    "firstName": "Jordyn",
+                    "lastName": "Tomina",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150705
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150706,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170043,
+                    "firstName": "Ariella",
+                    "lastName": "Ferguson ",
+                    "grade": "10",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150706
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150759": 6,
+                "3150760": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150759": 6,
+                "3150760": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575415,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150759,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150759,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145532,
+                    "firstName": "Sophia",
+                    "lastName": "Tomina",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150759
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150760,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170042,
+                    "firstName": "Ellena",
+                    "lastName": "Tomaj",
+                    "grade": "10",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150760
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150681": 6,
+                "3150682": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150681": 7,
+                "3150682": 5,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575376,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150681,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150681,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124991,
+                    "firstName": "Evelyn",
+                    "lastName": "Kalaydjian",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150681
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150682,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126434,
+                    "firstName": "Bella ",
+                    "lastName": "Kuzminsky",
+                    "grade": "12",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150682
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150699": 6,
+                "3150700": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150699": 6,
+                "3150700": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575385,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150699,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150699,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191239,
+                    "firstName": "Jordyn",
+                    "lastName": "Tomina",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150699
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150700,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 166403,
+                    "firstName": "Anushka",
+                    "lastName": "Hodaghatta-Yogesh",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150700
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150677": 6,
+                "3150678": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150677": 6,
+                "3150678": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575374,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150677,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150677,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124991,
+                    "firstName": "Evelyn",
+                    "lastName": "Kalaydjian",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150677
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150678,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 166391,
+                    "firstName": "Jelena",
+                    "lastName": "Donlic",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150678
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150611": 6,
+                "3150612": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150611": 6,
+                "3150612": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575341,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150611,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150611,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191237,
+                    "firstName": "Alexandra",
+                    "lastName": "Pascarella",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150611
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150612,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195267,
+                    "firstName": "Maisam",
+                    "lastName": "Bazzi",
+                    "grade": "9",
+                    "schoolId": 4465,
+                    "school": {
+                      "id": 4465,
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150612
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150645": 6,
+                "3150646": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150645": 6,
+                "3150646": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575358,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150645,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150645,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191237,
+                    "firstName": "Alexandra",
+                    "lastName": "Pascarella",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150645
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150646,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195045,
+                    "firstName": "Kaitlyn \"Kay\"",
+                    "lastName": "Thomas",
+                    "grade": "10",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150646
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150653": 6,
+                "3150654": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150653": 6,
+                "3150654": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575362,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150653,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150653,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191237,
+                    "firstName": "Alexandra",
+                    "lastName": "Pascarella",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150653
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150654,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 146735,
+                    "firstName": "Zahraa",
+                    "lastName": "Marji",
+                    "grade": "12",
+                    "schoolId": 4502,
+                    "school": {
+                      "id": 4502,
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150654
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150683": 6,
+                "3150684": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150683": 6,
+                "3150684": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575377,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150683,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150683,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191239,
+                    "firstName": "Jordyn",
+                    "lastName": "Tomina",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150683
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150684,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169134,
+                    "firstName": "Fatima",
+                    "lastName": "Ankouni",
+                    "grade": "11",
+                    "schoolId": 4465,
+                    "school": {
+                      "id": 4465,
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150684
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150719": 6,
+                "3150720": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150719": 6,
+                "3150720": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575395,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150719,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150719,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145532,
+                    "firstName": "Sophia",
+                    "lastName": "Tomina",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150719
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150720,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 165701,
+                    "firstName": "Camila (Max)",
+                    "lastName": "Gord",
+                    "grade": "12",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150720
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150751": 6,
+                "3150752": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150751": 6,
+                "3150752": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575411,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150751,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150751,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145532,
+                    "firstName": "Sophia",
+                    "lastName": "Tomina",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150751
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150752,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 129199,
+                    "firstName": "Medina",
+                    "lastName": "Faraj",
+                    "grade": "12",
+                    "schoolId": 4502,
+                    "school": {
+                      "id": 4502,
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150752
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150661": 6,
+                "3150662": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150661": 6,
+                "3150662": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575366,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3150661,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150661,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 124991,
+                    "firstName": "Evelyn",
+                    "lastName": "Kalaydjian",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150661
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150662,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169431,
+                    "firstName": "Morgan",
+                    "lastName": "McMillan",
+                    "grade": "10",
+                    "schoolId": 3884,
+                    "school": {
+                      "id": 3884,
+                      "name": "Wayne Memorial",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150662
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3150805": 6,
+                "3150806": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150805": 6,
+                "3150806": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575438,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150805,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150805,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168341,
+                    "firstName": "Madeline",
+                    "lastName": "Baker",
+                    "grade": "10",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150805
+                    }
+                  },
+                  {
+                    "id": 168333,
+                    "firstName": "Ruhi",
+                    "lastName": "Balaji",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150805
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150806,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170923,
+                    "firstName": "Delaney",
+                    "lastName": "Brager",
+                    "grade": "10",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150806
+                    }
+                  },
+                  {
+                    "id": 148809,
+                    "firstName": "Sara",
+                    "lastName": "Joyce",
+                    "grade": "12",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150806
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150935": 6,
+                "3150936": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150935": 6,
+                "3150936": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575503,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150935,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150935,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145536,
+                    "firstName": "Carissa",
+                    "lastName": "Hurnevich",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150935
+                    }
+                  },
+                  {
+                    "id": 168339,
+                    "firstName": "Jordyn",
+                    "lastName": "Goldstein",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150935
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150936,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150203,
+                    "firstName": "Matilda",
+                    "lastName": "Edvardsson",
+                    "grade": "11",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150936
+                    }
+                  },
+                  {
+                    "id": 170045,
+                    "firstName": "Eva",
+                    "lastName": "Latvenas",
+                    "grade": "12",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150936
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150801": 6,
+                "3150802": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150801": 6,
+                "3150802": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575436,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150801,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150801,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168341,
+                    "firstName": "Madeline",
+                    "lastName": "Baker",
+                    "grade": "10",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150801
+                    }
+                  },
+                  {
+                    "id": 168333,
+                    "firstName": "Ruhi",
+                    "lastName": "Balaji",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150801
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150802,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170771,
+                    "firstName": "Aubrey",
+                    "lastName": "Wods",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150802
+                    }
+                  },
+                  {
+                    "id": 124789,
+                    "firstName": "Gabriela",
+                    "lastName": "Stakvel",
+                    "grade": "12",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150802
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150871": 6,
+                "3150872": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150871": 6,
+                "3150872": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575471,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150871,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150871,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168332,
+                    "firstName": "Leah",
+                    "lastName": "Goldstein",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150871
+                    }
+                  },
+                  {
+                    "id": 168342,
+                    "firstName": "Marissa",
+                    "lastName": "Ammori",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150871
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150872,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 147112,
+                    "firstName": "Ananya",
+                    "lastName": "Sankar",
+                    "grade": "11",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150872
+                    }
+                  },
+                  {
+                    "id": 192272,
+                    "firstName": "Sona",
+                    "lastName": "Cranson",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150872
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150969": 6,
+                "3150970": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150969": 6,
+                "3150970": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575520,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150969,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150969,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168327,
+                    "firstName": "Adriana",
+                    "lastName": "Foumia",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150969
+                    }
+                  },
+                  {
+                    "id": 191235,
+                    "firstName": "Amelia",
+                    "lastName": "Grace",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150969
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150970,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192285,
+                    "firstName": "Eleanor",
+                    "lastName": "Tipton",
+                    "grade": "9",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150970
+                    }
+                  },
+                  {
+                    "id": 171431,
+                    "firstName": "Paige",
+                    "lastName": "Alexsander",
+                    "grade": "10",
+                    "schoolId": 4350,
+                    "school": {
+                      "id": 4350,
+                      "name": "Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150970
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150765": 2,
+                "3150766": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150765": 2,
+                "3150766": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575418,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": "Default",
+            "winnerTeamId": 3150765,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150765,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168341,
+                    "firstName": "Madeline",
+                    "lastName": "Baker",
+                    "grade": "10",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150765
+                    }
+                  },
+                  {
+                    "id": 168333,
+                    "firstName": "Ruhi",
+                    "lastName": "Balaji",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150765
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150766,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172861,
+                    "firstName": "Layla",
+                    "lastName": "Rivera",
+                    "grade": "11",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150766
+                    }
+                  },
+                  {
+                    "id": 152164,
+                    "firstName": "Olivia",
+                    "lastName": "Lind",
+                    "grade": "11",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150766
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150817": 6,
+                "3150818": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150817": 6,
+                "3150818": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575444,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150817,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150817,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168332,
+                    "firstName": "Leah",
+                    "lastName": "Goldstein",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150817
+                    }
+                  },
+                  {
+                    "id": 168342,
+                    "firstName": "Marissa",
+                    "lastName": "Ammori",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150817
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150818,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195280,
+                    "firstName": "Eman",
+                    "lastName": "Baydoun",
+                    "grade": "9",
+                    "schoolId": 4465,
+                    "school": {
+                      "id": 4465,
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150818
+                    }
+                  },
+                  {
+                    "id": 195272,
+                    "firstName": "Layal",
+                    "lastName": "Jamalaldin",
+                    "grade": "10",
+                    "schoolId": 4465,
+                    "school": {
+                      "id": 4465,
+                      "name": "Dearborn Fordson",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150818
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150857": 6,
+                "3150858": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150857": 6,
+                "3150858": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575464,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150857,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150857,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168332,
+                    "firstName": "Leah",
+                    "lastName": "Goldstein",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150857
+                    }
+                  },
+                  {
+                    "id": 168342,
+                    "firstName": "Marissa",
+                    "lastName": "Ammori",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150857
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150858,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172862,
+                    "firstName": "Jalyce",
+                    "lastName": "Best",
+                    "grade": "11",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150858
+                    }
+                  },
+                  {
+                    "id": 195043,
+                    "firstName": "Abigayle Virginia \"Abby\"",
+                    "lastName": "Rausch",
+                    "grade": "10",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150858
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150879": 6,
+                "3150880": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150879": 6,
+                "3150880": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575475,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150879,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150879,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145536,
+                    "firstName": "Carissa",
+                    "lastName": "Hurnevich",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150879
+                    }
+                  },
+                  {
+                    "id": 168339,
+                    "firstName": "Jordyn",
+                    "lastName": "Goldstein",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150879
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150880,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 194849,
+                    "firstName": "Sophia",
+                    "lastName": "Beydoun",
+                    "grade": "9",
+                    "schoolId": 4502,
+                    "school": {
+                      "id": 4502,
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150880
+                    }
+                  },
+                  {
+                    "id": 194850,
+                    "firstName": "Israa",
+                    "lastName": "Yassine",
+                    "grade": "9",
+                    "schoolId": 4502,
+                    "school": {
+                      "id": 4502,
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150880
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150925": 6,
+                "3150926": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150925": 6,
+                "3150926": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575498,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150925,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150925,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145536,
+                    "firstName": "Carissa",
+                    "lastName": "Hurnevich",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150925
+                    }
+                  },
+                  {
+                    "id": 168339,
+                    "firstName": "Jordyn",
+                    "lastName": "Goldstein",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150925
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150926,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195042,
+                    "firstName": "Diarra",
+                    "lastName": "Mbow",
+                    "grade": "11",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150926
+                    }
+                  },
+                  {
+                    "id": 195046,
+                    "firstName": "Amiah Marie \"Miah\"",
+                    "lastName": "Washington",
+                    "grade": "10",
+                    "schoolId": 4388,
+                    "school": {
+                      "id": 4388,
+                      "name": "Livonia Stevenson",
+                      "logo": "school_4388.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150926
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150943": 6,
+                "3150944": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150943": 6,
+                "3150944": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575507,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150943,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150943,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168327,
+                    "firstName": "Adriana",
+                    "lastName": "Foumia",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150943
+                    }
+                  },
+                  {
+                    "id": 191235,
+                    "firstName": "Amelia",
+                    "lastName": "Grace",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150943
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150944,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196299,
+                    "firstName": "Rachael",
+                    "lastName": "Garrett",
+                    "grade": "11",
+                    "schoolId": 4235,
+                    "school": {
+                      "id": 4235,
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150944
+                    }
+                  },
+                  {
+                    "id": 196304,
+                    "firstName": "Gracie Raeh",
+                    "lastName": "Thompson",
+                    "grade": "11",
+                    "schoolId": 4235,
+                    "school": {
+                      "id": 4235,
+                      "name": "Westland John Glenn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150944
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3150965": 6,
+                "3150966": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3150965": 6,
+                "3150966": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575518,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3150965,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3150965,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168327,
+                    "firstName": "Adriana",
+                    "lastName": "Foumia",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150965
+                    }
+                  },
+                  {
+                    "id": 191235,
+                    "firstName": "Amelia",
+                    "lastName": "Grace",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150965
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3150966,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 165642,
+                    "firstName": "Maha",
+                    "lastName": "Bazzy",
+                    "grade": "11",
+                    "schoolId": 4502,
+                    "school": {
+                      "id": 4502,
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3150966
+                    }
+                  },
+                  {
+                    "id": 194848,
+                    "firstName": "Julia",
+                    "lastName": "Elzein",
+                    "grade": "9",
+                    "schoolId": 4502,
+                    "school": {
+                      "id": 4502,
+                      "name": "Dearborn",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3150966
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000002,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-11T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3140161": 0,
+                "3140162": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3140161": 1,
+                "3140162": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1570116,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3140162,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3140161,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 148809,
+                    "firstName": "Sara",
+                    "lastName": "Joyce",
+                    "grade": "12",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3140161
+                    }
+                  },
+                  {
+                    "id": 192145,
+                    "firstName": "Emmaline",
+                    "lastName": "Strange",
+                    "grade": "9",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3140161
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3140162,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168341,
+                    "firstName": "Madeline",
+                    "lastName": "Baker",
+                    "grade": "10",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3140162
+                    }
+                  },
+                  {
+                    "id": 168333,
+                    "firstName": "Ruhi",
+                    "lastName": "Balaji",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3140162
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3140171": 2,
+                "3140172": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3140171": 2,
+                "3140172": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1570121,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3140172,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3140171,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 148810,
+                    "firstName": "Lila",
+                    "lastName": "Costello",
+                    "grade": "11",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3140171
+                    }
+                  },
+                  {
+                    "id": 151389,
+                    "firstName": "Sophia",
+                    "lastName": "Zhalob",
+                    "grade": "12",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3140171
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3140172,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168332,
+                    "firstName": "Leah",
+                    "lastName": "Goldstein",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3140172
+                    }
+                  },
+                  {
+                    "id": 168342,
+                    "firstName": "Marissa",
+                    "lastName": "Ammori",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3140172
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3140185": 2,
+                "3140186": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3140185": 1,
+                "3140186": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1570128,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3140186,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3140185,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170041,
+                    "firstName": "Manya",
+                    "lastName": "Goldstein",
+                    "grade": "10",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3140185
+                    }
+                  },
+                  {
+                    "id": 192146,
+                    "firstName": "Sabrina",
+                    "lastName": "Mathew",
+                    "grade": "11",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3140185
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3140186,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168327,
+                    "firstName": "Adriana",
+                    "lastName": "Foumia",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3140186
+                    }
+                  },
+                  {
+                    "id": 191235,
+                    "firstName": "Amelia",
+                    "lastName": "Grace",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3140186
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000003,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-07T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3121081": 2,
+                "3121082": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3121081": 0,
+                "3121082": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1560576,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3121082,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3121081,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 146219,
+                    "firstName": "Riya ",
+                    "lastName": "Chava",
+                    "grade": "11",
+                    "schoolId": 4103,
+                    "school": {
+                      "id": 4103,
+                      "name": "North Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3121081
+                    }
+                  },
+                  {
+                    "id": 197484,
+                    "firstName": "Camille",
+                    "lastName": "Quenioux",
+                    "grade": "12",
+                    "schoolId": 4103,
+                    "school": {
+                      "id": 4103,
+                      "name": "North Farmington",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3121081
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3121082,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168337,
+                    "firstName": "Sophia",
+                    "lastName": "Gluck",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3121082
+                    }
+                  },
+                  {
+                    "id": 191236,
+                    "firstName": "Gianna",
+                    "lastName": "Ammori",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3121082
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000004,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-06T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3113867": 6,
+                "3113868": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3113867": 6,
+                "3113868": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1556969,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3113867,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3113867,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 151888,
+                    "firstName": "Sanaaya",
+                    "lastName": "Dhanasri",
+                    "grade": "11",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3113867
+                    }
+                  },
+                  {
+                    "id": 170520,
+                    "firstName": "Julia",
+                    "lastName": "Jones",
+                    "grade": "10",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3113867
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3113868,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 168337,
+                    "firstName": "Sophia",
+                    "lastName": "Gluck",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3113868
+                    }
+                  },
+                  {
+                    "id": 191236,
+                    "firstName": "Gianna",
+                    "lastName": "Ammori",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3113868
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000005,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-30T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3080317": 0,
+                "3080318": 8,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1540194,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3080318,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3080317,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 167766,
+                    "firstName": "Kendall",
+                    "lastName": "Markham",
+                    "grade": "11",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3080317
+                    }
+                  },
+                  {
+                    "id": 168529,
+                    "firstName": "Vivienne ",
+                    "lastName": "Probst",
+                    "grade": "11",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3080317
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3080318,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145536,
+                    "firstName": "Carissa",
+                    "lastName": "Hurnevich",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3080318
+                    }
+                  },
+                  {
+                    "id": 191236,
+                    "firstName": "Gianna",
+                    "lastName": "Ammori",
+                    "grade": "9",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3080318
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000006,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-20T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3042117": 6,
+                "3042118": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3042117": 6,
+                "3042118": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1521094,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3042117,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3042117,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 145536,
+                    "firstName": "Carissa",
+                    "lastName": "Hurnevich",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3042117
+                    }
+                  },
+                  {
+                    "id": 168329,
+                    "firstName": "Alexis",
+                    "lastName": "Yu",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3042117
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3042118,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150811,
+                    "firstName": "Avery ",
+                    "lastName": "Kowalski",
+                    "grade": "11",
+                    "schoolId": 4040,
+                    "school": {
+                      "id": 4040,
+                      "name": "Walled Lake Northern",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3042118
+                    }
+                  },
+                  {
+                    "id": 150820,
+                    "firstName": "Ava",
+                    "lastName": "Atwood",
+                    "grade": "11",
+                    "schoolId": 4040,
+                    "school": {
+                      "id": 4040,
+                      "name": "Walled Lake Northern",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3042118
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000007,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-14T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3002939": 4,
+                "3002940": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3002939": 6,
+                "3002940": 3,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3002939": 3,
+                "3002940": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1501505,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3002940,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3002939,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150037,
+                    "firstName": "Monika",
+                    "lastName": "Camaj",
+                    "grade": "12",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3002939
+                    }
+                  },
+                  {
+                    "id": 150041,
+                    "firstName": "Joanna",
+                    "lastName": "Ouyang",
+                    "grade": "12",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3002939
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3002940,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168329,
+                    "firstName": "Alexis",
+                    "lastName": "Yu",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3002940
+                    }
+                  },
+                  {
+                    "id": 145536,
+                    "firstName": "Carissa",
+                    "lastName": "Hurnevich",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3002940
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000008,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-08T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3006589": 4,
+                "3006590": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3006589": 0,
+                "3006590": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1503330,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3006590,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3006589,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 168329,
+                    "firstName": "Alexis",
+                    "lastName": "Yu",
+                    "grade": "12",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3006589
+                    }
+                  },
+                  {
+                    "id": 145536,
+                    "firstName": "Carissa",
+                    "lastName": "Hurnevich",
+                    "grade": "11",
+                    "schoolId": 9195,
+                    "school": {
+                      "id": 9195,
+                      "name": "Bloomfield Hills",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3006589
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3006590,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 149755,
+                    "firstName": "Katie",
+                    "lastName": "Joyce",
+                    "grade": "11",
+                    "schoolId": 4430,
+                    "school": {
+                      "id": 4430,
+                      "name": "Birmingham Seaholm",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3006590
+                    }
+                  },
+                  {
+                    "id": 131182,
+                    "firstName": "Anna ",
+                    "lastName": "Olekszyk",
+                    "grade": "12",
+                    "schoolId": 4430,
+                    "school": {
+                      "id": 4430,
+                      "name": "Birmingham Seaholm",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3006590
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "_source": "phase2b_player_matches"
+}

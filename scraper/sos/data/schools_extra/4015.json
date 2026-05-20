@@ -1,0 +1,2217 @@
+{
+  "school": {
+    "id": 4015,
+    "name": "Byron Center"
+  },
+  "overallRecord": {
+    "win": 12,
+    "loss": 3,
+    "tie": 0
+  },
+  "meets": [
+    {
+      "id": 9000000,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3147737": 6,
+                "3147738": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3147737": 6,
+                "3147738": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573904,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3147737,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3147737,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 188965,
+                    "firstName": "Angela",
+                    "lastName": "He",
+                    "grade": "9",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147737
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3147738,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 189289,
+                    "firstName": "Nishtha",
+                    "lastName": "Lakhani",
+                    "grade": "9",
+                    "schoolId": 45919,
+                    "school": {
+                      "id": 45919,
+                      "name": "Grand Rapids Union",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147738
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3147739": 6,
+                "3147740": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3147739": 6,
+                "3147740": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573905,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3147739,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3147739,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166069,
+                    "firstName": "Grace",
+                    "lastName": "Ferry",
+                    "grade": "10",
+                    "schoolId": 4188,
+                    "school": {
+                      "id": 4188,
+                      "name": "Rockford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147739
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3147740,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 188965,
+                    "firstName": "Angela",
+                    "lastName": "He",
+                    "grade": "9",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147740
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3147733": 4,
+                "3147734": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3147733": 3,
+                "3147734": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573902,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3147734,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3147733,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163790,
+                    "firstName": "Maddie",
+                    "lastName": "Kopp",
+                    "grade": "10",
+                    "schoolId": 4126,
+                    "school": {
+                      "id": 4126,
+                      "name": "Jenison",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147733
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3147734,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144560,
+                    "firstName": "Mallory ",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147734
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148205": 5,
+                "3148206": 7,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148205": 6,
+                "3148206": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148205": 3,
+                "3148206": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574138,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148206,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148205,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 166015,
+                    "firstName": "Anna ",
+                    "lastName": "Hubbard",
+                    "grade": "10",
+                    "schoolId": 4569,
+                    "school": {
+                      "id": 4569,
+                      "name": "Hudsonville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148205
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148206,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144560,
+                    "firstName": "Mallory ",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148206
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3149285": 1,
+                "3149286": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3149285": 6,
+                "3149286": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3149285": 6,
+                "3149286": 3,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574678,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3149285,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3149285,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 186160,
+                    "firstName": "Isabella",
+                    "lastName": "Gitler",
+                    "grade": "9",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149285
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3149286,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 144560,
+                    "firstName": "Mallory ",
+                    "lastName": "Johnson",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149286
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3147671": 6,
+                "3147672": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3147671": 6,
+                "3147672": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573871,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3147671,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3147671,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144559,
+                    "firstName": "Kristina",
+                    "lastName": "Ha",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147671
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3147672,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163792,
+                    "firstName": "Aaliyah",
+                    "lastName": "Thorsen",
+                    "grade": "10",
+                    "schoolId": 4126,
+                    "school": {
+                      "id": 4126,
+                      "name": "Jenison",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147672
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3147771": 6,
+                "3147772": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3147771": 6,
+                "3147772": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573921,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3147771,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3147771,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 186172,
+                    "firstName": "Sydney",
+                    "lastName": "Shafer",
+                    "grade": "9",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147771
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3147772,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 144559,
+                    "firstName": "Kristina",
+                    "lastName": "Ha",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147772
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3147651": 1,
+                "3147652": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3147651": 1,
+                "3147652": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573861,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3147652,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3147651,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 191716,
+                    "firstName": "sara",
+                    "lastName": "Patel",
+                    "grade": "10",
+                    "schoolId": 4426,
+                    "school": {
+                      "id": 4426,
+                      "name": "Grandville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147651
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3147652,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163928,
+                    "firstName": "Rylie",
+                    "lastName": "Hull",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147652
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148127": 6,
+                "3148128": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148127": 6,
+                "3148128": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574099,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148127,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148127,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191165,
+                    "firstName": "Lilly ",
+                    "lastName": "Bajema",
+                    "grade": "9",
+                    "schoolId": 4188,
+                    "school": {
+                      "id": 4188,
+                      "name": "Rockford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148127
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148128,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163928,
+                    "firstName": "Rylie",
+                    "lastName": "Hull",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148128
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3147603": 0,
+                "3147604": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3147603": 2,
+                "3147604": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3147603": null,
+                "3147604": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1573837,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3147604,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3147603,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 165862,
+                    "firstName": "Lauren",
+                    "lastName": "Ransford",
+                    "grade": "12",
+                    "schoolId": 4180,
+                    "school": {
+                      "id": 4180,
+                      "name": "Grand Haven",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147603
+                    }
+                  },
+                  {
+                    "id": 151401,
+                    "firstName": "Riese",
+                    "lastName": "Steigenga",
+                    "grade": "11",
+                    "schoolId": 4180,
+                    "school": {
+                      "id": 4180,
+                      "name": "Grand Haven",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3147603
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3147604,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163927,
+                    "firstName": "Sharon",
+                    "lastName": "Okoh",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147604
+                    }
+                  },
+                  {
+                    "id": 144563,
+                    "firstName": "Natalie",
+                    "lastName": "Rutgers",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3147604
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148123": 5,
+                "3148124": 7,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148123": 6,
+                "3148124": 4,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148123": 2,
+                "3148124": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574097,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148124,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148123,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 143879,
+                    "firstName": "Carlie",
+                    "lastName": "Wegener",
+                    "grade": "12",
+                    "schoolId": 4188,
+                    "school": {
+                      "id": 4188,
+                      "name": "Rockford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148123
+                    }
+                  },
+                  {
+                    "id": 145378,
+                    "firstName": "Sadie ",
+                    "lastName": "Debski",
+                    "grade": "11",
+                    "schoolId": 4188,
+                    "school": {
+                      "id": 4188,
+                      "name": "Rockford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148123
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148124,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163927,
+                    "firstName": "Sharon",
+                    "lastName": "Okoh",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148124
+                    }
+                  },
+                  {
+                    "id": 144563,
+                    "firstName": "Natalie",
+                    "lastName": "Rutgers",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148124
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3149219": 4,
+                "3149220": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3149219": 6,
+                "3149220": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3149219": 1,
+                "3149220": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574645,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3149220,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3149219,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 125158,
+                    "firstName": "Kallyn",
+                    "lastName": "Gaul",
+                    "grade": "12",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149219
+                    }
+                  },
+                  {
+                    "id": 125159,
+                    "firstName": "Lovelle",
+                    "lastName": "Kim",
+                    "grade": "12",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3149219
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3149220,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163927,
+                    "firstName": "Sharon",
+                    "lastName": "Okoh",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149220
+                    }
+                  },
+                  {
+                    "id": 144563,
+                    "firstName": "Natalie",
+                    "lastName": "Rutgers",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3149220
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148013": 6,
+                "3148014": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148013": 0,
+                "3148014": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148013": 2,
+                "3148014": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574042,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148014,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148013,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163795,
+                    "firstName": "Cora",
+                    "lastName": "Rotman",
+                    "grade": "11",
+                    "schoolId": 4126,
+                    "school": {
+                      "id": 4126,
+                      "name": "Jenison",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148013
+                    }
+                  },
+                  {
+                    "id": 171453,
+                    "firstName": "Eliza",
+                    "lastName": "Buckwalter",
+                    "grade": "10",
+                    "schoolId": 4126,
+                    "school": {
+                      "id": 4126,
+                      "name": "Jenison",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148013
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148014,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144565,
+                    "firstName": "Jillian ",
+                    "lastName": "Vanderhorst",
+                    "grade": "12",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148014
+                    }
+                  },
+                  {
+                    "id": 163929,
+                    "firstName": "Syd",
+                    "lastName": "DeVos",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148014
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3149227": 10,
+                "3149228": 8,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3149227": 4,
+                "3149228": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3149227": 6,
+                "3149228": 2,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574649,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3149227,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3149227,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191167,
+                    "firstName": "Sienna",
+                    "lastName": "Maag",
+                    "grade": "12",
+                    "schoolId": 4188,
+                    "school": {
+                      "id": 4188,
+                      "name": "Rockford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149227
+                    }
+                  },
+                  {
+                    "id": 191168,
+                    "firstName": "Vanessa",
+                    "lastName": "Rollenhagen",
+                    "grade": "10",
+                    "schoolId": 4188,
+                    "school": {
+                      "id": 4188,
+                      "name": "Rockford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3149227
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3149228,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 144565,
+                    "firstName": "Jillian ",
+                    "lastName": "Vanderhorst",
+                    "grade": "12",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149228
+                    }
+                  },
+                  {
+                    "id": 163929,
+                    "firstName": "Syd",
+                    "lastName": "DeVos",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3149228
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3147081": 6,
+                "3147082": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3147081": 6,
+                "3147082": 4,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573576,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3147081,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3147081,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144562,
+                    "firstName": "Saraiah",
+                    "lastName": "Okoh",
+                    "grade": "12",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147081
+                    }
+                  },
+                  {
+                    "id": 163931,
+                    "firstName": "Avery ",
+                    "lastName": "Hustak",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3147081
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3147082,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 190094,
+                    "firstName": "Reece",
+                    "lastName": "Colvin",
+                    "grade": "10",
+                    "schoolId": 4569,
+                    "school": {
+                      "id": 4569,
+                      "name": "Hudsonville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147082
+                    }
+                  },
+                  {
+                    "id": 189261,
+                    "firstName": "Mia",
+                    "lastName": "McClure",
+                    "grade": "9",
+                    "schoolId": 4569,
+                    "school": {
+                      "id": 4569,
+                      "name": "Hudsonville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3147082
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148025": 6,
+                "3148026": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148025": 5,
+                "3148026": 7,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148025": 3,
+                "3148026": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574048,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148026,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148025,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 144562,
+                    "firstName": "Saraiah",
+                    "lastName": "Okoh",
+                    "grade": "12",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148025
+                    }
+                  },
+                  {
+                    "id": 163931,
+                    "firstName": "Avery ",
+                    "lastName": "Hustak",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148025
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148026,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 172910,
+                    "firstName": "Mackenzie ",
+                    "lastName": "Buntley",
+                    "grade": "12",
+                    "schoolId": 4180,
+                    "school": {
+                      "id": 4180,
+                      "name": "Grand Haven",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148026
+                    }
+                  },
+                  {
+                    "id": 165861,
+                    "firstName": "Johanna",
+                    "lastName": "Schuster",
+                    "grade": "10",
+                    "schoolId": 4180,
+                    "school": {
+                      "id": 4180,
+                      "name": "Grand Haven",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148026
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3147529": 2,
+                "3147530": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3147529": 3,
+                "3147530": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573800,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3147530,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3147529,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164464,
+                    "firstName": "Mallory",
+                    "lastName": "Paff",
+                    "grade": "10",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147529
+                    }
+                  },
+                  {
+                    "id": 173149,
+                    "firstName": "Hope",
+                    "lastName": "Sikorski",
+                    "grade": "10",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3147529
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3147530,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163930,
+                    "firstName": "Heather",
+                    "lastName": "Kuipers",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147530
+                    }
+                  },
+                  {
+                    "id": 166963,
+                    "firstName": "Fiona ",
+                    "lastName": "Vu",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3147530
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3147059": 6,
+                "3147060": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3147059": 6,
+                "3147060": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573565,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3147059,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3147059,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163930,
+                    "firstName": "Heather",
+                    "lastName": "Kuipers",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147059
+                    }
+                  },
+                  {
+                    "id": 166963,
+                    "firstName": "Fiona ",
+                    "lastName": "Vu",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3147059
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3147060,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 165362,
+                    "firstName": "Chelsea",
+                    "lastName": "Tran",
+                    "grade": "12",
+                    "schoolId": 4203,
+                    "school": {
+                      "id": 4203,
+                      "name": "Caledonia",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3147060
+                    }
+                  },
+                  {
+                    "id": 190546,
+                    "firstName": "Payton",
+                    "lastName": "Walker",
+                    "grade": "12",
+                    "schoolId": 4203,
+                    "school": {
+                      "id": 4203,
+                      "name": "Caledonia",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3147060
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3149141": 6,
+                "3149142": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3149141": 0,
+                "3149142": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3149141": 5,
+                "3149142": 7,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574606,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3149142,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3149141,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163930,
+                    "firstName": "Heather",
+                    "lastName": "Kuipers",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149141
+                    }
+                  },
+                  {
+                    "id": 166963,
+                    "firstName": "Fiona ",
+                    "lastName": "Vu",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3149141
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3149142,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 189260,
+                    "firstName": "Kaitlyn",
+                    "lastName": "Addis",
+                    "grade": "11",
+                    "schoolId": 4569,
+                    "school": {
+                      "id": 4569,
+                      "name": "Hudsonville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149142
+                    }
+                  },
+                  {
+                    "id": 189259,
+                    "firstName": "Dakota",
+                    "lastName": "Koeman",
+                    "grade": "10",
+                    "schoolId": 4569,
+                    "school": {
+                      "id": 4569,
+                      "name": "Hudsonville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3149142
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000001,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-07T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3115799": 0,
+                "3115800": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3115799": 7,
+                "3115800": 6,
+                "number": 2,
+                "tie": 7
+              },
+              {
+                "3115799": 6,
+                "3115800": 2,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1557935,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3115799,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3115799,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 165358,
+                    "firstName": "Berkley",
+                    "lastName": "Nelson",
+                    "grade": "10",
+                    "schoolId": 4203,
+                    "school": {
+                      "id": 4203,
+                      "name": "Caledonia",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115799
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3115800,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 188965,
+                    "firstName": "Angela",
+                    "lastName": "He",
+                    "grade": "9",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115800
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3115155": 2,
+                "3115156": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3115155": 1,
+                "3115156": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1557613,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3115156,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3115155,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 130528,
+                    "firstName": "Adrienne",
+                    "lastName": "Mills",
+                    "grade": "12",
+                    "schoolId": 4559,
+                    "school": {
+                      "id": 4559,
+                      "name": "Muskegon Mona Shores",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115155
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3115156,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144559,
+                    "firstName": "Kristina",
+                    "lastName": "Ha",
+                    "grade": "11",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115156
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3115167": 3,
+                "3115168": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3115167": 0,
+                "3115168": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1557619,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3115168,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3115167,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 166438,
+                    "firstName": "Yelena",
+                    "lastName": "Wilks",
+                    "grade": "12",
+                    "schoolId": 4203,
+                    "school": {
+                      "id": 4203,
+                      "name": "Caledonia",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115167
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3115168,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163928,
+                    "firstName": "Rylie",
+                    "lastName": "Hull",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115168
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3115207": 0,
+                "3115208": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3115207": 2,
+                "3115208": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1557639,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3115208,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3115207,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 165806,
+                    "firstName": "Jayla",
+                    "lastName": "Brink",
+                    "grade": "11",
+                    "schoolId": 4048,
+                    "school": {
+                      "id": 4048,
+                      "name": "Muskegon Reeths-Puffer",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115207
+                    }
+                  },
+                  {
+                    "id": 191596,
+                    "firstName": "Kayleigh",
+                    "lastName": "Brown",
+                    "grade": "10",
+                    "schoolId": 4048,
+                    "school": {
+                      "id": 4048,
+                      "name": "Muskegon Reeths-Puffer",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3115207
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3115208,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144565,
+                    "firstName": "Jillian ",
+                    "lastName": "Vanderhorst",
+                    "grade": "12",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115208
+                    }
+                  },
+                  {
+                    "id": 163929,
+                    "firstName": "Syd",
+                    "lastName": "DeVos",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3115208
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3115243": 3,
+                "3115244": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3115243": 1,
+                "3115244": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1557657,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3115244,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3115243,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 191598,
+                    "firstName": "Brylee",
+                    "lastName": "Grifford",
+                    "grade": "11",
+                    "schoolId": 4048,
+                    "school": {
+                      "id": 4048,
+                      "name": "Muskegon Reeths-Puffer",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115243
+                    }
+                  },
+                  {
+                    "id": 191599,
+                    "firstName": "Elisa",
+                    "lastName": "Howard",
+                    "grade": "10",
+                    "schoolId": 4048,
+                    "school": {
+                      "id": 4048,
+                      "name": "Muskegon Reeths-Puffer",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3115243
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3115244,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 144562,
+                    "firstName": "Saraiah",
+                    "lastName": "Okoh",
+                    "grade": "12",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115244
+                    }
+                  },
+                  {
+                    "id": 163931,
+                    "firstName": "Avery ",
+                    "lastName": "Hustak",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3115244
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000002,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-01T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "2949949": 7,
+                "2949950": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "2949949": 3,
+                "2949950": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "2949949": 7,
+                "2949950": 10,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1475010,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 2949950,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 2949949,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163930,
+                    "firstName": "Heather",
+                    "lastName": "Kuipers",
+                    "grade": "10",
+                    "schoolId": 4015,
+                    "school": {
+                      "id": 4015,
+                      "name": "Byron Center",
+                      "logo": "school_4015.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 2949949
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2949950,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 172434,
+                    "firstName": "Imagyn",
+                    "lastName": "Van Veen",
+                    "grade": "10",
+                    "schoolId": 4381,
+                    "school": {
+                      "id": 4381,
+                      "name": "Holland",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 2949950
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": []
+      }
+    }
+  ],
+  "_source": "phase2b_player_matches"
+}

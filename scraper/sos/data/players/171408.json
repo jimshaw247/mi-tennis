@@ -1,0 +1,372 @@
+{
+  "player": {
+    "id": 171408,
+    "schoolId": 4047,
+    "firstName": "Aarya",
+    "lastName": "Newalker",
+    "address": null,
+    "email": null,
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-04-17T02:00:19.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Rochester Hills Stoney Creek",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Brian",
+      "lastName": "Miska"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 6,
+    "loss": 11
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3149593": 6,
+            "3149594": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3149593": 6,
+            "3149594": 3,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3149593": null,
+            "3149594": null,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1574832,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3149593,
+        "createdAt": "2026-05-14T23:45:12.000Z",
+        "updatedAt": "2026-05-14T23:52:56.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3149593,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 171408,
+                "firstName": "Aarya",
+                "lastName": "Newalker",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149593
+                }
+              }
+            ]
+          },
+          {
+            "id": 3149594,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 152238,
+                "firstName": "Chloe",
+                "lastName": "Mezza",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4077,
+                  "name": "New Baltimore Anchor Bay",
+                  "logo": "school_4077.png",
+                  "city": {
+                    "id": 5887,
+                    "name": "Fair haven",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149594
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3149597": 4,
+            "3149598": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3149597": 1,
+            "3149598": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1574834,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3149598,
+        "createdAt": "2026-05-14T23:46:39.000Z",
+        "updatedAt": "2026-05-14T23:46:39.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3149597,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 171408,
+                "firstName": "Aarya",
+                "lastName": "Newalker",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149597
+                }
+              }
+            ]
+          },
+          {
+            "id": 3149598,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 141879,
+                "firstName": "Mary",
+                "lastName": "Wesley",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4373,
+                  "name": "Romeo",
+                  "logo": null,
+                  "city": {
+                    "id": 15680,
+                    "name": "Romeo",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149598
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3143089": 6,
+            "3143090": 3,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3143089": 6,
+            "3143090": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1571580,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3143089,
+        "createdAt": "2026-05-13T13:31:24.000Z",
+        "updatedAt": "2026-05-13T13:31:24.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-11T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3143089,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191721,
+                "firstName": "Jilly",
+                "lastName": "Knoester",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T16:40:56.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3143089
+                }
+              }
+            ]
+          },
+          {
+            "id": 3143090,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 171408,
+                "firstName": "Aarya",
+                "lastName": "Newalker",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3143090
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 171408,
+      "stateId": 30
+    }
+  ]
+}

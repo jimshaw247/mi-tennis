@@ -1,0 +1,523 @@
+{
+  "player": {
+    "id": 169754,
+    "schoolId": 4052,
+    "firstName": "Lily",
+    "lastName": "Haviland",
+    "address": null,
+    "email": "h@h.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "12",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-04-09T10:48:22.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Clarkston",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Mary Jo",
+      "lastName": "Colonna"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 9,
+    "loss": 13
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3150511": 0,
+            "3150512": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150511": 0,
+            "3150512": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575291,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150512,
+        "createdAt": "2026-05-15T02:15:25.000Z",
+        "updatedAt": "2026-05-15T02:15:25.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150511,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 189994,
+                "firstName": "Selene",
+                "lastName": "Patharapanupath",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-17T02:06:03.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4010,
+                  "name": "Auburn Hills Avondale",
+                  "logo": "school_4010.jpeg",
+                  "city": {
+                    "id": 814,
+                    "name": "Auburn hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150511
+                }
+              },
+              {
+                "id": 189995,
+                "firstName": "Lena",
+                "lastName": "Russell",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-17T02:06:59.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4010,
+                  "name": "Auburn Hills Avondale",
+                  "logo": "school_4010.jpeg",
+                  "city": {
+                    "id": 814,
+                    "name": "Auburn hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150511
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150512,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 169754,
+                "firstName": "Lily",
+                "lastName": "Haviland",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150512
+                }
+              },
+              {
+                "id": 196041,
+                "firstName": "Annabelle",
+                "lastName": "Shaw",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T23:51:33.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150512
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150515": 4,
+            "3150516": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150515": 6,
+            "3150516": 7,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575293,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150516,
+        "createdAt": "2026-05-15T02:16:20.000Z",
+        "updatedAt": "2026-05-15T02:16:20.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150515,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169754,
+                "firstName": "Lily",
+                "lastName": "Haviland",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150515
+                }
+              },
+              {
+                "id": 196041,
+                "firstName": "Annabelle",
+                "lastName": "Shaw",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T23:51:33.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150515
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150516,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 152497,
+                "firstName": "Maia",
+                "lastName": "Bak",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150516
+                }
+              },
+              {
+                "id": 152498,
+                "firstName": "Elizabeth ",
+                "lastName": "Bolotov",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150516
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3146673": 7,
+            "3146674": 5,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3146673": 5,
+            "3146674": 7,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3146673": 11,
+            "3146674": 13,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1573372,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3146674,
+        "createdAt": "2026-05-14T13:13:54.000Z",
+        "updatedAt": "2026-05-14T13:13:54.000Z",
+        "meet": {
+          "approveMeet": false,
+          "postSeason": false,
+          "meetDateTime": "2026-05-12T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3146673,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 168340,
+                "firstName": "Lola",
+                "lastName": "Cleary",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4487,
+                  "name": "Bloomfield Hills Cranbrook Kingswood",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3146673
+                }
+              },
+              {
+                "id": 196782,
+                "firstName": "GiGi",
+                "lastName": "Giudici",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-10T16:38:33.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4487,
+                  "name": "Bloomfield Hills Cranbrook Kingswood",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3146673
+                }
+              }
+            ]
+          },
+          {
+            "id": 3146674,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 169754,
+                "firstName": "Lily",
+                "lastName": "Haviland",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3146674
+                }
+              },
+              {
+                "id": 196041,
+                "firstName": "Annabelle",
+                "lastName": "Shaw",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T23:51:33.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3146674
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 169754,
+      "stateId": 30
+    }
+  ]
+}

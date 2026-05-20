@@ -1,0 +1,543 @@
+{
+  "player": {
+    "id": 143525,
+    "schoolId": 3957,
+    "firstName": "Kate",
+    "lastName": "Wolfe",
+    "address": null,
+    "email": null,
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2024-03-13T16:30:59.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Ann Arbor Skyline",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Fengyi ",
+      "lastName": "Chen"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 493,
+        "eventYear": "2024",
+        "eventName": "MHSAA Finals-2024"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 13,
+    "loss": 8
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3151343": 6,
+            "3151344": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151343": 6,
+            "3151344": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575707,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151343,
+        "createdAt": "2026-05-15T06:47:35.000Z",
+        "updatedAt": "2026-05-15T06:47:35.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151343,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 143525,
+                "firstName": "Kate",
+                "lastName": "Wolfe",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151343
+                }
+              },
+              {
+                "id": 169964,
+                "firstName": "Allison",
+                "lastName": "Lee",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151343
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151344,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 128150,
+                "firstName": "Angelica",
+                "lastName": "Marranzini",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-09T01:19:38.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4068,
+                  "name": "Lincoln Park",
+                  "logo": null,
+                  "city": {
+                    "id": 10283,
+                    "name": "Lincoln park",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151344
+                }
+              },
+              {
+                "id": 128152,
+                "firstName": "Adamaris",
+                "lastName": "Cruz",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-09T01:26:56.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4068,
+                  "name": "Lincoln Park",
+                  "logo": null,
+                  "city": {
+                    "id": 10283,
+                    "name": "Lincoln park",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151344
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3151349": 6,
+            "3151350": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151349": 6,
+            "3151350": 2,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575710,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151349,
+        "createdAt": "2026-05-15T06:51:25.000Z",
+        "updatedAt": "2026-05-15T06:51:25.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151349,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 143525,
+                "firstName": "Kate",
+                "lastName": "Wolfe",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151349
+                }
+              },
+              {
+                "id": 169964,
+                "firstName": "Allison",
+                "lastName": "Lee",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151349
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151350,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 126732,
+                "firstName": "Janaki",
+                "lastName": "Nallamothu",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3932,
+                  "name": "Ann Arbor Huron",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151350
+                }
+              },
+              {
+                "id": 167782,
+                "firstName": "Katya",
+                "lastName": "Knysh",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3932,
+                  "name": "Ann Arbor Huron",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151350
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3151357": 4,
+            "3151358": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151357": 2,
+            "3151358": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575714,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151358,
+        "createdAt": "2026-05-15T06:54:23.000Z",
+        "updatedAt": "2026-05-15T06:54:23.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151357,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 143525,
+                "firstName": "Kate",
+                "lastName": "Wolfe",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151357
+                }
+              },
+              {
+                "id": 169964,
+                "firstName": "Allison",
+                "lastName": "Lee",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151357
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151358,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 127707,
+                "firstName": "Jessica",
+                "lastName": "Primus",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151358
+                }
+              },
+              {
+                "id": 197742,
+                "firstName": "Audrey",
+                "lastName": "Johnson",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-15T12:01:17.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151358
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 12,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 143525,
+      "stateId": 30
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "player": {
+    "id": 126434,
+    "schoolId": 4287,
+    "firstName": "Bella ",
+    "lastName": "Kuzminsky",
+    "address": null,
+    "email": null,
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "12",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2023-04-04T17:15:57.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "West Bloomfield",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Christopher",
+      "lastName": "Ludwig"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 493,
+        "eventYear": "2024",
+        "eventName": "MHSAA Finals-2024"
+      },
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 14,
+    "loss": 4
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3150671": 0,
+            "3150672": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150671": 0,
+            "3150672": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575371,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150672,
+        "createdAt": "2026-05-15T02:34:00.000Z",
+        "updatedAt": "2026-05-15T02:34:00.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150671,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 195271,
+                "firstName": "Zaineb",
+                "lastName": "Alshabany",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T11:51:19.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4465,
+                  "name": "Dearborn Fordson",
+                  "logo": null,
+                  "city": {
+                    "id": 4568,
+                    "name": "Dearborn",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150671
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150672,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 126434,
+                "firstName": "Bella ",
+                "lastName": "Kuzminsky",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4287,
+                  "name": "West Bloomfield",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150672
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150673": 2,
+            "3150674": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150673": 0,
+            "3150674": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575372,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150674,
+        "createdAt": "2026-05-15T02:34:21.000Z",
+        "updatedAt": "2026-05-15T02:34:21.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150673,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 163044,
+                "firstName": "Juliette",
+                "lastName": "Giedeman",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4502,
+                  "name": "Dearborn",
+                  "logo": null,
+                  "city": {
+                    "id": 4568,
+                    "name": "Dearborn",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150673
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150674,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 126434,
+                "firstName": "Bella ",
+                "lastName": "Kuzminsky",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4287,
+                  "name": "West Bloomfield",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150674
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150681": 6,
+            "3150682": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150681": 7,
+            "3150682": 5,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575376,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150681,
+        "createdAt": "2026-05-15T02:35:14.000Z",
+        "updatedAt": "2026-05-15T02:35:14.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150681,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 124991,
+                "firstName": "Evelyn",
+                "lastName": "Kalaydjian",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T16:31:07.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 9195,
+                  "name": "Bloomfield Hills",
+                  "logo": null,
+                  "city": {
+                    "id": 1692,
+                    "name": "Bloomfield hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150681
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150682,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 126434,
+                "firstName": "Bella ",
+                "lastName": "Kuzminsky",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4287,
+                  "name": "West Bloomfield",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150682
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 12,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 126434,
+      "stateId": 30
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "player": {
+    "id": 188654,
+    "schoolId": 4417,
+    "firstName": "Eden",
+    "lastName": "Slager",
+    "address": null,
+    "email": "schwallierp@westottawa.net",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "9",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-12T13:43:08.000Z",
+    "updatedAt": "2026-03-12T13:43:08.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Holland West Ottawa",
+      "logo": "school_4417.jpg"
+    },
+    "editor": {
+      "firstName": "Peter",
+      "lastName": "Schwallier"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 14,
+    "loss": 5
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3132039": 1,
+            "3132040": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3132039": 3,
+            "3132040": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3132039": null,
+            "3132040": null,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1566055,
+        "flight": "5",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3132040,
+        "createdAt": "2026-05-10T17:25:16.000Z",
+        "updatedAt": "2026-05-10T17:40:46.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-10T01:46:09.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3132039,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 190093,
+                "firstName": "Alaina",
+                "lastName": "Olson",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-17T12:15:18.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4569,
+                  "name": "Hudsonville",
+                  "logo": null,
+                  "city": {
+                    "id": 8578,
+                    "name": "Hudsonville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3132039
+                }
+              },
+              {
+                "id": 199225,
+                "firstName": "Jorja",
+                "lastName": "Straub",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-29T23:47:10.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4569,
+                  "name": "Hudsonville",
+                  "logo": null,
+                  "city": {
+                    "id": 8578,
+                    "name": "Hudsonville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3132039
+                }
+              }
+            ]
+          },
+          {
+            "id": 3132040,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 144998,
+                "firstName": "Paislee",
+                "lastName": "Hartman",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3132040
+                }
+              },
+              {
+                "id": 188654,
+                "firstName": "Eden",
+                "lastName": "Slager",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-12T13:43:08.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3132040
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3132041": 6,
+            "3132042": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3132041": 0,
+            "3132042": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3132041": 2,
+            "3132042": 6,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1566056,
+        "flight": "5",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3132042,
+        "createdAt": "2026-05-10T17:25:46.000Z",
+        "updatedAt": "2026-05-10T17:25:46.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-10T01:46:09.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3132041,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 167605,
+                "firstName": "Evelyn",
+                "lastName": "Schwander",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3132041
+                }
+              },
+              {
+                "id": 166072,
+                "firstName": "Kate",
+                "lastName": "Coyle",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3132041
+                }
+              }
+            ]
+          },
+          {
+            "id": 3132042,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 144998,
+                "firstName": "Paislee",
+                "lastName": "Hartman",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3132042
+                }
+              },
+              {
+                "id": 188654,
+                "firstName": "Eden",
+                "lastName": "Slager",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-12T13:43:08.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3132042
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3112377": 2,
+            "3112378": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3112377": 3,
+            "3112378": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1556224,
+        "flight": "5",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3112378,
+        "createdAt": "2026-05-07T00:56:09.000Z",
+        "updatedAt": "2026-05-07T00:56:09.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-06T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3112377,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 171977,
+                "firstName": "Willa ",
+                "lastName": "Fuller",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4180,
+                  "name": "Grand Haven",
+                  "logo": null,
+                  "city": {
+                    "id": 7209,
+                    "name": "Grand haven",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3112377
+                }
+              },
+              {
+                "id": 192528,
+                "firstName": "Nicole",
+                "lastName": "Kaines",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-24T23:05:05.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4180,
+                  "name": "Grand Haven",
+                  "logo": null,
+                  "city": {
+                    "id": 7209,
+                    "name": "Grand haven",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3112377
+                }
+              }
+            ]
+          },
+          {
+            "id": 3112378,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 144998,
+                "firstName": "Paislee",
+                "lastName": "Hartman",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3112378
+                }
+              },
+              {
+                "id": 188654,
+                "firstName": "Eden",
+                "lastName": "Slager",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-12T13:43:08.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3112378
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 188654,
+      "stateId": 30
+    }
+  ]
+}

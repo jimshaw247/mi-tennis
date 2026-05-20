@@ -1,0 +1,801 @@
+{
+  "player": {
+    "id": 169452,
+    "schoolId": 3933,
+    "firstName": "Alyssa",
+    "lastName": "Zellman",
+    "address": null,
+    "email": "So_dumb!!!@yahoo.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "12",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-04-08T01:43:16.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Novi",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Daniel",
+      "lastName": "Lowes"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 5,
+    "loss": 3
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3111823": 4,
+            "3111824": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3111823": 6,
+            "3111824": 4,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3111823": 4,
+            "3111824": 6,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1555947,
+        "flight": "5",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3111824,
+        "createdAt": "2026-05-06T23:47:07.000Z",
+        "updatedAt": "2026-05-06T23:47:07.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-06T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3111823,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169452,
+                "firstName": "Alyssa",
+                "lastName": "Zellman",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3111823
+                }
+              },
+              {
+                "id": 195527,
+                "firstName": "Jasmine ",
+                "lastName": "Bhadra",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T21:34:20.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3111823
+                }
+              }
+            ]
+          },
+          {
+            "id": 3111824,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 189391,
+                "firstName": "Arkita",
+                "lastName": "Das",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-16T01:30:06.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3923,
+                  "name": "Troy",
+                  "logo": "school_3923.jpeg",
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3111824
+                }
+              },
+              {
+                "id": 169173,
+                "firstName": "Addie",
+                "lastName": "Horvath",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3923,
+                  "name": "Troy",
+                  "logo": "school_3923.jpeg",
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3111824
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3000511": 3,
+            "3000512": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3000511": 4,
+            "3000512": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1500291,
+        "flight": "6",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3000512,
+        "createdAt": "2026-04-14T23:43:30.000Z",
+        "updatedAt": "2026-04-14T23:48:18.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-14T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3000511,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 188955,
+                "firstName": "Mary",
+                "lastName": "Solgat",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-13T12:30:36.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3834,
+                  "name": "Brighton",
+                  "logo": "school_3834.png",
+                  "city": {
+                    "id": 2097,
+                    "name": "Brighton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3000511
+                }
+              },
+              {
+                "id": 172295,
+                "firstName": "Olivia",
+                "lastName": "Johnson",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3834,
+                  "name": "Brighton",
+                  "logo": "school_3834.png",
+                  "city": {
+                    "id": 2097,
+                    "name": "Brighton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3000511
+                }
+              }
+            ]
+          },
+          {
+            "id": 3000512,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 169452,
+                "firstName": "Alyssa",
+                "lastName": "Zellman",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3000512
+                }
+              },
+              {
+                "id": 195530,
+                "firstName": "Diya",
+                "lastName": "Toshniwal",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T21:35:29.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3000512
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "2976371": 6,
+            "2976372": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "2976371": 6,
+            "2976372": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1488221,
+        "flight": "6",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 2976371,
+        "createdAt": "2026-04-10T02:59:00.000Z",
+        "updatedAt": "2026-04-10T02:59:00.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-09T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 2976371,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 169452,
+                "firstName": "Alyssa",
+                "lastName": "Zellman",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2976371
+                }
+              },
+              {
+                "id": 195530,
+                "firstName": "Diya",
+                "lastName": "Toshniwal",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T21:35:29.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2976371
+                }
+              }
+            ]
+          },
+          {
+            "id": 2976372,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 196555,
+                "firstName": "Merrill",
+                "lastName": "Park",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-09T23:48:39.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4284,
+                  "name": "Canton",
+                  "logo": "school_4284.jpeg",
+                  "city": {
+                    "id": 2698,
+                    "name": "Canton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2976372
+                }
+              },
+              {
+                "id": 195660,
+                "firstName": "Charvi",
+                "lastName": "Kulagatti",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T02:22:05.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4284,
+                  "name": "Canton",
+                  "logo": "school_4284.jpeg",
+                  "city": {
+                    "id": 2698,
+                    "name": "Canton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2976372
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3084739": 0,
+            "3084740": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3084739": 1,
+            "3084740": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1542405,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3084740,
+        "createdAt": "2026-05-01T15:05:24.000Z",
+        "updatedAt": "2026-05-01T15:05:24.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-30T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3084739,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169452,
+                "firstName": "Alyssa",
+                "lastName": "Zellman",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3084739
+                }
+              }
+            ]
+          },
+          {
+            "id": 3084740,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 149170,
+                "firstName": "Audrey",
+                "lastName": "Yu",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3084740
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3036267": 0,
+            "3036268": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3036267": 7,
+            "3036268": 6,
+            "number": 2,
+            "tie": 6
+          },
+          {
+            "3036267": 3,
+            "3036268": 10,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1518169,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3036268,
+        "createdAt": "2026-04-22T11:16:42.000Z",
+        "updatedAt": "2026-04-22T11:16:42.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-21T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3036267,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 149111,
+                "firstName": "Baylee",
+                "lastName": "Kotrba",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4450,
+                  "name": "Hartland",
+                  "logo": null,
+                  "city": {
+                    "id": 7861,
+                    "name": "Hartland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3036267
+                }
+              }
+            ]
+          },
+          {
+            "id": 3036268,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 169452,
+                "firstName": "Alyssa",
+                "lastName": "Zellman",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3036268
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3028631": 1,
+            "3028632": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3028631": 2,
+            "3028632": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1514351,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3028632,
+        "createdAt": "2026-04-21T01:44:40.000Z",
+        "updatedAt": "2026-04-21T01:44:40.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-20T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3028631,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169452,
+                "firstName": "Alyssa",
+                "lastName": "Zellman",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3028631
+                }
+              }
+            ]
+          },
+          {
+            "id": 3028632,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 126390,
+                "firstName": "Fiona",
+                "lastName": "Loverich",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3028632
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 169452,
+      "stateId": 30
+    },
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 169452,
+      "stateId": 30
+    }
+  ]
+}

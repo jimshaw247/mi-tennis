@@ -1,0 +1,478 @@
+{
+  "player": {
+    "id": 193503,
+    "schoolId": 4337,
+    "firstName": "Sana",
+    "lastName": "Panchal",
+    "address": null,
+    "email": "northvillegirlstennis@gmail.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-29T12:30:21.000Z",
+    "updatedAt": "2026-03-29T12:30:21.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Northville",
+      "logo": "school_4337.jpg"
+    },
+    "editor": {
+      "firstName": "Brenda",
+      "lastName": "Lionas"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 29,
+    "loss": 3
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3152087": 6,
+            "3152088": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3152087": 6,
+            "3152088": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1576079,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3152087,
+        "createdAt": "2026-05-15T15:04:43.000Z",
+        "updatedAt": "2026-05-15T15:04:43.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3152087,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 193503,
+                "firstName": "Sana",
+                "lastName": "Panchal",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-29T12:30:21.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3152087
+                }
+              }
+            ]
+          },
+          {
+            "id": 3152088,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169090,
+                "firstName": "Anna ",
+                "lastName": "Austermann",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4050,
+                  "name": "Plymouth",
+                  "logo": null,
+                  "city": {
+                    "id": 2698,
+                    "name": "Canton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3152088
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3152489": 6,
+            "3152490": 1,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3152489": 6,
+            "3152490": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1576280,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3152489,
+        "createdAt": "2026-05-15T16:41:59.000Z",
+        "updatedAt": "2026-05-15T16:41:59.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3152489,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 193503,
+                "firstName": "Sana",
+                "lastName": "Panchal",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-29T12:30:21.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3152489
+                }
+              }
+            ]
+          },
+          {
+            "id": 3152490,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 168876,
+                "firstName": "Vanessa",
+                "lastName": "Grinblat",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4040,
+                  "name": "Walled Lake Northern",
+                  "logo": null,
+                  "city": {
+                    "id": 3865,
+                    "name": "Commerce twp",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3152490
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3153113": 6,
+            "3153114": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3153113": 6,
+            "3153114": 4,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1576592,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3153113,
+        "createdAt": "2026-05-15T19:25:36.000Z",
+        "updatedAt": "2026-05-15T19:25:36.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3153113,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 193503,
+                "firstName": "Sana",
+                "lastName": "Panchal",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-29T12:30:21.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3153113
+                }
+              }
+            ]
+          },
+          {
+            "id": 3153114,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169450,
+                "firstName": "Tsubasa",
+                "lastName": "Ishibashi",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3153114
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "2962931": 8,
+            "2962932": 1,
+            "number": 1,
+            "tie": null
+          }
+        ],
+        "id": 1481501,
+        "flight": "7",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 2962931,
+        "createdAt": "2026-04-07T22:32:01.000Z",
+        "updatedAt": "2026-04-07T22:32:01.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-07T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 2962931,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 193505,
+                "firstName": "Simran",
+                "lastName": "Bilolikar",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-29T12:35:15.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2962931
+                }
+              },
+              {
+                "id": 193503,
+                "firstName": "Sana",
+                "lastName": "Panchal",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-29T12:30:21.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2962931
+                }
+              }
+            ]
+          },
+          {
+            "id": 2962932,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 195203,
+                "firstName": "Ashishree",
+                "lastName": "Patel",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T01:08:27.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4142,
+                  "name": "Salem",
+                  "logo": null,
+                  "city": {
+                    "id": 2698,
+                    "name": "Canton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2962932
+                }
+              },
+              {
+                "id": 195204,
+                "firstName": "Angela",
+                "lastName": "Zhao",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T01:08:54.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4142,
+                  "name": "Salem",
+                  "logo": null,
+                  "city": {
+                    "id": 2698,
+                    "name": "Canton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2962932
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 12,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 193503,
+      "stateId": 30
+    },
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 193503,
+      "stateId": 30
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "player": {
+    "id": 168294,
+    "schoolId": 4420,
+    "firstName": "Taylor",
+    "lastName": "Denz",
+    "address": null,
+    "email": "ford2332947@gmail.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "12",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-04-03T21:10:22.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Utica Ford",
+      "logo": "school_4420.png"
+    },
+    "editor": {
+      "firstName": "Stephen",
+      "lastName": "Nellis"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 19,
+    "loss": 3
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3147587": 0,
+            "3147588": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147587": 0,
+            "3147588": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573829,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147588,
+        "createdAt": "2026-05-14T17:15:42.000Z",
+        "updatedAt": "2026-05-14T17:15:42.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147587,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 197054,
+                "firstName": "Maliyah",
+                "lastName": "Garland ",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-11T20:44:09.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4264,
+                  "name": "Detroit Cass Tech",
+                  "logo": null,
+                  "city": {
+                    "id": 4754,
+                    "name": "Detroit",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147587
+                }
+              },
+              {
+                "id": 199431,
+                "firstName": "Tandie",
+                "lastName": "Mitchell",
+                "grade": "6",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-05-03T14:26:59.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4264,
+                  "name": "Detroit Cass Tech",
+                  "logo": null,
+                  "city": {
+                    "id": 4754,
+                    "name": "Detroit",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3147587
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147588,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 168294,
+                "firstName": "Taylor",
+                "lastName": "Denz",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4420,
+                  "name": "Utica Ford",
+                  "logo": "school_4420.png",
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147588
+                }
+              },
+              {
+                "id": 152444,
+                "firstName": "Brooke",
+                "lastName": "Zupan",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4420,
+                  "name": "Utica Ford",
+                  "logo": "school_4420.png",
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3147588
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3147589": 6,
+            "3147590": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147589": 6,
+            "3147590": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573830,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147589,
+        "createdAt": "2026-05-14T17:16:01.000Z",
+        "updatedAt": "2026-05-14T17:16:01.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147589,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 149182,
+                "firstName": "Olivia",
+                "lastName": "Stepien",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T21:06:48.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147589
+                }
+              },
+              {
+                "id": 126233,
+                "firstName": "Bhakti",
+                "lastName": "Mavanthoor",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T21:05:36.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3147589
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147590,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 168294,
+                "firstName": "Taylor",
+                "lastName": "Denz",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4420,
+                  "name": "Utica Ford",
+                  "logo": "school_4420.png",
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147590
+                }
+              },
+              {
+                "id": 152444,
+                "firstName": "Brooke",
+                "lastName": "Zupan",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4420,
+                  "name": "Utica Ford",
+                  "logo": "school_4420.png",
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3147590
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3143037": 6,
+            "3143038": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3143037": 6,
+            "3143038": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1571554,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3143037,
+        "createdAt": "2026-05-13T13:04:38.000Z",
+        "updatedAt": "2026-05-13T13:08:00.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-12T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3143037,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 152444,
+                "firstName": "Brooke",
+                "lastName": "Zupan",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4420,
+                  "name": "Utica Ford",
+                  "logo": "school_4420.png",
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3143037
+                }
+              },
+              {
+                "id": 168294,
+                "firstName": "Taylor",
+                "lastName": "Denz",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4420,
+                  "name": "Utica Ford",
+                  "logo": "school_4420.png",
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3143037
+                }
+              }
+            ]
+          },
+          {
+            "id": 3143038,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 198802,
+                "firstName": "Kasha",
+                "lastName": "Mikolajcvyk",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-25T16:15:08.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4030,
+                  "name": "Sterling Heights Stevenson",
+                  "logo": null,
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3143038
+                }
+              },
+              {
+                "id": 190719,
+                "firstName": "Anhelyna",
+                "lastName": "Mysko",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-18T13:48:56.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4030,
+                  "name": "Sterling Heights Stevenson",
+                  "logo": null,
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3143038
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 12,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 168294,
+      "stateId": 30
+    }
+  ]
+}

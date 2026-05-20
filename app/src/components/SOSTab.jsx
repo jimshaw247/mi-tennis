@@ -228,7 +228,7 @@ function ClarkstonView({ data }) {
             )}
             {noLineup && (
               <div className="mt-1 text-[11px] bg-slate-900/40 border border-slate-700 rounded px-2 py-1 text-slate-400">
-                No dual-meet matches at {f.flight} in the source data. Tennisreporting.com doesn't track flight-4 results consistently — most qualifying schools have 0–3 matches at 4S/4D across the whole season — so we can't infer a regular {f.flight} starter from season data. The rating shown is a fallback (TennisReporting's 2026 Elo) and should be treated as low-confidence.
+                No dual-meet matches at {f.flight} for this entry — they may be a JV call-up or only played postseason. The rating shown is a fallback (TennisReporting's 2026 Elo) and should be treated as low-confidence.
               </div>
             )}
             {f.ours && !swap && !noLineup && (
@@ -304,20 +304,12 @@ function LineupWatchView({ data }) {
   })
   return (
     <div className="space-y-2">
-      <div className="text-[11px] text-slate-300 leading-relaxed bg-slate-900/40 border border-slate-700 rounded p-2 space-y-1">
-        <div>
-          Players who qualified through regionals but aren't their team's regular dual-meet starter at that flight.
-          These are <span className="text-amber-300">candidates for approved subs</span> — the regional entry will
-          play state finals unless MHSAA grants a substitution. <span className="text-emerald-300">The "regular" rating
-          shows what the field would look like if this team fielded its normal lineup.</span> When the seeded draw is
-          posted (~ May 25) these should reconcile.
-        </div>
-        <div className="text-amber-300/80">
-          <strong>Data gap caveat:</strong> Tennisreporting.com truncates most schools' dual-meet entries at flights 1–3,
-          so 4S / 4D regular-starter inference is unreliable for most teams. Only Romeo, Byron Center, Holland West
-          Ottawa, and a few others have any meaningful 4-flight match history. Mismatches at 4S/4D may be invisible
-          here even when they happened.
-        </div>
+      <div className="text-[11px] text-slate-300 leading-relaxed bg-slate-900/40 border border-slate-700 rounded p-2">
+        Players who qualified through regionals but aren't their team's regular dual-meet starter at that flight.
+        These are <span className="text-amber-300">candidates for approved subs</span> — the regional entry will
+        play state finals unless MHSAA grants a substitution. <span className="text-emerald-300">The "regular" rating
+        shows what the field would look like if this team fielded its normal lineup.</span> When the seeded draw is
+        posted (~ May 25) these should reconcile.
       </div>
       <div className="text-[11px] text-slate-400">{mismatches.length} mismatches found in flights with sufficient dual-meet data.</div>
       <div className="overflow-x-auto rounded-lg border border-slate-800">

@@ -1,0 +1,446 @@
+{
+  "player": {
+    "id": 193011,
+    "schoolId": 4427,
+    "firstName": "Isabela",
+    "lastName": "Correa",
+    "address": null,
+    "email": "correa1@Salinehornets.org",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "9",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-26T16:04:48.000Z",
+    "updatedAt": "2026-03-26T16:04:48.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Saline",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Andrew",
+      "lastName": "BeDell"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 1,
+    "loss": 2
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3021181": 6,
+            "3021182": 4,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3021181": 6,
+            "3021182": 2,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1510626,
+        "flight": "6",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3021181,
+        "createdAt": "2026-04-19T13:29:29.000Z",
+        "updatedAt": "2026-04-19T13:29:29.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-18T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3021181,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 193505,
+                "firstName": "Simran",
+                "lastName": "Bilolikar",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-29T12:35:15.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3021181
+                }
+              },
+              {
+                "id": 172241,
+                "firstName": "Gabrielle",
+                "lastName": "DesNoyer",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-30T00:08:26.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3021181
+                }
+              }
+            ]
+          },
+          {
+            "id": 3021182,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 193011,
+                "firstName": "Isabela",
+                "lastName": "Correa",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-26T16:04:48.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3021182
+                }
+              },
+              {
+                "id": 193013,
+                "firstName": "Lucy",
+                "lastName": "Kovacs",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-26T16:05:26.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3021182
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "2969633": 6,
+            "2969634": 4,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "2969633": 3,
+            "2969634": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "2969633": 8,
+            "2969634": 10,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1484852,
+        "flight": "6",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 2969634,
+        "createdAt": "2026-04-09T00:26:20.000Z",
+        "updatedAt": "2026-04-09T00:32:18.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-08T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 2969633,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169441,
+                "firstName": "Sophie",
+                "lastName": "Gomez",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3834,
+                  "name": "Brighton",
+                  "logo": "school_3834.png",
+                  "city": {
+                    "id": 2097,
+                    "name": "Brighton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2969633
+                }
+              },
+              {
+                "id": 188953,
+                "firstName": "Leah",
+                "lastName": "Sabol",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-13T12:29:03.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3834,
+                  "name": "Brighton",
+                  "logo": "school_3834.png",
+                  "city": {
+                    "id": 2097,
+                    "name": "Brighton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2969633
+                }
+              }
+            ]
+          },
+          {
+            "id": 2969634,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 193011,
+                "firstName": "Isabela",
+                "lastName": "Correa",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-26T16:04:48.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2969634
+                }
+              },
+              {
+                "id": 193013,
+                "firstName": "Lucy",
+                "lastName": "Kovacs",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-26T16:05:26.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2969634
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3021561": 2,
+            "3021562": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3021561": 0,
+            "3021562": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1510816,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3021562,
+        "createdAt": "2026-04-19T14:37:51.000Z",
+        "updatedAt": "2026-04-19T14:37:51.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-16T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3021561,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 193011,
+                "firstName": "Isabela",
+                "lastName": "Correa",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-26T16:04:48.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3021561
+                }
+              }
+            ]
+          },
+          {
+            "id": 3021562,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 152689,
+                "firstName": "Ashken",
+                "lastName": "Aaron",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4140,
+                  "name": "Monroe",
+                  "logo": null,
+                  "city": {
+                    "id": 11999,
+                    "name": "Monroe",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3021562
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 193011,
+      "stateId": 30
+    },
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 193011,
+      "stateId": 30
+    }
+  ]
+}

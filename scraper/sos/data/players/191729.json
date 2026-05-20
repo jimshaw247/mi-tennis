@@ -1,0 +1,516 @@
+{
+  "player": {
+    "id": 191729,
+    "schoolId": 3947,
+    "firstName": "Vrinda",
+    "lastName": "Boopalam",
+    "address": null,
+    "email": "vboopalam28@troyschools.org",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-21T18:55:16.000Z",
+    "updatedAt": "2026-03-21T18:55:16.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Troy Athens",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Jen",
+      "lastName": "Yetter"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 7,
+    "loss": 3
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3114825": 6,
+            "3114826": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3114825": 6,
+            "3114826": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1557448,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3114825,
+        "createdAt": "2026-05-07T15:10:44.000Z",
+        "updatedAt": "2026-05-07T15:10:44.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-06T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3114825,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191729,
+                "firstName": "Vrinda",
+                "lastName": "Boopalam",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T18:55:16.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3114825
+                }
+              },
+              {
+                "id": 149182,
+                "firstName": "Olivia",
+                "lastName": "Stepien",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T21:06:48.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3114825
+                }
+              }
+            ]
+          },
+          {
+            "id": 3114826,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 147112,
+                "firstName": "Ananya",
+                "lastName": "Sankar",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-24T13:58:46.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4350,
+                  "name": "Farmington",
+                  "logo": null,
+                  "city": {
+                    "id": 6028,
+                    "name": "Farmington",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3114826
+                }
+              },
+              {
+                "id": 192272,
+                "firstName": "Sona",
+                "lastName": "Cranson",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-24T13:50:33.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4350,
+                  "name": "Farmington",
+                  "logo": null,
+                  "city": {
+                    "id": 6028,
+                    "name": "Farmington",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3114826
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3090293": 6,
+            "3090294": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3090293": 6,
+            "3090294": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1545182,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3090293,
+        "createdAt": "2026-05-02T16:35:05.000Z",
+        "updatedAt": "2026-05-02T16:36:21.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-02T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3090293,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 147673,
+                "firstName": "Emily ",
+                "lastName": "Backus",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3090293
+                }
+              },
+              {
+                "id": 169449,
+                "firstName": "Sruthi",
+                "lastName": "Karthik",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3090293
+                }
+              }
+            ]
+          },
+          {
+            "id": 3090294,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191729,
+                "firstName": "Vrinda",
+                "lastName": "Boopalam",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T18:55:16.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3090294
+                }
+              },
+              {
+                "id": 199378,
+                "firstName": "Sejal ",
+                "lastName": "Dash",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-05-02T16:35:30.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3090294
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3097287": 6,
+            "3097288": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3097287": 6,
+            "3097288": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1548679,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3097287,
+        "createdAt": "2026-05-04T02:37:47.000Z",
+        "updatedAt": "2026-05-04T02:37:47.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-02T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3097287,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 150037,
+                "firstName": "Monika",
+                "lastName": "Camaj",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3097287
+                }
+              },
+              {
+                "id": 150041,
+                "firstName": "Joanna",
+                "lastName": "Ouyang",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3097287
+                }
+              }
+            ]
+          },
+          {
+            "id": 3097288,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 199378,
+                "firstName": "Sejal ",
+                "lastName": "Dash",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-05-02T16:35:30.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3097288
+                }
+              },
+              {
+                "id": 191729,
+                "firstName": "Vrinda",
+                "lastName": "Boopalam",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T18:55:16.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3097288
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 191729,
+      "stateId": 30
+    }
+  ]
+}

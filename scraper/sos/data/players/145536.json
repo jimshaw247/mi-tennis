@@ -1,0 +1,523 @@
+{
+  "player": {
+    "id": 145536,
+    "schoolId": 9195,
+    "firstName": "Carissa",
+    "lastName": "Hurnevich",
+    "address": null,
+    "email": "hurnevich.carissa@bloomfield.org",
+    "phone": null,
+    "dateOfBirth": "2008-12-23T05:00:00.000Z",
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2024-03-20T21:24:59.000Z",
+    "updatedAt": "2026-03-19T16:32:06.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Bloomfield Hills",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Boris",
+      "lastName": "Berkovich"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 16,
+    "loss": 7
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3150879": 6,
+            "3150880": 1,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150879": 6,
+            "3150880": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575475,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150879,
+        "createdAt": "2026-05-15T02:47:25.000Z",
+        "updatedAt": "2026-05-15T02:47:25.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150879,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 145536,
+                "firstName": "Carissa",
+                "lastName": "Hurnevich",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T16:32:06.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 9195,
+                  "name": "Bloomfield Hills",
+                  "logo": null,
+                  "city": {
+                    "id": 1692,
+                    "name": "Bloomfield hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150879
+                }
+              },
+              {
+                "id": 168339,
+                "firstName": "Jordyn",
+                "lastName": "Goldstein",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T16:33:40.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 9195,
+                  "name": "Bloomfield Hills",
+                  "logo": null,
+                  "city": {
+                    "id": 1692,
+                    "name": "Bloomfield hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150879
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150880,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 194849,
+                "firstName": "Sophia",
+                "lastName": "Beydoun",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-04T22:14:02.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4502,
+                  "name": "Dearborn",
+                  "logo": null,
+                  "city": {
+                    "id": 4568,
+                    "name": "Dearborn",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150880
+                }
+              },
+              {
+                "id": 194850,
+                "firstName": "Israa",
+                "lastName": "Yassine",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-04T22:14:41.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4502,
+                  "name": "Dearborn",
+                  "logo": null,
+                  "city": {
+                    "id": 4568,
+                    "name": "Dearborn",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150880
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150925": 6,
+            "3150926": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150925": 6,
+            "3150926": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575498,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150925,
+        "createdAt": "2026-05-15T02:49:23.000Z",
+        "updatedAt": "2026-05-15T02:49:23.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150925,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 145536,
+                "firstName": "Carissa",
+                "lastName": "Hurnevich",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T16:32:06.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 9195,
+                  "name": "Bloomfield Hills",
+                  "logo": null,
+                  "city": {
+                    "id": 1692,
+                    "name": "Bloomfield hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150925
+                }
+              },
+              {
+                "id": 168339,
+                "firstName": "Jordyn",
+                "lastName": "Goldstein",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T16:33:40.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 9195,
+                  "name": "Bloomfield Hills",
+                  "logo": null,
+                  "city": {
+                    "id": 1692,
+                    "name": "Bloomfield hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150925
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150926,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 195042,
+                "firstName": "Diarra",
+                "lastName": "Mbow",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-06T15:25:56.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4388,
+                  "name": "Livonia Stevenson",
+                  "logo": "school_4388.jpg",
+                  "city": {
+                    "id": 10416,
+                    "name": "Livonia",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150926
+                }
+              },
+              {
+                "id": 195046,
+                "firstName": "Amiah Marie \"Miah\"",
+                "lastName": "Washington",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-06T15:26:25.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4388,
+                  "name": "Livonia Stevenson",
+                  "logo": "school_4388.jpg",
+                  "city": {
+                    "id": 10416,
+                    "name": "Livonia",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150926
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150935": 6,
+            "3150936": 1,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150935": 6,
+            "3150936": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575503,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150935,
+        "createdAt": "2026-05-15T02:49:46.000Z",
+        "updatedAt": "2026-05-15T02:49:46.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150935,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 145536,
+                "firstName": "Carissa",
+                "lastName": "Hurnevich",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T16:32:06.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 9195,
+                  "name": "Bloomfield Hills",
+                  "logo": null,
+                  "city": {
+                    "id": 1692,
+                    "name": "Bloomfield hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150935
+                }
+              },
+              {
+                "id": 168339,
+                "firstName": "Jordyn",
+                "lastName": "Goldstein",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T16:33:40.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 9195,
+                  "name": "Bloomfield Hills",
+                  "logo": null,
+                  "city": {
+                    "id": 1692,
+                    "name": "Bloomfield hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150935
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150936,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 150203,
+                "firstName": "Matilda",
+                "lastName": "Edvardsson",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4287,
+                  "name": "West Bloomfield",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150936
+                }
+              },
+              {
+                "id": 170045,
+                "firstName": "Eva",
+                "lastName": "Latvenas",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4287,
+                  "name": "West Bloomfield",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150936
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 145536,
+      "stateId": 30
+    }
+  ]
+}

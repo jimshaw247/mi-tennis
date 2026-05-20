@@ -1,0 +1,523 @@
+{
+  "player": {
+    "id": 143557,
+    "schoolId": 3887,
+    "firstName": "Matilda",
+    "lastName": "Beck",
+    "address": null,
+    "email": null,
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2024-03-13T18:24:25.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Portage Central",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Peter",
+      "lastName": "Militzer"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 22,
+    "loss": 4
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3154687": 6,
+            "3154688": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154687": 6,
+            "3154688": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1577379,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154687,
+        "createdAt": "2026-05-16T00:34:44.000Z",
+        "updatedAt": "2026-05-16T00:34:44.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154687,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 143557,
+                "firstName": "Matilda",
+                "lastName": "Beck",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154687
+                }
+              },
+              {
+                "id": 143561,
+                "firstName": "Violet",
+                "lastName": "Hunter",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154687
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154688,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 146918,
+                "firstName": "Daelyn ",
+                "lastName": "Borick \t",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4424,
+                  "name": "Kalamazoo Loy Norrix",
+                  "logo": null,
+                  "city": {
+                    "id": 9164,
+                    "name": "Kalamazoo",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154688
+                }
+              },
+              {
+                "id": 146929,
+                "firstName": "Kimora ",
+                "lastName": " Nelson\t",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4424,
+                  "name": "Kalamazoo Loy Norrix",
+                  "logo": null,
+                  "city": {
+                    "id": 9164,
+                    "name": "Kalamazoo",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154688
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3154721": 6,
+            "3154722": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154721": 6,
+            "3154722": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1577396,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154721,
+        "createdAt": "2026-05-16T00:36:38.000Z",
+        "updatedAt": "2026-05-16T00:36:38.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154721,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 143557,
+                "firstName": "Matilda",
+                "lastName": "Beck",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154721
+                }
+              },
+              {
+                "id": 143561,
+                "firstName": "Violet",
+                "lastName": "Hunter",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154721
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154722,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 147828,
+                "firstName": "Clara",
+                "lastName": "Wolcott",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4229,
+                  "name": "Saginaw Heritage",
+                  "logo": null,
+                  "city": {
+                    "id": 15944,
+                    "name": "Saginaw",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154722
+                }
+              },
+              {
+                "id": 147830,
+                "firstName": "Grace",
+                "lastName": "Stevens",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4229,
+                  "name": "Saginaw Heritage",
+                  "logo": null,
+                  "city": {
+                    "id": 15944,
+                    "name": "Saginaw",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154722
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3154731": 6,
+            "3154732": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154731": 6,
+            "3154732": 3,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1577401,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154731,
+        "createdAt": "2026-05-16T00:37:21.000Z",
+        "updatedAt": "2026-05-16T00:37:21.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154731,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 143557,
+                "firstName": "Matilda",
+                "lastName": "Beck",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154731
+                }
+              },
+              {
+                "id": 143561,
+                "firstName": "Violet",
+                "lastName": "Hunter",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154731
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154732,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 130074,
+                "firstName": "Amelia",
+                "lastName": "Ernst",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4527,
+                  "name": "Holt",
+                  "logo": null,
+                  "city": {
+                    "id": 8377,
+                    "name": "Holt",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154732
+                }
+              },
+              {
+                "id": 146451,
+                "firstName": "Gabrielle",
+                "lastName": "Jones",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4527,
+                  "name": "Holt",
+                  "logo": null,
+                  "city": {
+                    "id": 8377,
+                    "name": "Holt",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154732
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 13,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 143557,
+      "stateId": 30
+    }
+  ]
+}

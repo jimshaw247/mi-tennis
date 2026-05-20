@@ -1,0 +1,353 @@
+{
+  "player": {
+    "id": 191733,
+    "schoolId": 3947,
+    "firstName": "Remas",
+    "lastName": "Sabti",
+    "address": null,
+    "email": "remassabti27@troyschools.org",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-21T18:57:30.000Z",
+    "updatedAt": "2026-03-21T18:58:54.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Troy Athens",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Jen",
+      "lastName": "Yetter"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 1,
+    "loss": 4
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3090281": 6,
+            "3090282": 1,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3090281": 6,
+            "3090282": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1545176,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3090281,
+        "createdAt": "2026-05-02T16:32:33.000Z",
+        "updatedAt": "2026-05-02T16:32:33.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-02T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3090281,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 147675,
+                "firstName": "Prashasti",
+                "lastName": "Pandey",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3090281
+                }
+              }
+            ]
+          },
+          {
+            "id": 3090282,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191733,
+                "firstName": "Remas",
+                "lastName": "Sabti",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T18:58:54.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3090282
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3097273": 6,
+            "3097274": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3097273": 6,
+            "3097274": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1548672,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3097273,
+        "createdAt": "2026-05-04T02:35:14.000Z",
+        "updatedAt": "2026-05-04T02:35:14.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-02T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3097273,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 150034,
+                "firstName": "Myah",
+                "lastName": "Trame",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3097273
+                }
+              }
+            ]
+          },
+          {
+            "id": 3097274,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191733,
+                "firstName": "Remas",
+                "lastName": "Sabti",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T18:58:54.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3097274
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3062307": 6,
+            "3062308": 4,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3062307": 6,
+            "3062308": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1531189,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3062307,
+        "createdAt": "2026-04-27T13:38:27.000Z",
+        "updatedAt": "2026-04-27T13:38:27.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-25T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3062307,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191733,
+                "firstName": "Remas",
+                "lastName": "Sabti",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T18:58:54.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3062307
+                }
+              }
+            ]
+          },
+          {
+            "id": 3062308,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 168279,
+                "firstName": "Maddelyn",
+                "lastName": "Pennefather",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4030,
+                  "name": "Sterling Heights Stevenson",
+                  "logo": null,
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3062308
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 191733,
+      "stateId": 30
+    }
+  ]
+}

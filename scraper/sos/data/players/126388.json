@@ -1,0 +1,355 @@
+{
+  "player": {
+    "id": 126388,
+    "schoolId": 4427,
+    "firstName": "Isabella",
+    "lastName": "Apone",
+    "address": null,
+    "email": null,
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "12",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2023-04-04T15:24:24.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Saline",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Andrew",
+      "lastName": "BeDell"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 10,
+    "loss": 10
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3151323": 0,
+            "3151324": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151323": 1,
+            "3151324": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575697,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151324,
+        "createdAt": "2026-05-15T06:28:09.000Z",
+        "updatedAt": "2026-05-15T06:43:58.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151323,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 164309,
+                "firstName": "Piper ",
+                "lastName": "Burkheiser",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4538,
+                  "name": "Belleville",
+                  "logo": null,
+                  "city": {
+                    "id": 1294,
+                    "name": "Belleville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151323
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151324,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 126388,
+                "firstName": "Isabella",
+                "lastName": "Apone",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151324
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3151325": 4,
+            "3151326": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151325": 2,
+            "3151326": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575698,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151326,
+        "createdAt": "2026-05-15T06:29:08.000Z",
+        "updatedAt": "2026-05-15T06:43:58.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151325,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 197176,
+                "firstName": "Christina",
+                "lastName": "Zhang",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-12T15:07:38.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3932,
+                  "name": "Ann Arbor Huron",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151325
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151326,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 126388,
+                "firstName": "Isabella",
+                "lastName": "Apone",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151326
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3151329": 6,
+            "3151330": 1,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151329": 6,
+            "3151330": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575700,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151329,
+        "createdAt": "2026-05-15T06:30:01.000Z",
+        "updatedAt": "2026-05-15T06:43:58.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151329,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 197740,
+                "firstName": "Natalia",
+                "lastName": "Alcaine",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-15T11:59:09.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151329
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151330,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 126388,
+                "firstName": "Isabella",
+                "lastName": "Apone",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151330
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 126388,
+      "stateId": 30
+    }
+  ]
+}

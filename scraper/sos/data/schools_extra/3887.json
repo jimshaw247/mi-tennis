@@ -1,0 +1,2876 @@
+{
+  "school": {
+    "id": 3887,
+    "name": "Portage Central"
+  },
+  "overallRecord": {
+    "win": 12,
+    "loss": 3,
+    "tie": 2
+  },
+  "meets": [
+    {
+      "id": 9000000,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3154489": 6,
+                "3154490": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154489": 6,
+                "3154490": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577280,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154489,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154489,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 161712,
+                    "firstName": "Margie",
+                    "lastName": "Glynn",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154489
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154490,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126525,
+                    "firstName": "Taylor",
+                    "lastName": "Pung",
+                    "grade": "12",
+                    "schoolId": 4391,
+                    "school": {
+                      "id": 4391,
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154490
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154497": 1,
+                "3154498": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154497": 3,
+                "3154498": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577284,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154498,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154497,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 144211,
+                    "firstName": "Carli",
+                    "lastName": "Banaszak",
+                    "grade": "11",
+                    "schoolId": 3980,
+                    "school": {
+                      "id": 3980,
+                      "name": "Grand Blanc",
+                      "logo": "school_3980.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154497
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154498,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 161712,
+                    "firstName": "Margie",
+                    "lastName": "Glynn",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154498
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154501": 6,
+                "3154502": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154501": 6,
+                "3154502": 4,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577286,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154501,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154501,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 146970,
+                    "firstName": "Isabella",
+                    "lastName": "Portnoy",
+                    "grade": "11",
+                    "schoolId": 4371,
+                    "school": {
+                      "id": 4371,
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154501
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154502,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 161712,
+                    "firstName": "Margie",
+                    "lastName": "Glynn",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154502
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154537": 6,
+                "3154538": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154537": 6,
+                "3154538": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577304,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154537,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154537,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125726,
+                    "firstName": "Adelie",
+                    "lastName": "Chen",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154537
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154538,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126522,
+                    "firstName": "Allison",
+                    "lastName": "Mead",
+                    "grade": "12",
+                    "schoolId": 4391,
+                    "school": {
+                      "id": 4391,
+                      "name": "Grand Ledge",
+                      "logo": "school_4391.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154538
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154545": 1,
+                "3154546": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154545": 0,
+                "3154546": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577308,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154546,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154545,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 146447,
+                    "firstName": "Maddie",
+                    "lastName": "Brady",
+                    "grade": "12",
+                    "schoolId": 4527,
+                    "school": {
+                      "id": 4527,
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154545
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154546,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125726,
+                    "firstName": "Adelie",
+                    "lastName": "Chen",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154546
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154549": 6,
+                "3154550": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154549": 6,
+                "3154550": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577310,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154549,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154549,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 127008,
+                    "firstName": "Isabelle ",
+                    "lastName": "Hult",
+                    "grade": "12",
+                    "schoolId": 4371,
+                    "school": {
+                      "id": 4371,
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154549
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154550,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 125726,
+                    "firstName": "Adelie",
+                    "lastName": "Chen",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154550
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154571": 6,
+                "3154572": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154571": 6,
+                "3154572": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577321,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154571,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154571,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143558,
+                    "firstName": "Aarna",
+                    "lastName": "Betala",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154571
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154572,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151430,
+                    "firstName": "Naina",
+                    "lastName": "Malhotra",
+                    "grade": "11",
+                    "schoolId": 3980,
+                    "school": {
+                      "id": 3980,
+                      "name": "Grand Blanc",
+                      "logo": "school_3980.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154572
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154587": 6,
+                "3154588": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154587": 6,
+                "3154588": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577329,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154587,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154587,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143558,
+                    "firstName": "Aarna",
+                    "lastName": "Betala",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154587
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154588,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195275,
+                    "firstName": "Izzy",
+                    "lastName": "Andrick",
+                    "grade": "9",
+                    "schoolId": 4165,
+                    "school": {
+                      "id": 4165,
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154588
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154597": 6,
+                "3154598": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154597": 6,
+                "3154598": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577334,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154597,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154597,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143558,
+                    "firstName": "Aarna",
+                    "lastName": "Betala",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154597
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154598,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 189794,
+                    "firstName": "Ishika ",
+                    "lastName": "Shah",
+                    "grade": "9",
+                    "schoolId": 4371,
+                    "school": {
+                      "id": 4371,
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154598
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154603": 6,
+                "3154604": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154603": 6,
+                "3154604": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577337,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154603,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154603,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 189542,
+                    "firstName": "Claire",
+                    "lastName": "Mouw",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154603
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154604,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169909,
+                    "firstName": "Audrey",
+                    "lastName": "Ackerman",
+                    "grade": "10",
+                    "schoolId": 4165,
+                    "school": {
+                      "id": 4165,
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154604
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154619": 6,
+                "3154620": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154619": 6,
+                "3154620": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577345,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154619,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154619,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 189542,
+                    "firstName": "Claire",
+                    "lastName": "Mouw",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154619
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154620,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172192,
+                    "firstName": "Alicia",
+                    "lastName": "Tran",
+                    "grade": "11",
+                    "schoolId": 4527,
+                    "school": {
+                      "id": 4527,
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154620
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154627": 2,
+                "3154628": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154627": 6,
+                "3154628": 3,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3154627": 7,
+                "3154628": 6,
+                "number": 3,
+                "tie": 4
+              }
+            ],
+            "id": 1577349,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3154627,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154627,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 189542,
+                    "firstName": "Claire",
+                    "lastName": "Mouw",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154627
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154628,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 168236,
+                    "firstName": "Haneesha ",
+                    "lastName": "Padavala",
+                    "grade": "11",
+                    "schoolId": 4371,
+                    "school": {
+                      "id": 4371,
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154628
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3154649": 6,
+                "3154650": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154649": 6,
+                "3154650": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577360,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154649,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154649,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143567,
+                    "firstName": "Julia",
+                    "lastName": "Rypma",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154649
+                    }
+                  },
+                  {
+                    "id": 143560,
+                    "firstName": "Maya",
+                    "lastName": "Gutshall",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154649
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154650,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197025,
+                    "firstName": "Martalaynar",
+                    "lastName": "Meh",
+                    "grade": "9",
+                    "schoolId": 4546,
+                    "school": {
+                      "id": 4546,
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154650
+                    }
+                  },
+                  {
+                    "id": 197027,
+                    "firstName": "Esther",
+                    "lastName": "Cim",
+                    "grade": "9",
+                    "schoolId": 4546,
+                    "school": {
+                      "id": 4546,
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154650
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154663": 6,
+                "3154664": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154663": 2,
+                "3154664": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3154663": 6,
+                "3154664": 4,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1577367,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154663,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154663,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169911,
+                    "firstName": "Genevieve",
+                    "lastName": "Carroll",
+                    "grade": "10",
+                    "schoolId": 4165,
+                    "school": {
+                      "id": 4165,
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154663
+                    }
+                  },
+                  {
+                    "id": 169917,
+                    "firstName": "Leah",
+                    "lastName": "Kucharzyk",
+                    "grade": "10",
+                    "schoolId": 4165,
+                    "school": {
+                      "id": 4165,
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154663
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154664,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 143567,
+                    "firstName": "Julia",
+                    "lastName": "Rypma",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154664
+                    }
+                  },
+                  {
+                    "id": 143560,
+                    "firstName": "Maya",
+                    "lastName": "Gutshall",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154664
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154687": 6,
+                "3154688": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154687": 6,
+                "3154688": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577379,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154687,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154687,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143557,
+                    "firstName": "Matilda",
+                    "lastName": "Beck",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154687
+                    }
+                  },
+                  {
+                    "id": 143561,
+                    "firstName": "Violet",
+                    "lastName": "Hunter",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154687
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154688,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 146918,
+                    "firstName": "Daelyn ",
+                    "lastName": "Borick \t",
+                    "grade": "11",
+                    "schoolId": 4424,
+                    "school": {
+                      "id": 4424,
+                      "name": "Kalamazoo Loy Norrix",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154688
+                    }
+                  },
+                  {
+                    "id": 146929,
+                    "firstName": "Kimora ",
+                    "lastName": " Nelson\t",
+                    "grade": "11",
+                    "schoolId": 4424,
+                    "school": {
+                      "id": 4424,
+                      "name": "Kalamazoo Loy Norrix",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154688
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154721": 6,
+                "3154722": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154721": 6,
+                "3154722": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577396,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154721,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154721,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143557,
+                    "firstName": "Matilda",
+                    "lastName": "Beck",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154721
+                    }
+                  },
+                  {
+                    "id": 143561,
+                    "firstName": "Violet",
+                    "lastName": "Hunter",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154721
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154722,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 147828,
+                    "firstName": "Clara",
+                    "lastName": "Wolcott",
+                    "grade": "12",
+                    "schoolId": 4229,
+                    "school": {
+                      "id": 4229,
+                      "name": "Saginaw Heritage",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154722
+                    }
+                  },
+                  {
+                    "id": 147830,
+                    "firstName": "Grace",
+                    "lastName": "Stevens",
+                    "grade": "12",
+                    "schoolId": 4229,
+                    "school": {
+                      "id": 4229,
+                      "name": "Saginaw Heritage",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154722
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154731": 6,
+                "3154732": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154731": 6,
+                "3154732": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577401,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154731,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154731,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143557,
+                    "firstName": "Matilda",
+                    "lastName": "Beck",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154731
+                    }
+                  },
+                  {
+                    "id": 143561,
+                    "firstName": "Violet",
+                    "lastName": "Hunter",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154731
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154732,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 130074,
+                    "firstName": "Amelia",
+                    "lastName": "Ernst",
+                    "grade": "12",
+                    "schoolId": 4527,
+                    "school": {
+                      "id": 4527,
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154732
+                    }
+                  },
+                  {
+                    "id": 146451,
+                    "firstName": "Gabrielle",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "schoolId": 4527,
+                    "school": {
+                      "id": 4527,
+                      "name": "Holt",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154732
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154745": 6,
+                "3154746": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154745": 6,
+                "3154746": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577408,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154745,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154745,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143563,
+                    "firstName": "Ava",
+                    "lastName": "VanSweden",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154745
+                    }
+                  },
+                  {
+                    "id": 164763,
+                    "firstName": "Avantika",
+                    "lastName": "Nair",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154745
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154746,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169912,
+                    "firstName": "Anna",
+                    "lastName": "DeYoung",
+                    "grade": "10",
+                    "schoolId": 4165,
+                    "school": {
+                      "id": 4165,
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154746
+                    }
+                  },
+                  {
+                    "id": 195276,
+                    "firstName": "Sadie",
+                    "lastName": "Furman",
+                    "grade": "10",
+                    "schoolId": 4165,
+                    "school": {
+                      "id": 4165,
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154746
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154755": 1,
+                "3154756": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154755": 4,
+                "3154756": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577413,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154756,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154755,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171577,
+                    "firstName": "Madylena",
+                    "lastName": "Burge",
+                    "grade": "11",
+                    "schoolId": 3980,
+                    "school": {
+                      "id": 3980,
+                      "name": "Grand Blanc",
+                      "logo": "school_3980.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154755
+                    }
+                  },
+                  {
+                    "id": 171575,
+                    "firstName": "Raahi",
+                    "lastName": "Sureja",
+                    "grade": "11",
+                    "schoolId": 3980,
+                    "school": {
+                      "id": 3980,
+                      "name": "Grand Blanc",
+                      "logo": "school_3980.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154755
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154756,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143563,
+                    "firstName": "Ava",
+                    "lastName": "VanSweden",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154756
+                    }
+                  },
+                  {
+                    "id": 164763,
+                    "firstName": "Avantika",
+                    "lastName": "Nair",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154756
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154763": 5,
+                "3154764": 7,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154763": 3,
+                "3154764": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577417,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154764,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154763,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 143563,
+                    "firstName": "Ava",
+                    "lastName": "VanSweden",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154763
+                    }
+                  },
+                  {
+                    "id": 164763,
+                    "firstName": "Avantika",
+                    "lastName": "Nair",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154763
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154764,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 168241,
+                    "firstName": "Chandu",
+                    "lastName": "Ballem",
+                    "grade": "11",
+                    "schoolId": 4371,
+                    "school": {
+                      "id": 4371,
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154764
+                    }
+                  },
+                  {
+                    "id": 189795,
+                    "firstName": "Vaishnavi",
+                    "lastName": "Saravanan",
+                    "grade": "9",
+                    "schoolId": 4371,
+                    "school": {
+                      "id": 4371,
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154764
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154777": 2,
+                "3154778": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154777": 2,
+                "3154778": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577424,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": "Default",
+            "winnerTeamId": 3154777,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154777,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 172969,
+                    "firstName": "Bonnia",
+                    "lastName": "Chen",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154777
+                    }
+                  },
+                  {
+                    "id": 143566,
+                    "firstName": "Ellie",
+                    "lastName": "Roussin",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154777
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154778,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 199457,
+                    "firstName": "Sara",
+                    "lastName": "Aletoum ",
+                    "grade": "11",
+                    "schoolId": 4546,
+                    "school": {
+                      "id": 4546,
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154778
+                    }
+                  },
+                  {
+                    "id": 199456,
+                    "firstName": "Sabirin",
+                    "lastName": "Mohamed",
+                    "grade": "12",
+                    "schoolId": 4546,
+                    "school": {
+                      "id": 4546,
+                      "name": "Lansing Sexton",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154778
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154787": 3,
+                "3154788": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154787": 2,
+                "3154788": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577429,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154788,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154787,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 147212,
+                    "firstName": "Peyton",
+                    "lastName": "Biddle",
+                    "grade": "12",
+                    "schoolId": 4165,
+                    "school": {
+                      "id": 4165,
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154787
+                    }
+                  },
+                  {
+                    "id": 147211,
+                    "firstName": "Maya",
+                    "lastName": "Graham",
+                    "grade": "12",
+                    "schoolId": 4165,
+                    "school": {
+                      "id": 4165,
+                      "name": "Kalamazoo Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154787
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154788,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 172969,
+                    "firstName": "Bonnia",
+                    "lastName": "Chen",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154788
+                    }
+                  },
+                  {
+                    "id": 143566,
+                    "firstName": "Ellie",
+                    "lastName": "Roussin",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154788
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3154791": 0,
+                "3154792": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3154791": 1,
+                "3154792": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1577431,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3154792,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3154791,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 168242,
+                    "firstName": "Muskan",
+                    "lastName": "Banga",
+                    "grade": "12",
+                    "schoolId": 4371,
+                    "school": {
+                      "id": 4371,
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154791
+                    }
+                  },
+                  {
+                    "id": 168238,
+                    "firstName": "Anisha",
+                    "lastName": "Khoje",
+                    "grade": "10",
+                    "schoolId": 4371,
+                    "school": {
+                      "id": 4371,
+                      "name": "Okemos",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154791
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3154792,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 172969,
+                    "firstName": "Bonnia",
+                    "lastName": "Chen",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3154792
+                    }
+                  },
+                  {
+                    "id": 143566,
+                    "firstName": "Ellie",
+                    "lastName": "Roussin",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3154792
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000001,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-09T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3130007": 6,
+                "3130008": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130007": 6,
+                "3130008": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565039,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3130007,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130007,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 161710,
+                    "firstName": "Nina",
+                    "lastName": "Shaye",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3130007
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130008,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 166636,
+                    "firstName": "Sanvi",
+                    "lastName": "Gole",
+                    "grade": "10",
+                    "schoolId": 4255,
+                    "school": {
+                      "id": 4255,
+                      "name": "Portage Northern",
+                      "logo": "school_4255.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3130008
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3130035": 6,
+                "3130036": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130035": 6,
+                "3130036": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565053,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3130035,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130035,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 161710,
+                    "firstName": "Nina",
+                    "lastName": "Shaye",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3130035
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130036,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195779,
+                    "firstName": "Breslyn",
+                    "lastName": "McKinnon",
+                    "grade": "9",
+                    "schoolId": 4019,
+                    "school": {
+                      "id": 4019,
+                      "name": "Battle Creek Lakeview",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3130036
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3130047": 6,
+                "3130048": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130047": 6,
+                "3130048": 4,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565059,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3130047,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130047,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 161710,
+                    "firstName": "Nina",
+                    "lastName": "Shaye",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3130047
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130048,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 194347,
+                    "firstName": "Taylor ",
+                    "lastName": "Dolbee",
+                    "grade": "9",
+                    "schoolId": 4304,
+                    "school": {
+                      "id": 4304,
+                      "name": "Richland Gull Lake",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3130048
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3130079": 4,
+                "3130080": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3130079": 0,
+                "3130080": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1565075,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3130080,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3130079,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195781,
+                    "firstName": "Lily",
+                    "lastName": "Tkac",
+                    "grade": "11",
+                    "schoolId": 4019,
+                    "school": {
+                      "id": 4019,
+                      "name": "Battle Creek Lakeview",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3130079
+                    }
+                  },
+                  {
+                    "id": 152038,
+                    "firstName": "Melanie",
+                    "lastName": "Young",
+                    "grade": "12",
+                    "schoolId": 4019,
+                    "school": {
+                      "id": 4019,
+                      "name": "Battle Creek Lakeview",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3130079
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3130080,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143567,
+                    "firstName": "Julia",
+                    "lastName": "Rypma",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3130080
+                    }
+                  },
+                  {
+                    "id": 143560,
+                    "firstName": "Maya",
+                    "lastName": "Gutshall",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3130080
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000002,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-06T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3116001": 6,
+                "3116002": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3116001": 6,
+                "3116002": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1558036,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3116001,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3116001,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143567,
+                    "firstName": "Julia",
+                    "lastName": "Rypma",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3116001
+                    }
+                  },
+                  {
+                    "id": 189542,
+                    "firstName": "Claire",
+                    "lastName": "Mouw",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3116001
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3116002,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170285,
+                    "firstName": "Ava",
+                    "lastName": "Armstrong",
+                    "grade": "10",
+                    "schoolId": 4035,
+                    "school": {
+                      "id": 4035,
+                      "name": "St. Joseph",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3116002
+                    }
+                  },
+                  {
+                    "id": 173050,
+                    "firstName": "Molly",
+                    "lastName": "Fynewever",
+                    "grade": "10",
+                    "schoolId": 4035,
+                    "school": {
+                      "id": 4035,
+                      "name": "St. Joseph",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3116002
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000003,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-02T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3094945": 6,
+                "3094946": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3094945": 6,
+                "3094946": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1547508,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3094945,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3094945,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 161710,
+                    "firstName": "Nina",
+                    "lastName": "Shaye",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3094945
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3094946,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196040,
+                    "firstName": "Emily",
+                    "lastName": "Duhaime",
+                    "grade": "9",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3094946
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3096833": 0,
+                "3096834": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3096833": 0,
+                "3096834": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1548452,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3096834,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3096833,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 193505,
+                    "firstName": "Simran",
+                    "lastName": "Bilolikar",
+                    "grade": "9",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3096833
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3096834,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125726,
+                    "firstName": "Adelie",
+                    "lastName": "Chen",
+                    "grade": "12",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3096834
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3095095": 6,
+                "3095099": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3095095": 5,
+                "3095099": 7,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3095095": 3,
+                "3095099": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1547585,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3095099,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3095095,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 144998,
+                    "firstName": "Paislee",
+                    "lastName": "Hartman",
+                    "grade": "11",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3095095
+                    }
+                  },
+                  {
+                    "id": 188654,
+                    "firstName": "Eden",
+                    "lastName": "Slager",
+                    "grade": "9",
+                    "schoolId": 4417,
+                    "school": {
+                      "id": 4417,
+                      "name": "Holland West Ottawa",
+                      "logo": "school_4417.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3095095
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3095099,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 189544,
+                    "firstName": "Cami",
+                    "lastName": "Moulton",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3095099
+                    }
+                  },
+                  {
+                    "id": 189542,
+                    "firstName": "Claire",
+                    "lastName": "Mouw",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3095099
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3096847": 6,
+                "3096848": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3096847": 6,
+                "3096848": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1548459,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3096847,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3096847,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 151888,
+                    "firstName": "Sanaaya",
+                    "lastName": "Dhanasri",
+                    "grade": "11",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3096847
+                    }
+                  },
+                  {
+                    "id": 170520,
+                    "firstName": "Julia",
+                    "lastName": "Jones",
+                    "grade": "10",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3096847
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3096848,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 189544,
+                    "firstName": "Cami",
+                    "lastName": "Moulton",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3096848
+                    }
+                  },
+                  {
+                    "id": 189542,
+                    "firstName": "Claire",
+                    "lastName": "Mouw",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3096848
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000004,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-30T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3080935": 2,
+                "3080936": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3080935": 3,
+                "3080936": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1540503,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3080936,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3080935,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172379,
+                    "firstName": "Sruti",
+                    "lastName": "Raghubanshi",
+                    "grade": "11",
+                    "schoolId": 4255,
+                    "school": {
+                      "id": 4255,
+                      "name": "Portage Northern",
+                      "logo": "school_4255.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3080935
+                    }
+                  },
+                  {
+                    "id": 195568,
+                    "firstName": "Fari",
+                    "lastName": "Haidari",
+                    "grade": "12",
+                    "schoolId": 4255,
+                    "school": {
+                      "id": 4255,
+                      "name": "Portage Northern",
+                      "logo": "school_4255.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3080935
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3080936,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 143563,
+                    "firstName": "Ava",
+                    "lastName": "VanSweden",
+                    "grade": "11",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3080936
+                    }
+                  },
+                  {
+                    "id": 189545,
+                    "firstName": "Astha",
+                    "lastName": "Patel",
+                    "grade": "10",
+                    "schoolId": 3887,
+                    "school": {
+                      "id": 3887,
+                      "name": "Portage Central",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3080936
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "_source": "phase2b_player_matches"
+}

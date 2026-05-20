@@ -1,0 +1,499 @@
+{
+  "player": {
+    "id": 196148,
+    "schoolId": 3957,
+    "firstName": "Scarlett",
+    "lastName": "Stetson",
+    "address": null,
+    "email": "440229@aaps.k12.mi.us",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "9",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-04-09T02:18:37.000Z",
+    "updatedAt": "2026-04-09T02:18:37.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Ann Arbor Skyline",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Fengyi ",
+      "lastName": "Chen"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 9,
+    "loss": 11
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3151379": 6,
+            "3151380": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151379": 6,
+            "3151380": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575725,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151379,
+        "createdAt": "2026-05-15T07:05:02.000Z",
+        "updatedAt": "2026-05-15T07:05:02.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151379,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 196148,
+                "firstName": "Scarlett",
+                "lastName": "Stetson",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-09T02:18:37.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151379
+                }
+              },
+              {
+                "id": 196144,
+                "firstName": "Violet",
+                "lastName": "Arthur",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-09T02:16:24.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151379
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151380,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 151395,
+                "firstName": "Rylee",
+                "lastName": "Ayrhart",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4538,
+                  "name": "Belleville",
+                  "logo": null,
+                  "city": {
+                    "id": 1294,
+                    "name": "Belleville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151380
+                }
+              },
+              {
+                "id": 168505,
+                "firstName": "Nidianny",
+                "lastName": "Grullon",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T12:14:45.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4538,
+                  "name": "Belleville",
+                  "logo": null,
+                  "city": {
+                    "id": 1294,
+                    "name": "Belleville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151380
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3151381": 6,
+            "3151382": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3151381": 6,
+            "3151382": 4,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575726,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3151381,
+        "createdAt": "2026-05-15T07:05:33.000Z",
+        "updatedAt": "2026-05-15T07:05:33.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3151381,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 171218,
+                "firstName": "Maryn",
+                "lastName": "Etheridge",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151381
+                }
+              },
+              {
+                "id": 171219,
+                "firstName": "Ayla",
+                "lastName": "Altinsel",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151381
+                }
+              }
+            ]
+          },
+          {
+            "id": 3151382,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 196148,
+                "firstName": "Scarlett",
+                "lastName": "Stetson",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-09T02:18:37.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3151382
+                }
+              },
+              {
+                "id": 196144,
+                "firstName": "Violet",
+                "lastName": "Arthur",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-09T02:16:24.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3151382
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3137111": 4,
+            "3137112": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3137111": 6,
+            "3137112": 4,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3137111": 10,
+            "3137112": 8,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1568591,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3137111,
+        "createdAt": "2026-05-11T23:24:10.000Z",
+        "updatedAt": "2026-05-11T23:24:10.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-11T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3137111,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 192157,
+                "firstName": "Alice",
+                "lastName": "Zhu",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-23T23:24:42.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4423,
+                  "name": "Ann Arbor Greenhills",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3137111
+                }
+              },
+              {
+                "id": 196215,
+                "firstName": "Anya",
+                "lastName": "He",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-09T12:20:49.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4423,
+                  "name": "Ann Arbor Greenhills",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3137111
+                }
+              }
+            ]
+          },
+          {
+            "id": 3137112,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 196148,
+                "firstName": "Scarlett",
+                "lastName": "Stetson",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-09T02:18:37.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3137112
+                }
+              },
+              {
+                "id": 196144,
+                "firstName": "Violet",
+                "lastName": "Arthur",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-09T02:16:24.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3137112
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 196148,
+      "stateId": 30
+    }
+  ]
+}

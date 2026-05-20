@@ -1,0 +1,864 @@
+{
+  "player": {
+    "id": 164766,
+    "schoolId": 4071,
+    "firstName": "Olivia",
+    "lastName": "Martinovski",
+    "address": null,
+    "email": "Olivia@gmail.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-03-18T18:43:06.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Utica Eisenhower",
+      "logo": "school_4071.png"
+    },
+    "editor": {
+      "firstName": "Michael",
+      "lastName": "Pearson"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 18,
+    "loss": 12
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3146757": 6,
+            "3146758": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3146757": 6,
+            "3146758": 0,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3146757": null,
+            "3146758": null,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1573414,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3146757,
+        "createdAt": "2026-05-14T13:35:02.000Z",
+        "updatedAt": "2026-05-14T20:56:31.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3146757,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 164766,
+                "firstName": "Olivia",
+                "lastName": "Martinovski",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3146757
+                }
+              },
+              {
+                "id": 148546,
+                "firstName": "Addison ",
+                "lastName": "Dupuis",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3146757
+                }
+              }
+            ]
+          },
+          {
+            "id": 3146758,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 197171,
+                "firstName": "Patricia",
+                "lastName": "Orzol",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-12T14:12:05.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4630,
+                  "name": "Macomb Dakota",
+                  "logo": null,
+                  "city": {
+                    "id": 10777,
+                    "name": "Macomb",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3146758
+                }
+              },
+              {
+                "id": 197168,
+                "firstName": "Teodora",
+                "lastName": "Peroska",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-12T14:09:59.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4630,
+                  "name": "Macomb Dakota",
+                  "logo": null,
+                  "city": {
+                    "id": 10777,
+                    "name": "Macomb",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3146758
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3148589": 6,
+            "3148590": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3148589": 6,
+            "3148590": 2,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1574330,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3148589,
+        "createdAt": "2026-05-14T20:57:36.000Z",
+        "updatedAt": "2026-05-14T20:57:36.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3148589,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 164766,
+                "firstName": "Olivia",
+                "lastName": "Martinovski",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148589
+                }
+              },
+              {
+                "id": 148546,
+                "firstName": "Addison ",
+                "lastName": "Dupuis",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3148589
+                }
+              }
+            ]
+          },
+          {
+            "id": 3148590,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191610,
+                "firstName": "Ja’Sonna",
+                "lastName": "Haslage",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-20T22:35:01.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3938,
+                  "name": "Clinton Township Chippewa Valley",
+                  "logo": null,
+                  "city": {
+                    "id": 3622,
+                    "name": "Clinton township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148590
+                }
+              },
+              {
+                "id": 171527,
+                "firstName": "Violet",
+                "lastName": "Chabot",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3938,
+                  "name": "Clinton Township Chippewa Valley",
+                  "logo": null,
+                  "city": {
+                    "id": 3622,
+                    "name": "Clinton township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3148590
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3148607": 4,
+            "3148608": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3148607": 6,
+            "3148608": 1,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3148607": 7,
+            "3148608": 5,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1574339,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3148607,
+        "createdAt": "2026-05-14T20:59:17.000Z",
+        "updatedAt": "2026-05-14T20:59:17.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3148607,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 164766,
+                "firstName": "Olivia",
+                "lastName": "Martinovski",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148607
+                }
+              },
+              {
+                "id": 148546,
+                "firstName": "Addison ",
+                "lastName": "Dupuis",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3148607
+                }
+              }
+            ]
+          },
+          {
+            "id": 3148608,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 163282,
+                "firstName": "Dakota",
+                "lastName": "Rottman",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4373,
+                  "name": "Romeo",
+                  "logo": null,
+                  "city": {
+                    "id": 15680,
+                    "name": "Romeo",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148608
+                }
+              },
+              {
+                "id": 141882,
+                "firstName": "Lauren",
+                "lastName": "Cross",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4373,
+                  "name": "Romeo",
+                  "logo": null,
+                  "city": {
+                    "id": 15680,
+                    "name": "Romeo",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3148608
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3115933": 0,
+            "3115934": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3115933": 0,
+            "3115934": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1558002,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3115933,
+        "createdAt": "2026-05-07T18:39:09.000Z",
+        "updatedAt": "2026-05-07T18:40:39.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-06T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3115933,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 126812,
+                "firstName": "Alison",
+                "lastName": "Doka",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3115933
+                }
+              }
+            ]
+          },
+          {
+            "id": 3115934,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 164766,
+                "firstName": "Olivia",
+                "lastName": "Martinovski",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3115934
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3106597": 6,
+            "3106598": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3106597": 6,
+            "3106598": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1553334,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3106597,
+        "createdAt": "2026-05-06T01:00:34.000Z",
+        "updatedAt": "2026-05-06T01:00:34.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-05T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3106597,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 149632,
+                "firstName": "Kelly",
+                "lastName": "Cook",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T16:59:51.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3106597
+                }
+              }
+            ]
+          },
+          {
+            "id": 3106598,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 164766,
+                "firstName": "Olivia",
+                "lastName": "Martinovski",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3106598
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3102795": 6,
+            "3102796": 3,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3102795": 6,
+            "3102796": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1551433,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3102795,
+        "createdAt": "2026-05-05T11:50:14.000Z",
+        "updatedAt": "2026-05-05T12:00:32.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-04T08:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3102795,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 127220,
+                "firstName": "Kate",
+                "lastName": "VanHowe",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-05-16T21:09:58.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4093,
+                  "name": "Port Huron Northern",
+                  "logo": null,
+                  "city": {
+                    "id": 14720,
+                    "name": "Port huron",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3102795
+                }
+              }
+            ]
+          },
+          {
+            "id": 3102796,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 164766,
+                "firstName": "Olivia",
+                "lastName": "Martinovski",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3102796
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 164766,
+      "stateId": 30
+    },
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 164766,
+      "stateId": 30
+    }
+  ]
+}

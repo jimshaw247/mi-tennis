@@ -1,0 +1,367 @@
+{
+  "player": {
+    "id": 146970,
+    "schoolId": 4371,
+    "firstName": "Isabella",
+    "lastName": "Portnoy",
+    "address": null,
+    "email": "portnoyi27@okemosk12.net",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2024-04-01T18:36:43.000Z",
+    "updatedAt": "2026-04-30T17:59:38.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Okemos",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Stephanie",
+      "lastName": "McKay"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 493,
+        "eventYear": "2024",
+        "eventName": "MHSAA Finals-2024"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 18,
+    "loss": 1
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3154467": 6,
+            "3154468": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154467": 6,
+            "3154468": 0,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3154467": null,
+            "3154468": null,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1577269,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154467,
+        "createdAt": "2026-05-16T00:15:49.000Z",
+        "updatedAt": "2026-05-16T00:15:59.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154467,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 146970,
+                "firstName": "Isabella",
+                "lastName": "Portnoy",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-30T17:59:38.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154467
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154468,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 125032,
+                "firstName": "Lillyana",
+                "lastName": "Lawler",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4229,
+                  "name": "Saginaw Heritage",
+                  "logo": null,
+                  "city": {
+                    "id": 15944,
+                    "name": "Saginaw",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154468
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3154491": 6,
+            "3154492": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154491": 6,
+            "3154492": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1577281,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154491,
+        "createdAt": "2026-05-16T00:18:09.000Z",
+        "updatedAt": "2026-05-16T00:18:09.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154491,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 146970,
+                "firstName": "Isabella",
+                "lastName": "Portnoy",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-30T17:59:38.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154491
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154492,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 163141,
+                "firstName": "Jenna",
+                "lastName": "Itawi",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4424,
+                  "name": "Kalamazoo Loy Norrix",
+                  "logo": null,
+                  "city": {
+                    "id": 9164,
+                    "name": "Kalamazoo",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154492
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3154501": 6,
+            "3154502": 1,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154501": 6,
+            "3154502": 4,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1577286,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154501,
+        "createdAt": "2026-05-16T00:19:00.000Z",
+        "updatedAt": "2026-05-16T00:19:00.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154501,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 146970,
+                "firstName": "Isabella",
+                "lastName": "Portnoy",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-30T17:59:38.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154501
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154502,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 161712,
+                "firstName": "Margie",
+                "lastName": "Glynn",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154502
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 14,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 146970,
+      "stateId": 30
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "player": {
+    "id": 199379,
+    "schoolId": 3947,
+    "firstName": "Akshya",
+    "lastName": "Chauhan",
+    "address": null,
+    "email": null,
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-05-02T16:35:53.000Z",
+    "updatedAt": "2026-05-02T16:35:53.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Troy Athens",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Daniel",
+      "lastName": "Lowes"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 0,
+    "loss": 2
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3090297": 6,
+            "3090298": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3090297": 6,
+            "3090298": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1545184,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3090297,
+        "createdAt": "2026-05-02T16:36:51.000Z",
+        "updatedAt": "2026-05-02T16:36:51.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-02T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3090297,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 169455,
+                "firstName": "Mathanghi",
+                "lastName": "Ram",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3090297
+                }
+              },
+              {
+                "id": 169451,
+                "firstName": "Rujuta",
+                "lastName": "Deshpande",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3090297
+                }
+              }
+            ]
+          },
+          {
+            "id": 3090298,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 199379,
+                "firstName": "Akshya",
+                "lastName": "Chauhan",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-05-02T16:35:53.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3090298
+                }
+              },
+              {
+                "id": 199380,
+                "firstName": "Kairavi",
+                "lastName": "Shah",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-05-02T16:36:09.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3090298
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3097289": 6,
+            "3097290": 1,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3097289": 6,
+            "3097290": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1548680,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3097289,
+        "createdAt": "2026-05-04T02:38:24.000Z",
+        "updatedAt": "2026-05-04T02:38:24.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-02T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3097289,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 150039,
+                "firstName": "Adriana",
+                "lastName": "Palazzolo",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3097289
+                }
+              },
+              {
+                "id": 170655,
+                "firstName": "Morgan ",
+                "lastName": "Dorsey",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3097289
+                }
+              }
+            ]
+          },
+          {
+            "id": 3097290,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 199379,
+                "firstName": "Akshya",
+                "lastName": "Chauhan",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-05-02T16:35:53.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3097290
+                }
+              },
+              {
+                "id": 199380,
+                "firstName": "Kairavi",
+                "lastName": "Shah",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-05-02T16:36:09.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3097290
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 199379,
+      "stateId": 30
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "player": {
+    "id": 149632,
+    "schoolId": 4449,
+    "firstName": "Kelly",
+    "lastName": "Cook",
+    "address": null,
+    "email": "kcook8843@rcs-k12.us",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2024-04-10T00:53:19.000Z",
+    "updatedAt": "2026-03-21T16:59:51.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Rochester",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Jerry",
+      "lastName": "Murphy"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 493,
+        "eventYear": "2024",
+        "eventName": "MHSAA Finals-2024"
+      },
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 13,
+    "loss": 11
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3150377": 0,
+            "3150378": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150377": 0,
+            "3150378": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575224,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150378,
+        "createdAt": "2026-05-15T01:56:47.000Z",
+        "updatedAt": "2026-05-15T01:56:47.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150377,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 149339,
+                "firstName": "Miley",
+                "lastName": "Hooper",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4275,
+                  "name": "Waterford United",
+                  "logo": null,
+                  "city": {
+                    "id": 19195,
+                    "name": "Waterford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150377
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150378,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 149632,
+                "firstName": "Kelly",
+                "lastName": "Cook",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T16:59:51.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150378
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150393": 1,
+            "3150394": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150393": 1,
+            "3150394": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575232,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150394,
+        "createdAt": "2026-05-15T01:57:48.000Z",
+        "updatedAt": "2026-05-15T01:57:48.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150393,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 149632,
+                "firstName": "Kelly",
+                "lastName": "Cook",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T16:59:51.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150393
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150394,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 197686,
+                "firstName": "Yifan",
+                "lastName": "Lin",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-15T02:26:15.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150394
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3143077": 2,
+            "3143078": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3143077": 2,
+            "3143078": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1571574,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3143078,
+        "createdAt": "2026-05-13T13:28:15.000Z",
+        "updatedAt": "2026-05-13T13:28:15.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-11T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3143077,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 149632,
+                "firstName": "Kelly",
+                "lastName": "Cook",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T16:59:51.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3143077
+                }
+              }
+            ]
+          },
+          {
+            "id": 3143078,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 126812,
+                "firstName": "Alison",
+                "lastName": "Doka",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4047,
+                  "name": "Rochester Hills Stoney Creek",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3143078
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 13,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 149632,
+      "stateId": 30
+    }
+  ]
+}

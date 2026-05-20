@@ -1,0 +1,487 @@
+{
+  "player": {
+    "id": 143566,
+    "schoolId": 3887,
+    "firstName": "Ellie",
+    "lastName": "Roussin",
+    "address": null,
+    "email": null,
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "12",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2024-03-13T18:26:11.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Portage Central",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Peter",
+      "lastName": "Militzer"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 16,
+    "loss": 9
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3154777": 2,
+            "3154778": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154777": 2,
+            "3154778": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1577424,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": "Default",
+        "winnerTeamId": 3154777,
+        "createdAt": "2026-05-16T00:43:14.000Z",
+        "updatedAt": "2026-05-16T00:43:14.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154777,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 172969,
+                "firstName": "Bonnia",
+                "lastName": "Chen",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154777
+                }
+              },
+              {
+                "id": 143566,
+                "firstName": "Ellie",
+                "lastName": "Roussin",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154777
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154778,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 199457,
+                "firstName": "Sara",
+                "lastName": "Aletoum ",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-05-03T23:23:33.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4546,
+                  "name": "Lansing Sexton",
+                  "logo": null,
+                  "city": {
+                    "id": 9887,
+                    "name": "Lansing",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154778
+                }
+              },
+              {
+                "id": 199456,
+                "firstName": "Sabirin",
+                "lastName": "Mohamed",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-05-03T23:22:57.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4546,
+                  "name": "Lansing Sexton",
+                  "logo": null,
+                  "city": {
+                    "id": 9887,
+                    "name": "Lansing",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154778
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3154787": 3,
+            "3154788": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154787": 2,
+            "3154788": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1577429,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154788,
+        "createdAt": "2026-05-16T00:44:03.000Z",
+        "updatedAt": "2026-05-16T00:44:03.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154787,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 147212,
+                "firstName": "Peyton",
+                "lastName": "Biddle",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4165,
+                  "name": "Kalamazoo Central",
+                  "logo": null,
+                  "city": {
+                    "id": 9164,
+                    "name": "Kalamazoo",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154787
+                }
+              },
+              {
+                "id": 147211,
+                "firstName": "Maya",
+                "lastName": "Graham",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4165,
+                  "name": "Kalamazoo Central",
+                  "logo": null,
+                  "city": {
+                    "id": 9164,
+                    "name": "Kalamazoo",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154787
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154788,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 172969,
+                "firstName": "Bonnia",
+                "lastName": "Chen",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154788
+                }
+              },
+              {
+                "id": 143566,
+                "firstName": "Ellie",
+                "lastName": "Roussin",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154788
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3154791": 0,
+            "3154792": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3154791": 1,
+            "3154792": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1577431,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3154792,
+        "createdAt": "2026-05-16T00:44:34.000Z",
+        "updatedAt": "2026-05-16T00:44:34.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3154791,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 168242,
+                "firstName": "Muskan",
+                "lastName": "Banga",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154791
+                }
+              },
+              {
+                "id": 168238,
+                "firstName": "Anisha",
+                "lastName": "Khoje",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154791
+                }
+              }
+            ]
+          },
+          {
+            "id": 3154792,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 172969,
+                "firstName": "Bonnia",
+                "lastName": "Chen",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3154792
+                }
+              },
+              {
+                "id": 143566,
+                "firstName": "Ellie",
+                "lastName": "Roussin",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3887,
+                  "name": "Portage Central",
+                  "logo": null,
+                  "city": {
+                    "id": 14757,
+                    "name": "Portage",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3154792
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 143566,
+      "stateId": 30
+    }
+  ]
+}

@@ -9,6 +9,54 @@ const phase1 = JSON.parse(readFileSync(`${__dirname}/data/phase1_summary.json`, 
 const phase2 = JSON.parse(readFileSync(`${__dirname}/data/phase2_summary.json`, 'utf8'))
 const phase4 = JSON.parse(readFileSync(`${__dirname}/data/phase4_ratings.json`, 'utf8'))
 
+// Augment phase2.perSchool with flight-4+ matches harvested from /report/player.
+// phase2_summary.json was built from school-endpoint data (flights 1-3 only);
+// phase2b_player_matches.json supplies the missing 4S/4D/5D/6D matches.
+try {
+  const phase2b = JSON.parse(readFileSync(`${__dirname}/data/phase2b_player_matches.json`, 'utf8'))
+  const qualifierSchoolIds = new Set(Object.keys(phase2.schools).map(Number))
+  const existingMatchIds = new Map()
+  for (const [sid, info] of Object.entries(phase2.perSchool)) {
+    existingMatchIds.set(Number(sid), new Set((info.matches || []).map(m => m.matchId)))
+  }
+  let augmented = 0
+  for (const m of (phase2b.matches || [])) {
+    const sides = (m.matchTeams || []).map(mt => ({
+      teamId: mt.id,
+      isWinner: !!mt.isWinner,
+      players: (mt.players || []).map(p => ({
+        playerId: p.id,
+        name: `${p.firstName || ''} ${p.lastName || ''}`.trim(),
+        schoolId: p.schoolId ?? p.school?.id,
+        schoolName: p.school?.name,
+        grade: p.grade,
+        position: p.matchTeamPlayer?.position,
+      })),
+    }))
+    const perspectiveSchools = new Set()
+    for (const s of sides) for (const p of s.players) if (qualifierSchoolIds.has(p.schoolId)) perspectiveSchools.add(p.schoolId)
+    for (const sid of perspectiveSchools) {
+      const seen = existingMatchIds.get(sid)
+      if (seen.has(m.matchId)) continue
+      seen.add(m.matchId)
+      phase2.perSchool[sid].matches.push({
+        meet: { meetId: null, title: 'flight-4 augment', date: m.meetDateTime, postSeason: m.postSeason, eventId: null },
+        matchId: m.matchId,
+        flight: m.flight,
+        matchType: m.matchType,
+        finish: m.finish,
+        winnerTeamId: m.winnerTeamId,
+        sides,
+        sets: m.sets,
+      })
+      augmented++
+    }
+  }
+  console.log(`Phase 5: augmented perSchool with ${augmented} flight-4+ matches from phase2b`)
+} catch (e) {
+  console.log(`Phase 5: no phase2b_player_matches.json found — skipping augment (${e.message})`)
+}
+
 const FLIGHTS = ['1S','2S','3S','4S','1D','2D','3D','4D']
 const FLIGHT_LABEL = { '1S':'#1 Singles','2S':'#2 Singles','3S':'#3 Singles','4S':'#4 Singles',
                        '1D':'#1 Doubles','2D':'#2 Doubles','3D':'#3 Doubles','4D':'#4 Doubles' }

@@ -1,0 +1,481 @@
+{
+  "player": {
+    "id": 196044,
+    "schoolId": 4052,
+    "firstName": "Addison",
+    "lastName": "Graves",
+    "address": null,
+    "email": "gr@gr.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-04-08T23:52:23.000Z",
+    "updatedAt": "2026-04-08T23:52:23.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Clarkston",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Mary Jo",
+      "lastName": "Colonna"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 12,
+    "loss": 10
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3150567": 1,
+            "3150568": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150567": 0,
+            "3150568": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575319,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150568,
+        "createdAt": "2026-05-15T02:24:24.000Z",
+        "updatedAt": "2026-05-15T02:24:24.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150567,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 171405,
+                "firstName": "Irelynn",
+                "lastName": "Miller",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-29T00:39:43.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 9325,
+                  "name": "Lapeer",
+                  "logo": null,
+                  "city": {
+                    "id": 9892,
+                    "name": "Lapeer",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150567
+                }
+              },
+              {
+                "id": 198720,
+                "firstName": "Lucy",
+                "lastName": "Copstick",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-24T14:57:04.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 9325,
+                  "name": "Lapeer",
+                  "logo": null,
+                  "city": {
+                    "id": 9892,
+                    "name": "Lapeer",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150567
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150568,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 196044,
+                "firstName": "Addison",
+                "lastName": "Graves",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T23:52:23.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150568
+                }
+              },
+              {
+                "id": 152096,
+                "firstName": "Ava",
+                "lastName": "Ebling",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150568
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150571": 4,
+            "3150572": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150571": 3,
+            "3150572": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575321,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150572,
+        "createdAt": "2026-05-15T02:25:07.000Z",
+        "updatedAt": "2026-05-15T02:25:07.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150571,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 167766,
+                "firstName": "Kendall",
+                "lastName": "Markham",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-30T13:13:33.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150571
+                }
+              },
+              {
+                "id": 168529,
+                "firstName": "Vivienne ",
+                "lastName": "Probst",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150571
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150572,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 196044,
+                "firstName": "Addison",
+                "lastName": "Graves",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T23:52:23.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150572
+                }
+              },
+              {
+                "id": 152096,
+                "firstName": "Ava",
+                "lastName": "Ebling",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150572
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150577": 1,
+            "3150578": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150577": 3,
+            "3150578": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575324,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150578,
+        "createdAt": "2026-05-15T02:26:05.000Z",
+        "updatedAt": "2026-05-15T02:26:05.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150577,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 150039,
+                "firstName": "Adriana",
+                "lastName": "Palazzolo",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150577
+                }
+              },
+              {
+                "id": 170655,
+                "firstName": "Morgan ",
+                "lastName": "Dorsey",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150577
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150578,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 196044,
+                "firstName": "Addison",
+                "lastName": "Graves",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T23:52:23.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150578
+                }
+              },
+              {
+                "id": 152096,
+                "firstName": "Ava",
+                "lastName": "Ebling",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150578
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 196044,
+      "stateId": 30
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "player": {
+    "id": 193504,
+    "schoolId": 4337,
+    "firstName": "Makenzie",
+    "lastName": "McPhail",
+    "address": null,
+    "email": "northvillegirlstennis@gmail.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "9",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-29T12:30:56.000Z",
+    "updatedAt": "2026-03-29T12:35:10.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Northville",
+      "logo": "school_4337.jpg"
+    },
+    "editor": {
+      "firstName": "Brenda",
+      "lastName": "Lionas"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 28,
+    "loss": 3
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3152173": 6,
+            "3152174": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3152173": 6,
+            "3152174": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1576122,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3152173,
+        "createdAt": "2026-05-15T15:17:30.000Z",
+        "updatedAt": "2026-05-15T15:17:30.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3152173,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 146344,
+                "firstName": "Emmi",
+                "lastName": "Dober",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-30T00:02:47.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3152173
+                }
+              },
+              {
+                "id": 193504,
+                "firstName": "Makenzie",
+                "lastName": "McPhail",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-29T12:35:10.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3152173
+                }
+              }
+            ]
+          },
+          {
+            "id": 3152174,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 131637,
+                "firstName": "Jordan",
+                "lastName": "Manna",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4040,
+                  "name": "Walled Lake Northern",
+                  "logo": null,
+                  "city": {
+                    "id": 3865,
+                    "name": "Commerce twp",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3152174
+                }
+              },
+              {
+                "id": 148504,
+                "firstName": "Sierra",
+                "lastName": "Black",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4040,
+                  "name": "Walled Lake Northern",
+                  "logo": null,
+                  "city": {
+                    "id": 3865,
+                    "name": "Commerce twp",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3152174
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3152473": 6,
+            "3152474": 1,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3152473": 6,
+            "3152474": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1576272,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3152473,
+        "createdAt": "2026-05-15T16:40:16.000Z",
+        "updatedAt": "2026-05-15T16:40:16.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3152473,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 146344,
+                "firstName": "Emmi",
+                "lastName": "Dober",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-30T00:02:47.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3152473
+                }
+              },
+              {
+                "id": 193504,
+                "firstName": "Makenzie",
+                "lastName": "McPhail",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-29T12:35:10.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3152473
+                }
+              }
+            ]
+          },
+          {
+            "id": 3152474,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 150978,
+                "firstName": "Aryahi",
+                "lastName": "Patel",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4284,
+                  "name": "Canton",
+                  "logo": "school_4284.jpeg",
+                  "city": {
+                    "id": 2698,
+                    "name": "Canton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3152474
+                }
+              },
+              {
+                "id": 195650,
+                "firstName": "Charlotte",
+                "lastName": "Andrews",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T02:15:20.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4284,
+                  "name": "Canton",
+                  "logo": "school_4284.jpeg",
+                  "city": {
+                    "id": 2698,
+                    "name": "Canton",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3152474
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3153109": 6,
+            "3153110": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3153109": 6,
+            "3153110": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1576590,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3153109,
+        "createdAt": "2026-05-15T19:24:17.000Z",
+        "updatedAt": "2026-05-15T19:24:17.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3153109,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 146344,
+                "firstName": "Emmi",
+                "lastName": "Dober",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-30T00:02:47.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3153109
+                }
+              },
+              {
+                "id": 193504,
+                "firstName": "Makenzie",
+                "lastName": "McPhail",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-29T12:35:10.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3153109
+                }
+              }
+            ]
+          },
+          {
+            "id": 3153110,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 127340,
+                "firstName": "Samaara ",
+                "lastName": "George",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3153110
+                }
+              },
+              {
+                "id": 127339,
+                "firstName": "Kyra ",
+                "lastName": "Thomas",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3153110
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 19,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 193504,
+      "stateId": 30
+    }
+  ]
+}

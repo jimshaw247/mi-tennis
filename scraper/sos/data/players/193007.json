@@ -1,0 +1,348 @@
+{
+  "player": {
+    "id": 193007,
+    "schoolId": 4427,
+    "firstName": "Emerson",
+    "lastName": "Jones",
+    "address": null,
+    "email": "Jonese@Salinehornets.org",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "12",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-26T16:02:00.000Z",
+    "updatedAt": "2026-03-26T16:02:00.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Saline",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Andrew",
+      "lastName": "BeDell"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 18,
+    "loss": 0
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3149983": 6,
+            "3149984": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3149983": 6,
+            "3149984": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575027,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3149983,
+        "createdAt": "2026-05-15T01:01:51.000Z",
+        "updatedAt": "2026-05-15T06:43:58.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3149983,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 193007,
+                "firstName": "Emerson",
+                "lastName": "Jones",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-26T16:02:00.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149983
+                }
+              }
+            ]
+          },
+          {
+            "id": 3149984,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 130882,
+                "firstName": "Olivia",
+                "lastName": "Watters",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3957,
+                  "name": "Ann Arbor Skyline",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149984
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150001": 6,
+            "3150002": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150001": 6,
+            "3150002": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575036,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150001,
+        "createdAt": "2026-05-15T01:05:02.000Z",
+        "updatedAt": "2026-05-15T06:43:58.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150001,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 193007,
+                "firstName": "Emerson",
+                "lastName": "Jones",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-26T16:02:00.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150001
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150002,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 124765,
+                "firstName": "Allie",
+                "lastName": "Wells",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4140,
+                  "name": "Monroe",
+                  "logo": null,
+                  "city": {
+                    "id": 11999,
+                    "name": "Monroe",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150002
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150051": 6,
+            "3150052": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150051": 6,
+            "3150052": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575061,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150051,
+        "createdAt": "2026-05-15T01:10:29.000Z",
+        "updatedAt": "2026-05-15T06:43:58.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150051,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 193007,
+                "firstName": "Emerson",
+                "lastName": "Jones",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-26T16:02:00.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150051
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150052,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 149171,
+                "firstName": "Rachel",
+                "lastName": "He",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4134,
+                  "name": "Ann Arbor Pioneer",
+                  "logo": null,
+                  "city": {
+                    "id": 475,
+                    "name": "Ann arbor",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150052
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 14,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 193007,
+      "stateId": 30
+    }
+  ]
+}

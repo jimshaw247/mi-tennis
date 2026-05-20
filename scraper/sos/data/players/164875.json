@@ -1,0 +1,373 @@
+{
+  "player": {
+    "id": 164875,
+    "schoolId": 3947,
+    "firstName": "Katrina",
+    "lastName": "Kulish",
+    "address": null,
+    "email": "kulishkatrina10@gmail.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-03-19T00:08:22.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Troy Athens",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Jen",
+      "lastName": "Yetter"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 6,
+    "loss": 11
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3147021": 4,
+            "3147022": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147021": 2,
+            "3147022": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573546,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147022,
+        "createdAt": "2026-05-14T14:40:27.000Z",
+        "updatedAt": "2026-05-14T14:40:27.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147021,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 195766,
+                "firstName": "Eden",
+                "lastName": "Fante",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T12:13:02.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3970,
+                  "name": "St Clair Shores Lakeview",
+                  "logo": null,
+                  "city": {
+                    "id": 17279,
+                    "name": "St clair shores",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147021
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147022,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 164875,
+                "firstName": "Katrina",
+                "lastName": "Kulish",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147022
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3147515": 6,
+            "3147516": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147515": 6,
+            "3147516": 2,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3147515": null,
+            "3147516": null,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1573793,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147515,
+        "createdAt": "2026-05-14T17:05:23.000Z",
+        "updatedAt": "2026-05-14T17:05:34.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147515,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 164875,
+                "firstName": "Katrina",
+                "lastName": "Kulish",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147515
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147516,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 168292,
+                "firstName": "Rosana",
+                "lastName": "Pantalena",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4420,
+                  "name": "Utica Ford",
+                  "logo": "school_4420.png",
+                  "city": {
+                    "id": 17498,
+                    "name": "Sterling heights",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147516
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3152509": 6,
+            "3152510": 4,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3152509": 2,
+            "3152510": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3152509": 6,
+            "3152510": 1,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1576290,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3152509,
+        "createdAt": "2026-05-15T16:45:07.000Z",
+        "updatedAt": "2026-05-15T16:45:07.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3152509,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 145430,
+                "firstName": "Anastasia",
+                "lastName": "Barodka",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3923,
+                  "name": "Troy",
+                  "logo": "school_3923.jpeg",
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3152509
+                }
+              }
+            ]
+          },
+          {
+            "id": 3152510,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 164875,
+                "firstName": "Katrina",
+                "lastName": "Kulish",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3947,
+                  "name": "Troy Athens",
+                  "logo": null,
+                  "city": {
+                    "id": 18377,
+                    "name": "Troy",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3152510
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 164875,
+      "stateId": 30
+    }
+  ]
+}

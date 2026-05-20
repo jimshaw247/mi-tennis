@@ -1,0 +1,3234 @@
+{
+  "school": {
+    "id": 4373,
+    "name": "Romeo"
+  },
+  "overallRecord": {
+    "win": 14,
+    "loss": 2,
+    "tie": 1
+  },
+  "meets": [
+    {
+      "id": 9000000,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-12T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3142977": 2,
+                "3142978": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3142977": 0,
+                "3142978": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571524,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3142978,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142977,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164874,
+                    "firstName": "Rohini",
+                    "lastName": "Jampala",
+                    "grade": "11",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142977
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142978,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141879,
+                    "firstName": "Mary",
+                    "lastName": "Wesley",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142978
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3142969": 4,
+                "3142970": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3142969": 1,
+                "3142970": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571520,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3142970,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142969,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 191735,
+                    "firstName": "Hannah",
+                    "lastName": "Jacob",
+                    "grade": "9",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142969
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142970,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141874,
+                    "firstName": "Kayleigh",
+                    "lastName": "Deguzman",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142970
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3142973": 0,
+                "3142974": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3142973": 0,
+                "3142974": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571522,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3142974,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142973,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164875,
+                    "firstName": "Katrina",
+                    "lastName": "Kulish",
+                    "grade": "10",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142973
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142974,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 123986,
+                    "firstName": "Gabriella",
+                    "lastName": "Farnese",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142974
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3142987": 6,
+                "3142988": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3142987": 6,
+                "3142988": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571529,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3142987,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3142987,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164873,
+                    "firstName": "Isabella",
+                    "lastName": "Sivuchin",
+                    "grade": "10",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142987
+                    }
+                  },
+                  {
+                    "id": 191731,
+                    "firstName": "Sophia",
+                    "lastName": "Lu",
+                    "grade": "9",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3142987
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3142988,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 141877,
+                    "firstName": "Emma",
+                    "lastName": "Rosenow",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3142988
+                    }
+                  },
+                  {
+                    "id": 131267,
+                    "firstName": "Victoria",
+                    "lastName": "Weingartz",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3142988
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3143011": 1,
+                "3143012": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3143011": 1,
+                "3143012": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571541,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3143012,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3143011,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164872,
+                    "firstName": "Merisa",
+                    "lastName": "Grebovic",
+                    "grade": "11",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143011
+                    }
+                  },
+                  {
+                    "id": 191734,
+                    "firstName": "Gia",
+                    "lastName": "Vidyanandan",
+                    "grade": "10",
+                    "schoolId": 3947,
+                    "school": {
+                      "id": 3947,
+                      "name": "Troy Athens",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143011
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3143012,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141878,
+                    "firstName": "Evelyn",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143012
+                    }
+                  },
+                  {
+                    "id": 141883,
+                    "firstName": "Christina",
+                    "lastName": "Rosenow",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143012
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000001,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3148409": 0,
+                "3148410": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148409": 0,
+                "3148410": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148409": null,
+                "3148410": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574240,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": "Default",
+            "winnerTeamId": 3148410,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148409,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126812,
+                    "firstName": "Alison",
+                    "lastName": "Doka",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148409
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148410,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141873,
+                    "firstName": "Alexa",
+                    "lastName": "Mackovski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148410
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148435": 6,
+                "3148436": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148435": 6,
+                "3148436": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574253,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148435,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148435,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126810,
+                    "firstName": "Leslie",
+                    "lastName": "Bahk",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148435
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148436,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 141874,
+                    "firstName": "Kayleigh",
+                    "lastName": "Deguzman",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148436
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3149597": 4,
+                "3149598": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3149597": 1,
+                "3149598": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574834,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3149598,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3149597,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171408,
+                    "firstName": "Aarya",
+                    "lastName": "Newalker",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149597
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3149598,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141879,
+                    "firstName": "Mary",
+                    "lastName": "Wesley",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149598
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3149605": 6,
+                "3149606": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3149605": 6,
+                "3149606": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574838,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3149605,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3149605,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125197,
+                    "firstName": "Sofia",
+                    "lastName": "Gardner",
+                    "grade": "12",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149605
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3149606,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 141879,
+                    "firstName": "Mary",
+                    "lastName": "Wesley",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149606
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148471": 6,
+                "3148472": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148471": 4,
+                "3148472": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148471": 4,
+                "3148472": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574271,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148472,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148471,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 123986,
+                    "firstName": "Gabriella",
+                    "lastName": "Farnese",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148471
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148472,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 148061,
+                    "firstName": "Mia ",
+                    "lastName": "Miller",
+                    "grade": "11",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148472
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148401": 6,
+                "3148402": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148401": 6,
+                "3148402": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148401": null,
+                "3148402": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574236,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148401,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148401,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141873,
+                    "firstName": "Alexa",
+                    "lastName": "Mackovski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148401
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148402,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 147547,
+                    "firstName": "Nadiyah",
+                    "lastName": "Clemons",
+                    "grade": "11",
+                    "schoolId": 4077,
+                    "school": {
+                      "id": 4077,
+                      "name": "New Baltimore Anchor Bay",
+                      "logo": "school_4077.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148402
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148407": 6,
+                "3148408": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148407": 7,
+                "3148408": 5,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574239,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148407,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148407,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141873,
+                    "firstName": "Alexa",
+                    "lastName": "Mackovski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148407
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148408,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 167656,
+                    "firstName": "Harmonie",
+                    "lastName": "Cain",
+                    "grade": "10",
+                    "schoolId": 4230,
+                    "school": {
+                      "id": 4230,
+                      "name": "Macomb L'Anse Creuse North",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148408
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148419": 0,
+                "3148420": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148419": 1,
+                "3148420": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148419": null,
+                "3148420": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574245,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148420,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148419,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169145,
+                    "firstName": "Rose",
+                    "lastName": "Hedrick",
+                    "grade": "10",
+                    "schoolId": 4630,
+                    "school": {
+                      "id": 4630,
+                      "name": "Macomb Dakota",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148419
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148420,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141874,
+                    "firstName": "Kayleigh",
+                    "lastName": "Deguzman",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148420
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148451": 6,
+                "3148452": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148451": 6,
+                "3148452": 1,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148451": null,
+                "3148452": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574261,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148451,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148451,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 123986,
+                    "firstName": "Gabriella",
+                    "lastName": "Farnese",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148451
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148452,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197165,
+                    "firstName": "Shelby ",
+                    "lastName": "Lee",
+                    "grade": "9",
+                    "schoolId": 4630,
+                    "school": {
+                      "id": 4630,
+                      "name": "Macomb Dakota",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148452
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3146661": 0,
+                "3146662": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146661": 1,
+                "3146662": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573366,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3146662,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146661,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 167660,
+                    "firstName": "Emma",
+                    "lastName": "DiPaola",
+                    "grade": "11",
+                    "schoolId": 4230,
+                    "school": {
+                      "id": 4230,
+                      "name": "Macomb L'Anse Creuse North",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146661
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146662,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141879,
+                    "firstName": "Mary",
+                    "lastName": "Wesley",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146662
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3148583": 3,
+                "3148584": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148583": 4,
+                "3148584": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148583": null,
+                "3148584": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574327,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148584,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148583,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150309,
+                    "firstName": "Audrey",
+                    "lastName": "Wilburn",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148583
+                    }
+                  },
+                  {
+                    "id": 171409,
+                    "firstName": "Helena",
+                    "lastName": "Tumonis",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148583
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148584,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141880,
+                    "firstName": "Hailey",
+                    "lastName": "Rohrborn",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148584
+                    }
+                  },
+                  {
+                    "id": 131268,
+                    "firstName": "Eve",
+                    "lastName": "Eschenburg",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148584
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148601": 0,
+                "3148602": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148601": 0,
+                "3148602": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148601": null,
+                "3148602": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574336,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": "Default",
+            "winnerTeamId": 3148602,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148601,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195727,
+                    "firstName": "Nikhita",
+                    "lastName": "Chanchali",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148601
+                    }
+                  },
+                  {
+                    "id": 150308,
+                    "firstName": "Gabby",
+                    "lastName": "Schramski",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148601
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148602,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163282,
+                    "firstName": "Dakota",
+                    "lastName": "Rottman",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148602
+                    }
+                  },
+                  {
+                    "id": 141882,
+                    "firstName": "Lauren",
+                    "lastName": "Cross",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148602
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148631": 3,
+                "3148632": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148631": 4,
+                "3148632": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148631": null,
+                "3148632": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574351,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148632,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148631,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150312,
+                    "firstName": "Nayoon",
+                    "lastName": "Lee",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148631
+                    }
+                  },
+                  {
+                    "id": 152668,
+                    "firstName": "Anna",
+                    "lastName": "Felice",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148631
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148632,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141878,
+                    "firstName": "Evelyn",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148632
+                    }
+                  },
+                  {
+                    "id": 141883,
+                    "firstName": "Christina",
+                    "lastName": "Rosenow",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148632
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148559": 2,
+                "3148560": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148559": 0,
+                "3148560": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148559": null,
+                "3148560": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574315,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148560,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148559,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 131267,
+                    "firstName": "Victoria",
+                    "lastName": "Weingartz",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148559
+                    }
+                  },
+                  {
+                    "id": 141877,
+                    "firstName": "Emma",
+                    "lastName": "Rosenow",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148559
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148560,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125198,
+                    "firstName": "Alexis ",
+                    "lastName": "Gabriel",
+                    "grade": "12",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148560
+                    }
+                  },
+                  {
+                    "id": 148060,
+                    "firstName": "Kara",
+                    "lastName": "Lu",
+                    "grade": "11",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148560
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148585": 7,
+                "3148586": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148585": 6,
+                "3148586": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574328,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148585,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148585,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 148062,
+                    "firstName": "Maria",
+                    "lastName": "Khami",
+                    "grade": "11",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148585
+                    }
+                  },
+                  {
+                    "id": 195422,
+                    "firstName": "Alexis ",
+                    "lastName": "Turnquist",
+                    "grade": "9",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148585
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148586,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 141880,
+                    "firstName": "Hailey",
+                    "lastName": "Rohrborn",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148586
+                    }
+                  },
+                  {
+                    "id": 131268,
+                    "firstName": "Eve",
+                    "lastName": "Eschenburg",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148586
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148607": 4,
+                "3148608": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148607": 6,
+                "3148608": 1,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148607": 7,
+                "3148608": 5,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574339,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148607,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148607,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164766,
+                    "firstName": "Olivia",
+                    "lastName": "Martinovski",
+                    "grade": "11",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148607
+                    }
+                  },
+                  {
+                    "id": 148546,
+                    "firstName": "Addison ",
+                    "lastName": "Dupuis",
+                    "grade": "11",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148607
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148608,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163282,
+                    "firstName": "Dakota",
+                    "lastName": "Rottman",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148608
+                    }
+                  },
+                  {
+                    "id": 141882,
+                    "firstName": "Lauren",
+                    "lastName": "Cross",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148608
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3146677": 2,
+                "3146678": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146677": 2,
+                "3146678": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3146677": null,
+                "3146678": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1573374,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3146678,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146677,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 147597,
+                    "firstName": "Martha",
+                    "lastName": "Daka",
+                    "grade": "12",
+                    "schoolId": 4230,
+                    "school": {
+                      "id": 4230,
+                      "name": "Macomb L'Anse Creuse North",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146677
+                    }
+                  },
+                  {
+                    "id": 167659,
+                    "firstName": "Adalyn",
+                    "lastName": "Wrobel",
+                    "grade": "11",
+                    "schoolId": 4230,
+                    "school": {
+                      "id": 4230,
+                      "name": "Macomb L'Anse Creuse North",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3146677
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146678,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163282,
+                    "firstName": "Dakota",
+                    "lastName": "Rottman",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146678
+                    }
+                  },
+                  {
+                    "id": 141882,
+                    "firstName": "Lauren",
+                    "lastName": "Cross",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3146678
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3146685": 3,
+                "3146686": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146685": 1,
+                "3146686": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573378,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3146686,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146685,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192334,
+                    "firstName": "Joy",
+                    "lastName": "Goldwater",
+                    "grade": "9",
+                    "schoolId": 4077,
+                    "school": {
+                      "id": 4077,
+                      "name": "New Baltimore Anchor Bay",
+                      "logo": "school_4077.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146685
+                    }
+                  },
+                  {
+                    "id": 165659,
+                    "firstName": "Londyn",
+                    "lastName": "Ludwig",
+                    "grade": "10",
+                    "schoolId": 4077,
+                    "school": {
+                      "id": 4077,
+                      "name": "New Baltimore Anchor Bay",
+                      "logo": "school_4077.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3146685
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146686,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141880,
+                    "firstName": "Hailey",
+                    "lastName": "Rohrborn",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146686
+                    }
+                  },
+                  {
+                    "id": 131268,
+                    "firstName": "Eve",
+                    "lastName": "Eschenburg",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3146686
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148541": 6,
+                "3148542": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148541": 6,
+                "3148542": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574306,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148541,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148541,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 131267,
+                    "firstName": "Victoria",
+                    "lastName": "Weingartz",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148541
+                    }
+                  },
+                  {
+                    "id": 141877,
+                    "firstName": "Emma",
+                    "lastName": "Rosenow",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148541
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148542,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192342,
+                    "firstName": "Pierce",
+                    "lastName": "Poretta",
+                    "grade": "11",
+                    "schoolId": 4509,
+                    "school": {
+                      "id": 4509,
+                      "name": "Utica",
+                      "logo": "school_4509.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148542
+                    }
+                  },
+                  {
+                    "id": 168068,
+                    "firstName": "Analy ",
+                    "lastName": "Abarca-Valle",
+                    "grade": "10",
+                    "schoolId": 4509,
+                    "school": {
+                      "id": 4509,
+                      "name": "Utica",
+                      "logo": "school_4509.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148542
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148625": 0,
+                "3148626": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148625": 1,
+                "3148626": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148625": null,
+                "3148626": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574348,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148626,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148625,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192350,
+                    "firstName": "Joanna",
+                    "lastName": "Hoti",
+                    "grade": "11",
+                    "schoolId": 4509,
+                    "school": {
+                      "id": 4509,
+                      "name": "Utica",
+                      "logo": "school_4509.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148625
+                    }
+                  },
+                  {
+                    "id": 192368,
+                    "firstName": "Emma",
+                    "lastName": "Matovski",
+                    "grade": "11",
+                    "schoolId": 4509,
+                    "school": {
+                      "id": 4509,
+                      "name": "Utica",
+                      "logo": "school_4509.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148625
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148626,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141878,
+                    "firstName": "Evelyn",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148626
+                    }
+                  },
+                  {
+                    "id": 141883,
+                    "firstName": "Christina",
+                    "lastName": "Rosenow",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148626
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148633": 6,
+                "3148634": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148633": 6,
+                "3148634": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574352,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148633,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148633,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195423,
+                    "firstName": "Alaina",
+                    "lastName": "Wood ",
+                    "grade": "10",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148633
+                    }
+                  },
+                  {
+                    "id": 172804,
+                    "firstName": "Anna",
+                    "lastName": "Dukaj",
+                    "grade": "10",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148633
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148634,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 141878,
+                    "firstName": "Evelyn",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148634
+                    }
+                  },
+                  {
+                    "id": 141883,
+                    "firstName": "Christina",
+                    "lastName": "Rosenow",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148634
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000002,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-30T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3097647": 6,
+                "3097648": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3097647": 6,
+                "3097648": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1548859,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3097647,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3097647,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125195,
+                    "firstName": "Gabriella ",
+                    "lastName": "Sadowski",
+                    "grade": "12",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3097647
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3097648,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 141873,
+                    "firstName": "Alexa",
+                    "lastName": "Mackovski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3097648
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3097673": 1,
+                "3097674": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3097673": 2,
+                "3097674": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1548872,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3097674,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3097673,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 170520,
+                    "firstName": "Julia",
+                    "lastName": "Jones",
+                    "grade": "10",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3097673
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3097674,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141874,
+                    "firstName": "Kayleigh",
+                    "lastName": "Deguzman",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3097674
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3104281": 6,
+                "3104282": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3104281": 6,
+                "3104282": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1552176,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3104281,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3104281,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 193505,
+                    "firstName": "Simran",
+                    "lastName": "Bilolikar",
+                    "grade": "9",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3104281
+                    }
+                  },
+                  {
+                    "id": 170520,
+                    "firstName": "Julia",
+                    "lastName": "Jones",
+                    "grade": "10",
+                    "schoolId": 4337,
+                    "school": {
+                      "id": 4337,
+                      "name": "Northville",
+                      "logo": "school_4337.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3104281
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3104282,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163301,
+                    "firstName": "Giulia",
+                    "lastName": "Magnone",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3104282
+                    }
+                  },
+                  {
+                    "id": 163294,
+                    "firstName": "Isabel",
+                    "lastName": "Wineski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3104282
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000003,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-07T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3116771": 6,
+                "3116772": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3116771": 6,
+                "3116772": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1558421,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3116771,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3116771,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163294,
+                    "firstName": "Isabel",
+                    "lastName": "Wineski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3116771
+                    }
+                  },
+                  {
+                    "id": 141878,
+                    "firstName": "Evelyn",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3116771
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3116772,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192368,
+                    "firstName": "Emma",
+                    "lastName": "Matovski",
+                    "grade": "11",
+                    "schoolId": 4509,
+                    "school": {
+                      "id": 4509,
+                      "name": "Utica",
+                      "logo": "school_4509.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3116772
+                    }
+                  },
+                  {
+                    "id": 192350,
+                    "firstName": "Joanna",
+                    "lastName": "Hoti",
+                    "grade": "11",
+                    "schoolId": 4509,
+                    "school": {
+                      "id": 4509,
+                      "name": "Utica",
+                      "logo": "school_4509.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3116772
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000004,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-06T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3113769": 4,
+                "3113770": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3113769": 6,
+                "3113770": 3,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3113769": 9,
+                "3113770": 11,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1556920,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3113770,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3113769,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 151752,
+                    "firstName": "Avery",
+                    "lastName": "Griffiths",
+                    "grade": "11",
+                    "schoolId": 4545,
+                    "school": {
+                      "id": 4545,
+                      "name": "Grosse Pointe North",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3113769
+                    }
+                  },
+                  {
+                    "id": 165021,
+                    "firstName": "Gianna",
+                    "lastName": "Wagner ",
+                    "grade": "10",
+                    "schoolId": 4545,
+                    "school": {
+                      "id": 4545,
+                      "name": "Grosse Pointe North",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3113769
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3113770,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141878,
+                    "firstName": "Evelyn",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3113770
+                    }
+                  },
+                  {
+                    "id": 163294,
+                    "firstName": "Isabel",
+                    "lastName": "Wineski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3113770
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000005,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-05T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3113637": 6,
+                "3113638": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3113637": 6,
+                "3113638": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1556854,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3113637,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3113637,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 152668,
+                    "firstName": "Anna",
+                    "lastName": "Felice",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3113637
+                    }
+                  },
+                  {
+                    "id": 150312,
+                    "firstName": "Nayoon",
+                    "lastName": "Lee",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3113637
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3113638,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163294,
+                    "firstName": "Isabel",
+                    "lastName": "Wineski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3113638
+                    }
+                  },
+                  {
+                    "id": 141878,
+                    "firstName": "Evelyn",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3113638
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000006,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-02T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3089615": null,
+                "3089616": null,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3089615": 8,
+                "3089616": 0,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1544843,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3089615,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3089615,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163301,
+                    "firstName": "Giulia",
+                    "lastName": "Magnone",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3089615
+                    }
+                  },
+                  {
+                    "id": 163294,
+                    "firstName": "Isabel",
+                    "lastName": "Wineski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3089615
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3089616,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 129313,
+                    "firstName": "Ivanka",
+                    "lastName": "Kayonga",
+                    "grade": "12",
+                    "schoolId": 4155,
+                    "school": {
+                      "id": 4155,
+                      "name": "Walled Lake Western",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3089616
+                    }
+                  },
+                  {
+                    "id": 193032,
+                    "firstName": "Lindsey ",
+                    "lastName": "Dezell ",
+                    "grade": "12",
+                    "schoolId": 4155,
+                    "school": {
+                      "id": 4155,
+                      "name": "Walled Lake Western",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3089616
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3090033": 6,
+                "3090034": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3090033": 6,
+                "3090034": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1545052,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3090033,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3090033,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163301,
+                    "firstName": "Giulia",
+                    "lastName": "Magnone",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3090033
+                    }
+                  },
+                  {
+                    "id": 163294,
+                    "firstName": "Isabel",
+                    "lastName": "Wineski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3090033
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3090034,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 142077,
+                    "firstName": "Trina",
+                    "lastName": "Phan",
+                    "grade": "12",
+                    "schoolId": 4281,
+                    "school": {
+                      "id": 4281,
+                      "name": "Walled Lake Central",
+                      "logo": "school_4281.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3090034
+                    }
+                  },
+                  {
+                    "id": 170785,
+                    "firstName": "Samatha",
+                    "lastName": "Najjar",
+                    "grade": "10",
+                    "schoolId": 4281,
+                    "school": {
+                      "id": 4281,
+                      "name": "Walled Lake Central",
+                      "logo": "school_4281.jpg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3090034
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3090615": 6,
+                "3090616": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3090615": 6,
+                "3090616": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1545343,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3090615,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3090615,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163301,
+                    "firstName": "Giulia",
+                    "lastName": "Magnone",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3090615
+                    }
+                  },
+                  {
+                    "id": 163294,
+                    "firstName": "Isabel",
+                    "lastName": "Wineski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3090615
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3090616,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196555,
+                    "firstName": "Merrill",
+                    "lastName": "Park",
+                    "grade": "9",
+                    "schoolId": 4284,
+                    "school": {
+                      "id": 4284,
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3090616
+                    }
+                  },
+                  {
+                    "id": 196121,
+                    "firstName": "Laura",
+                    "lastName": "Arlt",
+                    "grade": "12",
+                    "schoolId": 4284,
+                    "school": {
+                      "id": 4284,
+                      "name": "Canton",
+                      "logo": "school_4284.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3090616
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "_source": "phase2b_player_matches"
+}

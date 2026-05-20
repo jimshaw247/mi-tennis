@@ -1,0 +1,802 @@
+{
+  "player": {
+    "id": 191171,
+    "schoolId": 4188,
+    "firstName": "Leah ",
+    "lastName": "Stoddard",
+    "address": "thuizing@rockfordschools.org",
+    "email": "thuizing@rockfordschools.org",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-19T12:23:53.000Z",
+    "updatedAt": "2026-03-19T12:23:53.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Rockford",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Thomas",
+      "lastName": "Huizing"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 5,
+    "loss": 4
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3150311": 0,
+            "3150312": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150311": 4,
+            "3150312": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575191,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150312,
+        "createdAt": "2026-05-15T01:46:17.000Z",
+        "updatedAt": "2026-05-15T01:48:12.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-12T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150311,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191708,
+                "firstName": "Alyssa",
+                "lastName": "Smith",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T13:27:57.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4126,
+                  "name": "Jenison",
+                  "logo": null,
+                  "city": {
+                    "id": 9022,
+                    "name": "Jenison",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150311
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150312,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191171,
+                "firstName": "Leah ",
+                "lastName": "Stoddard",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:23:53.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150312
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3139571": 6,
+            "3139572": 7,
+            "number": 1,
+            "tie": 2
+          },
+          {
+            "3139571": 7,
+            "3139572": 5,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3139571": 4,
+            "3139572": 10,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1569821,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3139572,
+        "createdAt": "2026-05-12T13:10:12.000Z",
+        "updatedAt": "2026-05-12T13:16:46.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-11T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3139571,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191171,
+                "firstName": "Leah ",
+                "lastName": "Stoddard",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:23:53.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3139571
+                }
+              }
+            ]
+          },
+          {
+            "id": 3139572,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 198354,
+                "firstName": "Sadie",
+                "lastName": "Jenkins",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-20T22:38:21.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 132196,
+                  "name": "Ada Forest Hills Eastern",
+                  "logo": "school_132196.png",
+                  "city": {
+                    "id": 49,
+                    "name": "Ada",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3139572
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "2933803": 6,
+            "2933804": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "2933803": 4,
+            "2933804": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "2933803": 10,
+            "2933804": 8,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1466937,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 2933803,
+        "createdAt": "2026-03-21T22:25:47.000Z",
+        "updatedAt": "2026-03-21T22:26:49.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-03-21T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 2933803,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191171,
+                "firstName": "Leah ",
+                "lastName": "Stoddard",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:23:53.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2933803
+                }
+              }
+            ]
+          },
+          {
+            "id": 2933804,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 129725,
+                "firstName": "Saylor",
+                "lastName": "Ferguson",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4102,
+                  "name": "Greenville",
+                  "logo": null,
+                  "city": {
+                    "id": 7410,
+                    "name": "Greenville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2933804
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3139367": 6,
+            "3139368": 3,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3139367": 6,
+            "3139368": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1569719,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3139367,
+        "createdAt": "2026-05-12T12:28:36.000Z",
+        "updatedAt": "2026-05-12T12:41:58.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-11T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3139367,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191171,
+                "firstName": "Leah ",
+                "lastName": "Stoddard",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:23:53.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3139367
+                }
+              },
+              {
+                "id": 191166,
+                "firstName": "Evian",
+                "lastName": "Lund",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:21:27.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3139367
+                }
+              }
+            ]
+          },
+          {
+            "id": 3139368,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191909,
+                "firstName": "Evelyn",
+                "lastName": "Peterson",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-22T23:32:39.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4244,
+                  "name": "Spring Lake",
+                  "logo": null,
+                  "city": {
+                    "id": 17212,
+                    "name": "Spring lake",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3139368
+                }
+              },
+              {
+                "id": 191901,
+                "firstName": "Sophia",
+                "lastName": "Baumgardner",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-22T23:22:00.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4244,
+                  "name": "Spring Lake",
+                  "logo": null,
+                  "city": {
+                    "id": 17212,
+                    "name": "Spring lake",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3139368
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3076369": 7,
+            "3076370": 6,
+            "number": 1,
+            "tie": 6
+          },
+          {
+            "3076369": 0,
+            "3076370": 6,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3076369": 1,
+            "3076370": 0,
+            "number": 3,
+            "tie": 11
+          }
+        ],
+        "id": 1538220,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3076369,
+        "createdAt": "2026-04-29T23:23:11.000Z",
+        "updatedAt": "2026-04-29T23:23:11.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-25T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3076369,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 168243,
+                "firstName": "Sujana",
+                "lastName": "Chitibomma",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3076369
+                }
+              },
+              {
+                "id": 168244,
+                "firstName": "Abhi",
+                "lastName": "Etikyala",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4371,
+                  "name": "Okemos",
+                  "logo": null,
+                  "city": {
+                    "id": 13504,
+                    "name": "Okemos",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3076369
+                }
+              }
+            ]
+          },
+          {
+            "id": 3076370,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191168,
+                "firstName": "Vanessa",
+                "lastName": "Rollenhagen",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:22:34.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3076370
+                }
+              },
+              {
+                "id": 191171,
+                "firstName": "Leah ",
+                "lastName": "Stoddard",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:23:53.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3076370
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3076383": 6,
+            "3076384": 7,
+            "number": 1,
+            "tie": 2
+          },
+          {
+            "3076383": 4,
+            "3076384": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1538227,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3076384,
+        "createdAt": "2026-04-29T23:25:27.000Z",
+        "updatedAt": "2026-04-29T23:25:27.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-25T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3076383,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191168,
+                "firstName": "Vanessa",
+                "lastName": "Rollenhagen",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:22:34.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3076383
+                }
+              },
+              {
+                "id": 191171,
+                "firstName": "Leah ",
+                "lastName": "Stoddard",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:23:53.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3076383
+                }
+              }
+            ]
+          },
+          {
+            "id": 3076384,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 195422,
+                "firstName": "Alexis ",
+                "lastName": "Turnquist",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T17:13:57.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3076384
+                }
+              },
+              {
+                "id": 195426,
+                "firstName": "Adele ",
+                "lastName": "DeFour",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T17:16:16.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4071,
+                  "name": "Utica Eisenhower",
+                  "logo": "school_4071.png",
+                  "city": {
+                    "id": 16625,
+                    "name": "Shelby township",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3076384
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 191171,
+      "stateId": 30
+    },
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 191171,
+      "stateId": 30
+    }
+  ]
+}

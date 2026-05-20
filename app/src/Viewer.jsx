@@ -5,6 +5,7 @@ import { defaultState, normalizeMeta } from './lib/storage.js'
 import { pullState, subscribeState, supabaseConfigured } from './lib/sync.js'
 import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
+import SOSTab from './components/SOSTab.jsx'
 
 // Read-only viewer. Subscribes to Supabase realtime for live updates.
 // No editing controls. No localStorage write.
@@ -64,6 +65,8 @@ export default function Viewer() {
               className={`px-3 py-1.5 rounded text-xs font-semibold uppercase ${tab==='board' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Board</button>
             <button onClick={() => setTab('flights')}
               className={`px-3 py-1.5 rounded text-xs font-semibold uppercase ${tab==='flights' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'}`}>Flights</button>
+            <button onClick={() => setTab('sos')}
+              className={`px-3 py-1.5 rounded text-xs font-semibold uppercase ${tab==='sos' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'}`}>SOS</button>
           </div>
         </div>
         <div className="px-2 pb-2 flex gap-1">
@@ -102,6 +105,7 @@ export default function Viewer() {
             <Leaderboard flights={state.flights} compact />
           </>
         )}
+        {tab === 'sos' && <SOSTab />}
       </main>
 
       <footer className="p-3 border-t border-slate-800 text-[10px] text-slate-500 text-center">

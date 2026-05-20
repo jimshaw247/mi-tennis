@@ -1,0 +1,3816 @@
+{
+  "school": {
+    "id": 4047,
+    "name": "Rochester Hills Stoney Creek"
+  },
+  "overallRecord": {
+    "win": 4,
+    "loss": 3,
+    "tie": 4
+  },
+  "meets": [
+    {
+      "id": 9000000,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-14T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3005141": 1,
+                "3005142": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3005141": 3,
+                "3005142": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1502606,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3005142,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3005141,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126810,
+                    "firstName": "Leslie",
+                    "lastName": "Bahk",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3005141
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3005142,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125127,
+                    "firstName": "Nainika",
+                    "lastName": "Jasti",
+                    "grade": "12",
+                    "schoolId": 3923,
+                    "school": {
+                      "id": 3923,
+                      "name": "Troy",
+                      "logo": "school_3923.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3005142
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": []
+      }
+    },
+    {
+      "id": 9000001,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-13T05:01:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3146637": 6,
+                "3146638": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146637": 6,
+                "3146638": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573354,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3146637,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146637,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126812,
+                    "firstName": "Alison",
+                    "lastName": "Doka",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146637
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146638,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 172807,
+                    "firstName": "Madison",
+                    "lastName": "LeBel",
+                    "grade": "10",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146638
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148397": 6,
+                "3148398": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148397": 6,
+                "3148398": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574234,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148397,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148397,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126812,
+                    "firstName": "Alison",
+                    "lastName": "Doka",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148397
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148398,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 144409,
+                    "firstName": "Taylor",
+                    "lastName": "Hester",
+                    "grade": "11",
+                    "schoolId": 3938,
+                    "school": {
+                      "id": 3938,
+                      "name": "Clinton Township Chippewa Valley",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148398
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148409": 0,
+                "3148410": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148409": 0,
+                "3148410": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148409": null,
+                "3148410": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574240,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": "Default",
+            "winnerTeamId": 3148410,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148409,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126812,
+                    "firstName": "Alison",
+                    "lastName": "Doka",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148409
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148410,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141873,
+                    "firstName": "Alexa",
+                    "lastName": "Mackovski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148410
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148413": 7,
+                "3148414": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148413": 6,
+                "3148414": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574242,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148413,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148413,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126810,
+                    "firstName": "Leslie",
+                    "lastName": "Bahk",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148413
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148414,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 168058,
+                    "firstName": "Leilana",
+                    "lastName": "Latulip",
+                    "grade": "10",
+                    "schoolId": 4509,
+                    "school": {
+                      "id": 4509,
+                      "name": "Utica",
+                      "logo": "school_4509.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148414
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148435": 6,
+                "3148436": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148435": 6,
+                "3148436": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574253,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148435,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148435,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126810,
+                    "firstName": "Leslie",
+                    "lastName": "Bahk",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148435
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148436,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 141874,
+                    "firstName": "Kayleigh",
+                    "lastName": "Deguzman",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148436
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148437": 2,
+                "3148438": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148437": 2,
+                "3148438": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574254,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": "Default",
+            "winnerTeamId": 3148437,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148437,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 164765,
+                    "firstName": "Morgan",
+                    "lastName": "Emerick",
+                    "grade": "10",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148437
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148438,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126810,
+                    "firstName": "Leslie",
+                    "lastName": "Bahk",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148438
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3146761": 6,
+                "3146762": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146761": 6,
+                "3146762": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573416,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3146761,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146761,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126811,
+                    "firstName": "Addison ",
+                    "lastName": "Michalak",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146761
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146762,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 199864,
+                    "firstName": "Marina",
+                    "lastName": "Campos",
+                    "grade": "11",
+                    "schoolId": 4077,
+                    "school": {
+                      "id": 4077,
+                      "name": "New Baltimore Anchor Bay",
+                      "logo": "school_4077.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146762
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148521": 6,
+                "3148522": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148521": 6,
+                "3148522": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574296,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3148521,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148521,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126811,
+                    "firstName": "Addison ",
+                    "lastName": "Michalak",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148521
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148522,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 147578,
+                    "firstName": "Kameryn",
+                    "lastName": "Champine",
+                    "grade": "11",
+                    "schoolId": 4230,
+                    "school": {
+                      "id": 4230,
+                      "name": "Macomb L'Anse Creuse North",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148522
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148525": 0,
+                "3148526": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148525": 0,
+                "3148526": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148525": null,
+                "3148526": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574298,
+            "flight": "3",
+            "matchType": "Singles",
+            "finish": "Default",
+            "winnerTeamId": 3148526,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148525,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 126811,
+                    "firstName": "Addison ",
+                    "lastName": "Michalak",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148525
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148526,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 148061,
+                    "firstName": "Mia ",
+                    "lastName": "Miller",
+                    "grade": "11",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148526
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3149593": 6,
+                "3149594": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3149593": 6,
+                "3149594": 3,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3149593": null,
+                "3149594": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574832,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3149593,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3149593,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171408,
+                    "firstName": "Aarya",
+                    "lastName": "Newalker",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149593
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3149594,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 152238,
+                    "firstName": "Chloe",
+                    "lastName": "Mezza",
+                    "grade": "11",
+                    "schoolId": 4077,
+                    "school": {
+                      "id": 4077,
+                      "name": "New Baltimore Anchor Bay",
+                      "logo": "school_4077.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149594
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3149597": 4,
+                "3149598": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3149597": 1,
+                "3149598": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574834,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3149598,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3149597,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171408,
+                    "firstName": "Aarya",
+                    "lastName": "Newalker",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149597
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3149598,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141879,
+                    "firstName": "Mary",
+                    "lastName": "Wesley",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149598
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3146679": 6,
+                "3146680": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3146679": 6,
+                "3146680": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1573375,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3146679,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3146679,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150309,
+                    "firstName": "Audrey",
+                    "lastName": "Wilburn",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146679
+                    }
+                  },
+                  {
+                    "id": 171409,
+                    "firstName": "Helena",
+                    "lastName": "Tumonis",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3146679
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3146680,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169149,
+                    "firstName": "Emily",
+                    "lastName": "Mossington",
+                    "grade": "12",
+                    "schoolId": 4630,
+                    "school": {
+                      "id": 4630,
+                      "name": "Macomb Dakota",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3146680
+                    }
+                  },
+                  {
+                    "id": 197169,
+                    "firstName": "Justyce",
+                    "lastName": "Carter",
+                    "grade": "10",
+                    "schoolId": 4630,
+                    "school": {
+                      "id": 4630,
+                      "name": "Macomb Dakota",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3146680
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148583": 3,
+                "3148584": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148583": 4,
+                "3148584": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148583": null,
+                "3148584": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574327,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148584,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148583,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150309,
+                    "firstName": "Audrey",
+                    "lastName": "Wilburn",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148583
+                    }
+                  },
+                  {
+                    "id": 171409,
+                    "firstName": "Helena",
+                    "lastName": "Tumonis",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148583
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148584,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141880,
+                    "firstName": "Hailey",
+                    "lastName": "Rohrborn",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148584
+                    }
+                  },
+                  {
+                    "id": 131268,
+                    "firstName": "Eve",
+                    "lastName": "Eschenburg",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148584
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148531": 6,
+                "3148532": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148531": 6,
+                "3148532": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574301,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148531,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148531,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150307,
+                    "firstName": "Larissa",
+                    "lastName": "Yoshino",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148531
+                    }
+                  },
+                  {
+                    "id": 171407,
+                    "firstName": "Yousong",
+                    "lastName": "Choi",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148531
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148532,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169146,
+                    "firstName": "Amelia",
+                    "lastName": "Marocco",
+                    "grade": "11",
+                    "schoolId": 4630,
+                    "school": {
+                      "id": 4630,
+                      "name": "Macomb Dakota",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148532
+                    }
+                  },
+                  {
+                    "id": 197170,
+                    "firstName": "Annie",
+                    "lastName": "Wyatt",
+                    "grade": "10",
+                    "schoolId": 4630,
+                    "school": {
+                      "id": 4630,
+                      "name": "Macomb Dakota",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148532
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148553": 6,
+                "3148554": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148553": 6,
+                "3148554": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574312,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148553,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148553,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150307,
+                    "firstName": "Larissa",
+                    "lastName": "Yoshino",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148553
+                    }
+                  },
+                  {
+                    "id": 171407,
+                    "firstName": "Yousong",
+                    "lastName": "Choi",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148553
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148554,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 131746,
+                    "firstName": "Clancy",
+                    "lastName": "Walker",
+                    "grade": "12",
+                    "schoolId": 4230,
+                    "school": {
+                      "id": 4230,
+                      "name": "Macomb L'Anse Creuse North",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148554
+                    }
+                  },
+                  {
+                    "id": 127876,
+                    "firstName": "Samantha",
+                    "lastName": "Curtis",
+                    "grade": "12",
+                    "schoolId": 4230,
+                    "school": {
+                      "id": 4230,
+                      "name": "Macomb L'Anse Creuse North",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148554
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148567": 6,
+                "3148568": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148567": 3,
+                "3148568": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148567": 4,
+                "3148568": 6,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574319,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148568,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148567,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150307,
+                    "firstName": "Larissa",
+                    "lastName": "Yoshino",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148567
+                    }
+                  },
+                  {
+                    "id": 171407,
+                    "firstName": "Yousong",
+                    "lastName": "Choi",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148567
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148568,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 125198,
+                    "firstName": "Alexis ",
+                    "lastName": "Gabriel",
+                    "grade": "12",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148568
+                    }
+                  },
+                  {
+                    "id": 148060,
+                    "firstName": "Kara",
+                    "lastName": "Lu",
+                    "grade": "11",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148568
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148601": 0,
+                "3148602": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148601": 0,
+                "3148602": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148601": null,
+                "3148602": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574336,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": "Default",
+            "winnerTeamId": 3148602,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148601,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195727,
+                    "firstName": "Nikhita",
+                    "lastName": "Chanchali",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148601
+                    }
+                  },
+                  {
+                    "id": 150308,
+                    "firstName": "Gabby",
+                    "lastName": "Schramski",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148601
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148602,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 163282,
+                    "firstName": "Dakota",
+                    "lastName": "Rottman",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148602
+                    }
+                  },
+                  {
+                    "id": 141882,
+                    "firstName": "Lauren",
+                    "lastName": "Cross",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148602
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3149627": 6,
+                "3149628": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3149627": 6,
+                "3149628": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1574849,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3149627,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3149627,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150308,
+                    "firstName": "Gabby",
+                    "lastName": "Schramski",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149627
+                    }
+                  },
+                  {
+                    "id": 195727,
+                    "firstName": "Nikhita",
+                    "lastName": "Chanchali",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3149627
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3149628,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 192343,
+                    "firstName": "Samantha",
+                    "lastName": "Gatie",
+                    "grade": "10",
+                    "schoolId": 4509,
+                    "school": {
+                      "id": 4509,
+                      "name": "Utica",
+                      "logo": "school_4509.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3149628
+                    }
+                  },
+                  {
+                    "id": 192345,
+                    "firstName": "Delana",
+                    "lastName": "Dickow",
+                    "grade": "12",
+                    "schoolId": 4509,
+                    "school": {
+                      "id": 4509,
+                      "name": "Utica",
+                      "logo": "school_4509.jpeg"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3149628
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3148631": 3,
+                "3148632": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3148631": 4,
+                "3148632": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3148631": null,
+                "3148632": null,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1574351,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3148632,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3148631,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150312,
+                    "firstName": "Nayoon",
+                    "lastName": "Lee",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148631
+                    }
+                  },
+                  {
+                    "id": 152668,
+                    "firstName": "Anna",
+                    "lastName": "Felice",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148631
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3148632,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 141878,
+                    "firstName": "Evelyn",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3148632
+                    }
+                  },
+                  {
+                    "id": 141883,
+                    "firstName": "Christina",
+                    "lastName": "Rosenow",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3148632
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3151407": 6,
+                "3151408": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3151407": 6,
+                "3151408": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1575739,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3151407,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3151407,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150312,
+                    "firstName": "Nayoon",
+                    "lastName": "Lee",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3151407
+                    }
+                  },
+                  {
+                    "id": 152668,
+                    "firstName": "Anna",
+                    "lastName": "Felice",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3151407
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3151408,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 191614,
+                    "firstName": "Lorena",
+                    "lastName": "Kulla",
+                    "grade": "12",
+                    "schoolId": 3938,
+                    "school": {
+                      "id": 3938,
+                      "name": "Clinton Township Chippewa Valley",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3151408
+                    }
+                  },
+                  {
+                    "id": 191611,
+                    "firstName": "Stacy",
+                    "lastName": "Hoti",
+                    "grade": "11",
+                    "schoolId": 3938,
+                    "school": {
+                      "id": 3938,
+                      "name": "Clinton Township Chippewa Valley",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3151408
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000002,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-11T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3143089": 6,
+                "3143090": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3143089": 6,
+                "3143090": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571580,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3143089,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3143089,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191721,
+                    "firstName": "Jilly",
+                    "lastName": "Knoester",
+                    "grade": "9",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143089
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3143090,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171408,
+                    "firstName": "Aarya",
+                    "lastName": "Newalker",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143090
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3143077": 2,
+                "3143078": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3143077": 2,
+                "3143078": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571574,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3143078,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3143077,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 149632,
+                    "firstName": "Kelly",
+                    "lastName": "Cook",
+                    "grade": "11",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143077
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3143078,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126812,
+                    "firstName": "Alison",
+                    "lastName": "Doka",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143078
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3143097": 6,
+                "3143098": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3143097": 5,
+                "3143098": 7,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3143097": 6,
+                "3143098": 1,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1571584,
+            "flight": "2",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3143097,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3143097,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 130429,
+                    "firstName": "Claire",
+                    "lastName": "Shin",
+                    "grade": "12",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143097
+                    }
+                  },
+                  {
+                    "id": 191722,
+                    "firstName": "Maddie",
+                    "lastName": "Chang",
+                    "grade": "9",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143097
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3143098,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 171409,
+                    "firstName": "Helena",
+                    "lastName": "Tumonis",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143098
+                    }
+                  },
+                  {
+                    "id": 150309,
+                    "firstName": "Audrey",
+                    "lastName": "Wilburn",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143098
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3143099": 6,
+                "3143100": 3,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3143099": 4,
+                "3143100": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3143099": 7,
+                "3143100": 6,
+                "number": 3,
+                "tie": 4
+              }
+            ],
+            "id": 1571585,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3143099,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3143099,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 151572,
+                    "firstName": "Arya",
+                    "lastName": "Birje",
+                    "grade": "12",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143099
+                    }
+                  },
+                  {
+                    "id": 168529,
+                    "firstName": "Vivienne ",
+                    "lastName": "Probst",
+                    "grade": "11",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143099
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3143100,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150308,
+                    "firstName": "Gabby",
+                    "lastName": "Schramski",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143100
+                    }
+                  },
+                  {
+                    "id": 195727,
+                    "firstName": "Nikhita",
+                    "lastName": "Chanchali",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143100
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3143101": 6,
+                "3143102": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3143101": 6,
+                "3143102": 4,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571586,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3143101,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3143101,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191724,
+                    "firstName": "Alicia ",
+                    "lastName": "D'Silva",
+                    "grade": "10",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143101
+                    }
+                  },
+                  {
+                    "id": 167770,
+                    "firstName": "Nisha",
+                    "lastName": "Yevate",
+                    "grade": "10",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143101
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3143102,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150312,
+                    "firstName": "Nayoon",
+                    "lastName": "Lee",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143102
+                    }
+                  },
+                  {
+                    "id": 152668,
+                    "firstName": "Anna",
+                    "lastName": "Felice",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143102
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3143105": 1,
+                "3143106": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3143105": 4,
+                "3143106": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571588,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3143106,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3143105,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 167765,
+                    "firstName": "Olga",
+                    "lastName": "Kobita",
+                    "grade": "12",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143105
+                    }
+                  },
+                  {
+                    "id": 167767,
+                    "firstName": "Kaylin",
+                    "lastName": "Nagaitis",
+                    "grade": "12",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143105
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3143106,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195728,
+                    "firstName": "Inna ",
+                    "lastName": "Esquivel",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143106
+                    }
+                  },
+                  {
+                    "id": 195729,
+                    "firstName": "Zara",
+                    "lastName": "Nigl",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143106
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3143111": 6,
+                "3143112": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3143111": 6,
+                "3143112": 1,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1571591,
+            "flight": "6",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3143111,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3143111,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 167766,
+                    "firstName": "Kendall",
+                    "lastName": "Markham",
+                    "grade": "11",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143111
+                    }
+                  },
+                  {
+                    "id": 191725,
+                    "firstName": "Danielle",
+                    "lastName": "Simoes",
+                    "grade": "11",
+                    "schoolId": 4449,
+                    "school": {
+                      "id": 4449,
+                      "name": "Rochester",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143111
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3143112,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195730,
+                    "firstName": "Natalie",
+                    "lastName": "Sapp",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3143112
+                    }
+                  },
+                  {
+                    "id": 195731,
+                    "firstName": "Aashi",
+                    "lastName": "Upadhyay",
+                    "grade": "9",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3143112
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000003,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-07T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3117135": 6,
+                "3117136": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3117135": 6,
+                "3117136": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1558603,
+            "flight": "2",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3117135,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3117135,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171407,
+                    "firstName": "Yousong",
+                    "lastName": "Choi",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3117135
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3117136,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 169145,
+                    "firstName": "Rose",
+                    "lastName": "Hedrick",
+                    "grade": "10",
+                    "schoolId": 4630,
+                    "school": {
+                      "id": 4630,
+                      "name": "Macomb Dakota",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3117136
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3117149": 2,
+                "3117150": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3117149": 1,
+                "3117150": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1558610,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3117150,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3117149,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195731,
+                    "firstName": "Aashi",
+                    "lastName": "Upadhyay",
+                    "grade": "9",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3117149
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3117150,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 169151,
+                    "firstName": "Ava",
+                    "lastName": "Brewer",
+                    "grade": "12",
+                    "schoolId": 4630,
+                    "school": {
+                      "id": 4630,
+                      "name": "Macomb Dakota",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3117150
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3117169": 6,
+                "3117170": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3117169": 6,
+                "3117170": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1558620,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3117169,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3117169,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195727,
+                    "firstName": "Nikhita",
+                    "lastName": "Chanchali",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3117169
+                    }
+                  },
+                  {
+                    "id": 195728,
+                    "firstName": "Inna ",
+                    "lastName": "Esquivel",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3117169
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3117170,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 197168,
+                    "firstName": "Teodora",
+                    "lastName": "Peroska",
+                    "grade": "12",
+                    "schoolId": 4630,
+                    "school": {
+                      "id": 4630,
+                      "name": "Macomb Dakota",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3117170
+                    }
+                  },
+                  {
+                    "id": 197171,
+                    "firstName": "Patricia",
+                    "lastName": "Orzol",
+                    "grade": "12",
+                    "schoolId": 4630,
+                    "school": {
+                      "id": 4630,
+                      "name": "Macomb Dakota",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3117170
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000004,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-25T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3076205": 6,
+                "3076206": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3076205": 6,
+                "3076206": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1538138,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3076205,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3076205,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 191165,
+                    "firstName": "Lilly ",
+                    "lastName": "Bajema",
+                    "grade": "9",
+                    "schoolId": 4188,
+                    "school": {
+                      "id": 4188,
+                      "name": "Rockford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3076205
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3076206,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195731,
+                    "firstName": "Aashi",
+                    "lastName": "Upadhyay",
+                    "grade": "9",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3076206
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3076501": 6,
+                "3076502": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3076501": 3,
+                "3076502": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3076501": 1,
+                "3076502": 0,
+                "number": 3,
+                "tie": 4
+              }
+            ],
+            "id": 1538286,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3076501,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3076501,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195728,
+                    "firstName": "Inna ",
+                    "lastName": "Esquivel",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3076501
+                    }
+                  },
+                  {
+                    "id": 195729,
+                    "firstName": "Zara",
+                    "lastName": "Nigl",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3076501
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3076502,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 190093,
+                    "firstName": "Alaina",
+                    "lastName": "Olson",
+                    "grade": "12",
+                    "schoolId": 4569,
+                    "school": {
+                      "id": 4569,
+                      "name": "Hudsonville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3076502
+                    }
+                  },
+                  {
+                    "id": 190313,
+                    "firstName": "Jorja",
+                    "lastName": "Straub",
+                    "grade": "10",
+                    "schoolId": 4569,
+                    "school": {
+                      "id": 4569,
+                      "name": "Hudsonville",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3076502
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3076513": 6,
+                "3076514": 4,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3076513": 6,
+                "3076514": 2,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1538292,
+            "flight": "5",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3076513,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3076513,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 166072,
+                    "firstName": "Kate",
+                    "lastName": "Coyle",
+                    "grade": "12",
+                    "schoolId": 4188,
+                    "school": {
+                      "id": 4188,
+                      "name": "Rockford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3076513
+                    }
+                  },
+                  {
+                    "id": 167605,
+                    "firstName": "Evelyn",
+                    "lastName": "Schwander",
+                    "grade": "12",
+                    "schoolId": 4188,
+                    "school": {
+                      "id": 4188,
+                      "name": "Rockford",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3076513
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3076514,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195728,
+                    "firstName": "Inna ",
+                    "lastName": "Esquivel",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3076514
+                    }
+                  },
+                  {
+                    "id": 195729,
+                    "firstName": "Zara",
+                    "lastName": "Nigl",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3076514
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000005,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-30T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3088593": 6,
+                "3088594": 0,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3088593": 6,
+                "3088594": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1544332,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3088593,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3088593,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 170043,
+                    "firstName": "Ariella",
+                    "lastName": "Ferguson ",
+                    "grade": "10",
+                    "schoolId": 4287,
+                    "school": {
+                      "id": 4287,
+                      "name": "West Bloomfield",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3088593
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3088594,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195731,
+                    "firstName": "Aashi",
+                    "lastName": "Upadhyay",
+                    "grade": "9",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3088594
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": []
+      }
+    },
+    {
+      "id": 9000006,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-20T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3061063": 8,
+                "3061064": 6,
+                "number": 1,
+                "tie": null
+              }
+            ],
+            "id": 1530567,
+            "flight": "6",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3061063,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3061063,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 197691,
+                    "firstName": "Melis",
+                    "lastName": "Ergun",
+                    "grade": "11",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3061063
+                    }
+                  },
+                  {
+                    "id": 197689,
+                    "firstName": "Liz",
+                    "lastName": "Jang",
+                    "grade": "12",
+                    "schoolId": 4441,
+                    "school": {
+                      "id": 4441,
+                      "name": "Rochester Adams",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3061063
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3061064,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 195731,
+                    "firstName": "Aashi",
+                    "lastName": "Upadhyay",
+                    "grade": "9",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3061064
+                    }
+                  },
+                  {
+                    "id": 195727,
+                    "firstName": "Nikhita",
+                    "lastName": "Chanchali",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3061064
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000007,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-04-21T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3040141": 4,
+                "3040142": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3040141": 6,
+                "3040142": 2,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3040141": 7,
+                "3040142": 5,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1520106,
+            "flight": "4",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3040141,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3040141,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 171408,
+                    "firstName": "Aarya",
+                    "lastName": "Newalker",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040141
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3040142,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 152096,
+                    "firstName": "Ava",
+                    "lastName": "Ebling",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040142
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3040153": 6,
+                "3040154": 1,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3040153": 6,
+                "3040154": 0,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1520112,
+            "flight": "1",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3040153,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3040153,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150307,
+                    "firstName": "Larissa",
+                    "lastName": "Yoshino",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040153
+                    }
+                  },
+                  {
+                    "id": 171407,
+                    "firstName": "Yousong",
+                    "lastName": "Choi",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3040153
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3040154,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 125764,
+                    "firstName": "Lana",
+                    "lastName": "Sloan",
+                    "grade": "12",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040154
+                    }
+                  },
+                  {
+                    "id": 145829,
+                    "firstName": "Harper",
+                    "lastName": "Jones",
+                    "grade": "11",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3040154
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sets": [
+              {
+                "3040205": 7,
+                "3040206": 5,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3040205": 3,
+                "3040206": 6,
+                "number": 2,
+                "tie": null
+              },
+              {
+                "3040205": 6,
+                "3040206": 3,
+                "number": 3,
+                "tie": null
+              }
+            ],
+            "id": 1520138,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3040205,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3040205,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 150312,
+                    "firstName": "Nayoon",
+                    "lastName": "Lee",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040205
+                    }
+                  },
+                  {
+                    "id": 152668,
+                    "firstName": "Anna",
+                    "lastName": "Felice",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3040205
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3040206,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 196043,
+                    "firstName": "Aurora",
+                    "lastName": "Gonzalvo",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3040206
+                    }
+                  },
+                  {
+                    "id": 196044,
+                    "firstName": "Addison",
+                    "lastName": "Graves",
+                    "grade": "10",
+                    "schoolId": 4052,
+                    "school": {
+                      "id": 4052,
+                      "name": "Clarkston",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3040206
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000008,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-06T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [
+          {
+            "sets": [
+              {
+                "3115933": 0,
+                "3115934": 6,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3115933": 0,
+                "3115934": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1558002,
+            "flight": "1",
+            "matchType": "Singles",
+            "finish": null,
+            "winnerTeamId": 3115933,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3115933,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 126812,
+                    "firstName": "Alison",
+                    "lastName": "Doka",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115933
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3115934,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 164766,
+                    "firstName": "Olivia",
+                    "lastName": "Martinovski",
+                    "grade": "11",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115934
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3115955": 5,
+                "3115956": 7,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3115955": 1,
+                "3115956": 6,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1558013,
+            "flight": "3",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3115956,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3115955,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 150308,
+                    "firstName": "Gabby",
+                    "lastName": "Schramski",
+                    "grade": "12",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115955
+                    }
+                  },
+                  {
+                    "id": 195727,
+                    "firstName": "Nikhita",
+                    "lastName": "Chanchali",
+                    "grade": "10",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3115955
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3115956,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 195424,
+                    "firstName": "Katarina",
+                    "lastName": "Djordjevic",
+                    "grade": "11",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3115956
+                    }
+                  },
+                  {
+                    "id": 195425,
+                    "firstName": "Jaslyn",
+                    "lastName": "Nguyen",
+                    "grade": "11",
+                    "schoolId": 4071,
+                    "school": {
+                      "id": 4071,
+                      "name": "Utica Eisenhower",
+                      "logo": "school_4071.png"
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3115956
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9000009,
+      "title": "flight-4 augment",
+      "meetDateTime": "2026-05-05T04:00:00.000Z",
+      "postSeason": false,
+      "approveMeet": true,
+      "eventId": null,
+      "schools": {
+        "winners": [],
+        "losers": []
+      },
+      "matches": {
+        "Singles": [],
+        "Doubles": [
+          {
+            "sets": [
+              {
+                "3113637": 6,
+                "3113638": 2,
+                "number": 1,
+                "tie": null
+              },
+              {
+                "3113637": 6,
+                "3113638": 3,
+                "number": 2,
+                "tie": null
+              }
+            ],
+            "id": 1556854,
+            "flight": "4",
+            "matchType": "Doubles",
+            "finish": null,
+            "winnerTeamId": 3113637,
+            "isNotVarsity": false,
+            "matchTeams": [
+              {
+                "id": 3113637,
+                "isWinner": true,
+                "players": [
+                  {
+                    "id": 152668,
+                    "firstName": "Anna",
+                    "lastName": "Felice",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3113637
+                    }
+                  },
+                  {
+                    "id": 150312,
+                    "firstName": "Nayoon",
+                    "lastName": "Lee",
+                    "grade": "11",
+                    "schoolId": 4047,
+                    "school": {
+                      "id": 4047,
+                      "name": "Rochester Hills Stoney Creek",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3113637
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3113638,
+                "isWinner": false,
+                "players": [
+                  {
+                    "id": 163294,
+                    "firstName": "Isabel",
+                    "lastName": "Wineski",
+                    "grade": "11",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 1,
+                      "matchTeamId": 3113638
+                    }
+                  },
+                  {
+                    "id": 141878,
+                    "firstName": "Evelyn",
+                    "lastName": "Jones",
+                    "grade": "12",
+                    "schoolId": 4373,
+                    "school": {
+                      "id": 4373,
+                      "name": "Romeo",
+                      "logo": null
+                    },
+                    "matchTeamPlayer": {
+                      "position": 2,
+                      "matchTeamId": 3113638
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "_source": "phase2b_player_matches"
+}

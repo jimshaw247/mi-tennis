@@ -1,0 +1,353 @@
+{
+  "player": {
+    "id": 191165,
+    "schoolId": 4188,
+    "firstName": "Lilly ",
+    "lastName": "Bajema",
+    "address": "thuizing@rockfordschools.org",
+    "email": "thuizing@rockfordschools.org",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "9",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-19T12:20:54.000Z",
+    "updatedAt": "2026-03-19T12:20:54.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Rockford",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Thomas",
+      "lastName": "Huizing"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 14,
+    "loss": 9
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3147641": 0,
+            "3147642": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147641": 2,
+            "3147642": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573856,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147642,
+        "createdAt": "2026-05-14T17:26:54.000Z",
+        "updatedAt": "2026-05-14T17:26:54.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147641,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191708,
+                "firstName": "Alyssa",
+                "lastName": "Smith",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T13:27:57.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4126,
+                  "name": "Jenison",
+                  "logo": null,
+                  "city": {
+                    "id": 9022,
+                    "name": "Jenison",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147641
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147642,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191165,
+                "firstName": "Lilly ",
+                "lastName": "Bajema",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:20:54.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147642
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3148127": 6,
+            "3148128": 3,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3148127": 6,
+            "3148128": 2,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1574099,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3148127,
+        "createdAt": "2026-05-14T19:23:46.000Z",
+        "updatedAt": "2026-05-14T19:23:46.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3148127,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191165,
+                "firstName": "Lilly ",
+                "lastName": "Bajema",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:20:54.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148127
+                }
+              }
+            ]
+          },
+          {
+            "id": 3148128,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 163928,
+                "firstName": "Rylie",
+                "lastName": "Hull",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148128
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3148399": 6,
+            "3148400": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3148399": 6,
+            "3148400": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1574235,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3148399,
+        "createdAt": "2026-05-14T20:37:55.000Z",
+        "updatedAt": "2026-05-14T20:37:55.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3148399,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 125157,
+                "firstName": "Maggie",
+                "lastName": "Rothstein",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 344,
+                    "eventYear": "2023",
+                    "eventName": "MHSAA Finals--2023"
+                  },
+                  {
+                    "eventId": 493,
+                    "eventYear": "2024",
+                    "eventName": "MHSAA Finals-2024"
+                  },
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148399
+                }
+              }
+            ]
+          },
+          {
+            "id": 3148400,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 191165,
+                "firstName": "Lilly ",
+                "lastName": "Bajema",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-19T12:20:54.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4188,
+                  "name": "Rockford",
+                  "logo": null,
+                  "city": {
+                    "id": 15593,
+                    "name": "Rockford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148400
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 191165,
+      "stateId": 30
+    }
+  ]
+}

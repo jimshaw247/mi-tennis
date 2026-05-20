@@ -1,0 +1,796 @@
+{
+  "player": {
+    "id": 169667,
+    "schoolId": 4427,
+    "firstName": "Phi",
+    "lastName": "McGee",
+    "address": null,
+    "email": "Mcgees@salinehornets.org",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "10",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-04-08T23:41:29.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Saline",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Andrew",
+      "lastName": "BeDell"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 5,
+    "loss": 4
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3138875": 5,
+            "3138876": 7,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3138875": 3,
+            "3138876": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1569473,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3138876,
+        "createdAt": "2026-05-12T07:13:13.000Z",
+        "updatedAt": "2026-05-12T07:13:13.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-07T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3138875,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 151993,
+                "firstName": "Sydney",
+                "lastName": "Suppes",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3962,
+                  "name": "Dexter",
+                  "logo": null,
+                  "city": {
+                    "id": 4778,
+                    "name": "Dexter",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3138875
+                }
+              }
+            ]
+          },
+          {
+            "id": 3138876,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 169667,
+                "firstName": "Phi",
+                "lastName": "McGee",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3138876
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3069249": 6,
+            "3069250": 4,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3069249": 6,
+            "3069250": 4,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1534660,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3069249,
+        "createdAt": "2026-04-29T00:02:24.000Z",
+        "updatedAt": "2026-04-29T00:02:24.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-28T08:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3069249,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 171064,
+                "firstName": "Samantha ",
+                "lastName": "Smith",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4382,
+                  "name": "Temperance Bedford",
+                  "logo": null,
+                  "city": {
+                    "id": 18009,
+                    "name": "Temperance",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3069249
+                }
+              }
+            ]
+          },
+          {
+            "id": 3069250,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169667,
+                "firstName": "Phi",
+                "lastName": "McGee",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3069250
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3021551": 1,
+            "3021552": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3021551": 3,
+            "3021552": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1510811,
+        "flight": "1",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3021552,
+        "createdAt": "2026-04-19T14:36:48.000Z",
+        "updatedAt": "2026-04-19T14:36:48.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-16T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3021551,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169667,
+                "firstName": "Phi",
+                "lastName": "McGee",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3021551
+                }
+              }
+            ]
+          },
+          {
+            "id": 3021552,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 124765,
+                "firstName": "Allie",
+                "lastName": "Wells",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4140,
+                  "name": "Monroe",
+                  "logo": null,
+                  "city": {
+                    "id": 11999,
+                    "name": "Monroe",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3021552
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3028679": 6,
+            "3028680": 4,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3028679": 6,
+            "3028680": 3,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1514375,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3028679,
+        "createdAt": "2026-04-21T01:50:10.000Z",
+        "updatedAt": "2026-04-21T01:50:10.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-20T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3028679,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 131629,
+                "firstName": "Audrey",
+                "lastName": "Jeon",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3028679
+                }
+              },
+              {
+                "id": 195527,
+                "firstName": "Jasmine ",
+                "lastName": "Bhadra",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T21:34:20.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3933,
+                  "name": "Novi",
+                  "logo": null,
+                  "city": {
+                    "id": 13318,
+                    "name": "Novi",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3028679
+                }
+              }
+            ]
+          },
+          {
+            "id": 3028680,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169667,
+                "firstName": "Phi",
+                "lastName": "McGee",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3028680
+                }
+              },
+              {
+                "id": 169666,
+                "firstName": "Olivia",
+                "lastName": "Hallman",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3028680
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3021177": 6,
+            "3021178": 1,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3021177": 6,
+            "3021178": 2,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1510624,
+        "flight": "5",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3021177,
+        "createdAt": "2026-04-19T13:27:56.000Z",
+        "updatedAt": "2026-04-19T13:27:56.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-18T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3021177,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 151888,
+                "firstName": "Sanaaya",
+                "lastName": "Dhanasri",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-30T00:03:48.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3021177
+                }
+              },
+              {
+                "id": 193507,
+                "firstName": "Averie",
+                "lastName": "Foster",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-29T12:35:22.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4337,
+                  "name": "Northville",
+                  "logo": "school_4337.jpg",
+                  "city": {
+                    "id": 13275,
+                    "name": "Northville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3021177
+                }
+              }
+            ]
+          },
+          {
+            "id": 3021178,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169667,
+                "firstName": "Phi",
+                "lastName": "McGee",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3021178
+                }
+              },
+              {
+                "id": 169666,
+                "firstName": "Olivia",
+                "lastName": "Hallman",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3021178
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "2990253": 6,
+            "2990254": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "2990253": 6,
+            "2990254": 0,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1495162,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 2990253,
+        "createdAt": "2026-04-12T23:13:58.000Z",
+        "updatedAt": "2026-04-12T23:13:58.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-04-11T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 2990253,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 169669,
+                "firstName": "Alexandra",
+                "lastName": "Warner",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2990253
+                }
+              },
+              {
+                "id": 169667,
+                "firstName": "Phi",
+                "lastName": "McGee",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4427,
+                  "name": "Saline",
+                  "logo": null,
+                  "city": {
+                    "id": 16074,
+                    "name": "Saline",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2990253
+                }
+              }
+            ]
+          },
+          {
+            "id": 2990254,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 168524,
+                "firstName": "Lucy",
+                "lastName": "Gruber",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3842,
+                  "name": "Traverse City St Francis",
+                  "logo": null,
+                  "city": {
+                    "id": 18314,
+                    "name": "Traverse city",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 2990254
+                }
+              },
+              {
+                "id": 196891,
+                "firstName": "Katelyn",
+                "lastName": "Endres",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-11T00:03:29.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 3842,
+                  "name": "Traverse City St Francis",
+                  "logo": null,
+                  "city": {
+                    "id": 18314,
+                    "name": "Traverse city",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 2990254
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 169667,
+      "stateId": 30
+    },
+    {
+      "elo": 10,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 169667,
+      "stateId": 30
+    }
+  ]
+}

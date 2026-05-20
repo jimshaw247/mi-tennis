@@ -1,0 +1,367 @@
+{
+  "player": {
+    "id": 144560,
+    "schoolId": 4015,
+    "firstName": "Mallory ",
+    "lastName": "Johnson",
+    "address": null,
+    "email": null,
+    "phone": null,
+    "dateOfBirth": "2008-08-11T04:00:00.000Z",
+    "grade": "11",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2024-03-17T01:25:45.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Byron Center",
+      "logo": "school_4015.png"
+    },
+    "editor": {
+      "firstName": "Jared",
+      "lastName": "Crandell"
+    },
+    "playerInStateTournaments": [
+      {
+        "eventId": 611,
+        "eventYear": "2025",
+        "eventName": "MHSAA Finals Tournament-2025"
+      }
+    ]
+  },
+  "overallRecord": {
+    "win": 19,
+    "loss": 2
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3147733": 4,
+            "3147734": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3147733": 3,
+            "3147734": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1573902,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3147734,
+        "createdAt": "2026-05-14T17:42:04.000Z",
+        "updatedAt": "2026-05-14T17:42:04.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3147733,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 163790,
+                "firstName": "Maddie",
+                "lastName": "Kopp",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4126,
+                  "name": "Jenison",
+                  "logo": null,
+                  "city": {
+                    "id": 9022,
+                    "name": "Jenison",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147733
+                }
+              }
+            ]
+          },
+          {
+            "id": 3147734,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 144560,
+                "firstName": "Mallory ",
+                "lastName": "Johnson",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3147734
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3148205": 5,
+            "3148206": 7,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3148205": 6,
+            "3148206": 2,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3148205": 3,
+            "3148206": 6,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1574138,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3148206,
+        "createdAt": "2026-05-14T19:51:22.000Z",
+        "updatedAt": "2026-05-14T19:51:22.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3148205,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 166015,
+                "firstName": "Anna ",
+                "lastName": "Hubbard",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-01T23:52:55.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4569,
+                  "name": "Hudsonville",
+                  "logo": null,
+                  "city": {
+                    "id": 8578,
+                    "name": "Hudsonville",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148205
+                }
+              }
+            ]
+          },
+          {
+            "id": 3148206,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 144560,
+                "firstName": "Mallory ",
+                "lastName": "Johnson",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3148206
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3149285": 1,
+            "3149286": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3149285": 6,
+            "3149286": 2,
+            "number": 2,
+            "tie": null
+          },
+          {
+            "3149285": 6,
+            "3149286": 3,
+            "number": 3,
+            "tie": null
+          }
+        ],
+        "id": 1574678,
+        "flight": "2",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3149285,
+        "createdAt": "2026-05-14T22:52:37.000Z",
+        "updatedAt": "2026-05-14T22:52:37.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3149285,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 186160,
+                "firstName": "Isabella",
+                "lastName": "Gitler",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-02-16T16:41:02.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4417,
+                  "name": "Holland West Ottawa",
+                  "logo": "school_4417.jpg",
+                  "city": {
+                    "id": 8332,
+                    "name": "Holland",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149285
+                }
+              }
+            ]
+          },
+          {
+            "id": 3149286,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 144560,
+                "firstName": "Mallory ",
+                "lastName": "Johnson",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4015,
+                  "name": "Byron Center",
+                  "logo": "school_4015.png",
+                  "city": {
+                    "id": 2487,
+                    "name": "Byron center",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [
+                  {
+                    "eventId": 611,
+                    "eventYear": "2025",
+                    "eventName": "MHSAA Finals Tournament-2025"
+                  }
+                ],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3149286
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 13,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 144560,
+      "stateId": 30
+    }
+  ]
+}

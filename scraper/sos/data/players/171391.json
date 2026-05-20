@@ -1,0 +1,481 @@
+{
+  "player": {
+    "id": 171391,
+    "schoolId": 4350,
+    "firstName": "Danya",
+    "lastName": "Asmar",
+    "address": null,
+    "email": "fpsasmard69@stu.fpsk12.net",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "12",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2025-04-17T00:52:12.000Z",
+    "updatedAt": "2025-06-18T18:37:50.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Farmington",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Tom",
+      "lastName": "Kuskowski"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 13,
+    "loss": 4
+  },
+  "matches": {
+    "Doubles": [
+      {
+        "sets": [
+          {
+            "3150909": 0,
+            "3150910": 6,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150909": 0,
+            "3150910": 6,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575490,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150910,
+        "createdAt": "2026-05-15T02:48:47.000Z",
+        "updatedAt": "2026-05-15T02:48:47.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150909,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 172345,
+                "firstName": "Laya",
+                "lastName": "Hachmich",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4465,
+                  "name": "Dearborn Fordson",
+                  "logo": null,
+                  "city": {
+                    "id": 4568,
+                    "name": "Dearborn",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150909
+                }
+              },
+              {
+                "id": 195270,
+                "firstName": "Aya",
+                "lastName": "Hammoud",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-07T11:50:10.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4465,
+                  "name": "Dearborn Fordson",
+                  "logo": null,
+                  "city": {
+                    "id": 4568,
+                    "name": "Dearborn",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150909
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150910,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 171391,
+                "firstName": "Danya",
+                "lastName": "Asmar",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4350,
+                  "name": "Farmington",
+                  "logo": null,
+                  "city": {
+                    "id": 6028,
+                    "name": "Farmington",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150910
+                }
+              },
+              {
+                "id": 165752,
+                "firstName": "Gaia",
+                "lastName": "DeMeester",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4350,
+                  "name": "Farmington",
+                  "logo": null,
+                  "city": {
+                    "id": 6028,
+                    "name": "Farmington",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150910
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150917": 6,
+            "3150918": 2,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150917": 6,
+            "3150918": 2,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575494,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150917,
+        "createdAt": "2026-05-15T02:49:04.000Z",
+        "updatedAt": "2026-05-15T02:49:04.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150917,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 150203,
+                "firstName": "Matilda",
+                "lastName": "Edvardsson",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4287,
+                  "name": "West Bloomfield",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150917
+                }
+              },
+              {
+                "id": 170045,
+                "firstName": "Eva",
+                "lastName": "Latvenas",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4287,
+                  "name": "West Bloomfield",
+                  "logo": null,
+                  "city": {
+                    "id": 19443,
+                    "name": "West bloomfield",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150917
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150918,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 171391,
+                "firstName": "Danya",
+                "lastName": "Asmar",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4350,
+                  "name": "Farmington",
+                  "logo": null,
+                  "city": {
+                    "id": 6028,
+                    "name": "Farmington",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150918
+                }
+              },
+              {
+                "id": 165752,
+                "firstName": "Gaia",
+                "lastName": "DeMeester",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4350,
+                  "name": "Farmington",
+                  "logo": null,
+                  "city": {
+                    "id": 6028,
+                    "name": "Farmington",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3150918
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3142899": 7,
+            "3142900": 5,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3142899": 6,
+            "3142900": 3,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1571485,
+        "flight": "3",
+        "genderId": 2,
+        "matchType": "Doubles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3142899,
+        "createdAt": "2026-05-13T11:55:05.000Z",
+        "updatedAt": "2026-05-13T11:55:05.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": false,
+          "meetDateTime": "2026-05-12T04:00:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3142899,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 165752,
+                "firstName": "Gaia",
+                "lastName": "DeMeester",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4350,
+                  "name": "Farmington",
+                  "logo": null,
+                  "city": {
+                    "id": 6028,
+                    "name": "Farmington",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3142899
+                }
+              },
+              {
+                "id": 171391,
+                "firstName": "Danya",
+                "lastName": "Asmar",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4350,
+                  "name": "Farmington",
+                  "logo": null,
+                  "city": {
+                    "id": 6028,
+                    "name": "Farmington",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3142899
+                }
+              }
+            ]
+          },
+          {
+            "id": 3142900,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 195046,
+                "firstName": "Amiah Marie \"Miah\"",
+                "lastName": "Washington",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-06T15:26:25.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4388,
+                  "name": "Livonia Stevenson",
+                  "logo": "school_4388.jpg",
+                  "city": {
+                    "id": 10416,
+                    "name": "Livonia",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3142900
+                }
+              },
+              {
+                "id": 195042,
+                "firstName": "Diarra",
+                "lastName": "Mbow",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-06T15:25:56.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4388,
+                  "name": "Livonia Stevenson",
+                  "logo": "school_4388.jpg",
+                  "city": {
+                    "id": 10416,
+                    "name": "Livonia",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 2,
+                  "matchTeamId": 3142900
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 11,
+      "year": 2026,
+      "matchType": "Doubles",
+      "playerId": 171391,
+      "stateId": 30
+    }
+  ]
+}

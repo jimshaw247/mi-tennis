@@ -1,0 +1,331 @@
+{
+  "player": {
+    "id": 191721,
+    "schoolId": 4449,
+    "firstName": "Jilly",
+    "lastName": "Knoester",
+    "address": null,
+    "email": "jillian.knoester@gmail.com",
+    "phone": null,
+    "dateOfBirth": null,
+    "grade": "9",
+    "genderId": 2,
+    "physicalExam": false,
+    "feesPaid": false,
+    "wiaaFormSubmitted": false,
+    "playedOutsideCompetition": false,
+    "createdAt": "2026-03-21T16:40:56.000Z",
+    "updatedAt": "2026-03-21T16:40:56.000Z",
+    "deletedAt": null,
+    "graduatedDate": null,
+    "playerParents": [],
+    "school": {
+      "name": "Rochester",
+      "logo": null
+    },
+    "editor": {
+      "firstName": "Jerry",
+      "lastName": "Murphy"
+    },
+    "playerInStateTournaments": []
+  },
+  "overallRecord": {
+    "win": 24,
+    "loss": 1
+  },
+  "matches": {
+    "Singles": [
+      {
+        "sets": [
+          {
+            "3150477": 6,
+            "3150478": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150477": 6,
+            "3150478": 1,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575274,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150477,
+        "createdAt": "2026-05-15T02:10:01.000Z",
+        "updatedAt": "2026-05-15T02:10:01.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150477,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191721,
+                "firstName": "Jilly",
+                "lastName": "Knoester",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T16:40:56.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150477
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150478,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 169945,
+                "firstName": "Brady",
+                "lastName": "Howell",
+                "grade": "11",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4470,
+                  "name": "Oxford",
+                  "logo": null,
+                  "city": {
+                    "id": 13802,
+                    "name": "Oxford",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150478
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150489": 6,
+            "3150490": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150489": 6,
+            "3150490": 4,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575280,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150489,
+        "createdAt": "2026-05-15T02:11:58.000Z",
+        "updatedAt": "2026-05-15T02:11:58.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150489,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191721,
+                "firstName": "Jilly",
+                "lastName": "Knoester",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T16:40:56.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150489
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150490,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 170657,
+                "firstName": "Ava",
+                "lastName": "Velilla",
+                "grade": "12",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2025-06-18T18:37:50.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4441,
+                  "name": "Rochester Adams",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150490
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sets": [
+          {
+            "3150491": 6,
+            "3150492": 0,
+            "number": 1,
+            "tie": null
+          },
+          {
+            "3150491": 6,
+            "3150492": 2,
+            "number": 2,
+            "tie": null
+          }
+        ],
+        "id": 1575281,
+        "flight": "4",
+        "genderId": 2,
+        "matchType": "Singles",
+        "isNotVarsity": false,
+        "finish": null,
+        "winnerTeamId": 3150491,
+        "createdAt": "2026-05-15T02:12:25.000Z",
+        "updatedAt": "2026-05-15T02:12:25.000Z",
+        "meet": {
+          "approveMeet": true,
+          "postSeason": true,
+          "meetDateTime": "2026-05-13T05:01:00.000Z"
+        },
+        "matchTeams": [
+          {
+            "id": 3150491,
+            "isWinner": true,
+            "players": [
+              {
+                "id": 191721,
+                "firstName": "Jilly",
+                "lastName": "Knoester",
+                "grade": "9",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-03-21T16:40:56.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4449,
+                  "name": "Rochester",
+                  "logo": null,
+                  "city": {
+                    "id": 15562,
+                    "name": "Rochester hills",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150491
+                }
+              }
+            ]
+          },
+          {
+            "id": 3150492,
+            "isWinner": false,
+            "players": [
+              {
+                "id": 196043,
+                "firstName": "Aurora",
+                "lastName": "Gonzalvo",
+                "grade": "10",
+                "genderId": 2,
+                "playedOutsideCompetition": false,
+                "updatedAt": "2026-04-08T23:52:10.000Z",
+                "graduatedDate": null,
+                "school": {
+                  "id": 4052,
+                  "name": "Clarkston",
+                  "logo": null,
+                  "city": {
+                    "id": 3466,
+                    "name": "Clarkston",
+                    "stateId": 30
+                  }
+                },
+                "playerInStateTournaments": [],
+                "matchTeamPlayer": {
+                  "position": 1,
+                  "matchTeamId": 3150492
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "elo": [
+    {
+      "elo": 12,
+      "year": 2026,
+      "matchType": "Singles",
+      "playerId": 191721,
+      "stateId": 30
+    }
+  ]
+}
