@@ -110,7 +110,7 @@ export default function Bracket({ flight, onUpdate, readonly }) {
           ))}
         </div>
         <div
-          className="grid gap-x-2 px-2 py-2"
+          className="grid gap-x-2 gap-y-2 px-2 py-2"
           style={{
             gridTemplateColumns: colTemplate,
             gridTemplateRows: `repeat(${TOTAL_ROWS}, minmax(34px, 1fr))`,
