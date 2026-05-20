@@ -48,13 +48,52 @@ export default function SOSTab() {
   )
 }
 
-function SortHeader({ id, label, current, asc, setKey, setAsc }) {
-  const active = current === id
+function HelpDot({ active, onClick }) {
   return (
-    <th
-      onClick={() => { if (active) setAsc(!asc); else { setKey(id); setAsc(false) } }}
-      className="px-1.5 py-1 text-left text-[10px] uppercase tracking-wider text-slate-400 cursor-pointer select-none">
-      {label}{active ? (asc ? ' ↑' : ' ↓') : ''}
+    <button
+      type="button"
+      onClick={(e) => { e.stopPropagation(); onClick() }}
+      aria-label="Show column explanation"
+      className={`ml-1 inline-flex items-center justify-center w-4 h-4 align-middle rounded-full border text-[9px] leading-none ${active ? 'bg-blue-600 border-blue-500 text-white' : 'border-slate-600 text-slate-400 hover:bg-slate-700'}`}
+    >?</button>
+  )
+}
+
+function HelpRow({ helpKey, helpDict, colSpan }) {
+  if (!helpKey) return null
+  return (
+    <tr className="bg-slate-950/80">
+      <td colSpan={colSpan} className="px-3 py-2 text-[11px] text-slate-300 leading-relaxed border-t border-blue-900/40">
+        <span className="text-blue-300 font-semibold mr-1.5">{helpDict[helpKey]?.title}:</span>
+        {helpDict[helpKey]?.body}
+      </td>
+    </tr>
+  )
+}
+
+function SortHeader({ id, label, current, asc, setKey, setAsc, helpKey, helpOpen, setHelpOpen, align = 'left' }) {
+  const active = current === id
+  const helpActive = helpKey != null && helpOpen === helpKey
+  return (
+    <th className={`px-1.5 py-1 text-${align} text-[10px] uppercase tracking-wider text-slate-400 select-none whitespace-nowrap`}>
+      <span
+        onClick={() => { if (active) setAsc(!asc); else { setKey(id); setAsc(false) } }}
+        className="cursor-pointer"
+        title={helpKey ? 'Tap label to sort, ? for definition' : ''}
+      >
+        {label}{active ? (asc ? ' ↑' : ' ↓') : ''}
+      </span>
+      {helpKey && <HelpDot active={helpActive} onClick={() => setHelpOpen(helpActive ? null : helpKey)} />}
+    </th>
+  )
+}
+
+function PlainHeader({ label, helpKey, helpOpen, setHelpOpen, align = 'left' }) {
+  const helpActive = helpKey != null && helpOpen === helpKey
+  return (
+    <th className={`px-1.5 py-1 text-${align} text-[10px] uppercase text-slate-400 whitespace-nowrap`}>
+      <span>{label}</span>
+      {helpKey && <HelpDot active={helpActive} onClick={() => setHelpOpen(helpActive ? null : helpKey)} />}
     </th>
   )
 }
@@ -69,7 +108,18 @@ function RatingCell({ rating, source }) {
   )
 }
 
+const TEAM_HELP = {
+  rank: { title: '#', body: "Position in the team power rankings. Default sort is by Avg (average qualifier rating). Tap any other column header to re-sort." },
+  schoolName: { title: 'School', body: "Team name. Clarkston is highlighted in blue." },
+  qualifierCount: { title: 'Flts', body: "Number of state-finals flights this school has a qualifier in (max 8: 1S, 2S, 3S, 4S, 1D, 2D, 3D, 4D)." },
+  ratedFlights: { title: 'Rated', body: "Flights where the qualifier has real season match data driving their rating. A '+N*' suffix counts flights using a fallback rating (TennisReporting's 2026 Elo) because the qualifier had ~0 season matches at that flight — usually late JV/freshman call-ups." },
+  total: { title: 'Total', body: "Sum of qualifier ratings across all 8 flights. Higher = stronger overall team. Penalises schools that didn't field a qualifier at every flight." },
+  totalAvg: { title: 'Avg', body: "Average rating per qualifier (Total ÷ Flts). Less biased by missing qualifiers than Total. This is the default sort." },
+  sosAvg: { title: 'SOS', body: "Strength of schedule, averaged across this school's qualifiers. Higher = they faced tougher opponents during the season. Independent of W/L — measures who they played, not how they did." },
+}
+
 function TeamsView({ data, sortKey, setSortKey, sortAsc, setSortAsc, q, setQ }) {
+  const [helpOpen, setHelpOpen] = useState(null)
   const rows = useMemo(() => {
     let arr = [...(data.teamRanking || [])]
     if (q.trim()) {
@@ -83,24 +133,30 @@ function TeamsView({ data, sortKey, setSortKey, sortAsc, setSortAsc, q, setQ }) 
     })
     return arr
   }, [data, sortKey, sortAsc, q])
+  const hdr = (id, label) => (
+    <SortHeader id={id} label={label} current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc}
+      helpKey={id} helpOpen={helpOpen} setHelpOpen={setHelpOpen} />
+  )
   return (
     <div className="space-y-2">
       <input value={q} onChange={e => setQ(e.target.value)} placeholder="Filter schools…"
         className="w-full px-2 py-1.5 rounded bg-slate-900 border border-slate-700 text-sm" />
+      <div className="text-[10px] text-slate-500">Tap a column's <span className="inline-flex items-center justify-center w-3.5 h-3.5 rounded-full border border-slate-600 text-[8px]">?</span> for what it means.</div>
       <div className="overflow-x-auto rounded-lg border border-slate-800">
         <table className="w-full text-sm">
           <thead className="bg-slate-900/60">
             <tr>
-              <SortHeader id="rank" label="#" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
-              <SortHeader id="schoolName" label="School" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
-              <SortHeader id="qualifierCount" label="Flts" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
-              <SortHeader id="ratedFlights" label="Rated" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
-              <SortHeader id="total" label="Total" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
-              <SortHeader id="totalAvg" label="Avg" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
-              <SortHeader id="sosAvg" label="SOS" current={sortKey} asc={sortAsc} setKey={setSortKey} setAsc={setSortAsc} />
+              {hdr('rank', '#')}
+              {hdr('schoolName', 'School')}
+              {hdr('qualifierCount', 'Flts')}
+              {hdr('ratedFlights', 'Rated')}
+              {hdr('total', 'Total')}
+              {hdr('totalAvg', 'Avg')}
+              {hdr('sosAvg', 'SOS')}
             </tr>
           </thead>
           <tbody>
+            <HelpRow helpKey={helpOpen} helpDict={TEAM_HELP} colSpan={7} />
             {rows.map(t => (
               <tr key={t.schoolId} className={`border-t border-slate-800 ${t.schoolId === HIGHLIGHT ? 'bg-blue-900/30' : ''}`}>
                 <td className="px-1.5 py-1.5">{t.rank}</td>
@@ -116,14 +172,24 @@ function TeamsView({ data, sortKey, setSortKey, sortAsc, setSortAsc, q, setQ }) 
         </table>
       </div>
       <div className="text-[10px] text-slate-500">
-        Total = sum of qualifier ratings across all 8 flights. Avg = average per qualifier. SOS = avg opponent rating, recency-weighted.
         <span className="text-amber-400"> *</span> = fallback rating from TennisReporting's 2026 Elo (qualifier had ~0 ratable season matches at that flight — common for late-promoted JV/freshmen).
       </div>
     </div>
   )
 }
 
+const FLIGHT_HELP = {
+  rank: { title: '#', body: "State-finals rank at this flight — 1 is the highest Bradley-Terry rating in the field, 22 is the lowest." },
+  player: { title: 'Player(s)', body: "Player (or doubles pair) who qualified at this flight through their regional. An amber '↔ regular' note below the name means this entry isn't the school's most-frequent dual-meet starter — possibly an approved sub." },
+  school: { title: 'School', body: "The qualifier's school." },
+  rating: { title: 'Rating', body: "Bradley-Terry rating. We pool every singles match into one universe and every doubles match into another, then iterate until each player's rating reflects head-to-head outcomes weighted by recency (28-day half-life) and margin of victory. A * suffix means the rating is a fallback from TennisReporting's 2026 Elo because the player had no ratable season matches." },
+  sos: { title: 'SOS', body: "Strength of schedule — the average rating of opponents this player faced during the season, recency-weighted. Higher SOS = tougher schedule. SOS only measures who you played, not how you did against them." },
+  matAtFlt: { title: 'M@flt', body: "Matches at this exact flight ÷ total varsity matches in the season pool (singles or doubles). A 4S player who also flexed up to 3S during the season will show a smaller numerator than denominator. The Bradley-Terry rating uses the full pool, not just same-flight matches." },
+  regSeed: { title: 'Reg seed', body: "Seed at the regional tournament (1 = top seed). Comparing seed to state-finals rank is what powers the Upset Watch tab — under-seeded players are upset candidates." },
+}
+
 function FlightView({ data, flight, setFlight, q, setQ }) {
+  const [helpOpen, setHelpOpen] = useState(null)
   const fd = data.flights?.[flight]
   if (!fd) return <div className="text-slate-400">No data for {flight}</div>
   let rows = fd.qualifiers
@@ -131,6 +197,9 @@ function FlightView({ data, flight, setFlight, q, setQ }) {
     const n = q.toLowerCase()
     rows = rows.filter(r => r.name.toLowerCase().includes(n) || r.schoolName.toLowerCase().includes(n))
   }
+  const hdr = (key, label, align) => (
+    <PlainHeader label={label} helpKey={key} helpOpen={helpOpen} setHelpOpen={setHelpOpen} align={align} />
+  )
   return (
     <div className="space-y-2">
       <div className="flex flex-wrap gap-1">
@@ -142,20 +211,22 @@ function FlightView({ data, flight, setFlight, q, setQ }) {
       <div className="text-[11px] text-slate-400">{fd.label} · {fd.matchCount} season matches</div>
       <input value={q} onChange={e => setQ(e.target.value)} placeholder="Filter players or schools…"
         className="w-full px-2 py-1.5 rounded bg-slate-900 border border-slate-700 text-sm" />
+      <div className="text-[10px] text-slate-500">Tap a column's <span className="inline-flex items-center justify-center w-3.5 h-3.5 rounded-full border border-slate-600 text-[8px]">?</span> for what it means.</div>
       <div className="overflow-x-auto rounded-lg border border-slate-800">
         <table className="w-full text-sm">
           <thead className="bg-slate-900/60">
             <tr>
-              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">#</th>
-              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">Player(s)</th>
-              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">School</th>
-              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">Rating</th>
-              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">SOS</th>
-              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400" title="Matches played at this flight / total matches in singles or doubles">M@flt</th>
-              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">Reg seed</th>
+              {hdr('rank', '#', 'left')}
+              {hdr('player', 'Player(s)', 'left')}
+              {hdr('school', 'School', 'left')}
+              {hdr('rating', 'Rating', 'right')}
+              {hdr('sos', 'SOS', 'right')}
+              {hdr('matAtFlt', 'M@flt', 'right')}
+              {hdr('regSeed', 'Reg seed', 'right')}
             </tr>
           </thead>
           <tbody>
+            <HelpRow helpKey={helpOpen} helpDict={FLIGHT_HELP} colSpan={7} />
             {rows.map(r => {
               const swap = r.regularStarter && !r.regularStarter.noData
               return (
@@ -287,7 +358,18 @@ function ClarkstonView({ data }) {
   )
 }
 
+const LINEUP_HELP = {
+  flt: { title: 'Flt', body: "State-finals flight (1S–4D). Each row is a school + flight where the regional qualifier isn't the regular dual-meet starter." },
+  school: { title: 'School', body: "The school with a possible lineup question." },
+  qual: { title: 'Regional qualifier', body: "Player(s) who actually qualified at this flight through their regional. MHSAA expects them to play at state finals unless a substitution is approved." },
+  qualRating: { title: 'Qual rating', body: "Bradley-Terry rating of the regional qualifier." },
+  regular: { title: 'Regular starter', body: "The school's most-frequent dual-meet starter at this flight during the season (with their record). When this differs from the regional qualifier, you're looking at a potential approved sub or a regional-day lineup quirk." },
+  regRating: { title: 'Reg rating', body: "Bradley-Terry rating of the regular starter." },
+  delta: { title: 'Δ', body: "Reg rating minus Qual rating. Green/positive = the regular starter is stronger than the qualifier, so a sub would make this team's flight tougher. Amber/negative = the regional qualifier is actually the stronger player." },
+}
+
 function LineupWatchView({ data }) {
+  const [helpOpen, setHelpOpen] = useState(null)
   const mismatches = []
   for (const fid of Object.keys(data.flights || {})) {
     for (const q of data.flights[fid].qualifiers) {
@@ -302,6 +384,9 @@ function LineupWatchView({ data }) {
     const dB = Math.abs((b.regularStarter.rating ?? 0) - b.rating)
     return dB - dA
   })
+  const hdr = (key, label, align) => (
+    <PlainHeader label={label} helpKey={key} helpOpen={helpOpen} setHelpOpen={setHelpOpen} align={align} />
+  )
   return (
     <div className="space-y-2">
       <div className="text-[11px] text-slate-300 leading-relaxed bg-slate-900/40 border border-slate-700 rounded p-2">
@@ -311,21 +396,25 @@ function LineupWatchView({ data }) {
         shows what the field would look like if this team fielded its normal lineup.</span> When the seeded draw is
         posted (~ May 25) these should reconcile.
       </div>
-      <div className="text-[11px] text-slate-400">{mismatches.length} mismatches found in flights with sufficient dual-meet data.</div>
+      <div className="flex items-center justify-between gap-2">
+        <div className="text-[11px] text-slate-400">{mismatches.length} mismatches found in flights with sufficient dual-meet data.</div>
+        <div className="text-[10px] text-slate-500">Tap a column's <span className="inline-flex items-center justify-center w-3.5 h-3.5 rounded-full border border-slate-600 text-[8px]">?</span> for details.</div>
+      </div>
       <div className="overflow-x-auto rounded-lg border border-slate-800">
         <table className="w-full text-sm">
           <thead className="bg-slate-900/60">
             <tr>
-              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">Flt</th>
-              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">School</th>
-              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">Regional qualifier</th>
-              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">Qual rating</th>
-              <th className="px-1.5 py-1 text-left text-[10px] uppercase text-slate-400">Regular starter (dual meets)</th>
-              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">Reg rating</th>
-              <th className="px-1.5 py-1 text-right text-[10px] uppercase text-slate-400">Δ</th>
+              {hdr('flt', 'Flt', 'left')}
+              {hdr('school', 'School', 'left')}
+              {hdr('qual', 'Regional qualifier', 'left')}
+              {hdr('qualRating', 'Qual rating', 'right')}
+              {hdr('regular', 'Regular starter', 'left')}
+              {hdr('regRating', 'Reg rating', 'right')}
+              {hdr('delta', 'Δ', 'right')}
             </tr>
           </thead>
           <tbody>
+            <HelpRow helpKey={helpOpen} helpDict={LINEUP_HELP} colSpan={7} />
             {mismatches.map((m, i) => {
               const delta = (m.regularStarter.rating ?? 0) - m.rating
               return (
