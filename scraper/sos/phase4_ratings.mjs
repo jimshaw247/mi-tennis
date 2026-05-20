@@ -166,6 +166,7 @@ function runFlight(matches) {
         schoolName: side.players[0]?.schoolName,
         name: side.players.map(p => p.name).join(' / '),
         wWins: 0, wLosses: 0,
+        totalMatches: 0,
         opp: new Map(), // opponentKey -> total weight of all matches between us
       })
     }
@@ -178,6 +179,8 @@ function runFlight(matches) {
     const L = ensure(m.loserKey, m.loseSide)
     W.wWins += w
     L.wLosses += w
+    W.totalMatches++
+    L.totalMatches++
     W.opp.set(m.loserKey, (W.opp.get(m.loserKey) || 0) + w)
     L.opp.set(m.winnerKey, (L.opp.get(m.winnerKey) || 0) + w)
   }
@@ -239,7 +242,8 @@ function runFlight(matches) {
       sosRating,
       wWins: p.wWins,
       wLosses: p.wLosses,
-      matchCount: [...p.opp.values()].length, // distinct opponents
+      matchCount: p.totalMatches,
+      distinctOpponents: [...p.opp.values()].length,
     })
   }
   out.sort((a, b) => b.rating - a.rating)

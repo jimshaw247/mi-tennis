@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T11:02:08.159Z",
+  "generatedAt": "2026-05-20T11:54:36.779Z",
   "notes": "Bradley-Terry MM ratings per flight, 28-day half-life recency, MOV weighting. Win probability uses 400-pt Elo-like spread.",
   "flights": {
     "1S": {
@@ -17,7 +17,8 @@
           "sosRating": 1615.1001785925962,
           "wWins": 2.7168803766927256,
           "wLosses": 0,
-          "matchCount": 13,
+          "matchCount": 16,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "193007",
@@ -49,7 +50,8 @@
           "sosRating": 1593.7428621605623,
           "wWins": 3.5774401322933214,
           "wLosses": 0.28388868091289626,
-          "matchCount": 18,
+          "matchCount": 20,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 20,
           "qualifier": {
             "key": "145828",
@@ -86,7 +88,8 @@
           "sosRating": 1538.1827901507081,
           "wWins": 2.530911181515348,
           "wLosses": 0,
-          "matchCount": 13,
+          "matchCount": 14,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "146970",
@@ -123,7 +126,8 @@
           "sosRating": 1610.8820270219844,
           "wWins": 3.412079701763136,
           "wLosses": 0.8412043061823353,
-          "matchCount": 20,
+          "matchCount": 23,
+          "distinctOpponents": 20,
           "matchCountAtFlight": 23,
           "qualifier": {
             "key": "149171",
@@ -164,7 +168,8 @@
           "sosRating": 1612.179750365651,
           "wWins": 3.4603921015153265,
           "wLosses": 1.0074640724381798,
-          "matchCount": 22,
+          "matchCount": 25,
+          "distinctOpponents": 22,
           "matchCountAtFlight": 25,
           "qualifier": {
             "key": "193506",
@@ -196,7 +201,8 @@
           "sosRating": 1585.7654872268736,
           "wWins": 2.47162185809374,
           "wLosses": 0.5503930761337624,
-          "matchCount": 15,
+          "matchCount": 16,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "126812",
@@ -241,7 +247,8 @@
           "sosRating": 1590.7295844342889,
           "wWins": 2.5728038840099714,
           "wLosses": 0.8709363965452246,
-          "matchCount": 18,
+          "matchCount": 20,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "195531",
@@ -273,7 +280,8 @@
           "sosRating": 1580.7909584929876,
           "wWins": 2.6252775879943107,
           "wLosses": 0.9487283373661692,
-          "matchCount": 19,
+          "matchCount": 21,
+          "distinctOpponents": 19,
           "matchCountAtFlight": 21,
           "qualifier": {
             "key": "161712",
@@ -310,7 +318,8 @@
           "sosRating": 1615.0343962761876,
           "wWins": 2.193598018684021,
           "wLosses": 1.0959946867874233,
-          "matchCount": 18,
+          "matchCount": 19,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "144996",
@@ -351,7 +360,8 @@
           "sosRating": 1588.5100608199398,
           "wWins": 2.441413371042165,
           "wLosses": 1.1531425194607359,
-          "matchCount": 16,
+          "matchCount": 20,
+          "distinctOpponents": 16,
           "matchCountAtFlight": 20,
           "qualifier": {
             "key": "141873",
@@ -392,7 +402,8 @@
           "sosRating": 1581.017621539414,
           "wWins": 2.4879841244605325,
           "wLosses": 1.172036885600782,
-          "matchCount": 19,
+          "matchCount": 22,
+          "distinctOpponents": 19,
           "matchCountAtFlight": 22,
           "qualifier": {
             "key": "166069",
@@ -429,7 +440,8 @@
           "sosRating": 1577.4181460617278,
           "wWins": 2.320741635254781,
           "wLosses": 1.6341098780622882,
-          "matchCount": 21,
+          "matchCount": 22,
+          "distinctOpponents": 21,
           "matchCountAtFlight": 22,
           "qualifier": {
             "key": "189390",
@@ -461,7 +473,8 @@
           "sosRating": 1573.3915533185905,
           "wWins": 2.3166598093099493,
           "wLosses": 1.590806453964177,
-          "matchCount": 21,
+          "matchCount": 22,
+          "distinctOpponents": 21,
           "matchCountAtFlight": 22,
           "qualifier": {
             "key": "149632",
@@ -502,7 +515,8 @@
           "sosRating": 1486.8880320645121,
           "wWins": 2.464353902363766,
           "wLosses": 1.0293881375510234,
-          "matchCount": 18,
+          "matchCount": 19,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "166403",
@@ -534,7 +548,8 @@
           "sosRating": 1604.863902993921,
           "wWins": 1.690630388117417,
           "wLosses": 1.4942822322489586,
-          "matchCount": 16,
+          "matchCount": 17,
+          "distinctOpponents": 16,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "191239",
@@ -566,7 +581,8 @@
           "sosRating": 1631.4352345521058,
           "wWins": 1.7422149356482435,
           "wLosses": 1.9036654360683942,
-          "matchCount": 17,
+          "matchCount": 19,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "197686",
@@ -598,7 +614,8 @@
           "sosRating": 1558.1649512851266,
           "wWins": 2.1848922864287736,
           "wLosses": 1.7347323919899735,
-          "matchCount": 19,
+          "matchCount": 22,
+          "distinctOpponents": 19,
           "matchCountAtFlight": 22,
           "qualifier": {
             "key": "149175",
@@ -639,7 +656,8 @@
           "sosRating": 1523.1822623687137,
           "wWins": 1.8535874690742815,
           "wLosses": 1.2350439901696117,
-          "matchCount": 15,
+          "matchCount": 16,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "170043",
@@ -676,7 +694,8 @@
           "sosRating": 1549.5658353716979,
           "wWins": 1.5415671235192343,
           "wLosses": 1.3191665393142553,
-          "matchCount": 17,
+          "matchCount": 20,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 20,
           "qualifier": {
             "key": "188965",
@@ -708,7 +727,8 @@
           "sosRating": 1514.3987026042466,
           "wWins": 2.0583378876052256,
           "wLosses": 1.5923494270973755,
-          "matchCount": 14,
+          "matchCount": 21,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 21,
           "qualifier": {
             "key": "148434",
@@ -740,7 +760,8 @@
           "sosRating": 1616.60538390419,
           "wWins": 0.481914790950753,
           "wLosses": 2.054263467904864,
-          "matchCount": 11,
+          "matchCount": 13,
+          "distinctOpponents": 11,
           "matchCountAtFlight": 13,
           "qualifier": {
             "key": "130882",
@@ -778,6 +799,7 @@
           "wWins": 0,
           "wLosses": 0.9784353443694498,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "172807",
@@ -823,7 +845,8 @@
           "sosRating": 1580.9692197147513,
           "wWins": 3.019382632680796,
           "wLosses": 0,
-          "matchCount": 14,
+          "matchCount": 15,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 13,
           "qualifier": {
             "key": "164765",
@@ -860,7 +883,8 @@
           "sosRating": 1588.1885930904891,
           "wWins": 2.896085620571573,
           "wLosses": 0.08736943681413863,
-          "matchCount": 13,
+          "matchCount": 16,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "186160",
@@ -892,7 +916,8 @@
           "sosRating": 1524.234041325047,
           "wWins": 2.3540657768007627,
           "wLosses": 0,
-          "matchCount": 11,
+          "matchCount": 13,
+          "distinctOpponents": 11,
           "matchCountAtFlight": 13,
           "qualifier": {
             "key": "127008",
@@ -933,7 +958,8 @@
           "sosRating": 1577.9740681491649,
           "wWins": 2.4873624723773515,
           "wLosses": 0.26356932420968787,
-          "matchCount": 13,
+          "matchCount": 14,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "145532",
@@ -974,7 +1000,8 @@
           "sosRating": 1550.667313138362,
           "wWins": 2.0334302732314065,
           "wLosses": 0,
-          "matchCount": 9,
+          "matchCount": 11,
+          "distinctOpponents": 9,
           "matchCountAtFlight": 11,
           "qualifier": {
             "key": "127338",
@@ -1019,7 +1046,8 @@
           "sosRating": 1502.7450512314742,
           "wWins": 1.9590455881446773,
           "wLosses": 0,
-          "matchCount": 9,
+          "matchCount": 10,
+          "distinctOpponents": 9,
           "matchCountAtFlight": 10,
           "qualifier": {
             "key": "149170",
@@ -1060,7 +1088,8 @@
           "sosRating": 1602.9471154407806,
           "wWins": 1.9927982733912122,
           "wLosses": 0.47294248011289064,
-          "matchCount": 13,
+          "matchCount": 16,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "144560",
@@ -1097,7 +1126,8 @@
           "sosRating": 1515.7498233971523,
           "wWins": 2.6961998738901416,
           "wLosses": 0.526239091443665,
-          "matchCount": 16,
+          "matchCount": 18,
+          "distinctOpponents": 16,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "141874",
@@ -1138,7 +1168,8 @@
           "sosRating": 1565.1156185739185,
           "wWins": 2.364619551131918,
           "wLosses": 0.7904632044542181,
-          "matchCount": 16,
+          "matchCount": 18,
+          "distinctOpponents": 16,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "125726",
@@ -1179,7 +1210,8 @@
           "sosRating": 1564.1995901651494,
           "wWins": 2.8816763930320075,
           "wLosses": 1.1681327356435005,
-          "matchCount": 21,
+          "matchCount": 22,
+          "distinctOpponents": 21,
           "matchCountAtFlight": 22,
           "qualifier": {
             "key": "128899",
@@ -1220,7 +1252,8 @@
           "sosRating": 1553.2708866757725,
           "wWins": 2.3318265555395232,
           "wLosses": 0.8320431537019307,
-          "matchCount": 17,
+          "matchCount": 19,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "125397",
@@ -1265,7 +1298,8 @@
           "sosRating": 1478.0346884438961,
           "wWins": 2.2662790285764602,
           "wLosses": 0.5987635892383391,
-          "matchCount": 13,
+          "matchCount": 16,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "168293",
@@ -1297,7 +1331,8 @@
           "sosRating": 1554.4456560705341,
           "wWins": 2.099559874144939,
           "wLosses": 1.1318809910348222,
-          "matchCount": 16,
+          "matchCount": 17,
+          "distinctOpponents": 16,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "145429",
@@ -1338,7 +1373,8 @@
           "sosRating": 1648.1076229422677,
           "wWins": 1.2527523738764477,
           "wLosses": 0.9762115429616293,
-          "matchCount": 9,
+          "matchCount": 11,
+          "distinctOpponents": 9,
           "matchCountAtFlight": 11,
           "qualifier": {
             "key": "126810",
@@ -1383,7 +1419,8 @@
           "sosRating": 1579.442748427026,
           "wWins": 1.5237666517260506,
           "wLosses": 1.3671018773186554,
-          "matchCount": 13,
+          "matchCount": 15,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 15,
           "qualifier": {
             "key": "170042",
@@ -1420,7 +1457,8 @@
           "sosRating": 1487.9526286557575,
           "wWins": 2.208005132648166,
           "wLosses": 1.290454243155034,
-          "matchCount": 18,
+          "matchCount": 19,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "192269",
@@ -1453,6 +1491,7 @@
           "wWins": 0.7382816996234416,
           "wLosses": 0.6966293620923665,
           "matchCount": 7,
+          "distinctOpponents": 7,
           "matchCountAtFlight": 7,
           "qualifier": {
             "key": "124996",
@@ -1497,7 +1536,8 @@
           "sosRating": 1586.0423364268136,
           "wWins": 1.481265008866557,
           "wLosses": 1.55017379442006,
-          "matchCount": 15,
+          "matchCount": 16,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "150030",
@@ -1538,7 +1578,8 @@
           "sosRating": 1522.0356385298996,
           "wWins": 1.5824977178199275,
           "wLosses": 1.143866305603138,
-          "matchCount": 12,
+          "matchCount": 15,
+          "distinctOpponents": 12,
           "matchCountAtFlight": 13,
           "qualifier": {
             "key": "169958",
@@ -1570,7 +1611,8 @@
           "sosRating": 1547.0980173654937,
           "wWins": 1.6904307970900707,
           "wLosses": 2.2291938813286762,
-          "matchCount": 19,
+          "matchCount": 22,
+          "distinctOpponents": 19,
           "matchCountAtFlight": 22,
           "qualifier": {
             "key": "191735",
@@ -1603,6 +1645,7 @@
           "wWins": 0.4846794687712126,
           "wLosses": 0.6638654721435147,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 2,
           "qualifier": {
             "key": "196046",
@@ -1642,7 +1685,8 @@
           "sosRating": 1558.891467994017,
           "wWins": 1.0555454421809554,
           "wLosses": 1.6284926421597667,
-          "matchCount": 16,
+          "matchCount": 17,
+          "distinctOpponents": 16,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "126390",
@@ -1685,7 +1729,8 @@
           "sosRating": 1555.455367863197,
           "wWins": 3.45641538352215,
           "wLosses": 0,
-          "matchCount": 18,
+          "matchCount": 20,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "143558",
@@ -1722,7 +1767,8 @@
           "sosRating": 1568.8271058636487,
           "wWins": 2.7495077120408027,
           "wLosses": 0.19776293019918664,
-          "matchCount": 14,
+          "matchCount": 16,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "170518",
@@ -1759,7 +1805,8 @@
           "sosRating": 1607.3849820841394,
           "wWins": 2.2172987727403504,
           "wLosses": 0.21834797742632808,
-          "matchCount": 10,
+          "matchCount": 12,
+          "distinctOpponents": 10,
           "matchCountAtFlight": 12,
           "qualifier": {
             "key": "148061",
@@ -1800,7 +1847,8 @@
           "sosRating": 1584.7333006757947,
           "wWins": 2.5879291969873384,
           "wLosses": 0.3955258603983733,
-          "matchCount": 13,
+          "matchCount": 16,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "186172",
@@ -1832,7 +1880,8 @@
           "sosRating": 1573.9952945248094,
           "wWins": 2.4234098304475467,
           "wLosses": 0.32752196613949214,
-          "matchCount": 13,
+          "matchCount": 14,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "124991",
@@ -1877,7 +1926,8 @@
           "sosRating": 1549.45477468085,
           "wWins": 2.8122998771677032,
           "wLosses": 0.6814229938190455,
-          "matchCount": 18,
+          "matchCount": 21,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 21,
           "qualifier": {
             "key": "166070",
@@ -1914,7 +1964,8 @@
           "sosRating": 1528.0284192500874,
           "wWins": 1.9311164278409414,
           "wLosses": 0.29045966889405206,
-          "matchCount": 11,
+          "matchCount": 12,
+          "distinctOpponents": 11,
           "matchCountAtFlight": 11,
           "qualifier": {
             "key": "197745",
@@ -1946,7 +1997,8 @@
           "sosRating": 1568.4407844269574,
           "wWins": 1.9012050115568973,
           "wLosses": 0.45286076524386476,
-          "matchCount": 10,
+          "matchCount": 13,
+          "distinctOpponents": 10,
           "matchCountAtFlight": 13,
           "qualifier": {
             "key": "189794",
@@ -1978,7 +2030,8 @@
           "sosRating": 1564.3296197333245,
           "wWins": 2.38468792830254,
           "wLosses": 0.7184742601080445,
-          "matchCount": 14,
+          "matchCount": 16,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "150034",
@@ -2019,7 +2072,8 @@
           "sosRating": 1612.27418812095,
           "wWins": 1.790613960612546,
           "wLosses": 0.6567648413695517,
-          "matchCount": 12,
+          "matchCount": 13,
+          "distinctOpponents": 12,
           "matchCountAtFlight": 12,
           "qualifier": {
             "key": "126811",
@@ -2064,7 +2118,8 @@
           "sosRating": 1580.887469019887,
           "wWins": 1.6257487823980927,
           "wLosses": 0.41819854015166136,
-          "matchCount": 9,
+          "matchCount": 11,
+          "distinctOpponents": 9,
           "matchCountAtFlight": 10,
           "qualifier": {
             "key": "147675",
@@ -2105,7 +2160,8 @@
           "sosRating": 1568.5655227940474,
           "wWins": 2.300453498889751,
           "wLosses": 0.9575961417431733,
-          "matchCount": 17,
+          "matchCount": 18,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "123986",
@@ -2146,7 +2202,8 @@
           "sosRating": 1549.4546605217768,
           "wWins": 1.9802880190518568,
           "wLosses": 0.6907593805920968,
-          "matchCount": 14,
+          "matchCount": 16,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "126386",
@@ -2183,7 +2240,8 @@
           "sosRating": 1561.7518029016678,
           "wWins": 1.9717863173154828,
           "wLosses": 0.9190822117292234,
-          "matchCount": 14,
+          "matchCount": 15,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 15,
           "qualifier": {
             "key": "126434",
@@ -2224,7 +2282,8 @@
           "sosRating": 1572.8578717424587,
           "wWins": 2.395516650105204,
           "wLosses": 1.4565295483711174,
-          "matchCount": 19,
+          "matchCount": 21,
+          "distinctOpponents": 19,
           "matchCountAtFlight": 21,
           "qualifier": {
             "key": "167768",
@@ -2261,7 +2320,8 @@
           "sosRating": 1576.6929974492018,
           "wWins": 1.755251566281106,
           "wLosses": 0.9690618534312414,
-          "matchCount": 15,
+          "matchCount": 18,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "144559",
@@ -2298,7 +2358,8 @@
           "sosRating": 1483.762613574812,
           "wWins": 2.2662790285764602,
           "wLosses": 0.7650617283129058,
-          "matchCount": 15,
+          "matchCount": 17,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "168292",
@@ -2330,7 +2391,8 @@
           "sosRating": 1542.5208070967215,
           "wWins": 1.4137709204330566,
           "wLosses": 0.9639557667685068,
-          "matchCount": 11,
+          "matchCount": 13,
+          "distinctOpponents": 11,
           "matchCountAtFlight": 12,
           "qualifier": {
             "key": "143524",
@@ -2367,7 +2429,8 @@
           "sosRating": 1557.627820815796,
           "wWins": 1.8903347039263325,
           "wLosses": 1.6675960618504613,
-          "matchCount": 17,
+          "matchCount": 18,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "145829",
@@ -2404,7 +2467,8 @@
           "sosRating": 1554.9513453790541,
           "wWins": 1.3868646719907096,
           "wLosses": 1.172959659490472,
-          "matchCount": 12,
+          "matchCount": 13,
+          "distinctOpponents": 12,
           "matchCountAtFlight": 13,
           "qualifier": {
             "key": "145430",
@@ -2442,6 +2506,7 @@
           "wWins": 1.5804447563806796,
           "wLosses": 1.9180146194225205,
           "matchCount": 19,
+          "distinctOpponents": 19,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "166391",
@@ -2473,7 +2538,8 @@
           "sosRating": 1541.5237794917246,
           "wWins": 1.2946317674697436,
           "wLosses": 1.8279878277994042,
-          "matchCount": 15,
+          "matchCount": 17,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "164875",
@@ -2517,6 +2583,7 @@
           "wWins": 1.3645207458883926,
           "wLosses": 0,
           "matchCount": 6,
+          "distinctOpponents": 6,
           "matchCountAtFlight": 6,
           "qualifier": {
             "key": "191721",
@@ -2549,6 +2616,7 @@
           "wWins": 1.725121555462708,
           "wLosses": 0.25993340723971037,
           "matchCount": 9,
+          "distinctOpponents": 9,
           "matchCountAtFlight": 9,
           "qualifier": {
             "key": "141879",
@@ -2590,6 +2658,7 @@
           "wWins": 1.047482906423901,
           "wLosses": 0,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 5,
           "qualifier": {
             "key": "125157",
@@ -2635,6 +2704,7 @@
           "wWins": 0.8497199762247145,
           "wLosses": 0,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "125197",
@@ -2680,6 +2750,7 @@
           "wWins": 0.8917105704265619,
           "wLosses": 0,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "197740",
@@ -2712,6 +2783,7 @@
           "wWins": 0.8497199762247145,
           "wLosses": 0,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "191237",
@@ -2744,6 +2816,7 @@
           "wWins": 0.7798002217191311,
           "wLosses": 0,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "193503",
@@ -2776,6 +2849,7 @@
           "wWins": 0.7798002217191311,
           "wLosses": 0,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "189542",
@@ -2816,6 +2890,7 @@
           "wWins": 0.8354056233961376,
           "wLosses": 0.25993340723971037,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "169450",
@@ -2848,6 +2923,7 @@
           "wWins": 0.6861649535539873,
           "wLosses": 0.25993340723971037,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "191165",
@@ -2880,6 +2956,7 @@
           "wWins": 0.7784394806876652,
           "wLosses": 0.25993340723971037,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "163928",
@@ -2917,6 +2994,7 @@
           "wWins": 0.7408788009740473,
           "wLosses": 0.5070514921986184,
           "matchCount": 6,
+          "distinctOpponents": 6,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "171408",
@@ -2954,6 +3032,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "196043",
@@ -2986,6 +3065,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "126388",
@@ -3023,6 +3103,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "168236",
@@ -3060,6 +3141,7 @@
           "wWins": 0.5132453122606295,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "166399",
@@ -3092,6 +3174,7 @@
           "wWins": 0.7798002217191311,
           "wLosses": 0.47036216735331854,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 5,
           "qualifier": {
             "key": "189394",
@@ -3124,6 +3207,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.426231546314277,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "169683",
@@ -3156,6 +3240,7 @@
           "wWins": 0.25993340723971037,
           "wLosses": 0.5070514921986184,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "170657",
@@ -3188,6 +3273,7 @@
           "wWins": 0.25993340723971037,
           "wLosses": 0.5132453122606295,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "164874",
@@ -3220,6 +3306,7 @@
           "wWins": 0,
           "wLosses": 0.25993340723971037,
           "matchCount": 1,
+          "distinctOpponents": 1,
           "matchCountAtFlight": 1,
           "qualifier": {
             "key": "192145",
@@ -3252,6 +3339,7 @@
           "wWins": 0.25993340723971037,
           "wLosses": 0.7830898382578226,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "196140",
@@ -3289,7 +3377,8 @@
           "sosRating": 1594.6898407749518,
           "wWins": 3.1489921535252776,
           "wLosses": 0,
-          "matchCount": 14,
+          "matchCount": 16,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "125127-169170",
@@ -3339,7 +3428,8 @@
           "sosRating": 1630.9812118685268,
           "wWins": 2.726470851688674,
           "wLosses": 0.25993340723971037,
-          "matchCount": 15,
+          "matchCount": 16,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "150307-171407",
@@ -3385,7 +3475,8 @@
           "sosRating": 1598.6497786576783,
           "wWins": 3.163173388820283,
           "wLosses": 0.35934618146389563,
-          "matchCount": 17,
+          "matchCount": 19,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "125198-148060",
@@ -3439,7 +3530,8 @@
           "sosRating": 1581.8676483462832,
           "wWins": 3.6454861541841304,
           "wLosses": 0.4605329835822572,
-          "matchCount": 20,
+          "matchCount": 23,
+          "distinctOpponents": 20,
           "matchCountAtFlight": 23,
           "qualifier": {
             "key": "146344-193504",
@@ -3481,7 +3573,8 @@
           "sosRating": 1513.3441858785598,
           "wWins": 2.80507337439007,
           "wLosses": 0.2473835741225589,
-          "matchCount": 17,
+          "matchCount": 20,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 20,
           "qualifier": {
             "key": "144563-163927",
@@ -3523,7 +3616,8 @@
           "sosRating": 1578.501874644404,
           "wWins": 2.8312074697867846,
           "wLosses": 1.0959950643848255,
-          "matchCount": 19,
+          "matchCount": 21,
+          "distinctOpponents": 19,
           "matchCountAtFlight": 21,
           "qualifier": {
             "key": "127707-197742",
@@ -3569,7 +3663,8 @@
           "sosRating": 1566.7771046324985,
           "wWins": 2.747033729489516,
           "wLosses": 1.0361705682880422,
-          "matchCount": 19,
+          "matchCount": 20,
+          "distinctOpponents": 19,
           "matchCountAtFlight": 20,
           "qualifier": {
             "key": "128898-191723",
@@ -3611,7 +3706,8 @@
           "sosRating": 1605.0575939188195,
           "wWins": 2.127779221665937,
           "wLosses": 0.9204351984908857,
-          "matchCount": 15,
+          "matchCount": 18,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "127339-127340",
@@ -3666,6 +3762,7 @@
           "wWins": 2.3250553725780456,
           "wLosses": 1.026155386862897,
           "matchCount": 18,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "168333-168341",
@@ -3707,7 +3804,8 @@
           "sosRating": 1506.880680551368,
           "wWins": 2.4052504946873228,
           "wLosses": 0.6836128205423386,
-          "matchCount": 15,
+          "matchCount": 18,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "148435-169121",
@@ -3740,7 +3838,8 @@
           "sosRating": 1602.729056435241,
           "wWins": 2.174001727795485,
           "wLosses": 1.2467285333995628,
-          "matchCount": 17,
+          "matchCount": 19,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "164873-191731",
@@ -3778,7 +3877,8 @@
           "sosRating": 1540.431391004043,
           "wWins": 2.2626846265939813,
           "wLosses": 1.0688597427460769,
-          "matchCount": 16,
+          "matchCount": 18,
+          "distinctOpponents": 16,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "131267-141877",
@@ -3824,7 +3924,8 @@
           "sosRating": 1582.3789921367124,
           "wWins": 1.7130492041582144,
           "wLosses": 0.9277525118990968,
-          "matchCount": 12,
+          "matchCount": 14,
+          "distinctOpponents": 12,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "143525-169964",
@@ -3862,7 +3963,8 @@
           "sosRating": 1535.170791148429,
           "wWins": 2.2723488904524,
           "wLosses": 1.2940368514437708,
-          "matchCount": 20,
+          "matchCount": 22,
+          "distinctOpponents": 20,
           "matchCountAtFlight": 22,
           "qualifier": {
             "key": "143879-145378",
@@ -3905,6 +4007,7 @@
           "wWins": 1.163485683737336,
           "wLosses": 0.6664914067817819,
           "matchCount": 8,
+          "distinctOpponents": 8,
           "matchCountAtFlight": 8,
           "qualifier": {
             "key": "124789-170771",
@@ -3945,7 +4048,8 @@
           "sosRating": 1559.1951719125116,
           "wWins": 1.6560329188675897,
           "wLosses": 1.633821552310381,
-          "matchCount": 17,
+          "matchCount": 19,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "125158-125159",
@@ -3999,7 +4103,8 @@
           "sosRating": 1574.4182104114852,
           "wWins": 1.8480835335190622,
           "wLosses": 2.095648475817276,
-          "matchCount": 20,
+          "matchCount": 21,
+          "distinctOpponents": 20,
           "matchCountAtFlight": 20,
           "qualifier": {
             "key": "169754-196041",
@@ -4037,7 +4142,8 @@
           "sosRating": 1534.8620113141972,
           "wWins": 1.7089309603146658,
           "wLosses": 1.6219746640564348,
-          "matchCount": 18,
+          "matchCount": 20,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 20,
           "qualifier": {
             "key": "143560-143567",
@@ -4079,7 +4185,8 @@
           "sosRating": 1637.8733617430462,
           "wWins": 1.3382617678980668,
           "wLosses": 2.307618603818571,
-          "matchCount": 17,
+          "matchCount": 19,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 19,
           "qualifier": {
             "key": "152497-152498",
@@ -4121,7 +4228,8 @@
           "sosRating": 1568.3170404270734,
           "wWins": 1.2529632221312885,
           "wLosses": 1.6288377924086201,
-          "matchCount": 16,
+          "matchCount": 18,
+          "distinctOpponents": 16,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "193009-193010",
@@ -4154,7 +4262,8 @@
           "sosRating": 1575.5273580933215,
           "wWins": 0.8629526777309909,
           "wLosses": 1.2382349515352225,
-          "matchCount": 9,
+          "matchCount": 11,
+          "distinctOpponents": 9,
           "matchCountAtFlight": 10,
           "qualifier": {
             "key": "168239-168240",
@@ -4197,6 +4306,7 @@
           "wWins": 1.1582754688767416,
           "wLosses": 1.5249727724962923,
           "matchCount": 14,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "148809-170923",
@@ -4248,7 +4358,8 @@
           "sosRating": 1583.83507859887,
           "wWins": 3.139572764536271,
           "wLosses": 0,
-          "matchCount": 15,
+          "matchCount": 17,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "146346-146348",
@@ -4294,7 +4405,8 @@
           "sosRating": 1522.8932708568082,
           "wWins": 3.118812944311796,
           "wLosses": 0.3376024392103534,
-          "matchCount": 18,
+          "matchCount": 20,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 20,
           "qualifier": {
             "key": "143557-143561",
@@ -4336,7 +4448,8 @@
           "sosRating": 1536.2331694607435,
           "wWins": 2.909957590261717,
           "wLosses": 0.4143287427362342,
-          "matchCount": 16,
+          "matchCount": 18,
+          "distinctOpponents": 16,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "131268-141880",
@@ -4375,6 +4488,7 @@
           "wWins": 2.4933295849531305,
           "wLosses": 0.32752196613949214,
           "matchCount": 15,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 11,
           "qualifier": {
             "key": "168332-168342",
@@ -4416,7 +4530,8 @@
           "sosRating": 1587.0407487298348,
           "wWins": 2.129497613430553,
           "wLosses": 0.41819854015166136,
-          "matchCount": 12,
+          "matchCount": 14,
+          "distinctOpponents": 12,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "147673-169449",
@@ -4458,7 +4573,8 @@
           "sosRating": 1569.2006114244093,
           "wWins": 2.251370939599457,
           "wLosses": 0.47294248011289064,
-          "matchCount": 15,
+          "matchCount": 18,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "144565-163929",
@@ -4500,7 +4616,8 @@
           "sosRating": 1491.9635916399975,
           "wWins": 2.6051092105750895,
           "wLosses": 0.426231546314277,
-          "matchCount": 15,
+          "matchCount": 17,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "152444-168294",
@@ -4533,7 +4650,8 @@
           "sosRating": 1565.384439943264,
           "wWins": 1.653421925298085,
           "wLosses": 0.3891379738139885,
-          "matchCount": 9,
+          "matchCount": 10,
+          "distinctOpponents": 9,
           "matchCountAtFlight": 10,
           "qualifier": {
             "key": "148062-195422",
@@ -4575,7 +4693,8 @@
           "sosRating": 1575.375024805872,
           "wWins": 2.0658574326107475,
           "wLosses": 0.6834473163759851,
-          "matchCount": 12,
+          "matchCount": 14,
+          "distinctOpponents": 12,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "150037-150041",
@@ -4617,7 +4736,8 @@
           "sosRating": 1550.9511420365604,
           "wWins": 1.5953742521379581,
           "wLosses": 0.3388301819986287,
-          "matchCount": 8,
+          "matchCount": 10,
+          "distinctOpponents": 8,
           "matchCountAtFlight": 10,
           "qualifier": {
             "key": "150805-150806",
@@ -4659,7 +4779,8 @@
           "sosRating": 1591.1329020118399,
           "wWins": 1.9384526109785385,
           "wLosses": 0.8727927888000597,
-          "matchCount": 13,
+          "matchCount": 14,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "145427-169169",
@@ -4701,7 +4822,8 @@
           "sosRating": 1541.1202443924033,
           "wWins": 1.7986529963914304,
           "wLosses": 0.5467102086903672,
-          "matchCount": 12,
+          "matchCount": 14,
+          "distinctOpponents": 12,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "126389-145472",
@@ -4743,7 +4865,8 @@
           "sosRating": 1567.6344082459887,
           "wWins": 2.0615077871379146,
           "wLosses": 0.9219472702477969,
-          "matchCount": 13,
+          "matchCount": 16,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "144997-164462",
@@ -4776,7 +4899,8 @@
           "sosRating": 1546.0942180494524,
           "wWins": 2.4436873869858022,
           "wLosses": 1.0500354840009454,
-          "matchCount": 18,
+          "matchCount": 21,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 21,
           "qualifier": {
             "key": "191167-191168",
@@ -4810,6 +4934,7 @@
           "wWins": 1.6398317840235725,
           "wLosses": 0.4782813846660384,
           "matchCount": 10,
+          "distinctOpponents": 10,
           "matchCountAtFlight": 10,
           "qualifier": {
             "key": "147112-192272",
@@ -4842,7 +4967,8 @@
           "sosRating": 1492.673392057029,
           "wWins": 1.599702123887752,
           "wLosses": 0.45286076524386476,
-          "matchCount": 10,
+          "matchCount": 11,
+          "distinctOpponents": 10,
           "matchCountAtFlight": 11,
           "qualifier": {
             "key": "168243-168244",
@@ -4884,7 +5010,8 @@
           "sosRating": 1567.5259853220382,
           "wWins": 1.6852873393053733,
           "wLosses": 1.1215690840649724,
-          "matchCount": 14,
+          "matchCount": 16,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "126233-149182",
@@ -4934,7 +5061,8 @@
           "sosRating": 1551.0249701149974,
           "wWins": 2.0426033582348575,
           "wLosses": 1.4152073997740113,
-          "matchCount": 15,
+          "matchCount": 17,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "130429-191722",
@@ -4976,7 +5104,8 @@
           "sosRating": 1565.7291179438919,
           "wWins": 1.467096520303306,
           "wLosses": 1.1533442829794227,
-          "matchCount": 12,
+          "matchCount": 14,
+          "distinctOpponents": 12,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "148680-196147",
@@ -5014,7 +5143,8 @@
           "sosRating": 1598.5332364262058,
           "wWins": 1.3200595334192318,
           "wLosses": 2.135179487219528,
-          "matchCount": 17,
+          "matchCount": 18,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "169752-196042",
@@ -5053,6 +5183,7 @@
           "wWins": 0.8926879876442099,
           "wLosses": 1.7382471341607861,
           "matchCount": 14,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "148810-151389",
@@ -5098,7 +5229,8 @@
           "sosRating": 1579.6861875479694,
           "wWins": 0.6719641267703154,
           "wLosses": 1.6327974289503435,
-          "matchCount": 11,
+          "matchCount": 12,
+          "distinctOpponents": 11,
           "matchCountAtFlight": 11,
           "qualifier": {
             "key": "150309-171409",
@@ -5150,7 +5282,8 @@
           "sosRating": 1590.9144404607837,
           "wWins": 2.999733255525104,
           "wLosses": 0,
-          "matchCount": 14,
+          "matchCount": 16,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 15,
           "qualifier": {
             "key": "146347-170519",
@@ -5196,7 +5329,8 @@
           "sosRating": 1518.8017939365793,
           "wWins": 2.1096657480275622,
           "wLosses": 0,
-          "matchCount": 9,
+          "matchCount": 11,
+          "distinctOpponents": 9,
           "matchCountAtFlight": 11,
           "qualifier": {
             "key": "171218-171219",
@@ -5238,7 +5372,8 @@
           "sosRating": 1585.3996759052727,
           "wWins": 2.336885394578461,
           "wLosses": 0.49814143988650555,
-          "matchCount": 14,
+          "matchCount": 16,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "164461-164463",
@@ -5280,7 +5415,8 @@
           "sosRating": 1547.927078324259,
           "wWins": 2.313759852589752,
           "wLosses": 0.4105535671225956,
-          "matchCount": 17,
+          "matchCount": 18,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "144562-163931",
@@ -5322,7 +5458,8 @@
           "sosRating": 1602.4068484639088,
           "wWins": 2.0161125275859186,
           "wLosses": 0.6064085622674048,
-          "matchCount": 12,
+          "matchCount": 14,
+          "distinctOpponents": 12,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "169451-169455",
@@ -5355,7 +5492,8 @@
           "sosRating": 1513.798326414884,
           "wWins": 2.3589076998664966,
           "wLosses": 0.37184375594714114,
-          "matchCount": 13,
+          "matchCount": 15,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 15,
           "qualifier": {
             "key": "141882-163282",
@@ -5388,7 +5526,8 @@
           "sosRating": 1538.6023368436609,
           "wWins": 1.80721122788533,
           "wLosses": 0.3727433129228519,
-          "matchCount": 9,
+          "matchCount": 10,
+          "distinctOpponents": 9,
           "matchCountAtFlight": 10,
           "qualifier": {
             "key": "145536-168339",
@@ -5430,7 +5569,8 @@
           "sosRating": 1585.4800738837437,
           "wWins": 2.167734575646718,
           "wLosses": 0.9982636172572218,
-          "matchCount": 13,
+          "matchCount": 15,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 15,
           "qualifier": {
             "key": "152096-196044",
@@ -5463,7 +5603,8 @@
           "sosRating": 1604.8182469886706,
           "wWins": 2.0910194738033363,
           "wLosses": 1.1115374529030688,
-          "matchCount": 15,
+          "matchCount": 16,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 15,
           "qualifier": {
             "key": "189389-189392",
@@ -5496,7 +5637,8 @@
           "sosRating": 1548.5303552246658,
           "wWins": 1.7378929290600502,
           "wLosses": 0.727564174250291,
-          "matchCount": 13,
+          "matchCount": 14,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "169669-193014",
@@ -5534,7 +5676,8 @@
           "sosRating": 1472.28451396642,
           "wWins": 2.33093000821275,
           "wLosses": 0.7004107486766162,
-          "matchCount": 15,
+          "matchCount": 17,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "148437-148450",
@@ -5568,6 +5711,7 @@
           "wWins": 0.8497199762247145,
           "wLosses": 0.24813976977642097,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 5,
           "qualifier": {
             "key": "148546-164766",
@@ -5605,7 +5749,8 @@
           "sosRating": 1520.364322883817,
           "wWins": 2.184403156321606,
           "wLosses": 0.977858625511649,
-          "matchCount": 15,
+          "matchCount": 17,
+          "distinctOpponents": 15,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "149191-164876",
@@ -5651,7 +5796,8 @@
           "sosRating": 1557.902897964847,
           "wWins": 1.984028686626871,
           "wLosses": 1.119133501783713,
-          "matchCount": 14,
+          "matchCount": 16,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 16,
           "qualifier": {
             "key": "150039-170655",
@@ -5684,7 +5830,8 @@
           "sosRating": 1527.1962708576018,
           "wWins": 1.3400561676346034,
           "wLosses": 0.5513482296733483,
-          "matchCount": 8,
+          "matchCount": 9,
+          "distinctOpponents": 8,
           "matchCountAtFlight": 8,
           "qualifier": {
             "key": "168241-189795",
@@ -5722,7 +5869,8 @@
           "sosRating": 1554.1521328848546,
           "wWins": 1.6408878520039145,
           "wLosses": 0.9762386023350818,
-          "matchCount": 12,
+          "matchCount": 14,
+          "distinctOpponents": 12,
           "matchCountAtFlight": 14,
           "qualifier": {
             "key": "191166-191170",
@@ -5755,7 +5903,8 @@
           "sosRating": 1574.2336647680672,
           "wWins": 1.5142989532373223,
           "wLosses": 1.3937897766389002,
-          "matchCount": 14,
+          "matchCount": 15,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 15,
           "qualifier": {
             "key": "143563-164763",
@@ -5788,7 +5937,8 @@
           "sosRating": 1547.9595913577061,
           "wWins": 1.5822627998348529,
           "wLosses": 1.3684964659753978,
-          "matchCount": 14,
+          "matchCount": 15,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 15,
           "qualifier": {
             "key": "167766-168529",
@@ -5822,6 +5972,7 @@
           "wWins": 0.5132453122606295,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "165752-171391",
@@ -5862,7 +6013,8 @@
           "sosRating": 1575.2373156212789,
           "wWins": 0.9988726566716863,
           "wLosses": 1.7274913667513794,
-          "matchCount": 14,
+          "matchCount": 15,
+          "distinctOpponents": 14,
           "matchCountAtFlight": 15,
           "qualifier": {
             "key": "196144-196148",
@@ -5895,7 +6047,8 @@
           "sosRating": 1541.7799248471888,
           "wWins": 0.4481434293554538,
           "wLosses": 1.247293835292963,
-          "matchCount": 7,
+          "matchCount": 8,
+          "distinctOpponents": 7,
           "matchCountAtFlight": 8,
           "qualifier": {
             "key": "150308-195727",
@@ -5937,7 +6090,8 @@
           "sosRating": 1559.618031891034,
           "wWins": 0.5198668144794207,
           "wLosses": 2.0088763708679416,
-          "matchCount": 11,
+          "matchCount": 12,
+          "distinctOpponents": 11,
           "matchCountAtFlight": 12,
           "qualifier": {
             "key": "150203-170045",
@@ -5977,6 +6131,7 @@
           "wWins": 1.0647213071415416,
           "wLosses": 0,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 5,
           "qualifier": {
             "key": "124994-146345",
@@ -6027,6 +6182,7 @@
           "wWins": 1.5327656491724664,
           "wLosses": 0.25993340723971037,
           "matchCount": 8,
+          "distinctOpponents": 8,
           "matchCountAtFlight": 8,
           "qualifier": {
             "key": "141878-141883",
@@ -6069,6 +6225,7 @@
           "wWins": 0.9775631519183178,
           "wLosses": 0,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "172804-195423",
@@ -6102,6 +6259,7 @@
           "wWins": 1.0269183066780392,
           "wLosses": 0,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "167770-191724",
@@ -6140,6 +6298,7 @@
           "wWins": 1.0269183066780392,
           "wLosses": 0,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "168327-191235",
@@ -6178,6 +6337,7 @@
           "wWins": 1.0000773442381483,
           "wLosses": 0,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "143566-172969",
@@ -6211,6 +6371,7 @@
           "wWins": 0.7798002217191311,
           "wLosses": 0,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "145432-189393",
@@ -6249,6 +6410,7 @@
           "wWins": 0.7798002217191311,
           "wLosses": 0.17764660526430368,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "146813-169960",
@@ -6282,6 +6444,7 @@
           "wWins": 0.6975134197437244,
           "wLosses": 0.25993340723971037,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "127341-151383",
@@ -6320,6 +6483,7 @@
           "wWins": 0.7048384420751668,
           "wLosses": 0.25993340723971037,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "169665-169668",
@@ -6358,6 +6522,7 @@
           "wWins": 0.8473833374106374,
           "wLosses": 0.5070514921986184,
           "matchCount": 6,
+          "distinctOpponents": 6,
           "matchCountAtFlight": 5,
           "qualifier": {
             "key": "150312-152668",
@@ -6396,6 +6561,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "163930-166963",
@@ -6429,6 +6595,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "171431-192285",
@@ -6462,6 +6629,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "196045-196047",
@@ -6495,6 +6663,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "171217-197739",
@@ -6533,6 +6702,7 @@
           "wWins": 0.5132453122606295,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "145380-166071",
@@ -6566,6 +6736,7 @@
           "wWins": 0.6263713509160109,
           "wLosses": 0.467734119026019,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "168238-168242",
@@ -6603,7 +6774,8 @@
           "sosRating": 1469.2831576287326,
           "wWins": 0.5004550334137412,
           "wLosses": 0.25993340723971037,
-          "matchCount": 2,
+          "matchCount": 3,
+          "distinctOpponents": 2,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "164464-173149",
@@ -6642,6 +6814,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.426231546314277,
           "matchCount": 4,
+          "distinctOpponents": 4,
           "matchCountAtFlight": 4,
           "qualifier": {
             "key": "197075-197076",
@@ -6675,6 +6848,7 @@
           "wWins": 0.25993340723971037,
           "wLosses": 0.5070514921986184,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "170041-192146",
@@ -6713,6 +6887,7 @@
           "wWins": 0.25993340723971037,
           "wLosses": 0.5070514921986184,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "170656-197690",
@@ -6746,6 +6921,7 @@
           "wWins": 0.25993340723971037,
           "wLosses": 0.5132453122606295,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "164872-191734",
@@ -8616,7 +8792,8 @@
         "sosRating": 1604.863902993921,
         "wWins": 1.690630388117417,
         "wLosses": 1.4942822322489586,
-        "matchCount": 16,
+        "matchCount": 17,
+        "distinctOpponents": 16,
         "matchCountAtFlight": 17,
         "qualifier": {
           "key": "191239",
@@ -8650,7 +8827,8 @@
         "sosRating": 1631.4352345521058,
         "wWins": 1.7422149356482435,
         "wLosses": 1.9036654360683942,
-        "matchCount": 17,
+        "matchCount": 19,
+        "distinctOpponents": 17,
         "matchCountAtFlight": 19,
         "qualifier": {
           "key": "197686",
@@ -8684,7 +8862,8 @@
         "sosRating": 1558.1649512851266,
         "wWins": 2.1848922864287736,
         "wLosses": 1.7347323919899735,
-        "matchCount": 19,
+        "matchCount": 22,
+        "distinctOpponents": 19,
         "matchCountAtFlight": 22,
         "qualifier": {
           "key": "149175",
@@ -8727,7 +8906,8 @@
         "sosRating": 1523.1822623687137,
         "wWins": 1.8535874690742815,
         "wLosses": 1.2350439901696117,
-        "matchCount": 15,
+        "matchCount": 16,
+        "distinctOpponents": 15,
         "matchCountAtFlight": 16,
         "qualifier": {
           "key": "170043",
@@ -8766,7 +8946,8 @@
         "sosRating": 1579.442748427026,
         "wWins": 1.5237666517260506,
         "wLosses": 1.3671018773186554,
-        "matchCount": 13,
+        "matchCount": 15,
+        "distinctOpponents": 13,
         "matchCountAtFlight": 15,
         "qualifier": {
           "key": "170042",
@@ -8806,6 +8987,7 @@
         "wWins": 0.7382816996234416,
         "wLosses": 0.6966293620923665,
         "matchCount": 7,
+        "distinctOpponents": 7,
         "matchCountAtFlight": 7,
         "qualifier": {
           "key": "124996",
@@ -8852,7 +9034,8 @@
         "sosRating": 1558.891467994017,
         "wWins": 1.0555454421809554,
         "wLosses": 1.6284926421597667,
-        "matchCount": 16,
+        "matchCount": 17,
+        "distinctOpponents": 16,
         "matchCountAtFlight": 17,
         "qualifier": {
           "key": "126390",
@@ -8891,7 +9074,8 @@
         "sosRating": 1561.7518029016678,
         "wWins": 1.9717863173154828,
         "wLosses": 0.9190822117292234,
-        "matchCount": 14,
+        "matchCount": 15,
+        "distinctOpponents": 14,
         "matchCountAtFlight": 15,
         "qualifier": {
           "key": "126434",
@@ -8934,7 +9118,8 @@
         "sosRating": 1572.8578717424587,
         "wWins": 2.395516650105204,
         "wLosses": 1.4565295483711174,
-        "matchCount": 19,
+        "matchCount": 21,
+        "distinctOpponents": 19,
         "matchCountAtFlight": 21,
         "qualifier": {
           "key": "167768",
@@ -8973,7 +9158,8 @@
         "sosRating": 1483.762613574812,
         "wWins": 2.2662790285764602,
         "wLosses": 0.7650617283129058,
-        "matchCount": 15,
+        "matchCount": 17,
+        "distinctOpponents": 15,
         "matchCountAtFlight": 17,
         "qualifier": {
           "key": "168292",
@@ -9007,7 +9193,8 @@
         "sosRating": 1554.9513453790541,
         "wWins": 1.3868646719907096,
         "wLosses": 1.172959659490472,
-        "matchCount": 12,
+        "matchCount": 13,
+        "distinctOpponents": 12,
         "matchCountAtFlight": 13,
         "qualifier": {
           "key": "145430",
@@ -9047,6 +9234,7 @@
         "wWins": 0.5198668144794207,
         "wLosses": 0.25993340723971037,
         "matchCount": 3,
+        "distinctOpponents": 3,
         "matchCountAtFlight": 3,
         "qualifier": {
           "key": "126388",
@@ -9086,6 +9274,7 @@
         "wWins": 0.5198668144794207,
         "wLosses": 0.25993340723971037,
         "matchCount": 3,
+        "distinctOpponents": 3,
         "matchCountAtFlight": 3,
         "qualifier": {
           "key": "168236",
@@ -9125,6 +9314,7 @@
         "wWins": 0.5132453122606295,
         "wLosses": 0.25993340723971037,
         "matchCount": 3,
+        "distinctOpponents": 3,
         "matchCountAtFlight": 3,
         "qualifier": {
           "key": "166399",
@@ -9159,6 +9349,7 @@
         "wWins": 0.7798002217191311,
         "wLosses": 0.47036216735331854,
         "matchCount": 5,
+        "distinctOpponents": 5,
         "matchCountAtFlight": 5,
         "qualifier": {
           "key": "189394",
@@ -9193,6 +9384,7 @@
         "wWins": 0.5198668144794207,
         "wLosses": 0.426231546314277,
         "matchCount": 4,
+        "distinctOpponents": 4,
         "matchCountAtFlight": 4,
         "qualifier": {
           "key": "169683",
@@ -9226,7 +9418,8 @@
         "sosRating": 1535.170791148429,
         "wWins": 2.2723488904524,
         "wLosses": 1.2940368514437708,
-        "matchCount": 20,
+        "matchCount": 22,
+        "distinctOpponents": 20,
         "matchCountAtFlight": 22,
         "qualifier": {
           "key": "143879-145378",
@@ -9270,7 +9463,8 @@
         "sosRating": 1637.8733617430462,
         "wWins": 1.3382617678980668,
         "wLosses": 2.307618603818571,
-        "matchCount": 17,
+        "matchCount": 19,
+        "distinctOpponents": 17,
         "matchCountAtFlight": 19,
         "qualifier": {
           "key": "152497-152498",
@@ -9314,7 +9508,8 @@
         "sosRating": 1546.0942180494524,
         "wWins": 2.4436873869858022,
         "wLosses": 1.0500354840009454,
-        "matchCount": 18,
+        "matchCount": 21,
+        "distinctOpponents": 18,
         "matchCountAtFlight": 21,
         "qualifier": {
           "key": "191167-191168",
@@ -9349,7 +9544,8 @@
         "sosRating": 1492.673392057029,
         "wWins": 1.599702123887752,
         "wLosses": 0.45286076524386476,
-        "matchCount": 10,
+        "matchCount": 11,
+        "distinctOpponents": 10,
         "matchCountAtFlight": 11,
         "qualifier": {
           "key": "168243-168244",
@@ -9393,7 +9589,8 @@
         "sosRating": 1551.0249701149974,
         "wWins": 2.0426033582348575,
         "wLosses": 1.4152073997740113,
-        "matchCount": 15,
+        "matchCount": 17,
+        "distinctOpponents": 15,
         "matchCountAtFlight": 17,
         "qualifier": {
           "key": "130429-191722",
@@ -9438,6 +9635,7 @@
         "wWins": 0.8926879876442099,
         "wLosses": 1.7382471341607861,
         "matchCount": 14,
+        "distinctOpponents": 14,
         "matchCountAtFlight": 14,
         "qualifier": {
           "key": "148810-151389",
@@ -9485,7 +9683,8 @@
         "sosRating": 1557.902897964847,
         "wWins": 1.984028686626871,
         "wLosses": 1.119133501783713,
-        "matchCount": 14,
+        "matchCount": 16,
+        "distinctOpponents": 14,
         "matchCountAtFlight": 16,
         "qualifier": {
           "key": "150039-170655",
@@ -9520,7 +9719,8 @@
         "sosRating": 1554.1521328848546,
         "wWins": 1.6408878520039145,
         "wLosses": 0.9762386023350818,
-        "matchCount": 12,
+        "matchCount": 14,
+        "distinctOpponents": 12,
         "matchCountAtFlight": 14,
         "qualifier": {
           "key": "191166-191170",
@@ -9556,6 +9756,7 @@
         "wWins": 0.5132453122606295,
         "wLosses": 0.25993340723971037,
         "matchCount": 3,
+        "distinctOpponents": 3,
         "matchCountAtFlight": 3,
         "qualifier": {
           "key": "165752-171391",
@@ -9591,6 +9792,7 @@
         "wWins": 0.5198668144794207,
         "wLosses": 0.25993340723971037,
         "matchCount": 3,
+        "distinctOpponents": 3,
         "matchCountAtFlight": 3,
         "qualifier": {
           "key": "196045-196047",
@@ -9626,6 +9828,7 @@
         "wWins": 0.5198668144794207,
         "wLosses": 0.25993340723971037,
         "matchCount": 3,
+        "distinctOpponents": 3,
         "matchCountAtFlight": 3,
         "qualifier": {
           "key": "171217-197739",
@@ -9666,6 +9869,7 @@
         "wWins": 0.5132453122606295,
         "wLosses": 0.25993340723971037,
         "matchCount": 3,
+        "distinctOpponents": 3,
         "matchCountAtFlight": 3,
         "qualifier": {
           "key": "145380-166071",
@@ -9701,6 +9905,7 @@
         "wWins": 0.6263713509160109,
         "wLosses": 0.467734119026019,
         "matchCount": 5,
+        "distinctOpponents": 5,
         "matchCountAtFlight": 3,
         "qualifier": {
           "key": "168238-168242",
@@ -9741,6 +9946,7 @@
         "wWins": 0.25993340723971037,
         "wLosses": 0.5132453122606295,
         "matchCount": 3,
+        "distinctOpponents": 3,
         "matchCountAtFlight": 3,
         "qualifier": {
           "key": "164872-191734",
@@ -9779,7 +9985,8 @@
           "sosRating": 1593.7428621605623,
           "wWins": 3.5774401322933214,
           "wLosses": 0.28388868091289626,
-          "matchCount": 18,
+          "matchCount": 20,
+          "distinctOpponents": 18,
           "matchCountAtFlight": 20,
           "qualifier": {
             "key": "145828",
@@ -10031,6 +10238,7 @@
           "wWins": 0.4846794687712126,
           "wLosses": 0.6638654721435147,
           "matchCount": 5,
+          "distinctOpponents": 5,
           "matchCountAtFlight": 2,
           "qualifier": {
             "key": "196046",
@@ -10284,7 +10492,8 @@
           "sosRating": 1557.627820815796,
           "wWins": 1.8903347039263325,
           "wLosses": 1.6675960618504613,
-          "matchCount": 17,
+          "matchCount": 18,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 18,
           "qualifier": {
             "key": "145829",
@@ -10536,6 +10745,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "196043",
@@ -10781,7 +10991,8 @@
           "sosRating": 1574.4182104114852,
           "wWins": 1.8480835335190622,
           "wLosses": 2.095648475817276,
-          "matchCount": 20,
+          "matchCount": 21,
+          "distinctOpponents": 20,
           "matchCountAtFlight": 20,
           "qualifier": {
             "key": "169754-196041",
@@ -11033,7 +11244,8 @@
           "sosRating": 1598.5332364262058,
           "wWins": 1.3200595334192318,
           "wLosses": 2.135179487219528,
-          "matchCount": 17,
+          "matchCount": 18,
+          "distinctOpponents": 17,
           "matchCountAtFlight": 17,
           "qualifier": {
             "key": "169752-196042",
@@ -11285,7 +11497,8 @@
           "sosRating": 1585.4800738837437,
           "wWins": 2.167734575646718,
           "wLosses": 0.9982636172572218,
-          "matchCount": 13,
+          "matchCount": 15,
+          "distinctOpponents": 13,
           "matchCountAtFlight": 15,
           "qualifier": {
             "key": "152096-196044",
@@ -11533,6 +11746,7 @@
           "wWins": 0.5198668144794207,
           "wLosses": 0.25993340723971037,
           "matchCount": 3,
+          "distinctOpponents": 3,
           "matchCountAtFlight": 3,
           "qualifier": {
             "key": "196045-196047",

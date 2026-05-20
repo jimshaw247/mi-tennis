@@ -1,6 +1,6 @@
 # 2026 MHSAA D1 Girls Tennis State Finals — SOS / Power Rankings
 
-Generated 5/20/2026, 7:02:08 AM from tennisreporting.com data.
+Generated 5/20/2026, 7:54:36 AM from tennisreporting.com data.
 
 Model: Bradley-Terry MM iteration per flight, 28-day recency half-life from 2026-05-19, margin-of-victory weighting (game-differential / 6, clamped 0.3–1.5), 1+1 prior to regularize thin records.
 
