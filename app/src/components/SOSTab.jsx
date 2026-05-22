@@ -115,11 +115,9 @@ function RatingCell({ rating, source }) {
 
 const TEAM_HELP = {
   rank: { title: '#', body: "Position in the team power rankings. Default sort is by Avg (average qualifier rating). Tap any other column header to re-sort." },
-  schoolName: { title: 'School', body: "Team name. Clarkston is highlighted in blue." },
-  qualifierCount: { title: 'Flts', body: "Number of state-finals flights this school has a qualifier in (max 8: 1S, 2S, 3S, 4S, 1D, 2D, 3D, 4D)." },
-  ratedFlights: { title: 'Rated', body: "Flights where the qualifier has real season match data driving their rating. A '+N*' suffix counts flights using a fallback rating (TennisReporting's 2026 Elo) because the qualifier had ~0 season matches at that flight — usually late JV/freshman call-ups." },
-  total: { title: 'Total', body: "Sum of qualifier ratings across all 8 flights. Higher = stronger overall team. Penalises schools that didn't field a qualifier at every flight." },
-  totalAvg: { title: 'Avg', body: "Average rating per qualifier (Total ÷ Flts). Less biased by missing qualifiers than Total. This is the default sort." },
+  schoolName: { title: 'School', body: "Team name. Clarkston is highlighted in blue. Every state-finals D1 team fields all 8 flights (1S–4S, 1D–4D) and every qualifier now has real season-match data." },
+  total: { title: 'Total', body: "Sum of qualifier Bradley-Terry ratings across all 8 flights. Higher = stronger overall team." },
+  totalAvg: { title: 'Avg', body: "Average rating per qualifier (Total ÷ 8). Default sort." },
   sosAvg: { title: 'SOS', body: "Strength of schedule, averaged across this school's qualifiers. Higher = they faced tougher opponents during the season. Independent of W/L — measures who they played, not how they did." },
 }
 
@@ -153,21 +151,17 @@ function TeamsView({ data, sortKey, setSortKey, sortAsc, setSortAsc, q, setQ }) 
             <tr>
               {hdr('rank', '#')}
               {hdr('schoolName', 'School')}
-              {hdr('qualifierCount', 'Flts')}
-              {hdr('ratedFlights', 'Rated')}
               {hdr('total', 'Total')}
               {hdr('totalAvg', 'Avg')}
               {hdr('sosAvg', 'SOS')}
             </tr>
           </thead>
           <tbody>
-            <HelpRow helpKey={helpOpen} helpDict={TEAM_HELP} colSpan={7} />
+            <HelpRow helpKey={helpOpen} helpDict={TEAM_HELP} colSpan={5} />
             {rows.map(t => (
               <tr key={t.schoolId} className={`border-t border-slate-800 ${t.schoolId === HIGHLIGHT ? 'bg-blue-900/30' : ''}`}>
                 <td className="px-1.5 py-1.5">{t.rank}</td>
                 <td className="px-1.5 py-1.5 font-medium">{t.schoolName}</td>
-                <td className="px-1.5 py-1.5 text-slate-400">{t.qualifierCount}</td>
-                <td className="px-1.5 py-1.5 text-slate-400">{t.ratedFlights ?? '—'}{t.fallbackFlights ? <span className="text-amber-400" title={`${t.fallbackFlights} flight(s) using fallback rating (no season match data)`}> +{t.fallbackFlights}*</span> : null}</td>
                 <td className="px-1.5 py-1.5 font-mono">{t.total}</td>
                 <td className="px-1.5 py-1.5 font-mono">{t.totalAvg}</td>
                 <td className="px-1.5 py-1.5 font-mono text-slate-400">{t.sosAvg}</td>
@@ -175,9 +169,6 @@ function TeamsView({ data, sortKey, setSortKey, sortAsc, setSortAsc, q, setQ }) 
             ))}
           </tbody>
         </table>
-      </div>
-      <div className="text-[10px] text-slate-500">
-        <span className="text-amber-400"> *</span> = fallback rating from TennisReporting's 2026 Elo (qualifier had ~0 ratable season matches at that flight — common for late-promoted JV/freshmen).
       </div>
     </div>
   )
