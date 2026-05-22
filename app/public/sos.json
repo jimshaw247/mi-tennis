@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T11:54:36.779Z",
+  "generatedAt": "2026-05-22T11:02:43.854Z",
   "notes": "Bradley-Terry MM ratings per flight, 28-day half-life recency, MOV weighting. Win probability uses 400-pt Elo-like spread.",
   "flights": {
     "1S": {
@@ -14,6 +14,10 @@
           "rating": 1810,
           "sosRating": 1615,
           "elo2026Avg": 1472,
+          "recent14": {
+            "w": 4,
+            "l": 0
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 2,
           "regionalPlacement": 1,
@@ -31,6 +35,10 @@
           "rating": 1795,
           "sosRating": 1594,
           "elo2026Avg": 1487,
+          "recent14": {
+            "w": 6,
+            "l": 0
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -48,6 +56,10 @@
           "rating": 1751,
           "sosRating": 1538,
           "elo2026Avg": 1474,
+          "recent14": {
+            "w": 4,
+            "l": 0
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -65,6 +77,10 @@
           "rating": 1737,
           "sosRating": 1611,
           "elo2026Avg": 1468,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -82,6 +98,10 @@
           "rating": 1724,
           "sosRating": 1612,
           "elo2026Avg": 1472,
+          "recent14": {
+            "w": 6,
+            "l": 0
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -99,6 +119,10 @@
           "rating": 1700,
           "sosRating": 1586,
           "elo2026Avg": 1489,
+          "recent14": {
+            "w": 7,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -116,6 +140,10 @@
           "rating": 1675,
           "sosRating": 1591,
           "elo2026Avg": 1352,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -133,6 +161,10 @@
           "rating": 1670,
           "sosRating": 1581,
           "elo2026Avg": 1494,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -150,6 +182,10 @@
           "rating": 1648,
           "sosRating": 1615,
           "elo2026Avg": 1446,
+          "recent14": {
+            "w": 6,
+            "l": 0
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 2,
           "regionalPlacement": 1,
@@ -167,6 +203,10 @@
           "rating": 1642,
           "sosRating": 1589,
           "elo2026Avg": 1354,
+          "recent14": {
+            "w": 5,
+            "l": 2
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 3,
           "regionalPlacement": 1,
@@ -184,6 +224,10 @@
           "rating": 1637,
           "sosRating": 1581,
           "elo2026Avg": 1478,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -201,6 +245,10 @@
           "rating": 1593,
           "sosRating": 1577,
           "elo2026Avg": 1312,
+          "recent14": {
+            "w": 6,
+            "l": 3
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -218,6 +266,10 @@
           "rating": 1592,
           "sosRating": 1573,
           "elo2026Avg": 1308,
+          "recent14": {
+            "w": 3,
+            "l": 2
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 3,
           "regionalPlacement": null,
@@ -235,6 +287,10 @@
           "rating": 1587,
           "sosRating": 1487,
           "elo2026Avg": 1319,
+          "recent14": {
+            "w": 3,
+            "l": 3
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 4,
           "regionalPlacement": 3,
@@ -252,6 +308,10 @@
           "rating": 1576,
           "sosRating": 1605,
           "elo2026Avg": 1310,
+          "recent14": {
+            "w": 5,
+            "l": 2
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -269,6 +329,10 @@
           "rating": 1571,
           "sosRating": 1631,
           "elo2026Avg": 1314,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -286,6 +350,10 @@
           "rating": 1565,
           "sosRating": 1558,
           "elo2026Avg": 1304,
+          "recent14": {
+            "w": 5,
+            "l": 2
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -303,6 +371,10 @@
           "rating": 1558,
           "sosRating": 1523,
           "elo2026Avg": 1233,
+          "recent14": {
+            "w": 2,
+            "l": 4
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -320,6 +392,10 @@
           "rating": 1545,
           "sosRating": 1550,
           "elo2026Avg": 1301,
+          "recent14": {
+            "w": 1,
+            "l": 3
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 5,
           "regionalPlacement": 5,
@@ -337,6 +413,10 @@
           "rating": 1539,
           "sosRating": 1514,
           "elo2026Avg": 1271,
+          "recent14": {
+            "w": 3,
+            "l": 2
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -354,6 +434,10 @@
           "rating": 1427,
           "sosRating": 1617,
           "elo2026Avg": 1082,
+          "recent14": {
+            "w": 2,
+            "l": 2
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 9,
           "regionalPlacement": 3,
@@ -371,6 +455,10 @@
           "rating": 1416,
           "sosRating": 1625,
           "elo2026Avg": 1062,
+          "recent14": {
+            "w": 0,
+            "l": 4
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 8,
           "regionalPlacement": null,
@@ -400,6 +488,10 @@
           "rating": 1796,
           "sosRating": 1581,
           "elo2026Avg": 1445,
+          "recent14": {
+            "w": 6,
+            "l": 0
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -417,6 +509,10 @@
           "rating": 1782,
           "sosRating": 1588,
           "elo2026Avg": 1260,
+          "recent14": {
+            "w": 6,
+            "l": 0
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -434,6 +530,10 @@
           "rating": 1728,
           "sosRating": 1524,
           "elo2026Avg": 1254,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -451,6 +551,10 @@
           "rating": 1724,
           "sosRating": 1578,
           "elo2026Avg": 1201,
+          "recent14": {
+            "w": 7,
+            "l": 0
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -468,6 +572,10 @@
           "rating": 1721,
           "sosRating": 1551,
           "elo2026Avg": 1279,
+          "recent14": {
+            "w": 4,
+            "l": 0
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -485,6 +593,10 @@
           "rating": 1693,
           "sosRating": 1503,
           "elo2026Avg": 1267,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -502,6 +614,10 @@
           "rating": 1687,
           "sosRating": 1603,
           "elo2026Avg": 1315,
+          "recent14": {
+            "w": 2,
+            "l": 2
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -519,6 +635,10 @@
           "rating": 1670,
           "sosRating": 1516,
           "elo2026Avg": 1087,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -536,6 +656,10 @@
           "rating": 1655,
           "sosRating": 1565,
           "elo2026Avg": 1252,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -553,6 +677,10 @@
           "rating": 1646,
           "sosRating": 1564,
           "elo2026Avg": 1201,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -570,6 +698,10 @@
           "rating": 1642,
           "sosRating": 1553,
           "elo2026Avg": 1229,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 4,
           "regionalPlacement": 3,
@@ -587,6 +719,10 @@
           "rating": 1617,
           "sosRating": 1478,
           "elo2026Avg": 1151,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -604,6 +740,10 @@
           "rating": 1600,
           "sosRating": 1554,
           "elo2026Avg": 1060,
+          "recent14": {
+            "w": 6,
+            "l": 3
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -621,6 +761,10 @@
           "rating": 1599,
           "sosRating": 1648,
           "elo2026Avg": 1112,
+          "recent14": {
+            "w": 3,
+            "l": 3
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 3,
           "regionalPlacement": 2,
@@ -638,6 +782,10 @@
           "rating": 1557,
           "sosRating": 1579,
           "elo2026Avg": 1088,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -655,6 +803,10 @@
           "rating": 1552,
           "sosRating": 1488,
           "elo2026Avg": 1084,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -672,6 +824,10 @@
           "rating": 1552,
           "sosRating": 1618,
           "elo2026Avg": 1145,
+          "recent14": {
+            "w": 2,
+            "l": 3
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -689,6 +845,10 @@
           "rating": 1546,
           "sosRating": 1586,
           "elo2026Avg": 1074,
+          "recent14": {
+            "w": 2,
+            "l": 3
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 3,
           "regionalPlacement": null,
@@ -706,6 +866,10 @@
           "rating": 1545,
           "sosRating": 1522,
           "elo2026Avg": 1084,
+          "recent14": {
+            "w": 2,
+            "l": 2
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 9,
           "regionalPlacement": 4,
@@ -723,6 +887,10 @@
           "rating": 1498,
           "sosRating": 1547,
           "elo2026Avg": 1003,
+          "recent14": {
+            "w": 4,
+            "l": 3
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 3,
           "regionalPlacement": 2,
@@ -740,6 +908,10 @@
           "rating": 1494,
           "sosRating": 1544,
           "elo2026Avg": 1064,
+          "recent14": {
+            "w": 2,
+            "l": 2
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 4,
           "regionalPlacement": null,
@@ -763,6 +935,10 @@
           "rating": 1488,
           "sosRating": 1559,
           "elo2026Avg": 1008,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -786,6 +962,10 @@
           "rating": 1809,
           "sosRating": 1555,
           "elo2026Avg": 1329,
+          "recent14": {
+            "w": 4,
+            "l": 0
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -803,6 +983,10 @@
           "rating": 1750,
           "sosRating": 1569,
           "elo2026Avg": 1270,
+          "recent14": {
+            "w": 5,
+            "l": 0
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -820,6 +1004,10 @@
           "rating": 1733,
           "sosRating": 1607,
           "elo2026Avg": 1299,
+          "recent14": {
+            "w": 5,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 2,
           "regionalPlacement": 1,
@@ -837,6 +1025,10 @@
           "rating": 1723,
           "sosRating": 1585,
           "elo2026Avg": 1274,
+          "recent14": {
+            "w": 6,
+            "l": 0
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -854,6 +1046,10 @@
           "rating": 1712,
           "sosRating": 1574,
           "elo2026Avg": 1231,
+          "recent14": {
+            "w": 6,
+            "l": 1
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -871,6 +1067,10 @@
           "rating": 1682,
           "sosRating": 1549,
           "elo2026Avg": 1223,
+          "recent14": {
+            "w": 5,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -888,6 +1088,10 @@
           "rating": 1662,
           "sosRating": 1528,
           "elo2026Avg": 1244,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -905,6 +1109,10 @@
           "rating": 1661,
           "sosRating": 1568,
           "elo2026Avg": 1104,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -922,6 +1130,10 @@
           "rating": 1659,
           "sosRating": 1564,
           "elo2026Avg": 1089,
+          "recent14": {
+            "w": 5,
+            "l": 1
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -939,6 +1151,10 @@
           "rating": 1656,
           "sosRating": 1612,
           "elo2026Avg": 1275,
+          "recent14": {
+            "w": 5,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -956,6 +1172,10 @@
           "rating": 1651,
           "sosRating": 1581,
           "elo2026Avg": 1292,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -973,6 +1193,10 @@
           "rating": 1637,
           "sosRating": 1569,
           "elo2026Avg": 1207,
+          "recent14": {
+            "w": 3,
+            "l": 3
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -990,6 +1214,10 @@
           "rating": 1628,
           "sosRating": 1549,
           "elo2026Avg": 1087,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1007,6 +1235,10 @@
           "rating": 1614,
           "sosRating": 1562,
           "elo2026Avg": 1196,
+          "recent14": {
+            "w": 3,
+            "l": 3
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1024,6 +1256,10 @@
           "rating": 1606,
           "sosRating": 1573,
           "elo2026Avg": 1207,
+          "recent14": {
+            "w": 3,
+            "l": 3
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1041,6 +1277,10 @@
           "rating": 1604,
           "sosRating": 1577,
           "elo2026Avg": 1182,
+          "recent14": {
+            "w": 2,
+            "l": 2
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 4,
           "regionalPlacement": 3,
@@ -1058,6 +1298,10 @@
           "rating": 1599,
           "sosRating": 1484,
           "elo2026Avg": 1148,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -1075,6 +1319,10 @@
           "rating": 1558,
           "sosRating": 1543,
           "elo2026Avg": 1116,
+          "recent14": {
+            "w": 1,
+            "l": 2
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 9,
           "regionalPlacement": 3,
@@ -1092,6 +1340,10 @@
           "rating": 1549,
           "sosRating": 1558,
           "elo2026Avg": 1056,
+          "recent14": {
+            "w": 5,
+            "l": 1
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 3,
           "regionalPlacement": null,
@@ -1109,6 +1361,10 @@
           "rating": 1547,
           "sosRating": 1555,
           "elo2026Avg": 964,
+          "recent14": {
+            "w": 5,
+            "l": 2
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1126,6 +1382,10 @@
           "rating": 1489,
           "sosRating": 1519,
           "elo2026Avg": 966,
+          "recent14": {
+            "w": 2,
+            "l": 4
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 4,
           "regionalPlacement": 3,
@@ -1143,6 +1403,10 @@
           "rating": 1488,
           "sosRating": 1542,
           "elo2026Avg": 1000,
+          "recent14": {
+            "w": 4,
+            "l": 3
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 3,
           "regionalPlacement": 2,
@@ -1166,6 +1430,10 @@
           "rating": 1649,
           "sosRating": 1500,
           "elo2026Avg": 1260,
+          "recent14": {
+            "w": 4,
+            "l": 0
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1183,6 +1451,10 @@
           "rating": 1640,
           "sosRating": 1512,
           "elo2026Avg": 1115,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1200,6 +1472,10 @@
           "rating": 1629,
           "sosRating": 1515,
           "elo2026Avg": 1146,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 3,
           "regionalPlacement": 1,
@@ -1217,6 +1493,10 @@
           "rating": 1614,
           "sosRating": 1524,
           "elo2026Avg": 1268,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1234,6 +1514,10 @@
           "rating": 1605,
           "sosRating": 1482,
           "elo2026Avg": 1228,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1251,6 +1535,10 @@
           "rating": 1603,
           "sosRating": 1482,
           "elo2026Avg": 1082,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1268,6 +1556,10 @@
           "rating": 1602,
           "sosRating": 1507,
           "elo2026Avg": 1215,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1285,6 +1577,10 @@
           "rating": 1596,
           "sosRating": 1486,
           "elo2026Avg": 1155,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1308,6 +1604,10 @@
           "rating": 1564,
           "sosRating": 1495,
           "elo2026Avg": 1088,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1325,6 +1625,10 @@
           "rating": 1556,
           "sosRating": 1518,
           "elo2026Avg": 1156,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1342,6 +1646,10 @@
           "rating": 1550,
           "sosRating": 1472,
           "elo2026Avg": 1134,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 1,
           "regionalPlacement": 3,
@@ -1359,6 +1667,10 @@
           "rating": 1538,
           "sosRating": 1536,
           "elo2026Avg": 1001,
+          "recent14": {
+            "w": 2,
+            "l": 2
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -1376,6 +1688,10 @@
           "rating": 1538,
           "sosRating": 1520,
           "elo2026Avg": 1111,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 3,
           "regionalPlacement": null,
@@ -1393,6 +1709,10 @@
           "rating": 1537,
           "sosRating": 1516,
           "elo2026Avg": 1013,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1410,6 +1730,10 @@
           "rating": 1534,
           "sosRating": 1508,
           "elo2026Avg": 1098,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1427,6 +1751,10 @@
           "rating": 1534,
           "sosRating": 1508,
           "elo2026Avg": 1070,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1444,6 +1772,10 @@
           "rating": 1530,
           "sosRating": 1493,
           "elo2026Avg": 1030,
+          "recent14": {
+            "w": 3,
+            "l": 2
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1461,6 +1793,10 @@
           "rating": 1515,
           "sosRating": 1516,
           "elo2026Avg": 1045,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1478,6 +1814,10 @@
           "rating": 1486,
           "sosRating": 1567,
           "elo2026Avg": 932,
+          "recent14": {
+            "w": 1,
+            "l": 2
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 4,
           "regionalPlacement": null,
@@ -1495,6 +1835,10 @@
           "rating": 1477,
           "sosRating": 1537,
           "elo2026Avg": 985,
+          "recent14": {
+            "w": 1,
+            "l": 2
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -1512,6 +1856,10 @@
           "rating": 1463,
           "sosRating": 1534,
           "elo2026Avg": 1119,
+          "recent14": {
+            "w": 0,
+            "l": 1
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 5,
           "regionalPlacement": 3,
@@ -1529,6 +1877,10 @@
           "rating": 1455,
           "sosRating": 1553,
           "elo2026Avg": 1052,
+          "recent14": {
+            "w": 1,
+            "l": 2
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 9,
           "regionalPlacement": 3,
@@ -1552,6 +1904,10 @@
           "rating": 1815,
           "sosRating": 1595,
           "elo2026Avg": 1571,
+          "recent14": {
+            "w": 8,
+            "l": 0
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1569,6 +1925,10 @@
           "rating": 1780,
           "sosRating": 1631,
           "elo2026Avg": 1658,
+          "recent14": {
+            "w": 6,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -1586,6 +1946,10 @@
           "rating": 1768,
           "sosRating": 1599,
           "elo2026Avg": 1961,
+          "recent14": {
+            "w": 6,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 2,
           "regionalPlacement": 1,
@@ -1603,6 +1967,10 @@
           "rating": 1765,
           "sosRating": 1582,
           "elo2026Avg": 1898,
+          "recent14": {
+            "w": 6,
+            "l": 0
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1620,6 +1988,10 @@
           "rating": 1708,
           "sosRating": 1513,
           "elo2026Avg": 1605,
+          "recent14": {
+            "w": 5,
+            "l": 0
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1637,6 +2009,10 @@
           "rating": 1662,
           "sosRating": 1579,
           "elo2026Avg": 1441,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 2,
           "regionalPlacement": 1,
@@ -1654,6 +2030,10 @@
           "rating": 1654,
           "sosRating": 1567,
           "elo2026Avg": 1451,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1671,6 +2051,10 @@
           "rating": 1652,
           "sosRating": 1605,
           "elo2026Avg": 1496,
+          "recent14": {
+            "w": 2,
+            "l": 2
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1688,6 +2072,10 @@
           "rating": 1638,
           "sosRating": 1578,
           "elo2026Avg": 1511,
+          "recent14": {
+            "w": 6,
+            "l": 1
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1705,6 +2093,10 @@
           "rating": 1631,
           "sosRating": 1507,
           "elo2026Avg": 1422,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -1722,6 +2114,10 @@
           "rating": 1625,
           "sosRating": 1603,
           "elo2026Avg": 1355,
+          "recent14": {
+            "w": 5,
+            "l": 2
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1739,6 +2135,10 @@
           "rating": 1608,
           "sosRating": 1540,
           "elo2026Avg": 1428,
+          "recent14": {
+            "w": 3,
+            "l": 3
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -1756,6 +2156,10 @@
           "rating": 1607,
           "sosRating": 1582,
           "elo2026Avg": 1256,
+          "recent14": {
+            "w": 3,
+            "l": 2
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -1773,6 +2177,10 @@
           "rating": 1586,
           "sosRating": 1535,
           "elo2026Avg": 1451,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -1790,6 +2198,10 @@
           "rating": 1556,
           "sosRating": 1520,
           "elo2026Avg": 1416,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 4,
           "regionalPlacement": 3,
@@ -1813,6 +2225,10 @@
           "rating": 1536,
           "sosRating": 1559,
           "elo2026Avg": 1247,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 3,
           "regionalPlacement": 2,
@@ -1830,6 +2246,10 @@
           "rating": 1529,
           "sosRating": 1574,
           "elo2026Avg": 1086,
+          "recent14": {
+            "w": 3,
+            "l": 3
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 3,
           "regionalPlacement": null,
@@ -1847,6 +2267,10 @@
           "rating": 1527,
           "sosRating": 1535,
           "elo2026Avg": 1302,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 4,
           "regionalPlacement": null,
@@ -1864,6 +2288,10 @@
           "rating": 1522,
           "sosRating": 1638,
           "elo2026Avg": 1112,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1881,6 +2309,10 @@
           "rating": 1510,
           "sosRating": 1568,
           "elo2026Avg": 1161,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -1898,6 +2330,10 @@
           "rating": 1503,
           "sosRating": 1576,
           "elo2026Avg": 1202,
+          "recent14": {
+            "w": 1,
+            "l": 2
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 5,
           "regionalPlacement": null,
@@ -1915,6 +2351,10 @@
           "rating": 1502,
           "sosRating": 1557,
           "elo2026Avg": 1164,
+          "recent14": {
+            "w": 3,
+            "l": 2
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 3,
           "regionalPlacement": 2,
@@ -1938,6 +2378,10 @@
           "rating": 1807,
           "sosRating": 1584,
           "elo2026Avg": 1455,
+          "recent14": {
+            "w": 5,
+            "l": 0
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 2,
           "regionalPlacement": 1,
@@ -1955,6 +2399,10 @@
           "rating": 1718,
           "sosRating": 1523,
           "elo2026Avg": 1339,
+          "recent14": {
+            "w": 4,
+            "l": 0
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -1972,6 +2420,10 @@
           "rating": 1705,
           "sosRating": 1536,
           "elo2026Avg": 1255,
+          "recent14": {
+            "w": 6,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -1989,6 +2441,10 @@
           "rating": 1700,
           "sosRating": 1544,
           "elo2026Avg": 1187,
+          "recent14": {
+            "w": 6,
+            "l": 1
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2006,6 +2462,10 @@
           "rating": 1692,
           "sosRating": 1587,
           "elo2026Avg": 1360,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -2023,6 +2483,10 @@
           "rating": 1681,
           "sosRating": 1569,
           "elo2026Avg": 1372,
+          "recent14": {
+            "w": 2,
+            "l": 2
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 1,
           "regionalPlacement": 3,
@@ -2040,6 +2504,10 @@
           "rating": 1660,
           "sosRating": 1492,
           "elo2026Avg": 1225,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -2057,6 +2525,10 @@
           "rating": 1652,
           "sosRating": 1565,
           "elo2026Avg": 1254,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2074,6 +2546,10 @@
           "rating": 1650,
           "sosRating": 1575,
           "elo2026Avg": 1094,
+          "recent14": {
+            "w": 5,
+            "l": 1
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2091,6 +2567,10 @@
           "rating": 1643,
           "sosRating": 1551,
           "elo2026Avg": 1287,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2108,6 +2588,10 @@
           "rating": 1633,
           "sosRating": 1591,
           "elo2026Avg": 1097,
+          "recent14": {
+            "w": 6,
+            "l": 2
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2125,6 +2609,10 @@
           "rating": 1627,
           "sosRating": 1541,
           "elo2026Avg": 1225,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -2142,6 +2630,10 @@
           "rating": 1623,
           "sosRating": 1568,
           "elo2026Avg": 1241,
+          "recent14": {
+            "w": 5,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 3,
           "regionalPlacement": 2,
@@ -2159,6 +2651,10 @@
           "rating": 1621,
           "sosRating": 1546,
           "elo2026Avg": 1288,
+          "recent14": {
+            "w": 6,
+            "l": 0
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 2,
           "regionalPlacement": 1,
@@ -2176,6 +2672,10 @@
           "rating": 1610,
           "sosRating": 1515,
           "elo2026Avg": 1103,
+          "recent14": {
+            "w": 5,
+            "l": 2
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 3,
           "regionalPlacement": 2,
@@ -2193,6 +2693,10 @@
           "rating": 1599,
           "sosRating": 1493,
           "elo2026Avg": 1140,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 2,
           "regionalPlacement": null,
@@ -2210,6 +2714,10 @@
           "rating": 1581,
           "sosRating": 1568,
           "elo2026Avg": 1101,
+          "recent14": {
+            "w": 3,
+            "l": 3
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 3,
           "regionalPlacement": 2,
@@ -2227,6 +2735,10 @@
           "rating": 1573,
           "sosRating": 1551,
           "elo2026Avg": 1036,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -2244,6 +2756,10 @@
           "rating": 1560,
           "sosRating": 1566,
           "elo2026Avg": 1025,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 9,
           "regionalPlacement": 2,
@@ -2261,6 +2777,10 @@
           "rating": 1504,
           "sosRating": 1599,
           "elo2026Avg": 1044,
+          "recent14": {
+            "w": 2,
+            "l": 3
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 3,
           "regionalPlacement": null,
@@ -2278,6 +2798,10 @@
           "rating": 1462,
           "sosRating": 1553,
           "elo2026Avg": 1036,
+          "recent14": {
+            "w": 1,
+            "l": 4
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -2295,6 +2819,10 @@
           "rating": 1458,
           "sosRating": 1580,
           "elo2026Avg": 970,
+          "recent14": {
+            "w": 2,
+            "l": 4
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -2318,6 +2846,10 @@
           "rating": 1802,
           "sosRating": 1591,
           "elo2026Avg": 1409,
+          "recent14": {
+            "w": 5,
+            "l": 0
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2335,6 +2867,10 @@
           "rating": 1709,
           "sosRating": 1519,
           "elo2026Avg": 1282,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2352,6 +2888,10 @@
           "rating": 1694,
           "sosRating": 1585,
           "elo2026Avg": 1286,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 3,
           "regionalPlacement": 1,
@@ -2369,6 +2909,10 @@
           "rating": 1679,
           "sosRating": 1548,
           "elo2026Avg": 1290,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 1,
           "regionalPlacement": 4,
@@ -2386,6 +2930,10 @@
           "rating": 1672,
           "sosRating": 1602,
           "elo2026Avg": 1143,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -2403,6 +2951,10 @@
           "rating": 1667,
           "sosRating": 1514,
           "elo2026Avg": 1215,
+          "recent14": {
+            "w": 5,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -2420,6 +2972,10 @@
           "rating": 1648,
           "sosRating": 1539,
           "elo2026Avg": 1133,
+          "recent14": {
+            "w": 6,
+            "l": 1
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2437,6 +2993,10 @@
           "rating": 1635,
           "sosRating": 1585,
           "elo2026Avg": 1086,
+          "recent14": {
+            "w": 5,
+            "l": 1
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 2,
           "regionalPlacement": 1,
@@ -2454,6 +3014,10 @@
           "rating": 1633,
           "sosRating": 1605,
           "elo2026Avg": 1021,
+          "recent14": {
+            "w": 6,
+            "l": 3
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2471,6 +3035,10 @@
           "rating": 1608,
           "sosRating": 1549,
           "elo2026Avg": 1079,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -2488,6 +3056,10 @@
           "rating": 1604,
           "sosRating": 1472,
           "elo2026Avg": 1181,
+          "recent14": {
+            "w": 4,
+            "l": 1
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -2505,6 +3077,10 @@
           "rating": 1604,
           "sosRating": 1597,
           "elo2026Avg": 1178,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2522,6 +3098,10 @@
           "rating": 1598,
           "sosRating": 1520,
           "elo2026Avg": 1142,
+          "recent14": {
+            "w": 4,
+            "l": 3
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -2539,6 +3119,10 @@
           "rating": 1596,
           "sosRating": 1558,
           "elo2026Avg": 1076,
+          "recent14": {
+            "w": 4,
+            "l": 2
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -2556,6 +3140,10 @@
           "rating": 1586,
           "sosRating": 1527,
           "elo2026Avg": 1060,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 3,
           "regionalPlacement": 1,
@@ -2573,6 +3161,10 @@
           "rating": 1581,
           "sosRating": 1554,
           "elo2026Avg": 1276,
+          "recent14": {
+            "w": 2,
+            "l": 2
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -2590,6 +3182,10 @@
           "rating": 1551,
           "sosRating": 1574,
           "elo2026Avg": 1100,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 4,
           "regionalPlacement": 2,
@@ -2607,6 +3203,10 @@
           "rating": 1543,
           "sosRating": 1548,
           "elo2026Avg": 971,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 3,
           "regionalPlacement": null,
@@ -2624,6 +3224,10 @@
           "rating": 1519,
           "sosRating": 1456,
           "elo2026Avg": 1148,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -2647,6 +3251,10 @@
           "rating": 1483,
           "sosRating": 1575,
           "elo2026Avg": 1023,
+          "recent14": {
+            "w": 2,
+            "l": 2
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 9,
           "regionalPlacement": 3,
@@ -2664,6 +3272,10 @@
           "rating": 1439,
           "sosRating": 1542,
           "elo2026Avg": 998,
+          "recent14": {
+            "w": 1,
+            "l": 4
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -2681,6 +3293,10 @@
           "rating": 1410,
           "sosRating": 1560,
           "elo2026Avg": 836,
+          "recent14": {
+            "w": 2,
+            "l": 4
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 3,
           "regionalPlacement": 2,
@@ -2704,6 +3320,10 @@
           "rating": 1627,
           "sosRating": 1504,
           "elo2026Avg": 1351,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2721,6 +3341,10 @@
           "rating": 1626,
           "sosRating": 1508,
           "elo2026Avg": 1079,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -2738,6 +3362,10 @@
           "rating": 1624,
           "sosRating": 1516,
           "elo2026Avg": 1240,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2755,6 +3383,10 @@
           "rating": 1624,
           "sosRating": 1504,
           "elo2026Avg": 1152,
+          "recent14": {
+            "w": 4,
+            "l": 0
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 2,
           "regionalPlacement": 1,
@@ -2772,6 +3404,10 @@
           "rating": 1621,
           "sosRating": 1497,
           "elo2026Avg": 1091,
+          "recent14": {
+            "w": 4,
+            "l": 0
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2789,6 +3425,10 @@
           "rating": 1613,
           "sosRating": 1478,
           "elo2026Avg": 1180,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 2,
           "regionalPlacement": 1,
@@ -2806,6 +3446,10 @@
           "rating": 1601,
           "sosRating": 1506,
           "elo2026Avg": 1128,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 1,
           "regionalPlacement": 1,
@@ -2823,6 +3467,10 @@
           "rating": 1577,
           "sosRating": 1516,
           "elo2026Avg": 1167,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 9,
           "regionalPlacement": 1,
@@ -2840,6 +3488,10 @@
           "rating": 1564,
           "sosRating": 1539,
           "elo2026Avg": 1182,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 2-Novi",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -2857,6 +3509,10 @@
           "rating": 1556,
           "sosRating": 1511,
           "elo2026Avg": 1047,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -2874,6 +3530,10 @@
           "rating": 1547,
           "sosRating": 1528,
           "elo2026Avg": 977,
+          "recent14": {
+            "w": 3,
+            "l": 2
+          },
           "regional": "Regional 6-Utica Eisenhower",
           "regionalSeed": 6,
           "regionalPlacement": 3,
@@ -2891,6 +3551,10 @@
           "rating": 1538,
           "sosRating": 1522,
           "elo2026Avg": 1306,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -2908,6 +3572,10 @@
           "rating": 1538,
           "sosRating": 1522,
           "elo2026Avg": 1224,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 2,
           "regionalPlacement": 2,
@@ -2925,6 +3593,10 @@
           "rating": 1534,
           "sosRating": 1507,
           "elo2026Avg": 1222,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -2942,6 +3614,10 @@
           "rating": 1533,
           "sosRating": 1501,
           "elo2026Avg": 1284,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 3-Ann Arbor Pioneer",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -2959,6 +3635,10 @@
           "rating": 1532,
           "sosRating": 1502,
           "elo2026Avg": 1197,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 2,
           "regionalPlacement": 3,
@@ -2976,6 +3656,10 @@
           "rating": 1525,
           "sosRating": 1521,
           "elo2026Avg": 1069,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 8-Holt",
           "regionalSeed": 1,
           "regionalPlacement": 2,
@@ -2993,6 +3677,10 @@
           "rating": 1522,
           "sosRating": 1469,
           "elo2026Avg": 1242,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 1-Holland West Ottawa",
           "regionalSeed": 3,
           "regionalPlacement": 4,
@@ -3010,6 +3698,10 @@
           "rating": 1521,
           "sosRating": 1533,
           "elo2026Avg": 1175,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 3,
           "regionalPlacement": 2,
@@ -3027,6 +3719,10 @@
           "rating": 1480,
           "sosRating": 1543,
           "elo2026Avg": 928,
+          "recent14": {
+            "w": 1,
+            "l": 2
+          },
           "regional": "Regional 4-West Bloomfield",
           "regionalSeed": 3,
           "regionalPlacement": 3,
@@ -3044,6 +3740,10 @@
           "rating": 1479,
           "sosRating": 1539,
           "elo2026Avg": 921,
+          "recent14": {
+            "w": 1,
+            "l": 2
+          },
           "regional": "Regional 7-Rochester Adams",
           "regionalSeed": 3,
           "regionalPlacement": null,
@@ -3061,6 +3761,10 @@
           "rating": 1476,
           "sosRating": 1534,
           "elo2026Avg": 960,
+          "recent14": {
+            "w": 1,
+            "l": 2
+          },
           "regional": "Regional 5-Troy",
           "regionalSeed": 2,
           "regionalPlacement": 3,

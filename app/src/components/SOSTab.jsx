@@ -31,7 +31,7 @@ export default function SOSTab() {
         Pooling all 4 singles flights into one rating universe means a player who flexed between 1S/2S/3S during the season is rated from <i>all</i> her matches; MHSAA flight-stay rules anchor her to her regional flight at state finals.
       </div>
       <div className="flex flex-wrap gap-1">
-        {[['teams','Team Power'],['flight','Flight Rankings'],['clarkston','Clarkston'],['lineup','Lineup Watch'],['upsets','Upset Watch']].map(([k, label]) => (
+        {[['teams','Team Power'],['flight','Flight Rankings'],['form','Form'],['clarkston','Clarkston'],['lineup','Lineup Watch'],['upsets','Upset Watch']].map(([k, label]) => (
           <button key={k} onClick={() => setView(k)}
             className={`px-2.5 py-1 rounded text-[11px] font-semibold uppercase tracking-wider ${view===k ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'}`}>
             {label}
@@ -41,6 +41,7 @@ export default function SOSTab() {
 
       {view === 'teams' && <TeamsView data={data} sortKey={sortKey} setSortKey={setSortKey} sortAsc={sortAsc} setSortAsc={setSortAsc} q={q} setQ={setQ} />}
       {view === 'flight' && <FlightView data={data} flight={flight} setFlight={setFlight} q={q} setQ={setQ} />}
+      {view === 'form' && <FormView data={data} flight={flight} setFlight={setFlight} />}
       {view === 'clarkston' && <ClarkstonView data={data} />}
       {view === 'lineup' && <LineupWatchView data={data} />}
       {view === 'upsets' && <UpsetsView data={data} />}
@@ -241,6 +242,90 @@ function FlightView({ data, flight, setFlight, q, setQ }) {
                   <td className="px-1.5 py-1.5 font-mono text-right text-slate-400 align-top">{r.sosRating}</td>
                   <td className="px-1.5 py-1.5 font-mono text-right text-slate-400 align-top">{r.matchCountAtFlight ?? '—'}<span className="text-slate-600">/{r.matchCount ?? 0}</span></td>
                   <td className="px-1.5 py-1.5 font-mono text-right text-slate-400 align-top">{r.regionalSeed ?? '—'}</td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+}
+
+const FORM_HELP = {
+  ourRank: { title: '#', body: "Position within this flight by our recency-weighted Bradley-Terry rating. Default sort is by Δ rank — biggest disagreement with TR first." },
+  player: { title: 'Player(s)', body: "Regional qualifier at this flight." },
+  school: { title: 'School', body: "Player's school." },
+  trRank: { title: 'TR', body: "TennisReporting's ELO rank within this flight. TRPR is a flat-weight ELO across every sanctioned match this season — early-season results carry the same weight as last week's." },
+  delta: { title: 'Δ', body: "TR rank minus our rank. Positive (green) = we rank them higher than TR does → they're playing better lately than their season average suggests. Negative (amber) = TR rank is anchored by good early-season results that recent form doesn't support." },
+  rating: { title: 'Ratings', body: "Raw numbers: TR's ELO and our Bradley-Terry rating. The scales aren't directly comparable (different baselines and K-factors) — that's why Δ is shown in rank positions, not rating points." },
+  l14: { title: 'L14', body: "Wins and losses in the last 14 days of sanctioned matches (through 2026-05-19). Strong corroborating signal: a +5 Δ rank with a 4-0 L14 is a real form spike, not noise." },
+}
+
+function FormView({ data, flight, setFlight }) {
+  const [helpOpen, setHelpOpen] = useState(null)
+  const fd = data.flights?.[flight]
+  if (!fd) return <div className="text-slate-400">No data for {flight}</div>
+  const rows = useMemo(() => {
+    const qs = fd.qualifiers || []
+    // Our rank by rating, TR rank by elo2026Avg
+    const byOurRating = [...qs].sort((a, b) => b.rating - a.rating)
+    const byTr = [...qs].sort((a, b) => (b.elo2026Avg ?? -1) - (a.elo2026Avg ?? -1))
+    const ourRk = new Map(byOurRating.map((q, i) => [q.name + q.schoolId, i + 1]))
+    const trRk  = new Map(byTr.map((q, i) => [q.name + q.schoolId, i + 1]))
+    return qs.map(q => {
+      const k = q.name + q.schoolId
+      const our = ourRk.get(k)
+      const tr = trRk.get(k)
+      return { ...q, ourRank: our, trRank: tr, deltaRank: tr - our }
+    }).sort((a, b) => b.deltaRank - a.deltaRank)
+  }, [fd])
+  const hdr = (key, label, align) => (
+    <PlainHeader label={label} helpKey={key} helpOpen={helpOpen} setHelpOpen={setHelpOpen} align={align} />
+  )
+  return (
+    <div className="space-y-2">
+      <div className="flex flex-wrap gap-1">
+        {FLIGHTS.map(f => (
+          <button key={f} onClick={() => setFlight(f)}
+            className={`px-2 py-1 rounded text-[11px] font-semibold ${flight===f ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300'}`}>{f}</button>
+        ))}
+      </div>
+      <div className="text-[11px] text-slate-300 leading-relaxed bg-slate-900/40 border border-slate-700 rounded p-2">
+        Comparing TR's flat-weight ELO (the official seeding input) to our 28-day recency-weighted rating.
+        Players sorted by <span className="text-emerald-300">biggest positive Δ first</span> — those are
+        candidates that recent form rates well above where MHSAA's seeding ranks them.
+        Verify with the L14 column: real form spikes have a strong recent W-L.
+      </div>
+      <div className="text-[10px] text-slate-500">Tap a column's <span className="inline-flex items-center justify-center w-3.5 h-3.5 rounded-full border border-slate-600 text-[8px]">?</span> for what it means.</div>
+      <div className="overflow-x-auto rounded-lg border border-slate-800">
+        <table className="w-full text-sm">
+          <thead className="bg-slate-900/60">
+            <tr>
+              {hdr('ourRank', '#', 'left')}
+              {hdr('player', 'Player', 'left')}
+              {hdr('school', 'School', 'left')}
+              {hdr('trRank', 'TR rk', 'right')}
+              {hdr('delta', 'Δ', 'right')}
+              {hdr('rating', 'TR / Us', 'right')}
+              {hdr('l14', 'L14', 'right')}
+            </tr>
+          </thead>
+          <tbody>
+            <HelpRow helpKey={helpOpen} helpDict={FORM_HELP} colSpan={7} />
+            {rows.map(r => {
+              const d = r.deltaRank
+              const deltaCls = d > 0 ? 'text-emerald-300' : d < 0 ? 'text-amber-300' : 'text-slate-500'
+              const l14 = r.recent14 || { w: 0, l: 0 }
+              return (
+                <tr key={r.name + r.schoolId} className={`border-t border-slate-800 ${r.schoolId === HIGHLIGHT ? 'bg-blue-900/30' : ''}`}>
+                  <td className="px-1.5 py-1.5">{r.ourRank}</td>
+                  <td className="px-1.5 py-1.5">{r.name}</td>
+                  <td className="px-1.5 py-1.5 text-slate-300">{r.schoolName}</td>
+                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{r.trRank}</td>
+                  <td className={`px-1.5 py-1.5 font-mono text-right font-semibold ${deltaCls}`}>{d > 0 ? '+' : ''}{d}</td>
+                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{r.elo2026Avg ?? '—'}<span className="text-slate-600"> / </span><span className="text-slate-200">{r.rating}</span></td>
+                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{l14.w}-{l14.l}</td>
                 </tr>
               )
             })}

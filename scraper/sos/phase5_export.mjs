@@ -360,6 +360,32 @@ function commonOpponentAnalysis() {
   return out
 }
 
+// === Recent-form tally (last 14 days) ===
+// For each qualifier key, count W/L from match dates within 14 days of REF_DATE.
+// Surfaced in the Form tab to compare against TR's flat-weight ELO.
+const FORM_REF_DATE = new Date('2026-05-19T00:00:00Z')
+const FORM_WINDOW_MS = 14 * 24 * 60 * 60 * 1000
+const recent14ByKey = new Map()
+{
+  const seenIds = new Set()
+  for (const sid of Object.keys(phase2.perSchool)) {
+    for (const m of phase2.perSchool[sid].matches) {
+      if (!m.matchId || seenIds.has(m.matchId)) continue
+      seenIds.add(m.matchId)
+      const date = new Date(m.meet?.date)
+      if (isNaN(date) || FORM_REF_DATE - date > FORM_WINDOW_MS || date > FORM_REF_DATE) continue
+      for (const side of (m.sides || [])) {
+        const ids = (side.players || []).map(p => p.playerId).filter(x => x != null).sort()
+        if (!ids.length) continue
+        const key = ids.join('-')
+        if (!recent14ByKey.has(key)) recent14ByKey.set(key, { w: 0, l: 0 })
+        const bucket = recent14ByKey.get(key)
+        if (side.isWinner) bucket.w++; else bucket.l++
+      }
+    }
+  }
+}
+
 // === Build payload ===
 const payload = {
   generatedAt: new Date().toISOString(),
@@ -396,6 +422,7 @@ slim.flights = Object.fromEntries(Object.entries(payload.flights).map(([fid, d])
     rating: Math.round(q.rating),
     sosRating: Math.round(q.sosRating),
     elo2026Avg: q.qualifier?.elo2026Avg != null ? Math.round(q.qualifier.elo2026Avg) : null,
+    recent14: recent14ByKey.get(q.key) || { w: 0, l: 0 },
     regional: q.qualifier?.regionalName,
     regionalSeed: q.qualifier?.seed,
     regionalPlacement: q.qualifier?.winnerReportPlacement,

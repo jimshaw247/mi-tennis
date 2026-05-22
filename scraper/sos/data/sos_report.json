@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T11:54:36.779Z",
+  "generatedAt": "2026-05-22T11:02:43.854Z",
   "notes": "Bradley-Terry MM ratings per flight, 28-day half-life recency, MOV weighting. Win probability uses 400-pt Elo-like spread.",
   "flights": {
     "1S": {
