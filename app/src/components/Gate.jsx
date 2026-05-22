@@ -1,36 +1,47 @@
 import { useState } from 'react'
 
-// Hardcoded credentials. Client-side only — server validates on writes.
-const USER = import.meta.env.VITE_ADMIN_USER || 'admin'
-const PASS = import.meta.env.VITE_ADMIN_PASS || 'tennis'
+// Admin gate. The password is NOT in the client bundle — Gate posts the value
+// to /api/state which compares (timing-safe) against a server-only env var.
+// On success, we cache the password in localStorage so subsequent writes via
+// sync.js can send it as X-Admin-Password.
 const STORAGE_KEY = 'tennis-regionals-admin'
+const PASS_KEY = 'tennis-regionals-admin-pass'
 
 export function isAdmin() {
   return localStorage.getItem(STORAGE_KEY) === '1'
 }
 
-export function adminPass() {
-  return PASS
-}
-
 export function logout() {
   localStorage.removeItem(STORAGE_KEY)
+  localStorage.removeItem(PASS_KEY)
   window.location.reload()
 }
 
 export default function Gate({ onUnlock }) {
-  const [u, setU] = useState('')
   const [p, setP] = useState('')
   const [err, setErr] = useState('')
+  const [busy, setBusy] = useState(false)
 
-  const submit = (e) => {
+  const submit = async (e) => {
     e.preventDefault()
-    if (u === USER && p === PASS) {
-      localStorage.setItem(STORAGE_KEY, '1')
-      setErr('')
-      onUnlock()
-    } else {
-      setErr('Nope')
+    if (busy) return
+    setErr('')
+    setBusy(true)
+    try {
+      const res = await fetch('/api/state', { headers: { 'X-Admin-Password': p } })
+      if (res.ok) {
+        localStorage.setItem(STORAGE_KEY, '1')
+        localStorage.setItem(PASS_KEY, p)
+        onUnlock()
+      } else if (res.status === 401) {
+        setErr('Nope')
+      } else {
+        setErr(`Server error ${res.status}`)
+      }
+    } catch {
+      setErr('Network error')
+    } finally {
+      setBusy(false)
     }
   }
 
@@ -43,13 +54,6 @@ export default function Gate({ onUnlock }) {
         </div>
         <input
           autoFocus
-          value={u}
-          onChange={e => setU(e.target.value)}
-          placeholder="username"
-          autoComplete="username"
-          className="w-full px-3 py-2 rounded bg-slate-800 border border-slate-700 text-sm"
-        />
-        <input
           value={p}
           onChange={e => setP(e.target.value)}
           placeholder="password"
@@ -58,8 +62,8 @@ export default function Gate({ onUnlock }) {
           className="w-full px-3 py-2 rounded bg-slate-800 border border-slate-700 text-sm"
         />
         {err && <div className="text-xs text-red-400">{err}</div>}
-        <button type="submit" className="w-full px-3 py-2 rounded bg-blue-600 text-white text-sm font-semibold">
-          Unlock
+        <button type="submit" disabled={busy} className="w-full px-3 py-2 rounded bg-blue-600 text-white text-sm font-semibold disabled:opacity-60">
+          {busy ? 'Checking…' : 'Unlock'}
         </button>
       </form>
     </div>
