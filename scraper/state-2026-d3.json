@@ -1,0 +1,5294 @@
+{
+  "1S": {
+    "flight": {
+      "id": "1S",
+      "type": "Singles",
+      "flight": 1
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1268&host=3626&matchType=Singles&flight=1",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Conniff",
+                    "playerId": "166574"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1281Chloe Conniff Detroit Country DayBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Camryn Nadig",
+                    "playerId": "130474"
+                  }
+                ],
+                "school": "Holland Christian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Allison Lezman",
+                    "playerId": "124455"
+                  }
+                ],
+                "school": "Hamilton"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #127Camryn Nadig Holland Christian Allison Lezman Hamilton"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Caroline Torok",
+                    "playerId": "125133"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Cora Phillips",
+                    "playerId": "166528"
+                  }
+                ],
+                "school": "Sturgis"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #126Caroline Torok Bloomfield Hills MarianCora Phillips Sturgis"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lauren Klawon",
+                    "playerId": "128053"
+                  }
+                ],
+                "school": "Bay City Central"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ava Dame",
+                    "playerId": "126089"
+                  }
+                ],
+                "school": "Grosse Ile"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #125Lauren Klawon Bay City Central Ava Dame Grosse Ile"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Divyana Varma",
+                    "playerId": "164005"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1244Divyana Varma East Grand RapidsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Charlotte Kunnen",
+                    "playerId": "125109"
+                  }
+                ],
+                "school": "Coopersville"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kaylee Isaac",
+                    "playerId": "163088"
+                  }
+                ],
+                "school": "Yale"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #123Charlotte Kunnen CoopersvilleKaylee Isaac Yale"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alexandria Weitz",
+                    "playerId": "164589"
+                  }
+                ],
+                "school": "Dearborn Divine Child"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1225Alexandria Weitz Dearborn Divine ChildBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alyssa Crain",
+                    "playerId": "124632"
+                  }
+                ],
+                "school": "Paw Paw"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ashlyn Schafer",
+                    "playerId": "147135"
+                  }
+                ],
+                "school": "Williamston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #121Alyssa Crain Paw PawAshlyn Schafer Williamston"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Josalynn Nowicki",
+                    "playerId": "149894"
+                  }
+                ],
+                "school": "Fruitport"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Haylee Mills",
+                    "playerId": "123485"
+                  }
+                ],
+                "school": "St. Clair"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #120Josalynn Nowicki FruitportHaylee Mills St. Clair"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Samantha Bieber",
+                    "playerId": "127610"
+                  }
+                ],
+                "school": "Chelsea"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #119BYE6Samantha Bieber Chelsea"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Bailey Villerot",
+                    "playerId": "145534"
+                  }
+                ],
+                "school": "Fowlerville"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Hailey Burd",
+                    "playerId": "149780"
+                  }
+                ],
+                "school": "Otsego"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #118Bailey Villerot FowlervilleHailey Burd Otsego"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lilah Zaskowski",
+                    "playerId": "149790"
+                  }
+                ],
+                "school": "Ada Forest Hills Eastern"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #117BYE3Lilah Zaskowski Ada Forest Hills Eastern"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chehek Bharatiya",
+                    "playerId": "164757"
+                  }
+                ],
+                "school": "Parma Western"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gabby Young",
+                    "playerId": "125113"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #116Chehek Bharatiya Parma WesternGabby Young Grand Rapids South Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Angelina Jovicic",
+                    "playerId": "168393"
+                  }
+                ],
+                "school": "Adrian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #115BYEAngelina Jovicic Adrian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Roca Yang",
+                    "playerId": "151032"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gabrielle Asher",
+                    "playerId": "144876"
+                  }
+                ],
+                "school": "Haslett"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #114Roca Yang Bloomfield Hills Cranbrook KingswoodGabrielle Asher Haslett"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Henley Honholt",
+                    "playerId": "166413"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #113BYE2Henley Honholt Grand Rapids Christian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Conniff",
+                    "playerId": "166574"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1921Chloe Conniff Detroit Country Day"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #191"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Divyana Varma",
+                    "playerId": "164005"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1904Divyana Varma East Grand Rapids"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alexandria Weitz",
+                    "playerId": "164589"
+                  }
+                ],
+                "school": "Dearborn Divine Child"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1895Alexandria Weitz Dearborn Divine Child"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #188"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #187"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #186"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Henley Honholt",
+                    "playerId": "166413"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1852Henley Honholt Grand Rapids Christian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #224"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #223"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #222"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #221"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #240"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #239"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #248"
+          }
+        ]
+      }
+    ]
+  },
+  "2S": {
+    "flight": {
+      "id": "2S",
+      "type": "Singles",
+      "flight": 2
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1268&host=3626&matchType=Singles&flight=2",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Karishma Vakhariya",
+                    "playerId": "166576"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1121Karishma Vakhariya Detroit Country DayBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emma  Fecher",
+                    "playerId": "149896"
+                  }
+                ],
+                "school": "Fruitport"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amaya Graebert",
+                    "playerId": "147442"
+                  }
+                ],
+                "school": "St. Clair"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #111Emma Fecher FruitportAmaya Graebert St. Clair"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gracie Perry",
+                    "playerId": "125653"
+                  }
+                ],
+                "school": "Sturgis"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #110Gracie Perry SturgisBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Danya Hendrickson",
+                    "playerId": "144688"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #109Danya Hendrickson Grand Rapids South ChristianBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Iyla Holmes",
+                    "playerId": "165267"
+                  }
+                ],
+                "school": "Holland Christian"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1084Iyla Holmes Holland Christian BYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lexi Pridgeon",
+                    "playerId": "127227"
+                  }
+                ],
+                "school": "Haslett"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #107Lexi Pridgeon HaslettBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Elizabeth Torok",
+                    "playerId": "168319"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1065Elizabeth Torok Bloomfield Hills MarianBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addison  Boggs",
+                    "playerId": "126087"
+                  }
+                ],
+                "school": "Grosse Ile"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #105Addison Boggs Grosse IleBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Morgan Ferwerda",
+                    "playerId": "165500"
+                  }
+                ],
+                "school": "Coopersville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #104BYEMorgan Ferwerda Coopersville"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sofia  Mckany",
+                    "playerId": "196780"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #103BYE6Sofia Mckany Bloomfield Hills Cranbrook Kingswood"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Brynn Bolhuis",
+                    "playerId": "165759"
+                  }
+                ],
+                "school": "Hamilton"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adisyn Grimm",
+                    "playerId": "126305"
+                  }
+                ],
+                "school": "Fowlerville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #102Brynn Bolhuis HamiltonAdisyn Grimm Fowlerville"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Farha Malviya",
+                    "playerId": "164007"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #101BYE3Farha Malviya East Grand Rapids"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ellie McCollum",
+                    "playerId": "164758"
+                  }
+                ],
+                "school": "Parma Western"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #100BYEEllie McCollum Parma Western"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jalee Trombley",
+                    "playerId": "147137"
+                  }
+                ],
+                "school": "Williamston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #99BYEJalee Trombley Williamston"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Seffi Berg",
+                    "playerId": "147382"
+                  }
+                ],
+                "school": "Chelsea"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Annika  Hughes",
+                    "playerId": "129458"
+                  }
+                ],
+                "school": "Yale"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #98Seffi Berg ChelseaAnnika Hughes Yale"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ida Mertens",
+                    "playerId": "191944"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #97BYE2Ida Mertens Grand Rapids Christian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Karishma Vakhariya",
+                    "playerId": "166576"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1841Karishma Vakhariya Detroit Country Day"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gracie Perry",
+                    "playerId": "125653"
+                  }
+                ],
+                "school": "Sturgis"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Danya Hendrickson",
+                    "playerId": "144688"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #183Gracie Perry SturgisDanya Hendrickson Grand Rapids South Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Iyla Holmes",
+                    "playerId": "165267"
+                  }
+                ],
+                "school": "Holland Christian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lexi Pridgeon",
+                    "playerId": "127227"
+                  }
+                ],
+                "school": "Haslett"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1824Iyla Holmes Holland Christian Lexi Pridgeon Haslett"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Elizabeth Torok",
+                    "playerId": "168319"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addison  Boggs",
+                    "playerId": "126087"
+                  }
+                ],
+                "school": "Grosse Ile"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1815Elizabeth Torok Bloomfield Hills MarianAddison Boggs Grosse Ile"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Morgan Ferwerda",
+                    "playerId": "165500"
+                  }
+                ],
+                "school": "Coopersville"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sofia  Mckany",
+                    "playerId": "196780"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #180Morgan Ferwerda Coopersville6Sofia Mckany Bloomfield Hills Cranbrook Kingswood"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Farha Malviya",
+                    "playerId": "164007"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1793Farha Malviya East Grand Rapids"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ellie McCollum",
+                    "playerId": "164758"
+                  }
+                ],
+                "school": "Parma Western"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jalee Trombley",
+                    "playerId": "147137"
+                  }
+                ],
+                "school": "Williamston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #178Ellie McCollum Parma WesternJalee Trombley Williamston"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ida Mertens",
+                    "playerId": "191944"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1772Ida Mertens Grand Rapids Christian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #220"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #219"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #218"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #217"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #238"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #237"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #247"
+          }
+        ]
+      }
+    ]
+  },
+  "3S": {
+    "flight": {
+      "id": "3S",
+      "type": "Singles",
+      "flight": 3
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1268&host=3626&matchType=Singles&flight=3",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evelyn Gingras",
+                    "playerId": "192238"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #961Evelyn Gingras East Grand RapidsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Natalie Korotko",
+                    "playerId": "163089"
+                  }
+                ],
+                "school": "Yale"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Carly Kalis",
+                    "playerId": "190326"
+                  }
+                ],
+                "school": "Fowlerville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #95Natalie Korotko YaleCarly Kalis Fowlerville"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kylie Rietema",
+                    "playerId": "165758"
+                  }
+                ],
+                "school": "Hamilton"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #94Kylie Rietema HamiltonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nya Lee-Wah",
+                    "playerId": "147092"
+                  }
+                ],
+                "school": "Grosse Ile"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #93Nya Lee-Wah Grosse IleBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Marja Geisz",
+                    "playerId": "150358"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #924Marja Geisz Bloomfield Hills MarianBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Abby Poort",
+                    "playerId": "125691"
+                  }
+                ],
+                "school": "Fruitport"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #91Abby Poort FruitportBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Giselle Harman",
+                    "playerId": "151031"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #905Giselle Harman Bloomfield Hills Cranbrook KingswoodBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amelia Waidelich",
+                    "playerId": "165286"
+                  }
+                ],
+                "school": "St. Clair"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #89Amelia Waidelich St. ClairBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Scarlett Walther",
+                    "playerId": "147138"
+                  }
+                ],
+                "school": "Williamston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #88BYEScarlett Walther Williamston"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Libby  Timberlake",
+                    "playerId": "127968"
+                  }
+                ],
+                "school": "Chelsea"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #87BYE6Libby Timberlake Chelsea"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Taylor Bradley",
+                    "playerId": "190301"
+                  }
+                ],
+                "school": "Parma Western"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Tait",
+                    "playerId": "145469"
+                  }
+                ],
+                "school": "Holland Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #86Taylor Bradley Parma WesternChloe Tait Holland Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addie Grebinski",
+                    "playerId": "166575"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #85BYE3Addie Grebinski Detroit Country Day"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audi  Burgess",
+                    "playerId": "144687"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #84BYEAudi Burgess Grand Rapids South Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addison Banka",
+                    "playerId": "152000"
+                  }
+                ],
+                "school": "Coopersville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #83BYEAddison Banka Coopersville"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mazie Sterling",
+                    "playerId": "166527"
+                  }
+                ],
+                "school": "Sturgis"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kaia Anastor",
+                    "playerId": "144875"
+                  }
+                ],
+                "school": "Haslett"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #82Mazie Sterling SturgisKaia Anastor Haslett"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Avah Jerke",
+                    "playerId": "125166"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #81BYE2Avah Jerke Grand Rapids Christian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evelyn Gingras",
+                    "playerId": "192238"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1761Evelyn Gingras East Grand Rapids"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kylie Rietema",
+                    "playerId": "165758"
+                  }
+                ],
+                "school": "Hamilton"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nya Lee-Wah",
+                    "playerId": "147092"
+                  }
+                ],
+                "school": "Grosse Ile"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #175Kylie Rietema HamiltonNya Lee-Wah Grosse Ile"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Marja Geisz",
+                    "playerId": "150358"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Abby Poort",
+                    "playerId": "125691"
+                  }
+                ],
+                "school": "Fruitport"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1744Marja Geisz Bloomfield Hills MarianAbby Poort Fruitport"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Giselle Harman",
+                    "playerId": "151031"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amelia Waidelich",
+                    "playerId": "165286"
+                  }
+                ],
+                "school": "St. Clair"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1735Giselle Harman Bloomfield Hills Cranbrook KingswoodAmelia Waidelich St. Clair"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Scarlett Walther",
+                    "playerId": "147138"
+                  }
+                ],
+                "school": "Williamston"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Libby  Timberlake",
+                    "playerId": "127968"
+                  }
+                ],
+                "school": "Chelsea"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #172Scarlett Walther Williamston6Libby Timberlake Chelsea"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addie Grebinski",
+                    "playerId": "166575"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1713Addie Grebinski Detroit Country Day"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audi  Burgess",
+                    "playerId": "144687"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addison Banka",
+                    "playerId": "152000"
+                  }
+                ],
+                "school": "Coopersville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #170Audi Burgess Grand Rapids South ChristianAddison Banka Coopersville"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Avah Jerke",
+                    "playerId": "125166"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1692Avah Jerke Grand Rapids Christian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #216"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #215"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #214"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #213"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #236"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #235"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #246"
+          }
+        ]
+      }
+    ]
+  },
+  "4S": {
+    "flight": {
+      "id": "4S",
+      "type": "Singles",
+      "flight": 4
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1268&host=3626&matchType=Singles&flight=4",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gwen  Slapak",
+                    "playerId": "198130"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #801Gwen Slapak Bloomfield Hills MarianBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Molly Jonaitis",
+                    "playerId": "189533"
+                  }
+                ],
+                "school": "Coopersville"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Tania Bhatti",
+                    "playerId": "168182"
+                  }
+                ],
+                "school": "Grosse Ile"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #79Molly Jonaitis CoopersvilleTania Bhatti Grosse Ile"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ashlyn Simons",
+                    "playerId": "165285"
+                  }
+                ],
+                "school": "St. Clair"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #78Ashlyn Simons St. ClairBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lauren  Richey",
+                    "playerId": "127228"
+                  }
+                ],
+                "school": "Haslett"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #77Lauren Richey HaslettBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kyra Zacharias",
+                    "playerId": "149477"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #764Kyra Zacharias Detroit Country DayBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Billie Lucas",
+                    "playerId": "189716"
+                  }
+                ],
+                "school": "Hamilton"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #75Billie Lucas HamiltonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Tulah Himburg",
+                    "playerId": "168336"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #745Tulah Himburg Bloomfield Hills Cranbrook KingswoodBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Brystol Tenhove",
+                    "playerId": "166655"
+                  }
+                ],
+                "school": "Fruitport"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #73Brystol Tenhove FruitportBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Leia Jones",
+                    "playerId": "192185"
+                  }
+                ],
+                "school": "Williamston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #72BYELeia Jones Williamston"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evie Traverse",
+                    "playerId": "165271"
+                  }
+                ],
+                "school": "Holland Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #71BYE6Evie Traverse Holland Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Silvia Bivens",
+                    "playerId": "190298"
+                  }
+                ],
+                "school": "Parma Western"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anastasia  Moser",
+                    "playerId": "170621"
+                  }
+                ],
+                "school": "Chelsea"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #70Silvia Bivens Parma WesternAnastasia Moser Chelsea"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anwen Amash",
+                    "playerId": "150194"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #69BYE3Anwen Amash Grand Rapids Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Bella Currier",
+                    "playerId": "125655"
+                  }
+                ],
+                "school": "Sturgis"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #68BYEBella Currier Sturgis"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adison Utter",
+                    "playerId": "146591"
+                  }
+                ],
+                "school": "Yale"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #67BYEAdison Utter Yale"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Molly Alden",
+                    "playerId": "191604"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Eva Barr",
+                    "playerId": "166500"
+                  }
+                ],
+                "school": "Fowlerville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #66Molly Alden Grand Rapids South ChristianEva Barr Fowlerville"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mia Owings",
+                    "playerId": "164006"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #65BYE2Mia Owings East Grand Rapids"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gwen  Slapak",
+                    "playerId": "198130"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1681Gwen Slapak Bloomfield Hills Marian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ashlyn Simons",
+                    "playerId": "165285"
+                  }
+                ],
+                "school": "St. Clair"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lauren  Richey",
+                    "playerId": "127228"
+                  }
+                ],
+                "school": "Haslett"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #167Ashlyn Simons St. ClairLauren Richey Haslett"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kyra Zacharias",
+                    "playerId": "149477"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Billie Lucas",
+                    "playerId": "189716"
+                  }
+                ],
+                "school": "Hamilton"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1664Kyra Zacharias Detroit Country DayBillie Lucas Hamilton"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Tulah Himburg",
+                    "playerId": "168336"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Brystol Tenhove",
+                    "playerId": "166655"
+                  }
+                ],
+                "school": "Fruitport"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1655Tulah Himburg Bloomfield Hills Cranbrook KingswoodBrystol Tenhove Fruitport"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Leia Jones",
+                    "playerId": "192185"
+                  }
+                ],
+                "school": "Williamston"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evie Traverse",
+                    "playerId": "165271"
+                  }
+                ],
+                "school": "Holland Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #164Leia Jones Williamston6Evie Traverse Holland Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anwen Amash",
+                    "playerId": "150194"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #163 3Anwen Amash Grand Rapids Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Bella Currier",
+                    "playerId": "125655"
+                  }
+                ],
+                "school": "Sturgis"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adison Utter",
+                    "playerId": "146591"
+                  }
+                ],
+                "school": "Yale"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #162Bella Currier SturgisAdison Utter Yale"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mia Owings",
+                    "playerId": "164006"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1612Mia Owings East Grand Rapids"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #212"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #211"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #210"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #209"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #234"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #233"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #245"
+          }
+        ]
+      }
+    ]
+  },
+  "1D": {
+    "flight": {
+      "id": "1D",
+      "type": "Doubles",
+      "flight": 1
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1268&host=3626&matchType=Doubles&flight=1",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Quinn Norlander",
+                    "playerId": "150639"
+                  },
+                  {
+                    "name": "Helen Benjamin",
+                    "playerId": "130384"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #641Quinn Norlander/Helen Benjamin Detroit Country DayBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mya Murawski",
+                    "playerId": "126308"
+                  },
+                  {
+                    "name": "Taylor Drenchen",
+                    "playerId": "126313"
+                  }
+                ],
+                "school": "Fowlerville"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amira El Hadri",
+                    "playerId": "123481"
+                  },
+                  {
+                    "name": "Grace Goff",
+                    "playerId": "165288"
+                  }
+                ],
+                "school": "St. Clair"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #63Mya Murawski/Taylor Drenchen FowlervilleAmira El Hadri/Grace Goff St. Clair"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lena Saffell",
+                    "playerId": "125695"
+                  },
+                  {
+                    "name": "Cara  Hooker",
+                    "playerId": "149895"
+                  }
+                ],
+                "school": "Fruitport"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #62Lena Saffell/Cara Hooker FruitportBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lucy Taylor",
+                    "playerId": "127615"
+                  },
+                  {
+                    "name": "Brenna Taylor",
+                    "playerId": "127616"
+                  }
+                ],
+                "school": "Chelsea"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #61Lucy Taylor/Brenna Taylor ChelseaBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Eran Meiste",
+                    "playerId": "165757"
+                  },
+                  {
+                    "name": "Sophia Blauwkamp",
+                    "playerId": "131474"
+                  }
+                ],
+                "school": "Hamilton"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #604Eran Meiste/Sophia Blauwkamp HamiltonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Abby Redoutey",
+                    "playerId": "171543"
+                  },
+                  {
+                    "name": "Tessa Jesse",
+                    "playerId": "147136"
+                  }
+                ],
+                "school": "Williamston"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #59Abby Redoutey/Tessa Jesse WilliamstonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Becca Brushaber",
+                    "playerId": "127582"
+                  },
+                  {
+                    "name": "Sophia Nguyen",
+                    "playerId": "151070"
+                  }
+                ],
+                "school": "Parma Western"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #585Becca Brushaber/Sophia Nguyen Parma WesternBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ines Bordenet",
+                    "playerId": "146971"
+                  },
+                  {
+                    "name": "Edith  Zimdar",
+                    "playerId": "146967"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #57Ines Bordenet/Edith Zimdar East Grand RapidsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Madeline Fox",
+                    "playerId": "146578"
+                  },
+                  {
+                    "name": "Giana Nash",
+                    "playerId": "146588"
+                  }
+                ],
+                "school": "Yale"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #56BYEMadeline Fox/Giana Nash Yale"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Allegra Curis",
+                    "playerId": "125131"
+                  },
+                  {
+                    "name": "Bri Daood",
+                    "playerId": "168323"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #55BYE6Allegra Curis/Bri Daood Bloomfield Hills Marian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anna Robinson",
+                    "playerId": "168181"
+                  },
+                  {
+                    "name": "Maddie Mahanic",
+                    "playerId": "168180"
+                  }
+                ],
+                "school": "Grosse Ile"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Katelyn Halling",
+                    "playerId": "148388"
+                  },
+                  {
+                    "name": "Mya Eicher",
+                    "playerId": "148384"
+                  }
+                ],
+                "school": "Sturgis"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #54Anna Robinson/Maddie Mahanic Grosse IleKatelyn Halling/Mya Eicher Sturgis"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kassie Evenhouse",
+                    "playerId": "125188"
+                  },
+                  {
+                    "name": "Stella Klooster",
+                    "playerId": "145465"
+                  }
+                ],
+                "school": "Holland Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #53BYE3Kassie Evenhouse/Stella Klooster Holland Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "GiGi Giudici",
+                    "playerId": "196782"
+                  },
+                  {
+                    "name": "Lola Cleary",
+                    "playerId": "168340"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #52BYEGiGi Giudici/Lola Cleary Bloomfield Hills Cranbrook Kingswood"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Stella Jelsema",
+                    "playerId": "144689"
+                  },
+                  {
+                    "name": "Morgan Struck",
+                    "playerId": "144690"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #51BYEStella Jelsema/Morgan Struck Grand Rapids South Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Allison Krueger",
+                    "playerId": "171578"
+                  },
+                  {
+                    "name": "Adele Leister",
+                    "playerId": "144883"
+                  }
+                ],
+                "school": "Haslett"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Erin Shuster",
+                    "playerId": "165502"
+                  },
+                  {
+                    "name": "Anya Dyk",
+                    "playerId": "165496"
+                  }
+                ],
+                "school": "Coopersville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #50Allison Krueger/Adele Leister HaslettErin Shuster/Anya Dyk Coopersville"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anneka Vermeulen",
+                    "playerId": "150191"
+                  },
+                  {
+                    "name": "Anna Jacobsen",
+                    "playerId": "150186"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #49BYE2Anneka Vermeulen/Anna Jacobsen Grand Rapids Christian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Quinn Norlander",
+                    "playerId": "150639"
+                  },
+                  {
+                    "name": "Helen Benjamin",
+                    "playerId": "130384"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1601Quinn Norlander/Helen Benjamin Detroit Country Day"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lena Saffell",
+                    "playerId": "125695"
+                  },
+                  {
+                    "name": "Cara  Hooker",
+                    "playerId": "149895"
+                  }
+                ],
+                "school": "Fruitport"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lucy Taylor",
+                    "playerId": "127615"
+                  },
+                  {
+                    "name": "Brenna Taylor",
+                    "playerId": "127616"
+                  }
+                ],
+                "school": "Chelsea"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #159Lena Saffell/Cara Hooker FruitportLucy Taylor/Brenna Taylor Chelsea"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Eran Meiste",
+                    "playerId": "165757"
+                  },
+                  {
+                    "name": "Sophia Blauwkamp",
+                    "playerId": "131474"
+                  }
+                ],
+                "school": "Hamilton"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Abby Redoutey",
+                    "playerId": "171543"
+                  },
+                  {
+                    "name": "Tessa Jesse",
+                    "playerId": "147136"
+                  }
+                ],
+                "school": "Williamston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1584Eran Meiste/Sophia Blauwkamp HamiltonAbby Redoutey/Tessa Jesse Williamston"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Becca Brushaber",
+                    "playerId": "127582"
+                  },
+                  {
+                    "name": "Sophia Nguyen",
+                    "playerId": "151070"
+                  }
+                ],
+                "school": "Parma Western"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ines Bordenet",
+                    "playerId": "146971"
+                  },
+                  {
+                    "name": "Edith  Zimdar",
+                    "playerId": "146967"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #157 5Becca Brushaber/Sophia Nguyen Parma WesternInes Bordenet/Edith Zimdar East Grand Rapids"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Madeline Fox",
+                    "playerId": "146578"
+                  },
+                  {
+                    "name": "Giana Nash",
+                    "playerId": "146588"
+                  }
+                ],
+                "school": "Yale"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Allegra Curis",
+                    "playerId": "125131"
+                  },
+                  {
+                    "name": "Bri Daood",
+                    "playerId": "168323"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #156Madeline Fox/Giana Nash Yale6Allegra Curis/Bri Daood Bloomfield Hills Marian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kassie Evenhouse",
+                    "playerId": "125188"
+                  },
+                  {
+                    "name": "Stella Klooster",
+                    "playerId": "145465"
+                  }
+                ],
+                "school": "Holland Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1553Kassie Evenhouse/Stella Klooster Holland Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "GiGi Giudici",
+                    "playerId": "196782"
+                  },
+                  {
+                    "name": "Lola Cleary",
+                    "playerId": "168340"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Stella Jelsema",
+                    "playerId": "144689"
+                  },
+                  {
+                    "name": "Morgan Struck",
+                    "playerId": "144690"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #154GiGi Giudici/Lola Cleary Bloomfield Hills Cranbrook KingswoodStella Jelsema/Morgan Struck Grand Rapids South Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anneka Vermeulen",
+                    "playerId": "150191"
+                  },
+                  {
+                    "name": "Anna Jacobsen",
+                    "playerId": "150186"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1532Anneka Vermeulen/Anna Jacobsen Grand Rapids Christian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #208"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #207"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #206"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #205"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #232"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #231"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #244"
+          }
+        ]
+      }
+    ]
+  },
+  "2D": {
+    "flight": {
+      "id": "2D",
+      "type": "Doubles",
+      "flight": 2
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1268&host=3626&matchType=Doubles&flight=2",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace Kalkanis",
+                    "playerId": "166579"
+                  },
+                  {
+                    "name": "Zoe Bergg",
+                    "playerId": "166578"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #481Grace Kalkanis/Zoe Bergg Detroit Country DayBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anna Willinger",
+                    "playerId": "164753"
+                  },
+                  {
+                    "name": "Anna Wilcox",
+                    "playerId": "127579"
+                  }
+                ],
+                "school": "Parma Western"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ella Shaw",
+                    "playerId": "145529"
+                  },
+                  {
+                    "name": "Kaleigh Schoenbeck",
+                    "playerId": "145549"
+                  }
+                ],
+                "school": "Fowlerville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #47Anna Willinger/Anna Wilcox Parma WesternElla Shaw/Kaleigh Schoenbeck Fowlerville"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amelia Baker",
+                    "playerId": "147381"
+                  },
+                  {
+                    "name": "Nora Garbarkiewicz",
+                    "playerId": "147387"
+                  }
+                ],
+                "school": "Chelsea"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #46Amelia Baker/Nora Garbarkiewicz ChelseaBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey  Cole",
+                    "playerId": "168468"
+                  },
+                  {
+                    "name": "Madeline Schafer",
+                    "playerId": "165289"
+                  }
+                ],
+                "school": "St. Clair"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #45Audrey Cole/Madeline Schafer St. ClairBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gwyn Artz",
+                    "playerId": "150187"
+                  },
+                  {
+                    "name": "Emily VandenBerge",
+                    "playerId": "150195"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #444Gwyn Artz/Emily VandenBerge Grand Rapids Christian BYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Taylor Heer",
+                    "playerId": "165762"
+                  },
+                  {
+                    "name": "Maddie Jipping",
+                    "playerId": "151398"
+                  }
+                ],
+                "school": "Hamilton"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #43Taylor Heer/Maddie Jipping HamiltonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lily Wierenga",
+                    "playerId": "145468"
+                  },
+                  {
+                    "name": "Hope Bruinsma",
+                    "playerId": "145467"
+                  }
+                ],
+                "school": "Holland Christian"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #425Lily Wierenga/Hope Bruinsma Holland Christian BYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Hailey Dunckel",
+                    "playerId": "149599"
+                  },
+                  {
+                    "name": "Nina Talberg",
+                    "playerId": "147335"
+                  }
+                ],
+                "school": "Williamston"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #41Hailey Dunckel/Nina Talberg WilliamstonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Hannah Ritchie",
+                    "playerId": "125817"
+                  },
+                  {
+                    "name": "Marlee Smith",
+                    "playerId": "131713"
+                  }
+                ],
+                "school": "Sturgis"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #40BYEHannah Ritchie /Marlee Smith Sturgis"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gigi  Levine",
+                    "playerId": "168335"
+                  },
+                  {
+                    "name": "Carolena Simon",
+                    "playerId": "168330"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #39 BYE6Gigi Levine/Carolena Simon Bloomfield Hills Cranbrook Kingswood"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Rylee  Rufener",
+                    "playerId": "125693"
+                  },
+                  {
+                    "name": "Kaitlyn  Tenbrink",
+                    "playerId": "190977"
+                  }
+                ],
+                "school": "Fruitport"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Leah Francek",
+                    "playerId": "146579"
+                  },
+                  {
+                    "name": "Emma McIntyre",
+                    "playerId": "163095"
+                  }
+                ],
+                "school": "Yale"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #38Rylee Rufener/Kaitlyn Tenbrink FruitportLeah Francek/Emma McIntyre Yale"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Naomi Stolle",
+                    "playerId": "164009"
+                  },
+                  {
+                    "name": "Sadie Devlaeminck",
+                    "playerId": "192239"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #37BYE3Naomi Stolle/Sadie Devlaeminck East Grand Rapids"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sophie Young",
+                    "playerId": "165612"
+                  },
+                  {
+                    "name": "Anneka Schuurmans",
+                    "playerId": "165613"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #36BYESophie Young/Anneka Schuurmans Grand Rapids South Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nora Wharton",
+                    "playerId": "147093"
+                  },
+                  {
+                    "name": "eliza daguro",
+                    "playerId": "196366"
+                  }
+                ],
+                "school": "Grosse Ile"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #35BYENora Wharton/eliza daguro Grosse Ile"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Reese Van De Riet",
+                    "playerId": "144887"
+                  },
+                  {
+                    "name": "Loela Spadafore",
+                    "playerId": "168136"
+                  }
+                ],
+                "school": "Haslett"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Liviann Vos",
+                    "playerId": "166571"
+                  },
+                  {
+                    "name": "Emma Hoffman",
+                    "playerId": "165493"
+                  }
+                ],
+                "school": "Coopersville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #34Reese Van De Riet /Loela Spadafore HaslettLiviann Vos/Emma Hoffman Coopersville"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emerson Turkot",
+                    "playerId": "125134"
+                  },
+                  {
+                    "name": "Stella Glorio",
+                    "playerId": "150360"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #33BYE2Emerson Turkot/Stella Glorio Bloomfield Hills Marian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace Kalkanis",
+                    "playerId": "166579"
+                  },
+                  {
+                    "name": "Zoe Bergg",
+                    "playerId": "166578"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1521Grace Kalkanis/Zoe Bergg Detroit Country Day"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amelia Baker",
+                    "playerId": "147381"
+                  },
+                  {
+                    "name": "Nora Garbarkiewicz",
+                    "playerId": "147387"
+                  }
+                ],
+                "school": "Chelsea"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey  Cole",
+                    "playerId": "168468"
+                  },
+                  {
+                    "name": "Madeline Schafer",
+                    "playerId": "165289"
+                  }
+                ],
+                "school": "St. Clair"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #151Amelia Baker/Nora Garbarkiewicz ChelseaAudrey Cole/Madeline Schafer St. Clair"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gwyn Artz",
+                    "playerId": "150187"
+                  },
+                  {
+                    "name": "Emily VandenBerge",
+                    "playerId": "150195"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Taylor Heer",
+                    "playerId": "165762"
+                  },
+                  {
+                    "name": "Maddie Jipping",
+                    "playerId": "151398"
+                  }
+                ],
+                "school": "Hamilton"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1504Gwyn Artz/Emily VandenBerge Grand Rapids Christian Taylor Heer/Maddie Jipping Hamilton"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lily Wierenga",
+                    "playerId": "145468"
+                  },
+                  {
+                    "name": "Hope Bruinsma",
+                    "playerId": "145467"
+                  }
+                ],
+                "school": "Holland Christian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Hailey Dunckel",
+                    "playerId": "149599"
+                  },
+                  {
+                    "name": "Nina Talberg",
+                    "playerId": "147335"
+                  }
+                ],
+                "school": "Williamston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1495Lily Wierenga/Hope Bruinsma Holland Christian Hailey Dunckel/Nina Talberg Williamston"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Hannah Ritchie",
+                    "playerId": "125817"
+                  },
+                  {
+                    "name": "Marlee Smith",
+                    "playerId": "131713"
+                  }
+                ],
+                "school": "Sturgis"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gigi  Levine",
+                    "playerId": "168335"
+                  },
+                  {
+                    "name": "Carolena Simon",
+                    "playerId": "168330"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #148Hannah Ritchie /Marlee Smith Sturgis6Gigi Levine/Carolena Simon Bloomfield Hills Cranbrook Kingswood"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Naomi Stolle",
+                    "playerId": "164009"
+                  },
+                  {
+                    "name": "Sadie Devlaeminck",
+                    "playerId": "192239"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1473Naomi Stolle/Sadie Devlaeminck East Grand Rapids"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sophie Young",
+                    "playerId": "165612"
+                  },
+                  {
+                    "name": "Anneka Schuurmans",
+                    "playerId": "165613"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nora Wharton",
+                    "playerId": "147093"
+                  },
+                  {
+                    "name": "eliza daguro",
+                    "playerId": "196366"
+                  }
+                ],
+                "school": "Grosse Ile"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #146Sophie Young/Anneka Schuurmans Grand Rapids South ChristianNora Wharton/eliza daguro Grosse Ile"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emerson Turkot",
+                    "playerId": "125134"
+                  },
+                  {
+                    "name": "Stella Glorio",
+                    "playerId": "150360"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1452Emerson Turkot/Stella Glorio Bloomfield Hills Marian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #204"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #203"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #202"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #201"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #230"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #229"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #243"
+          }
+        ]
+      }
+    ]
+  },
+  "3D": {
+    "flight": {
+      "id": "3D",
+      "type": "Doubles",
+      "flight": 3
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1268&host=3626&matchType=Doubles&flight=3",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ava Kouza",
+                    "playerId": "130299"
+                  },
+                  {
+                    "name": "Julia Geisz",
+                    "playerId": "196784"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #321Ava Kouza/Julia Geisz Bloomfield Hills Cranbrook KingswoodBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Izzy Delcalzo",
+                    "playerId": "145466"
+                  },
+                  {
+                    "name": "Lucia  Van Klompenberg",
+                    "playerId": "150122"
+                  }
+                ],
+                "school": "Holland Christian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Eleni Pastsalis",
+                    "playerId": "191863"
+                  },
+                  {
+                    "name": "Morgan Popescu",
+                    "playerId": "191775"
+                  }
+                ],
+                "school": "St. Clair"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #31Izzy Delcalzo/Lucia Van Klompenberg Holland Christian Eleni Pastsalis/Morgan Popescu St. Clair"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sadie Buus",
+                    "playerId": "189720"
+                  },
+                  {
+                    "name": "Kennedy Reitzel",
+                    "playerId": "189721"
+                  }
+                ],
+                "school": "Hamilton"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #30Sadie Buus/Kennedy Reitzel HamiltonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey Grocki",
+                    "playerId": "171545"
+                  },
+                  {
+                    "name": "Addison Hitchcock",
+                    "playerId": "192183"
+                  }
+                ],
+                "school": "Williamston"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #29Audrey Grocki/Addison Hitchcock WilliamstonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Claire Jones",
+                    "playerId": "146978"
+                  },
+                  {
+                    "name": "Lia Degoa",
+                    "playerId": "146975"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #284Claire Jones/Lia Degoa East Grand RapidsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lila Ratliff",
+                    "playerId": "126310"
+                  },
+                  {
+                    "name": "Josie Ratliff",
+                    "playerId": "190329"
+                  }
+                ],
+                "school": "Fowlerville"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #27Lila Ratliff/Josie Ratliff FowlervilleBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sage Gabriel-Menegay",
+                    "playerId": "127969"
+                  },
+                  {
+                    "name": "Brooklyn Angel",
+                    "playerId": "127970"
+                  }
+                ],
+                "school": "Chelsea"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #265Sage Gabriel-Menegay /Brooklyn Angel ChelseaBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Natalie Hyde",
+                    "playerId": "127581"
+                  },
+                  {
+                    "name": "Karly Foster",
+                    "playerId": "131775"
+                  }
+                ],
+                "school": "Parma Western"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #25Natalie Hyde/Karly Foster Parma WesternBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ella Whitehead",
+                    "playerId": "195926"
+                  },
+                  {
+                    "name": "Bailey  Cates",
+                    "playerId": "173104"
+                  }
+                ],
+                "school": "Sturgis"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #24BYEElla Whitehead/Bailey Cates Sturgis"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Johanna Bos",
+                    "playerId": "150193"
+                  },
+                  {
+                    "name": "Londyn Jerke",
+                    "playerId": "166414"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #23 BYE6Johanna Bos/Londyn Jerke Grand Rapids Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace Thomas",
+                    "playerId": "165499"
+                  },
+                  {
+                    "name": "Jasmine Kober",
+                    "playerId": "165503"
+                  }
+                ],
+                "school": "Coopersville"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ariana Lopez",
+                    "playerId": "147091"
+                  },
+                  {
+                    "name": "Morgan Proctor",
+                    "playerId": "147090"
+                  }
+                ],
+                "school": "Grosse Ile"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #22Grace Thomas/Jasmine Kober CoopersvilleAriana Lopez/Morgan Proctor Grosse Ile"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Noor Mahmoud",
+                    "playerId": "130385"
+                  },
+                  {
+                    "name": "Margaux Kohn",
+                    "playerId": "149475"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #21BYE3Noor Mahmoud/Margaux Kohn Detroit Country Day"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Layla Kerschen",
+                    "playerId": "144881"
+                  },
+                  {
+                    "name": "Stella  Spadafore",
+                    "playerId": "188673"
+                  }
+                ],
+                "school": "Haslett"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #20BYELayla Kerschen /Stella Spadafore Haslett"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aletta Vos",
+                    "playerId": "172182"
+                  },
+                  {
+                    "name": "Ella  Buwalda",
+                    "playerId": "191602"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #19BYEAletta Vos/Ella Buwalda Grand Rapids South Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jordan  Smith",
+                    "playerId": "166656"
+                  },
+                  {
+                    "name": "Ava Robinson",
+                    "playerId": "190987"
+                  }
+                ],
+                "school": "Fruitport"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey O’Neil",
+                    "playerId": "129448"
+                  },
+                  {
+                    "name": "Lillian Brewer",
+                    "playerId": "146576"
+                  }
+                ],
+                "school": "Yale"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #18Jordan Smith/Ava Robinson FruitportAudrey O’Neil/Lillian Brewer Yale"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emerson Villalba",
+                    "playerId": "198132"
+                  },
+                  {
+                    "name": "Lexa Hindo",
+                    "playerId": "150359"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #17BYE2Emerson Villalba/Lexa Hindo Bloomfield Hills Marian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ava Kouza",
+                    "playerId": "130299"
+                  },
+                  {
+                    "name": "Julia Geisz",
+                    "playerId": "196784"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1441Ava Kouza/Julia Geisz Bloomfield Hills Cranbrook Kingswood"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sadie Buus",
+                    "playerId": "189720"
+                  },
+                  {
+                    "name": "Kennedy Reitzel",
+                    "playerId": "189721"
+                  }
+                ],
+                "school": "Hamilton"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey Grocki",
+                    "playerId": "171545"
+                  },
+                  {
+                    "name": "Addison Hitchcock",
+                    "playerId": "192183"
+                  }
+                ],
+                "school": "Williamston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #143Sadie Buus/Kennedy Reitzel HamiltonAudrey Grocki/Addison Hitchcock Williamston"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Claire Jones",
+                    "playerId": "146978"
+                  },
+                  {
+                    "name": "Lia Degoa",
+                    "playerId": "146975"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lila Ratliff",
+                    "playerId": "126310"
+                  },
+                  {
+                    "name": "Josie Ratliff",
+                    "playerId": "190329"
+                  }
+                ],
+                "school": "Fowlerville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1424Claire Jones/Lia Degoa East Grand RapidsLila Ratliff/Josie Ratliff Fowlerville"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sage Gabriel-Menegay",
+                    "playerId": "127969"
+                  },
+                  {
+                    "name": "Brooklyn Angel",
+                    "playerId": "127970"
+                  }
+                ],
+                "school": "Chelsea"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Natalie Hyde",
+                    "playerId": "127581"
+                  },
+                  {
+                    "name": "Karly Foster",
+                    "playerId": "131775"
+                  }
+                ],
+                "school": "Parma Western"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1415Sage Gabriel-Menegay /Brooklyn Angel ChelseaNatalie Hyde/Karly Foster Parma Western"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ella Whitehead",
+                    "playerId": "195926"
+                  },
+                  {
+                    "name": "Bailey  Cates",
+                    "playerId": "173104"
+                  }
+                ],
+                "school": "Sturgis"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Johanna Bos",
+                    "playerId": "150193"
+                  },
+                  {
+                    "name": "Londyn Jerke",
+                    "playerId": "166414"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #140Ella Whitehead/Bailey Cates Sturgis6Johanna Bos/Londyn Jerke Grand Rapids Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Noor Mahmoud",
+                    "playerId": "130385"
+                  },
+                  {
+                    "name": "Margaux Kohn",
+                    "playerId": "149475"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1393Noor Mahmoud/Margaux Kohn Detroit Country Day"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Layla Kerschen",
+                    "playerId": "144881"
+                  },
+                  {
+                    "name": "Stella  Spadafore",
+                    "playerId": "188673"
+                  }
+                ],
+                "school": "Haslett"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aletta Vos",
+                    "playerId": "172182"
+                  },
+                  {
+                    "name": "Ella  Buwalda",
+                    "playerId": "191602"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #138Layla Kerschen /Stella Spadafore HaslettAletta Vos/Ella Buwalda Grand Rapids South Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emerson Villalba",
+                    "playerId": "198132"
+                  },
+                  {
+                    "name": "Lexa Hindo",
+                    "playerId": "150359"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1372Emerson Villalba/Lexa Hindo Bloomfield Hills Marian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #200"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #199"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #198"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #197"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #228"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #227"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #242"
+          }
+        ]
+      }
+    ]
+  },
+  "4D": {
+    "flight": {
+      "id": "4D",
+      "type": "Doubles",
+      "flight": 4
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1268&host=3626&matchType=Doubles&flight=4",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jiya Gill",
+                    "playerId": "130386"
+                  },
+                  {
+                    "name": "Zoe Grebinski",
+                    "playerId": "166577"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #161Jiya Gill/Zoe Grebinski Detroit Country DayBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace Smith",
+                    "playerId": "164754"
+                  },
+                  {
+                    "name": "Genevieve Davis",
+                    "playerId": "164755"
+                  }
+                ],
+                "school": "Parma Western"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Annabelle Calle",
+                    "playerId": "168186"
+                  },
+                  {
+                    "name": "Regan Bost",
+                    "playerId": "168183"
+                  }
+                ],
+                "school": "Grosse Ile"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #15Grace Smith/Genevieve Davis Parma WesternAnnabelle Calle/Regan Bost Grosse Ile"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Tabthia Stein",
+                    "playerId": "191774"
+                  },
+                  {
+                    "name": "Karyna Fiscelli",
+                    "playerId": "191865"
+                  }
+                ],
+                "school": "St. Clair"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #14Tabthia Stein/Karyna Fiscelli St. ClairBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emma  Lynema",
+                    "playerId": "165614"
+                  },
+                  {
+                    "name": "Chloe  Hasper",
+                    "playerId": "191603"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #13Emma Lynema/Chloe Hasper Grand Rapids South ChristianBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Brianna Giudici",
+                    "playerId": "151030"
+                  },
+                  {
+                    "name": "Alena Simon",
+                    "playerId": "196783"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #124Brianna Giudici/Alena Simon Bloomfield Hills Cranbrook KingswoodBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addison  Schroeder",
+                    "playerId": "168137"
+                  },
+                  {
+                    "name": "Kristen  Lewandowski",
+                    "playerId": "188676"
+                  }
+                ],
+                "school": "Haslett"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #11Addison Schroeder/Kristen Lewandowski HaslettBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adelyn Breuninger",
+                    "playerId": "150192"
+                  },
+                  {
+                    "name": "Cameron Kok",
+                    "playerId": "166417"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #105Adelyn Breuninger/Cameron Kok Grand Rapids Christian BYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Dangler",
+                    "playerId": "165268"
+                  },
+                  {
+                    "name": "Jadyn Smith",
+                    "playerId": "165269"
+                  }
+                ],
+                "school": "Holland Christian"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #9Chloe Dangler/Jadyn Smith Holland Christian BYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Journey Rufener",
+                    "playerId": "166658"
+                  },
+                  {
+                    "name": "Candela  Pena",
+                    "playerId": "190984"
+                  }
+                ],
+                "school": "Fruitport"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #8BYEJourney Rufener/Candela Pena Fruitport"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Neve  Rodriguez",
+                    "playerId": "127973"
+                  },
+                  {
+                    "name": "Isabella  Moser",
+                    "playerId": "127972"
+                  }
+                ],
+                "school": "Chelsea"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #7BYE6Neve Rodriguez/Isabella Moser Chelsea"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Stella  Barry",
+                    "playerId": "166526"
+                  },
+                  {
+                    "name": "Lilly  Whitehead",
+                    "playerId": "166524"
+                  }
+                ],
+                "school": "Sturgis"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anna Reynolds",
+                    "playerId": "150778"
+                  },
+                  {
+                    "name": "Madison Merritt",
+                    "playerId": "192182"
+                  }
+                ],
+                "school": "Williamston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #6 Stella Barry/Lilly Whitehead SturgisAnna Reynolds/Madison Merritt Williamston"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Custer",
+                    "playerId": "146977"
+                  },
+                  {
+                    "name": "Grace Taylor",
+                    "playerId": "146974"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #5BYE3Chloe Custer/Grace Taylor East Grand Rapids"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adele Plycraft",
+                    "playerId": "189718"
+                  },
+                  {
+                    "name": "Allie VanOmmen",
+                    "playerId": "189719"
+                  }
+                ],
+                "school": "Hamilton"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #4BYEAdele Plycraft/Allie VanOmmen Hamilton"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Izabella Cook",
+                    "playerId": "163084"
+                  },
+                  {
+                    "name": "Danielle Finkbeiner",
+                    "playerId": "163086"
+                  }
+                ],
+                "school": "Yale"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #3BYEIzabella Cook/Danielle Finkbeiner Yale"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Izzy Cox",
+                    "playerId": "190323"
+                  },
+                  {
+                    "name": "Tessa Smith",
+                    "playerId": "190316"
+                  }
+                ],
+                "school": "Fowlerville"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alivia Kosten",
+                    "playerId": "189535"
+                  },
+                  {
+                    "name": "Liberty Papageorgio",
+                    "playerId": "197311"
+                  }
+                ],
+                "school": "Coopersville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #2Izzy Cox/Tessa Smith FowlervilleAlivia Kosten/Liberty Papageorgio Coopersville"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lizzie  Plunkett",
+                    "playerId": "168320"
+                  },
+                  {
+                    "name": "Clare Reaume",
+                    "playerId": "198131"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1BYE2Lizzie Plunkett/Clare Reaume Bloomfield Hills Marian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jiya Gill",
+                    "playerId": "130386"
+                  },
+                  {
+                    "name": "Zoe Grebinski",
+                    "playerId": "166577"
+                  }
+                ],
+                "school": "Detroit Country Day"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1361Jiya Gill/Zoe Grebinski Detroit Country Day"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Tabthia Stein",
+                    "playerId": "191774"
+                  },
+                  {
+                    "name": "Karyna Fiscelli",
+                    "playerId": "191865"
+                  }
+                ],
+                "school": "St. Clair"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emma  Lynema",
+                    "playerId": "165614"
+                  },
+                  {
+                    "name": "Chloe  Hasper",
+                    "playerId": "191603"
+                  }
+                ],
+                "school": "Grand Rapids South Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #135Tabthia Stein/Karyna Fiscelli St. ClairEmma Lynema/Chloe Hasper Grand Rapids South Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Brianna Giudici",
+                    "playerId": "151030"
+                  },
+                  {
+                    "name": "Alena Simon",
+                    "playerId": "196783"
+                  }
+                ],
+                "school": "Bloomfield Hills Cranbrook Kingswood"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addison  Schroeder",
+                    "playerId": "168137"
+                  },
+                  {
+                    "name": "Kristen  Lewandowski",
+                    "playerId": "188676"
+                  }
+                ],
+                "school": "Haslett"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1344Brianna Giudici/Alena Simon Bloomfield Hills Cranbrook KingswoodAddison Schroeder/Kristen Lewandowski Haslett"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adelyn Breuninger",
+                    "playerId": "150192"
+                  },
+                  {
+                    "name": "Cameron Kok",
+                    "playerId": "166417"
+                  }
+                ],
+                "school": "Grand Rapids Christian"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Dangler",
+                    "playerId": "165268"
+                  },
+                  {
+                    "name": "Jadyn Smith",
+                    "playerId": "165269"
+                  }
+                ],
+                "school": "Holland Christian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1335Adelyn Breuninger/Cameron Kok Grand Rapids Christian Chloe Dangler/Jadyn Smith Holland Christian"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Journey Rufener",
+                    "playerId": "166658"
+                  },
+                  {
+                    "name": "Candela  Pena",
+                    "playerId": "190984"
+                  }
+                ],
+                "school": "Fruitport"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Neve  Rodriguez",
+                    "playerId": "127973"
+                  },
+                  {
+                    "name": "Isabella  Moser",
+                    "playerId": "127972"
+                  }
+                ],
+                "school": "Chelsea"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #132Journey Rufener/Candela Pena Fruitport6Neve Rodriguez/Isabella Moser Chelsea"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Custer",
+                    "playerId": "146977"
+                  },
+                  {
+                    "name": "Grace Taylor",
+                    "playerId": "146974"
+                  }
+                ],
+                "school": "East Grand Rapids"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1313Chloe Custer/Grace Taylor East Grand Rapids"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adele Plycraft",
+                    "playerId": "189718"
+                  },
+                  {
+                    "name": "Allie VanOmmen",
+                    "playerId": "189719"
+                  }
+                ],
+                "school": "Hamilton"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Izabella Cook",
+                    "playerId": "163084"
+                  },
+                  {
+                    "name": "Danielle Finkbeiner",
+                    "playerId": "163086"
+                  }
+                ],
+                "school": "Yale"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #130Adele Plycraft/Allie VanOmmen HamiltonIzabella Cook/Danielle Finkbeiner Yale"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lizzie  Plunkett",
+                    "playerId": "168320"
+                  },
+                  {
+                    "name": "Clare Reaume",
+                    "playerId": "198131"
+                  }
+                ],
+                "school": "Bloomfield Hills Marian"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #1292Lizzie Plunkett/Clare Reaume Bloomfield Hills Marian"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #196"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #195"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #194"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/05/2026Match #193"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #226"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #225"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/06/2026Match #241"
+          }
+        ]
+      }
+    ]
+  }
+}

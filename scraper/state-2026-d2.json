@@ -1,0 +1,4678 @@
+{
+  "1S": {
+    "flight": {
+      "id": "1S",
+      "type": "Singles",
+      "flight": 1
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1267&host=3625&matchType=Singles&flight=1",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ana Cheng",
+                    "playerId": "124240"
+                  }
+                ],
+                "school": "Mattawan"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #1281Ana Cheng MattawanBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Katherine Ziegler",
+                    "playerId": "165955"
+                  }
+                ],
+                "school": "Birmingham Groves"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Piper Coon",
+                    "playerId": "144404"
+                  }
+                ],
+                "school": "Berkley"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #127Katherine Ziegler Birmingham GrovesPiper Coon Berkley"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Katelyn Strong",
+                    "playerId": "124116"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #126Katelyn Strong Grosse Pointe SouthBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Payton Smoker",
+                    "playerId": "191452"
+                  }
+                ],
+                "school": "Mason"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sloane Barclay",
+                    "playerId": "170259"
+                  }
+                ],
+                "school": "Traverse City West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #125Payton Smoker MasonSloane Barclay Traverse City West"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Cox",
+                    "playerId": "125318"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Central"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #1244Chloe Cox Grand Rapids Forest Hills CentralBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Miley Lustig",
+                    "playerId": "127131"
+                  }
+                ],
+                "school": "Trenton"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace Wolf",
+                    "playerId": "169980"
+                  }
+                ],
+                "school": "Jackson"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #123Miley Lustig TrentonGrace Wolf Jackson"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Laila Aslam",
+                    "playerId": "145503"
+                  }
+                ],
+                "school": "Grosse Pointe North"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #1225Laila Aslam Grosse Pointe NorthBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Brynlee Williams",
+                    "playerId": "126485"
+                  }
+                ],
+                "school": "Dexter"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nishi Narayan",
+                    "playerId": "149748"
+                  }
+                ],
+                "school": "Midland Dow"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #121Brynlee Williams DexterNishi Narayan Midland Dow"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lauren Hall",
+                    "playerId": "149603"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Olivia Blackledge",
+                    "playerId": "169783"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #120Lauren Hall Muskegon Mona ShoresOlivia Blackledge Wyandotte Roosevelt"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jada Josifovski",
+                    "playerId": "130566"
+                  }
+                ],
+                "school": "Birmingham Seaholm"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #119BYE6Jada Josifovski Birmingham Seaholm"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "addy zanotti",
+                    "playerId": "191173"
+                  }
+                ],
+                "school": "Bay City Western"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emily Haskill",
+                    "playerId": "149363"
+                  }
+                ],
+                "school": "Zeeland West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #118addy zanotti Bay City WesternEmily Haskill Zeeland West"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Keira Kirkland",
+                    "playerId": "125385"
+                  }
+                ],
+                "school": "Farmington Hills Mercy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #117BYE3Keira Kirkland Farmington Hills Mercy"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aditi Kongara",
+                    "playerId": "150022"
+                  }
+                ],
+                "school": "South Lyon East"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Maia Meghea",
+                    "playerId": "127249"
+                  }
+                ],
+                "school": "East Lansing"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #116Aditi Kongara South Lyon EastMaia Meghea East Lansing"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Samantha Karoub",
+                    "playerId": "128507"
+                  }
+                ],
+                "school": "North Farmington"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #115BYESamantha Karoub North Farmington"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jordynn Dolbee",
+                    "playerId": "146613"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kate VanHowe",
+                    "playerId": "127220"
+                  }
+                ],
+                "school": "Port Huron Northern"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #114Jordynn Dolbee Richland Gull LakeKate VanHowe Port Huron Northern"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Harriet Ogilvie",
+                    "playerId": "128817"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Northern"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #113BYE2Harriet Ogilvie Grand Rapids Forest Hills Northern"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #192"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #191"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #190"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #189"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #188"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #187"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #186"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #185"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #224"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #223"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #222"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #221"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #240"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #239"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #248"
+          }
+        ]
+      }
+    ]
+  },
+  "2S": {
+    "flight": {
+      "id": "2S",
+      "type": "Singles",
+      "flight": 2
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1267&host=3625&matchType=Singles&flight=2",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Devon  Rusk",
+                    "playerId": "171704"
+                  }
+                ],
+                "school": "Birmingham Seaholm"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #1121Devon Rusk Birmingham SeaholmBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Libby  Beardsley",
+                    "playerId": "127255"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Siena Taylor",
+                    "playerId": "131141"
+                  }
+                ],
+                "school": "Dexter"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #111Libby Beardsley Richland Gull LakeSiena Taylor Dexter"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kendra Hylland",
+                    "playerId": "125356"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #110Kendra Hylland Muskegon Mona ShoresBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Liberty Bennett",
+                    "playerId": "127133"
+                  }
+                ],
+                "school": "Trenton"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #109Liberty Bennett TrentonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Valeria  Vega",
+                    "playerId": "146060"
+                  }
+                ],
+                "school": "Mattawan"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #1084Valeria Vega MattawanBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Norah Lacher",
+                    "playerId": "129471"
+                  }
+                ],
+                "school": "Midland Dow"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Isla Tucker",
+                    "playerId": "170728"
+                  }
+                ],
+                "school": "South Lyon East"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #107Norah Lacher Midland DowIsla Tucker South Lyon East"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aakanksha Nagori",
+                    "playerId": "145502"
+                  }
+                ],
+                "school": "Grosse Pointe North"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #1065Aakanksha Nagori Grosse Pointe NorthBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Avery McKenzie",
+                    "playerId": "166958"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Northern"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Delanie Criscenti",
+                    "playerId": "167918"
+                  }
+                ],
+                "school": "Berkley"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #105 Avery McKenzie Grand Rapids Forest Hills NorthernDelanie Criscenti Berkley"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Marella  Mast",
+                    "playerId": "148592"
+                  }
+                ],
+                "school": "Traverse City West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #104BYEMarella Mast Traverse City West"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Annaliese Hoffman",
+                    "playerId": "146109"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #103BYE6Annaliese Hoffman Grand Rapids Forest Hills Central"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Avery  Witter",
+                    "playerId": "127219"
+                  }
+                ],
+                "school": "Port Huron Northern"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Carcyn Winkel",
+                    "playerId": "170878"
+                  }
+                ],
+                "school": "Mason"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #102Avery Witter Port Huron NorthernCarcyn Winkel Mason"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Harley  Brown",
+                    "playerId": "125252"
+                  }
+                ],
+                "school": "Zeeland West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #101BYE3Harley Brown Zeeland West"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amelia Affholter",
+                    "playerId": "148554"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #100BYEAmelia Affholter Wyandotte Roosevelt"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "McKella Florence",
+                    "playerId": "185769"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #99BYEMcKella Florence Grosse Pointe South"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Stella Chmielewski",
+                    "playerId": "147459"
+                  }
+                ],
+                "school": "Birmingham Groves"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sonja Stokstad",
+                    "playerId": "192572"
+                  }
+                ],
+                "school": "East Lansing"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #98Stella Chmielewski Birmingham GrovesSonja Stokstad East Lansing"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alexa  Dueweke",
+                    "playerId": "125389"
+                  }
+                ],
+                "school": "Farmington Hills Mercy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #97BYE2Alexa Dueweke Farmington Hills Mercy"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #184"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kendra Hylland",
+                    "playerId": "125356"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Liberty Bennett",
+                    "playerId": "127133"
+                  }
+                ],
+                "school": "Trenton"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #183Kendra Hylland Muskegon Mona ShoresLiberty Bennett Trenton"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #182"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #181"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Marella  Mast",
+                    "playerId": "148592"
+                  }
+                ],
+                "school": "Traverse City West"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Annaliese Hoffman",
+                    "playerId": "146109"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #180Marella Mast Traverse City West6Annaliese Hoffman Grand Rapids Forest Hills Central"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #179"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amelia Affholter",
+                    "playerId": "148554"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "McKella Florence",
+                    "playerId": "185769"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #178Amelia Affholter Wyandotte RooseveltMcKella Florence Grosse Pointe South"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #177"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #220"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #219"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #218"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #217"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #238"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #237"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #247"
+          }
+        ]
+      }
+    ]
+  },
+  "3S": {
+    "flight": {
+      "id": "3S",
+      "type": "Singles",
+      "flight": 3
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1267&host=3625&matchType=Singles&flight=3",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sabrina Dunn",
+                    "playerId": "196507"
+                  }
+                ],
+                "school": "Birmingham Seaholm"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #961Sabrina Dunn Birmingham SeaholmBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Eleanna Kimbouris",
+                    "playerId": "170911"
+                  }
+                ],
+                "school": "East Lansing"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace Stoyanovich",
+                    "playerId": "195640"
+                  }
+                ],
+                "school": "South Lyon East"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #95Eleanna Kimbouris East LansingGrace Stoyanovich South Lyon East"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aanya Dogra",
+                    "playerId": "128823"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Northern"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #94Aanya Dogra Grand Rapids Forest Hills NorthernBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Halle Reider",
+                    "playerId": "149355"
+                  }
+                ],
+                "school": "Zeeland West"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #93Halle Reider Zeeland WestBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Taryn Lyons",
+                    "playerId": "149643"
+                  }
+                ],
+                "school": "Port Huron Northern"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #924Taryn Lyons Port Huron NorthernBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Julia Knoester",
+                    "playerId": "189191"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Central"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Myah  Skorupski",
+                    "playerId": "148589"
+                  }
+                ],
+                "school": "Traverse City West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #91Julia Knoester Grand Rapids Forest Hills CentralMyah Skorupski Traverse City West"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Daniela Pietrowsky",
+                    "playerId": "128597"
+                  }
+                ],
+                "school": "Grosse Pointe North"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #905Daniela Pietrowsky Grosse Pointe NorthBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Cameron Boyce",
+                    "playerId": "147508"
+                  }
+                ],
+                "school": "Dexter"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Srabian",
+                    "playerId": "167080"
+                  }
+                ],
+                "school": "Trenton"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #89Cameron Boyce DexterChloe Srabian Trenton"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Iszabella  Pauley",
+                    "playerId": "196662"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #88BYEIszabella Pauley Wyandotte Roosevelt"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "McKenzie Florence",
+                    "playerId": "185770"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #87BYE6McKenzie Florence Grosse Pointe South"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ivy Johnson",
+                    "playerId": "170877"
+                  }
+                ],
+                "school": "Mason"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ruby Macheso",
+                    "playerId": "170540"
+                  }
+                ],
+                "school": "Midland Dow"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #86 Ivy Johnson MasonRuby Macheso Midland Dow"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anna  Coleman",
+                    "playerId": "124235"
+                  }
+                ],
+                "school": "Mattawan"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #85BYE3Anna Coleman Mattawan"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Julia DeMaagd",
+                    "playerId": "194348"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #84BYEJulia DeMaagd Richland Gull Lake"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adrienne Mills",
+                    "playerId": "130528"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #83BYEAdrienne Mills Muskegon Mona Shores"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Tatum Saltsman",
+                    "playerId": "144407"
+                  }
+                ],
+                "school": "Berkley"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Issabelle Raykhinshteyn",
+                    "playerId": "126684"
+                  }
+                ],
+                "school": "Birmingham Groves"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #82Tatum Saltsman BerkleyIssabelle Raykhinshteyn Birmingham Groves"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Scarlett Manchinger",
+                    "playerId": "198242"
+                  }
+                ],
+                "school": "Farmington Hills Mercy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #81BYE2Scarlett Manchinger Farmington Hills Mercy"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #176"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aanya Dogra",
+                    "playerId": "128823"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Northern"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Halle Reider",
+                    "playerId": "149355"
+                  }
+                ],
+                "school": "Zeeland West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #175Aanya Dogra Grand Rapids Forest Hills NorthernHalle Reider Zeeland West"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #174"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #173"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Iszabella  Pauley",
+                    "playerId": "196662"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "McKenzie Florence",
+                    "playerId": "185770"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #172Iszabella Pauley Wyandotte Roosevelt6McKenzie Florence Grosse Pointe South"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #171"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Julia DeMaagd",
+                    "playerId": "194348"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adrienne Mills",
+                    "playerId": "130528"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #170Julia DeMaagd Richland Gull LakeAdrienne Mills Muskegon Mona Shores"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #169"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #216"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #215"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #214"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #213"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #236"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #235"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #246"
+          }
+        ]
+      }
+    ]
+  },
+  "4S": {
+    "flight": {
+      "id": "4S",
+      "type": "Singles",
+      "flight": 4
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1267&host=3625&matchType=Singles&flight=4",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Izzy  Bloom",
+                    "playerId": "171707"
+                  }
+                ],
+                "school": "Birmingham Seaholm"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #801Izzy Bloom Birmingham SeaholmBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Julia Kortas",
+                    "playerId": "199766"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Katelyn Popp",
+                    "playerId": "152054"
+                  }
+                ],
+                "school": "Traverse City West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #79Julia Kortas Wyandotte RooseveltKatelyn Popp Traverse City West"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sharvani Bikkumalla",
+                    "playerId": "170727"
+                  }
+                ],
+                "school": "South Lyon East"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #78Sharvani Bikkumalla South Lyon EastBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mia Crotty",
+                    "playerId": "166307"
+                  }
+                ],
+                "school": "Mattawan"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #77Mia Crotty MattawanBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aneliece Yin",
+                    "playerId": "166598"
+                  }
+                ],
+                "school": "Zeeland West"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #764Aneliece Yin Zeeland WestBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emma  Dombrowski",
+                    "playerId": "145501"
+                  }
+                ],
+                "school": "Grosse Pointe North"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emma Sumnicht",
+                    "playerId": "189136"
+                  }
+                ],
+                "school": "Berkley"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #75Emma Dombrowski Grosse Pointe NorthEmma Sumnicht Berkley"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sima Bezuglova",
+                    "playerId": "129382"
+                  }
+                ],
+                "school": "East Lansing"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #745Sima Bezuglova East LansingBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ella  Ruokolainen",
+                    "playerId": "168233"
+                  }
+                ],
+                "school": "Farmington Hills Mercy"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Maddy ODonnell",
+                    "playerId": "189194"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #73Ella Ruokolainen Farmington Hills MercyMaddy ODonnell Grand Rapids Forest Hills Central"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Morgan Brandes",
+                    "playerId": "192562"
+                  }
+                ],
+                "school": "Trenton"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #72BYEMorgan Brandes Trenton"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lillian Novack",
+                    "playerId": "185772"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #71BYE6Lillian Novack Grosse Pointe South"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sydney Suppes",
+                    "playerId": "151993"
+                  }
+                ],
+                "school": "Dexter"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Taylor  Dolbee",
+                    "playerId": "194347"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #70Sydney Suppes DexterTaylor Dolbee Richland Gull Lake"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Payton Barnett",
+                    "playerId": "152386"
+                  }
+                ],
+                "school": "Port Huron Northern"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #69BYE3Payton Barnett Port Huron Northern"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kylee Smith",
+                    "playerId": "151387"
+                  }
+                ],
+                "school": "Mason"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #68BYEKylee Smith Mason"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evie Samocki",
+                    "playerId": "170538"
+                  }
+                ],
+                "school": "Midland Dow"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #67BYEEvie Samocki Midland Dow"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gabi Williams",
+                    "playerId": "188053"
+                  }
+                ],
+                "school": "Birmingham Groves"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kourtlyn Hellmann",
+                    "playerId": "194396"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #66Gabi Williams Birmingham GrovesKourtlyn Hellmann Muskegon Mona Shores"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey Kowatch",
+                    "playerId": "171726"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Northern"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #65BYE2Audrey Kowatch Grand Rapids Forest Hills Northern"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #168"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sharvani Bikkumalla",
+                    "playerId": "170727"
+                  }
+                ],
+                "school": "South Lyon East"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mia Crotty",
+                    "playerId": "166307"
+                  }
+                ],
+                "school": "Mattawan"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #167Sharvani Bikkumalla South Lyon EastMia Crotty Mattawan"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #166"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #165"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Morgan Brandes",
+                    "playerId": "192562"
+                  }
+                ],
+                "school": "Trenton"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lillian Novack",
+                    "playerId": "185772"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #164Morgan Brandes Trenton6Lillian Novack Grosse Pointe South"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #163"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kylee Smith",
+                    "playerId": "151387"
+                  }
+                ],
+                "school": "Mason"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evie Samocki",
+                    "playerId": "170538"
+                  }
+                ],
+                "school": "Midland Dow"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #162Kylee Smith MasonEvie Samocki Midland Dow"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #161"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #212"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #211"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #210"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #209"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #234"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #233"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #245"
+          }
+        ]
+      }
+    ]
+  },
+  "1D": {
+    "flight": {
+      "id": "1D",
+      "type": "Doubles",
+      "flight": 1
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1267&host=3625&matchType=Doubles&flight=1",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lucy  Jen",
+                    "playerId": "130567"
+                  },
+                  {
+                    "name": "Sophia  Arndt",
+                    "playerId": "151306"
+                  }
+                ],
+                "school": "Birmingham Seaholm"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #641Lucy Jen/Sophia Arndt Birmingham SeaholmBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Rylie Hawkins",
+                    "playerId": "169786"
+                  },
+                  {
+                    "name": "Annie Zieger",
+                    "playerId": "169787"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Laynie Russell",
+                    "playerId": "149605"
+                  },
+                  {
+                    "name": "Marina Cantu",
+                    "playerId": "198359"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #63Rylie Hawkins/Annie Zieger Wyandotte RooseveltLaynie Russell/Marina Cantu Muskegon Mona Shores"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Isabella Evenson",
+                    "playerId": "169070"
+                  },
+                  {
+                    "name": "Delaney Witter",
+                    "playerId": "191751"
+                  }
+                ],
+                "school": "Port Huron Northern"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #62Isabella Evenson/Delaney Witter Port Huron NorthernBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mallory  Cooney",
+                    "playerId": "125388"
+                  },
+                  {
+                    "name": "Sydney Wilker",
+                    "playerId": "168231"
+                  }
+                ],
+                "school": "Farmington Hills Mercy"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #61Mallory Cooney/Sydney Wilker Farmington Hills MercyBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Clare Knoester",
+                    "playerId": "125316"
+                  },
+                  {
+                    "name": "Kylie Hatfield",
+                    "playerId": "146110"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Central"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #604Clare Knoester/Kylie Hatfield Grand Rapids Forest Hills CentralBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Juliette Smoker",
+                    "playerId": "171478"
+                  },
+                  {
+                    "name": "Delaney Hamers",
+                    "playerId": "191451"
+                  }
+                ],
+                "school": "Mason"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sasha Kezhaya",
+                    "playerId": "145504"
+                  },
+                  {
+                    "name": "Genevieve  Hardy",
+                    "playerId": "151040"
+                  }
+                ],
+                "school": "Grosse Pointe North"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #59Juliette Smoker/Delaney Hamers MasonSasha Kezhaya/Genevieve Hardy Grosse Pointe North"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sachi Togashi",
+                    "playerId": "129472"
+                  },
+                  {
+                    "name": "Adelyn Wolford",
+                    "playerId": "170539"
+                  }
+                ],
+                "school": "Midland Dow"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #585Sachi Togashi/Adelyn Wolford Midland DowBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Rylie Lewis",
+                    "playerId": "167079"
+                  },
+                  {
+                    "name": "Irelynn Oboza",
+                    "playerId": "148573"
+                  }
+                ],
+                "school": "Trenton"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Samantha Edwards",
+                    "playerId": "166599"
+                  },
+                  {
+                    "name": "Caroline Miller",
+                    "playerId": "172801"
+                  }
+                ],
+                "school": "Zeeland West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #57Rylie Lewis/Irelynn Oboza TrentonSamantha Edwards/Caroline Miller Zeeland West"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace  Vollmer",
+                    "playerId": "124118"
+                  },
+                  {
+                    "name": "Andia Nazarko",
+                    "playerId": "124123"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #56BYEGrace Vollmer/Andia Nazarko Grosse Pointe South"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evie Douglass",
+                    "playerId": "124233"
+                  },
+                  {
+                    "name": "Addy  Copeland",
+                    "playerId": "124234"
+                  }
+                ],
+                "school": "Mattawan"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #55BYE6Evie Douglass/Addy Copeland Mattawan"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amelia  Paul",
+                    "playerId": "149499"
+                  },
+                  {
+                    "name": "Natalia Acevedo",
+                    "playerId": "149509"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Northern"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Claire Beneteau",
+                    "playerId": "147509"
+                  },
+                  {
+                    "name": "Phoebe Matos",
+                    "playerId": "147507"
+                  }
+                ],
+                "school": "Dexter"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #54Amelia Paul/Natalia Acevedo Grand Rapids Forest Hills NorthernClaire Beneteau/Phoebe Matos Dexter"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anabel Christman",
+                    "playerId": "147461"
+                  },
+                  {
+                    "name": "Kara Clinkscale",
+                    "playerId": "147460"
+                  }
+                ],
+                "school": "Birmingham Groves"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #53BYE3Anabel Christman/Kara Clinkscale Birmingham Groves"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey Duggan",
+                    "playerId": "167905"
+                  },
+                  {
+                    "name": "Grace Burnham",
+                    "playerId": "167916"
+                  }
+                ],
+                "school": "Berkley"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #52BYEAudrey Duggan/Grace Burnham Berkley"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ava Orley",
+                    "playerId": "146615"
+                  },
+                  {
+                    "name": "Alli Vanhuysen",
+                    "playerId": "146616"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #51BYEAva Orley/Alli Vanhuysen Richland Gull Lake"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Laci Akana",
+                    "playerId": "130895"
+                  },
+                  {
+                    "name": "Julia  Winter",
+                    "playerId": "130896"
+                  }
+                ],
+                "school": "South Lyon East"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alex Johncock",
+                    "playerId": "170263"
+                  },
+                  {
+                    "name": "Lily Lauters",
+                    "playerId": "170265"
+                  }
+                ],
+                "school": "Traverse City West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #50Laci Akana/Julia Winter South Lyon EastAlex Johncock/Lily Lauters Traverse City West"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ani Meghea",
+                    "playerId": "170902"
+                  },
+                  {
+                    "name": "Evie Laxton",
+                    "playerId": "149787"
+                  }
+                ],
+                "school": "East Lansing"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #49BYE2Ani Meghea/Evie Laxton East Lansing"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #160"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Isabella Evenson",
+                    "playerId": "169070"
+                  },
+                  {
+                    "name": "Delaney Witter",
+                    "playerId": "191751"
+                  }
+                ],
+                "school": "Port Huron Northern"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mallory  Cooney",
+                    "playerId": "125388"
+                  },
+                  {
+                    "name": "Sydney Wilker",
+                    "playerId": "168231"
+                  }
+                ],
+                "school": "Farmington Hills Mercy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #159Isabella Evenson/Delaney Witter Port Huron NorthernMallory Cooney/Sydney Wilker Farmington Hills Mercy"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #158"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #157"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace  Vollmer",
+                    "playerId": "124118"
+                  },
+                  {
+                    "name": "Andia Nazarko",
+                    "playerId": "124123"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evie Douglass",
+                    "playerId": "124233"
+                  },
+                  {
+                    "name": "Addy  Copeland",
+                    "playerId": "124234"
+                  }
+                ],
+                "school": "Mattawan"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #156Grace Vollmer/Andia Nazarko Grosse Pointe South6Evie Douglass/Addy Copeland Mattawan"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #155"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey Duggan",
+                    "playerId": "167905"
+                  },
+                  {
+                    "name": "Grace Burnham",
+                    "playerId": "167916"
+                  }
+                ],
+                "school": "Berkley"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ava Orley",
+                    "playerId": "146615"
+                  },
+                  {
+                    "name": "Alli Vanhuysen",
+                    "playerId": "146616"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #154Audrey Duggan/Grace Burnham BerkleyAva Orley/Alli Vanhuysen Richland Gull Lake"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #153"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #208"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #207"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #206"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #205"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #232"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #231"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #244"
+          }
+        ]
+      }
+    ]
+  },
+  "2D": {
+    "flight": {
+      "id": "2D",
+      "type": "Doubles",
+      "flight": 2
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1267&host=3625&matchType=Doubles&flight=2",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anna  Olekszyk",
+                    "playerId": "131182"
+                  },
+                  {
+                    "name": "Katie Joyce",
+                    "playerId": "149755"
+                  }
+                ],
+                "school": "Birmingham Seaholm"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #481Anna Olekszyk/Katie Joyce Birmingham SeaholmBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Bella Kwasniak",
+                    "playerId": "172472"
+                  },
+                  {
+                    "name": "Olivia Branscum",
+                    "playerId": "148565"
+                  }
+                ],
+                "school": "Trenton"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Quinn Mullins",
+                    "playerId": "169072"
+                  },
+                  {
+                    "name": "Katie McCulloch",
+                    "playerId": "169153"
+                  }
+                ],
+                "school": "Port Huron Northern"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #47Bella Kwasniak/Olivia Branscum TrentonQuinn Mullins/Katie McCulloch Port Huron Northern"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Leah Mills",
+                    "playerId": "149604"
+                  },
+                  {
+                    "name": "Sophie Sisco",
+                    "playerId": "150928"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #46Leah Mills/Sophie Sisco Muskegon Mona ShoresBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Brailee Bursley",
+                    "playerId": "171381"
+                  },
+                  {
+                    "name": "Molly Settlemyre",
+                    "playerId": "192740"
+                  }
+                ],
+                "school": "Zeeland West"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #45Brailee Bursley/Molly Settlemyre Zeeland WestBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Yasmine Osta",
+                    "playerId": "147462"
+                  },
+                  {
+                    "name": "Anabella Chebl",
+                    "playerId": "165957"
+                  }
+                ],
+                "school": "Birmingham Groves"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #444Yasmine Osta/Anabella Chebl Birmingham GrovesBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Elliana Skaggs",
+                    "playerId": "171479"
+                  },
+                  {
+                    "name": "Madi Rupright",
+                    "playerId": "191454"
+                  }
+                ],
+                "school": "Mason"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Claudia Danziger",
+                    "playerId": "147472"
+                  },
+                  {
+                    "name": "Emmalee Eskin",
+                    "playerId": "148564"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #43Elliana Skaggs/Madi Rupright MasonClaudia Danziger/Emmalee Eskin Wyandotte Roosevelt"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ava Targosz",
+                    "playerId": "149508"
+                  },
+                  {
+                    "name": "Sadie Wolfe",
+                    "playerId": "166960"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Northern"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #425Ava Targosz/Sadie Wolfe Grand Rapids Forest Hills NorthernBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe McNamara",
+                    "playerId": "170722"
+                  },
+                  {
+                    "name": "Rayna Kim",
+                    "playerId": "170725"
+                  }
+                ],
+                "school": "South Lyon East"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Juana  Gutierrez",
+                    "playerId": "149750"
+                  },
+                  {
+                    "name": "Clara Gutierrez",
+                    "playerId": "195323"
+                  }
+                ],
+                "school": "Midland Dow"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #41Chloe McNamara/Rayna Kim South Lyon EastJuana Gutierrez/Clara Gutierrez Midland Dow"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alyssa Graboski",
+                    "playerId": "170262"
+                  },
+                  {
+                    "name": "Audrey Kashmerick",
+                    "playerId": "191771"
+                  }
+                ],
+                "school": "Traverse City West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #40BYEAlyssa Graboski/Audrey Kashmerick Traverse City West"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Zoe Van Dorn",
+                    "playerId": "170901"
+                  },
+                  {
+                    "name": "Stella Alfredson",
+                    "playerId": "149789"
+                  }
+                ],
+                "school": "East Lansing"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #39BYE6Zoe Van Dorn/Stella Alfredson East Lansing"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adalyn Centala",
+                    "playerId": "198651"
+                  },
+                  {
+                    "name": "Ellie Cochran",
+                    "playerId": "192164"
+                  }
+                ],
+                "school": "Dexter"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Clara  Pride",
+                    "playerId": "166308"
+                  },
+                  {
+                    "name": "Alexa Cornelius",
+                    "playerId": "146062"
+                  }
+                ],
+                "school": "Mattawan"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #38Adalyn Centala/Ellie Cochran DexterClara Pride/Alexa Cornelius Mattawan"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Charlotte Kowal",
+                    "playerId": "146934"
+                  },
+                  {
+                    "name": "Aubrey Lindow",
+                    "playerId": "167507"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #37BYE3Charlotte Kowal/Aubrey Lindow Grosse Pointe South"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sadie Koffman",
+                    "playerId": "125317"
+                  },
+                  {
+                    "name": "JJ Marsiglia",
+                    "playerId": "166433"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #36BYESadie Koffman/JJ Marsiglia Grand Rapids Forest Hills Central"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kyki Vasilos",
+                    "playerId": "165018"
+                  },
+                  {
+                    "name": "Kate Hubmeier",
+                    "playerId": "165022"
+                  }
+                ],
+                "school": "Grosse Pointe North"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #35BYEKyki Vasilos/Kate Hubmeier Grosse Pointe North"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Abby Augustine",
+                    "playerId": "126289"
+                  },
+                  {
+                    "name": "Makenna  Combs",
+                    "playerId": "194349"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Riley  Schnieders",
+                    "playerId": "144406"
+                  },
+                  {
+                    "name": "Valentina Landry",
+                    "playerId": "167933"
+                  }
+                ],
+                "school": "Berkley"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #34Abby Augustine/Makenna Combs Richland Gull LakeRiley Schnieders/Valentina Landry Berkley"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anna Naida",
+                    "playerId": "168247"
+                  },
+                  {
+                    "name": "Gabby Owens",
+                    "playerId": "125379"
+                  }
+                ],
+                "school": "Farmington Hills Mercy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #33BYE2Anna Naida/Gabby Owens Farmington Hills Mercy"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #152"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Leah Mills",
+                    "playerId": "149604"
+                  },
+                  {
+                    "name": "Sophie Sisco",
+                    "playerId": "150928"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Brailee Bursley",
+                    "playerId": "171381"
+                  },
+                  {
+                    "name": "Molly Settlemyre",
+                    "playerId": "192740"
+                  }
+                ],
+                "school": "Zeeland West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #151Leah Mills/Sophie Sisco Muskegon Mona ShoresBrailee Bursley/Molly Settlemyre Zeeland West"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #150"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #149"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alyssa Graboski",
+                    "playerId": "170262"
+                  },
+                  {
+                    "name": "Audrey Kashmerick",
+                    "playerId": "191771"
+                  }
+                ],
+                "school": "Traverse City West"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Zoe Van Dorn",
+                    "playerId": "170901"
+                  },
+                  {
+                    "name": "Stella Alfredson",
+                    "playerId": "149789"
+                  }
+                ],
+                "school": "East Lansing"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #148Alyssa Graboski/Audrey Kashmerick Traverse City West6Zoe Van Dorn/Stella Alfredson East Lansing"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #147"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sadie Koffman",
+                    "playerId": "125317"
+                  },
+                  {
+                    "name": "JJ Marsiglia",
+                    "playerId": "166433"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Central"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kyki Vasilos",
+                    "playerId": "165018"
+                  },
+                  {
+                    "name": "Kate Hubmeier",
+                    "playerId": "165022"
+                  }
+                ],
+                "school": "Grosse Pointe North"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #146Sadie Koffman/JJ Marsiglia Grand Rapids Forest Hills CentralKyki Vasilos/Kate Hubmeier Grosse Pointe North"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #145"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #204"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #203"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #202"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #201"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #230"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #229"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #243"
+          }
+        ]
+      }
+    ]
+  },
+  "3D": {
+    "flight": {
+      "id": "3D",
+      "type": "Doubles",
+      "flight": 3
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1267&host=3625&matchType=Doubles&flight=3",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Cate  French",
+                    "playerId": "149754"
+                  },
+                  {
+                    "name": "Kate  Crowley",
+                    "playerId": "131177"
+                  }
+                ],
+                "school": "Birmingham Seaholm"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #321Cate French/Kate Crowley Birmingham SeaholmBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Yana  Bottigliero",
+                    "playerId": "165017"
+                  },
+                  {
+                    "name": "Yasmeena Tilmon",
+                    "playerId": "191342"
+                  }
+                ],
+                "school": "Grosse Pointe North"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addison Bancroft",
+                    "playerId": "172659"
+                  },
+                  {
+                    "name": "Amelia Christensen",
+                    "playerId": "192587"
+                  }
+                ],
+                "school": "Mattawan"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #31Yana Bottigliero/Yasmeena Tilmon Grosse Pointe NorthAddison Bancroft/Amelia Christensen Mattawan"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Luci Cooper",
+                    "playerId": "166205"
+                  },
+                  {
+                    "name": "Maria Powell",
+                    "playerId": "166204"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #30Luci Cooper/Maria Powell Muskegon Mona ShoresBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nadia Fobbs",
+                    "playerId": "129393"
+                  },
+                  {
+                    "name": "Emma Allison",
+                    "playerId": "189132"
+                  }
+                ],
+                "school": "Berkley"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #29Nadia Fobbs/Emma Allison BerkleyBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jamie Bloom",
+                    "playerId": "126685"
+                  },
+                  {
+                    "name": "Chloe Nemeth",
+                    "playerId": "131687"
+                  }
+                ],
+                "school": "Birmingham Groves"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #284Jamie Bloom/Chloe Nemeth Birmingham GrovesBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ella Brennan",
+                    "playerId": "146935"
+                  },
+                  {
+                    "name": "Francesca Swikoski",
+                    "playerId": "167506"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adithi Gummadi",
+                    "playerId": "170723"
+                  },
+                  {
+                    "name": "Andrea Zavala",
+                    "playerId": "170724"
+                  }
+                ],
+                "school": "South Lyon East"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #27Ella Brennan/Francesca Swikoski Grosse Pointe SouthAdithi Gummadi/Andrea Zavala South Lyon East"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace Knake",
+                    "playerId": "127251"
+                  },
+                  {
+                    "name": "Addy Louagie",
+                    "playerId": "171611"
+                  }
+                ],
+                "school": "East Lansing"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #265Grace Knake/Addy Louagie East LansingBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sophia Nowak",
+                    "playerId": "151517"
+                  },
+                  {
+                    "name": "Pearl Reynolds",
+                    "playerId": "191772"
+                  }
+                ],
+                "school": "Traverse City West"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Elise Fobar",
+                    "playerId": "166596"
+                  },
+                  {
+                    "name": "Alice Smead",
+                    "playerId": "166601"
+                  }
+                ],
+                "school": "Zeeland West"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #25Sophia Nowak/Pearl Reynolds Traverse City WestElise Fobar/Alice Smead Zeeland West"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Megan Murray",
+                    "playerId": "173065"
+                  },
+                  {
+                    "name": "Kiera Bryne",
+                    "playerId": "169785"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #24BYEMegan Murray/Kiera Bryne Wyandotte Roosevelt"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aubrie Scott",
+                    "playerId": "126288"
+                  },
+                  {
+                    "name": "Maria Ysunza",
+                    "playerId": "170551"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #23BYE6Aubrie Scott/Maria Ysunza Richland Gull Lake"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "izzy Johnson",
+                    "playerId": "171702"
+                  },
+                  {
+                    "name": "Khloe Faust",
+                    "playerId": "191750"
+                  }
+                ],
+                "school": "Port Huron Northern"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lily Bergman",
+                    "playerId": "166432"
+                  },
+                  {
+                    "name": "Faith Pawlowski",
+                    "playerId": "166431"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #22izzy Johnson/Khloe Faust Port Huron NorthernLily Bergman/Faith Pawlowski Grand Rapids Forest Hills Central"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kaitlyn  Duneske",
+                    "playerId": "198244"
+                  },
+                  {
+                    "name": "Emily Thompson",
+                    "playerId": "198243"
+                  }
+                ],
+                "school": "Farmington Hills Mercy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #21BYE3Kaitlyn Duneske/Emily Thompson Farmington Hills Mercy"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Heidie Fix",
+                    "playerId": "172593"
+                  },
+                  {
+                    "name": "Daniela Paul",
+                    "playerId": "195324"
+                  }
+                ],
+                "school": "Midland Dow"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #20BYEHeidie Fix/Daniela Paul Midland Dow"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lydia Cebulski",
+                    "playerId": "165178"
+                  },
+                  {
+                    "name": "Mara Hobbs",
+                    "playerId": "197133"
+                  }
+                ],
+                "school": "Dexter"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #19BYELydia Cebulski/Mara Hobbs Dexter"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Payten Adamczyk",
+                    "playerId": "191453"
+                  },
+                  {
+                    "name": "Charlie Greathouse",
+                    "playerId": "191737"
+                  }
+                ],
+                "school": "Mason"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ella Smith",
+                    "playerId": "148570"
+                  },
+                  {
+                    "name": "Zoey  Sanford",
+                    "playerId": "151599"
+                  }
+                ],
+                "school": "Trenton"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #18Payten Adamczyk/Charlie Greathouse MasonElla Smith/Zoey Sanford Trenton"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Hayla Messelink",
+                    "playerId": "171725"
+                  },
+                  {
+                    "name": "Hailey Pfeiffle",
+                    "playerId": "149506"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Northern"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #17BYE2Hayla Messelink/Hailey Pfeiffle Grand Rapids Forest Hills Northern"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #144"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Luci Cooper",
+                    "playerId": "166205"
+                  },
+                  {
+                    "name": "Maria Powell",
+                    "playerId": "166204"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nadia Fobbs",
+                    "playerId": "129393"
+                  },
+                  {
+                    "name": "Emma Allison",
+                    "playerId": "189132"
+                  }
+                ],
+                "school": "Berkley"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #143Luci Cooper/Maria Powell Muskegon Mona ShoresNadia Fobbs/Emma Allison Berkley"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #142"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #141"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Megan Murray",
+                    "playerId": "173065"
+                  },
+                  {
+                    "name": "Kiera Bryne",
+                    "playerId": "169785"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aubrie Scott",
+                    "playerId": "126288"
+                  },
+                  {
+                    "name": "Maria Ysunza",
+                    "playerId": "170551"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #140Megan Murray/Kiera Bryne Wyandotte Roosevelt6Aubrie Scott/Maria Ysunza Richland Gull Lake"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #139"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #138"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #137"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #200"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #199"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #198"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #197"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #228"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #227"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #242"
+          }
+        ]
+      }
+    ]
+  },
+  "4D": {
+    "flight": {
+      "id": "4D",
+      "type": "Doubles",
+      "flight": 4
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1267&host=3625&matchType=Doubles&flight=4",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alina  Villaire",
+                    "playerId": "171706"
+                  },
+                  {
+                    "name": "Jacqueline  Supancich",
+                    "playerId": "171710"
+                  }
+                ],
+                "school": "Birmingham Seaholm"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #161Alina Villaire/Jacqueline Supancich Birmingham SeaholmBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Esther Anandraj",
+                    "playerId": "169071"
+                  },
+                  {
+                    "name": "Ashlyn Smith",
+                    "playerId": "169073"
+                  }
+                ],
+                "school": "Port Huron Northern"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Shailia  Cranson",
+                    "playerId": "198245"
+                  },
+                  {
+                    "name": "Sophia Dueweke",
+                    "playerId": "198246"
+                  }
+                ],
+                "school": "Farmington Hills Mercy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #15Esther Anandraj/Ashlyn Smith Port Huron NorthernShailia Cranson/Sophia Dueweke Farmington Hills Mercy"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Abby TenBroeke",
+                    "playerId": "150046"
+                  },
+                  {
+                    "name": "Natalie Lauritzen",
+                    "playerId": "197629"
+                  }
+                ],
+                "school": "Zeeland West"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #14Abby TenBroeke/Natalie Lauritzen Zeeland WestBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Annabelle O’Brien-Hockey",
+                    "playerId": "196963"
+                  },
+                  {
+                    "name": "Madison Krogol",
+                    "playerId": "173068"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #13Annabelle O’Brien-Hockey/Madison Krogol Wyandotte RooseveltBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Birdie Tabaczuk",
+                    "playerId": "146936"
+                  },
+                  {
+                    "name": "Leah Dobrovolschi",
+                    "playerId": "185771"
+                  }
+                ],
+                "school": "Grosse Pointe South"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #124Birdie Tabaczuk/Leah Dobrovolschi Grosse Pointe SouthBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lucy Jones",
+                    "playerId": "170261"
+                  },
+                  {
+                    "name": "Brooke Adamczak",
+                    "playerId": "170266"
+                  }
+                ],
+                "school": "Traverse City West"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Liv Howard",
+                    "playerId": "166309"
+                  },
+                  {
+                    "name": "Kit Hiler",
+                    "playerId": "192582"
+                  }
+                ],
+                "school": "Mattawan"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #11Lucy Jones/Brooke Adamczak Traverse City WestLiv Howard/Kit Hiler Mattawan"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Carmen  Rojewski",
+                    "playerId": "171613"
+                  },
+                  {
+                    "name": "Allison Drzal",
+                    "playerId": "149793"
+                  }
+                ],
+                "school": "East Lansing"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #105Carmen Rojewski/Allison Drzal East LansingBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Niveditha Sunil",
+                    "playerId": "170733"
+                  },
+                  {
+                    "name": "Krisha Pampana",
+                    "playerId": "170732"
+                  }
+                ],
+                "school": "South Lyon East"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sonya Cameron",
+                    "playerId": "189190"
+                  },
+                  {
+                    "name": "Maime Graceffa",
+                    "playerId": "189189"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #9Niveditha Sunil/Krisha Pampana South Lyon EastSonya Cameron/Maime Graceffa Grand Rapids Forest Hills Central"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Elisabeth Jones",
+                    "playerId": "172592"
+                  },
+                  {
+                    "name": "Shelby Jezior",
+                    "playerId": "195325"
+                  }
+                ],
+                "school": "Midland Dow"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #8BYEElisabeth Jones/Shelby Jezior Midland Dow"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gwen Hall",
+                    "playerId": "167362"
+                  },
+                  {
+                    "name": "Mallory Woytal",
+                    "playerId": "146619"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #7BYE6Gwen Hall/Mallory Woytal Richland Gull Lake"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Brenna McMaster",
+                    "playerId": "199635"
+                  },
+                  {
+                    "name": "Katie  Skiles",
+                    "playerId": "148566"
+                  }
+                ],
+                "school": "Trenton"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Carly Fishel",
+                    "playerId": "166206"
+                  },
+                  {
+                    "name": "Lexy Brady",
+                    "playerId": "152084"
+                  }
+                ],
+                "school": "Muskegon Mona Shores"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #6Brenna McMaster/Katie Skiles TrentonCarly Fishel/Lexy Brady Muskegon Mona Shores"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lula Yessian",
+                    "playerId": "130441"
+                  },
+                  {
+                    "name": "Kaylee Bryant",
+                    "playerId": "165958"
+                  }
+                ],
+                "school": "Birmingham Groves"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #5BYE3Lula Yessian /Kaylee Bryant Birmingham Groves"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Byrdie Norton",
+                    "playerId": "144405"
+                  },
+                  {
+                    "name": "Lily Pearson",
+                    "playerId": "144403"
+                  }
+                ],
+                "school": "Berkley"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #4BYEByrdie Norton/Lily Pearson Berkley"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gianna Wagner",
+                    "playerId": "165021"
+                  },
+                  {
+                    "name": "Avery Griffiths",
+                    "playerId": "151752"
+                  }
+                ],
+                "school": "Grosse Pointe North"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #3BYEGianna Wagner /Avery Griffiths Grosse Pointe North"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aireyona Mault",
+                    "playerId": "191457"
+                  },
+                  {
+                    "name": "Sami Scott",
+                    "playerId": "191736"
+                  }
+                ],
+                "school": "Mason"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Olivia Munker",
+                    "playerId": "165372"
+                  },
+                  {
+                    "name": "Charlotte Wetzel",
+                    "playerId": "171183"
+                  }
+                ],
+                "school": "Dexter"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #2Aireyona Mault/Sami Scott MasonOlivia Munker/Charlotte Wetzel Dexter"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Maddie Decker",
+                    "playerId": "171721"
+                  },
+                  {
+                    "name": "Mercedes Acevedo",
+                    "playerId": "198284"
+                  }
+                ],
+                "school": "Grand Rapids Forest Hills Northern"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #1BYE2Maddie Decker/Mercedes Acevedo Grand Rapids Forest Hills Northern"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #136"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Abby TenBroeke",
+                    "playerId": "150046"
+                  },
+                  {
+                    "name": "Natalie Lauritzen",
+                    "playerId": "197629"
+                  }
+                ],
+                "school": "Zeeland West"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Annabelle O’Brien-Hockey",
+                    "playerId": "196963"
+                  },
+                  {
+                    "name": "Madison Krogol",
+                    "playerId": "173068"
+                  }
+                ],
+                "school": "Wyandotte Roosevelt"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #135Abby TenBroeke/Natalie Lauritzen Zeeland WestAnnabelle O’Brien-Hockey/Madison Krogol Wyandotte Roosevelt"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #134"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #133"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Elisabeth Jones",
+                    "playerId": "172592"
+                  },
+                  {
+                    "name": "Shelby Jezior",
+                    "playerId": "195325"
+                  }
+                ],
+                "school": "Midland Dow"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gwen Hall",
+                    "playerId": "167362"
+                  },
+                  {
+                    "name": "Mallory Woytal",
+                    "playerId": "146619"
+                  }
+                ],
+                "school": "Richland Gull Lake"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #132Elisabeth Jones/Shelby Jezior Midland Dow6Gwen Hall/Mallory Woytal Richland Gull Lake"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #131"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #130"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #129"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #196"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #195"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #194"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/03/2026Match #193"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #226"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #225"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:06/04/2026Match #241"
+          }
+        ]
+      }
+    ]
+  }
+}

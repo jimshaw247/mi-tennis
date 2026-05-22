@@ -5,13 +5,19 @@
 
 import { FLIGHTS } from '../data/teams.js'
 
-// 2026 D1 girls state finals. /event/787 returned all four divisions
-// (1266..1269) and hosts (3624..3627) — we currently only scrape D1.
+// 2026 MHSAA Finals Tournament (event 787). All four divisions live under
+// the same event; each has its own division+host id pair.
 const EVENT_ID = 787
-const HOST_ID = 3624
-const DIVISION_ID = 1266
-const BRACKET_API = `https://api.tennisreporting.com/event/${EVENT_ID}/host/${HOST_ID}/bracket/get`
-const SEEDS_API   = `https://api.tennisreporting.com/event/${EVENT_ID}/seed_list_by_params`
+const DIVISION_CONFIG = {
+  D1: { divisionId: 1266, hostId: 3624 },
+  D2: { divisionId: 1267, hostId: 3625 },
+  D3: { divisionId: 1268, hostId: 3626 },
+  D4: { divisionId: 1269, hostId: 3627 },
+}
+const SEEDS_API = `https://api.tennisreporting.com/event/${EVENT_ID}/seed_list_by_params`
+function bracketApi(hostId) {
+  return `https://api.tennisreporting.com/event/${EVENT_ID}/host/${hostId}/bracket/get`
+}
 
 const FLIGHT_SIZE = 32
 
@@ -110,23 +116,27 @@ function buildFlight(flightId, bracket, seedList) {
   return { id: flightId, entries, winners, scores }
 }
 
-async function fetchFlight(flight) {
+async function fetchFlight(flight, conf) {
   const spec = flightSpec(flight.id)
-  const body = { isConsolation: false, matchType: spec.matchType, flight: spec.flight, host: HOST_ID }
+  const body = { isConsolation: false, matchType: spec.matchType, flight: spec.flight, host: conf.hostId }
   const [bracket, seedList] = await Promise.all([
-    postJson(BRACKET_API, body),
-    postJson(SEEDS_API, { ...body, division: DIVISION_ID }),
+    postJson(bracketApi(conf.hostId), body),
+    postJson(SEEDS_API, { ...body, division: conf.divisionId }),
   ])
   return buildFlight(flight.id, bracket, seedList)
 }
 
-export async function scrapeAllFlights() {
+export async function scrapeAllFlights(divisionId = 'D1') {
+  const conf = DIVISION_CONFIG[divisionId]
+  if (!conf) throw new Error(`No scraper config for division ${divisionId}`)
   // Limit concurrency to 4 to avoid hammering.
   const out = []
   for (let i = 0; i < FLIGHTS.length; i += 4) {
     const chunk = FLIGHTS.slice(i, i + 4)
-    const results = await Promise.all(chunk.map(fetchFlight))
+    const results = await Promise.all(chunk.map(f => fetchFlight(f, conf)))
     out.push(...results)
   }
   return { flights: out }
 }
+
+export const SCRAPABLE_DIVISIONS = Object.keys(DIVISION_CONFIG)

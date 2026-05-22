@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { scrapeAllFlights } from '../lib/scrapeTennisReporting.js'
+import { scrapeAllFlights, SCRAPABLE_DIVISIONS } from '../lib/scrapeTennisReporting.js'
 import { diffFlights, mergeState } from '../lib/diffState.js'
 
 function fmtEntry(e) {
@@ -15,13 +15,13 @@ export default function SyncButton({ currentState, onApply, divisionId = 'D1' })
   const [scraped, setScraped] = useState(null)
 
   const startSync = async () => {
-    if (divisionId !== 'D1') {
-      setErr('Sync currently only configured for D1')
+    if (!SCRAPABLE_DIVISIONS.includes(divisionId)) {
+      setErr(`Sync not configured for ${divisionId}`)
       return
     }
     setBusy(true); setErr(''); setDiff(null); setScraped(null)
     try {
-      const result = await scrapeAllFlights()
+      const result = await scrapeAllFlights(divisionId)
       const d = diffFlights(result.flights, currentState.flights)
       setScraped(result.flights)
       setDiff(d)
