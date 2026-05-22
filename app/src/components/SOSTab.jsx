@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
-import { describeMatches, entryStanding, ROUND_DEFS } from '../lib/bracket.js'
+import { describeMatches, entryStanding, ROUND_DEFS, MATCH_DEFS } from '../lib/bracket.js'
 import { TEAM_BY_ID } from '../data/teams.js'
+
+const MATCH_DEF_BY_ID = Object.fromEntries(MATCH_DEFS.map(m => [m.id, m]))
 
 const FLIGHTS = ['1S','2S','3S','4S','1D','2D','3D','4D']
 const FLIGHT_LABEL = { '1S':'#1 Singles','2S':'#2 Singles','3S':'#3 Singles','4S':'#4 Singles',
@@ -35,28 +37,67 @@ function entrySchoolName(entry) {
   return TEAM_BY_ID[entry.teamId]?.name || entry.teamId
 }
 
-// For a player at bracket position `pos`, walk forward through rounds in the
-// live state and return their NEXT match (the first one not yet decided where
-// they're a participant). Returns { round, oppEntry|null, eliminatedBy|null }.
+// Walk a bracket source (R1 position or higher-round match id) and return the
+// list of entries that can currently occupy that slot.
+//   - Numeric src (R1 pos): one entry if the slot has a teamId, else [] (true bye).
+//   - Match-id src: if the match has a winner (user-picked or auto-bye), recurse
+//     into the winning source. Else recurse into BOTH sources and concat.
+// Returns [] for fully empty bye chains, 1 for resolved slots (incl. bye-cascade),
+// 2 when the immediate parent match is undecided, 4 when two prior matches are
+// both undecided.
+function potentialOpponentEntries(flight, src, matchesByPos) {
+  if (typeof src === 'number') {
+    const e = flight.entries[src]
+    return e?.teamId ? [{ pos: src, entry: e }] : []
+  }
+  const def = MATCH_DEF_BY_ID[src]
+  if (!def) return []
+  const m = matchesByPos[src]
+  if (!m) return []
+  if (m.winner) {
+    const winSrc = m.winner === 'top' ? def.top : def.bot
+    return potentialOpponentEntries(flight, winSrc, matchesByPos)
+  }
+  return [
+    ...potentialOpponentEntries(flight, def.top, matchesByPos),
+    ...potentialOpponentEntries(flight, def.bot, matchesByPos),
+  ]
+}
+
+// For a player at bracket position `pos`, walk forward through rounds and
+// classify their state:
+//   - 'known'      : exactly one possible next opponent (single entry)
+//   - 'pending'    : 2+ possible next opponents (waiting on upstream match[es])
+//   - 'r1-bye'     : true R1 bye (opposing slot is empty)
+//   - 'eliminated' : they lost a prior round
+//   - 'champion'   : won all 5 rounds
 function nextMatchFor(flight, pos) {
   if (!flight || pos < 0) return null
   const matches = describeMatches(flight)
+  const byId = Object.fromEntries(matches.map(m => [m.id, m]))
   for (const r of ROUND_DEFS) {
     const m = matches.find(mm => mm.round === r.id && (mm.topPos === pos || mm.botPos === pos))
     if (!m) return null
     if (!m.winner) {
+      const def = MATCH_DEF_BY_ID[m.id]
       const ourSide = m.topPos === pos ? 'top' : 'bot'
-      const oppPos = ourSide === 'top' ? m.botPos : m.topPos
-      const oppEntry = oppPos != null ? flight.entries[oppPos] : null
-      return { round: r.id, oppEntry: (oppEntry?.teamId ? oppEntry : null), oppPos, bye: !oppEntry?.teamId, isBye: m.isBye }
+      const oppSrc = ourSide === 'top' ? def.bot : def.top
+      const opponents = potentialOpponentEntries(flight, oppSrc, byId)
+      if (opponents.length === 0) {
+        if (r.id === 'R1') return { round: r.id, state: 'r1-bye', opponents: [] }
+        // Shouldn't happen for higher rounds but degrade gracefully
+        return { round: r.id, state: 'pending', opponents: [] }
+      }
+      if (opponents.length === 1) return { round: r.id, state: 'known', opponents }
+      return { round: r.id, state: 'pending', opponents }
     }
     if (m.winnerPos !== pos) {
       const eliminator = m.winnerPos != null ? flight.entries[m.winnerPos] : null
-      return { round: r.id, eliminatedBy: eliminator, oppEntry: null }
+      return { round: r.id, state: 'eliminated', opponents: [], eliminatedBy: eliminator }
     }
     // We won this round; continue scanning forward
   }
-  return { champion: true }
+  return { state: 'champion', opponents: [] }
 }
 
 // Build a rating lookup keyed by `${teamSlug}|${firstPlayerName}` so we can
@@ -435,6 +476,31 @@ function FormView({ data, flight, setFlight, liveState }) {
   )
 }
 
+function OpponentInfoCard({ qualifier, ourRating, tint }) {
+  const r14 = qualifier.recent14 || { w: 0, l: 0 }
+  const winProb = ourRating != null && qualifier.rating != null
+    ? 1 / (1 + Math.pow(10, (qualifier.rating - ourRating) / 400)) : null
+  const probCls = winProb == null ? 'text-slate-400'
+    : winProb >= 0.6 ? 'text-emerald-300'
+    : winProb >= 0.4 ? 'text-slate-300'
+    : 'text-amber-300'
+  const borderCls = tint === 'amber' ? 'border-amber-700/40 bg-amber-900/10'
+    : tint === 'emerald' ? 'border-emerald-700/40 bg-emerald-900/10'
+    : 'border-slate-700 bg-slate-900/40'
+  return (
+    <div className={`rounded border ${borderCls} px-2 py-1.5 text-[12px]`}>
+      <div className="flex justify-between items-baseline gap-2">
+        <span className="font-medium">{qualifier.name}</span>
+        <span className={`font-mono font-semibold ${probCls}`}>{pct(winProb)}</span>
+      </div>
+      <div className="text-[11px] text-slate-400 flex justify-between">
+        <span>{qualifier.schoolName}</span>
+        <span className="font-mono">rated {qualifier.rating} · L14 {r14.w}-{r14.l}</span>
+      </div>
+    </div>
+  )
+}
+
 function ClarkstonView({ data, liveState }) {
   const c = data.clarkston
   if (!c) return null
@@ -447,11 +513,9 @@ function ClarkstonView({ data, liveState }) {
         </div>
       )}
       <div className="text-[10px] text-slate-500 leading-relaxed">
-        Ratings use every dual-meet + tournament match this season, weighted by recency
-        (28-day half-life: a match 4 weeks ago counts ~50%, 8 weeks ~25%) and by margin of victory
-        (game differential / 6, clamped). Late-season form moves a player more than early-season form.
-        {liveState && <span className="text-emerald-300"> Toughest/easiest lists filter to opponents still alive in the live bracket.</span>}
-        <span className="text-amber-400"> *</span> after a rating means it's a fallback.
+        Per-flight: Clarkston's player, status, and the <span className="text-emerald-300">next match</span>{' '}
+        with strength/form details on the possible opponent(s).
+        When the next opponent isn't decided yet, both R1 candidates are shown side-by-side.
       </div>
       <div className="space-y-2">
         {c.flights.map(f => {
@@ -461,8 +525,6 @@ function ClarkstonView({ data, liveState }) {
           const noLineup = ours?.regularStarter?.noData
           const liveFlight = liveState?.flights?.find(fl => fl.id === f.flight) || null
 
-          // Live bracket awareness: determine our pos, our next match, our
-          // standing, and filter hardest/easiest to alive opponents only.
           let live = null
           if (liveFlight && ours) {
             const ourPos = findEntryPos(liveFlight, ours)
@@ -470,26 +532,14 @@ function ClarkstonView({ data, liveState }) {
               const standing = entryStanding(liveFlight, ourPos)
               const next = nextMatchFor(liveFlight, ourPos)
               const ratingMap = buildRatingMap(fdata?.qualifiers)
-              const alive = aliveOpponents(liveFlight, ourPos)
-              const scored = alive.map(({ pos, entry }) => {
-                const q = lookupQualifier(ratingMap, entry)
-                if (!q) return null
-                const winProb = ours.rating != null && q.rating != null
-                  ? 1 / (1 + Math.pow(10, (q.rating - ours.rating) / 400)) : null
-                return { entry, qualifier: q, winProb }
-              }).filter(Boolean)
-              scored.sort((a, b) => (b.qualifier.rating ?? 0) - (a.qualifier.rating ?? 0))
-              live = {
-                ourPos, standing, next,
-                hardest: scored.slice(0, 3),
-                easiest: scored.slice(-3).reverse(),
-                aliveCount: scored.length,
-              }
+              // Hydrate each opponent entry with its sos.json qualifier (rating, L14, etc.)
+              const opponents = (next?.opponents || []).map(({ pos, entry }) => ({
+                pos, entry, qualifier: lookupQualifier(ratingMap, entry),
+              })).filter(o => o.qualifier)
+              live = { ourPos, standing, next, opponents }
             }
           }
 
-          // Fallback: use static hardest/easiest from sos.json when no live state
-          const showStatic = !live && f.ours && !swap && !noLineup
           return (
           <div key={f.flight} className="rounded-lg border border-slate-700 bg-slate-900/40 p-2">
             <div className="flex items-baseline justify-between">
@@ -508,27 +558,78 @@ function ClarkstonView({ data, liveState }) {
               )}
             </div>
 
-            {live?.next && !live.standing.eliminated && !live.next.champion && (
-              <div className="mt-1 text-[11px] bg-blue-900/20 border border-blue-700/40 rounded px-2 py-1">
-                <span className="text-blue-300 font-semibold">Next ({ROUND_LABEL[live.next.round] || live.next.round}):</span>{' '}
-                {live.next.bye ? <span className="text-slate-400">bye</span>
-                  : live.next.oppEntry
-                    ? <span>vs {entryDisplayName(live.next.oppEntry)} <span className="text-slate-400">({entrySchoolName(live.next.oppEntry)})</span></span>
-                    : <span className="text-slate-400">opponent TBD</span>}
-              </div>
-            )}
-            {live?.standing?.eliminated && live.next?.eliminatedBy && (
+            {/* Eliminated */}
+            {live?.next?.state === 'eliminated' && live.next.eliminatedBy && (
               <div className="mt-1 text-[11px] bg-red-900/20 border border-red-700/40 rounded px-2 py-1">
                 <span className="text-red-300 font-semibold">Eliminated</span> ({ROUND_LABEL[live.next.round]}) by{' '}
                 {entryDisplayName(live.next.eliminatedBy)} <span className="text-slate-400">({entrySchoolName(live.next.eliminatedBy)})</span>
               </div>
             )}
-            {live?.next?.champion && (
+
+            {/* Champion */}
+            {live?.next?.state === 'champion' && (
               <div className="mt-1 text-[11px] bg-emerald-900/20 border border-emerald-700/40 rounded px-2 py-1">
                 <span className="text-emerald-300 font-semibold">🏆 Champion</span>
               </div>
             )}
 
+            {/* True R1 bye */}
+            {live?.next?.state === 'r1-bye' && (
+              <div className="mt-1 text-[11px] bg-slate-800/50 border border-slate-700 rounded px-2 py-1 text-slate-300">
+                <span className="font-semibold">Next:</span> R1 bye → advances to Round 2
+              </div>
+            )}
+
+            {/* Known single opponent */}
+            {live?.next?.state === 'known' && live.opponents.length === 1 && (
+              <div className="mt-2">
+                <div className="text-[11px] text-blue-300 font-semibold mb-1">
+                  Next ({ROUND_LABEL[live.next.round]}): vs {live.opponents[0].qualifier.name}{' '}
+                  <span className="text-slate-400 font-normal">({live.opponents[0].qualifier.schoolName})</span>
+                </div>
+                <OpponentInfoCard qualifier={live.opponents[0].qualifier} ourRating={f.ours?.rating} tint={null} />
+              </div>
+            )}
+
+            {/* Pending — 2 or more possible opponents */}
+            {live?.next?.state === 'pending' && live.opponents.length >= 1 && (() => {
+              // Sort by rating desc so harder=first, easier=last. Tint extremes when exactly 2 opponents.
+              const sorted = [...live.opponents].sort((a, b) =>
+                (b.qualifier.rating ?? 0) - (a.qualifier.rating ?? 0))
+              const useTint = sorted.length === 2
+              return (
+                <div className="mt-2">
+                  <div className="text-[11px] text-blue-300 font-semibold mb-1">
+                    Next ({ROUND_LABEL[live.next.round]}): Winner of{' '}
+                    {sorted.map((o, i) => (
+                      <span key={i}>
+                        {i > 0 && <span className="text-slate-400 font-normal"> vs </span>}
+                        <span className="font-normal">{o.qualifier.name}</span>
+                      </span>
+                    ))}
+                  </div>
+                  <div className={`grid grid-cols-1 ${sorted.length === 1 ? 'md:grid-cols-1' : 'md:grid-cols-2'} gap-2`}>
+                    {sorted.map((o, i) => (
+                      <OpponentInfoCard
+                        key={i}
+                        qualifier={o.qualifier}
+                        ourRating={f.ours?.rating}
+                        tint={useTint ? (i === 0 ? 'amber' : 'emerald') : null}
+                      />
+                    ))}
+                  </div>
+                </div>
+              )
+            })()}
+
+            {/* Pending but couldn't hydrate any qualifier (data gap) */}
+            {live?.next?.state === 'pending' && live.opponents.length === 0 && (
+              <div className="mt-1 text-[11px] bg-slate-800/50 border border-slate-700 rounded px-2 py-1 text-slate-400">
+                <span className="font-semibold">Next ({ROUND_LABEL[live.next.round]}):</span> opponent TBD
+              </div>
+            )}
+
+            {/* Likely sub callout (unchanged from prior behavior) */}
             {swap && (
               <div className="mt-1 text-[11px] bg-amber-900/20 border border-amber-700/40 rounded px-2 py-1">
                 <span className="text-amber-300 font-semibold">Likely sub:</span>{' '}
@@ -541,52 +642,6 @@ function ClarkstonView({ data, liveState }) {
             {noLineup && (
               <div className="mt-1 text-[11px] bg-slate-900/40 border border-slate-700 rounded px-2 py-1 text-slate-400">
                 No dual-meet matches at {f.flight} for this entry — they may be a JV call-up or only played postseason. The rating shown is a fallback (TennisReporting's 2026 Elo) and should be treated as low-confidence.
-              </div>
-            )}
-            {live && live.aliveCount > 0 && !live.standing.eliminated && !live.next?.champion && (
-              <div className="mt-2 grid grid-cols-1 md:grid-cols-2 gap-2 text-[12px]">
-                <div>
-                  <div className="text-[10px] uppercase text-slate-500 mb-1">
-                    Toughest remaining ({live.aliveCount} alive)
-                  </div>
-                  {live.hardest.map((m, i) => (
-                    <div key={i} className="flex justify-between border-t border-slate-800 py-0.5">
-                      <span>{m.qualifier.name} <span className="text-slate-500">({m.qualifier.schoolName}, {m.qualifier.rating})</span></span>
-                      <span className="text-amber-300 font-mono">{pct(m.winProb)}</span>
-                    </div>
-                  ))}
-                </div>
-                <div>
-                  <div className="text-[10px] uppercase text-slate-500 mb-1">Easiest remaining</div>
-                  {live.easiest.map((m, i) => (
-                    <div key={i} className="flex justify-between border-t border-slate-800 py-0.5">
-                      <span>{m.qualifier.name} <span className="text-slate-500">({m.qualifier.schoolName}, {m.qualifier.rating})</span></span>
-                      <span className="text-emerald-300 font-mono">{pct(m.winProb)}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-            {showStatic && (
-              <div className="mt-2 grid grid-cols-1 md:grid-cols-2 gap-2 text-[12px]">
-                <div>
-                  <div className="text-[10px] uppercase text-slate-500 mb-1">Toughest matchups (preview)</div>
-                  {f.hardest.map((m, i) => (
-                    <div key={i} className="flex justify-between border-t border-slate-800 py-0.5">
-                      <span>{m.opponent} <span className="text-slate-500">({m.school}, {m.rating})</span></span>
-                      <span className="text-amber-300 font-mono">{pct(m.winProb)}</span>
-                    </div>
-                  ))}
-                </div>
-                <div>
-                  <div className="text-[10px] uppercase text-slate-500 mb-1">Easiest matchups (preview)</div>
-                  {f.easiest.map((m, i) => (
-                    <div key={i} className="flex justify-between border-t border-slate-800 py-0.5">
-                      <span>{m.opponent} <span className="text-slate-500">({m.school}, {m.rating})</span></span>
-                      <span className="text-emerald-300 font-mono">{pct(m.winProb)}</span>
-                    </div>
-                  ))}
-                </div>
               </div>
             )}
           </div>
