@@ -105,7 +105,7 @@ export default function Viewer() {
             <Leaderboard flights={state.flights} compact />
           </>
         )}
-        {tab === 'sos' && (divisionId === 'D1' ? <SOSTab /> : (
+        {tab === 'sos' && (divisionId === 'D1' ? <SOSTab liveState={state} /> : (
           <div className="rounded-lg border border-slate-700 bg-slate-900/40 p-4 text-sm text-slate-300 leading-relaxed">
             <div className="font-semibold text-slate-100 mb-1">SOS available for D1 only</div>
             Strength-of-schedule, Bradley-Terry ratings, and lineup-watch analysis are currently built only

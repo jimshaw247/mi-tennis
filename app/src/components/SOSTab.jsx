@@ -1,13 +1,96 @@
 import { useEffect, useMemo, useState } from 'react'
+import { describeMatches, entryStanding, ROUND_DEFS } from '../lib/bracket.js'
+import { TEAM_BY_ID } from '../data/teams.js'
 
 const FLIGHTS = ['1S','2S','3S','4S','1D','2D','3D','4D']
 const FLIGHT_LABEL = { '1S':'#1 Singles','2S':'#2 Singles','3S':'#3 Singles','4S':'#4 Singles',
                        '1D':'#1 Doubles','2D':'#2 Doubles','3D':'#3 Doubles','4D':'#4 Doubles' }
+const ROUND_LABEL = Object.fromEntries(ROUND_DEFS.map(r => [r.id, r.label]))
 const HIGHLIGHT = 4052 // Clarkston
 
 function pct(p) { return p == null ? '—' : (p * 100).toFixed(0) + '%' }
 
-export default function SOSTab() {
+function teamIdForSchool(schoolName) {
+  return (schoolName || '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_')
+}
+
+// Locate a sos.json qualifier's bracket entry. Matches by school slug + first-
+// player name to disambiguate the (rare) case of a school with multiple entries.
+function findEntryPos(flight, qualifier) {
+  if (!flight?.entries || !qualifier) return -1
+  const targetSlug = teamIdForSchool(qualifier.schoolName)
+  const firstName = qualifier.name.split(' / ')[0].trim()
+  let idx = flight.entries.findIndex(e => e.teamId === targetSlug && e.name === firstName)
+  if (idx >= 0) return idx
+  return flight.entries.findIndex(e => e.teamId === targetSlug)
+}
+
+function entryDisplayName(entry) {
+  if (!entry?.teamId) return null
+  return entry.partner ? `${entry.name} / ${entry.partner}` : entry.name
+}
+
+function entrySchoolName(entry) {
+  if (!entry?.teamId) return null
+  return TEAM_BY_ID[entry.teamId]?.name || entry.teamId
+}
+
+// For a player at bracket position `pos`, walk forward through rounds in the
+// live state and return their NEXT match (the first one not yet decided where
+// they're a participant). Returns { round, oppEntry|null, eliminatedBy|null }.
+function nextMatchFor(flight, pos) {
+  if (!flight || pos < 0) return null
+  const matches = describeMatches(flight)
+  for (const r of ROUND_DEFS) {
+    const m = matches.find(mm => mm.round === r.id && (mm.topPos === pos || mm.botPos === pos))
+    if (!m) return null
+    if (!m.winner) {
+      const ourSide = m.topPos === pos ? 'top' : 'bot'
+      const oppPos = ourSide === 'top' ? m.botPos : m.topPos
+      const oppEntry = oppPos != null ? flight.entries[oppPos] : null
+      return { round: r.id, oppEntry: (oppEntry?.teamId ? oppEntry : null), oppPos, bye: !oppEntry?.teamId, isBye: m.isBye }
+    }
+    if (m.winnerPos !== pos) {
+      const eliminator = m.winnerPos != null ? flight.entries[m.winnerPos] : null
+      return { round: r.id, eliminatedBy: eliminator, oppEntry: null }
+    }
+    // We won this round; continue scanning forward
+  }
+  return { champion: true }
+}
+
+// Build a rating lookup keyed by `${teamSlug}|${firstPlayerName}` so we can
+// score live bracket entries against sos.json ratings.
+function buildRatingMap(qualifiers) {
+  const map = new Map()
+  for (const q of (qualifiers || [])) {
+    const slug = teamIdForSchool(q.schoolName)
+    const firstName = q.name.split(' / ')[0].trim()
+    map.set(`${slug}|${firstName}`, q)
+  }
+  return map
+}
+
+function lookupQualifier(map, entry) {
+  if (!entry?.teamId || !entry.name) return null
+  return map.get(`${entry.teamId}|${entry.name}`) || null
+}
+
+// All bracket entries still alive at this flight, excluding `excludePos`.
+function aliveOpponents(flight, excludePos) {
+  if (!flight?.entries) return []
+  const out = []
+  for (let pos = 0; pos < flight.entries.length; pos++) {
+    if (pos === excludePos) continue
+    const e = flight.entries[pos]
+    if (!e?.teamId) continue
+    if (entryStanding(flight, pos).eliminated) continue
+    out.push({ pos, entry: e })
+  }
+  return out
+}
+
+export default function SOSTab({ liveState = null }) {
   const [data, setData] = useState(null)
   const [err, setErr] = useState(null)
   const [view, setView] = useState('teams') // 'teams' | 'flight' | 'clarkston' | 'upsets'
@@ -41,10 +124,10 @@ export default function SOSTab() {
 
       {view === 'teams' && <TeamsView data={data} sortKey={sortKey} setSortKey={setSortKey} sortAsc={sortAsc} setSortAsc={setSortAsc} q={q} setQ={setQ} />}
       {view === 'flight' && <FlightView data={data} flight={flight} setFlight={setFlight} q={q} setQ={setQ} />}
-      {view === 'form' && <FormView data={data} flight={flight} setFlight={setFlight} />}
-      {view === 'clarkston' && <ClarkstonView data={data} />}
+      {view === 'form' && <FormView data={data} flight={flight} setFlight={setFlight} liveState={liveState} />}
+      {view === 'clarkston' && <ClarkstonView data={data} liveState={liveState} />}
       {view === 'lineup' && <LineupWatchView data={data} />}
-      {view === 'upsets' && <UpsetsView data={data} />}
+      {view === 'upsets' && <UpsetsView data={data} liveState={liveState} />}
     </div>
   )
 }
@@ -262,24 +345,33 @@ const FORM_HELP = {
   l14: { title: 'L14', body: "Wins and losses in the last 14 days of sanctioned matches (through 2026-05-19). Strong corroborating signal: a +5 Δ rank with a 4-0 L14 is a real form spike, not noise." },
 }
 
-function FormView({ data, flight, setFlight }) {
+function FormView({ data, flight, setFlight, liveState }) {
   const [helpOpen, setHelpOpen] = useState(null)
   const fd = data.flights?.[flight]
   if (!fd) return <div className="text-slate-400">No data for {flight}</div>
+  const liveFlight = liveState?.flights?.find(f => f.id === flight) || null
   const rows = useMemo(() => {
     const qs = fd.qualifiers || []
-    // Our rank by rating, TR rank by elo2026Avg
     const byOurRating = [...qs].sort((a, b) => b.rating - a.rating)
     const byTr = [...qs].sort((a, b) => (b.elo2026Avg ?? -1) - (a.elo2026Avg ?? -1))
     const ourRk = new Map(byOurRating.map((q, i) => [q.name + q.schoolId, i + 1]))
     const trRk  = new Map(byTr.map((q, i) => [q.name + q.schoolId, i + 1]))
     return qs.map(q => {
       const k = q.name + q.schoolId
-      const our = ourRk.get(k)
-      const tr = trRk.get(k)
-      return { ...q, ourRank: our, trRank: tr, deltaRank: tr - our }
+      // R1 opponent lookup from live bracket
+      let r1 = null
+      if (liveFlight) {
+        const pos = findEntryPos(liveFlight, q)
+        if (pos >= 0) {
+          const oppPos = pos ^ 1
+          const opp = liveFlight.entries[oppPos]
+          if (!opp?.teamId) r1 = { bye: true }
+          else r1 = { school: entrySchoolName(opp), name: entryDisplayName(opp) }
+        }
+      }
+      return { ...q, ourRank: ourRk.get(k), trRank: trRk.get(k), deltaRank: trRk.get(k) - ourRk.get(k), r1 }
     }).sort((a, b) => b.deltaRank - a.deltaRank)
-  }, [fd])
+  }, [fd, liveFlight])
   const hdr = (key, label, align) => (
     <PlainHeader label={label} helpKey={key} helpOpen={helpOpen} setHelpOpen={setHelpOpen} align={align} />
   )
@@ -319,13 +411,20 @@ function FormView({ data, flight, setFlight }) {
               const l14 = r.recent14 || { w: 0, l: 0 }
               return (
                 <tr key={r.name + r.schoolId} className={`border-t border-slate-800 ${r.schoolId === HIGHLIGHT ? 'bg-blue-900/30' : ''}`}>
-                  <td className="px-1.5 py-1.5">{r.ourRank}</td>
-                  <td className="px-1.5 py-1.5">{r.name}</td>
-                  <td className="px-1.5 py-1.5 text-slate-300">{r.schoolName}</td>
-                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{r.trRank}</td>
-                  <td className={`px-1.5 py-1.5 font-mono text-right font-semibold ${deltaCls}`}>{d > 0 ? '+' : ''}{d}</td>
-                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{r.elo2026Avg ?? '—'}<span className="text-slate-600"> / </span><span className="text-slate-200">{r.rating}</span></td>
-                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400">{l14.w}-{l14.l}</td>
+                  <td className="px-1.5 py-1.5 align-top">{r.ourRank}</td>
+                  <td className="px-1.5 py-1.5 align-top">
+                    <div>{r.name}</div>
+                    {r.r1 && (
+                      <div className="text-[10px] text-slate-500 mt-0.5">
+                        {r.r1.bye ? 'R1 bye' : `R1 vs ${r.r1.school} — ${r.r1.name}`}
+                      </div>
+                    )}
+                  </td>
+                  <td className="px-1.5 py-1.5 text-slate-300 align-top">{r.schoolName}</td>
+                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400 align-top">{r.trRank}</td>
+                  <td className={`px-1.5 py-1.5 font-mono text-right font-semibold align-top ${deltaCls}`}>{d > 0 ? '+' : ''}{d}</td>
+                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400 align-top">{r.elo2026Avg ?? '—'}<span className="text-slate-600"> / </span><span className="text-slate-200">{r.rating}</span></td>
+                  <td className="px-1.5 py-1.5 font-mono text-right text-slate-400 align-top">{l14.w}-{l14.l}</td>
                 </tr>
               )
             })}
@@ -336,7 +435,7 @@ function FormView({ data, flight, setFlight }) {
   )
 }
 
-function ClarkstonView({ data }) {
+function ClarkstonView({ data, liveState }) {
   const c = data.clarkston
   if (!c) return null
   return (
@@ -351,7 +450,8 @@ function ClarkstonView({ data }) {
         Ratings use every dual-meet + tournament match this season, weighted by recency
         (28-day half-life: a match 4 weeks ago counts ~50%, 8 weeks ~25%) and by margin of victory
         (game differential / 6, clamped). Late-season form moves a player more than early-season form.
-        <span className="text-amber-400"> *</span> after a rating means it's a fallback (no season matches at that flight — likely a late JV/freshman call-up).
+        {liveState && <span className="text-emerald-300"> Toughest/easiest lists filter to opponents still alive in the live bracket.</span>}
+        <span className="text-amber-400"> *</span> after a rating means it's a fallback.
       </div>
       <div className="space-y-2">
         {c.flights.map(f => {
@@ -359,16 +459,76 @@ function ClarkstonView({ data }) {
           const ours = fdata?.qualifiers?.find(q => q.schoolId === HIGHLIGHT)
           const swap = ours?.regularStarter && !ours.regularStarter.noData
           const noLineup = ours?.regularStarter?.noData
+          const liveFlight = liveState?.flights?.find(fl => fl.id === f.flight) || null
+
+          // Live bracket awareness: determine our pos, our next match, our
+          // standing, and filter hardest/easiest to alive opponents only.
+          let live = null
+          if (liveFlight && ours) {
+            const ourPos = findEntryPos(liveFlight, ours)
+            if (ourPos >= 0) {
+              const standing = entryStanding(liveFlight, ourPos)
+              const next = nextMatchFor(liveFlight, ourPos)
+              const ratingMap = buildRatingMap(fdata?.qualifiers)
+              const alive = aliveOpponents(liveFlight, ourPos)
+              const scored = alive.map(({ pos, entry }) => {
+                const q = lookupQualifier(ratingMap, entry)
+                if (!q) return null
+                const winProb = ours.rating != null && q.rating != null
+                  ? 1 / (1 + Math.pow(10, (q.rating - ours.rating) / 400)) : null
+                return { entry, qualifier: q, winProb }
+              }).filter(Boolean)
+              scored.sort((a, b) => (b.qualifier.rating ?? 0) - (a.qualifier.rating ?? 0))
+              live = {
+                ourPos, standing, next,
+                hardest: scored.slice(0, 3),
+                easiest: scored.slice(-3).reverse(),
+                aliveCount: scored.length,
+              }
+            }
+          }
+
+          // Fallback: use static hardest/easiest from sos.json when no live state
+          const showStatic = !live && f.ours && !swap && !noLineup
           return (
           <div key={f.flight} className="rounded-lg border border-slate-700 bg-slate-900/40 p-2">
             <div className="flex items-baseline justify-between">
               <div className="text-sm font-semibold">{f.flightLabel} · {f.flight}</div>
               {f.ours ? (
-                <div className="text-[11px] text-slate-300">{f.ours.name} · rated {f.ours.rating} · rank {f.stateRank}/{f.fieldSize}</div>
+                <div className="text-[11px] text-slate-300">
+                  {f.ours.name} · rated {f.ours.rating} · rank {f.stateRank}/{f.fieldSize}
+                  {live?.standing && (
+                    live.standing.eliminated
+                      ? <span className="ml-1 text-red-400">· eliminated</span>
+                      : <span className="ml-1 text-emerald-400">· {live.standing.wins}W</span>
+                  )}
+                </div>
               ) : (
                 <div className="text-[11px] text-slate-500 italic">no Clarkston qualifier</div>
               )}
             </div>
+
+            {live?.next && !live.standing.eliminated && !live.next.champion && (
+              <div className="mt-1 text-[11px] bg-blue-900/20 border border-blue-700/40 rounded px-2 py-1">
+                <span className="text-blue-300 font-semibold">Next ({ROUND_LABEL[live.next.round] || live.next.round}):</span>{' '}
+                {live.next.bye ? <span className="text-slate-400">bye</span>
+                  : live.next.oppEntry
+                    ? <span>vs {entryDisplayName(live.next.oppEntry)} <span className="text-slate-400">({entrySchoolName(live.next.oppEntry)})</span></span>
+                    : <span className="text-slate-400">opponent TBD</span>}
+              </div>
+            )}
+            {live?.standing?.eliminated && live.next?.eliminatedBy && (
+              <div className="mt-1 text-[11px] bg-red-900/20 border border-red-700/40 rounded px-2 py-1">
+                <span className="text-red-300 font-semibold">Eliminated</span> ({ROUND_LABEL[live.next.round]}) by{' '}
+                {entryDisplayName(live.next.eliminatedBy)} <span className="text-slate-400">({entrySchoolName(live.next.eliminatedBy)})</span>
+              </div>
+            )}
+            {live?.next?.champion && (
+              <div className="mt-1 text-[11px] bg-emerald-900/20 border border-emerald-700/40 rounded px-2 py-1">
+                <span className="text-emerald-300 font-semibold">🏆 Champion</span>
+              </div>
+            )}
+
             {swap && (
               <div className="mt-1 text-[11px] bg-amber-900/20 border border-amber-700/40 rounded px-2 py-1">
                 <span className="text-amber-300 font-semibold">Likely sub:</span>{' '}
@@ -383,10 +543,34 @@ function ClarkstonView({ data }) {
                 No dual-meet matches at {f.flight} for this entry — they may be a JV call-up or only played postseason. The rating shown is a fallback (TennisReporting's 2026 Elo) and should be treated as low-confidence.
               </div>
             )}
-            {f.ours && !swap && !noLineup && (
+            {live && live.aliveCount > 0 && !live.standing.eliminated && !live.next?.champion && (
               <div className="mt-2 grid grid-cols-1 md:grid-cols-2 gap-2 text-[12px]">
                 <div>
-                  <div className="text-[10px] uppercase text-slate-500 mb-1">Toughest matchups</div>
+                  <div className="text-[10px] uppercase text-slate-500 mb-1">
+                    Toughest remaining ({live.aliveCount} alive)
+                  </div>
+                  {live.hardest.map((m, i) => (
+                    <div key={i} className="flex justify-between border-t border-slate-800 py-0.5">
+                      <span>{m.qualifier.name} <span className="text-slate-500">({m.qualifier.schoolName}, {m.qualifier.rating})</span></span>
+                      <span className="text-amber-300 font-mono">{pct(m.winProb)}</span>
+                    </div>
+                  ))}
+                </div>
+                <div>
+                  <div className="text-[10px] uppercase text-slate-500 mb-1">Easiest remaining</div>
+                  {live.easiest.map((m, i) => (
+                    <div key={i} className="flex justify-between border-t border-slate-800 py-0.5">
+                      <span>{m.qualifier.name} <span className="text-slate-500">({m.qualifier.schoolName}, {m.qualifier.rating})</span></span>
+                      <span className="text-emerald-300 font-mono">{pct(m.winProb)}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+            {showStatic && (
+              <div className="mt-2 grid grid-cols-1 md:grid-cols-2 gap-2 text-[12px]">
+                <div>
+                  <div className="text-[10px] uppercase text-slate-500 mb-1">Toughest matchups (preview)</div>
                   {f.hardest.map((m, i) => (
                     <div key={i} className="flex justify-between border-t border-slate-800 py-0.5">
                       <span>{m.opponent} <span className="text-slate-500">({m.school}, {m.rating})</span></span>
@@ -395,7 +579,7 @@ function ClarkstonView({ data }) {
                   ))}
                 </div>
                 <div>
-                  <div className="text-[10px] uppercase text-slate-500 mb-1">Easiest matchups</div>
+                  <div className="text-[10px] uppercase text-slate-500 mb-1">Easiest matchups (preview)</div>
                   {f.easiest.map((m, i) => (
                     <div key={i} className="flex justify-between border-t border-slate-800 py-0.5">
                       <span>{m.opponent} <span className="text-slate-500">({m.school}, {m.rating})</span></span>
@@ -522,17 +706,75 @@ function LineupWatchView({ data }) {
   )
 }
 
-function UpsetsView({ data }) {
+// Tag each upset row with the Clarkston matchup context from live bracket, if any.
+// Looks up Clarkston's position in this flight, walks forward, and returns the
+// round where Clarkston meets this upset candidate (if they meet at all).
+function clarkstonMatchInfo(liveState, fid, candidate) {
+  const flight = liveState?.flights?.find(f => f.id === fid)
+  if (!flight) return null
+  // Find Clarkston entry
+  const cPos = flight.entries.findIndex(e => e?.teamId === 'clarkston')
+  if (cPos < 0) return null
+  // Find candidate entry by name + school slug
+  const candSlug = teamIdForSchool(candidate.schoolName)
+  const candFirst = candidate.name.split(' / ')[0].trim()
+  const candPos = flight.entries.findIndex(e =>
+    e?.teamId === candSlug && (e.name === candFirst || !candFirst))
+  if (candPos < 0) return null
+  if (candPos === cPos) return null  // candidate IS Clarkston
+
+  const cStanding = entryStanding(flight, cPos)
+  const candStanding = entryStanding(flight, candPos)
+
+  // The round in which they can first meet: determined by how their bracket
+  // sub-trees intersect. Pair size doubles each round: R1=2, R2=4, R3=8, SF=16, F=32.
+  // They meet in the smallest round whose pair contains both positions.
+  const ROUNDS = ['R1', 'R2', 'R3', 'SF', 'F']
+  const PAIR_SIZE = [2, 4, 8, 16, 32]
+  let meetRound = null
+  for (let i = 0; i < PAIR_SIZE.length; i++) {
+    const sz = PAIR_SIZE[i]
+    if (Math.floor(cPos / sz) === Math.floor(candPos / sz)) { meetRound = ROUNDS[i]; break }
+  }
+  return {
+    meetRound,
+    bothAlive: !cStanding.eliminated && !candStanding.eliminated,
+    candAlive: !candStanding.eliminated,
+    cAlive: !cStanding.eliminated,
+  }
+}
+
+function UpsetsView({ data, liveState }) {
   const u = data.upsetWatch || { underseeded: [], overseeded: [] }
+
+  // Annotate each row with Clarkston-meet info; surface those to the top.
+  function annotate(rows) {
+    return rows.map(r => ({ ...r, _clark: clarkstonMatchInfo(liveState, r.flight, r) }))
+      .sort((a, b) => {
+        // Live Clarkston matchups first, then by relevance
+        const aClark = a._clark?.bothAlive ? 0 : (a._clark ? 1 : 2)
+        const bClark = b._clark?.bothAlive ? 0 : (b._clark ? 1 : 2)
+        return aClark - bClark
+      })
+  }
+  const under = annotate(u.underseeded)
+  const over  = annotate(u.overseeded)
+
   return (
     <div className="space-y-3">
+      {liveState && (
+        <div className="text-[10px] text-slate-500 leading-relaxed">
+          Rows with a Clarkston matchup tag bubble to the top of each list.
+          The tag shows the earliest round in which Clarkston could meet that entry.
+        </div>
+      )}
       <Section title="Underseeded — high BT rating despite mediocre regional seed" tone="emerald">
-        {u.underseeded.length === 0 ? <Empty /> : u.underseeded.map((r, i) => (
+        {under.length === 0 ? <Empty /> : under.map((r, i) => (
           <UpsetRow key={i} r={r} dir="up" />
         ))}
       </Section>
       <Section title="Overseeded — top regional seed but bottom-of-field BT rating" tone="amber">
-        {u.overseeded.length === 0 ? <Empty /> : u.overseeded.map((r, i) => (
+        {over.length === 0 ? <Empty /> : over.map((r, i) => (
           <UpsetRow key={i} r={r} dir="down" />
         ))}
       </Section>
@@ -550,15 +792,32 @@ function Section({ title, tone, children }) {
 }
 function Empty() { return <div className="text-slate-500 italic text-center py-2">No candidates fit the threshold.</div> }
 function UpsetRow({ r, dir }) {
+  const clark = r._clark
   return (
-    <div className="border-t border-slate-800 first:border-t-0 pt-1 first:pt-0 flex justify-between gap-2">
-      <div>
-        <span className="font-mono mr-1">{r.flight}</span>
-        {r.name} <span className="text-slate-400">({r.schoolName})</span>
+    <div className="border-t border-slate-800 first:border-t-0 pt-1 first:pt-0">
+      <div className="flex justify-between gap-2">
+        <div>
+          <span className="font-mono mr-1">{r.flight}</span>
+          {r.name} <span className="text-slate-400">({r.schoolName})</span>
+        </div>
+        <div className="text-slate-400">
+          rated <span className="text-white font-mono">{Math.round(r.rating)}</span> · state rank #{r.stateRank} · seed {r.regSeed}
+        </div>
       </div>
-      <div className="text-slate-400">
-        rated <span className="text-white font-mono">{Math.round(r.rating)}</span> · state rank #{r.stateRank} · seed {r.regSeed}
-      </div>
+      {clark && (
+        <div className="text-[10px] mt-0.5">
+          {!clark.candAlive && <span className="text-slate-500">Eliminated · no longer a Clarkston concern.</span>}
+          {clark.candAlive && !clark.cAlive && <span className="text-slate-500">Clarkston already out at this flight.</span>}
+          {clark.bothAlive && clark.meetRound === 'R1' && (
+            <span className="text-blue-300 font-semibold">⚔ Clarkston R1 opponent — direct first-round match.</span>
+          )}
+          {clark.bothAlive && clark.meetRound !== 'R1' && (
+            <span className="text-blue-300">
+              ⚔ Could meet Clarkston in <span className="font-semibold">{ROUND_LABEL[clark.meetRound]}</span> if both advance.
+            </span>
+          )}
+        </div>
+      )}
     </div>
   )
 }
