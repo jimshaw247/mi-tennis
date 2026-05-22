@@ -48,10 +48,28 @@ export const TEAMS = [
     "color": "#84cc16"
   },
   {
+    "id": "ann_arbor_skyline",
+    "name": "Ann Arbor Skyline",
+    "short": "AAS",
+    "color": "#ef4444"
+  },
+  {
     "id": "battle_creek_lakeview",
     "name": "Battle Creek Lakeview",
     "short": "BCL",
     "color": "#f97316"
+  },
+  {
+    "id": "bay_city_central",
+    "name": "Bay City Central",
+    "short": "BCC",
+    "color": "#22c55e"
+  },
+  {
+    "id": "bay_city_western",
+    "name": "Bay City Western",
+    "short": "BCW",
+    "color": "#0891b2"
   },
   {
     "id": "berkley",
@@ -132,6 +150,12 @@ export const TEAMS = [
     "color": "#2563eb"
   },
   {
+    "id": "coopersville",
+    "name": "Coopersville",
+    "short": "CO",
+    "color": "#f59e0b"
+  },
+  {
     "id": "croswelllexington",
     "name": "Croswell-Lexington",
     "short": "C",
@@ -174,6 +198,12 @@ export const TEAMS = [
     "color": "#ea580c"
   },
   {
+    "id": "farmington",
+    "name": "Farmington",
+    "short": "FA",
+    "color": "#06b6d4"
+  },
+  {
     "id": "farmington_hills_mercy",
     "name": "Farmington Hills Mercy",
     "short": "FHM",
@@ -184,6 +214,12 @@ export const TEAMS = [
     "name": "Flint Powers Catholic",
     "short": "FPC",
     "color": "#0d9488"
+  },
+  {
+    "id": "fowlerville",
+    "name": "Fowlerville",
+    "short": "FO",
+    "color": "#7c3aed"
   },
   {
     "id": "fruitport",
@@ -318,6 +354,12 @@ export const TEAMS = [
     "color": "#d946ef"
   },
   {
+    "id": "jackson",
+    "name": "Jackson",
+    "short": "JA",
+    "color": "#3b82f6"
+  },
+  {
     "id": "jackson_lumen_christi",
     "name": "Jackson Lumen Christi",
     "short": "JLC",
@@ -336,10 +378,22 @@ export const TEAMS = [
     "color": "#f43f5e"
   },
   {
+    "id": "kalamazoo_hackett_catholic_prep",
+    "name": "Kalamazoo Hackett Catholic Prep",
+    "short": "KHCP",
+    "color": "#22c55e"
+  },
+  {
     "id": "lansing_catholic",
     "name": "Lansing Catholic",
     "short": "LC",
     "color": "#6366f1"
+  },
+  {
+    "id": "lansing_christian_school",
+    "name": "Lansing Christian School",
+    "short": "LCS",
+    "color": "#f97316"
   },
   {
     "id": "lansing_eastern",
@@ -366,10 +420,22 @@ export const TEAMS = [
     "color": "#dc2626"
   },
   {
+    "id": "midland_bullock_creek",
+    "name": "Midland Bullock Creek",
+    "short": "MBC",
+    "color": "#f59e0b"
+  },
+  {
     "id": "midland_dow",
     "name": "Midland Dow",
     "short": "MD",
     "color": "#2563eb"
+  },
+  {
+    "id": "muskegon_mona_shores",
+    "name": "Muskegon Mona Shores",
+    "short": "MMS",
+    "color": "#dc2626"
   },
   {
     "id": "niles_brandywine",
@@ -408,10 +474,22 @@ export const TEAMS = [
     "color": "#65a30d"
   },
   {
+    "id": "otsego",
+    "name": "Otsego",
+    "short": "OT",
+    "color": "#3b82f6"
+  },
+  {
     "id": "parma_western",
     "name": "Parma Western",
     "short": "PW",
     "color": "#ea580c"
+  },
+  {
+    "id": "paw_paw",
+    "name": "Paw Paw",
+    "short": "PP",
+    "color": "#7c3aed"
   },
   {
     "id": "pontiac_notre_dame_prep",
@@ -420,10 +498,22 @@ export const TEAMS = [
     "color": "#7c3aed"
   },
   {
+    "id": "port_huron_northern",
+    "name": "Port Huron Northern",
+    "short": "PHN",
+    "color": "#f59e0b"
+  },
+  {
     "id": "portage_central",
     "name": "Portage Central",
     "short": "PC",
     "color": "#0d9488"
+  },
+  {
+    "id": "richland_gull_lake",
+    "name": "Richland Gull Lake",
+    "short": "RGL",
+    "color": "#22c55e"
   },
   {
     "id": "rochester",
@@ -480,6 +570,12 @@ export const TEAMS = [
     "color": "#f97316"
   },
   {
+    "id": "south_lyon_east",
+    "name": "South Lyon East",
+    "short": "SLE",
+    "color": "#0ea5e9"
+  },
+  {
     "id": "spring_lake",
     "name": "Spring Lake",
     "short": "SL",
@@ -510,6 +606,12 @@ export const TEAMS = [
     "color": "#a855f7"
   },
   {
+    "id": "sturgis",
+    "name": "Sturgis",
+    "short": "ST",
+    "color": "#7c3aed"
+  },
+  {
     "id": "traverse_city_central",
     "name": "Traverse City Central",
     "short": "TCC",
@@ -520,6 +622,12 @@ export const TEAMS = [
     "name": "Traverse City St Francis",
     "short": "TCSF",
     "color": "#ec4899"
+  },
+  {
+    "id": "traverse_city_west",
+    "name": "Traverse City West",
+    "short": "TCW",
+    "color": "#dc2626"
   },
   {
     "id": "trenton",
@@ -546,6 +654,12 @@ export const TEAMS = [
     "color": "#14b8a6"
   },
   {
+    "id": "utica_ford",
+    "name": "Utica Ford",
+    "short": "UF",
+    "color": "#ef4444"
+  },
+  {
     "id": "vicksburg",
     "name": "Vicksburg",
     "short": "V",
@@ -558,6 +672,12 @@ export const TEAMS = [
     "color": "#d946ef"
   },
   {
+    "id": "williamston",
+    "name": "Williamston",
+    "short": "WI",
+    "color": "#0891b2"
+  },
+  {
     "id": "wixom_st_catherine",
     "name": "Wixom St. Catherine",
     "short": "WSC",
@@ -568,6 +688,18 @@ export const TEAMS = [
     "name": "Wyandotte Roosevelt",
     "short": "WR",
     "color": "#0ea5e9"
+  },
+  {
+    "id": "yale",
+    "name": "Yale",
+    "short": "YA",
+    "color": "#3b82f6"
+  },
+  {
+    "id": "zeeland_west",
+    "name": "Zeeland West",
+    "short": "ZW",
+    "color": "#0891b2"
   }
 ]
 
