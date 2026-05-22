@@ -44,7 +44,10 @@ export default function Viewer() {
   }, [divisionId])
 
   const flight = state.flights.find(f => f.id === activeFlight)
-  const [tab, setTab] = useState('board')
+  const [tab, setTab] = useState(() => {
+    try { return localStorage.getItem('mitennis-viewer-tab') || 'board' } catch { return 'board' }
+  })
+  useEffect(() => { try { localStorage.setItem('mitennis-viewer-tab', tab) } catch {} }, [tab])
 
   return (
     <div className="min-h-full flex flex-col">

@@ -16,15 +16,19 @@ function teamIdForSchool(schoolName) {
   return (schoolName || '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_')
 }
 
-// Locate a sos.json qualifier's bracket entry. Matches by school slug + first-
-// player name to disambiguate the (rare) case of a school with multiple entries.
+// Locate a sos.json qualifier's bracket entry. For doubles the qualifier's
+// name is "P1 / P2" but the bracket may list the pair in either order
+// (entry.name + entry.partner), so we match against EITHER player name.
 function findEntryPos(flight, qualifier) {
   if (!flight?.entries || !qualifier) return -1
   const targetSlug = teamIdForSchool(qualifier.schoolName)
-  const firstName = qualifier.name.split(' / ')[0].trim()
-  let idx = flight.entries.findIndex(e => e.teamId === targetSlug && e.name === firstName)
-  if (idx >= 0) return idx
-  return flight.entries.findIndex(e => e.teamId === targetSlug)
+  const names = qualifier.name.split(' / ').map(s => s.trim()).filter(Boolean)
+  for (let i = 0; i < flight.entries.length; i++) {
+    const e = flight.entries[i]
+    if (e?.teamId !== targetSlug) continue
+    if (names.includes(e.name) || names.includes(e.partner)) return i
+  }
+  return flight.entries.findIndex(e => e?.teamId === targetSlug)
 }
 
 function entryDisplayName(entry) {
@@ -100,21 +104,25 @@ function nextMatchFor(flight, pos) {
   return { state: 'champion', opponents: [] }
 }
 
-// Build a rating lookup keyed by `${teamSlug}|${firstPlayerName}` so we can
-// score live bracket entries against sos.json ratings.
+// Build a rating lookup keyed by `${teamSlug}|${playerName}` so we can score
+// live bracket entries against sos.json ratings. For doubles we register the
+// qualifier under BOTH players' names so a bracket entry listing the pair in
+// flipped order still resolves to the correct rating.
 function buildRatingMap(qualifiers) {
   const map = new Map()
   for (const q of (qualifiers || [])) {
     const slug = teamIdForSchool(q.schoolName)
-    const firstName = q.name.split(' / ')[0].trim()
-    map.set(`${slug}|${firstName}`, q)
+    const names = q.name.split(' / ').map(s => s.trim()).filter(Boolean)
+    for (const n of names) map.set(`${slug}|${n}`, q)
   }
   return map
 }
 
 function lookupQualifier(map, entry) {
   if (!entry?.teamId || !entry.name) return null
-  return map.get(`${entry.teamId}|${entry.name}`) || null
+  return map.get(`${entry.teamId}|${entry.name}`)
+    || (entry.partner ? map.get(`${entry.teamId}|${entry.partner}`) : null)
+    || null
 }
 
 // All bracket entries still alive at this flight, excluding `excludePos`.
@@ -134,7 +142,10 @@ function aliveOpponents(flight, excludePos) {
 export default function SOSTab({ liveState = null }) {
   const [data, setData] = useState(null)
   const [err, setErr] = useState(null)
-  const [view, setView] = useState('teams') // 'teams' | 'flight' | 'clarkston' | 'upsets'
+  const [view, setView] = useState(() => {
+    try { return localStorage.getItem('mitennis-sos-view') || 'teams' } catch { return 'teams' }
+  })
+  useEffect(() => { try { localStorage.setItem('mitennis-sos-view', view) } catch {} }, [view])
   const [flight, setFlight] = useState('1S')
   const [sortKey, setSortKey] = useState('rank')
   const [sortAsc, setSortAsc] = useState(true)
@@ -476,10 +487,18 @@ function FormView({ data, flight, setFlight, liveState }) {
   )
 }
 
-function OpponentInfoCard({ qualifier, ourRating, tint }) {
-  const r14 = qualifier.recent14 || { w: 0, l: 0 }
-  const winProb = ourRating != null && qualifier.rating != null
-    ? 1 / (1 + Math.pow(10, (qualifier.rating - ourRating) / 400)) : null
+function OpponentInfoCard({ qualifier, entry, ourRating, tint }) {
+  // Prefer qualifier data when we have it (rating + recent form + canonical
+  // name). Fall back to bracket entry alone for mid-bracket subs whose
+  // rating data wasn't in sos.json.
+  const name = qualifier?.name
+    || (entry?.partner ? `${entry.name} / ${entry.partner}` : entry?.name)
+    || '—'
+  const school = qualifier?.schoolName || entrySchoolName(entry) || ''
+  const rating = qualifier?.rating ?? null
+  const r14 = qualifier?.recent14 || null
+  const winProb = ourRating != null && rating != null
+    ? 1 / (1 + Math.pow(10, (rating - ourRating) / 400)) : null
   const probCls = winProb == null ? 'text-slate-400'
     : winProb >= 0.6 ? 'text-emerald-300'
     : winProb >= 0.4 ? 'text-slate-300'
@@ -489,14 +508,22 @@ function OpponentInfoCard({ qualifier, ourRating, tint }) {
     : 'border-slate-700 bg-slate-900/40'
   return (
     <div className={`rounded border ${borderCls} px-2 py-1.5 text-[12px]`}>
-      <div className="font-medium">{qualifier.name}</div>
+      <div className="font-medium">{name}</div>
       <div className="text-[11px] text-slate-400 flex justify-between">
-        <span>{qualifier.schoolName}</span>
-        <span className="font-mono">rated {qualifier.rating} · L14 {r14.w}-{r14.l}</span>
+        <span>{school}</span>
+        <span className="font-mono">
+          {rating != null ? `rated ${rating}` : 'no rating data'}
+          {r14 ? ` · L14 ${r14.w}-${r14.l}` : ''}
+        </span>
       </div>
       {winProb != null && (
         <div className={`mt-1 text-[11px] font-semibold ${probCls}`}>
           <span className="font-mono">{pct(winProb)}</span> probability of Clarkston win
+        </div>
+      )}
+      {winProb == null && rating == null && (
+        <div className="mt-1 text-[10px] text-slate-500 italic">
+          Player not in season ratings — likely a mid-bracket substitution.
         </div>
       )}
     </div>
@@ -533,10 +560,12 @@ function ClarkstonView({ data, liveState }) {
               const standing = entryStanding(liveFlight, ourPos)
               const next = nextMatchFor(liveFlight, ourPos)
               const ratingMap = buildRatingMap(fdata?.qualifiers)
-              // Hydrate each opponent entry with its sos.json qualifier (rating, L14, etc.)
+              // Hydrate each opponent entry with its sos.json qualifier (rating,
+              // L14, etc.). Keep entries that don't resolve to a qualifier (real
+              // mid-bracket substitutions) — they render with name + school only.
               const opponents = (next?.opponents || []).map(({ pos, entry }) => ({
                 pos, entry, qualifier: lookupQualifier(ratingMap, entry),
-              })).filter(o => o.qualifier)
+              }))
               live = { ourPos, standing, next, opponents }
             }
           }
@@ -582,22 +611,32 @@ function ClarkstonView({ data, liveState }) {
             )}
 
             {/* Known single opponent */}
-            {live?.next?.state === 'known' && live.opponents.length === 1 && (
-              <div className="mt-2">
-                <div className="text-[11px] text-blue-300 font-semibold mb-1">
-                  Next ({ROUND_LABEL[live.next.round]}): vs {live.opponents[0].qualifier.name}{' '}
-                  <span className="text-slate-400 font-normal">({live.opponents[0].qualifier.schoolName})</span>
+            {live?.next?.state === 'known' && live.opponents.length === 1 && (() => {
+              const o = live.opponents[0]
+              const oppName = o.qualifier?.name || entryDisplayName(o.entry)
+              const oppSchool = o.qualifier?.schoolName || entrySchoolName(o.entry)
+              return (
+                <div className="mt-2">
+                  <div className="text-[11px] text-blue-300 font-semibold mb-1">
+                    Next ({ROUND_LABEL[live.next.round]}): vs {oppName}{' '}
+                    <span className="text-slate-400 font-normal">({oppSchool})</span>
+                  </div>
+                  <OpponentInfoCard qualifier={o.qualifier} entry={o.entry} ourRating={f.ours?.rating} tint={null} />
                 </div>
-                <OpponentInfoCard qualifier={live.opponents[0].qualifier} ourRating={f.ours?.rating} tint={null} />
-              </div>
-            )}
+              )
+            })()}
 
             {/* Pending — 2 or more possible opponents */}
             {live?.next?.state === 'pending' && live.opponents.length >= 1 && (() => {
-              // Sort by rating desc so harder=first, easier=last. Tint extremes when exactly 2 opponents.
-              const sorted = [...live.opponents].sort((a, b) =>
-                (b.qualifier.rating ?? 0) - (a.qualifier.rating ?? 0))
-              const useTint = sorted.length === 2
+              // Sort: ones with a rating come first (rated desc), unrated last.
+              const sorted = [...live.opponents].sort((a, b) => {
+                const ar = a.qualifier?.rating, br = b.qualifier?.rating
+                if (ar == null && br == null) return 0
+                if (ar == null) return 1
+                if (br == null) return -1
+                return br - ar
+              })
+              const useTint = sorted.length === 2 && sorted[0].qualifier && sorted[1].qualifier
               return (
                 <div className="mt-2">
                   <div className="text-[11px] text-blue-300 font-semibold mb-1">
@@ -605,7 +644,7 @@ function ClarkstonView({ data, liveState }) {
                     {sorted.map((o, i) => (
                       <span key={i}>
                         {i > 0 && <span className="text-slate-400 font-normal"> vs </span>}
-                        <span className="font-normal">{o.qualifier.name}</span>
+                        <span className="font-normal">{o.qualifier?.name || entryDisplayName(o.entry) || '?'}</span>
                       </span>
                     ))}
                   </div>
@@ -614,6 +653,7 @@ function ClarkstonView({ data, liveState }) {
                       <OpponentInfoCard
                         key={i}
                         qualifier={o.qualifier}
+                        entry={o.entry}
                         ourRating={f.ours?.rating}
                         tint={useTint ? (i === 0 ? 'amber' : 'emerald') : null}
                       />

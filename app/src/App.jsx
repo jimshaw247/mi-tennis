@@ -33,7 +33,10 @@ function AdminApp() {
   // isn't blank while the network round-trip runs. We never auto-push local
   // state back; only explicit user actions (commit) push.
   const [state, setState] = useState(() => loadState(divisionId))
-  const [tab, setTab] = useState('board')
+  const [tab, setTab] = useState(() => {
+    try { return localStorage.getItem('mitennis-admin-tab') || 'board' } catch { return 'board' }
+  })
+  useEffect(() => { try { localStorage.setItem('mitennis-admin-tab', tab) } catch {} }, [tab])
   const [activeFlight, setActiveFlight] = useState('1S')
   const [setupOpen, setSetupOpen] = useState(false)
   const [syncStatus, setSyncStatus] = useState(supabaseConfigured ? 'loading' : 'offline')
