@@ -489,14 +489,16 @@ function OpponentInfoCard({ qualifier, ourRating, tint }) {
     : 'border-slate-700 bg-slate-900/40'
   return (
     <div className={`rounded border ${borderCls} px-2 py-1.5 text-[12px]`}>
-      <div className="flex justify-between items-baseline gap-2">
-        <span className="font-medium">{qualifier.name}</span>
-        <span className={`font-mono font-semibold ${probCls}`}>{pct(winProb)}</span>
-      </div>
+      <div className="font-medium">{qualifier.name}</div>
       <div className="text-[11px] text-slate-400 flex justify-between">
         <span>{qualifier.schoolName}</span>
         <span className="font-mono">rated {qualifier.rating} · L14 {r14.w}-{r14.l}</span>
       </div>
+      {winProb != null && (
+        <div className={`mt-1 text-[11px] font-semibold ${probCls}`}>
+          <span className="font-mono">{pct(winProb)}</span> probability of Clarkston win
+        </div>
+      )}
     </div>
   )
 }
