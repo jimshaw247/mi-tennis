@@ -11,6 +11,7 @@ import Leaderboard from './components/Leaderboard.jsx'
 import DrawSetup from './components/DrawSetup.jsx'
 import Gate, { isAdmin, logout } from './components/Gate.jsx'
 import SOSTab from './components/SOSTab.jsx'
+import SyncButton from './components/SyncButton.jsx'
 
 const TABS = [
   { id: 'board', label: 'Board' },
@@ -217,7 +218,8 @@ function AdminApp() {
         ))}
       </main>
 
-      <footer className="p-3 border-t border-slate-800 flex flex-wrap gap-2 text-xs">
+      <footer className="p-3 border-t border-slate-800 flex flex-wrap gap-2 text-xs items-center">
+        <SyncButton currentState={state} onApply={commit} divisionId={divisionId} />
         <button onClick={resetResults} className="px-2 py-1 rounded bg-slate-800 border border-slate-700">Reset results</button>
         <button onClick={resetAll} className="px-2 py-1 rounded bg-red-900/40 border border-red-700/60 text-red-200">Reset all</button>
         <button onClick={() => loadTest('Test Data A (75% of R2 done)', generateTestA)}

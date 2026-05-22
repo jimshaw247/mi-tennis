@@ -1,5 +1,5 @@
-// Scrape MHSAA D1 Girls State Finals 2025 brackets — all 8 flights.
-// Output: scraper/state-2025.json with parsed bracket data per flight.
+// Scrape MHSAA D1 Girls State Finals brackets — all 8 flights.
+// Output: scraper/state-{year}-{div}.json with parsed bracket data per flight.
 import { chromium } from 'playwright'
 import { writeFileSync, mkdirSync } from 'node:fs'
 import { dirname } from 'node:path'
@@ -8,18 +8,21 @@ import { fileURLToPath } from 'node:url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 // Per-year, per-division constants. Usage:
-//   node scrape-state.mjs                # defaults: 2025 D1
-//   node scrape-state.mjs D2             # 2025 D2 (needs DIVISIONS[D2] filled in)
+//   node scrape-state.mjs                # defaults: D1
+//   node scrape-state.mjs D2             # D2 (needs DIVISIONS[D2] filled in)
 //
-// Event 611 = MHSAA Finals Tournament-2025.
-// Division 995/996/997/998 = D1/D2/D3/D4 (verify per-year — these are 2025 values).
-// Host 2951 = State Finals-D1 (host IDs differ per division).
-const EVENT_ID = 611
+// 2026 values: Event 787 = MHSAA Finals Tournament-2026, division 1266 = D1,
+// host 3624 = State Finals-D1. /event/787 returned only D1 (girls finals), so
+// D2/D3/D4 hosts/divisions aren't in this endpoint — re-discover when needed.
+//
+// Historical 2025 values: event 611, divisions 995-998, hosts 2951-2954.
+const EVENT_ID = 787
+const YEAR = 2026
 const DIVISIONS = {
-  D1: { division: 995, host: 2951 },
-  D2: { division: 996, host: 2952 },
-  D3: { division: 997, host: 2953 },
-  D4: { division: 998, host: 2954 },
+  D1: { division: 1266, host: 3624 },
+  D2: { division: 1267, host: 3625 },
+  D3: { division: 1268, host: 3626 },
+  D4: { division: 1269, host: 3627 },
 }
 const TARGET = (process.argv[2] || 'D1').toUpperCase()
 const conf = DIVISIONS[TARGET]
@@ -134,5 +137,5 @@ for (const f of FLIGHTS) {
 }
 
 await browser.close()
-writeFileSync(`${__dirname}/state-2025-${OUT_SUFFIX}.json`, JSON.stringify(all, null, 2))
-console.log(`Wrote scraper/state-2025-${OUT_SUFFIX}.json`)
+writeFileSync(`${__dirname}/state-${YEAR}-${OUT_SUFFIX}.json`, JSON.stringify(all, null, 2))
+console.log(`Wrote scraper/state-${YEAR}-${OUT_SUFFIX}.json`)

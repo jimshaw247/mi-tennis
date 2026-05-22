@@ -1,0 +1,4705 @@
+{
+  "1S": {
+    "flight": {
+      "id": "1S",
+      "type": "Singles",
+      "flight": 1
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1266&host=3624&matchType=Singles&flight=1",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emerson Jones",
+                    "playerId": "193007"
+                  }
+                ],
+                "school": "Saline"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1281Emerson Jones SalineBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kelly Cook",
+                    "playerId": "149632"
+                  }
+                ],
+                "school": "Rochester"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alexa Mackovski",
+                    "playerId": "141873"
+                  }
+                ],
+                "school": "Romeo"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #127Kelly Cook RochesterAlexa Mackovski Romeo"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace Ferry",
+                    "playerId": "166069"
+                  }
+                ],
+                "school": "Rockford"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #126Grace Ferry RockfordBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jordyn Tomina",
+                    "playerId": "191239"
+                  }
+                ],
+                "school": "Bloomfield Hills"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #125Jordyn Tomina Bloomfield HillsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Isabella Portnoy",
+                    "playerId": "146970"
+                  }
+                ],
+                "school": "Okemos"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1244Isabella Portnoy OkemosBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anushka Hodaghatta-Yogesh",
+                    "playerId": "166403"
+                  }
+                ],
+                "school": "Farmington"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Angela He",
+                    "playerId": "188965"
+                  }
+                ],
+                "school": "Byron Center"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #123Anushka Hodaghatta-Yogesh FarmingtonAngela He Byron Center"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Rachel He",
+                    "playerId": "149171"
+                  }
+                ],
+                "school": "Ann Arbor Pioneer"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1225Rachel He Ann Arbor PioneerBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jhana Todorova",
+                    "playerId": "149175"
+                  }
+                ],
+                "school": "Troy Athens"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sophia Shipway",
+                    "playerId": "193506"
+                  }
+                ],
+                "school": "Northville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #121Jhana Todorova Troy AthensSophia Shipway Northville"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evie Price",
+                    "playerId": "144996"
+                  }
+                ],
+                "school": "Holland West Ottawa"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Olivia Watters",
+                    "playerId": "130882"
+                  }
+                ],
+                "school": "Ann Arbor Skyline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #120Evie Price Holland West OttawaOlivia Watters Ann Arbor Skyline"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alison Doka",
+                    "playerId": "126812"
+                  }
+                ],
+                "school": "Rochester Hills Stoney Creek"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #119BYE6Alison Doka Rochester Hills Stoney Creek"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Julia Xiao",
+                    "playerId": "189390"
+                  }
+                ],
+                "school": "Troy"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ariella Ferguson",
+                    "playerId": "170043"
+                  }
+                ],
+                "school": "West Bloomfield"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #118Julia Xiao TroyAriella Ferguson West Bloomfield"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kayla Lemke",
+                    "playerId": "145828"
+                  }
+                ],
+                "school": "Clarkston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #117BYE3Kayla Lemke Clarkston"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nikki Singh",
+                    "playerId": "148434"
+                  }
+                ],
+                "school": "Utica Ford"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #116BYENikki Singh Utica Ford"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Margie Glynn",
+                    "playerId": "161712"
+                  }
+                ],
+                "school": "Portage Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #115BYEMargie Glynn Portage Central"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Yifan Lin",
+                    "playerId": "197686"
+                  }
+                ],
+                "school": "Rochester Adams"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alice Wang",
+                    "playerId": "195531"
+                  }
+                ],
+                "school": "Novi"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #114Yifan Lin Rochester AdamsAlice Wang Novi"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gabriella  Sadowski",
+                    "playerId": "125195"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #113BYE2Gabriella Sadowski Utica Eisenhower"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #192"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #191"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #190"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #189"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #188"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #187"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #186"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #185"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #224"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #223"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #222"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #221"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #240"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #239"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #248"
+          }
+        ]
+      }
+    ]
+  },
+  "2S": {
+    "flight": {
+      "id": "2S",
+      "type": "Singles",
+      "flight": 2
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1266&host=3624&matchType=Singles&flight=2",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Morgan Emerick",
+                    "playerId": "164765"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1121Morgan Emerick Utica EisenhowerBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Talia Nishanian",
+                    "playerId": "124996"
+                  }
+                ],
+                "school": "Northville"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Marisa Kado",
+                    "playerId": "168293"
+                  }
+                ],
+                "school": "Utica Ford"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #111Talia Nishanian NorthvilleMarisa Kado Utica Ford"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mallory  Johnson",
+                    "playerId": "144560"
+                  }
+                ],
+                "school": "Byron Center"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #110Mallory Johnson Byron CenterBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Fiona Loverich",
+                    "playerId": "126390"
+                  }
+                ],
+                "school": "Saline"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #109Fiona Loverich SalineBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey Yu",
+                    "playerId": "149170"
+                  }
+                ],
+                "school": "Ann Arbor Pioneer"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1084Audrey Yu Ann Arbor PioneerBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ellena Tomaj",
+                    "playerId": "170042"
+                  }
+                ],
+                "school": "West Bloomfield"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Vittoria Fiorini",
+                    "playerId": "150030"
+                  }
+                ],
+                "school": "Rochester Adams"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #107Ellena Tomaj West BloomfieldVittoria Fiorini Rochester Adams"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adelie Chen",
+                    "playerId": "125726"
+                  }
+                ],
+                "school": "Portage Central"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1065Adelie Chen Portage CentralBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sophie Burns",
+                    "playerId": "125397"
+                  }
+                ],
+                "school": "Rockford"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jhoshi Prasath",
+                    "playerId": "145429"
+                  }
+                ],
+                "school": "Troy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #105Sophie Burns RockfordJhoshi Prasath Troy"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Hannah Jacob",
+                    "playerId": "191735"
+                  }
+                ],
+                "school": "Troy Athens"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Laine Jones",
+                    "playerId": "196046"
+                  }
+                ],
+                "school": "Clarkston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #104Hannah Jacob Troy AthensLaine Jones Clarkston"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sophia Tomina",
+                    "playerId": "145532"
+                  }
+                ],
+                "school": "Bloomfield Hills"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #103BYE6Sophia Tomina Bloomfield Hills"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kayleigh Deguzman",
+                    "playerId": "141874"
+                  }
+                ],
+                "school": "Romeo"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Rebecca  Liu",
+                    "playerId": "127338"
+                  }
+                ],
+                "school": "Novi"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #102Kayleigh Deguzman RomeoRebecca Liu Novi"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Isabella Gitler",
+                    "playerId": "186160"
+                  }
+                ],
+                "school": "Holland West Ottawa"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #101BYE3Isabella Gitler Holland West Ottawa"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emma Bardas",
+                    "playerId": "128899"
+                  }
+                ],
+                "school": "Rochester"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #100BYEEmma Bardas Rochester"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evangelina Ewing-Sohtun",
+                    "playerId": "169958"
+                  }
+                ],
+                "school": "Ann Arbor Skyline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #99BYEEvangelina Ewing-Sohtun Ann Arbor Skyline"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Leslie Bahk",
+                    "playerId": "126810"
+                  }
+                ],
+                "school": "Rochester Hills Stoney Creek"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Najah Araquil",
+                    "playerId": "192269"
+                  }
+                ],
+                "school": "Farmington"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #98Leslie Bahk Rochester Hills Stoney CreekNajah Araquil Farmington"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Isabelle  Hult",
+                    "playerId": "127008"
+                  }
+                ],
+                "school": "Okemos"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #97BYE2Isabelle Hult Okemos"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #184"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #183"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #182"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #181"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #180"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #179"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #178"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #177"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #220"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #219"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #218"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #217"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #238"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #237"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #247"
+          }
+        ]
+      }
+    ]
+  },
+  "3S": {
+    "flight": {
+      "id": "3S",
+      "type": "Singles",
+      "flight": 3
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1266&host=3624&matchType=Singles&flight=3",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aarna Betala",
+                    "playerId": "143558"
+                  }
+                ],
+                "school": "Portage Central"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #961Aarna Betala Portage CentralBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mia  Miller",
+                    "playerId": "148061"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ellis  Buchanan",
+                    "playerId": "126386"
+                  }
+                ],
+                "school": "Saline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #95Mia Miller Utica EisenhowerEllis Buchanan Saline"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anastasia Barodka",
+                    "playerId": "145430"
+                  }
+                ],
+                "school": "Troy"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #94Anastasia Barodka TroyBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Myah Trame",
+                    "playerId": "150034"
+                  }
+                ],
+                "school": "Rochester Adams"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #93Myah Trame Rochester AdamsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Abbie Zhu",
+                    "playerId": "197745"
+                  }
+                ],
+                "school": "Ann Arbor Pioneer"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #924Abbie Zhu Ann Arbor PioneerBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Katrina Kulish",
+                    "playerId": "164875"
+                  }
+                ],
+                "school": "Troy Athens"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ella  Fix",
+                    "playerId": "166070"
+                  }
+                ],
+                "school": "Rockford"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #91Katrina Kulish Troy AthensElla Fix Rockford"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evelyn Kalaydjian",
+                    "playerId": "124991"
+                  }
+                ],
+                "school": "Bloomfield Hills"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #905Evelyn Kalaydjian Bloomfield HillsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gabriella Farnese",
+                    "playerId": "123986"
+                  }
+                ],
+                "school": "Romeo"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Prashasti Pandey",
+                    "playerId": "147675"
+                  }
+                ],
+                "school": "Novi"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #89Gabriella Farnese RomeoPrashasti Pandey Novi"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Rosana Pantalena",
+                    "playerId": "168292"
+                  }
+                ],
+                "school": "Utica Ford"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jelena Donlic",
+                    "playerId": "166391"
+                  }
+                ],
+                "school": "Farmington"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #88Rosana Pantalena Utica FordJelena Donlic Farmington"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addison  Michalak",
+                    "playerId": "126811"
+                  }
+                ],
+                "school": "Rochester Hills Stoney Creek"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #87BYE6Addison Michalak Rochester Hills Stoney Creek"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Harper Jones",
+                    "playerId": "145829"
+                  }
+                ],
+                "school": "Clarkston"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Eden Lee",
+                    "playerId": "143524"
+                  }
+                ],
+                "school": "Ann Arbor Skyline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #86Harper Jones ClarkstonEden Lee Ann Arbor Skyline"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sydney Shafer",
+                    "playerId": "186172"
+                  }
+                ],
+                "school": "Holland West Ottawa"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #85BYE3Sydney Shafer Holland West Ottawa"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Tiffany Patalinghug",
+                    "playerId": "167768"
+                  }
+                ],
+                "school": "Rochester"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #84BYETiffany Patalinghug Rochester"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ishika  Shah",
+                    "playerId": "189794"
+                  }
+                ],
+                "school": "Okemos"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #83BYEIshika Shah Okemos"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kristina Ha",
+                    "playerId": "144559"
+                  }
+                ],
+                "school": "Byron Center"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Bella  Kuzminsky",
+                    "playerId": "126434"
+                  }
+                ],
+                "school": "West Bloomfield"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #82Kristina Ha Byron CenterBella Kuzminsky West Bloomfield"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Grace Xu",
+                    "playerId": "170518"
+                  }
+                ],
+                "school": "Northville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #81BYE2Grace Xu Northville"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #176"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #175"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #174"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #173"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #172"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #171"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #170"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #169"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #216"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #215"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #214"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #213"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #236"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #235"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:02/25/2026Match #246"
+          }
+        ]
+      }
+    ]
+  },
+  "4S": {
+    "flight": {
+      "id": "4S",
+      "type": "Singles",
+      "flight": 4
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1266&host=3624&matchType=Singles&flight=4",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jilly Knoester",
+                    "playerId": "191721"
+                  }
+                ],
+                "school": "Rochester"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #801Jilly Knoester RochesterBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Luciana Williams",
+                    "playerId": "196140"
+                  }
+                ],
+                "school": "Ann Arbor Skyline"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aarya Newalker",
+                    "playerId": "171408"
+                  }
+                ],
+                "school": "Rochester Hills Stoney Creek"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #79Luciana Williams Ann Arbor SkylineAarya Newalker Rochester Hills Stoney Creek"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emmaline Strange",
+                    "playerId": "192145"
+                  }
+                ],
+                "school": "West Bloomfield"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #78Emmaline Strange West BloomfieldBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ella Bajric",
+                    "playerId": "169683"
+                  }
+                ],
+                "school": "Utica Ford"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #77Ella Bajric Utica FordBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sana Panchal",
+                    "playerId": "193503"
+                  }
+                ],
+                "school": "Northville"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #764Sana Panchal NorthvilleBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Haneesha  Padavala",
+                    "playerId": "168236"
+                  }
+                ],
+                "school": "Okemos"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Isabella Apone",
+                    "playerId": "126388"
+                  }
+                ],
+                "school": "Saline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #75Haneesha Padavala OkemosIsabella Apone Saline"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Maggie Rothstein",
+                    "playerId": "125157"
+                  }
+                ],
+                "school": "Holland West Ottawa"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #745Maggie Rothstein Holland West OttawaBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ava Velilla",
+                    "playerId": "170657"
+                  }
+                ],
+                "school": "Rochester Adams"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Rohini Jampala",
+                    "playerId": "164874"
+                  }
+                ],
+                "school": "Troy Athens"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #73Ava Velilla Rochester AdamsRohini Jampala Troy Athens"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Miriam Dukhan",
+                    "playerId": "166399"
+                  }
+                ],
+                "school": "Farmington"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mary Wesley",
+                    "playerId": "141879"
+                  }
+                ],
+                "school": "Romeo"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:02/25/2026Match #72Miriam Dukhan FarmingtonMary Wesley Romeo"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nina Shaye",
+                    "playerId": "161710"
+                  }
+                ],
+                "school": "Portage Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:02/25/2026Match #71BYE6Nina Shaye Portage Central"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Maryam Majjhoo",
+                    "playerId": "189394"
+                  }
+                ],
+                "school": "Troy"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lilly  Bajema",
+                    "playerId": "191165"
+                  }
+                ],
+                "school": "Rockford"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #70Maryam Majjhoo TroyLilly Bajema Rockford"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Natalia Alcaine",
+                    "playerId": "197740"
+                  }
+                ],
+                "school": "Ann Arbor Pioneer"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #69BYE3Natalia Alcaine Ann Arbor Pioneer"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Tsubasa Ishibashi",
+                    "playerId": "169450"
+                  }
+                ],
+                "school": "Novi"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #68BYETsubasa Ishibashi Novi"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alexandra Pascarella",
+                    "playerId": "191237"
+                  }
+                ],
+                "school": "Bloomfield Hills"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #67BYEAlexandra Pascarella Bloomfield Hills"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Rylie Hull",
+                    "playerId": "163928"
+                  }
+                ],
+                "school": "Byron Center"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Aurora Gonzalvo",
+                    "playerId": "196043"
+                  }
+                ],
+                "school": "Clarkston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #66Rylie Hull Byron CenterAurora Gonzalvo Clarkston"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sofia Gardner",
+                    "playerId": "125197"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #65BYE2Sofia Gardner Utica Eisenhower"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #168"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #167"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:02/25/2026Match #166"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #165"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #164"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #163"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #162"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sofia Gardner",
+                    "playerId": "125197"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1612Sofia Gardner Utica Eisenhower"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #212"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #211"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #210"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #209"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #234"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #233"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #245"
+          }
+        ]
+      }
+    ]
+  },
+  "1D": {
+    "flight": {
+      "id": "1D",
+      "type": "Doubles",
+      "flight": 1
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1266&host=3624&matchType=Doubles&flight=1",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Larissa Yoshino",
+                    "playerId": "150307"
+                  },
+                  {
+                    "name": "Yousong Choi",
+                    "playerId": "171407"
+                  }
+                ],
+                "school": "Rochester Hills Stoney Creek"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #641Larissa Yoshino/Yousong Choi Rochester Hills Stoney CreekBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kate Wolfe",
+                    "playerId": "143525"
+                  },
+                  {
+                    "name": "Allison Lee",
+                    "playerId": "169964"
+                  }
+                ],
+                "school": "Ann Arbor Skyline"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Delaney Brager",
+                    "playerId": "170923"
+                  },
+                  {
+                    "name": "Sara Joyce",
+                    "playerId": "148809"
+                  }
+                ],
+                "school": "West Bloomfield"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #63Kate Wolfe/Allison Lee Ann Arbor SkylineDelaney Brager/Sara Joyce West Bloomfield"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Julia Rypma",
+                    "playerId": "143567"
+                  },
+                  {
+                    "name": "Maya Gutshall",
+                    "playerId": "143560"
+                  }
+                ],
+                "school": "Portage Central"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:02/25/2026Match #62Julia Rypma/Maya Gutshall Portage CentralBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sharon Okoh",
+                    "playerId": "163927"
+                  },
+                  {
+                    "name": "Natalie Rutgers",
+                    "playerId": "144563"
+                  }
+                ],
+                "school": "Byron Center"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #61Sharon Okoh/Natalie Rutgers Byron CenterBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alexis  Gabriel",
+                    "playerId": "125198"
+                  },
+                  {
+                    "name": "Kara Lu",
+                    "playerId": "148060"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #604Alexis Gabriel/Kara Lu Utica EisenhowerBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kaitlyn Garon",
+                    "playerId": "148435"
+                  },
+                  {
+                    "name": "Layla Bajric",
+                    "playerId": "169121"
+                  }
+                ],
+                "school": "Utica Ford"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Leah Bersuder",
+                    "playerId": "193009"
+                  },
+                  {
+                    "name": "Harper Green",
+                    "playerId": "193010"
+                  }
+                ],
+                "school": "Saline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #59Kaitlyn Garon/Layla Bajric Utica FordLeah Bersuder/Harper Green Saline"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Madeline Baker",
+                    "playerId": "168341"
+                  },
+                  {
+                    "name": "Ruhi Balaji",
+                    "playerId": "168333"
+                  }
+                ],
+                "school": "Bloomfield Hills"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #585Madeline Baker/Ruhi Balaji Bloomfield HillsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kallyn Gaul",
+                    "playerId": "125158"
+                  },
+                  {
+                    "name": "Lovelle Kim",
+                    "playerId": "125159"
+                  }
+                ],
+                "school": "Holland West Ottawa"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Maia Bak",
+                    "playerId": "152497"
+                  },
+                  {
+                    "name": "Elizabeth  Bolotov",
+                    "playerId": "152498"
+                  }
+                ],
+                "school": "Rochester Adams"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #57Kallyn Gaul/Lovelle Kim Holland West OttawaMaia Bak/Elizabeth Bolotov Rochester Adams"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Carol Brust Arima",
+                    "playerId": "128898"
+                  },
+                  {
+                    "name": "Noorah Qadri",
+                    "playerId": "191723"
+                  }
+                ],
+                "school": "Rochester"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anaya Patel",
+                    "playerId": "168239"
+                  },
+                  {
+                    "name": "Nishika Subesh",
+                    "playerId": "168240"
+                  }
+                ],
+                "school": "Okemos"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #56Carol Brust Arima/Noorah Qadri RochesterAnaya Patel/Nishika Subesh Okemos"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Samaara  George",
+                    "playerId": "127340"
+                  },
+                  {
+                    "name": "Kyra  Thomas",
+                    "playerId": "127339"
+                  }
+                ],
+                "school": "Novi"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #55BYE6Samaara George/Kyra Thomas Novi"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Isabella Sivuchin",
+                    "playerId": "164873"
+                  },
+                  {
+                    "name": "Sophia Lu",
+                    "playerId": "191731"
+                  }
+                ],
+                "school": "Troy Athens"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Victoria Weingartz",
+                    "playerId": "131267"
+                  },
+                  {
+                    "name": "Emma Rosenow",
+                    "playerId": "141877"
+                  }
+                ],
+                "school": "Romeo"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #54Isabella Sivuchin/Sophia Lu Troy AthensVictoria Weingartz/Emma Rosenow Romeo"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emmi Dober",
+                    "playerId": "146344"
+                  },
+                  {
+                    "name": "Makenzie McPhail",
+                    "playerId": "193504"
+                  }
+                ],
+                "school": "Northville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #53BYE3Emmi Dober/Makenzie McPhail Northville"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gabriela Stakvel",
+                    "playerId": "124789"
+                  },
+                  {
+                    "name": "Aubrey Wods",
+                    "playerId": "170771"
+                  }
+                ],
+                "school": "Farmington"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #52BYEGabriela Stakvel/Aubrey Wods Farmington"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jessica Primus",
+                    "playerId": "127707"
+                  },
+                  {
+                    "name": "Audrey Johnson",
+                    "playerId": "197742"
+                  }
+                ],
+                "school": "Ann Arbor Pioneer"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #51BYEJessica Primus/Audrey Johnson Ann Arbor Pioneer"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Carlie Wegener",
+                    "playerId": "143879"
+                  },
+                  {
+                    "name": "Sadie  Debski",
+                    "playerId": "145378"
+                  }
+                ],
+                "school": "Rockford"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lily Haviland",
+                    "playerId": "169754"
+                  },
+                  {
+                    "name": "Annabelle Shaw",
+                    "playerId": "196041"
+                  }
+                ],
+                "school": "Clarkston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #50Carlie Wegener/Sadie Debski RockfordLily Haviland/Annabelle Shaw Clarkston"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nainika Jasti",
+                    "playerId": "125127"
+                  },
+                  {
+                    "name": "Hannah Wanstreet",
+                    "playerId": "169170"
+                  }
+                ],
+                "school": "Troy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #49BYE2Nainika Jasti/Hannah Wanstreet Troy"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #160"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #159"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:02/25/2026Match #158"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #157"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #156"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #155"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #154"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #153"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #208"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #207"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #206"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #205"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #232"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #231"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #244"
+          }
+        ]
+      }
+    ]
+  },
+  "2D": {
+    "flight": {
+      "id": "2D",
+      "type": "Doubles",
+      "flight": 2
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1266&host=3624&matchType=Doubles&flight=2",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sravya Doppalapudi",
+                    "playerId": "146348"
+                  },
+                  {
+                    "name": "Francine Ong",
+                    "playerId": "146346"
+                  }
+                ],
+                "school": "Northville"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #481Sravya Doppalapudi/Francine Ong NorthvilleBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Maria Khami",
+                    "playerId": "148062"
+                  },
+                  {
+                    "name": "Alexis  Turnquist",
+                    "playerId": "195422"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Hope  Hughes",
+                    "playerId": "144997"
+                  },
+                  {
+                    "name": "Haylee Geerlings",
+                    "playerId": "164462"
+                  }
+                ],
+                "school": "Holland West Ottawa"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #47Maria Khami/Alexis Turnquist Utica EisenhowerHope Hughes/Haylee Geerlings Holland West Ottawa"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ananya Sankar",
+                    "playerId": "147112"
+                  },
+                  {
+                    "name": "Sona Cranson",
+                    "playerId": "192272"
+                  }
+                ],
+                "school": "Farmington"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #46Ananya Sankar/Sona Cranson FarmingtonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Carmen Pangilinan",
+                    "playerId": "126389"
+                  },
+                  {
+                    "name": "Abby Bryan",
+                    "playerId": "145472"
+                  }
+                ],
+                "school": "Saline"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #45Carmen Pangilinan/Abby Bryan SalineBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Leah Goldstein",
+                    "playerId": "168332"
+                  },
+                  {
+                    "name": "Marissa Ammori",
+                    "playerId": "168342"
+                  }
+                ],
+                "school": "Bloomfield Hills"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #444Leah Goldstein/Marissa Ammori Bloomfield HillsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Adeline Munson",
+                    "playerId": "150805"
+                  },
+                  {
+                    "name": "Audrey Patterson",
+                    "playerId": "150806"
+                  }
+                ],
+                "school": "Ann Arbor Pioneer"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sujana Chitibomma",
+                    "playerId": "168243"
+                  },
+                  {
+                    "name": "Abhi Etikyala",
+                    "playerId": "168244"
+                  }
+                ],
+                "school": "Okemos"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #43Adeline Munson/Audrey Patterson Ann Arbor PioneerSujana Chitibomma/Abhi Etikyala Okemos"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Monika Camaj",
+                    "playerId": "150037"
+                  },
+                  {
+                    "name": "Joanna Ouyang",
+                    "playerId": "150041"
+                  }
+                ],
+                "school": "Rochester Adams"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #425Monika Camaj/Joanna Ouyang Rochester AdamsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey Wilburn",
+                    "playerId": "150309"
+                  },
+                  {
+                    "name": "Helena Tumonis",
+                    "playerId": "171409"
+                  }
+                ],
+                "school": "Rochester Hills Stoney Creek"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Olivia Stepien",
+                    "playerId": "149182"
+                  },
+                  {
+                    "name": "Bhakti Mavanthoor",
+                    "playerId": "126233"
+                  }
+                ],
+                "school": "Troy Athens"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #41Audrey Wilburn/Helena Tumonis Rochester Hills Stoney CreekOlivia Stepien/Bhakti Mavanthoor Troy Athens"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Avalina Ronfeldt",
+                    "playerId": "196147"
+                  },
+                  {
+                    "name": "Leah Barnocki",
+                    "playerId": "148680"
+                  }
+                ],
+                "school": "Ann Arbor Skyline"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Maddie Chang",
+                    "playerId": "191722"
+                  },
+                  {
+                    "name": "Claire Shin",
+                    "playerId": "130429"
+                  }
+                ],
+                "school": "Rochester"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #40Avalina Ronfeldt/Leah Barnocki Ann Arbor SkylineMaddie Chang/Claire Shin Rochester"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Matilda Beck",
+                    "playerId": "143557"
+                  },
+                  {
+                    "name": "Violet Hunter",
+                    "playerId": "143561"
+                  }
+                ],
+                "school": "Portage Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #39BYE6Matilda Beck/Violet Hunter Portage Central"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Jillian  Vanderhorst",
+                    "playerId": "144565"
+                  },
+                  {
+                    "name": "Syd DeVos",
+                    "playerId": "163929"
+                  }
+                ],
+                "school": "Byron Center"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lila Costello",
+                    "playerId": "148810"
+                  },
+                  {
+                    "name": "Sophia Zhalob",
+                    "playerId": "151389"
+                  }
+                ],
+                "school": "West Bloomfield"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #38Jillian Vanderhorst/Syd DeVos Byron CenterLila Costello/Sophia Zhalob West Bloomfield"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Angela  Zhang",
+                    "playerId": "145427"
+                  },
+                  {
+                    "name": "Sophie Wanstreet",
+                    "playerId": "169169"
+                  }
+                ],
+                "school": "Troy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #37BYE3Angela Zhang/Sophie Wanstreet Troy"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Vanessa Rollenhagen",
+                    "playerId": "191168"
+                  },
+                  {
+                    "name": "Sienna Maag",
+                    "playerId": "191167"
+                  }
+                ],
+                "school": "Rockford"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #36BYEVanessa Rollenhagen/Sienna Maag Rockford"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Hailey Rohrborn",
+                    "playerId": "141880"
+                  },
+                  {
+                    "name": "Eve Eschenburg",
+                    "playerId": "131268"
+                  }
+                ],
+                "school": "Romeo"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #35BYEHailey Rohrborn/Eve Eschenburg Romeo"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Taylor Denz",
+                    "playerId": "168294"
+                  },
+                  {
+                    "name": "Brooke Zupan",
+                    "playerId": "152444"
+                  }
+                ],
+                "school": "Utica Ford"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emily Goodrich",
+                    "playerId": "169752"
+                  },
+                  {
+                    "name": "Emma Sardelli",
+                    "playerId": "196042"
+                  }
+                ],
+                "school": "Clarkston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #34Taylor Denz/Brooke Zupan Utica FordEmily Goodrich/Emma Sardelli Clarkston"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emily  Backus",
+                    "playerId": "147673"
+                  },
+                  {
+                    "name": "Sruthi Karthik",
+                    "playerId": "169449"
+                  }
+                ],
+                "school": "Novi"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #33BYE2Emily Backus/Sruthi Karthik Novi"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sravya Doppalapudi",
+                    "playerId": "146348"
+                  },
+                  {
+                    "name": "Francine Ong",
+                    "playerId": "146346"
+                  }
+                ],
+                "school": "Northville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1521Sravya Doppalapudi/Francine Ong Northville"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ananya Sankar",
+                    "playerId": "147112"
+                  },
+                  {
+                    "name": "Sona Cranson",
+                    "playerId": "192272"
+                  }
+                ],
+                "school": "Farmington"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Carmen Pangilinan",
+                    "playerId": "126389"
+                  },
+                  {
+                    "name": "Abby Bryan",
+                    "playerId": "145472"
+                  }
+                ],
+                "school": "Saline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #151Ananya Sankar/Sona Cranson FarmingtonCarmen Pangilinan/Abby Bryan Saline"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Leah Goldstein",
+                    "playerId": "168332"
+                  },
+                  {
+                    "name": "Marissa Ammori",
+                    "playerId": "168342"
+                  }
+                ],
+                "school": "Bloomfield Hills"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1504Leah Goldstein/Marissa Ammori Bloomfield Hills"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Monika Camaj",
+                    "playerId": "150037"
+                  },
+                  {
+                    "name": "Joanna Ouyang",
+                    "playerId": "150041"
+                  }
+                ],
+                "school": "Rochester Adams"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1495Monika Camaj/Joanna Ouyang Rochester Adams"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Matilda Beck",
+                    "playerId": "143557"
+                  },
+                  {
+                    "name": "Violet Hunter",
+                    "playerId": "143561"
+                  }
+                ],
+                "school": "Portage Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1486Matilda Beck/Violet Hunter Portage Central"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Angela  Zhang",
+                    "playerId": "145427"
+                  },
+                  {
+                    "name": "Sophie Wanstreet",
+                    "playerId": "169169"
+                  }
+                ],
+                "school": "Troy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:02/25/2026Match #1473Angela Zhang/Sophie Wanstreet Troy"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Vanessa Rollenhagen",
+                    "playerId": "191168"
+                  },
+                  {
+                    "name": "Sienna Maag",
+                    "playerId": "191167"
+                  }
+                ],
+                "school": "Rockford"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Hailey Rohrborn",
+                    "playerId": "141880"
+                  },
+                  {
+                    "name": "Eve Eschenburg",
+                    "playerId": "131268"
+                  }
+                ],
+                "school": "Romeo"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #146Vanessa Rollenhagen/Sienna Maag RockfordHailey Rohrborn/Eve Eschenburg Romeo"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emily  Backus",
+                    "playerId": "147673"
+                  },
+                  {
+                    "name": "Sruthi Karthik",
+                    "playerId": "169449"
+                  }
+                ],
+                "school": "Novi"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1452Emily Backus/Sruthi Karthik Novi"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #204"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #203"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #202"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #201"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #230"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #229"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #243"
+          }
+        ]
+      }
+    ]
+  },
+  "3D": {
+    "flight": {
+      "id": "3D",
+      "type": "Doubles",
+      "flight": 3
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1266&host=3624&matchType=Doubles&flight=3",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Maryn Etheridge",
+                    "playerId": "171218"
+                  },
+                  {
+                    "name": "Ayla Altinsel",
+                    "playerId": "171219"
+                  }
+                ],
+                "school": "Ann Arbor Pioneer"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #321Maryn Etheridge/Ayla Altinsel Ann Arbor PioneerBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Avantika Nair",
+                    "playerId": "164763"
+                  },
+                  {
+                    "name": "Ava VanSweden",
+                    "playerId": "143563"
+                  }
+                ],
+                "school": "Portage Central"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Addyson Schad",
+                    "playerId": "191170"
+                  },
+                  {
+                    "name": "Evian Lund",
+                    "playerId": "191166"
+                  }
+                ],
+                "school": "Rockford"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #31Avantika Nair/Ava VanSweden Portage CentralAddyson Schad/Evian Lund Rockford"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kendall Markham",
+                    "playerId": "167766"
+                  },
+                  {
+                    "name": "Vivienne  Probst",
+                    "playerId": "168529"
+                  }
+                ],
+                "school": "Rochester"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #30Kendall Markham/Vivienne Probst RochesterBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Danya Asmar",
+                    "playerId": "171391"
+                  },
+                  {
+                    "name": "Gaia DeMeester",
+                    "playerId": "165752"
+                  }
+                ],
+                "school": "Farmington"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #29Danya Asmar/Gaia DeMeester FarmingtonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mathanghi Ram",
+                    "playerId": "169455"
+                  },
+                  {
+                    "name": "Rujuta Deshpande",
+                    "playerId": "169451"
+                  }
+                ],
+                "school": "Novi"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #284Mathanghi Ram/Rujuta Deshpande NoviBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Saraiah Okoh",
+                    "playerId": "144562"
+                  },
+                  {
+                    "name": "Avery  Hustak",
+                    "playerId": "163931"
+                  }
+                ],
+                "school": "Byron Center"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alexandra Warner",
+                    "playerId": "169669"
+                  },
+                  {
+                    "name": "Nishi Patel",
+                    "playerId": "193014"
+                  }
+                ],
+                "school": "Saline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:02/25/2026Match #27Saraiah Okoh/Avery Hustak Byron CenterAlexandra Warner/Nishi Patel Saline"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Carissa Hurnevich",
+                    "playerId": "145536"
+                  },
+                  {
+                    "name": "Jordyn Goldstein",
+                    "playerId": "168339"
+                  }
+                ],
+                "school": "Bloomfield Hills"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #265Carissa Hurnevich/Jordyn Goldstein Bloomfield HillsBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nikhita Chanchali",
+                    "playerId": "195727"
+                  },
+                  {
+                    "name": "Gabby Schramski",
+                    "playerId": "150308"
+                  }
+                ],
+                "school": "Rochester Hills Stoney Creek"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Emily Moon",
+                    "playerId": "189389"
+                  },
+                  {
+                    "name": "Silvia Mallavarapu",
+                    "playerId": "189392"
+                  }
+                ],
+                "school": "Troy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #25Nikhita Chanchali/Gabby Schramski Rochester Hills Stoney CreekEmily Moon/Silvia Mallavarapu Troy"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chandu Ballem",
+                    "playerId": "168241"
+                  },
+                  {
+                    "name": "Vaishnavi Saravanan",
+                    "playerId": "189795"
+                  }
+                ],
+                "school": "Okemos"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Morgan  Dorsey",
+                    "playerId": "170655"
+                  },
+                  {
+                    "name": "Adriana Palazzolo",
+                    "playerId": "150039"
+                  }
+                ],
+                "school": "Rochester Adams"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #24Chandu Ballem/Vaishnavi Saravanan OkemosMorgan Dorsey/Adriana Palazzolo Rochester Adams"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Olivia Martinovski",
+                    "playerId": "164766"
+                  },
+                  {
+                    "name": "Addison  Dupuis",
+                    "playerId": "148546"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #23BYE6Olivia Martinovski/Addison Dupuis Utica Eisenhower"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Scarlett Stetson",
+                    "playerId": "196148"
+                  },
+                  {
+                    "name": "Violet Arthur",
+                    "playerId": "196144"
+                  }
+                ],
+                "school": "Ann Arbor Skyline"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Julianna Petrous",
+                    "playerId": "164876"
+                  },
+                  {
+                    "name": "Jinal Patel",
+                    "playerId": "149191"
+                  }
+                ],
+                "school": "Troy Athens"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #22Scarlett Stetson/Violet Arthur Ann Arbor SkylineJulianna Petrous/Jinal Patel Troy Athens"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey Anderson",
+                    "playerId": "164463"
+                  },
+                  {
+                    "name": "Olivia Smith",
+                    "playerId": "164461"
+                  }
+                ],
+                "school": "Holland West Ottawa"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #21BYE3Audrey Anderson/Olivia Smith Holland West Ottawa"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ava Ebling",
+                    "playerId": "152096"
+                  },
+                  {
+                    "name": "Addison Graves",
+                    "playerId": "196044"
+                  }
+                ],
+                "school": "Clarkston"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #20BYEAva Ebling/Addison Graves Clarkston"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Dakota Rottman",
+                    "playerId": "163282"
+                  },
+                  {
+                    "name": "Lauren Cross",
+                    "playerId": "141882"
+                  }
+                ],
+                "school": "Romeo"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #19BYEDakota Rottman/Lauren Cross Romeo"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Eva Latvenas",
+                    "playerId": "170045"
+                  },
+                  {
+                    "name": "Matilda Edvardsson",
+                    "playerId": "150203"
+                  }
+                ],
+                "school": "West Bloomfield"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sarah Borland",
+                    "playerId": "148450"
+                  },
+                  {
+                    "name": "Jaclyn Dudde",
+                    "playerId": "148437"
+                  }
+                ],
+                "school": "Utica Ford"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #18Eva Latvenas/Matilda Edvardsson West BloomfieldSarah Borland/Jaclyn Dudde Utica Ford"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lucia Lachapelle",
+                    "playerId": "170519"
+                  },
+                  {
+                    "name": "Aadya Pullalarevu",
+                    "playerId": "146347"
+                  }
+                ],
+                "school": "Northville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #17BYE2Lucia Lachapelle/Aadya Pullalarevu Northville"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Maryn Etheridge",
+                    "playerId": "171218"
+                  },
+                  {
+                    "name": "Ayla Altinsel",
+                    "playerId": "171219"
+                  }
+                ],
+                "school": "Ann Arbor Pioneer"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1441Maryn Etheridge/Ayla Altinsel Ann Arbor Pioneer"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Kendall Markham",
+                    "playerId": "167766"
+                  },
+                  {
+                    "name": "Vivienne  Probst",
+                    "playerId": "168529"
+                  }
+                ],
+                "school": "Rochester"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Danya Asmar",
+                    "playerId": "171391"
+                  },
+                  {
+                    "name": "Gaia DeMeester",
+                    "playerId": "165752"
+                  }
+                ],
+                "school": "Farmington"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #143Kendall Markham/Vivienne Probst RochesterDanya Asmar/Gaia DeMeester Farmington"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mathanghi Ram",
+                    "playerId": "169455"
+                  },
+                  {
+                    "name": "Rujuta Deshpande",
+                    "playerId": "169451"
+                  }
+                ],
+                "school": "Novi"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1424Mathanghi Ram/Rujuta Deshpande Novi"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Carissa Hurnevich",
+                    "playerId": "145536"
+                  },
+                  {
+                    "name": "Jordyn Goldstein",
+                    "playerId": "168339"
+                  }
+                ],
+                "school": "Bloomfield Hills"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1415Carissa Hurnevich/Jordyn Goldstein Bloomfield Hills"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Olivia Martinovski",
+                    "playerId": "164766"
+                  },
+                  {
+                    "name": "Addison  Dupuis",
+                    "playerId": "148546"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1406Olivia Martinovski/Addison Dupuis Utica Eisenhower"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Audrey Anderson",
+                    "playerId": "164463"
+                  },
+                  {
+                    "name": "Olivia Smith",
+                    "playerId": "164461"
+                  }
+                ],
+                "school": "Holland West Ottawa"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:02/25/2026Match #1393Audrey Anderson/Olivia Smith Holland West Ottawa"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Ava Ebling",
+                    "playerId": "152096"
+                  },
+                  {
+                    "name": "Addison Graves",
+                    "playerId": "196044"
+                  }
+                ],
+                "school": "Clarkston"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Dakota Rottman",
+                    "playerId": "163282"
+                  },
+                  {
+                    "name": "Lauren Cross",
+                    "playerId": "141882"
+                  }
+                ],
+                "school": "Romeo"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #138Ava Ebling/Addison Graves ClarkstonDakota Rottman/Lauren Cross Romeo"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Lucia Lachapelle",
+                    "playerId": "170519"
+                  },
+                  {
+                    "name": "Aadya Pullalarevu",
+                    "playerId": "146347"
+                  }
+                ],
+                "school": "Northville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1372Lucia Lachapelle/Aadya Pullalarevu Northville"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #200"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #199"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #198"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #197"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #228"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #227"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #242"
+          }
+        ]
+      }
+    ]
+  },
+  "4D": {
+    "flight": {
+      "id": "4D",
+      "type": "Doubles",
+      "flight": 4
+    },
+    "url": "https://tennisreporting.com/event/brackets/787?division=1266&host=3624&matchType=Doubles&flight=4",
+    "rounds": [
+      {
+        "heading": "Round 1",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Michelle Lee",
+                    "playerId": "124994"
+                  },
+                  {
+                    "name": "Emma  Murphy",
+                    "playerId": "146345"
+                  }
+                ],
+                "school": "Northville"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #161Michelle Lee/Emma Murphy NorthvilleBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Merisa Grebovic",
+                    "playerId": "164872"
+                  },
+                  {
+                    "name": "Gia Vidyanandan",
+                    "playerId": "191734"
+                  }
+                ],
+                "school": "Troy Athens"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anna Tomaszewski",
+                    "playerId": "169668"
+                  },
+                  {
+                    "name": "Leela Dean",
+                    "playerId": "169665"
+                  }
+                ],
+                "school": "Saline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #15Merisa Grebovic/Gia Vidyanandan Troy AthensAnna Tomaszewski/Leela Dean Saline"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evelyn Jones",
+                    "playerId": "141878"
+                  },
+                  {
+                    "name": "Christina Rosenow",
+                    "playerId": "141883"
+                  }
+                ],
+                "school": "Romeo"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #14Evelyn Jones/Christina Rosenow RomeoBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Paige Alexsander",
+                    "playerId": "171431"
+                  },
+                  {
+                    "name": "Eleanor Tipton",
+                    "playerId": "192285"
+                  }
+                ],
+                "school": "Farmington"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #13Paige Alexsander/Eleanor Tipton FarmingtonBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alaina Wood",
+                    "playerId": "195423"
+                  },
+                  {
+                    "name": "Anna Dukaj",
+                    "playerId": "172804"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #124Alaina Wood /Anna Dukaj Utica EisenhowerBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nisha Yevate",
+                    "playerId": "167770"
+                  },
+                  {
+                    "name": "Alicia  D'Silva",
+                    "playerId": "191724"
+                  }
+                ],
+                "school": "Rochester"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Bonnia Chen",
+                    "playerId": "172969"
+                  },
+                  {
+                    "name": "Ellie Roussin",
+                    "playerId": "143566"
+                  }
+                ],
+                "school": "Portage Central"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #11Nisha Yevate/Alicia D'Silva RochesterBonnia Chen/Ellie Roussin Portage Central"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Svetlana Ilinich",
+                    "playerId": "151383"
+                  },
+                  {
+                    "name": "Aahana Ashok",
+                    "playerId": "127341"
+                  }
+                ],
+                "school": "Novi"
+              },
+              {
+                "type": "bye"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #105Svetlana Ilinich/Aahana Ashok NoviBYE"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amelia Grace",
+                    "playerId": "191235"
+                  },
+                  {
+                    "name": "Adriana Foumia",
+                    "playerId": "168327"
+                  }
+                ],
+                "school": "Bloomfield Hills"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Fiona  Vu",
+                    "playerId": "166963"
+                  },
+                  {
+                    "name": "Heather Kuipers",
+                    "playerId": "163930"
+                  }
+                ],
+                "school": "Byron Center"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #9Amelia Grace/Adriana Foumia Bloomfield HillsFiona Vu/Heather Kuipers Byron Center"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Amelia Garvin",
+                    "playerId": "196045"
+                  },
+                  {
+                    "name": "Anna Katakowski",
+                    "playerId": "196047"
+                  }
+                ],
+                "school": "Clarkston"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Gina Tavolacci",
+                    "playerId": "197076"
+                  },
+                  {
+                    "name": "Savana Tobia",
+                    "playerId": "197075"
+                  }
+                ],
+                "school": "Utica Ford"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #8Amelia Garvin/Anna Katakowski ClarkstonGina Tavolacci/Savana Tobia Utica Ford"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mira Kustarz",
+                    "playerId": "146813"
+                  },
+                  {
+                    "name": "Maja Kwaiser",
+                    "playerId": "169960"
+                  }
+                ],
+                "school": "Ann Arbor Skyline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #7BYE6Mira Kustarz/Maja Kwaiser Ann Arbor Skyline"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mallory Paff",
+                    "playerId": "164464"
+                  },
+                  {
+                    "name": "Hope Sikorski",
+                    "playerId": "173149"
+                  }
+                ],
+                "school": "Holland West Ottawa"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Anisha Khoje",
+                    "playerId": "168238"
+                  },
+                  {
+                    "name": "Muskan Banga",
+                    "playerId": "168242"
+                  }
+                ],
+                "school": "Okemos"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #6Mallory Paff/Hope Sikorski Holland West OttawaAnisha Khoje/Muskan Banga Okemos"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Madison Alcaine",
+                    "playerId": "197739"
+                  },
+                  {
+                    "name": "Emma Korvun",
+                    "playerId": "171217"
+                  }
+                ],
+                "school": "Ann Arbor Pioneer"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #5BYE3Madison Alcaine/Emma Korvun Ann Arbor Pioneer"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Elizondo",
+                    "playerId": "166071"
+                  },
+                  {
+                    "name": "Aubrey Rosebery",
+                    "playerId": "145380"
+                  }
+                ],
+                "school": "Rockford"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #4BYEChloe Elizondo/Aubrey Rosebery Rockford"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sabrina Mathew",
+                    "playerId": "192146"
+                  },
+                  {
+                    "name": "Manya Goldstein",
+                    "playerId": "170041"
+                  }
+                ],
+                "school": "West Bloomfield"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #3BYESabrina Mathew/Manya Goldstein West Bloomfield"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mia Rai",
+                    "playerId": "170656"
+                  },
+                  {
+                    "name": "Arin Lee",
+                    "playerId": "197690"
+                  }
+                ],
+                "school": "Rochester Adams"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Nayoon Lee",
+                    "playerId": "150312"
+                  },
+                  {
+                    "name": "Anna Felice",
+                    "playerId": "152668"
+                  }
+                ],
+                "school": "Rochester Hills Stoney Creek"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #2Mia Rai/Arin Lee Rochester AdamsNayoon Lee/Anna Felice Rochester Hills Stoney Creek"
+          },
+          {
+            "sides": [
+              {
+                "type": "bye"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Arya Iyer",
+                    "playerId": "145432"
+                  },
+                  {
+                    "name": "Vibha Krishna",
+                    "playerId": "189393"
+                  }
+                ],
+                "school": "Troy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1BYE2Arya Iyer/Vibha Krishna Troy"
+          }
+        ]
+      },
+      {
+        "heading": "Round 2",
+        "matches": [
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Michelle Lee",
+                    "playerId": "124994"
+                  },
+                  {
+                    "name": "Emma  Murphy",
+                    "playerId": "146345"
+                  }
+                ],
+                "school": "Northville"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1361Michelle Lee/Emma Murphy Northville"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Evelyn Jones",
+                    "playerId": "141878"
+                  },
+                  {
+                    "name": "Christina Rosenow",
+                    "playerId": "141883"
+                  }
+                ],
+                "school": "Romeo"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Paige Alexsander",
+                    "playerId": "171431"
+                  },
+                  {
+                    "name": "Eleanor Tipton",
+                    "playerId": "192285"
+                  }
+                ],
+                "school": "Farmington"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:02/25/2026Match #135Evelyn Jones/Christina Rosenow RomeoPaige Alexsander/Eleanor Tipton Farmington"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Alaina Wood",
+                    "playerId": "195423"
+                  },
+                  {
+                    "name": "Anna Dukaj",
+                    "playerId": "172804"
+                  }
+                ],
+                "school": "Utica Eisenhower"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1344Alaina Wood /Anna Dukaj Utica Eisenhower"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Svetlana Ilinich",
+                    "playerId": "151383"
+                  },
+                  {
+                    "name": "Aahana Ashok",
+                    "playerId": "127341"
+                  }
+                ],
+                "school": "Novi"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1335Svetlana Ilinich/Aahana Ashok Novi"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Mira Kustarz",
+                    "playerId": "146813"
+                  },
+                  {
+                    "name": "Maja Kwaiser",
+                    "playerId": "169960"
+                  }
+                ],
+                "school": "Ann Arbor Skyline"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1326Mira Kustarz/Maja Kwaiser Ann Arbor Skyline"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Madison Alcaine",
+                    "playerId": "197739"
+                  },
+                  {
+                    "name": "Emma Korvun",
+                    "playerId": "171217"
+                  }
+                ],
+                "school": "Ann Arbor Pioneer"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1313Madison Alcaine/Emma Korvun Ann Arbor Pioneer"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Chloe Elizondo",
+                    "playerId": "166071"
+                  },
+                  {
+                    "name": "Aubrey Rosebery",
+                    "playerId": "145380"
+                  }
+                ],
+                "school": "Rockford"
+              },
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Sabrina Mathew",
+                    "playerId": "192146"
+                  },
+                  {
+                    "name": "Manya Goldstein",
+                    "playerId": "170041"
+                  }
+                ],
+                "school": "West Bloomfield"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #130Chloe Elizondo/Aubrey Rosebery RockfordSabrina Mathew/Manya Goldstein West Bloomfield"
+          },
+          {
+            "sides": [
+              {
+                "type": "players",
+                "players": [
+                  {
+                    "name": "Arya Iyer",
+                    "playerId": "145432"
+                  },
+                  {
+                    "name": "Vibha Krishna",
+                    "playerId": "189393"
+                  }
+                ],
+                "school": "Troy"
+              }
+            ],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #1292Arya Iyer/Vibha Krishna Troy"
+          }
+        ]
+      },
+      {
+        "heading": "Round 3",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #196"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #195"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #194"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/29/2026Match #193"
+          }
+        ]
+      },
+      {
+        "heading": "Semifinals",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #226"
+          },
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #225"
+          }
+        ]
+      },
+      {
+        "heading": "Championship",
+        "matches": [
+          {
+            "sides": [],
+            "winner": null,
+            "score": null,
+            "raw": "Date:05/30/2026Match #241"
+          }
+        ]
+      }
+    ]
+  }
+}
