@@ -521,7 +521,6 @@ function ClarkstonView({ data, liveState }) {
         {c.flights.map(f => {
           const fdata = data.flights?.[f.flight]
           const ours = fdata?.qualifiers?.find(q => q.schoolId === HIGHLIGHT)
-          const swap = ours?.regularStarter && !ours.regularStarter.noData
           const noLineup = ours?.regularStarter?.noData
           const liveFlight = liveState?.flights?.find(fl => fl.id === f.flight) || null
 
@@ -629,16 +628,6 @@ function ClarkstonView({ data, liveState }) {
               </div>
             )}
 
-            {/* Likely sub callout (unchanged from prior behavior) */}
-            {swap && (
-              <div className="mt-1 text-[11px] bg-amber-900/20 border border-amber-700/40 rounded px-2 py-1">
-                <span className="text-amber-300 font-semibold">Likely sub:</span>{' '}
-                regional qualifier <span className="font-semibold">{f.ours.name}</span> isn't your dual-meet starter.
-                Regular starter <span className="text-emerald-300">{ours.regularStarter.name}</span> rates{' '}
-                <span className="font-mono text-emerald-200">{ours.regularStarter.rating}</span>
-                {' '}({ours.regularStarter.matches} matches, {ours.regularStarter.record}).
-              </div>
-            )}
             {noLineup && (
               <div className="mt-1 text-[11px] bg-slate-900/40 border border-slate-700 rounded px-2 py-1 text-slate-400">
                 No dual-meet matches at {f.flight} for this entry — they may be a JV call-up or only played postseason. The rating shown is a fallback (TennisReporting's 2026 Elo) and should be treated as low-confidence.
