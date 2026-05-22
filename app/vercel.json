@@ -1,4 +1,8 @@
 {
+  "crons": [
+    { "path": "/api/cron/sync", "schedule": "*/5 12-23 27-30 5 *" },
+    { "path": "/api/cron/sync", "schedule": "*/5 12-23 3-6 6 *" }
+  ],
   "rewrites": [
     { "source": "/((?!api/).*)", "destination": "/" }
   ],
