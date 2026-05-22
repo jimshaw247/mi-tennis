@@ -54,7 +54,7 @@ export default function Viewer() {
             <div className="text-sm font-bold tracking-tight">MHSAA {divisionId} Girls State Finals</div>
             <div className="text-[10px] text-slate-400 flex items-center gap-2">
               <ViewerSourceBadge source={state.meta?.source} />
-              {status === 'live' && updatedAt && <span>Updated {new Date(updatedAt).toLocaleTimeString()}</span>}
+              {status === 'live' && updatedAt && <UpdatedAtLabel ts={updatedAt} />}
               {status === 'loading' && <span>Connecting…</span>}
               {status === 'empty' && <span>{division.available ? 'Waiting for admin' : 'Not configured'}</span>}
               {status === 'no-backend' && <span>Backend not configured</span>}
@@ -119,6 +119,23 @@ export default function Viewer() {
         Read-only view · auto-updates
       </footer>
     </div>
+  )
+}
+
+// Render the "Updated …" stamp with both date and time. A stale timestamp
+// (e.g. yesterday's date showing today) is the user's signal that the
+// sync pipeline has stopped working.
+function UpdatedAtLabel({ ts }) {
+  const d = new Date(ts)
+  const date = `${d.getMonth() + 1}/${d.getDate()}`
+  const time = d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' })
+  // Color the date amber if it's older than today (a visible "this isn't live" cue).
+  const today = new Date()
+  const isToday = d.getFullYear() === today.getFullYear() && d.getMonth() === today.getMonth() && d.getDate() === today.getDate()
+  return (
+    <span>
+      Updated <span className={isToday ? '' : 'text-amber-300 font-semibold'}>{date}</span> {time}
+    </span>
   )
 }
 
