@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <!-- Tennis-ball yellow-green with a subtle radial highlight -->
+    <radialGradient id="ball" cx="40%" cy="35%" r="80%">
+      <stop offset="0%"  stop-color="#e6f56b"/>
+      <stop offset="55%" stop-color="#c9e02f"/>
+      <stop offset="100%" stop-color="#9bb820"/>
+    </radialGradient>
+
+    <!-- Faint speckle / fuzz texture overlay -->
+    <filter id="fuzz" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="2.4" numOctaves="1" seed="3"/>
+      <feColorMatrix values="0 0 0 0 0.4
+                             0 0 0 0 0.55
+                             0 0 0 0 0.1
+                             0 0 0 0.18 0"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+  </defs>
+
+  <!-- Group containing the two peninsulas — fill is the ball gradient,
+       drawn as solid Michigan-ish silhouettes. -->
+  <g id="state" stroke="#6d8418" stroke-width="1.6" stroke-linejoin="round">
+    <!-- Upper Peninsula: long curved band -->
+    <path d="
+      M 9 30
+      Q 18 21 34 22
+      Q 50 23 64 21
+      Q 78 19 91 23
+      L 89 31
+      Q 76 33 62 32
+      Q 46 31 32 33
+      Q 20 34 11 35
+      Z" fill="url(#ball)"/>
+
+    <!-- Lower Peninsula: stylised mitten with thumb on the east -->
+    <path d="
+      M 28 41
+      L 28 50
+      Q 27 60 29 70
+      Q 31 84 41 92
+      L 60 92
+      Q 70 91 71 81
+      L 72 60
+      L 73 50
+      Q 76 47 78 41
+      L 78 33
+      Q 75 30 71 33
+      Q 68 38 66 43
+      L 60 43
+      Q 50 42 42 43
+      Q 34 42 28 41
+      Z" fill="url(#ball)"/>
+  </g>
+
+  <!-- Fuzz overlay clipped to the state shape via re-drawing on top -->
+  <g style="mix-blend-mode: multiply;" opacity="0.55">
+    <path d="M 9 30 Q 18 21 34 22 Q 50 23 64 21 Q 78 19 91 23 L 89 31 Q 76 33 62 32 Q 46 31 32 33 Q 20 34 11 35 Z"
+          fill="url(#ball)" filter="url(#fuzz)"/>
+    <path d="M 28 41 L 28 50 Q 27 60 29 70 Q 31 84 41 92 L 60 92 Q 70 91 71 81 L 72 60 L 73 50 Q 76 47 78 41 L 78 33 Q 75 30 71 33 Q 68 38 66 43 L 60 43 Q 50 42 42 43 Q 34 42 28 41 Z"
+          fill="url(#ball)" filter="url(#fuzz)"/>
+  </g>
+
+  <!-- Tennis-ball seam: white curve across the lower peninsula -->
+  <path d="M 22 78 Q 50 50 80 70"
+        stroke="#ffffff" stroke-width="3" fill="none"
+        stroke-linecap="round"/>
+  <!-- Subtle inner shadow on the seam to suggest the felt curling -->
+  <path d="M 22 78 Q 50 50 80 70"
+        stroke="#b4cc1e" stroke-width="0.8" fill="none"
+        stroke-linecap="round" stroke-dasharray="0.5 2"
+        opacity="0.6"/>
+</svg>
