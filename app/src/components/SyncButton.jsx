@@ -1,9 +1,11 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState } from 'react'
 import { scrapeAllFlights, SCRAPABLE_DIVISIONS } from '../lib/scrapeTennisReporting.js'
 import { diffFlights, mergeState } from '../lib/diffState.js'
 
-const POLL_INTERVAL_MS = 5 * 60 * 1000   // 5 min between background checks
-const FIRST_CHECK_MS = 30 * 1000          // first auto-check 30s after mount
+// NOTE: a Vercel cron at /api/cron/sync runs every 5 min and soft-merges site
+// changes into Supabase (entries adopt, winners only adopt where local is
+// empty). This button is for forcing a check NOW + previewing potential
+// OVERWRITES the cron won't apply on its own.
 
 function fmtEntry(e) {
   if (!e || !e.teamId) return '(empty)'
@@ -16,59 +18,18 @@ export default function SyncButton({ currentState, onApply, divisionId = 'D1' })
   const [err, setErr] = useState('')
   const [diff, setDiff] = useState(null)
   const [scraped, setScraped] = useState(null)
-  const [pendingCount, setPendingCount] = useState(0)
-  const [lastCheckedAt, setLastCheckedAt] = useState(null)
-
-  // Track latest state in a ref so the poll closure always diffs against the
-  // current local state, not a stale one captured at mount time.
-  const stateRef = useRef(currentState)
-  useEffect(() => { stateRef.current = currentState }, [currentState])
-
-  // Background poll: scrape every POLL_INTERVAL_MS, diff against local,
-  // surface a count next to "Sync site" when changes are detected. The
-  // scraped result is cached so clicking the button opens the modal instantly.
-  useEffect(() => {
-    if (!SCRAPABLE_DIVISIONS.includes(divisionId)) return
-    let cancelled = false
-
-    async function check() {
-      try {
-        const result = await scrapeAllFlights(divisionId)
-        if (cancelled) return
-        const d = diffFlights(result.flights, stateRef.current.flights)
-        const total = d.entryChanges.length + d.winnerChanges.length
-        setPendingCount(total)
-        setLastCheckedAt(new Date())
-        // Cache the scraped result only when there are changes worth opening.
-        if (total > 0) setScraped(result.flights)
-      } catch {
-        // silent on transient errors — don't spam the UI
-      }
-    }
-
-    const initial = setTimeout(check, FIRST_CHECK_MS)
-    const interval = setInterval(check, POLL_INTERVAL_MS)
-    return () => { cancelled = true; clearTimeout(initial); clearInterval(interval) }
-  }, [divisionId])
 
   const startSync = async () => {
     if (!SCRAPABLE_DIVISIONS.includes(divisionId)) {
       setErr(`Sync not configured for ${divisionId}`)
       return
     }
-    setBusy(true); setErr(''); setDiff(null)
+    setBusy(true); setErr(''); setDiff(null); setScraped(null)
     try {
-      // If the background poll already has a fresh scrape, reuse it. Otherwise fetch now.
-      let flights = scraped
-      if (!flights) {
-        const result = await scrapeAllFlights(divisionId)
-        flights = result.flights
-        setScraped(flights)
-      }
-      const d = diffFlights(flights, currentState.flights)
+      const result = await scrapeAllFlights(divisionId)
+      const d = diffFlights(result.flights, currentState.flights)
+      setScraped(result.flights)
       setDiff(d)
-      setLastCheckedAt(new Date())
-      setPendingCount(d.entryChanges.length + d.winnerChanges.length)
     } catch (e) {
       setErr(e.message || String(e))
     } finally {
@@ -80,7 +41,7 @@ export default function SyncButton({ currentState, onApply, divisionId = 'D1' })
     if (!scraped) return
     const merged = mergeState(scraped, currentState.flights)
     onApply(merged)
-    setDiff(null); setScraped(null); setPendingCount(0)
+    setDiff(null); setScraped(null)
   }
 
   const dismiss = () => { setDiff(null); setErr('') }

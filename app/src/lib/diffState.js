@@ -58,6 +58,7 @@ export function diffFlights(scrapedFlights, localFlights) {
 
 // Site wins where site has a value (overwrites local). Local kept where site is empty.
 // Entries: trust site entirely (the bracket draw is authoritative).
+// Used by the manual Sync button after the user has previewed and confirmed.
 export function mergeState(scrapedFlights, localFlights) {
   const localById = Object.fromEntries(localFlights.map(f => [f.id, f]))
   return {
@@ -70,6 +71,34 @@ export function mergeState(scrapedFlights, localFlights) {
       const mergedScores = { ...(local.scores || {}) }
       for (const [mid, val] of Object.entries(scraped.scores || {})) {
         mergedScores[mid] = val
+      }
+      return {
+        id: scraped.id,
+        entries: scraped.entries,
+        winners: mergedWinners,
+        scores: mergedScores,
+      }
+    }),
+    meta: { source: 'live' },
+  }
+}
+
+// Soft merge for the unattended server-side cron: entries adopt from site (MHSAA
+// can edit the draw post-publication), but winners only adopt where local is
+// empty. The admin's manual taps are never silently overwritten — if site
+// disagrees with a tap they'd have to open the Sync modal to apply the change.
+export function softMergeState(scrapedFlights, localFlights) {
+  const localById = Object.fromEntries(localFlights.map(f => [f.id, f]))
+  return {
+    flights: scrapedFlights.map(scraped => {
+      const local = localById[scraped.id] || { entries: [], winners: {}, scores: {} }
+      const mergedWinners = { ...(local.winners || {}) }
+      for (const [mid, val] of Object.entries(scraped.winners || {})) {
+        if (mergedWinners[mid] == null) mergedWinners[mid] = val
+      }
+      const mergedScores = { ...(local.scores || {}) }
+      for (const [mid, val] of Object.entries(scraped.scores || {})) {
+        if (mergedScores[mid] == null) mergedScores[mid] = val
       }
       return {
         id: scraped.id,

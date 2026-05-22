@@ -9,7 +9,7 @@ import { pullState, subscribeState, pushState, supabaseConfigured } from './lib/
 import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
 import DrawSetup from './components/DrawSetup.jsx'
-import Gate, { isAdmin, logout } from './components/Gate.jsx'
+import Gate, { isAdmin } from './components/Gate.jsx'
 import SOSTab from './components/SOSTab.jsx'
 import SyncButton from './components/SyncButton.jsx'
 
@@ -228,7 +228,6 @@ function AdminApp() {
           className="px-2 py-1 rounded bg-purple-900/40 border border-purple-700/60 text-purple-200">Load Test B</button>
         <button onClick={load2025Final}
           className="px-2 py-1 rounded bg-sky-900/40 border border-sky-700/60 text-sky-200">Load 2025 Final</button>
-        <button onClick={logout} className="ml-auto px-2 py-1 rounded bg-slate-800 border border-slate-700">Lock</button>
       </footer>
     </div>
   )
