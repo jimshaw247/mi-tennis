@@ -1,13 +1,15 @@
-// Vercel cron handler. When enabled, scrapes tennisreporting.com for all 4
-// MHSAA state-finals divisions and merges into Supabase. TR is the source of
-// truth: if admin tap and TR disagree, TR wins. If TR is silent on a match
-// the admin already tapped, the admin tap stays (admin is ahead of TR).
+// Vercel cron handler. Scrapes tennisreporting.com for all 4 MHSAA state-
+// finals divisions and merges into Supabase. TR is the source of truth: if
+// admin tap and TR disagree, TR wins. If TR is silent on a match the admin
+// already tapped, the admin tap stays (admin is ahead of TR).
 //
-// NOT scheduled by default — `crons` entry is commented in vercel.json.
-// To enable on match days, restore the entry. Schedule we want:
-//   { "path": "/api/cron/sync", "schedule": "*/5 12-23 * * *" }
-// That's every 5 min from 12:00 UTC through 23:55 UTC = 8:00 AM through
-// 7:55 PM Eastern *Daylight* Time. Won't run overnight.
+// Schedule (vercel.json):
+//   "*/5 12-23 27-30 5 *"  — every 5 min, 8 AM-7:55 PM EDT, May 27-30
+//                             (D4: May 27-28, D1: May 29-30)
+//   "*/5 12-23 3-6 6 *"    — every 5 min, 8 AM-7:55 PM EDT, June 3-6
+//                             (D2: June 3-4, D3: June 5-6)
+// Outside those windows the cron does not fire. Each run handles all 4
+// divisions; rows for divisions not yet playing simply no-op.
 import { createClient } from '@supabase/supabase-js'
 
 const EVENT_ID = 787
