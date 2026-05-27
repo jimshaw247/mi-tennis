@@ -17,6 +17,25 @@ function adminPassword() {
   try { return localStorage.getItem(PASS_KEY) || '' } catch { return '' }
 }
 
+// Strip stray trailing/leading underscores from teamIds. Older scraper
+// versions produced bad ids like "lansing_catholic_" when the source name
+// had trailing whitespace; without this, any stale browser session would
+// keep re-pushing those to Supabase and undo the SQL cleanup.
+function normalizeTeamIds(state) {
+  if (!state?.flights) return state
+  return {
+    ...state,
+    flights: state.flights.map(f => ({
+      ...f,
+      entries: f.entries?.map(e => {
+        if (!e?.teamId) return e
+        const fixed = e.teamId.replace(/^_+|_+$/g, '')
+        return fixed === e.teamId ? e : { ...e, teamId: fixed }
+      }),
+    })),
+  }
+}
+
 export async function pullState(rowId = 1) {
   if (!supabase) return null
   const { data, error } = await supabase
@@ -29,7 +48,7 @@ export async function pullState(rowId = 1) {
     return null
   }
   if (!data) return null
-  return { state: data.data, updatedAt: data.updated_at }
+  return { state: normalizeTeamIds(data.data), updatedAt: data.updated_at }
 }
 
 export function subscribeState(rowId, onChange) {
@@ -41,7 +60,7 @@ export function subscribeState(rowId, onChange) {
       { event: '*', schema: 'public', table: 'tennis_state', filter: `id=eq.${rowId}` },
       (payload) => {
         const next = payload.new?.data
-        if (next) onChange({ state: next, updatedAt: payload.new.updated_at })
+        if (next) onChange({ state: normalizeTeamIds(next), updatedAt: payload.new.updated_at })
       }
     )
     .subscribe()
@@ -54,7 +73,7 @@ export async function pushState(rowId, state) {
   const res = await fetch('/api/state', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'X-Admin-Password': pw },
-    body: JSON.stringify({ stateRowId: rowId, state }),
+    body: JSON.stringify({ stateRowId: rowId, state: normalizeTeamIds(state) }),
   })
   if (!res.ok) {
     if (res.status === 401) {
