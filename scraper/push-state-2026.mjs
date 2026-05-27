@@ -19,7 +19,7 @@ const FLIGHT_SIZE = 32
 const FLIGHT_IDS = ['1S', '2S', '3S', '4S', '1D', '2D', '3D', '4D']
 
 function slug(name) {
-  return name.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_')
+  return name.trim().toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_').replace(/^_+|_+$/g, '')
 }
 
 function buildFlight(flightId, fdata) {

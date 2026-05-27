@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const TEAMS_PATH = join(__dirname, '..', 'app', 'src', 'data', 'teams.js')
 
-function slug(s) { return (s || '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_') }
+function slug(s) { return (s || '').trim().toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_').replace(/^_+|_+$/g, '') }
 function initials(s) {
   const words = (s || '').split(/\s+/).filter(Boolean)
   if (words.length >= 3) return words.map(w => w[0]).join('').toUpperCase().slice(0, 4)

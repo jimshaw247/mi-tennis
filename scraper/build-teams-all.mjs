@@ -24,7 +24,7 @@ const sorted = [...schools.entries()].sort((a, b) => a[0].localeCompare(b[0]))
 console.log(`Unique schools across all 4 divisions: ${sorted.length}`)
 
 function slug(name) {
-  return name.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_')
+  return name.trim().toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_').replace(/^_+|_+$/g, '')
 }
 
 const COLORS = [

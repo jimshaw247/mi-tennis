@@ -26,7 +26,7 @@ for (const [name, count] of sorted) {
 }
 
 function slug(name) {
-  return name.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_')
+  return name.trim().toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_').replace(/^_+|_+$/g, '')
 }
 
 const COLORS = [
