@@ -55,14 +55,9 @@ export default function SyncButton({ currentState, onApply, divisionId = 'D1' })
         onClick={startSync}
         disabled={busy}
         className="px-2 py-1 rounded bg-blue-700 border border-blue-600 text-white disabled:opacity-50 inline-flex items-center gap-1.5"
-        title={lastCheckedAt ? `Last auto-check: ${lastCheckedAt.toLocaleTimeString()}` : 'Auto-checks every 5 min'}
+        title="Force a fresh scrape + diff preview (cron auto-syncs every 5 min)"
       >
         <span>{busy ? 'Syncing…' : 'Sync site'}</span>
-        {pendingCount > 0 && !busy && (
-          <span className="px-1.5 rounded-full bg-amber-400 text-black text-[10px] font-bold leading-tight">
-            {pendingCount}
-          </span>
-        )}
       </button>
       {err && <span className="ml-2 text-xs text-red-400">{err}</span>}
 
