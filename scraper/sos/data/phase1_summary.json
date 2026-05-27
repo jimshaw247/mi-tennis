@@ -22873,10 +22873,10 @@
               "winnerReportPlacement": 3,
               "players": [
                 {
-                  "playerId": 192145,
-                  "name": "Emmaline Strange",
-                  "grade": "9",
-                  "elo2026": 1118.84,
+                  "playerId": 125390,
+                  "name": "Puja Ravi",
+                  "grade": null,
+                  "elo2026": null,
                   "pastStateFinals": []
                 }
               ],
@@ -23441,10 +23441,10 @@
                   "pastStateFinals": []
                 },
                 {
-                  "playerId": 170771,
-                  "name": "Aubrey Wods",
-                  "grade": "11",
-                  "elo2026": 1388.86,
+                  "playerId": 147113,
+                  "name": "Sonali Shah",
+                  "grade": null,
+                  "elo2026": null,
                   "pastStateFinals": []
                 }
               ],
@@ -24656,17 +24656,17 @@
               "winnerReportPlacement": 3,
               "players": [
                 {
-                  "playerId": 171391,
-                  "name": "Danya Asmar",
-                  "grade": "12",
-                  "elo2026": 1117.28,
-                  "pastStateFinals": []
-                },
-                {
                   "playerId": 165752,
                   "name": "Gaia DeMeester",
                   "grade": "12",
                   "elo2026": 1178.49,
+                  "pastStateFinals": []
+                },
+                {
+                  "playerId": 170771,
+                  "name": "Aubrey Wods",
+                  "grade": null,
+                  "elo2026": null,
                   "pastStateFinals": []
                 }
               ],
@@ -25253,17 +25253,17 @@
               "winnerReportPlacement": 2,
               "players": [
                 {
-                  "playerId": 171431,
-                  "name": "Paige Alexsander",
-                  "grade": "10",
-                  "elo2026": 1193.25,
-                  "pastStateFinals": []
-                },
-                {
                   "playerId": 192285,
                   "name": "Eleanor Tipton",
                   "grade": "9",
                   "elo2026": 1254.11,
+                  "pastStateFinals": []
+                },
+                {
+                  "playerId": 165751,
+                  "name": "Isabella Acosta-Rubio",
+                  "grade": null,
+                  "elo2026": null,
                   "pastStateFinals": []
                 }
               ],
@@ -34203,10 +34203,10 @@
               "winnerReportPlacement": null,
               "players": [
                 {
-                  "playerId": 172807,
-                  "name": "Madison LeBel",
-                  "grade": "10",
-                  "elo2026": 1062.07,
+                  "playerId": 125195,
+                  "name": "Gabriella Sadowski",
+                  "grade": null,
+                  "elo2026": null,
                   "pastStateFinals": []
                 }
               ],
@@ -40648,10 +40648,10 @@
               "winnerReportPlacement": null,
               "players": [
                 {
-                  "playerId": 196046,
-                  "name": "Laine Jones",
-                  "grade": "9",
-                  "elo2026": 1063.6,
+                  "playerId": 125764,
+                  "name": "Lana Sloan",
+                  "grade": null,
+                  "elo2026": null,
                   "pastStateFinals": []
                 }
               ],
@@ -49124,10 +49124,10 @@
               "winnerReportPlacement": 1,
               "players": [
                 {
-                  "playerId": 189542,
-                  "name": "Claire Mouw",
-                  "grade": "10",
-                  "elo2026": 1155.04,
+                  "playerId": 161710,
+                  "name": "Nina Shaye",
+                  "grade": null,
+                  "elo2026": null,
                   "pastStateFinals": []
                 }
               ],
@@ -49721,16 +49721,11 @@
               "winnerReportPlacement": null,
               "players": [
                 {
-                  "playerId": 143567,
-                  "name": "Julia Rypma",
-                  "grade": "12",
-                  "elo2026": 1306.49,
-                  "pastStateFinals": [
-                    {
-                      "year": "2025",
-                      "name": "MHSAA Finals Tournament-2025"
-                    }
-                  ]
+                  "playerId": 189542,
+                  "name": "Claire Mouw",
+                  "grade": null,
+                  "elo2026": null,
+                  "pastStateFinals": []
                 },
                 {
                   "playerId": 143560,
@@ -55378,10 +55373,10 @@
       "winnerReportPlacement": 3,
       "players": [
         {
-          "playerId": 192145,
-          "name": "Emmaline Strange",
-          "grade": "9",
-          "elo2026": 1118.84,
+          "playerId": 125390,
+          "name": "Puja Ravi",
+          "grade": null,
+          "elo2026": null,
           "pastStateFinals": []
         }
       ],
@@ -55481,15 +55476,15 @@
         {
           "playerId": 124789,
           "name": "Gabriela Stakvel",
-          "grade": "12",
-          "elo2026": 1442.88,
+          "grade": null,
+          "elo2026": null,
           "pastStateFinals": []
         },
         {
-          "playerId": 170771,
-          "name": "Aubrey Wods",
-          "grade": "11",
-          "elo2026": 1388.86,
+          "playerId": 147113,
+          "name": "Sonali Shah",
+          "grade": null,
+          "elo2026": null,
           "pastStateFinals": []
         }
       ],
@@ -55653,17 +55648,17 @@
       "winnerReportPlacement": 3,
       "players": [
         {
-          "playerId": 171391,
-          "name": "Danya Asmar",
-          "grade": "12",
-          "elo2026": 1117.28,
+          "playerId": 165752,
+          "name": "Gaia DeMeester",
+          "grade": null,
+          "elo2026": null,
           "pastStateFinals": []
         },
         {
-          "playerId": 165752,
-          "name": "Gaia DeMeester",
-          "grade": "12",
-          "elo2026": 1178.49,
+          "playerId": 170771,
+          "name": "Aubrey Wods",
+          "grade": null,
+          "elo2026": null,
           "pastStateFinals": []
         }
       ],
@@ -55742,17 +55737,17 @@
       "winnerReportPlacement": 2,
       "players": [
         {
-          "playerId": 171431,
-          "name": "Paige Alexsander",
-          "grade": "10",
-          "elo2026": 1193.25,
+          "playerId": 192285,
+          "name": "Eleanor Tipton",
+          "grade": null,
+          "elo2026": null,
           "pastStateFinals": []
         },
         {
-          "playerId": 192285,
-          "name": "Eleanor Tipton",
-          "grade": "9",
-          "elo2026": 1254.11,
+          "playerId": 165751,
+          "name": "Isabella Acosta-Rubio",
+          "grade": null,
+          "elo2026": null,
           "pastStateFinals": []
         }
       ],
@@ -56553,10 +56548,10 @@
       "winnerReportPlacement": null,
       "players": [
         {
-          "playerId": 172807,
-          "name": "Madison LeBel",
-          "grade": "10",
-          "elo2026": 1062.07,
+          "playerId": 125195,
+          "name": "Gabriella Sadowski",
+          "grade": null,
+          "elo2026": null,
           "pastStateFinals": []
         }
       ],
@@ -57427,10 +57422,10 @@
       "winnerReportPlacement": null,
       "players": [
         {
-          "playerId": 196046,
-          "name": "Laine Jones",
-          "grade": "9",
-          "elo2026": 1063.6,
+          "playerId": 125764,
+          "name": "Lana Sloan",
+          "grade": null,
+          "elo2026": null,
           "pastStateFinals": []
         }
       ],
@@ -58141,10 +58136,10 @@
       "winnerReportPlacement": 1,
       "players": [
         {
-          "playerId": 189542,
-          "name": "Claire Mouw",
-          "grade": "10",
-          "elo2026": 1155.04,
+          "playerId": 161710,
+          "name": "Nina Shaye",
+          "grade": null,
+          "elo2026": null,
           "pastStateFinals": []
         }
       ],
@@ -58188,28 +58183,18 @@
       "winnerReportPlacement": null,
       "players": [
         {
-          "playerId": 143567,
-          "name": "Julia Rypma",
-          "grade": "12",
-          "elo2026": 1306.49,
-          "pastStateFinals": [
-            {
-              "year": "2025",
-              "name": "MHSAA Finals Tournament-2025"
-            }
-          ]
+          "playerId": 189542,
+          "name": "Claire Mouw",
+          "grade": null,
+          "elo2026": null,
+          "pastStateFinals": []
         },
         {
           "playerId": 143560,
           "name": "Maya Gutshall",
-          "grade": "11",
-          "elo2026": 1296.81,
-          "pastStateFinals": [
-            {
-              "year": "2025",
-              "name": "MHSAA Finals Tournament-2025"
-            }
-          ]
+          "grade": null,
+          "elo2026": null,
+          "pastStateFinals": []
         }
       ],
       "school": {

@@ -1,6 +1,6 @@
 # 2026 MHSAA D1 Girls Tennis State Finals — SOS / Power Rankings
 
-Generated 5/20/2026, 7:54:36 AM from tennisreporting.com data.
+Generated 5/27/2026, 11:21:16 AM from tennisreporting.com data.
 
 Model: Bradley-Terry MM iteration per flight, 28-day recency half-life from 2026-05-19, margin-of-victory weighting (game-differential / 6, clamped 0.3–1.5), 1+1 prior to regularize thin records.
 
@@ -11,27 +11,27 @@ Sorted by average rating across each team's state-finals qualifiers.
 | # | School | Qual flights | Total | Avg | SOS |
 |---|---|---:|---:|---:|---:|
 | 1 | Northville | 8 | 13628 | 1704 | 1571 |
-| 2 | Ann Arbor Pioneer | 8 | 13243 | 1655 | 1534 |
-| 3 | Bloomfield Hills | 8 | 13222 | 1653 | 1550 |
-| 4 | Utica Eisenhower | 8 | 13208 | 1651 | 1577 |
+| 2 | Utica Eisenhower | 8 | 13565 | 1696 | 1579 |
+| 3 | Ann Arbor Pioneer | 8 | 13243 | 1655 | 1534 |
+| 4 | Bloomfield Hills | 8 | 13237 | 1655 | 1550 |
 | 5 | Romeo | 8 | 13194 | 1649 | 1535 |
 | 6 | Novi | 8 | 13191 | 1649 | 1569 |
 | 7 | Holland West Ottawa | 8 | 13156 | 1644 | 1561 |
-| 8 | Portage Central | 8 | 13138 | 1642 | 1537 |
-| 9 | Byron Center | 8 | 12993 | 1624 | 1544 |
-| 10 | Troy | 8 | 12951 | 1619 | 1560 |
-| 11 | Okemos | 8 | 12888 | 1611 | 1532 |
-| 12 | Rochester | 8 | 12887 | 1611 | 1547 |
-| 13 | Rockford | 8 | 12838 | 1605 | 1542 |
-| 14 | Saline | 8 | 12763 | 1595 | 1551 |
-| 15 | Rochester Hills Stoney Creek | 8 | 12716 | 1589 | 1583 |
-| 16 | Utica Ford | 8 | 12686 | 1586 | 1499 |
-| 17 | Clarkston **(Clarkston)** | 8 | 12578 | 1572 | 1560 |
-| 18 | Rochester Adams | 8 | 12508 | 1564 | 1582 |
-| 19 | Farmington | 8 | 12384 | 1548 | 1502 |
-| 20 | Troy Athens | 8 | 12308 | 1539 | 1551 |
-| 21 | Ann Arbor Skyline | 8 | 12213 | 1527 | 1559 |
-| 22 | West Bloomfield | 8 | 12046 | 1506 | 1551 |
+| 8 | Byron Center | 8 | 12993 | 1624 | 1544 |
+| 9 | Troy | 8 | 12951 | 1619 | 1560 |
+| 10 | Okemos | 8 | 12888 | 1611 | 1532 |
+| 11 | Rochester | 8 | 12886 | 1611 | 1547 |
+| 12 | Rockford | 8 | 12838 | 1605 | 1542 |
+| 13 | Saline | 8 | 12763 | 1595 | 1551 |
+| 14 | Rochester Hills Stoney Creek | 8 | 12716 | 1589 | 1583 |
+| 15 | Utica Ford | 8 | 12686 | 1586 | 1499 |
+| 16 | Clarkston **(Clarkston)** | 8 | 12667 | 1583 | 1565 |
+| 17 | Rochester Adams | 8 | 12508 | 1563 | 1582 |
+| 18 | Troy Athens | 8 | 12308 | 1539 | 1551 |
+| 19 | Portage Central | 8 | 12287 | 1536 | 1529 |
+| 20 | Ann Arbor Skyline | 8 | 12213 | 1527 | 1559 |
+| 21 | West Bloomfield | 8 | 12108 | 1514 | 1551 |
+| 22 | Farmington | 8 | 10619 | 1327 | 1501 |
 
 ## Flight-by-flight: top of the field
 
@@ -41,12 +41,12 @@ Sorted by average rating across each team's state-finals qualifiers.
 |---|---|---|---:|---:|---:|---:|---:|
 | 1 | Emerson Jones | Saline | 1810 | 1615 | 2 | 1 | 1472 |
 | 2 | Kayla Lemke **(Clarkston)** | Clarkston | 1795 | 1594 | 1 | 1 | 1487 |
-| 3 | Isabella Portnoy | Okemos | 1751 | 1538 | 1 | 1 | 1474 |
-| 4 | Rachel He | Ann Arbor Pioneer | 1737 | 1611 | 1 | 2 | 1468 |
-| 5 | Sophia Shipway | Northville | 1724 | 1612 | 1 | 1 | 1472 |
-| 6 | Alison Doka | Rochester Hills Stoney Creek | 1700 | 1586 | 1 | 2 | 1489 |
-| 7 | Alice Wang | Novi | 1675 | 1591 | 2 | 2 | 1352 |
-| 8 | Margie Glynn | Portage Central | 1670 | 1581 | 2 | 2 | 1494 |
+| 3 | Gabriella  Sadowski | Utica Eisenhower | 1773 | 1646 | 8 | — | — |
+| 4 | Isabella Portnoy | Okemos | 1751 | 1538 | 1 | 1 | 1474 |
+| 5 | Rachel He | Ann Arbor Pioneer | 1737 | 1611 | 1 | 2 | 1468 |
+| 6 | Sophia Shipway | Northville | 1724 | 1612 | 1 | 1 | 1472 |
+| 7 | Alison Doka | Rochester Hills Stoney Creek | 1700 | 1586 | 1 | 2 | 1489 |
+| 8 | Alice Wang | Novi | 1675 | 1591 | 2 | 2 | 1352 |
 
 ### #2 Singles (2S) — 1247 season matches
 
@@ -74,18 +74,18 @@ Sorted by average rating across each team's state-finals qualifiers.
 | 7 | Abbie Zhu | Ann Arbor Pioneer | 1662 | 1528 | 1 | 1 | 1244 |
 | 8 | Ishika  Shah | Okemos | 1661 | 1568 | 2 | 2 | 1104 |
 
-### #4 Singles (4S) — 131 season matches
+### #4 Singles (4S) — 134 season matches
 
 | # | Player(s) | School | Rating | SOS | Reg seed | Reg place | trElo (avg) |
 |---|---|---|---:|---:|---:|---:|---:|
-| 1 | Jilly Knoester | Rochester | 1649 | 1500 | 1 | 1 | 1260 |
+| 1 | Jilly Knoester | Rochester | 1648 | 1497 | 1 | 1 | 1260 |
 | 2 | Mary Wesley | Romeo | 1640 | 1512 | 2 | 2 | 1115 |
 | 3 | Maggie Rothstein | Holland West Ottawa | 1629 | 1515 | 3 | 1 | 1146 |
-| 4 | Sofia Gardner | Utica Eisenhower | 1614 | 1524 | 1 | 1 | 1268 |
-| 5 | Natalia Alcaine | Ann Arbor Pioneer | 1605 | 1482 | 1 | 1 | 1228 |
-| 6 | Alexandra Pascarella | Bloomfield Hills | 1603 | 1482 | 1 | 1 | 1082 |
-| 7 | Sana Panchal | Northville | 1602 | 1507 | 1 | 1 | 1215 |
-| 8 | Claire Mouw | Portage Central | 1596 | 1486 | 1 | 1 | 1155 |
+| 4 | Nina Shaye | Portage Central | 1622 | 1459 | 1 | 1 | — |
+| 5 | Alexandra Pascarella | Bloomfield Hills | 1618 | 1489 | 1 | 1 | 1082 |
+| 6 | Sofia Gardner | Utica Eisenhower | 1614 | 1524 | 1 | 1 | 1268 |
+| 7 | Natalia Alcaine | Ann Arbor Pioneer | 1605 | 1482 | 1 | 1 | 1228 |
+| 8 | Sana Panchal | Northville | 1602 | 1507 | 1 | 1 | 1215 |
 
 ### #1 Doubles (1D) — 1470 season matches
 
@@ -147,25 +147,25 @@ Sorted by average rating across each team's state-finals qualifiers.
 
 **Hardest matchups in the field:**
 - Emerson Jones (Saline) — rated 1810, P(Clarkston wins) = 47.9%
+- Gabriella  Sadowski (Utica Eisenhower) — rated 1773, P(Clarkston wins) = 53.2%
 - Isabella Portnoy (Okemos) — rated 1751, P(Clarkston wins) = 56.3%
-- Rachel He (Ann Arbor Pioneer) — rated 1737, P(Clarkston wins) = 58.3%
 
 **Easiest matchups in the field:**
-- Madison LeBel (Utica Eisenhower) — rated 1416, P(Clarkston wins) = 89.9%
 - Olivia Watters (Ann Arbor Skyline) — rated 1427, P(Clarkston wins) = 89.3%
 - Nikki Singh (Utica Ford) — rated 1539, P(Clarkston wins) = 81.4%
+- Angela He (Byron Center) — rated 1545, P(Clarkston wins) = 80.8%
 
-### #2 Singles (2S): Laine Jones — rated 1494 (state rank 21 / 22)
+### #2 Singles (2S): Lana Sloan — rated 1583 (state rank 15 / 22)
 
 **Hardest matchups in the field:**
-- Morgan Emerick (Utica Eisenhower) — rated 1796, P(Clarkston wins) = 15.0%
-- Isabella Gitler (Holland West Ottawa) — rated 1782, P(Clarkston wins) = 16.0%
-- Isabelle  Hult (Okemos) — rated 1728, P(Clarkston wins) = 20.7%
+- Morgan Emerick (Utica Eisenhower) — rated 1796, P(Clarkston wins) = 22.7%
+- Isabella Gitler (Holland West Ottawa) — rated 1782, P(Clarkston wins) = 24.2%
+- Isabelle  Hult (Okemos) — rated 1728, P(Clarkston wins) = 30.3%
 
 **Easiest matchups in the field:**
-- Fiona Loverich (Saline) — rated 1488, P(Clarkston wins) = 51.0%
-- Hannah Jacob (Troy Athens) — rated 1498, P(Clarkston wins) = 49.5%
-- Evangelina Ewing-Sohtun (Ann Arbor Skyline) — rated 1545, P(Clarkston wins) = 42.7%
+- Fiona Loverich (Saline) — rated 1488, P(Clarkston wins) = 63.4%
+- Hannah Jacob (Troy Athens) — rated 1498, P(Clarkston wins) = 62.0%
+- Evangelina Ewing-Sohtun (Ann Arbor Skyline) — rated 1545, P(Clarkston wins) = 55.4%
 
 ### #3 Singles (3S): Harper Jones — rated 1549 (state rank 19 / 22)
 
@@ -182,14 +182,14 @@ Sorted by average rating across each team's state-finals qualifiers.
 ### #4 Singles (4S): Aurora Gonzalvo — rated 1538 (state rank 13 / 22)
 
 **Hardest matchups in the field:**
-- Jilly Knoester (Rochester) — rated 1649, P(Clarkston wins) = 34.5%
-- Mary Wesley (Romeo) — rated 1640, P(Clarkston wins) = 35.7%
+- Jilly Knoester (Rochester) — rated 1648, P(Clarkston wins) = 34.7%
+- Mary Wesley (Romeo) — rated 1640, P(Clarkston wins) = 35.6%
 - Maggie Rothstein (Holland West Ottawa) — rated 1629, P(Clarkston wins) = 37.1%
 
 **Easiest matchups in the field:**
 - Luciana Williams (Ann Arbor Skyline) — rated 1455, P(Clarkston wins) = 61.7%
-- Emmaline Strange (West Bloomfield) — rated 1463, P(Clarkston wins) = 60.6%
-- Rohini Jampala (Troy Athens) — rated 1477, P(Clarkston wins) = 58.7%
+- Rohini Jampala (Troy Athens) — rated 1477, P(Clarkston wins) = 58.6%
+- Ava Velilla (Rochester Adams) — rated 1486, P(Clarkston wins) = 57.4%
 
 ### #1 Doubles (1D): Lily Haviland / Annabelle Shaw — rated 1529 (state rank 17 / 22)
 
@@ -199,9 +199,9 @@ Sorted by average rating across each team's state-finals qualifiers.
 - Alexis  Gabriel / Kara Lu (Utica Eisenhower) — rated 1768, P(Clarkston wins) = 20.2%
 
 **Easiest matchups in the field:**
+- Claire Mouw / Maya Gutshall (Portage Central) — rated 648, P(Clarkston wins) = 99.4%
 - Sara Joyce / Delaney Brager (West Bloomfield) — rated 1502, P(Clarkston wins) = 53.9%
 - Anaya Patel / Nishika Subesh (Okemos) — rated 1503, P(Clarkston wins) = 53.8%
-- Leah Bersuder / Harper Green (Saline) — rated 1510, P(Clarkston wins) = 52.8%
 
 ### #2 Doubles (2D): Emily Goodrich / Emma Sardelli — rated 1504 (state rank 20 / 22)
 
@@ -223,11 +223,11 @@ Sorted by average rating across each team's state-finals qualifiers.
 - Olivia Smith / Audrey Anderson (Holland West Ottawa) — rated 1694, P(Clarkston wins) = 41.6%
 
 **Easiest matchups in the field:**
+- Gaia DeMeester / Aubrey Wods (Farmington) — rated 589, P(Clarkston wins) = 99.8%
 - Matilda Edvardsson / Eva Latvenas (West Bloomfield) — rated 1410, P(Clarkston wins) = 78.5%
 - Gabby Schramski / Nikhita Chanchali (Rochester Hills Stoney Creek) — rated 1439, P(Clarkston wins) = 75.6%
-- Violet Arthur / Scarlett Stetson (Ann Arbor Skyline) — rated 1483, P(Clarkston wins) = 70.5%
 
-### #4 Doubles (4D): Amelia Garvin / Anna Katakowski — rated 1534 (state rank 14 / 22)
+### #4 Doubles (4D): Amelia Garvin / Anna Katakowski — rated 1534 (state rank 13 / 22)
 
 **Hardest matchups in the field:**
 - Michelle Lee / Emma  Murphy (Northville) — rated 1627, P(Clarkston wins) = 36.9%
@@ -235,9 +235,9 @@ Sorted by average rating across each team's state-finals qualifiers.
 - Anna Dukaj / Alaina Wood (Utica Eisenhower) — rated 1624, P(Clarkston wins) = 37.3%
 
 **Easiest matchups in the field:**
+- Eleanor Tipton / Isabella Acosta-Rubio (Farmington) — rated 627, P(Clarkston wins) = 99.5%
 - Merisa Grebovic / Gia Vidyanandan (Troy Athens) — rated 1476, P(Clarkston wins) = 58.2%
 - Mia Rai / Arin Lee (Rochester Adams) — rated 1479, P(Clarkston wins) = 57.9%
-- Manya Goldstein / Sabrina Mathew (West Bloomfield) — rated 1480, P(Clarkston wins) = 57.8%
 
 ### Best Clarkston wins this season (vs opponent rating)
 
@@ -246,14 +246,15 @@ Sorted by average rating across each team's state-finals qualifiers.
 ## Upset watch
 
 ### Underseeded (top-6 rating but regional seed 5+)
+- **1S** Gabriella  Sadowski (Utica Eisenhower) — rated 1773 (state rank 3), regional seed 8
 
 ### Overseeded (state rank 14+ but regional seed ≤ 2)
-- **1S** Jordyn Tomina (Bloomfield Hills) — rated 1576 (state rank 15), regional seed 1
-- **1S** Yifan Lin (Rochester Adams) — rated 1571 (state rank 16), regional seed 2
-- **1S** Jhana Todorova (Troy Athens) — rated 1565 (state rank 17), regional seed 2
-- **1S** Ariella Ferguson (West Bloomfield) — rated 1558 (state rank 18), regional seed 2
-- **2S** Ellena Tomaj (West Bloomfield) — rated 1557 (state rank 15), regional seed 2
-- **2S** Talia Nishanian (Northville) — rated 1552 (state rank 17), regional seed 2
+- **1S** Jordyn Tomina (Bloomfield Hills) — rated 1576 (state rank 16), regional seed 1
+- **1S** Yifan Lin (Rochester Adams) — rated 1571 (state rank 17), regional seed 2
+- **1S** Jhana Todorova (Troy Athens) — rated 1565 (state rank 18), regional seed 2
+- **1S** Ariella Ferguson (West Bloomfield) — rated 1558 (state rank 19), regional seed 2
+- **2S** Ellena Tomaj (West Bloomfield) — rated 1557 (state rank 16), regional seed 2
+- **2S** Talia Nishanian (Northville) — rated 1552 (state rank 18), regional seed 2
 - **2S** Fiona Loverich (Saline) — rated 1488 (state rank 22), regional seed 2
 - **3S** Bella  Kuzminsky (West Bloomfield) — rated 1614 (state rank 14), regional seed 2
 - **3S** Tiffany Patalinghug (Rochester) — rated 1606 (state rank 15), regional seed 2

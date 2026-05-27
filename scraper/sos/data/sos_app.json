@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T11:02:43.854Z",
+  "generatedAt": "2026-05-27T15:21:16.323Z",
   "notes": "Bradley-Terry MM ratings per flight, 28-day half-life recency, MOV weighting. Win probability uses 400-pt Elo-like spread.",
   "flights": {
     "1S": {
@@ -50,6 +50,27 @@
         },
         {
           "rank": 3,
+          "name": "Gabriella  Sadowski",
+          "schoolId": 4071,
+          "schoolName": "Utica Eisenhower",
+          "rating": 1773,
+          "sosRating": 1646,
+          "elo2026Avg": 0,
+          "recent14": {
+            "w": 0,
+            "l": 0
+          },
+          "regional": "Regional 6-Utica Eisenhower",
+          "regionalSeed": 8,
+          "regionalPlacement": null,
+          "pastStateFinals": 0,
+          "matchCount": 14,
+          "matchCountAtFlight": 14,
+          "ratingSource": "season",
+          "regularStarter": null
+        },
+        {
+          "rank": 4,
           "name": "Isabella Portnoy",
           "schoolId": 4371,
           "schoolName": "Okemos",
@@ -70,7 +91,7 @@
           "regularStarter": null
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Rachel He",
           "schoolId": 4134,
           "schoolName": "Ann Arbor Pioneer",
@@ -91,7 +112,7 @@
           "regularStarter": null
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Sophia Shipway",
           "schoolId": 4337,
           "schoolName": "Northville",
@@ -112,7 +133,7 @@
           "regularStarter": null
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Alison Doka",
           "schoolId": 4047,
           "schoolName": "Rochester Hills Stoney Creek",
@@ -133,7 +154,7 @@
           "regularStarter": null
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Alice Wang",
           "schoolId": 3933,
           "schoolName": "Novi",
@@ -154,7 +175,7 @@
           "regularStarter": null
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Margie Glynn",
           "schoolId": 3887,
           "schoolName": "Portage Central",
@@ -175,7 +196,7 @@
           "regularStarter": null
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Evie Price",
           "schoolId": 4417,
           "schoolName": "Holland West Ottawa",
@@ -196,7 +217,7 @@
           "regularStarter": null
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Alexa Mackovski",
           "schoolId": 4373,
           "schoolName": "Romeo",
@@ -217,7 +238,7 @@
           "regularStarter": null
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Grace Ferry",
           "schoolId": 4188,
           "schoolName": "Rockford",
@@ -238,7 +259,7 @@
           "regularStarter": null
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "Julia Xiao",
           "schoolId": 3923,
           "schoolName": "Troy",
@@ -259,7 +280,7 @@
           "regularStarter": null
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Kelly Cook",
           "schoolId": 4449,
           "schoolName": "Rochester",
@@ -280,7 +301,7 @@
           "regularStarter": null
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "Anushka Hodaghatta-Yogesh",
           "schoolId": 4350,
           "schoolName": "Farmington",
@@ -301,7 +322,7 @@
           "regularStarter": null
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "Jordyn Tomina",
           "schoolId": 9195,
           "schoolName": "Bloomfield Hills",
@@ -322,7 +343,7 @@
           "regularStarter": null
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Yifan Lin",
           "schoolId": 4441,
           "schoolName": "Rochester Adams",
@@ -343,7 +364,7 @@
           "regularStarter": null
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "Jhana Todorova",
           "schoolId": 3947,
           "schoolName": "Troy Athens",
@@ -364,7 +385,7 @@
           "regularStarter": null
         },
         {
-          "rank": 18,
+          "rank": 19,
           "name": "Ariella Ferguson",
           "schoolId": 4287,
           "schoolName": "West Bloomfield",
@@ -385,7 +406,7 @@
           "regularStarter": null
         },
         {
-          "rank": 19,
+          "rank": 20,
           "name": "Angela He",
           "schoolId": 4015,
           "schoolName": "Byron Center",
@@ -406,7 +427,7 @@
           "regularStarter": null
         },
         {
-          "rank": 20,
+          "rank": 21,
           "name": "Nikki Singh",
           "schoolId": 4420,
           "schoolName": "Utica Ford",
@@ -427,7 +448,7 @@
           "regularStarter": null
         },
         {
-          "rank": 21,
+          "rank": 22,
           "name": "Olivia Watters",
           "schoolId": 3957,
           "schoolName": "Ann Arbor Skyline",
@@ -446,33 +467,6 @@
           "matchCountAtFlight": 13,
           "ratingSource": "season",
           "regularStarter": null
-        },
-        {
-          "rank": 22,
-          "name": "Madison LeBel",
-          "schoolId": 4071,
-          "schoolName": "Utica Eisenhower",
-          "rating": 1416,
-          "sosRating": 1625,
-          "elo2026Avg": 1062,
-          "recent14": {
-            "w": 0,
-            "l": 4
-          },
-          "regional": "Regional 6-Utica Eisenhower",
-          "regionalSeed": 8,
-          "regionalPlacement": null,
-          "pastStateFinals": 0,
-          "matchCount": 4,
-          "matchCountAtFlight": 4,
-          "ratingSource": "season",
-          "regularStarter": {
-            "name": "Gabriella  Sadowski",
-            "matches": 14,
-            "record": "14-0",
-            "rating": 1773,
-            "sosRating": 1646
-          }
         }
       ]
     },
@@ -776,6 +770,27 @@
         },
         {
           "rank": 15,
+          "name": "Lana Sloan",
+          "schoolId": 4052,
+          "schoolName": "Clarkston",
+          "rating": 1583,
+          "sosRating": 1587,
+          "elo2026Avg": 0,
+          "recent14": {
+            "w": 3,
+            "l": 1
+          },
+          "regional": "Regional 7-Rochester Adams",
+          "regionalSeed": 4,
+          "regionalPlacement": null,
+          "pastStateFinals": 0,
+          "matchCount": 16,
+          "matchCountAtFlight": 16,
+          "ratingSource": "season",
+          "regularStarter": null
+        },
+        {
+          "rank": 16,
           "name": "Ellena Tomaj",
           "schoolId": 4287,
           "schoolName": "West Bloomfield",
@@ -796,7 +811,7 @@
           "regularStarter": null
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Najah Araquil",
           "schoolId": 4350,
           "schoolName": "Farmington",
@@ -817,7 +832,7 @@
           "regularStarter": null
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "Talia Nishanian",
           "schoolId": 4337,
           "schoolName": "Northville",
@@ -838,7 +853,7 @@
           "regularStarter": null
         },
         {
-          "rank": 18,
+          "rank": 19,
           "name": "Vittoria Fiorini",
           "schoolId": 4441,
           "schoolName": "Rochester Adams",
@@ -859,7 +874,7 @@
           "regularStarter": null
         },
         {
-          "rank": 19,
+          "rank": 20,
           "name": "Evangelina Ewing-Sohtun",
           "schoolId": 3957,
           "schoolName": "Ann Arbor Skyline",
@@ -880,7 +895,7 @@
           "regularStarter": null
         },
         {
-          "rank": 20,
+          "rank": 21,
           "name": "Hannah Jacob",
           "schoolId": 3947,
           "schoolName": "Troy Athens",
@@ -899,33 +914,6 @@
           "matchCountAtFlight": 22,
           "ratingSource": "season",
           "regularStarter": null
-        },
-        {
-          "rank": 21,
-          "name": "Laine Jones",
-          "schoolId": 4052,
-          "schoolName": "Clarkston",
-          "rating": 1494,
-          "sosRating": 1544,
-          "elo2026Avg": 1064,
-          "recent14": {
-            "w": 2,
-            "l": 2
-          },
-          "regional": "Regional 7-Rochester Adams",
-          "regionalSeed": 4,
-          "regionalPlacement": null,
-          "pastStateFinals": 0,
-          "matchCount": 5,
-          "matchCountAtFlight": 2,
-          "ratingSource": "season",
-          "regularStarter": {
-            "name": "Lana Sloan",
-            "matches": 16,
-            "record": "9-7",
-            "rating": 1583,
-            "sosRating": 1587
-          }
         },
         {
           "rank": 22,
@@ -1420,15 +1408,15 @@
     },
     "4S": {
       "label": "#4 Singles",
-      "matchCount": 131,
+      "matchCount": 134,
       "qualifiers": [
         {
           "rank": 1,
           "name": "Jilly Knoester",
           "schoolId": 4449,
           "schoolName": "Rochester",
-          "rating": 1649,
-          "sosRating": 1500,
+          "rating": 1648,
+          "sosRating": 1497,
           "elo2026Avg": 1260,
           "recent14": {
             "w": 4,
@@ -1487,6 +1475,48 @@
         },
         {
           "rank": 4,
+          "name": "Nina Shaye",
+          "schoolId": 3887,
+          "schoolName": "Portage Central",
+          "rating": 1622,
+          "sosRating": 1459,
+          "elo2026Avg": 0,
+          "recent14": {
+            "w": 3,
+            "l": 0
+          },
+          "regional": "Regional 8-Holt",
+          "regionalSeed": 1,
+          "regionalPlacement": 1,
+          "pastStateFinals": 0,
+          "matchCount": 6,
+          "matchCountAtFlight": 4,
+          "ratingSource": "season",
+          "regularStarter": null
+        },
+        {
+          "rank": 5,
+          "name": "Alexandra Pascarella",
+          "schoolId": 9195,
+          "schoolName": "Bloomfield Hills",
+          "rating": 1618,
+          "sosRating": 1489,
+          "elo2026Avg": 1082,
+          "recent14": {
+            "w": 4,
+            "l": 0
+          },
+          "regional": "Regional 4-West Bloomfield",
+          "regionalSeed": 1,
+          "regionalPlacement": 1,
+          "pastStateFinals": 0,
+          "matchCount": 5,
+          "matchCountAtFlight": 5,
+          "ratingSource": "season",
+          "regularStarter": null
+        },
+        {
+          "rank": 6,
           "name": "Sofia Gardner",
           "schoolId": 4071,
           "schoolName": "Utica Eisenhower",
@@ -1507,7 +1537,7 @@
           "regularStarter": null
         },
         {
-          "rank": 5,
+          "rank": 7,
           "name": "Natalia Alcaine",
           "schoolId": 4134,
           "schoolName": "Ann Arbor Pioneer",
@@ -1528,28 +1558,7 @@
           "regularStarter": null
         },
         {
-          "rank": 6,
-          "name": "Alexandra Pascarella",
-          "schoolId": 9195,
-          "schoolName": "Bloomfield Hills",
-          "rating": 1603,
-          "sosRating": 1482,
-          "elo2026Avg": 1082,
-          "recent14": {
-            "w": 3,
-            "l": 0
-          },
-          "regional": "Regional 4-West Bloomfield",
-          "regionalSeed": 1,
-          "regionalPlacement": 1,
-          "pastStateFinals": 0,
-          "matchCount": 4,
-          "matchCountAtFlight": 4,
-          "ratingSource": "season",
-          "regularStarter": null
-        },
-        {
-          "rank": 7,
+          "rank": 8,
           "name": "Sana Panchal",
           "schoolId": 4337,
           "schoolName": "Northville",
@@ -1568,33 +1577,6 @@
           "matchCountAtFlight": 3,
           "ratingSource": "season",
           "regularStarter": null
-        },
-        {
-          "rank": 8,
-          "name": "Claire Mouw",
-          "schoolId": 3887,
-          "schoolName": "Portage Central",
-          "rating": 1596,
-          "sosRating": 1486,
-          "elo2026Avg": 1155,
-          "recent14": {
-            "w": 3,
-            "l": 0
-          },
-          "regional": "Regional 8-Holt",
-          "regionalSeed": 1,
-          "regionalPlacement": 1,
-          "pastStateFinals": 0,
-          "matchCount": 3,
-          "matchCountAtFlight": 3,
-          "ratingSource": "season",
-          "regularStarter": {
-            "name": "Nina Shaye",
-            "matches": 4,
-            "record": "4-0",
-            "rating": 1622,
-            "sosRating": 1459
-          }
         },
         {
           "rank": 9,
@@ -1699,7 +1681,13 @@
           "matchCount": 3,
           "matchCountAtFlight": 3,
           "ratingSource": "season",
-          "regularStarter": null
+          "regularStarter": {
+            "name": "Emily Duhaime",
+            "matches": 3,
+            "record": "1-2",
+            "rating": 1485,
+            "sosRating": 1592
+          }
         },
         {
           "rank": 14,
@@ -1749,7 +1737,7 @@
           "schoolId": 4350,
           "schoolName": "Farmington",
           "rating": 1534,
-          "sosRating": 1508,
+          "sosRating": 1509,
           "elo2026Avg": 1070,
           "recent14": {
             "w": 2,
@@ -1787,6 +1775,27 @@
         },
         {
           "rank": 18,
+          "name": "Puja Ravi",
+          "schoolId": 4287,
+          "schoolName": "West Bloomfield",
+          "rating": 1526,
+          "sosRating": 1528,
+          "elo2026Avg": 0,
+          "recent14": {
+            "w": 2,
+            "l": 1
+          },
+          "regional": "Regional 4-West Bloomfield",
+          "regionalSeed": 5,
+          "regionalPlacement": 3,
+          "pastStateFinals": 0,
+          "matchCount": 3,
+          "matchCountAtFlight": 3,
+          "ratingSource": "season",
+          "regularStarter": null
+        },
+        {
+          "rank": 19,
           "name": "Ella Bajric",
           "schoolId": 4420,
           "schoolName": "Utica Ford",
@@ -1807,12 +1816,12 @@
           "regularStarter": null
         },
         {
-          "rank": 19,
+          "rank": 20,
           "name": "Ava Velilla",
           "schoolId": 4441,
           "schoolName": "Rochester Adams",
           "rating": 1486,
-          "sosRating": 1567,
+          "sosRating": 1566,
           "elo2026Avg": 932,
           "recent14": {
             "w": 1,
@@ -1828,7 +1837,7 @@
           "regularStarter": null
         },
         {
-          "rank": 20,
+          "rank": 21,
           "name": "Rohini Jampala",
           "schoolId": 3947,
           "schoolName": "Troy Athens",
@@ -1845,27 +1854,6 @@
           "pastStateFinals": 0,
           "matchCount": 3,
           "matchCountAtFlight": 3,
-          "ratingSource": "season",
-          "regularStarter": null
-        },
-        {
-          "rank": 21,
-          "name": "Emmaline Strange",
-          "schoolId": 4287,
-          "schoolName": "West Bloomfield",
-          "rating": 1463,
-          "sosRating": 1534,
-          "elo2026Avg": 1119,
-          "recent14": {
-            "w": 0,
-            "l": 1
-          },
-          "regional": "Regional 4-West Bloomfield",
-          "regionalSeed": 5,
-          "regionalPlacement": 3,
-          "pastStateFinals": 0,
-          "matchCount": 1,
-          "matchCountAtFlight": 1,
           "ratingSource": "season",
           "regularStarter": null
         },
@@ -2087,6 +2075,27 @@
         },
         {
           "rank": 10,
+          "name": "Gabriela Stakvel / Sonali  Shah",
+          "schoolId": 4350,
+          "schoolName": "Farmington",
+          "rating": 1632,
+          "sosRating": 1488,
+          "elo2026Avg": 721,
+          "recent14": {
+            "w": 0,
+            "l": 0
+          },
+          "regional": "Regional 4-West Bloomfield",
+          "regionalSeed": 4,
+          "regionalPlacement": 3,
+          "pastStateFinals": 0,
+          "matchCount": 11,
+          "matchCountAtFlight": 11,
+          "ratingSource": "season",
+          "regularStarter": null
+        },
+        {
+          "rank": 11,
           "name": "Kaitlyn Garon / Layla Bajric",
           "schoolId": 4420,
           "schoolName": "Utica Ford",
@@ -2107,7 +2116,7 @@
           "regularStarter": null
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Isabella Sivuchin / Sophia Lu",
           "schoolId": 3947,
           "schoolName": "Troy Athens",
@@ -2128,7 +2137,7 @@
           "regularStarter": null
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "Victoria Weingartz / Emma Rosenow",
           "schoolId": 4373,
           "schoolName": "Romeo",
@@ -2149,7 +2158,7 @@
           "regularStarter": null
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Kate Wolfe / Allison Lee",
           "schoolId": 3957,
           "schoolName": "Ann Arbor Skyline",
@@ -2170,7 +2179,7 @@
           "regularStarter": null
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "Carlie Wegener / Sadie  Debski",
           "schoolId": 4188,
           "schoolName": "Rockford",
@@ -2189,33 +2198,6 @@
           "matchCountAtFlight": 22,
           "ratingSource": "season",
           "regularStarter": null
-        },
-        {
-          "rank": 15,
-          "name": "Gabriela Stakvel / Aubrey Wods",
-          "schoolId": 4350,
-          "schoolName": "Farmington",
-          "rating": 1556,
-          "sosRating": 1520,
-          "elo2026Avg": 1416,
-          "recent14": {
-            "w": 4,
-            "l": 2
-          },
-          "regional": "Regional 4-West Bloomfield",
-          "regionalSeed": 4,
-          "regionalPlacement": 3,
-          "pastStateFinals": 0,
-          "matchCount": 8,
-          "matchCountAtFlight": 8,
-          "ratingSource": "season",
-          "regularStarter": {
-            "name": "Gabriela Stakvel / Sonali  Shah",
-            "matches": 11,
-            "record": "10-1",
-            "rating": 1632,
-            "sosRating": 1488
-          }
         },
         {
           "rank": 16,
@@ -2261,27 +2243,6 @@
         },
         {
           "rank": 18,
-          "name": "Maya Gutshall / Julia Rypma",
-          "schoolId": 3887,
-          "schoolName": "Portage Central",
-          "rating": 1527,
-          "sosRating": 1535,
-          "elo2026Avg": 1302,
-          "recent14": {
-            "w": 2,
-            "l": 1
-          },
-          "regional": "Regional 8-Holt",
-          "regionalSeed": 4,
-          "regionalPlacement": null,
-          "pastStateFinals": 2,
-          "matchCount": 20,
-          "matchCountAtFlight": 20,
-          "ratingSource": "season",
-          "regularStarter": null
-        },
-        {
-          "rank": 19,
           "name": "Maia Bak / Elizabeth  Bolotov",
           "schoolId": 4441,
           "schoolName": "Rochester Adams",
@@ -2302,7 +2263,7 @@
           "regularStarter": null
         },
         {
-          "rank": 20,
+          "rank": 19,
           "name": "Leah Bersuder / Harper Green",
           "schoolId": 4427,
           "schoolName": "Saline",
@@ -2323,7 +2284,7 @@
           "regularStarter": null
         },
         {
-          "rank": 21,
+          "rank": 20,
           "name": "Anaya Patel / Nishika Subesh",
           "schoolId": 4371,
           "schoolName": "Okemos",
@@ -2344,7 +2305,7 @@
           "regularStarter": null
         },
         {
-          "rank": 22,
+          "rank": 21,
           "name": "Sara Joyce / Delaney Brager",
           "schoolId": 4287,
           "schoolName": "West Bloomfield",
@@ -2363,6 +2324,33 @@
           "matchCountAtFlight": 14,
           "ratingSource": "season",
           "regularStarter": null
+        },
+        {
+          "rank": 22,
+          "name": "Claire Mouw / Maya Gutshall",
+          "schoolId": 3887,
+          "schoolName": "Portage Central",
+          "rating": 648,
+          "sosRating": 1500,
+          "elo2026Avg": 648,
+          "recent14": {
+            "w": 0,
+            "l": 0
+          },
+          "regional": "Regional 8-Holt",
+          "regionalSeed": 4,
+          "regionalPlacement": null,
+          "pastStateFinals": 1,
+          "matchCount": 0,
+          "matchCountAtFlight": 0,
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "name": "Maya Gutshall / Julia Rypma",
+            "matches": 20,
+            "record": "11-9",
+            "rating": 1527,
+            "sosRating": 1535
+          }
         }
       ]
     },
@@ -3218,33 +3206,6 @@
         },
         {
           "rank": 19,
-          "name": "Gaia DeMeester / Danya Asmar",
-          "schoolId": 4350,
-          "schoolName": "Farmington",
-          "rating": 1519,
-          "sosRating": 1456,
-          "elo2026Avg": 1148,
-          "recent14": {
-            "w": 2,
-            "l": 1
-          },
-          "regional": "Regional 4-West Bloomfield",
-          "regionalSeed": 2,
-          "regionalPlacement": 3,
-          "pastStateFinals": 0,
-          "matchCount": 3,
-          "matchCountAtFlight": 3,
-          "ratingSource": "season",
-          "regularStarter": {
-            "name": "Gaia DeMeester / Kate Martin",
-            "matches": 13,
-            "record": "13-0",
-            "rating": 1681,
-            "sosRating": 1475
-          }
-        },
-        {
-          "rank": 20,
           "name": "Violet Arthur / Scarlett Stetson",
           "schoolId": 3957,
           "schoolName": "Ann Arbor Skyline",
@@ -3265,7 +3226,7 @@
           "regularStarter": null
         },
         {
-          "rank": 21,
+          "rank": 20,
           "name": "Gabby Schramski / Nikhita Chanchali",
           "schoolId": 4047,
           "schoolName": "Rochester Hills Stoney Creek",
@@ -3286,7 +3247,7 @@
           "regularStarter": null
         },
         {
-          "rank": 22,
+          "rank": 21,
           "name": "Matilda Edvardsson / Eva Latvenas",
           "schoolId": 4287,
           "schoolName": "West Bloomfield",
@@ -3305,6 +3266,33 @@
           "matchCountAtFlight": 12,
           "ratingSource": "season",
           "regularStarter": null
+        },
+        {
+          "rank": 22,
+          "name": "Gaia DeMeester / Aubrey Wods",
+          "schoolId": 4350,
+          "schoolName": "Farmington",
+          "rating": 589,
+          "sosRating": 1500,
+          "elo2026Avg": 589,
+          "recent14": {
+            "w": 0,
+            "l": 0
+          },
+          "regional": "Regional 4-West Bloomfield",
+          "regionalSeed": 2,
+          "regionalPlacement": 3,
+          "pastStateFinals": 0,
+          "matchCount": 0,
+          "matchCountAtFlight": 0,
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "name": "Gaia DeMeester / Kate Martin",
+            "matches": 13,
+            "record": "13-0",
+            "rating": 1681,
+            "sosRating": 1475
+          }
         }
       ]
     },
@@ -3566,27 +3554,6 @@
         },
         {
           "rank": 13,
-          "name": "Eleanor Tipton / Paige Alexsander",
-          "schoolId": 4350,
-          "schoolName": "Farmington",
-          "rating": 1538,
-          "sosRating": 1522,
-          "elo2026Avg": 1224,
-          "recent14": {
-            "w": 2,
-            "l": 1
-          },
-          "regional": "Regional 4-West Bloomfield",
-          "regionalSeed": 2,
-          "regionalPlacement": 2,
-          "pastStateFinals": 0,
-          "matchCount": 3,
-          "matchCountAtFlight": 3,
-          "ratingSource": "season",
-          "regularStarter": null
-        },
-        {
-          "rank": 14,
           "name": "Amelia Garvin / Anna Katakowski",
           "schoolId": 4052,
           "schoolName": "Clarkston",
@@ -3607,7 +3574,7 @@
           "regularStarter": null
         },
         {
-          "rank": 15,
+          "rank": 14,
           "name": "Emma Korvun / Madison Alcaine",
           "schoolId": 4134,
           "schoolName": "Ann Arbor Pioneer",
@@ -3628,7 +3595,7 @@
           "regularStarter": null
         },
         {
-          "rank": 16,
+          "rank": 15,
           "name": "Chloe Elizondo / Aubrey Rosebery",
           "schoolId": 4188,
           "schoolName": "Rockford",
@@ -3649,7 +3616,7 @@
           "regularStarter": null
         },
         {
-          "rank": 17,
+          "rank": 16,
           "name": "Anisha Khoje / Muskan Banga",
           "schoolId": 4371,
           "schoolName": "Okemos",
@@ -3670,7 +3637,7 @@
           "regularStarter": null
         },
         {
-          "rank": 18,
+          "rank": 17,
           "name": "Mallory Paff / Hope Sikorski",
           "schoolId": 4417,
           "schoolName": "Holland West Ottawa",
@@ -3691,7 +3658,7 @@
           "regularStarter": null
         },
         {
-          "rank": 19,
+          "rank": 18,
           "name": "Savana Tobia / Gina Tavolacci",
           "schoolId": 4420,
           "schoolName": "Utica Ford",
@@ -3712,7 +3679,7 @@
           "regularStarter": null
         },
         {
-          "rank": 20,
+          "rank": 19,
           "name": "Manya Goldstein / Sabrina Mathew",
           "schoolId": 4287,
           "schoolName": "West Bloomfield",
@@ -3733,7 +3700,7 @@
           "regularStarter": null
         },
         {
-          "rank": 21,
+          "rank": 20,
           "name": "Mia Rai / Arin Lee",
           "schoolId": 4441,
           "schoolName": "Rochester Adams",
@@ -3754,7 +3721,7 @@
           "regularStarter": null
         },
         {
-          "rank": 22,
+          "rank": 21,
           "name": "Merisa Grebovic / Gia Vidyanandan",
           "schoolId": 3947,
           "schoolName": "Troy Athens",
@@ -3773,6 +3740,33 @@
           "matchCountAtFlight": 3,
           "ratingSource": "season",
           "regularStarter": null
+        },
+        {
+          "rank": 22,
+          "name": "Eleanor Tipton / Isabella Acosta-Rubio",
+          "schoolId": 4350,
+          "schoolName": "Farmington",
+          "rating": 627,
+          "sosRating": 1500,
+          "elo2026Avg": 627,
+          "recent14": {
+            "w": 0,
+            "l": 0
+          },
+          "regional": "Regional 4-West Bloomfield",
+          "regionalSeed": 2,
+          "regionalPlacement": 2,
+          "pastStateFinals": 0,
+          "matchCount": 0,
+          "matchCountAtFlight": 0,
+          "ratingSource": "tr-elo",
+          "regularStarter": {
+            "name": "Eleanor Tipton / Paige Alexsander",
+            "matches": 3,
+            "record": "2-1",
+            "rating": 1538,
+            "sosRating": 1522
+          }
         }
       ]
     }
@@ -3782,20 +3776,20 @@
       "schoolId": 4337,
       "schoolName": "Northville",
       "flightRatings": {
-        "1S": 1724.0580851090797,
-        "2S": 1551.5081695248816,
-        "3S": 1750.1445416781564,
-        "4S": 1601.6125277170593,
+        "1S": 1724.0570338019636,
+        "2S": 1551.5075986841314,
+        "3S": 1750.1423804727697,
+        "4S": 1601.612005034787,
         "1D": 1764.8556202629054,
         "2D": 1807.1539980503512,
         "3D": 1801.860612380979,
         "4D": 1627.1084718686316
       },
       "flightSOS": {
-        "1S": 1612.179750365651,
-        "2S": 1618.2603485368338,
-        "3S": 1568.8271058636487,
-        "4S": 1506.5980819432236,
+        "1S": 1612.1790547990918,
+        "2S": 1618.2596954592345,
+        "3S": 1568.824022872304,
+        "4S": 1506.5976901022032,
         "1D": 1581.8676483462832,
         "2D": 1583.83507859887,
         "3D": 1590.9144404607837,
@@ -3811,114 +3805,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 13628.302026592046,
-      "sosSum": 12566.567738184105,
+      "total": 13628.297720556518,
+      "sosSum": 12566.562914707582,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1570.8209672730131,
-      "totalAvg": 1703.5377533240057
-    },
-    {
-      "schoolId": 4134,
-      "schoolName": "Ann Arbor Pioneer",
-      "flightRatings": {
-        "1S": 1737.0711127932523,
-        "2S": 1693.0796600444987,
-        "3S": 1661.712753811108,
-        "4S": 1604.8343237117292,
-        "1D": 1662.3714606412998,
-        "2D": 1642.659317110761,
-        "3D": 1709.026556293515,
-        "4D": 1532.5452973363876
-      },
-      "flightSOS": {
-        "1S": 1610.8820270219844,
-        "2S": 1502.7450512314742,
-        "3S": 1528.0284192500874,
-        "4S": 1481.9070425269695,
-        "1D": 1578.501874644404,
-        "2D": 1550.9511420365604,
-        "3D": 1518.8017939365793,
-        "4D": 1501.141369865952
-      },
-      "flightSource": {
-        "1S": "season",
-        "2S": "season",
-        "3S": "season",
-        "4S": "season",
-        "1D": "season",
-        "2D": "season",
-        "3D": "season",
-        "4D": "season"
-      },
-      "total": 13243.300481742552,
-      "sosSum": 12272.958720514012,
-      "sosCount": 8,
-      "ratedFlights": 8,
-      "fallbackFlights": 0,
-      "sosAvg": 1534.1198400642515,
-      "totalAvg": 1655.412560217819
-    },
-    {
-      "schoolId": 9195,
-      "schoolName": "Bloomfield Hills",
-      "flightRatings": {
-        "1S": 1576.410035413058,
-        "2S": 1724.3331634166889,
-        "3S": 1711.8785082000077,
-        "4S": 1602.553546475336,
-        "1D": 1637.6633652043593,
-        "2D": 1699.5363083982909,
-        "3D": 1648.3416526293904,
-        "4D": 1621.1397039322128
-      },
-      "flightSOS": {
-        "1S": 1604.863902993921,
-        "2S": 1577.9740681491649,
-        "3S": 1573.9952945248094,
-        "4S": 1481.7904603697905,
-        "1D": 1578.1435458046824,
-        "2D": 1544.0674743965847,
-        "3D": 1538.6023368436609,
-        "4D": 1496.6496429628687
-      },
-      "flightSource": {
-        "1S": "season",
-        "2S": "season",
-        "3S": "season",
-        "4S": "season",
-        "1D": "season",
-        "2D": "season",
-        "3D": "season",
-        "4D": "season"
-      },
-      "total": 13221.856283669344,
-      "sosSum": 12396.086726045483,
-      "sosCount": 8,
-      "ratedFlights": 8,
-      "fallbackFlights": 0,
-      "sosAvg": 1549.5108407556854,
-      "totalAvg": 1652.732035458668
+      "sosAvg": 1570.8203643384477,
+      "totalAvg": 1703.5372150695648
     },
     {
       "schoolId": 4071,
       "schoolName": "Utica Eisenhower",
       "flightRatings": {
-        "1S": 1415.8821701987138,
-        "2S": 1796.3272772843557,
-        "3S": 1733.3170245948481,
-        "4S": 1614.2970649602414,
+        "1S": 1772.7117879217342,
+        "2S": 1796.3259937940072,
+        "3S": 1733.3160143368157,
+        "4S": 1614.3063633239162,
         "1D": 1768.3189132168513,
         "2D": 1652.0084247346906,
         "3D": 1603.9471968380872,
         "4D": 1624.1440586060369
       },
       "flightSOS": {
-        "1S": 1625.34745816238,
-        "2S": 1580.9692197147513,
-        "3S": 1607.3849820841394,
-        "4S": 1523.7297193972552,
+        "1S": 1645.7492038680525,
+        "2S": 1580.968460932846,
+        "3S": 1607.3842541268216,
+        "4S": 1523.764096902777,
         "1D": 1598.6497786576783,
         "2D": 1565.384439943264,
         "3D": 1597.4848070383514,
@@ -3934,32 +3846,114 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 13208.242130433826,
-      "sosSum": 12614.803689005836,
+      "total": 13565.07875277214,
+      "sosSum": 12635.238325477807,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1576.8504611257295,
-      "totalAvg": 1651.0302663042282
+      "sosAvg": 1579.4047906847259,
+      "totalAvg": 1695.6348440965176
+    },
+    {
+      "schoolId": 4134,
+      "schoolName": "Ann Arbor Pioneer",
+      "flightRatings": {
+        "1S": 1737.0699950734988,
+        "2S": 1693.078959152451,
+        "3S": 1661.7121666257935,
+        "4S": 1604.8337828904494,
+        "1D": 1662.3714606412998,
+        "2D": 1642.659317110761,
+        "3D": 1709.026556293515,
+        "4D": 1532.5452973363876
+      },
+      "flightSOS": {
+        "1S": 1610.8812802733635,
+        "2S": 1502.7449922056144,
+        "3S": 1528.0283045139502,
+        "4S": 1481.906669173152,
+        "1D": 1578.501874644404,
+        "2D": 1550.9511420365604,
+        "3D": 1518.8017939365793,
+        "4D": 1501.141369865952
+      },
+      "flightSource": {
+        "1S": "season",
+        "2S": "season",
+        "3S": "season",
+        "4S": "season",
+        "1D": "season",
+        "2D": "season",
+        "3D": "season",
+        "4D": "season"
+      },
+      "total": 13243.297535124157,
+      "sosSum": 12272.957426649577,
+      "sosCount": 8,
+      "ratedFlights": 8,
+      "fallbackFlights": 0,
+      "sosAvg": 1534.119678331197,
+      "totalAvg": 1655.4121918905196
+    },
+    {
+      "schoolId": 9195,
+      "schoolName": "Bloomfield Hills",
+      "flightRatings": {
+        "1S": 1576.4112769997832,
+        "2S": 1724.3324218066416,
+        "3S": 1711.8795352378518,
+        "4S": 1618.108654786753,
+        "1D": 1637.6633652043593,
+        "2D": 1699.5363083982909,
+        "3D": 1648.3416526293904,
+        "4D": 1621.1397039322128
+      },
+      "flightSOS": {
+        "1S": 1604.8674106329806,
+        "2S": 1577.9738252810641,
+        "3S": 1573.9984828962797,
+        "4S": 1489.3645093546277,
+        "1D": 1578.1435458046824,
+        "2D": 1544.0674743965847,
+        "3D": 1538.6023368436609,
+        "4D": 1496.6496429628687
+      },
+      "flightSource": {
+        "1S": "season",
+        "2S": "season",
+        "3S": "season",
+        "4S": "season",
+        "1D": "season",
+        "2D": "season",
+        "3D": "season",
+        "4D": "season"
+      },
+      "total": 13237.412918995282,
+      "sosSum": 12403.667228172748,
+      "sosCount": 8,
+      "ratedFlights": 8,
+      "fallbackFlights": 0,
+      "sosAvg": 1550.4584035215935,
+      "totalAvg": 1654.6766148744102
     },
     {
       "schoolId": 4373,
       "schoolName": "Romeo",
       "flightRatings": {
-        "1S": 1641.8121280419116,
-        "2S": 1669.907313060727,
-        "3S": 1636.5139053916926,
-        "4S": 1640.1959978561351,
+        "1S": 1641.811184626366,
+        "2S": 1669.9063630163698,
+        "3S": 1636.5131292730414,
+        "4S": 1640.1902320320087,
         "1D": 1608.2299217636637,
         "2D": 1705.3583283752253,
         "3D": 1666.5421946344381,
         "4D": 1625.7637789462942
       },
       "flightSOS": {
-        "1S": 1588.5100608199398,
-        "2S": 1515.7498233971523,
-        "3S": 1568.5655227940474,
-        "4S": 1511.850215268865,
+        "1S": 1588.5092657188347,
+        "2S": 1515.749180767021,
+        "3S": 1568.5648761019704,
+        "4S": 1511.840127486137,
         "1D": 1540.431391004043,
         "2D": 1536.2331694607435,
         "3D": 1513.798326414884,
@@ -3975,32 +3969,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 13194.323568070085,
-      "sosSum": 12283.37775236154,
+      "total": 13194.315132667405,
+      "sosSum": 12283.3655801555,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1535.4222190451926,
-      "totalAvg": 1649.2904460087607
+      "sosAvg": 1535.4206975194375,
+      "totalAvg": 1649.2893915834256
     },
     {
       "schoolId": 3933,
       "schoolName": "Novi",
       "flightRatings": {
-        "1S": 1674.846603014597,
-        "2S": 1721.1868021329803,
-        "3S": 1651.030960014439,
-        "4S": 1563.557274654599,
+        "1S": 1674.8457235980436,
+        "2S": 1721.1858674352113,
+        "3S": 1651.0300706981272,
+        "4S": 1563.5567866351334,
         "1D": 1651.541931653206,
         "2D": 1692.4045413866193,
         "3D": 1671.794896754451,
         "4D": 1564.3337661481323
       },
       "flightSOS": {
-        "1S": 1590.7295844342889,
-        "2S": 1550.667313138362,
-        "3S": 1580.887469019887,
-        "4S": 1495.1268100414588,
+        "1S": 1590.7289774954345,
+        "2S": 1550.666713162193,
+        "3S": 1580.8866469679572,
+        "4S": 1495.126464795821,
         "1D": 1605.0575939188195,
         "2D": 1587.0407487298348,
         "3D": 1602.4068484639088,
@@ -4016,32 +4010,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 13190.696775759025,
-      "sosSum": 12551.176913960815,
+      "total": 13190.693584308923,
+      "sosSum": 12551.174539748223,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1568.8971142451019,
-      "totalAvg": 1648.837096969878
+      "sosAvg": 1568.8968174685278,
+      "totalAvg": 1648.8366980386154
     },
     {
       "schoolId": 4417,
       "schoolName": "Holland West Ottawa",
       "flightRatings": {
-        "1S": 1647.621307615182,
-        "2S": 1781.9951014023868,
-        "3S": 1722.693749351664,
-        "4S": 1629.2553223371995,
+        "1S": 1647.6203316321792,
+        "2S": 1781.9938593968918,
+        "3S": 1722.6925863762583,
+        "4S": 1629.264391893932,
         "1D": 1535.7897719275138,
         "2D": 1623.210755875784,
         "3D": 1693.5526856632753,
         "4D": 1521.6910244941687
       },
       "flightSOS": {
-        "1S": 1615.0343962761876,
-        "2S": 1588.1885930904891,
-        "3S": 1584.7333006757947,
-        "4S": 1515.3854295820422,
+        "1S": 1615.0335077248592,
+        "2S": 1588.1878103494294,
+        "3S": 1584.732412958095,
+        "4S": 1515.414796346627,
         "1D": 1559.1951719125116,
         "2D": 1567.6344082459887,
         "3D": 1585.3996759052727,
@@ -4057,73 +4051,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 13155.809718667173,
-      "sosSum": 12484.854133317021,
+      "total": 13155.815407260001,
+      "sosSum": 12484.880941071518,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1560.6067666646277,
-      "totalAvg": 1644.4762148333966
-    },
-    {
-      "schoolId": 3887,
-      "schoolName": "Portage Central",
-      "flightRatings": {
-        "1S": 1669.91493255645,
-        "2S": 1654.538170207865,
-        "3S": 1809.1239742888213,
-        "4S": 1595.797746455034,
-        "1D": 1526.5555411988412,
-        "2D": 1718.3109465096782,
-        "3D": 1550.8902741387499,
-        "4D": 1613.331586864645
-      },
-      "flightSOS": {
-        "1S": 1580.7909584929876,
-        "2S": 1565.1156185739185,
-        "3S": 1555.455367863197,
-        "4S": 1485.9591535141892,
-        "1D": 1534.8620113141972,
-        "2D": 1522.8932708568082,
-        "3D": 1574.2336647680672,
-        "4D": 1477.6606094962035
-      },
-      "flightSource": {
-        "1S": "season",
-        "2S": "season",
-        "3S": "season",
-        "4S": "season",
-        "1D": "season",
-        "2D": "season",
-        "3D": "season",
-        "4D": "season"
-      },
-      "total": 13138.463172220087,
-      "sosSum": 12296.97065487957,
-      "sosCount": 8,
-      "ratedFlights": 8,
-      "fallbackFlights": 0,
-      "sosAvg": 1537.1213318599462,
-      "totalAvg": 1642.3078965275108
+      "sosAvg": 1560.6101176339398,
+      "totalAvg": 1644.4769259075001
     },
     {
       "schoolId": 4015,
       "schoolName": "Byron Center",
       "flightRatings": {
-        "1S": 1545.3319832449506,
-        "2S": 1687.2148553445393,
-        "3S": 1604.2058774685995,
-        "4S": 1550.4231164879764,
+        "1S": 1545.3312165612808,
+        "2S": 1687.213871689984,
+        "3S": 1604.2050494806574,
+        "4S": 1550.4227148565863,
         "1D": 1707.5489329193224,
         "2D": 1681.1844603653183,
         "3D": 1678.6026804690625,
         "4D": 1538.2893078890593
       },
       "flightSOS": {
-        "1S": 1549.5658353716979,
-        "2S": 1602.9471154407806,
-        "3S": 1576.6929974492018,
-        "4S": 1472.0068599791396,
+        "1S": 1549.5650705591413,
+        "2S": 1602.9462914007142,
+        "3S": 1576.6922198164098,
+        "4S": 1472.0067164454113,
         "1D": 1513.3441858785598,
         "2D": 1569.2006114244093,
         "3D": 1547.927078324259,
@@ -4139,32 +4092,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12992.801214188828,
-      "sosSum": 12353.360539595436,
+      "total": 12992.798234231272,
+      "sosSum": 12353.358029576293,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1544.1700674494296,
-      "totalAvg": 1624.1001517736036
+      "sosAvg": 1544.1697536970366,
+      "totalAvg": 1624.099779278909
     },
     {
       "schoolId": 3923,
       "schoolName": "Troy",
       "flightRatings": {
-        "1S": 1592.5385530656129,
-        "2S": 1599.6042077192483,
-        "3S": 1546.6036359349316,
-        "4S": 1530.2407836679124,
+        "1S": 1592.5376604661299,
+        "2S": 1599.6033718189342,
+        "3S": 1546.602842175069,
+        "4S": 1530.2403141736606,
         "1D": 1815.0316918754668,
         "2D": 1633.40883344148,
         "3D": 1632.7356402736214,
         "4D": 1601.3346367175677
       },
       "flightSOS": {
-        "1S": 1577.4181460617278,
-        "2S": 1554.4456560705341,
-        "3S": 1554.9513453790541,
-        "4S": 1493.4011212913963,
+        "1S": 1577.41733523901,
+        "2S": 1554.4449227604089,
+        "3S": 1554.950497716992,
+        "4S": 1493.400750965207,
         "1D": 1594.6898407749518,
         "2D": 1591.1329020118399,
         "3D": 1604.8182469886706,
@@ -4180,32 +4133,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12951.497982695842,
-      "sosSum": 12477.132477766861,
+      "total": 12951.494990941928,
+      "sosSum": 12477.129715645766,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1559.6415597208577,
-      "totalAvg": 1618.9372478369803
+      "sosAvg": 1559.6412144557207,
+      "totalAvg": 1618.936873867741
     },
     {
       "schoolId": 4371,
       "schoolName": "Okemos",
       "flightRatings": {
-        "1S": 1750.9386860701563,
-        "2S": 1728.2092849789246,
-        "3S": 1661.2906866654264,
-        "4S": 1534.3853144616369,
+        "1S": 1750.9375227684925,
+        "2S": 1728.2082505692388,
+        "3S": 1661.2897921891488,
+        "4S": 1534.384877207336,
         "1D": 1503.0900938282807,
         "2D": 1599.0986342385122,
         "3D": 1586.2437556705213,
         "4D": 1524.574961633632
       },
       "flightSOS": {
-        "1S": 1538.1827901507081,
-        "2S": 1524.234041325047,
-        "3S": 1568.4407844269574,
-        "4S": 1508.0929423214443,
+        "1S": 1538.1820614044548,
+        "2S": 1524.2333973937057,
+        "3S": 1568.4400378989474,
+        "4S": 1508.0925482098464,
         "1D": 1575.5273580933215,
         "2D": 1492.673392057029,
         "3D": 1527.1962708576018,
@@ -4221,32 +4174,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12887.83141754709,
-      "sosSum": 12255.238178414436,
+      "total": 12887.827888105161,
+      "sosSum": 12255.235665097234,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1531.9047723018045,
-      "totalAvg": 1610.9789271933862
+      "sosAvg": 1531.9044581371543,
+      "totalAvg": 1610.9784860131451
     },
     {
       "schoolId": 4449,
       "schoolName": "Rochester",
       "flightRatings": {
-        "1S": 1591.629764873254,
-        "2S": 1646.4870914445805,
-        "3S": 1605.5129248071203,
-        "4S": 1648.8989470817064,
+        "1S": 1591.6289678721744,
+        "2S": 1646.4861500317513,
+        "3S": 1605.512282983837,
+        "4S": 1647.7759312834885,
         "1D": 1654.3816622560498,
         "2D": 1572.791809651872,
         "3D": 1543.2050552149553,
         "4D": 1623.844736427618
       },
       "flightSOS": {
-        "1S": 1573.3915533185905,
-        "2S": 1564.1995901651494,
-        "3S": 1572.8578717424587,
-        "4S": 1499.6387444742102,
+        "1S": 1573.3908741844073,
+        "2S": 1564.1988514670988,
+        "3S": 1572.8574650076453,
+        "4S": 1496.6746994857008,
         "1D": 1566.7771046324985,
         "2D": 1551.0249701149974,
         "3D": 1547.9595913577061,
@@ -4262,32 +4215,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12886.751991757157,
-      "sosSum": 12379.767562129988,
+      "total": 12885.626595721747,
+      "sosSum": 12376.80169257443,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1547.4709452662485,
-      "totalAvg": 1610.8439989696446
+      "sosAvg": 1547.1002115718038,
+      "totalAvg": 1610.7033244652184
     },
     {
       "schoolId": 4188,
       "schoolName": "Rockford",
       "flightRatings": {
-        "1S": 1637.4080755241628,
-        "2S": 1641.5119220058643,
-        "3S": 1682.3883904280697,
-        "4S": 1556.3557066185676,
+        "1S": 1637.4071152112726,
+        "2S": 1641.5110126935506,
+        "3S": 1682.3873598977223,
+        "4S": 1556.356077796652,
         "1D": 1585.9226964975073,
         "2D": 1621.4727554150006,
         "3D": 1581.4821267757657,
         "4D": 1531.9377779247122
       },
       "flightSOS": {
-        "1S": 1581.017621539414,
-        "2S": 1553.2708866757725,
-        "3S": 1549.45477468085,
-        "4S": 1517.6609004113484,
+        "1S": 1581.0167932201332,
+        "2S": 1553.2701522065013,
+        "3S": 1549.4540211561693,
+        "4S": 1517.6631551759053,
         "1D": 1535.170791148429,
         "2D": 1546.0942180494524,
         "3D": 1554.1521328848546,
@@ -4303,32 +4256,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12838.47945118965,
-      "sosSum": 12338.513291416066,
+      "total": 12838.476922212183,
+      "sosSum": 12338.51322986739,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1542.3141614270082,
-      "totalAvg": 1604.8099313987063
+      "sosAvg": 1542.3141537334238,
+      "totalAvg": 1604.809615276523
     },
     {
       "schoolId": 4427,
       "schoolName": "Saline",
       "flightRatings": {
-        "1S": 1809.687736377261,
-        "2S": 1487.7030710441784,
-        "3S": 1628.0051343234295,
-        "4S": 1536.5639993119398,
+        "1S": 1809.6863889111419,
+        "2S": 1487.702481399796,
+        "3S": 1628.0041840875128,
+        "4S": 1536.5635592551232,
         "1D": 1510.0575434262892,
         "2D": 1627.19594402996,
         "3D": 1607.6142265454807,
         "4D": 1555.8081441163824
       },
       "flightSOS": {
-        "1S": 1615.1001785925962,
-        "2S": 1558.891467994017,
-        "3S": 1549.4546605217768,
-        "4S": 1515.984221744726,
+        "1S": 1615.0993301303106,
+        "2S": 1558.8908745556153,
+        "3S": 1549.4537679090245,
+        "4S": 1515.983818473702,
         "1D": 1568.3170404270734,
         "2D": 1541.1202443924033,
         "3D": 1548.5303552246658,
@@ -4344,32 +4297,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12762.635799174923,
-      "sosSum": 12408.00686527333,
+      "total": 12762.632471771687,
+      "sosSum": 12408.004127488866,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1551.0008581591662,
-      "totalAvg": 1595.3294748968653
+      "sosAvg": 1551.0005159361083,
+      "totalAvg": 1595.3290589714609
     },
     {
       "schoolId": 4047,
       "schoolName": "Rochester Hills Stoney Creek",
       "flightRatings": {
-        "1S": 1699.9677877075035,
-        "2S": 1599.2120973606648,
-        "3S": 1655.9394493459154,
-        "4S": 1538.0785125843506,
+        "1S": 1699.966799503979,
+        "2S": 1599.2113275010142,
+        "3S": 1655.938745028415,
+        "4S": 1537.9964574820272,
         "1D": 1779.7959724943378,
         "2D": 1457.624079565327,
         "3D": 1438.572535934854,
         "4D": 1546.5044962765314
       },
       "flightSOS": {
-        "1S": 1585.7654872268736,
-        "2S": 1648.1076229422677,
-        "3S": 1612.27418812095,
-        "4S": 1535.7471473197631,
+        "1S": 1585.7647738562425,
+        "2S": 1648.10678926784,
+        "3S": 1612.2736964934595,
+        "4S": 1535.5199862133409,
         "1D": 1630.9812118685268,
         "2D": 1579.6861875479694,
         "3D": 1541.7799248471888,
@@ -4385,32 +4338,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12715.694931269483,
-      "sosSum": 12662.559023588135,
+      "total": 12715.610413786486,
+      "sosSum": 12662.329823809165,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1582.819877948517,
-      "totalAvg": 1589.4618664086854
+      "sosAvg": 1582.7912279761456,
+      "totalAvg": 1589.4513017233107
     },
     {
       "schoolId": 4420,
       "schoolName": "Utica Ford",
       "flightRatings": {
-        "1S": 1538.741154330919,
-        "2S": 1616.6529074063246,
-        "3S": 1598.9711340068645,
-        "4S": 1515.394801262331,
+        "1S": 1538.7403850712324,
+        "2S": 1616.652075785242,
+        "3S": 1598.9701702541054,
+        "4S": 1515.3940586821034,
         "1D": 1631.4504263411254,
         "2D": 1659.5899619813551,
         "3D": 1604.3850985723766,
         "4D": 1520.8691381094097
       },
       "flightSOS": {
-        "1S": 1514.3987026042466,
-        "2S": 1478.0346884438961,
-        "3S": 1483.762613574812,
-        "4S": 1515.942629657259,
+        "1S": 1514.3980200356827,
+        "2S": 1478.0340611304396,
+        "3S": 1483.7617094034815,
+        "4S": 1515.9411673621132,
         "1D": 1506.880680551368,
         "2D": 1491.9635916399975,
         "3D": 1472.28451396642,
@@ -4426,32 +4379,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12686.054622010706,
-      "sosSum": 11995.916410946591,
+      "total": 12686.05131479695,
+      "sosSum": 11995.912734598096,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1499.4895513683239,
-      "totalAvg": 1585.7568277513383
+      "sosAvg": 1499.489091824762,
+      "totalAvg": 1585.7564143496188
     },
     {
       "schoolId": 4052,
       "schoolName": "Clarkston",
       "flightRatings": {
-        "1S": 1795.2489916272716,
-        "2S": 1494.447341997859,
-        "3S": 1548.666155289976,
-        "4S": 1537.6771677061154,
+        "1S": 1795.2476967739053,
+        "2S": 1583.2396476828385,
+        "3S": 1548.6654641158657,
+        "4S": 1537.5771294814076,
         "1D": 1529.2033557633024,
         "2D": 1503.6958063735085,
         "3D": 1634.7434894648259,
         "4D": 1534.212380212816
       },
       "flightSOS": {
-        "1S": 1593.7428621605623,
-        "2S": 1543.7967510729793,
-        "3S": 1557.627820815796,
-        "4S": 1520.3671146834522,
+        "1S": 1593.7421124358511,
+        "2S": 1586.9455895747185,
+        "3S": 1557.627214191949,
+        "4S": 1519.985407370611,
         "1D": 1574.4182104114852,
         "2D": 1598.5332364262058,
         "3D": 1585.4800738837437,
@@ -4467,32 +4420,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12577.894688435674,
-      "sosSum": 12481.024244994507,
+      "total": 12666.584969868469,
+      "sosSum": 12523.790019834847,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1560.1280306243134,
-      "totalAvg": 1572.2368360544592
+      "sosAvg": 1565.4737524793559,
+      "totalAvg": 1583.3231212335586
     },
     {
       "schoolId": 4441,
       "schoolName": "Rochester Adams",
       "flightRatings": {
-        "1S": 1571.255883395073,
-        "2S": 1545.7639255384092,
-        "3S": 1658.9831828127183,
-        "4S": 1485.7892996944145,
+        "1S": 1571.2550827082587,
+        "2S": 1545.763168073331,
+        "3S": 1658.9825080573025,
+        "4S": 1485.6999941027282,
         "1D": 1521.6027831372921,
         "2D": 1649.9937663104652,
         "3D": 1596.1416999090857,
         "4D": 1478.5324257463642
       },
       "flightSOS": {
-        "1S": 1631.4352345521058,
-        "2S": 1586.0423364268136,
-        "3S": 1564.3296197333245,
-        "4S": 1566.6202636679277,
+        "1S": 1631.4344281683364,
+        "2S": 1586.0415698645434,
+        "3S": 1564.3292701952541,
+        "4S": 1566.2340659466445,
         "1D": 1637.8733617430462,
         "2D": 1575.375024805872,
         "3D": 1557.902897964847,
@@ -4508,73 +4461,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12508.062966543821,
-      "sosSum": 12658.419105251936,
+      "total": 12507.971428044826,
+      "sosSum": 12658.030985046544,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1582.302388156492,
-      "totalAvg": 1563.5078708179776
-    },
-    {
-      "schoolId": 4350,
-      "schoolName": "Farmington",
-      "flightRatings": {
-        "1S": 1587.1134318799668,
-        "2S": 1551.6749410421749,
-        "3S": 1488.5484172859256,
-        "4S": 1533.583083904282,
-        "1D": 1556.0812694745478,
-        "2D": 1609.7963359936991,
-        "3D": 1519.4575593984025,
-        "4D": 1538.1950680613686
-      },
-      "flightSOS": {
-        "1S": 1486.8880320645121,
-        "2S": 1487.9526286557575,
-        "3S": 1519.1406989771294,
-        "4S": 1507.974037568067,
-        "1D": 1520.41300060671,
-        "2D": 1515.149236562067,
-        "3D": 1455.8822688088858,
-        "4D": 1521.6174302414768
-      },
-      "flightSource": {
-        "1S": "season",
-        "2S": "season",
-        "3S": "season",
-        "4S": "season",
-        "1D": "season",
-        "2D": "season",
-        "3D": "season",
-        "4D": "season"
-      },
-      "total": 12384.450107040366,
-      "sosSum": 12015.017333484606,
-      "sosCount": 8,
-      "ratedFlights": 8,
-      "fallbackFlights": 0,
-      "sosAvg": 1501.8771666855757,
-      "totalAvg": 1548.0562633800457
+      "sosAvg": 1582.253873130818,
+      "totalAvg": 1563.4964285056033
     },
     {
       "schoolId": 3947,
       "schoolName": "Troy Athens",
       "flightRatings": {
-        "1S": 1565.2112744333126,
-        "2S": 1497.9144008569206,
-        "3S": 1487.6264225975146,
-        "4S": 1476.9378459275042,
+        "1S": 1565.2104638205174,
+        "2S": 1497.9136678546604,
+        "3S": 1487.6257690832113,
+        "4S": 1476.9370314534258,
         "1D": 1625.4252565511,
         "2D": 1580.582851270313,
         "3D": 1598.08614791657,
         "4D": 1476.4268189091763
       },
       "flightSOS": {
-        "1S": 1558.1649512851266,
-        "2S": 1547.0980173654937,
-        "3S": 1541.5237794917246,
-        "4S": 1536.5587357879351,
+        "1S": 1558.1642270710822,
+        "2S": 1547.0973109940321,
+        "3S": 1541.5230893604107,
+        "4S": 1536.5564761350156,
         "1D": 1602.729056435241,
         "2D": 1567.5259853220382,
         "3D": 1520.364322883817,
@@ -4590,32 +4502,73 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12308.21101846241,
-      "sosSum": 12407.640952504284,
+      "total": 12308.208006858975,
+      "sosSum": 12407.636572134543,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1550.9551190630355,
-      "totalAvg": 1538.5263773078013
+      "sosAvg": 1550.9545715168179,
+      "totalAvg": 1538.5260008573719
+    },
+    {
+      "schoolId": 3887,
+      "schoolName": "Portage Central",
+      "flightRatings": {
+        "1S": 1669.9138811975945,
+        "2S": 1654.5372566380968,
+        "3S": 1809.1225335043455,
+        "4S": 1622.2546572109902,
+        "1D": 648.405,
+        "2D": 1718.3109465096782,
+        "3D": 1550.8902741387499,
+        "4D": 1613.331586864645
+      },
+      "flightSOS": {
+        "1S": 1580.7901071717954,
+        "2S": 1565.1149026220698,
+        "3S": 1555.454595972897,
+        "4S": 1459.0742856547902,
+        "1D": 1500,
+        "2D": 1522.8932708568082,
+        "3D": 1574.2336647680672,
+        "4D": 1477.6606094962035
+      },
+      "flightSource": {
+        "1S": "season",
+        "2S": "season",
+        "3S": "season",
+        "4S": "season",
+        "1D": "tr-elo",
+        "2D": "season",
+        "3D": "season",
+        "4D": "season"
+      },
+      "total": 12286.7661360641,
+      "sosSum": 12235.221436542633,
+      "sosCount": 8,
+      "ratedFlights": 7,
+      "fallbackFlights": 1,
+      "sosAvg": 1529.4026795678292,
+      "totalAvg": 1535.8457670080124
     },
     {
       "schoolId": 3957,
       "schoolName": "Ann Arbor Skyline",
       "flightRatings": {
-        "1S": 1426.782522930271,
-        "2S": 1545.3445715532355,
-        "3S": 1558.3660894341006,
-        "4S": 1454.922941636297,
+        "1S": 1426.7819112490783,
+        "2S": 1545.3441737463822,
+        "3S": 1558.3636059480496,
+        "4S": 1454.922539374971,
         "1D": 1607.2764096533683,
         "2D": 1560.0077537280517,
         "3D": 1483.2773760490682,
         "4D": 1577.0862028802262
       },
       "flightSOS": {
-        "1S": 1616.60538390419,
-        "2S": 1522.0356385298996,
-        "3S": 1542.5208070967215,
-        "4S": 1553.294282165391,
+        "1S": 1616.6045346968406,
+        "2S": 1522.0355208496674,
+        "3S": 1542.516724710819,
+        "4S": 1553.293792104881,
         "1D": 1582.3789921367124,
         "2D": 1565.7291179438919,
         "3D": 1575.2373156212789,
@@ -4631,32 +4584,32 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12213.063867864617,
-      "sosSum": 12474.026023635568,
+      "total": 12213.059972629195,
+      "sosSum": 12474.020484301574,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1559.253252954446,
-      "totalAvg": 1526.6329834830772
+      "sosAvg": 1559.2525605376968,
+      "totalAvg": 1526.6324965786494
     },
     {
       "schoolId": 4287,
       "schoolName": "West Bloomfield",
       "flightRatings": {
-        "1S": 1557.7230321414265,
-        "2S": 1556.5507948691663,
-        "3S": 1614.460055676718,
-        "4S": 1463.2100706423666,
+        "1S": 1557.7225292295814,
+        "2S": 1556.5501273183713,
+        "3S": 1614.461068445646,
+        "4S": 1525.8398561865229,
         "1D": 1502.26065698027,
         "2D": 1461.6765419791209,
         "3D": 1409.8770619087911,
         "4D": 1479.911701558891
       },
       "flightSOS": {
-        "1S": 1523.1822623687137,
-        "2S": 1579.442748427026,
-        "3S": 1561.7518029016678,
-        "4S": 1533.583083904282,
+        "1S": 1523.1820000985313,
+        "2S": 1579.4421452339236,
+        "3S": 1561.75422249094,
+        "4S": 1528.1168132625028,
         "1D": 1557.1998268927152,
         "2D": 1552.6928484711889,
         "3D": 1559.618031891034,
@@ -4672,13 +4625,54 @@
         "3D": "season",
         "4D": "season"
       },
-      "total": 12045.669915756751,
-      "sosSum": 12410.970543058182,
+      "total": 12108.299543607196,
+      "sosSum": 12405.50582654239,
       "sosCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
-      "sosAvg": 1551.3713178822727,
-      "totalAvg": 1505.7087394695939
+      "sosAvg": 1550.6882283177988,
+      "totalAvg": 1513.5374429508995
+    },
+    {
+      "schoolId": 4350,
+      "schoolName": "Farmington",
+      "flightRatings": {
+        "1S": 1587.113015225619,
+        "2S": 1551.6747830619026,
+        "3S": 1488.5840591510814,
+        "4S": 1533.8118785091422,
+        "1D": 1632.0319726562075,
+        "2D": 1609.7963359936991,
+        "3D": 589.245,
+        "4D": 627.055
+      },
+      "flightSOS": {
+        "1S": 1486.8880423521227,
+        "2S": 1487.9529997965833,
+        "3S": 1519.200927841299,
+        "4S": 1508.8170820989787,
+        "1D": 1488.0928722255362,
+        "2D": 1515.149236562067,
+        "3D": 1500,
+        "4D": 1500
+      },
+      "flightSource": {
+        "1S": "season",
+        "2S": "season",
+        "3S": "season",
+        "4S": "season",
+        "1D": "season",
+        "2D": "season",
+        "3D": "tr-elo",
+        "4D": "tr-elo"
+      },
+      "total": 10619.312044597653,
+      "sosSum": 12006.101160876588,
+      "sosCount": 8,
+      "ratedFlights": 6,
+      "fallbackFlights": 2,
+      "sosAvg": 1500.7626451095734,
+      "totalAvg": 1327.4140055747066
     }
   ],
   "teamRanking": [
@@ -4715,6 +4709,37 @@
     },
     {
       "rank": 2,
+      "schoolId": 4071,
+      "schoolName": "Utica Eisenhower",
+      "total": 13565,
+      "totalAvg": 1696,
+      "sosAvg": 1579,
+      "qualifierCount": 8,
+      "ratedFlights": 8,
+      "fallbackFlights": 0,
+      "flightRatings": {
+        "1S": 1773,
+        "2S": 1796,
+        "3S": 1733,
+        "4S": 1614,
+        "1D": 1768,
+        "2D": 1652,
+        "3D": 1604,
+        "4D": 1624
+      },
+      "flightSource": {
+        "1S": "season",
+        "2S": "season",
+        "3S": "season",
+        "4S": "season",
+        "1D": "season",
+        "2D": "season",
+        "3D": "season",
+        "4D": "season"
+      }
+    },
+    {
+      "rank": 3,
       "schoolId": 4134,
       "schoolName": "Ann Arbor Pioneer",
       "total": 13243,
@@ -4745,11 +4770,11 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "schoolId": 9195,
       "schoolName": "Bloomfield Hills",
-      "total": 13222,
-      "totalAvg": 1653,
+      "total": 13237,
+      "totalAvg": 1655,
       "sosAvg": 1550,
       "qualifierCount": 8,
       "ratedFlights": 8,
@@ -4758,42 +4783,11 @@
         "1S": 1576,
         "2S": 1724,
         "3S": 1712,
-        "4S": 1603,
+        "4S": 1618,
         "1D": 1638,
         "2D": 1700,
         "3D": 1648,
         "4D": 1621
-      },
-      "flightSource": {
-        "1S": "season",
-        "2S": "season",
-        "3S": "season",
-        "4S": "season",
-        "1D": "season",
-        "2D": "season",
-        "3D": "season",
-        "4D": "season"
-      }
-    },
-    {
-      "rank": 4,
-      "schoolId": 4071,
-      "schoolName": "Utica Eisenhower",
-      "total": 13208,
-      "totalAvg": 1651,
-      "sosAvg": 1577,
-      "qualifierCount": 8,
-      "ratedFlights": 8,
-      "fallbackFlights": 0,
-      "flightRatings": {
-        "1S": 1416,
-        "2S": 1796,
-        "3S": 1733,
-        "4S": 1614,
-        "1D": 1768,
-        "2D": 1652,
-        "3D": 1604,
-        "4D": 1624
       },
       "flightSource": {
         "1S": "season",
@@ -4901,37 +4895,6 @@
     },
     {
       "rank": 8,
-      "schoolId": 3887,
-      "schoolName": "Portage Central",
-      "total": 13138,
-      "totalAvg": 1642,
-      "sosAvg": 1537,
-      "qualifierCount": 8,
-      "ratedFlights": 8,
-      "fallbackFlights": 0,
-      "flightRatings": {
-        "1S": 1670,
-        "2S": 1655,
-        "3S": 1809,
-        "4S": 1596,
-        "1D": 1527,
-        "2D": 1718,
-        "3D": 1551,
-        "4D": 1613
-      },
-      "flightSource": {
-        "1S": "season",
-        "2S": "season",
-        "3S": "season",
-        "4S": "season",
-        "1D": "season",
-        "2D": "season",
-        "3D": "season",
-        "4D": "season"
-      }
-    },
-    {
-      "rank": 9,
       "schoolId": 4015,
       "schoolName": "Byron Center",
       "total": 12993,
@@ -4962,7 +4925,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "schoolId": 3923,
       "schoolName": "Troy",
       "total": 12951,
@@ -4993,7 +4956,7 @@
       }
     },
     {
-      "rank": 11,
+      "rank": 10,
       "schoolId": 4371,
       "schoolName": "Okemos",
       "total": 12888,
@@ -5024,10 +4987,10 @@
       }
     },
     {
-      "rank": 12,
+      "rank": 11,
       "schoolId": 4449,
       "schoolName": "Rochester",
-      "total": 12887,
+      "total": 12886,
       "totalAvg": 1611,
       "sosAvg": 1547,
       "qualifierCount": 8,
@@ -5037,7 +5000,7 @@
         "1S": 1592,
         "2S": 1646,
         "3S": 1606,
-        "4S": 1649,
+        "4S": 1648,
         "1D": 1654,
         "2D": 1573,
         "3D": 1543,
@@ -5055,7 +5018,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 12,
       "schoolId": 4188,
       "schoolName": "Rockford",
       "total": 12838,
@@ -5086,7 +5049,7 @@
       }
     },
     {
-      "rank": 14,
+      "rank": 13,
       "schoolId": 4427,
       "schoolName": "Saline",
       "total": 12763,
@@ -5117,7 +5080,7 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 14,
       "schoolId": 4047,
       "schoolName": "Rochester Hills Stoney Creek",
       "total": 12716,
@@ -5148,7 +5111,7 @@
       }
     },
     {
-      "rank": 16,
+      "rank": 15,
       "schoolId": 4420,
       "schoolName": "Utica Ford",
       "total": 12686,
@@ -5179,18 +5142,18 @@
       }
     },
     {
-      "rank": 17,
+      "rank": 16,
       "schoolId": 4052,
       "schoolName": "Clarkston",
-      "total": 12578,
-      "totalAvg": 1572,
-      "sosAvg": 1560,
+      "total": 12667,
+      "totalAvg": 1583,
+      "sosAvg": 1565,
       "qualifierCount": 8,
       "ratedFlights": 8,
       "fallbackFlights": 0,
       "flightRatings": {
         "1S": 1795,
-        "2S": 1494,
+        "2S": 1583,
         "3S": 1549,
         "4S": 1538,
         "1D": 1529,
@@ -5210,11 +5173,11 @@
       }
     },
     {
-      "rank": 18,
+      "rank": 17,
       "schoolId": 4441,
       "schoolName": "Rochester Adams",
       "total": 12508,
-      "totalAvg": 1564,
+      "totalAvg": 1563,
       "sosAvg": 1582,
       "qualifierCount": 8,
       "ratedFlights": 8,
@@ -5241,38 +5204,7 @@
       }
     },
     {
-      "rank": 19,
-      "schoolId": 4350,
-      "schoolName": "Farmington",
-      "total": 12384,
-      "totalAvg": 1548,
-      "sosAvg": 1502,
-      "qualifierCount": 8,
-      "ratedFlights": 8,
-      "fallbackFlights": 0,
-      "flightRatings": {
-        "1S": 1587,
-        "2S": 1552,
-        "3S": 1489,
-        "4S": 1534,
-        "1D": 1556,
-        "2D": 1610,
-        "3D": 1519,
-        "4D": 1538
-      },
-      "flightSource": {
-        "1S": "season",
-        "2S": "season",
-        "3S": "season",
-        "4S": "season",
-        "1D": "season",
-        "2D": "season",
-        "3D": "season",
-        "4D": "season"
-      }
-    },
-    {
-      "rank": 20,
+      "rank": 18,
       "schoolId": 3947,
       "schoolName": "Troy Athens",
       "total": 12308,
@@ -5303,7 +5235,38 @@
       }
     },
     {
-      "rank": 21,
+      "rank": 19,
+      "schoolId": 3887,
+      "schoolName": "Portage Central",
+      "total": 12287,
+      "totalAvg": 1536,
+      "sosAvg": 1529,
+      "qualifierCount": 8,
+      "ratedFlights": 7,
+      "fallbackFlights": 1,
+      "flightRatings": {
+        "1S": 1670,
+        "2S": 1655,
+        "3S": 1809,
+        "4S": 1622,
+        "1D": 648,
+        "2D": 1718,
+        "3D": 1551,
+        "4D": 1613
+      },
+      "flightSource": {
+        "1S": "season",
+        "2S": "season",
+        "3S": "season",
+        "4S": "season",
+        "1D": "tr-elo",
+        "2D": "season",
+        "3D": "season",
+        "4D": "season"
+      }
+    },
+    {
+      "rank": 20,
       "schoolId": 3957,
       "schoolName": "Ann Arbor Skyline",
       "total": 12213,
@@ -5334,11 +5297,11 @@
       }
     },
     {
-      "rank": 22,
+      "rank": 21,
       "schoolId": 4287,
       "schoolName": "West Bloomfield",
-      "total": 12046,
-      "totalAvg": 1506,
+      "total": 12108,
+      "totalAvg": 1514,
       "sosAvg": 1551,
       "qualifierCount": 8,
       "ratedFlights": 8,
@@ -5347,7 +5310,7 @@
         "1S": 1558,
         "2S": 1557,
         "3S": 1614,
-        "4S": 1463,
+        "4S": 1526,
         "1D": 1502,
         "2D": 1462,
         "3D": 1410,
@@ -5363,22 +5326,89 @@
         "3D": "season",
         "4D": "season"
       }
+    },
+    {
+      "rank": 22,
+      "schoolId": 4350,
+      "schoolName": "Farmington",
+      "total": 10619,
+      "totalAvg": 1327,
+      "sosAvg": 1501,
+      "qualifierCount": 8,
+      "ratedFlights": 6,
+      "fallbackFlights": 2,
+      "flightRatings": {
+        "1S": 1587,
+        "2S": 1552,
+        "3S": 1489,
+        "4S": 1534,
+        "1D": 1632,
+        "2D": 1610,
+        "3D": 589,
+        "4D": 627
+      },
+      "flightSource": {
+        "1S": "season",
+        "2S": "season",
+        "3S": "season",
+        "4S": "season",
+        "1D": "season",
+        "2D": "season",
+        "3D": "tr-elo",
+        "4D": "tr-elo"
+      }
     }
   ],
   "upsetWatch": {
-    "underseeded": [],
+    "underseeded": [
+      {
+        "flight": "1S",
+        "stateRank": 3,
+        "regSeed": 8,
+        "key": "125195",
+        "name": "Gabriella  Sadowski",
+        "schoolId": 4071,
+        "schoolName": "Utica Eisenhower",
+        "gamma": 4.8059524523941395,
+        "rating": 1772.7117879217342,
+        "sosRating": 1645.7492038680525,
+        "wWins": 1.9855490123017978,
+        "wLosses": 0,
+        "matchCount": 14,
+        "distinctOpponents": 13,
+        "matchCountAtFlight": 14,
+        "qualifier": {
+          "key": "125195",
+          "flight": "1S",
+          "playerIds": [
+            125195
+          ],
+          "name": "Gabriella Sadowski",
+          "school": {
+            "id": 4071,
+            "name": "Utica Eisenhower"
+          },
+          "seed": 8,
+          "winnerReportPlacement": null,
+          "elo2026Avg": 0,
+          "pastStateFinals": [],
+          "regional": "r06_utica_eisenhower",
+          "regionalName": "Regional 6-Utica Eisenhower"
+        }
+      }
+    ],
     "overseeded": [
       {
         "flight": "1S",
-        "stateRank": 15,
+        "stateRank": 16,
         "regSeed": 1,
         "key": "191239",
         "name": "Jordyn Tomina",
         "schoolId": 9195,
         "schoolName": "Bloomfield Hills",
-        "gamma": 1.552476691588358,
-        "rating": 1576.410035413058,
-        "sosRating": 1604.863902993921,
+        "gamma": 1.5524877874082454,
+        "rating": 1576.4112769997832,
+        "sosRating": 1604.8674106329806,
         "wWins": 1.690630388117417,
         "wLosses": 1.4942822322489586,
         "matchCount": 17,
@@ -5405,15 +5435,15 @@
       },
       {
         "flight": "1S",
-        "stateRank": 16,
+        "stateRank": 17,
         "regSeed": 2,
         "key": "197686",
         "name": "Yifan Lin",
         "schoolId": 4441,
         "schoolName": "Rochester Adams",
-        "gamma": 1.507091805603914,
-        "rating": 1571.255883395073,
-        "sosRating": 1631.4352345521058,
+        "gamma": 1.5070848592472017,
+        "rating": 1571.2550827082587,
+        "sosRating": 1631.4344281683364,
         "wWins": 1.7422149356482435,
         "wLosses": 1.9036654360683942,
         "matchCount": 19,
@@ -5440,15 +5470,15 @@
       },
       {
         "flight": "1S",
-        "stateRank": 17,
+        "stateRank": 18,
         "regSeed": 2,
         "key": "149175",
         "name": "Jhana Todorova",
         "schoolId": 3947,
         "schoolName": "Troy Athens",
-        "gamma": 1.455553544186347,
-        "rating": 1565.2112744333126,
-        "sosRating": 1558.1649512851266,
+        "gamma": 1.455546752207497,
+        "rating": 1565.2104638205174,
+        "sosRating": 1558.1642270710822,
         "wWins": 2.1848922864287736,
         "wLosses": 1.7347323919899735,
         "matchCount": 22,
@@ -5484,15 +5514,15 @@
       },
       {
         "flight": "1S",
-        "stateRank": 18,
+        "stateRank": 19,
         "regSeed": 2,
         "key": "170043",
         "name": "Ariella Ferguson",
         "schoolId": 4287,
         "schoolName": "West Bloomfield",
-        "gamma": 1.3941438277791227,
-        "rating": 1557.7230321414265,
-        "sosRating": 1523.1822623687137,
+        "gamma": 1.3941397917479312,
+        "rating": 1557.7225292295814,
+        "sosRating": 1523.1820000985313,
         "wWins": 1.8535874690742815,
         "wLosses": 1.2350439901696117,
         "matchCount": 16,
@@ -5524,15 +5554,15 @@
       },
       {
         "flight": "2S",
-        "stateRank": 15,
+        "stateRank": 16,
         "regSeed": 2,
         "key": "170042",
         "name": "Ellena Tomaj",
         "schoolId": 4287,
         "schoolName": "West Bloomfield",
-        "gamma": 1.3847678983219447,
-        "rating": 1556.5507948691663,
-        "sosRating": 1579.442748427026,
+        "gamma": 1.3847625770412582,
+        "rating": 1556.5501273183713,
+        "sosRating": 1579.4421452339236,
         "wWins": 1.5237666517260506,
         "wLosses": 1.3671018773186554,
         "matchCount": 15,
@@ -5564,15 +5594,15 @@
       },
       {
         "flight": "2S",
-        "stateRank": 17,
+        "stateRank": 18,
         "regSeed": 2,
         "key": "124996",
         "name": "Talia Nishanian",
         "schoolId": 4337,
         "schoolName": "Northville",
-        "gamma": 1.3451490951037648,
-        "rating": 1551.5081695248816,
-        "sosRating": 1618.2603485368338,
+        "gamma": 1.3451446749194826,
+        "rating": 1551.5075986841314,
+        "sosRating": 1618.2596954592345,
         "wWins": 0.7382816996234416,
         "wLosses": 0.6966293620923665,
         "matchCount": 7,
@@ -5618,9 +5648,9 @@
         "name": "Fiona Loverich",
         "schoolId": 4427,
         "schoolName": "Saline",
-        "gamma": 0.9316604886217993,
-        "rating": 1487.7030710441784,
-        "sosRating": 1558.891467994017,
+        "gamma": 0.9316573263237278,
+        "rating": 1487.702481399796,
+        "sosRating": 1558.8908745556153,
         "wWins": 1.0555454421809554,
         "wLosses": 1.6284926421597667,
         "matchCount": 17,
@@ -5658,9 +5688,9 @@
         "name": "Bella  Kuzminsky",
         "schoolId": 4287,
         "schoolName": "West Bloomfield",
-        "gamma": 1.932636329893778,
-        "rating": 1614.460055676718,
-        "sosRating": 1561.7518029016678,
+        "gamma": 1.9326475971318589,
+        "rating": 1614.461068445646,
+        "sosRating": 1561.75422249094,
         "wWins": 1.9717863173154828,
         "wLosses": 0.9190822117292234,
         "matchCount": 15,
@@ -5702,9 +5732,9 @@
         "name": "Tiffany Patalinghug",
         "schoolId": 4449,
         "schoolName": "Rochester",
-        "gamma": 1.8356180181712687,
-        "rating": 1605.5129248071203,
-        "sosRating": 1572.8578717424587,
+        "gamma": 1.8356112362510728,
+        "rating": 1605.512282983837,
+        "sosRating": 1572.8574650076453,
         "wWins": 2.395516650105204,
         "wLosses": 1.4565295483711174,
         "matchCount": 21,
@@ -5742,9 +5772,9 @@
         "name": "Rosana Pantalena",
         "schoolId": 4420,
         "schoolName": "Utica Ford",
-        "gamma": 1.7677784486298247,
-        "rating": 1598.9711340068645,
-        "sosRating": 1483.762613574812,
+        "gamma": 1.767768641363658,
+        "rating": 1598.9701702541054,
+        "sosRating": 1483.7617094034815,
         "wWins": 2.2662790285764602,
         "wLosses": 0.7650617283129058,
         "matchCount": 17,
@@ -5777,9 +5807,9 @@
         "name": "Anastasia Barodka",
         "schoolId": 3923,
         "schoolName": "Troy",
-        "gamma": 1.3077029090177406,
-        "rating": 1546.6036359349316,
-        "sosRating": 1554.9513453790541,
+        "gamma": 1.307696933811094,
+        "rating": 1546.602842175069,
+        "sosRating": 1554.950497716992,
         "wWins": 1.3868646719907096,
         "wLosses": 1.172959659490472,
         "matchCount": 13,
@@ -5817,9 +5847,9 @@
         "name": "Isabella Apone",
         "schoolId": 4427,
         "schoolName": "Saline",
-        "gamma": 1.2342695028258623,
-        "rating": 1536.5639993119398,
-        "sosRating": 1515.984221744726,
+        "gamma": 1.2342663762145256,
+        "rating": 1536.5635592551232,
+        "sosRating": 1515.983818473702,
         "wWins": 0.5198668144794207,
         "wLosses": 0.25993340723971037,
         "matchCount": 3,
@@ -5857,9 +5887,9 @@
         "name": "Haneesha  Padavala",
         "schoolId": 4371,
         "schoolName": "Okemos",
-        "gamma": 1.2188865538562645,
-        "rating": 1534.3853144616369,
-        "sosRating": 1508.0929423214443,
+        "gamma": 1.2188834858762456,
+        "rating": 1534.384877207336,
+        "sosRating": 1508.0925482098464,
         "wWins": 0.5198668144794207,
         "wLosses": 0.25993340723971037,
         "matchCount": 3,
@@ -5897,9 +5927,9 @@
         "name": "Miriam Dukhan",
         "schoolId": 4350,
         "schoolName": "Farmington",
-        "gamma": 1.2132707002037126,
-        "rating": 1533.583083904282,
-        "sosRating": 1507.974037568067,
+        "gamma": 1.2148696882278558,
+        "rating": 1533.8118785091422,
+        "sosRating": 1508.8170820989787,
         "wWins": 0.5132453122606295,
         "wLosses": 0.25993340723971037,
         "matchCount": 3,
@@ -5932,9 +5962,9 @@
         "name": "Maryam Majjhoo",
         "schoolId": 3923,
         "schoolName": "Troy",
-        "gamma": 1.1901507076462177,
-        "rating": 1530.2407836679124,
-        "sosRating": 1493.4011212913963,
+        "gamma": 1.1901474911181236,
+        "rating": 1530.2403141736606,
+        "sosRating": 1493.400750965207,
         "wWins": 0.7798002217191311,
         "wLosses": 0.47036216735331854,
         "matchCount": 5,
@@ -5961,15 +5991,15 @@
       },
       {
         "flight": "4S",
-        "stateRank": 18,
+        "stateRank": 19,
         "regSeed": 2,
         "key": "169683",
         "name": "Ella Bajric",
         "schoolId": 4420,
         "schoolName": "Utica Ford",
-        "gamma": 1.0926649272378832,
-        "rating": 1515.394801262331,
-        "sosRating": 1515.942629657259,
+        "gamma": 1.0926602565036807,
+        "rating": 1515.3940586821034,
+        "sosRating": 1515.9411673621132,
         "wWins": 0.5198668144794207,
         "wLosses": 0.426231546314277,
         "matchCount": 4,
@@ -5997,6 +6027,47 @@
       {
         "flight": "1D",
         "stateRank": 14,
+        "regSeed": 1,
+        "key": "143525-169964",
+        "name": "Kate Wolfe / Allison Lee",
+        "schoolId": 3957,
+        "schoolName": "Ann Arbor Skyline",
+        "gamma": 1.8543470773679946,
+        "rating": 1607.2764096533683,
+        "sosRating": 1582.3789921367124,
+        "wWins": 1.7130492041582144,
+        "wLosses": 0.9277525118990968,
+        "matchCount": 14,
+        "distinctOpponents": 12,
+        "matchCountAtFlight": 14,
+        "qualifier": {
+          "key": "143525-169964",
+          "flight": "1D",
+          "playerIds": [
+            143525,
+            169964
+          ],
+          "name": "Kate Wolfe / Allison Lee",
+          "school": {
+            "id": 3957,
+            "name": "Ann Arbor Skyline"
+          },
+          "seed": 1,
+          "winnerReportPlacement": 2,
+          "elo2026Avg": 1256.1599999999999,
+          "pastStateFinals": [
+            {
+              "year": "2024",
+              "name": "MHSAA Finals-2024"
+            }
+          ],
+          "regional": "r03_ann_arbor_pioneer",
+          "regionalName": "Regional 3-Ann Arbor Pioneer"
+        }
+      },
+      {
+        "flight": "1D",
+        "stateRank": 15,
         "regSeed": 2,
         "key": "143879-145378",
         "name": "Carlie Wegener / Sadie  Debski",
@@ -6041,7 +6112,7 @@
       },
       {
         "flight": "1D",
-        "stateRank": 19,
+        "stateRank": 18,
         "regSeed": 2,
         "key": "152497-152498",
         "name": "Maia Bak / Elizabeth  Bolotov",
@@ -6333,35 +6404,34 @@
       },
       {
         "flight": "3D",
-        "stateRank": 19,
+        "stateRank": 22,
         "regSeed": 2,
-        "key": "165752-171391",
-        "name": "Gaia DeMeester / Danya Asmar",
+        "key": "165752-170771",
+        "name": "Gaia DeMeester / Aubrey Wods",
         "schoolId": 4350,
         "schoolName": "Farmington",
-        "gamma": 1.1185203720903822,
-        "rating": 1519.4575593984025,
-        "sosRating": 1455.8822688088858,
-        "wWins": 0.5132453122606295,
-        "wLosses": 0.25993340723971037,
-        "matchCount": 3,
-        "distinctOpponents": 3,
-        "matchCountAtFlight": 3,
+        "rating": null,
+        "sosRating": null,
+        "wWins": 0,
+        "wLosses": 0,
+        "matchCount": 0,
+        "matchCountAtFlight": 0,
+        "ratingSource": "no-data",
         "qualifier": {
-          "key": "165752-171391",
+          "key": "165752-170771",
           "flight": "3D",
           "playerIds": [
-            171391,
-            165752
+            165752,
+            170771
           ],
-          "name": "Danya Asmar / Gaia DeMeester",
+          "name": "Gaia DeMeester / Aubrey Wods",
           "school": {
             "id": 4350,
             "name": "Farmington"
           },
           "seed": 2,
           "winnerReportPlacement": 3,
-          "elo2026Avg": 1147.885,
+          "elo2026Avg": 589.245,
           "pastStateFinals": [],
           "regional": "r04_west_bloomfield",
           "regionalName": "Regional 4-West Bloomfield"
@@ -6370,42 +6440,6 @@
       {
         "flight": "4D",
         "stateRank": 14,
-        "regSeed": 1,
-        "key": "196045-196047",
-        "name": "Amelia Garvin / Anna Katakowski",
-        "schoolId": 4052,
-        "schoolName": "Clarkston",
-        "gamma": 1.2176737687764936,
-        "rating": 1534.212380212816,
-        "sosRating": 1507.0581755402811,
-        "wWins": 0.5198668144794207,
-        "wLosses": 0.25993340723971037,
-        "matchCount": 3,
-        "distinctOpponents": 3,
-        "matchCountAtFlight": 3,
-        "qualifier": {
-          "key": "196045-196047",
-          "flight": "4D",
-          "playerIds": [
-            196045,
-            196047
-          ],
-          "name": "Amelia Garvin / Anna Katakowski",
-          "school": {
-            "id": 4052,
-            "name": "Clarkston"
-          },
-          "seed": 1,
-          "winnerReportPlacement": 2,
-          "elo2026Avg": 1221.75,
-          "pastStateFinals": [],
-          "regional": "r07_rochester_adams",
-          "regionalName": "Regional 7-Rochester Adams"
-        }
-      },
-      {
-        "flight": "4D",
-        "stateRank": 15,
         "regSeed": 1,
         "key": "171217-197739",
         "name": "Emma Korvun / Madison Alcaine",
@@ -6446,7 +6480,7 @@
       },
       {
         "flight": "4D",
-        "stateRank": 16,
+        "stateRank": 15,
         "regSeed": 2,
         "key": "145380-166071",
         "name": "Chloe Elizondo / Aubrey Rosebery",
@@ -6482,7 +6516,7 @@
       },
       {
         "flight": "4D",
-        "stateRank": 17,
+        "stateRank": 16,
         "regSeed": 1,
         "key": "168238-168242",
         "name": "Anisha Khoje / Muskan Banga",
@@ -6523,7 +6557,7 @@
       },
       {
         "flight": "4D",
-        "stateRank": 22,
+        "stateRank": 21,
         "regSeed": 2,
         "key": "164872-191734",
         "name": "Merisa Grebovic / Gia Vidyanandan",
@@ -6556,6 +6590,41 @@
           "regional": "r05_troy",
           "regionalName": "Regional 5-Troy"
         }
+      },
+      {
+        "flight": "4D",
+        "stateRank": 22,
+        "regSeed": 2,
+        "key": "165751-192285",
+        "name": "Eleanor Tipton / Isabella Acosta-Rubio",
+        "schoolId": 4350,
+        "schoolName": "Farmington",
+        "rating": null,
+        "sosRating": null,
+        "wWins": 0,
+        "wLosses": 0,
+        "matchCount": 0,
+        "matchCountAtFlight": 0,
+        "ratingSource": "no-data",
+        "qualifier": {
+          "key": "165751-192285",
+          "flight": "4D",
+          "playerIds": [
+            192285,
+            165751
+          ],
+          "name": "Eleanor Tipton / Isabella Acosta-Rubio",
+          "school": {
+            "id": 4350,
+            "name": "Farmington"
+          },
+          "seed": 2,
+          "winnerReportPlacement": 2,
+          "elo2026Avg": 627.055,
+          "pastStateFinals": [],
+          "regional": "r04_west_bloomfield",
+          "regionalName": "Regional 4-West Bloomfield"
+        }
       }
     ]
   },
@@ -6581,70 +6650,70 @@
             "opponent": "Emerson Jones",
             "school": "Saline",
             "rating": 1810,
-            "winProb": 0.4792329300133162
+            "winProb": 0.4792330055985382
+          },
+          {
+            "opponent": "Gabriella  Sadowski",
+            "school": "Utica Eisenhower",
+            "rating": 1773,
+            "winProb": 0.532386373068836
           },
           {
             "opponent": "Isabella Portnoy",
             "school": "Okemos",
             "rating": 1751,
-            "winProb": 0.5634241579029673
-          },
-          {
-            "opponent": "Rachel He",
-            "school": "Ann Arbor Pioneer",
-            "rating": 1737,
-            "winProb": 0.5829508486493297
+            "winProb": 0.5634239716310625
           }
         ],
         "easiest": [
           {
-            "opponent": "Madison LeBel",
-            "school": "Utica Eisenhower",
-            "rating": 1416,
-            "winProb": 0.8987862813540228
-          },
-          {
             "opponent": "Olivia Watters",
             "school": "Ann Arbor Skyline",
             "rating": 1427,
-            "winProb": 0.8929336455030089
+            "winProb": 0.8929332695282062
           },
           {
             "opponent": "Nikki Singh",
             "school": "Utica Ford",
             "rating": 1539,
-            "winProb": 0.8140551219674544
+            "winProb": 0.8140546639898119
+          },
+          {
+            "opponent": "Angela He",
+            "school": "Byron Center",
+            "rating": 1545,
+            "winProb": 0.8082431695773012
           }
         ]
       },
       {
         "flight": "2S",
         "flightLabel": "#2 Singles",
-        "stateRank": 21,
+        "stateRank": 15,
         "fieldSize": 22,
         "ours": {
-          "name": "Laine Jones",
-          "rating": 1494,
-          "sosRating": 1544
+          "name": "Lana Sloan",
+          "rating": 1583,
+          "sosRating": 1587
         },
         "hardest": [
           {
             "opponent": "Morgan Emerick",
             "school": "Utica Eisenhower",
             "rating": 1796,
-            "winProb": 0.14959760374433517
+            "winProb": 0.22677291920012152
           },
           {
             "opponent": "Isabella Gitler",
             "school": "Holland West Ottawa",
             "rating": 1782,
-            "winProb": 0.16039958678578736
+            "winProb": 0.241564505145002
           },
           {
             "opponent": "Isabelle  Hult",
             "school": "Okemos",
             "rating": 1728,
-            "winProb": 0.20658377902977396
+            "winProb": 0.30269306805899276
           }
         ],
         "easiest": [
@@ -6652,19 +6721,19 @@
             "opponent": "Fiona Loverich",
             "school": "Saline",
             "rating": 1488,
-            "winProb": 0.5097045672080872
+            "winProb": 0.6341254144636072
           },
           {
             "opponent": "Hannah Jacob",
             "school": "Troy Athens",
             "rating": 1498,
-            "winProb": 0.4950106668337717
+            "winProb": 0.6203833870476057
           },
           {
             "opponent": "Evangelina Ewing-Sohtun",
             "school": "Ann Arbor Skyline",
             "rating": 1545,
-            "winProb": 0.4272725118194203
+            "winProb": 0.5543207292496306
           }
         ]
       },
@@ -6683,19 +6752,19 @@
             "opponent": "Aarna Betala",
             "school": "Portage Central",
             "rating": 1809,
-            "winProb": 0.1825276026585959
+            "winProb": 0.18252824652167576
           },
           {
             "opponent": "Grace Xu",
             "school": "Northville",
             "rating": 1750,
-            "winProb": 0.23870311515641257
+            "winProb": 0.23870465294053328
           },
           {
             "opponent": "Mia  Miller",
             "school": "Utica Eisenhower",
             "rating": 1733,
-            "winProb": 0.25674881025565116
+            "winProb": 0.2567491607692453
           }
         ],
         "easiest": [
@@ -6703,19 +6772,19 @@
             "opponent": "Katrina Kulish",
             "school": "Troy Athens",
             "rating": 1488,
-            "winProb": 0.5869504752129984
+            "winProb": 0.5869504226551739
           },
           {
             "opponent": "Jelena Donlic",
             "school": "Farmington",
             "rating": 1489,
-            "winProb": 0.5856631533416055
+            "winProb": 0.5856123997637545
           },
           {
             "opponent": "Anastasia Barodka",
             "school": "Troy",
             "rating": 1547,
-            "winProb": 0.5029681690836456
+            "winProb": 0.5029683167112078
           }
         ]
       },
@@ -6733,20 +6802,20 @@
           {
             "opponent": "Jilly Knoester",
             "school": "Rochester",
-            "rating": 1649,
-            "winProb": 0.34519137861053084
+            "rating": 1648,
+            "winProb": 0.3465236447135712
           },
           {
             "opponent": "Mary Wesley",
             "school": "Romeo",
             "rating": 1640,
-            "winProb": 0.35660139594742896
+            "winProb": 0.35647689587297204
           },
           {
             "opponent": "Maggie Rothstein",
             "school": "Holland West Ottawa",
             "rating": 1629,
-            "winProb": 0.3711780610639552
+            "winProb": 0.37103147716977697
           }
         ],
         "easiest": [
@@ -6754,19 +6823,19 @@
             "opponent": "Luciana Williams",
             "school": "Ann Arbor Skyline",
             "rating": 1455,
-            "winProb": 0.6168907200081312
-          },
-          {
-            "opponent": "Emmaline Strange",
-            "school": "West Bloomfield",
-            "rating": 1463,
-            "winProb": 0.6055553319500251
+            "winProb": 0.6167551599219768
           },
           {
             "opponent": "Rohini Jampala",
             "school": "Troy Athens",
             "rating": 1477,
-            "winProb": 0.5865311604162184
+            "winProb": 0.5863926358926819
+          },
+          {
+            "opponent": "Ava Velilla",
+            "school": "Rochester Adams",
+            "rating": 1486,
+            "winProb": 0.5741072805460659
           }
         ]
       },
@@ -6802,6 +6871,12 @@
         ],
         "easiest": [
           {
+            "opponent": "Claire Mouw / Maya Gutshall",
+            "school": "Portage Central",
+            "rating": 648,
+            "winProb": 0.9937585572399352
+          },
+          {
             "opponent": "Sara Joyce / Delaney Brager",
             "school": "West Bloomfield",
             "rating": 1502,
@@ -6812,12 +6887,6 @@
             "school": "Okemos",
             "rating": 1503,
             "winProb": 0.5375094008335815
-          },
-          {
-            "opponent": "Leah Bersuder / Harper Green",
-            "school": "Saline",
-            "rating": 1510,
-            "winProb": 0.5275251827171262
           }
         ]
       },
@@ -6904,6 +6973,12 @@
         ],
         "easiest": [
           {
+            "opponent": "Gaia DeMeester / Aubrey Wods",
+            "school": "Farmington",
+            "rating": 589,
+            "winProb": 0.9975722824932136
+          },
+          {
             "opponent": "Matilda Edvardsson / Eva Latvenas",
             "school": "West Bloomfield",
             "rating": 1410,
@@ -6914,19 +6989,13 @@
             "school": "Rochester Hills Stoney Creek",
             "rating": 1439,
             "winProb": 0.7557006072855648
-          },
-          {
-            "opponent": "Violet Arthur / Scarlett Stetson",
-            "school": "Ann Arbor Skyline",
-            "rating": 1483,
-            "winProb": 0.7051427735871512
           }
         ]
       },
       {
         "flight": "4D",
         "flightLabel": "#4 Doubles",
-        "stateRank": 14,
+        "stateRank": 13,
         "fieldSize": 22,
         "ours": {
           "name": "Amelia Garvin / Anna Katakowski",
@@ -6955,6 +7024,12 @@
         ],
         "easiest": [
           {
+            "opponent": "Eleanor Tipton / Isabella Acosta-Rubio",
+            "school": "Farmington",
+            "rating": 627,
+            "winProb": 0.9946325351298806
+          },
+          {
             "opponent": "Merisa Grebovic / Gia Vidyanandan",
             "school": "Troy Athens",
             "rating": 1476,
@@ -6965,12 +7040,6 @@
             "school": "Rochester Adams",
             "rating": 1479,
             "winProb": 0.5794508732450249
-          },
-          {
-            "opponent": "Manya Goldstein / Sabrina Mathew",
-            "school": "West Bloomfield",
-            "rating": 1480,
-            "winProb": 0.5775148438805588
           }
         ]
       }
@@ -6987,7 +7056,7 @@
     },
     {
       "flight": "2S",
-      "ours": "Laine Jones",
+      "ours": "Lana Sloan",
       "count": 0,
       "sharedFor": []
     },

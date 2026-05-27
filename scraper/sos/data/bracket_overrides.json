@@ -1,0 +1,75 @@
+{
+  "_comment": "Substitutions the live bracket has applied since phase1 was last scraped. apply_overrides.mjs reads this, patches phase1_summary.json and phase2b_player_matches.json in-place (backups written), then re-runs phase4 + phase5. Resolved playerIds come from scraper/sos/find_new_player_ids.mjs (cached) + TR seed list lookups (for players not in school cache).",
+  "generatedAt": "2026-05-27",
+  "subs": [
+    {
+      "flight": "1S",
+      "school": "Utica Eisenhower",
+      "schoolId": 4071,
+      "oldPlayers": [{ "name": "Madison LeBel" }],
+      "newPlayers": [{ "playerId": 125195, "name": "Gabriella Sadowski" }]
+    },
+    {
+      "flight": "2S",
+      "school": "Clarkston",
+      "schoolId": 4052,
+      "oldPlayers": [{ "name": "Laine Jones" }],
+      "newPlayers": [{ "playerId": 125764, "name": "Lana Sloan" }]
+    },
+    {
+      "flight": "4S",
+      "school": "Portage Central",
+      "schoolId": 3887,
+      "oldPlayers": [{ "name": "Claire Mouw" }],
+      "newPlayers": [{ "playerId": 161710, "name": "Nina Shaye" }]
+    },
+    {
+      "flight": "4S",
+      "school": "West Bloomfield",
+      "schoolId": 4287,
+      "oldPlayers": [{ "name": "Emmaline Strange" }],
+      "newPlayers": [{ "playerId": 125390, "name": "Puja Ravi" }],
+      "needsPhase2bInject": true
+    },
+    {
+      "flight": "1D",
+      "school": "Portage Central",
+      "schoolId": 3887,
+      "oldPlayers": [{ "name": "Maya Gutshall" }, { "name": "Julia Rypma" }],
+      "newPlayers": [
+        { "playerId": 189542, "name": "Claire Mouw" },
+        { "playerId": 143560, "name": "Maya Gutshall" }
+      ]
+    },
+    {
+      "flight": "1D",
+      "school": "Farmington",
+      "schoolId": 4350,
+      "oldPlayers": [{ "name": "Gabriela Stakvel" }, { "name": "Aubrey Wods" }],
+      "newPlayers": [
+        { "playerId": 124789, "name": "Gabriela Stakvel" },
+        { "playerId": 147113, "name": "Sonali Shah" }
+      ]
+    },
+    {
+      "flight": "3D",
+      "school": "Farmington",
+      "schoolId": 4350,
+      "oldPlayers": [{ "name": "Gaia DeMeester" }, { "name": "Danya Asmar" }],
+      "newPlayers": [
+        { "playerId": 165752, "name": "Gaia DeMeester" },
+        { "playerId": 170771, "name": "Aubrey Wods" }
+      ]
+    },
+    {
+      "flight": "4D",
+      "school": "Farmington",
+      "schoolId": 4350,
+      "oldPlayers": [{ "name": "Eleanor Tipton" }, { "name": "Paige Alexsander" }],
+      "newPlayers": [
+        { "playerId": 192285, "name": "Eleanor Tipton" },
+        { "playerId": 165751, "name": "Isabella Acosta-Rubio" }
+      ]
+    }
+  ]
+}

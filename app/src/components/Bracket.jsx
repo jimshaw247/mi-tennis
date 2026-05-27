@@ -6,6 +6,14 @@ const ROUND_INDEX = Object.fromEntries(ROUND_DEFS.map((r, i) => [r.id, i + 1]))
 // Row span doubles each round. R1 spans 2, R2 spans 4, R3 spans 8, SF spans 16, F spans 32.
 const TOTAL_ROWS = 32
 
+// Score is either an array of sets (TR shape: ["6 - 2", "6 - 3"]) or a
+// pre-formatted string. Render as "6-2, 6-3".
+function formatScore(score) {
+  if (!score) return null
+  const sets = Array.isArray(score) ? score : [score]
+  return sets.map(s => String(s).replace(/\s*-\s*/g, '-')).join(', ')
+}
+
 function matchIdxInRound(matchId) {
   const m = matchId.match(/m(\d+)$/)
   return m ? parseInt(m[1], 10) : 0
@@ -42,7 +50,7 @@ function SideLabel({ entry, empty, highlight, score }) {
         )}
       </span>
       {score && (
-        <span className="text-[13px] text-slate-300 font-mono flex-shrink-0 ml-1">{score}</span>
+        <span className="text-[13px] text-slate-300 font-mono flex-shrink-0 ml-1">{formatScore(score)}</span>
       )}
     </span>
   )
