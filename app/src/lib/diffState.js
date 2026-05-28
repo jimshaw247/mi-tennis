@@ -70,7 +70,7 @@ export function mergeState(scrapedFlights, localFlights) {
       for (const [mid, val] of Object.entries(scraped.winners || {})) {
         const isNew = mergedWinners[mid] !== val
         mergedWinners[mid] = val
-        if (isNew) mergedDecidedAt[mid] = scraped.decidedAt?.[mid] || nowIso
+        if (isNew) mergedDecidedAt[mid] = nowIso
       }
       const mergedScores = { ...(local.scores || {}) }
       for (const [mid, val] of Object.entries(scraped.scores || {})) {
@@ -103,7 +103,7 @@ export function softMergeState(scrapedFlights, localFlights) {
       for (const [mid, val] of Object.entries(scraped.winners || {})) {
         if (mergedWinners[mid] == null) {
           mergedWinners[mid] = val
-          mergedDecidedAt[mid] = scraped.decidedAt?.[mid] || nowIso
+          mergedDecidedAt[mid] = nowIso
         }
       }
       const mergedScores = { ...(local.scores || {}) }

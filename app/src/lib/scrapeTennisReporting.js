@@ -75,7 +75,6 @@ function buildFlight(flightId, bracket, seedList) {
   }))
   const winners = {}
   const scores = {}
-  const decidedAt = {}
 
   // R1 items have position 1..16; teams[0]=top → pos 2*(position-1), teams[1]=bot → +1.
   // Later rounds: 8/4/2/1 items; their winners feed our winners{} map.
@@ -92,7 +91,6 @@ function buildFlight(flightId, bracket, seedList) {
     else if (winSide === 1) winners[matchKey] = 'bot'
 
     if (item.score) scores[matchKey] = item.score
-    if ((winSide === 0 || winSide === 1) && item.date) decidedAt[matchKey] = item.date
 
     // For R1, also populate entries from the team items.
     if (roundId === 'R1') {
@@ -115,7 +113,7 @@ function buildFlight(flightId, bracket, seedList) {
     }
   }
 
-  return { id: flightId, entries, winners, scores, decidedAt }
+  return { id: flightId, entries, winners, scores }
 }
 
 async function fetchFlight(flight, conf) {
