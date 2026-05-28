@@ -61,12 +61,16 @@ export function diffFlights(scrapedFlights, localFlights) {
 // Used by the manual Sync button after the user has previewed and confirmed.
 export function mergeState(scrapedFlights, localFlights) {
   const localById = Object.fromEntries(localFlights.map(f => [f.id, f]))
+  const nowIso = new Date().toISOString()
   return {
     flights: scrapedFlights.map(scraped => {
-      const local = localById[scraped.id] || { entries: [], winners: {}, scores: {} }
+      const local = localById[scraped.id] || { entries: [], winners: {}, scores: {}, decidedAt: {} }
       const mergedWinners = { ...(local.winners || {}) }
+      const mergedDecidedAt = { ...(local.decidedAt || {}) }
       for (const [mid, val] of Object.entries(scraped.winners || {})) {
+        const isNew = mergedWinners[mid] !== val
         mergedWinners[mid] = val
+        if (isNew) mergedDecidedAt[mid] = scraped.decidedAt?.[mid] || nowIso
       }
       const mergedScores = { ...(local.scores || {}) }
       for (const [mid, val] of Object.entries(scraped.scores || {})) {
@@ -77,6 +81,7 @@ export function mergeState(scrapedFlights, localFlights) {
         entries: scraped.entries,
         winners: mergedWinners,
         scores: mergedScores,
+        decidedAt: mergedDecidedAt,
       }
     }),
     meta: { source: 'live' },
@@ -89,12 +94,17 @@ export function mergeState(scrapedFlights, localFlights) {
 // disagrees with a tap they'd have to open the Sync modal to apply the change.
 export function softMergeState(scrapedFlights, localFlights) {
   const localById = Object.fromEntries(localFlights.map(f => [f.id, f]))
+  const nowIso = new Date().toISOString()
   return {
     flights: scrapedFlights.map(scraped => {
-      const local = localById[scraped.id] || { entries: [], winners: {}, scores: {} }
+      const local = localById[scraped.id] || { entries: [], winners: {}, scores: {}, decidedAt: {} }
       const mergedWinners = { ...(local.winners || {}) }
+      const mergedDecidedAt = { ...(local.decidedAt || {}) }
       for (const [mid, val] of Object.entries(scraped.winners || {})) {
-        if (mergedWinners[mid] == null) mergedWinners[mid] = val
+        if (mergedWinners[mid] == null) {
+          mergedWinners[mid] = val
+          mergedDecidedAt[mid] = scraped.decidedAt?.[mid] || nowIso
+        }
       }
       const mergedScores = { ...(local.scores || {}) }
       for (const [mid, val] of Object.entries(scraped.scores || {})) {
@@ -105,6 +115,7 @@ export function softMergeState(scrapedFlights, localFlights) {
         entries: scraped.entries,
         winners: mergedWinners,
         scores: mergedScores,
+        decidedAt: mergedDecidedAt,
       }
     }),
     meta: { source: 'live' },

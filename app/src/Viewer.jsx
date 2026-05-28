@@ -6,6 +6,7 @@ import { pullState, subscribeState, supabaseConfigured } from './lib/sync.js'
 import Bracket from './components/Bracket.jsx'
 import Leaderboard from './components/Leaderboard.jsx'
 import SOSTab from './components/SOSTab.jsx'
+import MatchLog from './components/MatchLog.jsx'
 
 // Read-only viewer. Subscribes to Supabase realtime for live updates.
 // No editing controls. No localStorage write.
@@ -100,7 +101,12 @@ export default function Viewer() {
       </header>
 
       <main className="flex-1 p-3 space-y-4">
-        {tab === 'board' && <Leaderboard flights={state.flights} />}
+        {tab === 'board' && (
+          <>
+            <Leaderboard flights={state.flights} />
+            <MatchLog flights={state.flights} />
+          </>
+        )}
         {tab === 'flights' && flight && (
           <>
             <h2 className="text-lg font-bold">{FLIGHTS.find(f => f.id === activeFlight)?.label}</h2>

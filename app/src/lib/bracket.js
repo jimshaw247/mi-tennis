@@ -56,8 +56,9 @@ export function emptyFlight(id) {
     entries: Array.from({ length: FLIGHT_SIZE }, (_, i) => ({
       pos: i, teamId: null, seed: null, name: '', partner: '',
     })),
-    winners: {}, // matchId -> 'top' | 'bot'
-    scores: {},  // matchId -> "6 - 1 / 6 - 2" (optional display string)
+    winners: {},   // matchId -> 'top' | 'bot'
+    scores: {},    // matchId -> ["6 - 1", "6 - 2"] (raw set strings)
+    decidedAt: {}, // matchId -> ISO timestamp (when the pick was recorded)
   }
 }
 
@@ -153,12 +154,26 @@ function downstream(matchId) {
 }
 
 // Set or clear a user-picked winner. Clears downstream picks since the path
-// may have changed.
-export function setWinner(flight, matchId, sideOrNull) {
-  const next = { ...flight, winners: { ...flight.winners } }
-  if (sideOrNull == null) delete next.winners[matchId]
-  else next.winners[matchId] = sideOrNull
-  for (const d of downstream(matchId)) delete next.winners[d]
+// may have changed. `at` is an optional ISO timestamp — caller usually passes
+// `new Date().toISOString()` for live clicks, or TR's match completion time
+// for scraped picks.
+export function setWinner(flight, matchId, sideOrNull, at = null) {
+  const next = {
+    ...flight,
+    winners: { ...flight.winners },
+    decidedAt: { ...(flight.decidedAt || {}) },
+  }
+  if (sideOrNull == null) {
+    delete next.winners[matchId]
+    delete next.decidedAt[matchId]
+  } else {
+    next.winners[matchId] = sideOrNull
+    next.decidedAt[matchId] = at || new Date().toISOString()
+  }
+  for (const d of downstream(matchId)) {
+    delete next.winners[d]
+    delete next.decidedAt[d]
+  }
   return next
 }
 

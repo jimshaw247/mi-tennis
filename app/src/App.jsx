@@ -12,6 +12,7 @@ import DrawSetup from './components/DrawSetup.jsx'
 import Gate, { isAdmin } from './components/Gate.jsx'
 import SOSTab from './components/SOSTab.jsx'
 import SyncButton from './components/SyncButton.jsx'
+import MatchLog from './components/MatchLog.jsx'
 
 const TABS = [
   { id: 'board', label: 'Board' },
@@ -183,6 +184,7 @@ function AdminApp() {
           <>
             <Leaderboard flights={state.flights} />
             <FlightSummary flights={state.flights} onJump={(id) => { setActiveFlight(id); setTab('flights') }} />
+            <MatchLog flights={state.flights} />
           </>
         )}
 
