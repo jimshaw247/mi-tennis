@@ -125,6 +125,46 @@ function lookupQualifier(map, entry) {
     || null
 }
 
+// Projected path forward: at each future round, look at the bracket subtree
+// on the OTHER side of the match we'd play that round (1, 2, 4, 8, 16 slots
+// for R1..F respectively) and return the alive opponents ordered by rating.
+// Skips rounds Clarkston has already played (won or lost).
+function projectedPath(flight, pos, ratingMap, currentNextRound) {
+  if (!flight || pos < 0) return []
+  const ROUNDS = ['R1', 'R2', 'R3', 'SF', 'F']
+  // Start projection at the round AFTER the current "next" round so we don't
+  // duplicate the immediate-next opponent card.
+  const startIdx = currentNextRound ? ROUNDS.indexOf(currentNextRound) + 1 : 0
+  if (startIdx >= ROUNDS.length) return []
+
+  const out = []
+  for (let rIdx = startIdx; rIdx < ROUNDS.length; rIdx++) {
+    const r = rIdx + 1
+    const subtreeSize = 2 ** (r - 1)
+    const myIdx = Math.floor(pos / subtreeSize)
+    const otherIdx = myIdx ^ 1
+    const start = otherIdx * subtreeSize
+    const end = start + subtreeSize - 1
+
+    const candidates = []
+    for (let p = start; p <= end; p++) {
+      const e = flight.entries[p]
+      if (!e?.teamId) continue
+      if (entryStanding(flight, p).eliminated) continue
+      candidates.push({ pos: p, entry: e, qualifier: lookupQualifier(ratingMap, e) })
+    }
+    candidates.sort((a, b) => {
+      const ar = a.qualifier?.rating, br = b.qualifier?.rating
+      if (ar == null && br == null) return 0
+      if (ar == null) return 1
+      if (br == null) return -1
+      return br - ar
+    })
+    out.push({ round: ROUNDS[rIdx], candidates })
+  }
+  return out
+}
+
 // All bracket entries still alive at this flight, excluding `excludePos`.
 function aliveOpponents(flight, excludePos) {
   if (!flight?.entries) return []
@@ -669,6 +709,48 @@ function ClarkstonView({ data, liveState }) {
                 <span className="font-semibold">Next ({ROUND_LABEL[live.next.round]}):</span> opponent TBD
               </div>
             )}
+
+            {/* Lookahead: strongest possible opponent in each remaining round */}
+            {live && (live.next?.state === 'known' || live.next?.state === 'pending' || live.next?.state === 'r1-bye') && (() => {
+              const ratingMap = buildRatingMap(fdata?.qualifiers)
+              const path = projectedPath(liveFlight, live.ourPos, ratingMap, live.next.round)
+              const usable = path.filter(p => p.candidates.length > 0)
+              if (usable.length === 0) return null
+              return (
+                <div className="mt-2">
+                  <div className="text-[10px] uppercase text-slate-400 font-semibold mb-1">
+                    Projected path (strongest possible opponent each round)
+                  </div>
+                  <div className="rounded border border-slate-800 bg-slate-900/30 divide-y divide-slate-800">
+                    {usable.map(p => {
+                      const top = p.candidates[0]
+                      const oppName = top.qualifier?.name || entryDisplayName(top.entry) || '—'
+                      const oppSchool = top.qualifier?.schoolName || entrySchoolName(top.entry) || ''
+                      const oppRating = top.qualifier?.rating ?? null
+                      const winProb = (f.ours?.rating != null && oppRating != null)
+                        ? 1 / (1 + Math.pow(10, (oppRating - f.ours.rating) / 400)) : null
+                      const probCls = winProb == null ? 'text-slate-400'
+                        : winProb >= 0.6 ? 'text-emerald-300'
+                        : winProb >= 0.4 ? 'text-slate-300'
+                        : 'text-amber-300'
+                      const extra = p.candidates.length - 1
+                      return (
+                        <div key={p.round} className="px-2 py-1.5 text-[11px] flex items-baseline gap-2">
+                          <span className="font-mono text-slate-500 w-7 flex-shrink-0">{p.round}</span>
+                          <span className="flex-1 min-w-0">
+                            <span className="font-medium text-slate-200">{oppName}</span>{' '}
+                            <span className="text-slate-400">({oppSchool})</span>
+                            {oppRating != null && <span className="font-mono text-slate-500 ml-1">· {Math.round(oppRating)}</span>}
+                            {extra > 0 && <span className="text-slate-500 ml-1">· +{extra} other{extra === 1 ? '' : 's'}</span>}
+                          </span>
+                          <span className={`font-mono font-semibold flex-shrink-0 ${probCls}`}>{pct(winProb)}</span>
+                        </div>
+                      )
+                    })}
+                  </div>
+                </div>
+              )
+            })()}
 
             {noLineup && (
               <div className="mt-1 text-[11px] bg-slate-900/40 border border-slate-700 rounded px-2 py-1 text-slate-400">
