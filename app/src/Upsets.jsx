@@ -62,6 +62,22 @@ function winProb(rA, rB) {
 
 function pct(p) { return p == null ? '—' : `${(p * 100).toFixed(0)}%` }
 
+// American sportsbook odds. +200 = underdog, paying $200 on a $100 stake.
+// -200 = favorite, must risk $200 to win $100. Both correspond to the same
+// implied probability as the BT model used. We display the WINNING side's
+// odds: a "+" number means the winner was the underdog.
+function americanOdds(p) {
+  if (p == null) return '—'
+  if (p >= 0.999) return '−∞'
+  if (p <= 0.001) return '+∞'
+  if (p >= 0.5) {
+    const n = Math.round((p / (1 - p)) * 100)
+    return `−${n}`
+  }
+  const n = Math.round(((1 - p) / p) * 100)
+  return `+${n}`
+}
+
 function buildRows(state, sosData) {
   if (!state?.flights || !sosData?.flights) return []
   const rows = []
@@ -82,6 +98,13 @@ function buildRows(state, sosData) {
       const wRating = lookupRating(ratingMap, winEntry)
       const lRating = lookupRating(ratingMap, lossEntry)
       const pWinner = winProb(wRating, lRating)
+      // Classify outcome:
+      //   tossup  - within 5 percentage points of a coin flip; no UPSET tag
+      //   upset   - winner was a meaningful underdog
+      //   chalk   - winner was the meaningful favorite
+      const classification = pWinner == null ? 'unrated'
+        : Math.abs(pWinner - 0.5) < 0.05 ? 'tossup'
+        : pWinner < 0.5 ? 'upset' : 'chalk'
       rows.push({
         key: `${flight.id}-${m.id}`,
         flight: flight.id,
@@ -92,7 +115,8 @@ function buildRows(state, sosData) {
         wRating,
         lRating,
         pWinner,
-        upset: pWinner != null ? pWinner < 0.5 : null,
+        classification,
+        upset: classification === 'upset',
         magnitude: pWinner != null ? 1 - pWinner : null,
         score: flight.scores?.[m.id],
         decidedAt: flight.decidedAt?.[m.id] || null,
@@ -104,12 +128,11 @@ function buildRows(state, sosData) {
 
 function summarize(rows) {
   const rated = rows.filter(r => r.pWinner != null)
-  const upsets = rated.filter(r => r.upset)
-  // Brier score: mean( (1 - P(actual winner))^2 ). 0 = perfect, 0.25 = random.
+  const upsets = rated.filter(r => r.classification === 'upset')
+  const tossups = rated.filter(r => r.classification === 'tossup')
   const brier = rated.length
     ? rated.reduce((s, r) => s + Math.pow(1 - r.pWinner, 2), 0) / rated.length
     : null
-  // Average confidence on correct picks
   const avgPCorrect = rated.length
     ? rated.reduce((s, r) => s + r.pWinner, 0) / rated.length
     : null
@@ -117,6 +140,7 @@ function summarize(rows) {
     total: rows.length,
     rated: rated.length,
     upsets: upsets.length,
+    tossups: tossups.length,
     upsetRate: rated.length ? upsets.length / rated.length : null,
     brier,
     avgPCorrect,
@@ -217,7 +241,7 @@ export default function Upsets() {
               <th className="px-2 py-1.5 text-left">Flight · Round</th>
               <th className="px-2 py-1.5 text-left">Winner (rating)</th>
               <th className="px-2 py-1.5 text-left">Loser (rating)</th>
-              <th className="px-2 py-1.5 text-right">P(winner) pre</th>
+              <th className="px-2 py-1.5 text-right">Pre-match odds (winner)</th>
               <th className="px-2 py-1.5 text-left">Score</th>
             </tr>
           </thead>
@@ -226,7 +250,7 @@ export default function Upsets() {
               <tr><td colSpan="5" className="px-2 py-4 text-center text-slate-500 italic">No decided matches yet.</td></tr>
             )}
             {sortedRows.map(r => (
-              <tr key={r.key} className={r.upset ? 'bg-amber-900/15' : ''}>
+              <tr key={r.key} className={r.classification === 'upset' ? 'bg-amber-900/15' : ''}>
                 <td className="px-2 py-1.5 font-mono text-slate-400 whitespace-nowrap">
                   {r.flight} · {r.round}
                 </td>
@@ -238,13 +262,18 @@ export default function Upsets() {
                   <div className="text-slate-300">{entryLabel(r.lossEntry)}</div>
                   <div className="text-[10px] text-slate-500">{schoolName(r.lossEntry)} · {r.lRating != null ? Math.round(r.lRating) : 'no rating'}</div>
                 </td>
-                <td className="px-2 py-1.5 text-right font-mono">
-                  {r.pWinner == null ? <span className="text-slate-500">—</span> : (
-                    <span className={r.upset ? 'text-amber-300 font-semibold' : 'text-slate-300'}>
-                      {pct(r.pWinner)}
-                    </span>
+                <td className="px-2 py-1.5 text-right font-mono whitespace-nowrap" title={r.pWinner != null ? `${pct(r.pWinner)} implied win probability` : ''}>
+                  {r.classification === 'unrated' ? <span className="text-slate-500">—</span> : (
+                    <>
+                      <span className={
+                        r.classification === 'upset' ? 'text-amber-300 font-semibold'
+                        : r.classification === 'tossup' ? 'text-slate-300'
+                        : 'text-slate-400'
+                      }>{americanOdds(r.pWinner)}</span>
+                      {r.classification === 'upset' && <span className="ml-1.5 text-[9px] uppercase text-amber-400 tracking-wider">Upset</span>}
+                      {r.classification === 'tossup' && <span className="ml-1.5 text-[9px] uppercase text-slate-500 tracking-wider">Toss-up</span>}
+                    </>
                   )}
-                  {r.upset && <span className="ml-1 text-[9px] text-amber-400">UPSET</span>}
                 </td>
                 <td className="px-2 py-1.5 font-mono text-slate-400">{formatScore(r.score)}</td>
               </tr>
@@ -254,10 +283,11 @@ export default function Upsets() {
       </div>
 
       <div className="text-[10px] text-slate-500 leading-relaxed">
-        Bradley-Terry win probability: <code>1 / (1 + 10^((rL - rW) / 400))</code>.
-        Upset = P(winner) was &lt; 50% before the match. Brier score is the mean squared error
-        of P(winner)=1 against the model's prediction; a perfect oracle scores 0,
-        a coin-flip-on-everything scores 0.25.
+        Pre-match odds in American format: <code>+150</code> = winner was the underdog (paying
+        $150 on a $100 bet); <code>−200</code> = winner was the favorite (risking $200 to win $100).
+        Toss-up = winner was within 45–55% pre-match (treated as a coin flip; not flagged as upset).
+        Bradley-Terry win probability: <code>1 / (1 + 10^((rL − rW) / 400))</code>.
+        Brier score: mean squared error of the model's prediction vs the actual binary outcome — 0 perfect, 0.25 random.
       </div>
     </div>
   )
