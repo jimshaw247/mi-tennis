@@ -14,6 +14,16 @@ function formatScore(score) {
   return sets.map(s => String(s).replace(/\s*-\s*/g, '-')).join(', ')
 }
 
+function ordinal(n) {
+  if (n == null) return ''
+  const mod10 = n % 10
+  const mod100 = n % 100
+  if (mod10 === 1 && mod100 !== 11) return `${n}st`
+  if (mod10 === 2 && mod100 !== 12) return `${n}nd`
+  if (mod10 === 3 && mod100 !== 13) return `${n}rd`
+  return `${n}th`
+}
+
 function matchIdxInRound(matchId) {
   const m = matchId.match(/m(\d+)$/)
   return m ? parseInt(m[1], 10) : 0
@@ -85,7 +95,7 @@ function MatchCard({ match, score, note, onPick, readonly }) {
       match.isBye ? 'border-slate-800' : 'border-slate-700'].join(' ')}>
       {(showCourt || showMatchNum) && (
         <div className="px-2 py-0.5 text-[10px] text-slate-400 border-b border-slate-800 bg-slate-950/40 flex items-center gap-2" title={parsed?.raw || ''}>
-          {showCourt && <span className="font-semibold text-blue-300">Court {parsed.court}</span>}
+          {showCourt && <span className="font-semibold text-blue-300">{ordinal(parsed.court)} avail. court</span>}
           {showMatchNum && <span className="font-mono">M#{parsed.matchNum}</span>}
         </div>
       )}
