@@ -87,16 +87,18 @@ function MatchCard({ match, score, note, onPick, readonly }) {
   const isHi = (e) => e?.teamId === HIGHLIGHT_TEAM
   const parsed = parseMatchNote(note)
   const decided = !!match.winner
-  const showCourt = parsed?.court && !decided
-  const showMatchNum = parsed?.matchNum && !decided
+  const showNote = parsed && !decided && (parsed.court || parsed.queueOrder || parsed.matchNum)
 
   return (
     <div className={['w-full rounded-lg border bg-slate-900/60 overflow-hidden',
       match.isBye ? 'border-slate-800' : 'border-slate-700'].join(' ')}>
-      {(showCourt || showMatchNum) && (
-        <div className="px-2 py-0.5 text-[10px] text-slate-400 border-b border-slate-800 bg-slate-950/40 flex items-center gap-2" title={parsed?.raw || ''}>
-          {showCourt && <span className="font-semibold text-blue-300">{ordinal(parsed.court)} avail. court</span>}
-          {showMatchNum && <span className="font-mono">M#{parsed.matchNum}</span>}
+      {showNote && (
+        <div className="px-2 py-0.5 text-[10px] text-slate-400 border-b border-slate-800 bg-slate-950/40 flex items-center gap-2" title={parsed.raw}>
+          {parsed.court != null && <span className="font-semibold text-blue-300">Court {parsed.court}</span>}
+          {parsed.court == null && parsed.queueOrder != null && (
+            <span className="font-semibold text-blue-300">{ordinal(parsed.queueOrder)} avail. court</span>
+          )}
+          {parsed.matchNum != null && <span className="font-mono">M#{parsed.matchNum}</span>}
         </div>
       )}
       {sides.map(s => (
