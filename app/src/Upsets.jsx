@@ -43,9 +43,9 @@ function entryLabel(entry) {
   return entry.partner ? `${entry.name} / ${entry.partner}` : entry.name
 }
 
-function schoolShort(entry) {
+function schoolName(entry) {
   if (!entry?.teamId) return ''
-  return TEAM_BY_ID[entry.teamId]?.short || TEAM_BY_ID[entry.teamId]?.name || entry.teamId
+  return TEAM_BY_ID[entry.teamId]?.name || entry.teamId
 }
 
 function formatScore(score) {
@@ -128,6 +128,7 @@ export default function Upsets() {
   const [sos, setSos] = useState(null)
   const [err, setErr] = useState(null)
   const [sortMode, setSortMode] = useState('biggestUpset')
+  const [clarkstonOnly, setClarkstonOnly] = useState(false)
 
   useEffect(() => {
     fetch('/sos.json').then(r => r.ok ? r.json() : Promise.reject(r.status))
@@ -142,7 +143,10 @@ export default function Upsets() {
     return () => { alive = false; unsub() }
   }, [])
 
-  const rows = useMemo(() => buildRows(state, sos), [state, sos])
+  const allRows = useMemo(() => buildRows(state, sos), [state, sos])
+  const rows = useMemo(() => clarkstonOnly
+    ? allRows.filter(r => r.winEntry?.teamId === 'clarkston' || r.lossEntry?.teamId === 'clarkston')
+    : allRows, [allRows, clarkstonOnly])
   const sortedRows = useMemo(() => {
     const r = [...rows]
     if (sortMode === 'biggestUpset') {
@@ -167,6 +171,9 @@ export default function Upsets() {
   }, [rows, sortMode])
 
   const stats = useMemo(() => summarize(rows), [rows])
+  // Note: stats are computed from the currently-filtered rows so the Brier
+  // / upset numbers reflect the toggle. With Clarkston filter on these are
+  // a tiny sample — interpret accordingly.
 
   if (err) return <div className="p-4 text-sm text-red-300">Error: {err}</div>
   if (!state || !sos) return <div className="p-4 text-sm text-slate-400">Loading…</div>
@@ -189,10 +196,18 @@ export default function Upsets() {
         <Stat label="Brier" value={stats.brier != null ? stats.brier.toFixed(3) : '—'} sub="0 = perfect, 0.25 = random" />
       </div>
 
-      <div className="flex gap-2 text-xs">
+      <div className="flex flex-wrap gap-2 text-xs items-center">
         <SortBtn current={sortMode} val="biggestUpset" set={setSortMode}>Biggest upsets first</SortBtn>
         <SortBtn current={sortMode} val="chrono" set={setSortMode}>Most recent first</SortBtn>
         <SortBtn current={sortMode} val="bracket" set={setSortMode}>Bracket order</SortBtn>
+        <span className="text-slate-600">|</span>
+        <button
+          onClick={() => setClarkstonOnly(v => !v)}
+          className={`px-2 py-1 rounded border ${clarkstonOnly ? 'bg-red-700 border-red-600 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'}`}
+        >
+          {clarkstonOnly ? '✓ Clarkston only' : 'Clarkston only'}
+        </button>
+        <span className="text-[10px] text-slate-500">{rows.length} of {allRows.length} matches</span>
       </div>
 
       <div className="overflow-x-auto rounded border border-slate-800">
@@ -217,11 +232,11 @@ export default function Upsets() {
                 </td>
                 <td className="px-2 py-1.5">
                   <div className="text-slate-100 font-semibold">{entryLabel(r.winEntry)}</div>
-                  <div className="text-[10px] text-slate-400">{schoolShort(r.winEntry)} · {r.wRating != null ? Math.round(r.wRating) : 'no rating'}</div>
+                  <div className="text-[10px] text-slate-400">{schoolName(r.winEntry)} · {r.wRating != null ? Math.round(r.wRating) : 'no rating'}</div>
                 </td>
                 <td className="px-2 py-1.5">
                   <div className="text-slate-300">{entryLabel(r.lossEntry)}</div>
-                  <div className="text-[10px] text-slate-500">{schoolShort(r.lossEntry)} · {r.lRating != null ? Math.round(r.lRating) : 'no rating'}</div>
+                  <div className="text-[10px] text-slate-500">{schoolName(r.lossEntry)} · {r.lRating != null ? Math.round(r.lRating) : 'no rating'}</div>
                 </td>
                 <td className="px-2 py-1.5 text-right font-mono">
                   {r.pWinner == null ? <span className="text-slate-500">—</span> : (
