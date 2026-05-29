@@ -71,6 +71,7 @@ function buildFlight(flightId, bracket, seedList) {
   }))
   const winners = {}
   const scores = {}
+  const notes = {}
   const ROUND_ID = { 1: 'R1', 2: 'R2', 3: 'R3', 4: 'SF', 5: 'F' }
 
   for (const item of items) {
@@ -83,6 +84,7 @@ function buildFlight(flightId, bracket, seedList) {
     if (winSide === 0) winners[matchKey] = 'top'
     else if (winSide === 1) winners[matchKey] = 'bot'
     if (item.score) scores[matchKey] = item.score
+    if (item.note) notes[matchKey] = item.note
 
     if (roundId === 'R1') {
       for (let s = 0; s < 2; s++) {
@@ -102,7 +104,7 @@ function buildFlight(flightId, bracket, seedList) {
       }
     }
   }
-  return { id: flightId, entries, winners, scores }
+  return { id: flightId, entries, winners, scores, notes }
 }
 
 async function fetchFlight(flightId, conf) {
@@ -140,12 +142,17 @@ function hardMerge(scrapedFlights, localState) {
       for (const [mid, val] of Object.entries(scraped.scores || {})) {
         mergedScores[mid] = val
       }
+      const mergedNotes = { ...(local.notes || {}) }
+      for (const [mid, val] of Object.entries(scraped.notes || {})) {
+        mergedNotes[mid] = val
+      }
       return {
         id: scraped.id,
         entries: scraped.entries,
         winners: mergedWinners,
         scores: mergedScores,
         decidedAt: mergedDecidedAt,
+        notes: mergedNotes,
       }
     }),
     meta: { source: 'live' },

@@ -1,4 +1,4 @@
-import { describeMatches, setWinner, ROUND_DEFS } from '../lib/bracket.js'
+import { describeMatches, setWinner, ROUND_DEFS, parseMatchNote } from '../lib/bracket.js'
 import { TEAM_BY_ID, HIGHLIGHT_TEAM } from '../data/teams.js'
 
 // Round id -> 1-based column number. R1=1, R2=2, R3=3, SF=4, F=5.
@@ -56,7 +56,7 @@ function SideLabel({ entry, empty, highlight, score }) {
   )
 }
 
-function MatchCard({ match, score, onPick, readonly }) {
+function MatchCard({ match, score, note, onPick, readonly }) {
   if (match.topEmpty && match.botEmpty) {
     return (
       <div className="w-full rounded border border-dashed border-slate-800/70 px-2 py-1 text-[10px] italic text-slate-700 text-center">
@@ -75,10 +75,20 @@ function MatchCard({ match, score, onPick, readonly }) {
 
   const clickable = !readonly && !match.isBye
   const isHi = (e) => e?.teamId === HIGHLIGHT_TEAM
+  const parsed = parseMatchNote(note)
+  const decided = !!match.winner
+  const showCourt = parsed?.court && !decided
+  const showMatchNum = parsed?.matchNum && !decided
 
   return (
     <div className={['w-full rounded-lg border bg-slate-900/60 overflow-hidden',
       match.isBye ? 'border-slate-800' : 'border-slate-700'].join(' ')}>
+      {(showCourt || showMatchNum) && (
+        <div className="px-2 py-0.5 text-[10px] text-slate-400 border-b border-slate-800 bg-slate-950/40 flex items-center gap-2" title={parsed?.raw || ''}>
+          {showCourt && <span className="font-semibold text-blue-300">Court {parsed.court}</span>}
+          {showMatchNum && <span className="font-mono">M#{parsed.matchNum}</span>}
+        </div>
+      )}
       {sides.map(s => (
         <button
           key={s.side}
@@ -129,7 +139,7 @@ export default function Bracket({ flight, onUpdate, readonly }) {
             if (!pos) return null
             return (
               <div key={m.id} style={{ ...pos, display: 'flex', alignItems: 'center' }}>
-                <MatchCard match={m} score={flight.scores?.[m.id]} onPick={pick} readonly={readonly} />
+                <MatchCard match={m} score={flight.scores?.[m.id]} note={flight.notes?.[m.id]} onPick={pick} readonly={readonly} />
               </div>
             )
           })}
