@@ -74,9 +74,21 @@ const ORDINAL_WORDS = {
 export function parseMatchNote(note) {
   if (!note) return null
   const matchNum = note.match(/Match\s*#?(\d+)/i)?.[1] || null
-  const ordinalWord = note.toLowerCase().match(/(\w+)\s+available\s+court/)?.[1]
-  const courtNum = ordinalWord ? ORDINAL_WORDS[ordinalWord] || null : null
-  return { matchNum: matchNum ? Number(matchNum) : null, court: courtNum, raw: note }
+  // Two TR formats observed:
+  //   "Court 12"                  → explicit physical court assignment
+  //   "fifth available court"     → rotation order (Nth match to start as a
+  //                                 court frees up). "next available" maps to 1.
+  const explicitCourt = note.match(/Court\s+(\d+)\b/i)?.[1] || null
+  const queueWord = note.toLowerCase().match(/(\w+)\s+available\s+court/)?.[1]
+  const queueOrder = queueWord
+    ? (queueWord === 'next' ? 1 : (ORDINAL_WORDS[queueWord] || /^\d+$/.test(queueWord) ? Number(queueWord) : null))
+    : null
+  return {
+    matchNum: matchNum ? Number(matchNum) : null,
+    court: explicitCourt ? Number(explicitCourt) : null,
+    queueOrder,
+    raw: note,
+  }
 }
 
 // Resolve which entry "is on" this side of a match. Returns:
