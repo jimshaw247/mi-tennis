@@ -76,12 +76,17 @@ export function mergeState(scrapedFlights, localFlights) {
       for (const [mid, val] of Object.entries(scraped.scores || {})) {
         mergedScores[mid] = val
       }
+      const mergedNotes = { ...(local.notes || {}) }
+      for (const [mid, val] of Object.entries(scraped.notes || {})) {
+        mergedNotes[mid] = val
+      }
       return {
         id: scraped.id,
         entries: scraped.entries,
         winners: mergedWinners,
         scores: mergedScores,
         decidedAt: mergedDecidedAt,
+        notes: mergedNotes,
       }
     }),
     meta: { source: 'live' },
@@ -110,12 +115,20 @@ export function softMergeState(scrapedFlights, localFlights) {
       for (const [mid, val] of Object.entries(scraped.scores || {})) {
         if (mergedScores[mid] == null) mergedScores[mid] = val
       }
+      // Notes (court assignments) always adopt the latest — TR sometimes
+      // shuffles court assignments between scrapes, and we want to show
+      // the current plan, not yesterday's.
+      const mergedNotes = { ...(local.notes || {}) }
+      for (const [mid, val] of Object.entries(scraped.notes || {})) {
+        mergedNotes[mid] = val
+      }
       return {
         id: scraped.id,
         entries: scraped.entries,
         winners: mergedWinners,
         scores: mergedScores,
         decidedAt: mergedDecidedAt,
+        notes: mergedNotes,
       }
     }),
     meta: { source: 'live' },
