@@ -59,24 +59,7 @@ export function emptyFlight(id) {
     winners: {},   // matchId -> 'top' | 'bot'
     scores: {},    // matchId -> ["6 - 1", "6 - 2"] (raw set strings)
     decidedAt: {}, // matchId -> ISO timestamp (when the pick was recorded)
-    notes: {},     // matchId -> "Match #50 fifth available court" (raw TR note)
   }
-}
-
-// Parse a TR-style note like "Match #50 fifth available court" → useful
-// pieces for display: { matchNum, court } where court is the integer ordinal
-// or null if not assigned. Leaves the raw string available for tooltips.
-const ORDINAL_WORDS = {
-  first: 1, second: 2, third: 3, fourth: 4, fifth: 5, sixth: 6, seventh: 7,
-  eighth: 8, ninth: 9, tenth: 10, eleventh: 11, twelfth: 12, thirteenth: 13,
-  fourteenth: 14, fifteenth: 15, sixteenth: 16,
-}
-export function parseMatchNote(note) {
-  if (!note) return null
-  const matchNum = note.match(/Match\s*#?(\d+)/i)?.[1] || null
-  const ordinalWord = note.toLowerCase().match(/(\w+)\s+available\s+court/)?.[1]
-  const courtNum = ordinalWord ? ORDINAL_WORDS[ordinalWord] || null : null
-  return { matchNum: matchNum ? Number(matchNum) : null, court: courtNum, raw: note }
 }
 
 // Resolve which entry "is on" this side of a match. Returns:
