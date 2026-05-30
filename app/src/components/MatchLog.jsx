@@ -24,14 +24,15 @@ function formatTimestamp(iso) {
   if (!iso) return ''
   const d = new Date(iso)
   if (Number.isNaN(d.getTime())) return ''
-  const today = new Date()
-  const sameDay =
-    d.getFullYear() === today.getFullYear() &&
-    d.getMonth() === today.getMonth() &&
-    d.getDate() === today.getDate()
-  const time = d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' })
-  if (sameDay) return time
-  return `${d.getMonth() + 1}/${d.getDate()} ${time}`
+  // Always show date so the row identifies itself unambiguously, especially
+  // when the log spans multiple days. Compact: "5/30 8:42a" / "5/29 12:07p".
+  const date = `${d.getMonth() + 1}/${d.getDate()}`
+  let h = d.getHours()
+  const ampm = h >= 12 ? 'p' : 'a'
+  if (h === 0) h = 12
+  else if (h > 12) h -= 12
+  const m = String(d.getMinutes()).padStart(2, '0')
+  return `${date} ${h}:${m}${ampm}`
 }
 
 // Build the log: walk every flight, every decided match, project the winner +
@@ -97,7 +98,11 @@ export default function MatchLog({ flights }) {
             <span className="font-mono text-slate-500 text-[10px] pt-0.5 w-12 flex-shrink-0">
               {FLIGHT_LABEL[r.flightId] || r.flightId} {r.round}
             </span>
-            <span className="font-mono text-[10px] text-slate-500 flex-shrink-0 pt-0.5 whitespace-nowrap min-w-[3.5rem]" title={r.at || 'no timestamp'}>
+            <span
+              className="font-mono text-[10px] text-slate-500 pt-0.5 whitespace-nowrap"
+              style={{ flex: '0 0 auto' }}
+              title={r.at || 'no timestamp'}
+            >
               {formatTimestamp(r.at) || '—'}
             </span>
             <span className="flex-1 min-w-0 leading-snug">
