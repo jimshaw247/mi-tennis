@@ -52,7 +52,20 @@ export function leaderboard(flights) {
   for (const r of rows) {
     r.clinchedTop3 = r.worstRank <= 3
     r.eliminatedTop3 = r.bestRank > 3
-    r.clinchedFirst = r.worstRank === 1
+    // Per the 2025-26 MHSAA Tennis PSTI, there is no numerical tiebreak: tied
+    // teams share co-champion status and both receive trophies. So "Champ"
+    // must mean SOLE first — no other team can match OR exceed the current
+    // point total. worstRank === 1 isn't enough because the rank calc treats
+    // a possible tie as "still #1."
+    r.clinchedSoleFirst = !rows.some(
+      o => o.team.id !== r.team.id && o.maxPossible >= r.points
+    )
+    // True when the team has clinched at least a share of first (no team can
+    // exceed them, but a tie is still mathematically possible).
+    r.clinchedShareOfFirst = r.worstRank === 1
+    // Back-compat alias — kept pointing at the conservative "sole" semantic
+    // so existing UI doesn't crown teams prematurely.
+    r.clinchedFirst = r.clinchedSoleFirst
     r.eliminatedAll = r.maxPossible === 0 && r.points === 0
   }
 

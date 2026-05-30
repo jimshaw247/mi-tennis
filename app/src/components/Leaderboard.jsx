@@ -39,8 +39,9 @@ export default function Leaderboard({ flights, compact = false }) {
                 {!compact && (
                   <div className="text-[10px] text-slate-400 flex gap-1 flex-wrap mt-0.5">
                     <span>finish {r.bestRank === r.worstRank ? `#${r.bestRank}` : `#${r.bestRank}–#${r.worstRank}`}</span>
-                    {r.clinchedFirst && <Badge color="#fde047">Champ ✓</Badge>}
-                    {!r.clinchedFirst && r.clinchedTop3 && <Badge color="#10b981">Top 3 ✓</Badge>}
+                    {r.clinchedSoleFirst && <Badge color="#fde047">Champ ✓</Badge>}
+                    {!r.clinchedSoleFirst && r.clinchedShareOfFirst && <Badge color="#fde047">Co-Champ possible</Badge>}
+                    {!r.clinchedShareOfFirst && r.clinchedTop3 && <Badge color="#10b981">Top 3 ✓</Badge>}
                   </div>
                 )}
               </div>
