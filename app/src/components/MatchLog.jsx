@@ -97,7 +97,7 @@ export default function MatchLog({ flights }) {
             <span className="font-mono text-slate-500 text-[10px] pt-0.5 w-12 flex-shrink-0">
               {FLIGHT_LABEL[r.flightId] || r.flightId} {r.round}
             </span>
-            <span className="font-mono text-[10px] text-slate-500 flex-shrink-0 pt-0.5 w-16" title={r.at || 'no timestamp'}>
+            <span className="font-mono text-[10px] text-slate-500 flex-shrink-0 pt-0.5 whitespace-nowrap min-w-[3.5rem]" title={r.at || 'no timestamp'}>
               {formatTimestamp(r.at) || '—'}
             </span>
             <span className="flex-1 min-w-0 leading-snug">
