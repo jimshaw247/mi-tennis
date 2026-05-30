@@ -10,7 +10,7 @@ function entryLabel(entry) {
   const player = entry.name?.trim()
     ? (entry.partner?.trim() ? `${entry.name} / ${entry.partner}` : entry.name)
     : null
-  const school = team?.short || team?.name || entry.teamId
+  const school = team?.name || entry.teamId
   return { player, school, color: team?.color, teamId: entry.teamId }
 }
 
@@ -97,6 +97,9 @@ export default function MatchLog({ flights }) {
             <span className="font-mono text-slate-500 text-[10px] pt-0.5 w-12 flex-shrink-0">
               {FLIGHT_LABEL[r.flightId] || r.flightId} {r.round}
             </span>
+            <span className="font-mono text-[10px] text-slate-500 flex-shrink-0 pt-0.5 w-16" title={r.at || 'no timestamp'}>
+              {formatTimestamp(r.at) || '—'}
+            </span>
             <span className="flex-1 min-w-0 leading-snug">
               <span className="inline-flex items-center gap-1.5">
                 {r.winner.color && (
@@ -120,9 +123,6 @@ export default function MatchLog({ flights }) {
               {r.score && (
                 <span className="ml-1.5 font-mono text-slate-400">{formatScore(r.score)}</span>
               )}
-            </span>
-            <span className="text-[10px] text-slate-500 font-mono flex-shrink-0 pt-0.5" title={r.at || 'no timestamp'}>
-              {formatTimestamp(r.at) || '—'}
             </span>
           </li>
         ))}
