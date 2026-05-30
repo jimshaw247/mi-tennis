@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { FLIGHTS } from './data/teams.js'
-import { DIVISIONS, DIVISION_BY_ID, readDivisionFromUrl, writeDivisionToUrl } from './data/divisions.js'
+import { DIVISIONS, DIVISION_BY_ID, readDivisionFromUrl, writeDivisionToUrl, isDay2 } from './data/divisions.js'
 import { defaultState, normalizeMeta } from './lib/storage.js'
 import { pullState, subscribeState, supabaseConfigured } from './lib/sync.js'
 import Bracket from './components/Bracket.jsx'
@@ -17,6 +17,8 @@ export default function Viewer() {
   const [updatedAt, setUpdatedAt] = useState(null)
   const [activeFlight, setActiveFlight] = useState('1S')
   const [status, setStatus] = useState(supabaseConfigured ? 'loading' : 'no-backend')
+  const [day2View, setDay2View] = useState(() => isDay2(division))
+  useEffect(() => { setDay2View(isDay2(division)) }, [divisionId])
 
   useEffect(() => { writeDivisionToUrl(divisionId) }, [divisionId])
 
@@ -109,8 +111,16 @@ export default function Viewer() {
         )}
         {tab === 'flights' && flight && (
           <>
-            <h2 className="text-lg font-bold">{FLIGHTS.find(f => f.id === activeFlight)?.label}</h2>
-            <Bracket flight={flight} readonly />
+            <div className="flex items-center justify-between gap-2">
+              <h2 className="text-lg font-bold">{FLIGHTS.find(f => f.id === activeFlight)?.label}</h2>
+              <button
+                onClick={() => setDay2View(v => !v)}
+                className={['text-xs px-2 py-1 rounded border',
+                  day2View ? 'bg-blue-600 border-blue-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'].join(' ')}
+                title="Toggle between full bracket and SF/F only"
+              >{day2View ? 'Full bracket' : 'Day 2 only'}</button>
+            </div>
+            <Bracket flight={flight} readonly day2Only={day2View} />
             <Leaderboard flights={state.flights} compact />
           </>
         )}

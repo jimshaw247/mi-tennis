@@ -118,9 +118,38 @@ function MatchCard({ match, score, note, onPick, readonly }) {
   )
 }
 
-export default function Bracket({ flight, onUpdate, readonly }) {
+export default function Bracket({ flight, onUpdate, readonly, day2Only = false }) {
   const matches = describeMatches(flight)
   const pick = (id, side) => onUpdate && onUpdate(setWinner(flight, id, side))
+
+  // Day-2 view: just the two SFs stacked on the left and the F centered on
+  // the right. Skips the full 32-row bracket grid — fits on a phone, shows
+  // only the matches that haven't happened yet on the closing day.
+  if (day2Only) {
+    const sfs = matches.filter(m => m.round === 'SF')
+    const finalM = matches.find(m => m.round === 'F')
+    return (
+      <div className="border border-slate-800 rounded-lg bg-slate-950">
+        <div className="grid grid-cols-2 gap-x-2 border-b border-slate-800 px-2 bg-slate-950">
+          <div className="py-2 text-[11px] uppercase text-slate-300 font-semibold tracking-wider">Semifinals</div>
+          <div className="py-2 text-[11px] uppercase text-slate-300 font-semibold tracking-wider">Championship</div>
+        </div>
+        <div className="grid grid-cols-2 gap-x-2 gap-y-2 px-2 py-2 items-center">
+          <div className="space-y-2">
+            {sfs.map(m => (
+              <MatchCard key={m.id} match={m} score={flight.scores?.[m.id]} note={flight.notes?.[m.id]} onPick={pick} readonly={readonly} />
+            ))}
+          </div>
+          <div>
+            {finalM && (
+              <MatchCard match={finalM} score={flight.scores?.[finalM.id]} note={flight.notes?.[finalM.id]} onPick={pick} readonly={readonly} />
+            )}
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   const colCount = ROUND_DEFS.length
   const colTemplate = `repeat(${colCount}, minmax(180px, 1fr))`
 

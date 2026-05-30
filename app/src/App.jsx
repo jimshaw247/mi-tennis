@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo, useRef } from 'react'
 import { FLIGHTS } from './data/teams.js'
-import { DIVISIONS, DIVISION_BY_ID, readDivisionFromUrl, writeDivisionToUrl } from './data/divisions.js'
+import { DIVISIONS, DIVISION_BY_ID, readDivisionFromUrl, writeDivisionToUrl, isDay2 } from './data/divisions.js'
 import { FLIGHT_SIZE, MATCH_DEFS } from './lib/bracket.js'
 import { loadState, saveState, defaultState, normalizeMeta } from './lib/storage.js'
 import { generateTestA, generateTestB } from './lib/testData.js'
@@ -40,6 +40,11 @@ function AdminApp() {
   useEffect(() => { try { localStorage.setItem('mitennis-admin-tab', tab) } catch {} }, [tab])
   const [activeFlight, setActiveFlight] = useState('1S')
   const [setupOpen, setSetupOpen] = useState(false)
+  // Day-2 toggle: when on, the Bracket renders only SF + F (compact view for
+  // mobile on the closing day). Defaults to ON once the division's day-2
+  // date has arrived. Re-evaluates when the division changes.
+  const [day2View, setDay2View] = useState(() => isDay2(division))
+  useEffect(() => { setDay2View(isDay2(division)) }, [divisionId])
   const [syncStatus, setSyncStatus] = useState(supabaseConfigured ? 'loading' : 'offline')
 
   // Persist division choice in the URL hash so reloads + sharing work.
@@ -190,21 +195,29 @@ function AdminApp() {
 
         {tab === 'flights' && flight && (
           <>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between gap-2">
               <h2 className="text-lg font-bold">
                 {FLIGHTS.find(f => f.id === activeFlight)?.label}
               </h2>
-              <button
-                onClick={() => setSetupOpen(o => !o)}
-                className="text-xs px-2 py-1 rounded bg-slate-800 border border-slate-700"
-              >{setupOpen ? 'Hide draw' : 'Edit draw'}</button>
+              <div className="flex gap-1.5">
+                <button
+                  onClick={() => setDay2View(v => !v)}
+                  className={['text-xs px-2 py-1 rounded border',
+                    day2View ? 'bg-blue-600 border-blue-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'].join(' ')}
+                  title="Toggle between full bracket and SF/F only"
+                >{day2View ? 'Full bracket' : 'Day 2 only'}</button>
+                <button
+                  onClick={() => setSetupOpen(o => !o)}
+                  className="text-xs px-2 py-1 rounded bg-slate-800 border border-slate-700"
+                >{setupOpen ? 'Hide draw' : 'Edit draw'}</button>
+              </div>
             </div>
             {setupOpen && (
               <div className="rounded-xl border border-slate-700 p-3 bg-slate-900/40">
                 <DrawSetup flight={flight} onUpdate={updateFlight} />
               </div>
             )}
-            <Bracket flight={flight} onUpdate={updateFlight} />
+            <Bracket flight={flight} onUpdate={updateFlight} day2Only={day2View} />
             <Leaderboard flights={state.flights} compact />
           </>
         )}
